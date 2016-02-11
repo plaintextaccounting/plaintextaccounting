@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Plain Text Accounting, a guide to Ledger and friends</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+<!-- CSS: http://getskeleton.com -->
+<!-- markdown: http://pandoc.org/README.html -->
+<div class="row" style="padding-top: 15%">
+<h1 style="text-align:center; margin-bottom:5%;">
+Plain Text Accounting
+</h1>
+<div class="three columns">
+<h3 id="concepts">concepts</h3>
+<p>accounting and double-entry bookkeeping</p>
+<p>Ledger and the Ledger-likes</p>
+</div>
+<div class="five columns">
+<h3 id="characteristics">characteristics</h3>
+<p>plain text data format</p>
+<p>signed numbers instead of debit and credit <!--
+Business transactions are events that have a monetary impact on the
+financial statements of an organization. When accounting for these
+transactions, we record numbers in two accounts, where the debit
+column is on the left and the credit column is on the right.
+
+A debit is an accounting entry that either increases an asset or
+expense account, or decreases a liability or equity account. It is
+positioned to the left in an accounting entry.
+
+A credit is an accounting entry that either increases a liability or
+equity account, or decreases an asset or expense account.
+
+--[Debits and Credits](http://www.accountingtools.com/debits-and-credits)
+http://www.accountingcoach.com/debits-and-credits/explanation
+--></p>
+<p>free-form account hierarchy</p>
+<p>functional operation</p>
+<p>command-line scriptable</p>
+</div>
+<div class="three columns">
+<h3 id="why">why ?</h3>
+<p>why we exist</p>
+<p>who are we for</p>
+<p>alternatives</p>
+</div>
+</div>
+<div class="row">
+<div class="seven columns">
+<h3 id="ledger-likes">Ledger-likes</h3>
+<!-- http://pandoc.org/README.html#tables -->
+<table>
+<tbody>
+<tr class="odd">
+<td align="left"><a href="http://ledger-cli.org">Ledger</a></td>
+<td align="left">the original. C++ <!-- Very fast, advanced features. --></td>
+<td align="left"><a href="https://www.openhub.net/p/ledger">openhub</a></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://hledger.org">hledger</a></td>
+<td align="left">Haskell <!-- Easy to use, multi-column reports, multiple UIs. --></td>
+<td align="left"><a href="https://www.openhub.net/p/hledger">openhub</a></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://furius.ca/beancount">Beancount</a></td>
+<td align="left">Python <!-- Accounting correctness aids, extensible. --></td>
+<td align="left"><a href="https://www.openhub.net/p/beancount">openhub</a></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://github.com/hrj/abandon">Abandon</a></td>
+<td align="left">Scala</td>
+<td align="left"><a href="https://www.openhub.net/p/abandon">openhub</a></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://github.com/howeyc/ledger">Ledger in Go</a></td>
+<td align="left">Go</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<!-- | Inactive:                                         | | | -->
+<!-- | [cl-ledger](https://github.com/ledger/cl-ledger)  | Common Lisp | | -->
+<!-- | [ledger.pl](https://github.com/dimonf/ledger.pl)  | Perl | | -->
+<!-- | [penny](https://github.com/massysett/penny)       | Haskell | | -->
+<!-- | [UMM](http://hackage.haskell.org/package/UMM)     | Haskell | | -->
+<p>Inactive:</p>
+<ul>
+<li><a href="https://github.com/ledger/cl-ledger">cl-ledger</a> Common Lisp</li>
+<li><a href="https://github.com/dimonf/ledger.pl">ledger.pl</a> Perl</li>
+<li><a href="https://github.com/massysett/penny">penny</a> Haskell</li>
+<li><a href="http://hackage.haskell.org/package/UMM">UMM</a> Haskell</li>
+</ul>
+<!-- [compare](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
+<h3 id="related-tools">related tools</h3>
+<ul>
+<li><a href="https://github.com/aumayr/beancount-web">fava</a> web UI for browsing beancount data</li>
+<li><a href="https://github.com/simonmichael/hledger/tree/master/hledger-api">hledger-api</a> JSON API for *ledger data, can also serve static files</li>
+<li><a href="http://hackage.haskell.org/package/hledger-diff">hledger-diff</a> report differing transactions between two journals</li>
+<li><a href="https://github.com/hpdeifel/hledger-iadd">hledger-iadd</a> curses UI for data entry</li>
+<li><a href="http://hackage.haskell.org/package/hledger-interest">hledger-interest</a> generate *ledger interest transactions</li>
+<li><a href="http://hackage.haskell.org/package/hledger-irr">hledger-irr</a> calculate an account's internal rate of return over time</li>
+<li><a href="http://hackage.haskell.org/package/hledger-ui">hledger-ui</a> curses UI for browsing</li>
+<li><a href="http://hackage.haskell.org/package/hledger-web">hledger-web</a> web UI for browsing and data entry</li>
+<li><a href="https://launchpad.net/csv2ledger">icsvledger</a> CSV to journal converter</li>
+<li><a href="https://gitlab.com/egh/ledger-autosync">ledger-autosync</a> convert OFX to journal, deduplication, bank download</li>
+<li><a href="https://github.com/Ikke/ledger-dashboard">ledger-dashboard</a> web UI for browsing</li>
+<li><a href="https://github.com/slashdotdash/node-ledger-web">ledger-web</a> web UI for browsing</li>
+<li><a href="https://github.com/Rudd-O/ledgerhelpers">ledgerhelpers</a> GUI tools and python library front end for Ledger</li>
+<li><a href="https://github.com/cantino/reckon">reckon</a> smart interactive/non-interactive CSV to journal converter</li>
+<li>sandstorm.io web app hosting, eg for <a href="https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90">hledger-web</a></li>
+<li><a href="http://taskwarrior.org">taskwarrior</a> todo list manager, some *ledger integration for time reporting</li>
+<li><a href="https://github.com/MatthiasKauer/tim">tim</a> time tracking tool using hledger for reports</li>
+</ul>
+</div>
+<div class="five columns u-pull-right">
+<h3 id="docs">docs</h3>
+<ul>
+<li><a href="http://ledger-cli.org/docs.html">Ledger manuals</a></li>
+<li><a href="https://github.com/ledger/ledger/wiki">Ledger wiki</a></li>
+<li><a href="https://github.com/rolfschr/GSWL-book">Getting Started With Ledger book</a></li>
+<li><a href="http://hledger.org">hledger's more docs</a></li>
+<li><a href="http://furius.ca/beancount/doc/index">Beancount docs</a> <!-- - [Abandon wiki](https://github.com/hrj/abandon/wiki) --></li>
+</ul>
+<h3 id="discussion">discussion</h3>
+<h3 id="common-tasks">common tasks</h3>
+<h4 id="data-entry">data entry</h4>
+<h4 id="reconciling">reconciling</h4>
+<h4 id="reporting">reporting</h4>
+<h4 id="forecasting">forecasting</h4>
+<h4 id="budgetting">budgetting</h4>
+<h4 id="shared-expenses">shared expenses</h4>
+<h4 id="section"></h4>
+<h4 id="section-1"></h4>
+</div>
+</div>
+<div class="row" style="text-align:center;">
+<hr>
+Send updates via the <a href="https://github.com/simonmichael/plaintextaccounting">github repo</a> or <a href="https://oasis.sandstorm.io/shared/UAYLwagGI0a2pIMg9Hhv74K04nbuxanXiS5ZtBV6NF-">notes page</a>
+</div>
+
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
