@@ -103,6 +103,7 @@ Inactive:
 - [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing
 - [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) GUI tools and python library front end for Ledger
+- [org2tc](https://github.com/jwiegley/org2tc) org to timeclock converter
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to journal converter
 - sandstorm.io web app hosting, eg for [hledger-web](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90)
 - [taskwarrior](http://taskwarrior.org) todo list manager, some *ledger integration for time reporting
@@ -136,7 +137,9 @@ Inactive:
 
 #### shared expenses
 
-#### 
+#### time tracking
+
+- <https://github.com/anarcat/ledger-timetracking> on integrating timelog and journal
 
 #### 
 
