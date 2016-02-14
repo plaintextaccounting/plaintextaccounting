@@ -1,3 +1,21 @@
-
 The plaintextaccounting.org website.
 An informative portal for Ledger, hledger, beancount, and the other ledger-likes.
+
+Contributing
+------------
+
+Several ways to contribute changes:
+
+A. drop link suggestions etc. on the etherpad linked in the site footer
+B. fork the github repo linked in the footer, submit a pull request
+C. regular contributors can request commit access
+
+Before committing, rebuild the HTML:
+
+$ make
+
+and include it in your commit.
+
+To run make on each change, install fswatch and:
+
+$ make watch
