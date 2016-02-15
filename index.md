@@ -5,9 +5,9 @@
 
 <h1 style="text-align:center; margin-bottom:5%;">Plain Text Accounting</h1>
 
-<div class="three columns">
+<div class="four columns">
 
-### accounting..
+### accounting
 
 **accounting** is tracking the flow of valuable commodities, such as money or time.
 It clarifies activity, priorities, obligations, opportunities.
@@ -27,11 +27,11 @@ accounts, or decreases to liability or equity accounts) or **credits**
 equity accounts).
 
 </div>
-<div class="five columns">
+<div class="four columns">
 
-### with Ledger-likes
+### ..with text
 
-**Ledger** and the other **Ledger-likes** which followed it are minimalist software tools for efficient double-entry accounting.
+**Ledger** and the other **Ledger-likes** inspired by it are minimalist software tools for efficient double-entry accounting.
 This site introduces them and their way of doing things.
 
 Accounting data is valuable;
@@ -40,7 +40,7 @@ We want to know when it changes, and revision-control it.
 We want to search and manipulate it efficiently.
 So, we store it as human-readable **plain text**.
 
-We simplify by using **signed numbers** instead of debits and credits -
+We simplify debits and credits by using **signed numbers** instead -
 positive for inflows to an account, negative for outflows from an account.
 
 We define arbitrary **account hierarchy** to suit our needs.
