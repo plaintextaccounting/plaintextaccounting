@@ -64,7 +64,7 @@ at least for now.
 If you need a rich GUI and lots of structure, you may prefer a more traditional GUI tool.
 
 **what are the alternatives&nbsp;?**\
-GNUCash or other FOSS tools, proprietary tools like Quicken/Quickbooks, online tools like Xero, spreadsheets, paper accounting.
+GNUCash, Grisbi, KMyMoney or other FOSS tools, proprietary tools like Quicken/Quickbooks, online tools like Xero, spreadsheets, paper accounting.
 
 **why is this better than QuickBooks&nbsp;?**\
 Your data remains accessible.
@@ -99,49 +99,59 @@ Fill out and submit tax forms with another tool, or by hand.
 ### Ledger-likes
 
 <!-- http://pandoc.org/README.html#tables -->
-| | |
-|---------------------------------------------------|----------------------------------------------------------|-|
-| [Ledger](http://ledger-cli.org)                   | [C++](https://www.openhub.net/p/ledger). The original. <!-- Very fast, advanced features. --> | |
-| [hledger](http://hledger.org)                     | [Haskell](https://www.openhub.net/p/hledger) <!-- Easy to use, multi-column reports, multiple UIs. --> |  |
-| [Beancount](http://furius.ca/beancount)           | [Python](https://www.openhub.net/p/beancount) <!-- Accounting correctness aids, extensible. --> |  |
-| [Abandon](https://github.com/hrj/abandon)         | [Scala](https://www.openhub.net/p/abandon) |  |
-| [Ledger in Go](https://github.com/howeyc/ledger)  | Go | |
+|
+|------------------------------------------|-------------------------------------------------------------|---:|---:|
+|                                          | Code                                                        | Committers | IRC chan. size | 
+| [Ledger](http://ledger-cli.org)          | [C++](https://github.com/ledger/ledger) ([openhub](https://www.openhub.net/p/ledger)) | 101 | 70 |
+| [hledger](http://hledger.org)            | [Haskell](http://code.hledger.org) ([openhub](https://www.openhub.net/p/hledger))  | 30 | 20 |
+| [Beancount](http://furius.ca/beancount)  | [Python](http://bitbucket.org/blais/beancount/) ([openhub](https://www.openhub.net/p/beancount)) | 8 | |
+| Abandon                                  | [Scala](https://github.com/hrj/abandon) ([openhub](https://www.openhub.net/p/abandon)) | 5 | |
+| Ledger&nbsp;in&nbsp;Go                   | [Go](https://github.com/howeyc/ledger)                      | 2 | |
 
-<!-- | Inactive:                                         | | | -->
-<!-- | [cl-ledger](https://github.com/ledger/cl-ledger)  | Common Lisp | | -->
-<!-- | [ledger.pl](https://github.com/dimonf/ledger.pl)  | Perl | | -->
-<!-- | [penny](https://github.com/massysett/penny)       | Haskell | | -->
-<!-- | [UMM](http://hackage.haskell.org/package/UMM)     | Haskell | | -->
-
-Inactive:
-
-- [cl-ledger](https://github.com/ledger/cl-ledger)&nbsp;Common Lisp
-- [ledger.pl](https://github.com/dimonf/ledger.pl)&nbsp;Perl
-- [penny](https://github.com/massysett/penny)&nbsp;Haskell
-- [UMM](http://hackage.haskell.org/package/UMM)&nbsp;Haskell
+| Inactive:
+|-----------|-----------------------------------------------------
+| cl-ledger | [Common Lisp](https://github.com/ledger/cl-ledger)
+| ledger.pl | [Perl](https://github.com/dimonf/ledger.pl)
+| [penny](http://massysett.github.io/penny/) | [Haskell](https://github.com/massysett/penny) 
+| [UMM](http://hackage.haskell.org/package/UMM) | Haskell
 
 <!-- [compare](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
 
 ### related tools
 
-- [fava](https://github.com/aumayr/beancount-web) web UI for browsing beancount data
-- [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API for *ledger data, can also serve static files
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals
-- [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) curses UI for data entry
 - [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions
 - [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return over time
-- [hledger-ui](http://hackage.haskell.org/package/hledger-ui) curses UI for browsing
-- [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for browsing and data entry
+
+##### Data import
+
 - [icsvledger](https://launchpad.net/csv2ledger) CSV to journal converter
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) convert OFX to journal, deduplication, bank download
-- [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing
-- [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing
-- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) GUI tools and python library front end for Ledger
-- [org2tc](https://github.com/jwiegley/org2tc) org to timeclock converter
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to journal converter
-- sandstorm.io web app hosting, eg for [hledger-web](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90)
+
+##### Time tracking
+
+- [org2tc](https://github.com/jwiegley/org2tc) org to timeclock converter
 - [taskwarrior](http://taskwarrior.org) todo list manager, some *ledger integration for time reporting
 - [tim](https://github.com/MatthiasKauer/tim) time tracking tool using hledger for reports
+
+##### UI, console
+
+- [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) curses UI for data entry
+- [hledger-ui](http://hackage.haskell.org/package/hledger-ui) curses UI for browsing
+
+##### UI, GUI
+
+- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) GUI tools and python library front end for Ledger
+
+##### UI, web
+
+- [fava](https://github.com/aumayr/beancount-web) web UI for browsing beancount data
+- [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API for *ledger data, can also serve static files
+- [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for browsing and data entry
+- [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing
+- [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing
+- sandstorm.io web app hosting, eg for [hledger-web](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90)
     
 </div>
 <div class="five columns u-pull-right">
@@ -159,23 +169,27 @@ Inactive:
 
 ### common tasks
 
-#### data entry
+##### data entry
 
-#### reconciling
+##### reconciling
 
-#### reporting
+##### reporting
 
-#### forecasting
+##### forecasting
 
-#### budgetting
+##### budgetting
 
-#### shared expenses
+##### shared expenses
 
-#### time tracking
+##### tax reporting
+
+##### time tracking
+
+##### import and export
 
 - <https://github.com/anarcat/ledger-timetracking> on integrating timelog and journal
 
-#### 
+##### 
 
 </div>
 

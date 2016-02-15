@@ -60,7 +60,7 @@ Plain Text Accounting
 <p><strong>who is this for ?</strong><br />
 Techies, power users, and do-it-yourself-ers, at least for now. If you need a rich GUI and lots of structure, you may prefer a more traditional GUI tool.</p>
 <p><strong>what are the alternatives ?</strong><br />
-GNUCash or other FOSS tools, proprietary tools like Quicken/Quickbooks, online tools like Xero, spreadsheets, paper accounting.</p>
+GNUCash, Grisbi, KMyMoney or other FOSS tools, proprietary tools like Quicken/Quickbooks, online tools like Xero, spreadsheets, paper accounting.</p>
 <p><strong>why is this better than QuickBooks ?</strong><br />
 Your data remains accessible. No yearly fees. Free software you can change. Cross platform. Scriptable. Efficient. Simple.</p>
 <p><strong>how do I communicate with my accountant ?</strong><br />
@@ -78,65 +78,104 @@ You can use this to track and gather the data for tax reporting, with suitable a
 <table>
 <tbody>
 <tr class="odd">
+<td align="left"></td>
+<td align="left">Code</td>
+<td align="right">Committers</td>
+<td align="right">IRC chan. size</td>
+</tr>
+<tr class="even">
 <td align="left"><a href="http://ledger-cli.org">Ledger</a></td>
-<td align="left"><a href="https://www.openhub.net/p/ledger">C++</a>. The original. <!-- Very fast, advanced features. --></td>
-<td align="left"></td>
+<td align="left"><a href="https://github.com/ledger/ledger">C++</a> (<a href="https://www.openhub.net/p/ledger">openhub</a>)</td>
+<td align="right">101</td>
+<td align="right">70</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="http://hledger.org">hledger</a></td>
-<td align="left"><a href="https://www.openhub.net/p/hledger">Haskell</a> <!-- Easy to use, multi-column reports, multiple UIs. --></td>
-<td align="left"></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="http://furius.ca/beancount">Beancount</a></td>
-<td align="left"><a href="https://www.openhub.net/p/beancount">Python</a> <!-- Accounting correctness aids, extensible. --></td>
-<td align="left"></td>
+<td align="left"><a href="http://code.hledger.org">Haskell</a> (<a href="https://www.openhub.net/p/hledger">openhub</a>)</td>
+<td align="right">30</td>
+<td align="right">20</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="https://github.com/hrj/abandon">Abandon</a></td>
-<td align="left"><a href="https://www.openhub.net/p/abandon">Scala</a></td>
-<td align="left"></td>
+<td align="left"><a href="http://furius.ca/beancount">Beancount</a></td>
+<td align="left"><a href="http://bitbucket.org/blais/beancount/">Python</a> (<a href="https://www.openhub.net/p/beancount">openhub</a>)</td>
+<td align="right">8</td>
+<td align="right"></td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="https://github.com/howeyc/ledger">Ledger in Go</a></td>
-<td align="left">Go</td>
-<td align="left"></td>
+<td align="left">Abandon</td>
+<td align="left"><a href="https://github.com/hrj/abandon">Scala</a> (<a href="https://www.openhub.net/p/abandon">openhub</a>)</td>
+<td align="right">5</td>
+<td align="right"></td>
+</tr>
+<tr class="even">
+<td align="left">Ledger in Go</td>
+<td align="left"><a href="https://github.com/howeyc/ledger">Go</a></td>
+<td align="right">2</td>
+<td align="right"></td>
 </tr>
 </tbody>
 </table>
-<!-- | Inactive:                                         | | | -->
-<!-- | [cl-ledger](https://github.com/ledger/cl-ledger)  | Common Lisp | | -->
-<!-- | [ledger.pl](https://github.com/dimonf/ledger.pl)  | Perl | | -->
-<!-- | [penny](https://github.com/massysett/penny)       | Haskell | | -->
-<!-- | [UMM](http://hackage.haskell.org/package/UMM)     | Haskell | | -->
-<p>Inactive:</p>
-<ul>
-<li><a href="https://github.com/ledger/cl-ledger">cl-ledger</a> Common Lisp</li>
-<li><a href="https://github.com/dimonf/ledger.pl">ledger.pl</a> Perl</li>
-<li><a href="https://github.com/massysett/penny">penny</a> Haskell</li>
-<li><a href="http://hackage.haskell.org/package/UMM">UMM</a> Haskell</li>
-</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Inactive:</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">cl-ledger</td>
+<td align="left"><a href="https://github.com/ledger/cl-ledger">Common Lisp</a></td>
+</tr>
+<tr class="even">
+<td align="left">ledger.pl</td>
+<td align="left"><a href="https://github.com/dimonf/ledger.pl">Perl</a></td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="http://massysett.github.io/penny/">penny</a></td>
+<td align="left"><a href="https://github.com/massysett/penny">Haskell</a></td>
+</tr>
+<tr class="even">
+<td align="left"><a href="http://hackage.haskell.org/package/UMM">UMM</a></td>
+<td align="left">Haskell</td>
+</tr>
+</tbody>
+</table>
 <!-- [compare](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
 <h3 id="related-tools">related tools</h3>
 <ul>
-<li><a href="https://github.com/aumayr/beancount-web">fava</a> web UI for browsing beancount data</li>
-<li><a href="https://github.com/simonmichael/hledger/tree/master/hledger-api">hledger-api</a> JSON API for *ledger data, can also serve static files</li>
 <li><a href="http://hackage.haskell.org/package/hledger-diff">hledger-diff</a> report differing transactions between two journals</li>
-<li><a href="https://github.com/hpdeifel/hledger-iadd">hledger-iadd</a> curses UI for data entry</li>
 <li><a href="http://hackage.haskell.org/package/hledger-interest">hledger-interest</a> generate *ledger interest transactions</li>
 <li><a href="http://hackage.haskell.org/package/hledger-irr">hledger-irr</a> calculate an account's internal rate of return over time</li>
-<li><a href="http://hackage.haskell.org/package/hledger-ui">hledger-ui</a> curses UI for browsing</li>
-<li><a href="http://hackage.haskell.org/package/hledger-web">hledger-web</a> web UI for browsing and data entry</li>
+</ul>
+<h5 id="data-import">Data import</h5>
+<ul>
 <li><a href="https://launchpad.net/csv2ledger">icsvledger</a> CSV to journal converter</li>
 <li><a href="https://gitlab.com/egh/ledger-autosync">ledger-autosync</a> convert OFX to journal, deduplication, bank download</li>
-<li><a href="https://github.com/Ikke/ledger-dashboard">ledger-dashboard</a> web UI for browsing</li>
-<li><a href="https://github.com/slashdotdash/node-ledger-web">ledger-web</a> web UI for browsing</li>
-<li><a href="https://github.com/Rudd-O/ledgerhelpers">ledgerhelpers</a> GUI tools and python library front end for Ledger</li>
-<li><a href="https://github.com/jwiegley/org2tc">org2tc</a> org to timeclock converter</li>
 <li><a href="https://github.com/cantino/reckon">reckon</a> smart interactive/non-interactive CSV to journal converter</li>
-<li>sandstorm.io web app hosting, eg for <a href="https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90">hledger-web</a></li>
+</ul>
+<h5 id="time-tracking">Time tracking</h5>
+<ul>
+<li><a href="https://github.com/jwiegley/org2tc">org2tc</a> org to timeclock converter</li>
 <li><a href="http://taskwarrior.org">taskwarrior</a> todo list manager, some *ledger integration for time reporting</li>
 <li><a href="https://github.com/MatthiasKauer/tim">tim</a> time tracking tool using hledger for reports</li>
+</ul>
+<h5 id="ui-console">UI, console</h5>
+<ul>
+<li><a href="https://github.com/hpdeifel/hledger-iadd">hledger-iadd</a> curses UI for data entry</li>
+<li><a href="http://hackage.haskell.org/package/hledger-ui">hledger-ui</a> curses UI for browsing</li>
+</ul>
+<h5 id="ui-gui">UI, GUI</h5>
+<ul>
+<li><a href="https://github.com/Rudd-O/ledgerhelpers">ledgerhelpers</a> GUI tools and python library front end for Ledger</li>
+</ul>
+<h5 id="ui-web">UI, web</h5>
+<ul>
+<li><a href="https://github.com/aumayr/beancount-web">fava</a> web UI for browsing beancount data</li>
+<li><a href="https://github.com/simonmichael/hledger/tree/master/hledger-api">hledger-api</a> JSON API for *ledger data, can also serve static files</li>
+<li><a href="http://hackage.haskell.org/package/hledger-web">hledger-web</a> web UI for browsing and data entry</li>
+<li><a href="https://github.com/Ikke/ledger-dashboard">ledger-dashboard</a> web UI for browsing</li>
+<li><a href="https://github.com/slashdotdash/node-ledger-web">ledger-web</a> web UI for browsing</li>
+<li>sandstorm.io web app hosting, eg for <a href="https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90">hledger-web</a></li>
 </ul>
 </div>
 <div class="five columns u-pull-right">
@@ -150,17 +189,19 @@ You can use this to track and gather the data for tax reporting, with suitable a
 </ul>
 <h3 id="discussion">discussion</h3>
 <h3 id="common-tasks">common tasks</h3>
-<h4 id="data-entry">data entry</h4>
-<h4 id="reconciling">reconciling</h4>
-<h4 id="reporting">reporting</h4>
-<h4 id="forecasting">forecasting</h4>
-<h4 id="budgetting">budgetting</h4>
-<h4 id="shared-expenses">shared expenses</h4>
-<h4 id="time-tracking">time tracking</h4>
+<h5 id="data-entry">data entry</h5>
+<h5 id="reconciling">reconciling</h5>
+<h5 id="reporting">reporting</h5>
+<h5 id="forecasting">forecasting</h5>
+<h5 id="budgetting">budgetting</h5>
+<h5 id="shared-expenses">shared expenses</h5>
+<h5 id="tax-reporting">tax reporting</h5>
+<h5 id="time-tracking-1">time tracking</h5>
+<h5 id="import-and-export">import and export</h5>
 <ul>
 <li><a href="https://github.com/anarcat/ledger-timetracking" class="uri">https://github.com/anarcat/ledger-timetracking</a> on integrating timelog and journal</li>
 </ul>
-<h4 id="section"></h4>
+<h5 id="section"></h5>
 </div>
 </div>
 <div class="row" style="text-align:center;">
