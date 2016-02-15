@@ -156,8 +156,8 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [fava](https://github.com/aumayr/beancount-web) web UI for browsing beancount data
 - [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API for *ledger data, can also serve static files
-- [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for browsing and data entry
-- [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing
+- [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for browsing, data entry
+- [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing, data entry
 - [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing
 - sandstorm.io web app hosting, eg for [hledger-web](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90)
     
