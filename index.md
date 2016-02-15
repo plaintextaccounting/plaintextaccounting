@@ -56,19 +56,38 @@ This simplicity makes them easy to understand and to rely on.
 </div>
 <div class="three columns">
 
-### why ?
+### questions ?
 
-why we exist
+**who is this for&nbsp;?**\
+Techies, power users, and do-it-yourself-ers,
+at least for now.
+If you need a rich GUI and lots of structure, you may prefer a more traditional GUI tool.
 
-who are we for
+**what are the alternatives&nbsp;?**\
+GNUCash or other FOSS tools, proprietary tools like Quicken/Quickbooks, online tools like Xero, spreadsheets, paper accounting.
 
-alternatives
+**why is this better than QuickBooks&nbsp;?**\
+Your data remains accessible.
+No yearly fees.
+Free software you can change.
+Cross platform.
+Scriptable.
+Efficient.
+Simple.
 
-why is this better than QuickBooks ?
+**how do I communicate with my accountant&nbsp;?**\
+Clean up text reports by hand,
+print them as PDF,
+import CSV reports to a spreadsheet..
 
-what if my accountant only uses QuickBooks ?
+**what if my accountant only uses QuickBooks&nbsp;?**\
+You'll need a new accountant,
+or a duplicate set of books in QuickBooks,
+or to pioneer *ledger -> QuickBooks importing.
 
-can I use this to do my taxes ?
+**can I use this to do my taxes&nbsp;?**\
+You can use this to track and gather the data for tax reporting, with suitable accounts.
+Fill out and submit tax forms with another tool, or by hand.
 
 </div>
 
