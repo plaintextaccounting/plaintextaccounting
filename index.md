@@ -7,42 +7,51 @@
 
 <div class="three columns">
 
-### concepts
+### accounting..
 
-accounting and double-entry bookkeeping
+**accounting** is tracking the flow of valuable commodities, such as money or time.
+It clarifies activity, priorities, obligations, opportunities.
+It can reduce stress and even be enjoyable.
 
-Ledger and the Ledger-likes
+**double-entry bookkeeping** is a process for doing this reliably.
+For every movement of value (a **transaction**), both the source and destination are recorded.
+Simple arithmetic invariants help prevent errors.
+
+In traditional double-entry bookkeeping, value at any point in time is tracked in various **accounts**, classified as
+**asset** (owned), **liability** (owed) or **equity** (invested).
+Two more classifications track changes during some period: **revenues** (inflows) and **expenses** (outflows).
+
+Transactions consist of **debits** (increases to asset or expense
+accounts, or decreases to liability or equity accounts) or **credits**
+(decreases to asset or expense accounts, or increases to liability or
+equity accounts).
 
 </div>
 <div class="five columns">
 
-### characteristics
+### with Ledger-likes
 
-plain text data format
+**Ledger** and the other **Ledger-likes** which followed it are minimalist software tools for efficient double-entry accounting.
+This site introduces them and their way of doing things.
 
-signed numbers instead of debit and credit
-<!--
-Business transactions are events that have a monetary impact on the
-financial statements of an organization. When accounting for these
-transactions, we record numbers in two accounts, where the debit
-column is on the left and the credit column is on the right.
+Accounting data is valuable;
+we want to know that it will be accessible for ever - even without software.
+We want to know when it changes, and revision-control it.
+We want to search and manipulate it efficiently.
+So, we store it as human-readable **plain text**.
 
-A debit is an accounting entry that either increases an asset or
-expense account, or decreases a liability or equity account. It is
-positioned to the left in an accounting entry.
+We simplify by using **signed numbers** instead of debits and credits -
+positive for inflows to an account, negative for outflows from an account.
 
-A credit is an accounting entry that either increases a liability or
-equity account, or decreases an asset or expense account.
+We define arbitrary **account hierarchy** to suit our needs.
+This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail.
 
---[Debits and Credits](http://www.accountingtools.com/debits-and-credits)
-http://www.accountingcoach.com/debits-and-credits/explanation
--->
+Ledger-likes are, at least in part, **command-line** tools.
+This makes them efficient to use and very **scriptable** and flexible.
 
-free-form account hierarchy
-
-functional operation
-
-command-line scriptable
+Ledger-likes also, at their core, tend towards **functional operation**:
+they read the input data without changing it, and output a report.
+This simplicity makes them easy to understand and to rely on.
 
 </div>
 <div class="three columns">
@@ -54,6 +63,12 @@ why we exist
 who are we for
 
 alternatives
+
+why is this better than QuickBooks ?
+
+what if my accountant only uses QuickBooks ?
+
+can I use this to do my taxes ?
 
 </div>
 
@@ -67,10 +82,10 @@ alternatives
 <!-- http://pandoc.org/README.html#tables -->
 | | |
 |---------------------------------------------------|----------------------------------------------------------|-|
-| [Ledger](http://ledger-cli.org)                   | the original. C++ <!-- Very fast, advanced features. --> | [openhub](https://www.openhub.net/p/ledger) |
-| [hledger](http://hledger.org)                     | Haskell <!-- Easy to use, multi-column reports, multiple UIs. --> | [openhub](https://www.openhub.net/p/hledger) |
-| [Beancount](http://furius.ca/beancount)           | Python <!-- Accounting correctness aids, extensible. --> | [openhub](https://www.openhub.net/p/beancount) |
-| [Abandon](https://github.com/hrj/abandon)         | Scala | [openhub](https://www.openhub.net/p/abandon) |
+| [Ledger](http://ledger-cli.org)                   | [C++](https://www.openhub.net/p/ledger). The original. <!-- Very fast, advanced features. --> | |
+| [hledger](http://hledger.org)                     | [Haskell](https://www.openhub.net/p/hledger) <!-- Easy to use, multi-column reports, multiple UIs. --> |  |
+| [Beancount](http://furius.ca/beancount)           | [Python](https://www.openhub.net/p/beancount) <!-- Accounting correctness aids, extensible. --> |  |
+| [Abandon](https://github.com/hrj/abandon)         | [Scala](https://www.openhub.net/p/abandon) |  |
 | [Ledger in Go](https://github.com/howeyc/ledger)  | Go | |
 
 <!-- | Inactive:                                         | | | -->
@@ -149,7 +164,10 @@ Inactive:
 <div class="row" style="text-align:center;">
 
 <hr>
-Send updates via the [github repo](https://github.com/simonmichael/plaintextaccounting) or [notes page](https://oasis.sandstorm.io/shared/UAYLwagGI0a2pIMg9Hhv74K04nbuxanXiS5ZtBV6NF-)
+Send updates via the
+[github repo](https://github.com/simonmichael/plaintextaccounting)
+or
+[etherpad](https://oasis.sandstorm.io/shared/UAYLwagGI0a2pIMg9Hhv74K04nbuxanXiS5ZtBV6NF-)
 
 </div>
 

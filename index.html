@@ -40,38 +40,29 @@
 Plain Text Accounting
 </h1>
 <div class="three columns">
-<h3 id="concepts">concepts</h3>
-<p>accounting and double-entry bookkeeping</p>
-<p>Ledger and the Ledger-likes</p>
+<h3 id="accounting..">accounting..</h3>
+<p><strong>accounting</strong> is tracking the flow of valuable commodities, such as money or time. It clarifies activity, priorities, obligations, opportunities. It can reduce stress and even be enjoyable.</p>
+<p><strong>double-entry bookkeeping</strong> is a process for doing this reliably. For every movement of value (a <strong>transaction</strong>), both the source and destination are recorded. Simple arithmetic invariants help prevent errors.</p>
+<p>In traditional double-entry bookkeeping, value at any point in time is tracked in various <strong>accounts</strong>, classified as <strong>asset</strong> (owned), <strong>liability</strong> (owed) or <strong>equity</strong> (invested). Two more classifications track changes during some period: <strong>revenues</strong> (inflows) and <strong>expenses</strong> (outflows).</p>
+<p>Transactions consist of <strong>debits</strong> (increases to asset or expense accounts, or decreases to liability or equity accounts) or <strong>credits</strong> (decreases to asset or expense accounts, or increases to liability or equity accounts).</p>
 </div>
 <div class="five columns">
-<h3 id="characteristics">characteristics</h3>
-<p>plain text data format</p>
-<p>signed numbers instead of debit and credit <!--
-Business transactions are events that have a monetary impact on the
-financial statements of an organization. When accounting for these
-transactions, we record numbers in two accounts, where the debit
-column is on the left and the credit column is on the right.
-
-A debit is an accounting entry that either increases an asset or
-expense account, or decreases a liability or equity account. It is
-positioned to the left in an accounting entry.
-
-A credit is an accounting entry that either increases a liability or
-equity account, or decreases an asset or expense account.
-
---[Debits and Credits](http://www.accountingtools.com/debits-and-credits)
-http://www.accountingcoach.com/debits-and-credits/explanation
---></p>
-<p>free-form account hierarchy</p>
-<p>functional operation</p>
-<p>command-line scriptable</p>
+<h3 id="with-ledger-likes">with Ledger-likes</h3>
+<p><strong>Ledger</strong> and the other <strong>Ledger-likes</strong> which followed it are minimalist software tools for efficient double-entry accounting. This site introduces them and their way of doing things.</p>
+<p>Accounting data is valuable; we want to know that it will be accessible for ever - even without software. We want to know when it changes, and revision-control it. We want to search and manipulate it efficiently. So, we store it as human-readable <strong>plain text</strong>.</p>
+<p>We simplify by using <strong>signed numbers</strong> instead of debits and credits - positive for inflows to an account, negative for outflows from an account.</p>
+<p>We define arbitrary <strong>account hierarchy</strong> to suit our needs. This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail.</p>
+<p>Ledger-likes are, at least in part, <strong>command-line</strong> tools. This makes them efficient to use and very <strong>scriptable</strong> and flexible.</p>
+<p>Ledger-likes also, at their core, tend towards <strong>functional operation</strong>: they read the input data without changing it, and output a report. This simplicity makes them easy to understand and to rely on.</p>
 </div>
 <div class="three columns">
 <h3 id="why">why ?</h3>
 <p>why we exist</p>
 <p>who are we for</p>
 <p>alternatives</p>
+<p>why is this better than QuickBooks ?</p>
+<p>what if my accountant only uses QuickBooks ?</p>
+<p>can I use this to do my taxes ?</p>
 </div>
 </div>
 <div class="row">
@@ -82,23 +73,23 @@ http://www.accountingcoach.com/debits-and-credits/explanation
 <tbody>
 <tr class="odd">
 <td align="left"><a href="http://ledger-cli.org">Ledger</a></td>
-<td align="left">the original. C++ <!-- Very fast, advanced features. --></td>
-<td align="left"><a href="https://www.openhub.net/p/ledger">openhub</a></td>
+<td align="left"><a href="https://www.openhub.net/p/ledger">C++</a>. The original. <!-- Very fast, advanced features. --></td>
+<td align="left"></td>
 </tr>
 <tr class="even">
 <td align="left"><a href="http://hledger.org">hledger</a></td>
-<td align="left">Haskell <!-- Easy to use, multi-column reports, multiple UIs. --></td>
-<td align="left"><a href="https://www.openhub.net/p/hledger">openhub</a></td>
+<td align="left"><a href="https://www.openhub.net/p/hledger">Haskell</a> <!-- Easy to use, multi-column reports, multiple UIs. --></td>
+<td align="left"></td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="http://furius.ca/beancount">Beancount</a></td>
-<td align="left">Python <!-- Accounting correctness aids, extensible. --></td>
-<td align="left"><a href="https://www.openhub.net/p/beancount">openhub</a></td>
+<td align="left"><a href="https://www.openhub.net/p/beancount">Python</a> <!-- Accounting correctness aids, extensible. --></td>
+<td align="left"></td>
 </tr>
 <tr class="even">
 <td align="left"><a href="https://github.com/hrj/abandon">Abandon</a></td>
-<td align="left">Scala</td>
-<td align="left"><a href="https://www.openhub.net/p/abandon">openhub</a></td>
+<td align="left"><a href="https://www.openhub.net/p/abandon">Scala</a></td>
+<td align="left"></td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="https://github.com/howeyc/ledger">Ledger in Go</a></td>
@@ -169,7 +160,7 @@ http://www.accountingcoach.com/debits-and-credits/explanation
 <div class="row" style="text-align:center;">
 
 <hr>
-<p>Send updates via the <a href="https://github.com/simonmichael/plaintextaccounting">github repo</a> or <a href="https://oasis.sandstorm.io/shared/UAYLwagGI0a2pIMg9Hhv74K04nbuxanXiS5ZtBV6NF-">notes page</a></p>
+<p>Send updates via the <a href="https://github.com/simonmichael/plaintextaccounting">github repo</a> or <a href="https://oasis.sandstorm.io/shared/UAYLwagGI0a2pIMg9Hhv74K04nbuxanXiS5ZtBV6NF-">etherpad</a></p>
 </div>
 
   </div>
