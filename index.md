@@ -51,7 +51,7 @@ This makes them efficient to use and very **scriptable** and flexible.
 
 Ledger-likes also, at their core, tend towards **functional operation**:
 they read the input data without changing it, and output a report.
-This simplicity makes them easy to understand and to rely on.
+This simplicity makes them easy to understand and rely on.
 
 </div>
 <div class="three columns">
@@ -69,24 +69,23 @@ GNUCash, Grisbi, KMyMoney or other FOSS tools, proprietary tools like Quicken/Qu
 **why is this better than QuickBooks&nbsp;?**\
 Your data remains accessible.
 No yearly fees.
-Free software you can change.
+Free software you can fix and port.
 Cross platform.
 Scriptable.
 Efficient.
-Simple.
 
 **how do I communicate with my accountant&nbsp;?**\
 Clean up text reports by hand,
 print them as PDF,
-import CSV reports to a spreadsheet..
+export CSV reports to a spreadsheet..
 
 **what if my accountant only uses QuickBooks&nbsp;?**\
 You'll need a new accountant,
 or a duplicate set of books in QuickBooks,
-or to pioneer *ledger -> QuickBooks importing.
+or to pioneer *ledger -> QuickBooks exporting.
 
 **can I use this to do my taxes&nbsp;?**\
-You can use this to track and gather the data for tax reporting, with suitable accounts.
+You can use this to track and report the data needed for tax reporting.
 Fill out and submit tax forms with another tool, or by hand.
 
 </div>
@@ -100,19 +99,19 @@ Fill out and submit tax forms with another tool, or by hand.
 
 <!-- http://pandoc.org/README.html#tables -->
 |
-|------------------------------------------|-------------------------------------------------------------|---:|---:|
-|                                          | Code                                                        | Committers | IRC chan. size | 
-| [Ledger](http://ledger-cli.org)          | [C++](https://github.com/ledger/ledger) ([openhub](https://www.openhub.net/p/ledger)) | 101 | 70 |
-| [hledger](http://hledger.org)            | [Haskell](http://code.hledger.org) ([openhub](https://www.openhub.net/p/hledger))  | 30 | 20 |
-| [Beancount](http://furius.ca/beancount)  | [Python](http://bitbucket.org/blais/beancount/) ([openhub](https://www.openhub.net/p/beancount)) | 8 | |
-| Abandon                                  | [Scala](https://github.com/hrj/abandon) ([openhub](https://www.openhub.net/p/abandon)) | 5 | |
-| Ledger&nbsp;in&nbsp;Go                   | [Go](https://github.com/howeyc/ledger)                      | 2 | |
+|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------:|--------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------:
+|                                               | Code, committers                                                                                               | Mail list                                                                                                                            | IRC, size
+| [Ledger](http://ledger-cli.org)               | [C++](https://github.com/ledger/ledger)          101 <!-- ([openhub](https://www.openhub.net/p/ledger)) -->    | [ledger-cli](http://list.ledger-cli.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.general)) -->                 | [#ledger](http://webchat.freenode.net/?channels=ledger&randomnick=1)  70
+| [hledger](http://hledger.org)                 | [Haskell](http://code.hledger.org)                30 <!-- ([openhub](https://www.openhub.net/p/hledger)) -->   | [hledger](http://list.hledger.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.hledger)) -->                       | [#hledger](http://webchat.freenode.net/?channels=hledger&randomnick=1)  20
+| [Beancount](http://furius.ca/beancount)       | [Python](http://bitbucket.org/blais/beancount/)    8 <!-- ([openhub](https://www.openhub.net/p/beancount)) --> | [beancount](https://groups.google.com/forum/#!forum/beancount) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.beancount)) --> | [#beancount](http://webchat.freenode.net/?channels=beancount&randomnick=1)  1
+| Abandon                                       | [Scala](https://github.com/hrj/abandon)            5 <!-- ([openhub](https://www.openhub.net/p/abandon)) -->   |                                                                                                                                      |
+| Ledger in Go                                  | [Go](https://github.com/howeyc/ledger)             2                                                           |                                                                                                                                      |
 
-| Inactive:
-|-----------|-----------------------------------------------------
-| cl-ledger | [Common Lisp](https://github.com/ledger/cl-ledger)
-| ledger.pl | [Perl](https://github.com/dimonf/ledger.pl)
-| [penny](http://massysett.github.io/penny/) | [Haskell](https://github.com/massysett/penny) 
+| Inactive:                                     | |
+|-----------------------------------------------|-----------------------------------------------------
+| cl-ledger                                     | [Common Lisp](https://github.com/ledger/cl-ledger)
+| ledger.pl                                     | [Perl](https://github.com/dimonf/ledger.pl)
+| [Penny](http://massysett.github.io/penny/)    | [Haskell](https://github.com/massysett/penny) 
 | [UMM](http://hackage.haskell.org/package/UMM) | Haskell
 
 <!-- [compare](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
@@ -123,13 +122,22 @@ Fill out and submit tax forms with another tool, or by hand.
 - [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions
 - [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return over time
 
-##### Data import
+##### data import
 
 - [icsvledger](https://launchpad.net/csv2ledger) CSV to journal converter
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) convert OFX to journal, deduplication, bank download
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to journal converter
 
-##### Time tracking
+##### editing
+
+- [ledger-mode](http://ledger-cli.org/3.0/doc/ledger-mode.html) for Emacs
+- [vim-ledger](https://github.com/ledger/vim-ledger) for VIM
+- [language-ledger](https://atom.io/packages/language-ledger) for Atom
+- [ledger](https://atom.io/packages/ledger) for Atom
+- [sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax) for Sublime Text/TextMate
+- [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle) for TextMate
+
+##### time tracking
 
 - [org2tc](https://github.com/jwiegley/org2tc) org to timeclock converter
 - [taskwarrior](http://taskwarrior.org) todo list manager, some *ledger integration for time reporting
@@ -160,12 +168,10 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [Ledger manuals](http://ledger-cli.org/docs.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
-- [Getting Started With Ledger book](https://github.com/rolfschr/GSWL-book)
-- [hledger's more docs](http://hledger.org)
+- ["Getting Started With Ledger" book](https://github.com/rolfschr/GSWL-book)
+- [hledger docs](http://hledger.org), [more docs](http://hledger.org/more-docs.html)
 - [Beancount docs](http://furius.ca/beancount/doc/index)
 <!-- - [Abandon wiki](https://github.com/hrj/abandon/wiki) -->
-
-### discussion
 
 ### common tasks
 
@@ -185,9 +191,9 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### time tracking
 
-##### import and export
+- [on integrating timelog and journal](https://github.com/anarcat/ledger-timetracking)
 
-- <https://github.com/anarcat/ledger-timetracking> on integrating timelog and journal
+##### import and export
 
 ##### 
 

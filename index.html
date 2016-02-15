@@ -53,7 +53,7 @@ Plain Text Accounting
 <p>We simplify debits and credits by using <strong>signed numbers</strong> instead - positive for inflows to an account, negative for outflows from an account.</p>
 <p>We define arbitrary <strong>account hierarchy</strong> to suit our needs. This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail.</p>
 <p>Ledger-likes are, at least in part, <strong>command-line</strong> tools. This makes them efficient to use and very <strong>scriptable</strong> and flexible.</p>
-<p>Ledger-likes also, at their core, tend towards <strong>functional operation</strong>: they read the input data without changing it, and output a report. This simplicity makes them easy to understand and to rely on.</p>
+<p>Ledger-likes also, at their core, tend towards <strong>functional operation</strong>: they read the input data without changing it, and output a report. This simplicity makes them easy to understand and rely on.</p>
 </div>
 <div class="three columns">
 <h3 id="questions">questions ?</h3>
@@ -62,13 +62,13 @@ Techies, power users, and do-it-yourself-ers, at least for now. If you need a ri
 <p><strong>what are the alternatives ?</strong><br />
 GNUCash, Grisbi, KMyMoney or other FOSS tools, proprietary tools like Quicken/Quickbooks, online tools like Xero, spreadsheets, paper accounting.</p>
 <p><strong>why is this better than QuickBooks ?</strong><br />
-Your data remains accessible. No yearly fees. Free software you can change. Cross platform. Scriptable. Efficient. Simple.</p>
+Your data remains accessible. No yearly fees. Free software you can fix and port. Cross platform. Scriptable. Efficient.</p>
 <p><strong>how do I communicate with my accountant ?</strong><br />
-Clean up text reports by hand, print them as PDF, import CSV reports to a spreadsheet..</p>
+Clean up text reports by hand, print them as PDF, export CSV reports to a spreadsheet..</p>
 <p><strong>what if my accountant only uses QuickBooks ?</strong><br />
-You'll need a new accountant, or a duplicate set of books in QuickBooks, or to pioneer *ledger -&gt; QuickBooks importing.</p>
+You'll need a new accountant, or a duplicate set of books in QuickBooks, or to pioneer *ledger -&gt; QuickBooks exporting.</p>
 <p><strong>can I use this to do my taxes ?</strong><br />
-You can use this to track and gather the data for tax reporting, with suitable accounts. Fill out and submit tax forms with another tool, or by hand.</p>
+You can use this to track and report the data needed for tax reporting. Fill out and submit tax forms with another tool, or by hand.</p>
 </div>
 </div>
 <div class="row">
@@ -79,39 +79,37 @@ You can use this to track and gather the data for tax reporting, with suitable a
 <tbody>
 <tr class="odd">
 <td align="left"></td>
-<td align="left">Code</td>
-<td align="right">Committers</td>
-<td align="right">IRC chan. size</td>
+<td align="right">Code, committers</td>
+<td align="left">Mail list</td>
+<td align="right">IRC, size</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="http://ledger-cli.org">Ledger</a></td>
-<td align="left"><a href="https://github.com/ledger/ledger">C++</a> (<a href="https://www.openhub.net/p/ledger">openhub</a>)</td>
-<td align="right">101</td>
-<td align="right">70</td>
+<td align="right"><a href="https://github.com/ledger/ledger">C++</a> 101 <!-- ([openhub](https://www.openhub.net/p/ledger)) --></td>
+<td align="left"><a href="http://list.ledger-cli.org/">ledger-cli</a> <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.general)) --></td>
+<td align="right"><a href="http://webchat.freenode.net/?channels=ledger&amp;randomnick=1">#ledger</a> 70</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="http://hledger.org">hledger</a></td>
-<td align="left"><a href="http://code.hledger.org">Haskell</a> (<a href="https://www.openhub.net/p/hledger">openhub</a>)</td>
-<td align="right">30</td>
-<td align="right">20</td>
+<td align="right"><a href="http://code.hledger.org">Haskell</a> 30 <!-- ([openhub](https://www.openhub.net/p/hledger)) --></td>
+<td align="left"><a href="http://list.hledger.org/">hledger</a> <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.hledger)) --></td>
+<td align="right"><a href="http://webchat.freenode.net/?channels=hledger&amp;randomnick=1">#hledger</a> 20</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="http://furius.ca/beancount">Beancount</a></td>
-<td align="left"><a href="http://bitbucket.org/blais/beancount/">Python</a> (<a href="https://www.openhub.net/p/beancount">openhub</a>)</td>
-<td align="right">8</td>
-<td align="right"></td>
+<td align="right"><a href="http://bitbucket.org/blais/beancount/">Python</a> 8 <!-- ([openhub](https://www.openhub.net/p/beancount)) --></td>
+<td align="left"><a href="https://groups.google.com/forum/#!forum/beancount">beancount</a> <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.beancount)) --></td>
+<td align="right"><a href="http://webchat.freenode.net/?channels=beancount&amp;randomnick=1">#beancount</a> 1</td>
 </tr>
 <tr class="odd">
 <td align="left">Abandon</td>
-<td align="left"><a href="https://github.com/hrj/abandon">Scala</a> (<a href="https://www.openhub.net/p/abandon">openhub</a>)</td>
-<td align="right">5</td>
-<td align="right"></td>
+<td align="right"><a href="https://github.com/hrj/abandon">Scala</a> 5 <!-- ([openhub](https://www.openhub.net/p/abandon)) --></td>
+<td align="left"></td>
 </tr>
 <tr class="even">
-<td align="left">Ledger in Go</td>
-<td align="left"><a href="https://github.com/howeyc/ledger">Go</a></td>
-<td align="right">2</td>
-<td align="right"></td>
+<td align="left">Ledger in Go</td>
+<td align="right"><a href="https://github.com/howeyc/ledger">Go</a> 2</td>
+<td align="left"></td>
 </tr>
 </tbody>
 </table>
@@ -119,6 +117,7 @@ You can use this to track and gather the data for tax reporting, with suitable a
 <thead>
 <tr class="header">
 <th align="left">Inactive:</th>
+<th align="left"></th>
 </tr>
 </thead>
 <tbody>
@@ -131,7 +130,7 @@ You can use this to track and gather the data for tax reporting, with suitable a
 <td align="left"><a href="https://github.com/dimonf/ledger.pl">Perl</a></td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://massysett.github.io/penny/">penny</a></td>
+<td align="left"><a href="http://massysett.github.io/penny/">Penny</a></td>
 <td align="left"><a href="https://github.com/massysett/penny">Haskell</a></td>
 </tr>
 <tr class="even">
@@ -147,13 +146,22 @@ You can use this to track and gather the data for tax reporting, with suitable a
 <li><a href="http://hackage.haskell.org/package/hledger-interest">hledger-interest</a> generate *ledger interest transactions</li>
 <li><a href="http://hackage.haskell.org/package/hledger-irr">hledger-irr</a> calculate an account's internal rate of return over time</li>
 </ul>
-<h5 id="data-import">Data import</h5>
+<h5 id="data-import">data import</h5>
 <ul>
 <li><a href="https://launchpad.net/csv2ledger">icsvledger</a> CSV to journal converter</li>
 <li><a href="https://gitlab.com/egh/ledger-autosync">ledger-autosync</a> convert OFX to journal, deduplication, bank download</li>
 <li><a href="https://github.com/cantino/reckon">reckon</a> smart interactive/non-interactive CSV to journal converter</li>
 </ul>
-<h5 id="time-tracking">Time tracking</h5>
+<h5 id="editing">editing</h5>
+<ul>
+<li><a href="http://ledger-cli.org/3.0/doc/ledger-mode.html">ledger-mode</a> for Emacs</li>
+<li><a href="https://github.com/ledger/vim-ledger">vim-ledger</a> for VIM</li>
+<li><a href="https://atom.io/packages/language-ledger">language-ledger</a> for Atom</li>
+<li><a href="https://atom.io/packages/ledger">ledger</a> for Atom</li>
+<li><a href="https://github.com/moeffju/sublime-ledger-syntax">sublime-ledger-syntax</a> for Sublime Text/TextMate</li>
+<li><a href="https://github.com/lifepillar/Ledger.tmbundle">Ledger.tmbundle</a> for TextMate</li>
+</ul>
+<h5 id="time-tracking">time tracking</h5>
 <ul>
 <li><a href="https://github.com/jwiegley/org2tc">org2tc</a> org to timeclock converter</li>
 <li><a href="http://taskwarrior.org">taskwarrior</a> todo list manager, some *ledger integration for time reporting</li>
@@ -183,11 +191,10 @@ You can use this to track and gather the data for tax reporting, with suitable a
 <ul>
 <li><a href="http://ledger-cli.org/docs.html">Ledger manuals</a></li>
 <li><a href="https://github.com/ledger/ledger/wiki">Ledger wiki</a></li>
-<li><a href="https://github.com/rolfschr/GSWL-book">Getting Started With Ledger book</a></li>
-<li><a href="http://hledger.org">hledger's more docs</a></li>
+<li><a href="https://github.com/rolfschr/GSWL-book">&quot;Getting Started With Ledger&quot; book</a></li>
+<li><a href="http://hledger.org">hledger docs</a>, <a href="http://hledger.org/more-docs.html">more docs</a></li>
 <li><a href="http://furius.ca/beancount/doc/index">Beancount docs</a> <!-- - [Abandon wiki](https://github.com/hrj/abandon/wiki) --></li>
 </ul>
-<h3 id="discussion">discussion</h3>
 <h3 id="common-tasks">common tasks</h3>
 <h5 id="data-entry">data entry</h5>
 <h5 id="reconciling">reconciling</h5>
@@ -197,10 +204,10 @@ You can use this to track and gather the data for tax reporting, with suitable a
 <h5 id="shared-expenses">shared expenses</h5>
 <h5 id="tax-reporting">tax reporting</h5>
 <h5 id="time-tracking-1">time tracking</h5>
-<h5 id="import-and-export">import and export</h5>
 <ul>
-<li><a href="https://github.com/anarcat/ledger-timetracking" class="uri">https://github.com/anarcat/ledger-timetracking</a> on integrating timelog and journal</li>
+<li><a href="https://github.com/anarcat/ledger-timetracking">on integrating timelog and journal</a></li>
 </ul>
+<h5 id="import-and-export">import and export</h5>
 <h5 id="section"></h5>
 </div>
 </div>
