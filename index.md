@@ -172,6 +172,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [hledger docs](http://hledger.org), [more docs](http://hledger.org/more-docs.html)
 - [Beancount docs](http://furius.ca/beancount/doc/index)
 <!-- - [Abandon wiki](https://github.com/hrj/abandon/wiki) -->
+- [\@LedgerTips](https://twitter.com/LedgerTips)
 
 ### common tasks
 
