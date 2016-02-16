@@ -111,7 +111,7 @@ Fill out and submit tax forms with another tool, or by hand.
 |-----------------------------------------------|-----------------------------------------------------
 | cl-ledger                                     | [Common Lisp](https://github.com/ledger/cl-ledger)
 | ledger.pl                                     | [Perl](https://github.com/dimonf/ledger.pl)
-| [Penny](http://massysett.github.io/penny/)    | [Haskell](https://github.com/massysett/penny) 
+| [Penny](http://massysett.github.io/penny/)    | [Haskell](https://github.com/massysett/penny)
 | [UMM](http://hackage.haskell.org/package/UMM) | Haskell
 
 <!-- [compare](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
@@ -160,7 +160,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing, data entry
 - [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing
 - sandstorm.io web app hosting, eg for [hledger-web](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90)
-    
+
 </div>
 <div class="five columns u-pull-right">
 
@@ -196,7 +196,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### import and export
 
-##### 
+#####
 
 </div>
 
