@@ -29,7 +29,7 @@ equity accounts).
 </div>
 <div class="four columns">
 
-### ..with text
+### … with text
 
 **Ledger** and the other **Ledger-likes** inspired by it are minimalist software tools for efficient double-entry accounting.
 This site introduces them and their way of doing things.
