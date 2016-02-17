@@ -147,10 +147,12 @@ Fill out and submit tax forms with another tool, or by hand.
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) convert OFX to journal, deduplication, bank download
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to journal converter
 
-##### editing
+##### editor support
 
-- [ledger-mode](http://ledger-cli.org/3.0/doc/ledger-mode.html) for Emacs
-- [hledger-mode](https://github.com/narendraj9/dotfiles/tree/master/.emacs.d/packages/rest/hledger-mode) another mode for Emacs, difference unknown
+- [beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default) for Emacs
+- [hledger-mode](https://github.com/narendraj9/dotfiles/tree/master/.emacs.d/packages/rest/hledger-mode) for Emacs
+- [ledger-mode](http://ledger-cli.org/3.0/doc/ledger-mode.html) for Emacs (also works for hledger, beancount etc.)
+- [vim-beancount](https://github.com/nathangrigg/vim-beancount) for VIM
 - [vim-ledger](https://github.com/ledger/vim-ledger) for VIM
 - [language-ledger](https://atom.io/packages/language-ledger) for Atom
 - [ledger](https://atom.io/packages/ledger) for Atom
