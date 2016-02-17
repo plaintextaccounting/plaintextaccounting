@@ -87,7 +87,7 @@ FOSS tools like GNUCash, Grisbi, KMyMoney.
 Proprietary tools like Quicken/Quickbooks, You Need A Budget.
 Online tools like Xero, FreeAgent.
 (There are **[many](https://en.wikipedia.org/wiki/Comparison_of_accounting_software)**).
-Spreadsheets.
+**[Spreadsheets](https://backchannel.com/a-spreadsheet-way-of-knowledge-8de60af7146e#.2hr7pi9pb)**.
 Paper accounting.
 A bookkeeper.
 
@@ -146,15 +146,19 @@ Fill out and submit tax forms with another tool, or by hand.
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals
 - [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions
 - [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return over time
-- [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive helper for making charts with gnuplot
+- [hledger-vagrant](https://t.co/LmdG6GPmma) how to install hledger as a virtual machine
+- [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices
+- [ledger-tutorials](https://github.com/tlvince/ledger-tutorials) convert Pete Keen's tutorials to ebook format
 
 ##### data import
 
 - [beancount-import](https://github.com/jbms/beancount-import) CSV to beancount converter (curses)
-- [icsvledger](https://launchpad.net/csv2ledger) CSV to journal converter
-- [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to journal conversion, deduplication
-- [qb2ledger](https://gist.github.com/genegoykhman/3765100) QuickBooks General Journal CSV to journal converter
-- [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to journal converter
+- [icsvledger](https://launchpad.net/csv2ledger) CSV to *ledger converter
+- [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to *ledger conversion, deduplication
+- [ledgerhub](http://furius.ca/ledgerhub/) fetch prices, extract entries, convert various formats to beancount (? deprecated)
+- [qb2ledger](https://gist.github.com/genegoykhman/3765100) QuickBooks General Journal CSV to *ledger converter
+- [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
+- [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
 
 ##### editor support
 
@@ -180,6 +184,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [hledger-ui](http://hackage.haskell.org/package/hledger-ui) curses UI for browsing
   ([demo](https://asciinema.org/a/29665))
 - [ledger-add](https://github.com/Tagirijus/ledger-add) interactive console UI for data entry
+- [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive helper for making charts with gnuplot
 
 ##### UI, GUI
 
@@ -187,14 +192,16 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### UI, web
 
-- [fava](https://github.com/aumayr/beancount-web) web UI for browsing beancount data
-- [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API for *ledger data, can also serve static files
+- [fava](https://github.com/aumayr/beancount-web) web UI for browsing (Python, beancount)
+- [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API + static file server (Haskell)
 - [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for browsing, data entry
-  ([demo](http://demo.hledger.org))
-- [hledger-web on Sandstorm](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90) free private web instances in a few clicks
-- [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing, data entry
-- [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing
-- [node-hledger](https://github.com/rstacruz/node-hledger) javascript API for *ledger data
+  (Haskell, [demo](http://demo.hledger.org))
+- [hledger-web on Sandstorm](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90) free web instances in a few clicks
+- [Ledger Web](https://github.com/peterkeen/Ledger-Web) web-based, postgres-backed reporting system
+- [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing, data entry (Python)
+- [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing (JavaScript)
+- [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API (JavaScript)
+- [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for browsing, price fetching (F#, Ledger)
 
 </div>
 <div class="five columns u-pull-right">
@@ -206,7 +213,18 @@ Fill out and submit tax forms with another tool, or by hand.
 - [The Great Cheatsheet for Ledger CLI](http://ricostacruz.com/cheatsheets/ledger.html)
 - [hledger docs](http://hledger.org)
 - [Beancount docs](http://furius.ca/beancount/doc/index)
+- [Beancount Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
+
+### concepts
+
 - [General accounting docs](http://hledger.org/more-docs.html#accounting)
+- [Ledger vs accounting](http://thread.gmane.org/gmane.comp.finance.ledger.general/7398/focus=7417) 2015
+
+### comparisons
+
+- [Simon Michael: hledger & Ledger](http://hledger.org/faq.html#hledger-ledger)
+- [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
+- [Fabrice Niessen: Why Ledger?](http://www.mygooglest.com/fni/ledger.html) 2010
 
 ### online books
 
@@ -228,12 +246,13 @@ Fill out and submit tax forms with another tool, or by hand.
 - [Evolution of hledger](https://www.youtube.com/watch?v=dEADGr9dqow) 2015
 - [FLOSS Weekly 150: Ledger](https://twit.tv/shows/floss-weekly/episodes/150)
   ([youtube](https://www.youtube.com/watch?v=TDqrrH-gTt0)) 2011
+- [Accounting course by Prof. Krug](https://www.youtube.com/playlist?list=PL259DBFA47F3B4761) 2011
 
 ### articles
 
+- [Pete Keen's Program your Finances tutorials](https://www.petekeen.net/finance)
 - [An Alternative to QuickBooks](http://goykhman.ca/gene/blog/2012/2012-09-23-an-alternative-to-quickbooks.html) 2012
 - [The accounting quest: Ledger](http://lwn.net/Articles/501681/) 2012
-- [Fabrice Niessen on Ledger, hledger, beancount](http://www.mygooglest.com/fni/ledger.html) 2010
 - [Ledger, the bran muffin of accounting tools](http://archive09.linux.com/feature/58307) 2006
 
 ### blog posts
