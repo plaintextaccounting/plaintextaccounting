@@ -146,9 +146,11 @@ Fill out and submit tax forms with another tool, or by hand.
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals
 - [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions
 - [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return over time
+- [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive helper for making charts with gnuplot
 
 ##### data import
 
+- [beancount-import](https://github.com/jbms/beancount-import) CSV to beancount converter (curses)
 - [icsvledger](https://launchpad.net/csv2ledger) CSV to journal converter
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to journal conversion, deduplication
 - [qb2ledger](https://gist.github.com/genegoykhman/3765100) QuickBooks General Journal CSV to journal converter
@@ -177,6 +179,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) curses UI for data entry
 - [hledger-ui](http://hackage.haskell.org/package/hledger-ui) curses UI for browsing
   ([demo](https://asciinema.org/a/29665))
+- [ledger-add](https://github.com/Tagirijus/ledger-add) interactive console UI for data entry
 
 ##### UI, GUI
 
@@ -191,6 +194,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [hledger-web on Sandstorm](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90) free private web instances in a few clicks
 - [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing, data entry
 - [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing
+- [node-hledger](https://github.com/rstacruz/node-hledger) javascript API for *ledger data
 
 </div>
 <div class="five columns u-pull-right">
@@ -199,6 +203,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [Ledger manuals](http://ledger-cli.org/docs.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
+- [The Great Cheatsheet for Ledger CLI](http://ricostacruz.com/cheatsheets/ledger.html)
 - [hledger docs](http://hledger.org)
 - [Beancount docs](http://furius.ca/beancount/doc/index)
 - [General accounting docs](http://hledger.org/more-docs.html#accounting)
@@ -233,6 +238,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ### blog posts
 
+- [Finding duplicate accounts in Hledger journals](http://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html) 2015
 - [Matthew Turland: Ledger basics and habits](http://matthewturland.com/2014/03/29/ledger-basics-and-habits/) 2014
 - [Simon Michael: What is hledger ?](http://joyful.com/blog/2013-10-20-what-is-hledger.html) 2013
 - [Simon Michael: More on ledger](http://joyful.com/blog/2013-10-19-more-on-ledger.html) 2013
@@ -266,25 +272,34 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### forecasting
 
+- [Notes on Installing and Using ledger on NetBSD](http://atomicules.co.uk/2015/06/20/Notes-on-installing-and-using-Ledger-on-NetBSD.html) (and forecasting)
+
 ##### budgetting
 
+- [Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
 - [YNAB-ish envelope budgetting with hledger/ledger](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
 
 ##### shared expenses
+
+- [Sharing Expenses in Beancount](https://docs.google.com/document/d/1FRcJqUfeAMQO6KjG94w6rF7VajMGJaFplmF1Wu0rCHY/edit#heading=h.yshh8f17jbdb) (and others)
 
 ##### invoicing
 
 - [invoicing entries](https://gist.github.com/simonmichael/986a65106a9db1f8bd68)
 
+##### multiple currencies
+
+- [ledger-currencies](https://github.com/mikekchar/ledger-currencies)
+
 ##### tax reporting
 
 ##### time tracking
 
-- [Timetracking and billing with (h)ledger](https://github.com/anarcat/ledger-timetracking) 2016
+- [Timetracking and billing with (h)ledger](https://github.com/anarcat/ledger-timetracking)
 
 ##### non-profit accounting
 
-- [Non-Profit Accounting With Ledger CLI, A Tutorial](https://github.com/conservancy/npo-ledger-cli/blob/master/npo-ledger-cli-tutorial.md) 2013
+- [Non-Profit Accounting With Ledger CLI, A Tutorial](https://github.com/conservancy/npo-ledger-cli/blob/master/npo-ledger-cli-tutorial.md)
 
 ##### import and export
 
@@ -294,11 +309,17 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) Python + CLI
 
-- [hledger-lib](http://hackage.haskell.org/package/hledger-lib), [hledger](http://hackage.haskell.org/package/hledger) Haskell
+- [hledger-lib](http://hackage.haskell.org/package/hledger-lib),
+  [hledger](http://hackage.haskell.org/package/hledger),
+  [example](http://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html)
+  Haskell
 
 - [hledger-api](http://editor.swagger.io/#/?import=demo.hledger.org/api/swagger.json&no-proxy),
   [examples](https://github.com/simonmichael/hledger/tree/master/hledger-api/examples)
   JSON
+
+- [node-hledger](https://github.com/rstacruz/node-hledger) JavaScript + CLI
+
 
 </div>
 
