@@ -176,9 +176,9 @@ Fill out and submit tax forms with another tool, or by hand.
 - [fava](https://github.com/aumayr/beancount-web) web UI for browsing beancount data
 - [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API for *ledger data, can also serve static files
 - [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for browsing, data entry
+- [hledger-web on Sandstorm](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90) free private web instances in a few clicks
 - [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing, data entry
 - [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing
-- sandstorm.io web app hosting, eg for [hledger-web](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90)
 
 </div>
 <div class="five columns u-pull-right">
@@ -187,11 +187,54 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [Ledger manuals](http://ledger-cli.org/docs.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
-- ["Getting Started With Ledger" book](https://github.com/rolfschr/GSWL-book)
-- [hledger docs](http://hledger.org), [more docs](http://hledger.org/more-docs.html)
+- [hledger docs](http://hledger.org)
 - [Beancount docs](http://furius.ca/beancount/doc/index)
-<!-- - [Abandon wiki](https://github.com/hrj/abandon/wiki) -->
+- [General accounting docs](http://hledger.org/more-docs.html#accounting)
+
+### online books
+
+- [Getting Started With Ledger](https://github.com/rolfschr/GSWL-book/releases/latest) 2016
+
+### videos
+
+- [FLOSS Weekly 375: hledger](https://twit.tv/shows/floss-weekly/episodes/375) 2016
+- [FLOSS Weekly 150: Ledger](https://twit.tv/shows/floss-weekly/episodes/150) 2011
+
+### presentations
+
+- [Ledger CLI Accounting for Geeks](http://blog.loadingdata.nl/accounting-for-geeks/) 2014
+- [Hacking Your Finances for Fun and Profit](http://matthewturland.com/slides/ledger-stats/) 2013
+- [Ledger and Text based Accounting](http://www.adamsinfoserv.com/AISTWiki/pub/AIS/Presentations/Ledger.pdf) 2009
+
+### articles
+
+- [The accounting quest: Ledger](http://lwn.net/Articles/501681/) 2012
+- [Fabrice Niessen on Ledger, hledger, beancount](http://www.mygooglest.com/fni/ledger.html) 2010
+- [Ledger, the bran muffin of accounting tools](http://archive09.linux.com/feature/58307) 2006
+
+### blog posts
+
+- [Matthew Turland: Ledger basics and habits](http://matthewturland.com/2014/03/29/ledger-basics-and-habits/) 2014
+- [Simon Michael: What is hledger ?](http://joyful.com/blog/2013-10-20-what-is-hledger.html) 2013
+- [Simon Michael: More on ledger](http://joyful.com/blog/2013-10-19-more-on-ledger.html) 2013
+- [Simon Michael: Introducing hledger!](http://joyful.com/blog/2013-10-18-introducing-hledger.html) 2013
+- [Joey Hess: hledger](http://joeyh.name/blog/entry/hledger) 2012
+- [Sascha Welter: Doing my own accounting](http://betabug.ch/blogs/ch-athens/1221) 2011
+- [Clint Adams: Accounting at SFLC](http://www.softwarefreedom.org/blog/2011/sep/07/accounting-at-sflc/) 2011
+- [Christine Spang: [h]ledger rocks my world](http://blog.spang.cc/posts/hledger_rocks_my_world/) 2010
+- [Roman Cheplyaka: hledger](http://ro-che.blogspot.com/2010/02/hledger.html) 2010
+  
+### hacker news
+
+- [Hledger – Double-entry accounting from the Unix tools perspective (2012)](https://news.ycombinator.com/item?id=8806056) 2014
+- [Ledger, a powerful CLI accounting tool](https://news.ycombinator.com/item?id=7707262) 2014
+- [Command Line Accounting With Ledger and Reckon](https://news.ycombinator.com/item?id=5233255) 2013
+- [Ledger: Command-line double-entry accounting](https://news.ycombinator.com/item?id=872244) 2009
+
+### twitter
+
 - [\@LedgerTips](https://twitter.com/LedgerTips)
+- [#ledgercli](https://twitter.com/hashtag/ledgercli)
 
 ### common tasks
 
@@ -211,11 +254,13 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### time tracking
 
-- [on integrating timelog and journal](https://github.com/anarcat/ledger-timetracking)
+- [Timetracking and billing with (h)ledger](https://github.com/anarcat/ledger-timetracking) 2016
+
+##### non-profit accounting
+
+- [Non-Profit Accounting With Ledger CLI, A Tutorial](https://github.com/conservancy/npo-ledger-cli/blob/master/npo-ledger-cli-tutorial.md) 2013
 
 ##### import and export
-
-#####
 
 </div>
 
