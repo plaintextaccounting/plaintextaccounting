@@ -1,0 +1,10 @@
+strong > a, strong > a:hover {
+    text-decoration:none;
+    color:black;
+}
+
+/*
+li {
+    margin-bottom:0;
+}
+*/
