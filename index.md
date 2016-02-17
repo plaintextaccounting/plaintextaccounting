@@ -150,6 +150,7 @@ Fill out and submit tax forms with another tool, or by hand.
 ##### editing
 
 - [ledger-mode](http://ledger-cli.org/3.0/doc/ledger-mode.html) for Emacs
+- [hledger-mode](https://github.com/narendraj9/dotfiles/tree/master/.emacs.d/packages/rest/hledger-mode) another mode for Emacs, difference unknown
 - [vim-ledger](https://github.com/ledger/vim-ledger) for VIM
 - [language-ledger](https://atom.io/packages/language-ledger) for Atom
 - [ledger](https://atom.io/packages/ledger) for Atom
@@ -166,6 +167,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) curses UI for data entry
 - [hledger-ui](http://hackage.haskell.org/package/hledger-ui) curses UI for browsing
+  ([demo](https://asciinema.org/a/29665))
 
 ##### UI, GUI
 
@@ -176,6 +178,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [fava](https://github.com/aumayr/beancount-web) web UI for browsing beancount data
 - [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API for *ledger data, can also serve static files
 - [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for browsing, data entry
+  ([demo](http://demo.hledger.org))
 - [hledger-web on Sandstorm](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90) free private web instances in a few clicks
 - [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing, data entry
 - [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing
