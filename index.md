@@ -70,20 +70,24 @@ This simple model makes them easy to understand and rely on.
 
 ### questions ?
 
-**is there no graphical user interface ? is this only for text fanatics ?**\
+**is there no graphical user interface ? Must I use the command line ?**\
 Not entirely! Just a bit. Decreasingly. **[GUIs](#ui-console)** are appearing.
 
-**who is this for&nbsp;?**\
+**who is this for ?**\
 Techies, power users, and do-it-yourself-ers, for now.
 If you need a rich GUI providing lots of structure, you may prefer to use something else.
 
-**what are the alternatives&nbsp;?**\
-FOSS tools like GNUCash, Grisbi, KMyMoney,
-proprietary tools like Quicken/Quickbooks, You Need A Budget,
-online tools like Xero, FreeAgent,
-spreadsheets,
-paper accounting.
+**who is using it, and how ?**\
+See **[Who's using Ledger?](https://github.com/ledger/ledger/wiki/Who's-using-ledger%3F)** for some stories.
+
+**what are the alternatives ?**\
+FOSS tools like GNUCash, Grisbi, KMyMoney.
+Proprietary tools like Quicken/Quickbooks, You Need A Budget.
+Online tools like Xero, FreeAgent.
 (There are **[many](https://en.wikipedia.org/wiki/Comparison_of_accounting_software)**).
+Spreadsheets.
+Paper accounting.
+A bookkeeper.
 
 **why is this better than QuickBooks&nbsp;?**\
 Your data remains accessible.
