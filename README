@@ -14,12 +14,25 @@ A. drop link suggestions etc. on the etherpad linked in the site footer
 B. fork the github repo, submit a pull request
 C. regular contributors can request commit access
 
-Before committing, rebuild the HTML:
+Before committing, rebuild the HTML (requires pandoc):
 
 $ make
 
 and include it in your commit.
 
-To run make on each change, install fswatch and:
+To rebuild on each file change (requires fswatch):
 
 $ make watch
+
+To rebuild and reload the browser page on file change,
+
+Method 1 (requires livereloadx):
+
+$ make watch
+in another window:
+$ npm install -g livereloadx
+$ make livereload
+visit http://localhost:35729
+
+Method 2 (requires LiveReload):
+add the site folder in the LiveReload GUI, configure custom command "make", ?
