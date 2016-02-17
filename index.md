@@ -198,16 +198,22 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [Getting Started With Ledger](https://github.com/rolfschr/GSWL-book/releases/latest) 2016
 
-### videos
-
-- [FLOSS Weekly 375: hledger](https://twit.tv/shows/floss-weekly/episodes/375) 2016
-- [FLOSS Weekly 150: Ledger](https://twit.tv/shows/floss-weekly/episodes/150) 2011
-
 ### presentations
 
 - [Ledger CLI Accounting for Geeks](http://blog.loadingdata.nl/accounting-for-geeks/) 2014
 - [Hacking Your Finances for Fun and Profit](http://matthewturland.com/slides/ledger-stats/) 2013
 - [Ledger and Text based Accounting](http://www.adamsinfoserv.com/AISTWiki/pub/AIS/Presentations/Ledger.pdf) 2009
+
+### videos
+
+- [FLOSS Weekly 375: hledger](https://twit.tv/shows/floss-weekly/episodes/375)
+  ([youtube](https://www.youtube.com/watch?v=Xjl-wVJcYpE),
+  [3m overview](https://www.youtube.com/watch?v=qS2UcDV_lbs))
+  2016
+- [Evolution of ledger](https://www.youtube.com/watch?v=MGu1Bw2USQo) 2015
+- [Evolution of hledger](https://www.youtube.com/watch?v=dEADGr9dqow) 2015
+- [FLOSS Weekly 150: Ledger](https://twit.tv/shows/floss-weekly/episodes/150)
+  ([youtube](https://www.youtube.com/watch?v=TDqrrH-gTt0)) 2011
 
 ### articles
 
@@ -229,6 +235,7 @@ Fill out and submit tax forms with another tool, or by hand.
   
 ### hacker news
 
+- [Ledger, a command-line accounting system](https://news.ycombinator.com/item?id=10510394) 2015
 - [Hledger – Double-entry accounting from the Unix tools perspective (2012)](https://news.ycombinator.com/item?id=8806056) 2014
 - [Ledger, a powerful CLI accounting tool](https://news.ycombinator.com/item?id=7707262) 2014
 - [Command Line Accounting With Ledger and Reckon](https://news.ycombinator.com/item?id=5233255) 2013
