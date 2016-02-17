@@ -9,62 +9,81 @@
 
 ### accounting
 
-**accounting** is tracking the flow of valuable commodities, such as money or time.
+**[accounting](https://en.wikipedia.org/wiki/Accounting)** is tracking the flow of valuable commodities, such as money or time.
 It clarifies activity, priorities, obligations, opportunities.
-It can reduce stress and even be enjoyable.
+It can **[reduce stress](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)** and even be enjoyable.
 
-**double-entry bookkeeping** is a process for doing this reliably.
-For every movement of value (a **transaction**), both the source and destination are recorded.
+**[double-entry bookkeeping](https://en.wikipedia.org/wiki/Double-entry_bookkeeping_system)** is a process for doing this reliably.
+For every movement of value (a **[transaction](https://en.wikipedia.org/wiki/Financial_transaction)**), both the source and destination are recorded.
 Simple arithmetic invariants help prevent errors.
 
-In traditional double-entry bookkeeping, value at any point in time is tracked in various **accounts**, classified as
-**asset** (owned), **liability** (owed) or **equity** (invested).
-Two more classifications track changes during some period: **revenues** (inflows) and **expenses** (outflows).
+In traditional double-entry bookkeeping, value at any point in time is tracked in various **[accounts](https://en.wikipedia.org/wiki/Account_(accountancy))**, classified as
+**[asset](https://en.wikipedia.org/wiki/Asset)** (owned),
+**[liability](https://en.wikipedia.org/wiki/Liability_(financial_accounting))** (owed)
+or **[equity](https://en.wikipedia.org/wiki/Equity_(finance))** (invested).
+Two more classifications track changes during some period:
+**[revenues](https://en.wikipedia.org/wiki/Revenue)** (inflows)
+and **[expenses](https://en.wikipedia.org/wiki/Expense)** (outflows).
 
-Transactions consist of **debits** (increases to asset or expense
-accounts, or decreases to liability or equity accounts) or **credits**
-(decreases to asset or expense accounts, or increases to liability or
-equity accounts).
+Transactions consist of
+**[debits](https://en.wikipedia.org/wiki/Debits_and_credits)** (increases to asset or expense accounts, or decreases to liability or equity accounts) or
+**[credits](https://en.wikipedia.org/wiki/Debits_and_credits)** (decreases to asset or expense accounts, or increases to liability or equity accounts).
 
 </div>
 <div class="four columns">
 
 ### … with text
 
-**Ledger** and the other **Ledger-likes** inspired by it are minimalist software tools for efficient double-entry accounting.
+**[Ledger](#ledger-likes)** and the other **[Ledger-likes](#ledger-likes)** inspired by it
+are minimalist software tools for efficient double-entry accounting.
 This site introduces them and their way of doing things.
 
 Accounting data is valuable;
 we want to know that it will be accessible for ever - even without software.
 We want to know when it changes, and revision-control it.
 We want to search and manipulate it efficiently.
-So, we store it as human-readable **plain text**.
+So, we store it as human-readable **[plain](http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry) [text](http://hledger.org/manual.html#journal)**.
 
-We simplify debits and credits by using **signed numbers** instead -
+We simplify debits and credits by using
+**[signed numbers](http://ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes)** instead -
 positive for inflows to an account, negative for outflows from an account.
 
-We define arbitrary **account hierarchy** to suit our needs.
+We define arbitrary
+**[account](http://ledger-cli.org/3.0/doc/ledger3.html#Structuring-your-Accounts)
+[hierarchy](http://hledger.org/manual.html#account-names)**
+to suit our needs.
 This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail.
 
-Ledger-likes are, at least in part, **command-line** tools.
-This makes them efficient to use and very **scriptable** and flexible.
+Ledger-likes are, at least in part,
+**[command-line](http://ledger-cli.org/3.0/doc/ledger3.html#Basic-Usage) [tools](http://hledger.org/manual.html#usage)**.
+This makes them efficient to use and very
+**[scriptable](#related-tools)** and flexible.
 
-Ledger-likes also, at their core, tend towards **functional operation**:
+Ledger-likes also, at their core, tend towards
+**[functional operation](https://en.wikipedia.org/wiki/Function_(mathematics))**:
 they read the input data without changing it, and output a report.
-This simplicity makes them easy to understand and rely on.
+This simple model makes them easy to understand and rely on.
 
 </div>
 <div class="three columns">
 
 ### questions ?
 
+**do I really have to use only text ?**\
+No! Not entirely. Just a bit. Decreasingly. **[GUIs](#ui-console)** are appearing.
+
 **who is this for&nbsp;?**\
-Techies, power users, and do-it-yourself-ers,
-at least for now.
-If you need a rich GUI and lots of structure, you may prefer a more traditional GUI tool.
+Techies, power users, and do-it-yourself-ers willing to use a
+**[text editor](https://en.wikipedia.org/wiki/Text_editor)**, for now.
+If you need a rich GUI and lots of structure, you may prefer a traditional GUI tool.
 
 **what are the alternatives&nbsp;?**\
-GNUCash, Grisbi, KMyMoney or other FOSS tools, proprietary tools like Quicken/Quickbooks, online tools like Xero, spreadsheets, paper accounting.
+FOSS tools like GNUCash, Grisbi, KMyMoney,
+proprietary tools like Quicken/Quickbooks, You Need A Budget,
+online tools like Xero, FreeAgent,
+spreadsheets,
+paper accounting.
+(There are **[many](https://en.wikipedia.org/wiki/Comparison_of_accounting_software)**).
 
 **why is this better than QuickBooks&nbsp;?**\
 Your data remains accessible.
