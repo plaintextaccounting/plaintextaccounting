@@ -219,6 +219,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ### articles
 
+- [An Alternative to QuickBooks](http://goykhman.ca/gene/blog/2012/2012-09-23-an-alternative-to-quickbooks.html) 2012
 - [The accounting quest: Ledger](http://lwn.net/Articles/501681/) 2012
 - [Fabrice Niessen on Ledger, hledger, beancount](http://www.mygooglest.com/fni/ledger.html) 2010
 - [Ledger, the bran muffin of accounting tools](http://archive09.linux.com/feature/58307) 2006
@@ -259,6 +260,8 @@ Fill out and submit tax forms with another tool, or by hand.
 ##### forecasting
 
 ##### budgetting
+
+- [YNAB-ish envelope budgetting with hledger/ledger](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
 
 ##### shared expenses
 
