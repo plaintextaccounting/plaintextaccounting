@@ -1,7 +1,7 @@
 <!-- CSS: http://getskeleton.com -->
 <!-- markdown: http://pandoc.org/README.html -->
 
-<div class="row" style="padding-top: 15%">
+<div class="row" style="padding-top:20%;">
 
 <h1 style="text-align:center; margin-bottom:5%;">Plain Text Accounting</h1>
 
@@ -116,7 +116,7 @@ Fill out and submit tax forms with another tool, or by hand.
 </div>
 
 </div>
-<div class="row">
+<div class="row" style="padding-top:5%;">
 
 <div class="seven columns">
 
