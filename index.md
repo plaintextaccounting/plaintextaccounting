@@ -150,7 +150,8 @@ Fill out and submit tax forms with another tool, or by hand.
 ##### data import
 
 - [icsvledger](https://launchpad.net/csv2ledger) CSV to journal converter
-- [ledger-autosync](https://gitlab.com/egh/ledger-autosync) convert OFX to journal, deduplication, bank download
+- [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to journal conversion, deduplication
+- [qb2ledger](https://gist.github.com/genegoykhman/3765100) QuickBooks General Journal CSV to journal converter
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to journal converter
 
 ##### editor support
@@ -168,8 +169,8 @@ Fill out and submit tax forms with another tool, or by hand.
 ##### time tracking
 
 - [org2tc](https://github.com/jwiegley/org2tc) org to timeclock converter
-- [taskwarrior](http://taskwarrior.org) todo list manager, some *ledger integration for time reporting
-- [tim](https://github.com/MatthiasKauer/tim) time tracking tool using hledger for reports
+- [on-modify.timetrack.py](https://gist.github.com/wbsch/d977b0ac29aa1dfa4437) taskwarrior hook for timeclock output
+- [tim](https://github.com/MatthiasKauer/tim) time tracking tool using hledger for reporting
 
 ##### UI, console
 
@@ -271,6 +272,10 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### shared expenses
 
+##### invoicing
+
+- [invoicing entries](https://gist.github.com/simonmichael/986a65106a9db1f8bd68)
+
 ##### tax reporting
 
 ##### time tracking
@@ -282,6 +287,18 @@ Fill out and submit tax forms with another tool, or by hand.
 - [Non-Profit Accounting With Ledger CLI, A Tutorial](https://github.com/conservancy/npo-ledger-cli/blob/master/npo-ledger-cli-tutorial.md) 2013
 
 ##### import and export
+
+##### API access
+
+- [Ledger Python 3 Support](https://groups.google.com/forum/#!topic/ledger-cli/C99w-79Jq8o) Python
+
+- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) Python + CLI
+
+- [hledger-lib](http://hackage.haskell.org/package/hledger-lib), [hledger](http://hackage.haskell.org/package/hledger) Haskell
+
+- [hledger-api](http://editor.swagger.io/#/?import=demo.hledger.org/api/swagger.json&no-proxy),
+  [examples](https://github.com/simonmichael/hledger/tree/master/hledger-api/examples)
+  JSON
 
 </div>
 
