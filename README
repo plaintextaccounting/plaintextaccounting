@@ -1,13 +1,17 @@
 The plaintextaccounting.org website.
 An informative portal for Ledger, hledger, beancount, and the other ledger-likes.
 
+The repo is named plaintextaccounting.github.io to make it the Github
+Pages site for the plaintextaccounting organization, so that it can be
+served with a custom domain.
+
 Contributing
 ------------
 
 Several ways to contribute changes:
 
 A. drop link suggestions etc. on the etherpad linked in the site footer
-B. fork the github repo linked in the footer, submit a pull request
+B. fork the github repo, submit a pull request
 C. regular contributors can request commit access
 
 Before committing, rebuild the HTML:
