@@ -34,7 +34,7 @@ Transactions consist of
 
 ### … with text
 
-**[Ledger](#ledger-likes)** and the other **[Ledger-likes](#ledger-likes)** inspired by it
+Ledger, hledger, beancount, and other **[Ledger-likes](#ledger-likes)**
 are minimalist software tools for efficient double-entry-style accounting.
 <!-- **[double-entry-style](https://news.ycombinator.com/item?id=10512418)** accounting. -->
 This site introduces them and their way of doing things.
