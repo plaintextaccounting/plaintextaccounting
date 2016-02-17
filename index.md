@@ -71,7 +71,9 @@ This simple model makes them easy to understand and rely on.
 ### questions ?
 
 **is there no graphical user interface ? Must I use the command line ?**\
-Not entirely! Just a bit. Decreasingly. **[GUIs](#ui-console)** are appearing.
+Not entirely! A bit. Decreasingly.
+"Plain Text Accounting" is a broad description, referring mainly to the data format.
+**[GUIs](#ui-console)** are appearing.
 
 **who is this for ?**\
 Techies, power users, and do-it-yourself-ers, for now.
