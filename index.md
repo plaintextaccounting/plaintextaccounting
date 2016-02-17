@@ -70,13 +70,12 @@ This simple model makes them easy to understand and rely on.
 
 ### questions ?
 
-**do I really have to use only text ?**\
-No! Not entirely. Just a bit. Decreasingly. **[GUIs](#ui-console)** are appearing.
+**is there no graphical user interface ? is this only for text fanatics ?**\
+Not entirely! Just a bit. Decreasingly. **[GUIs](#ui-console)** are appearing.
 
 **who is this for&nbsp;?**\
-Techies, power users, and do-it-yourself-ers willing to use a
-**[text editor](https://en.wikipedia.org/wiki/Text_editor)**, for now.
-If you need a rich GUI and lots of structure, you may prefer a traditional GUI tool.
+Techies, power users, and do-it-yourself-ers, for now.
+If you need a rich GUI providing lots of structure, you may prefer to use something else.
 
 **what are the alternatives&nbsp;?**\
 FOSS tools like GNUCash, Grisbi, KMyMoney,
