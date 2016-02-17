@@ -5,7 +5,7 @@
 
 <h1 style="text-align:center; margin-bottom:5%;">Plain Text Accounting</h1>
 
-<div class="four columns">
+<div class="three columns">
 
 ### accounting
 
@@ -66,7 +66,7 @@ they read the input data without changing it, and output a report.
 This simple model makes them easy to understand and rely on.
 
 </div>
-<div class="three columns">
+<div class="four columns">
 
 ### questions ?
 
