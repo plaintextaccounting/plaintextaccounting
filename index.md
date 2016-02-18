@@ -134,7 +134,7 @@ Fill out and submit tax forms with another tool, or by hand.
 |
 |----------------------------------------------------|---------------------------------------------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------:
 | Project, start&nbsp;date                           | Code, committers                                                                                               | Mail list, size                                                                                                                           | IRC, size
-| [Ledger](http://ledger-cli.org) <br>2003           | [C++](https://github.com/ledger/ledger)          101 <!-- ([openhub](https://www.openhub.net/p/ledger)) -->    | [ledger-cli](http://list.ledger-cli.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.general)) -->                  650 | [#ledger](http://webchat.freenode.net/?channels=ledger&randomnick=1)        70
+| [Ledger](http://ledger-cli.org) <br>2003           | [C++](https://github.com/ledger/ledger)          101 <!-- ([openhub](https://www.openhub.net/p/ledger)) -->    | [ledger-cli](http://list.ledger-cli.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.general)) -->                  650 | [#ledger](http://webchat.freenode.net/?channels=ledger&randomnick=1)        75
 | [hledger](http://hledger.org) <br>2007             | [Haskell](http://code.hledger.org)                30 <!-- ([openhub](https://www.openhub.net/p/hledger)) -->   | [hledger](http://list.hledger.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.hledger)) -->                         75 | [#hledger](http://webchat.freenode.net/?channels=hledger&randomnick=1)      25
 | [Beancount](http://furius.ca/beancount) <br>2008   | [Python](http://bitbucket.org/blais/beancount/)    8 <!-- ([openhub](https://www.openhub.net/p/beancount)) --> | [beancount](https://groups.google.com/forum/#!forum/beancount) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.beancount)) -->   70 | [#beancount](http://webchat.freenode.net/?channels=beancount&randomnick=1)   5
 | Abandon <br>2013                                   | [Scala](https://github.com/hrj/abandon)            5 <!-- ([openhub](https://www.openhub.net/p/abandon)) -->   |                                                                                                                                           |
@@ -235,13 +235,13 @@ Fill out and submit tax forms with another tool, or by hand.
 ### concepts
 
 - [General accounting docs](http://hledger.org/more-docs.html#accounting)
-- [Ledger vs accounting](http://thread.gmane.org/gmane.comp.finance.ledger.general/7398/focus=7417) 2015
+- [account structure (Ledger vs accounting)](http://thread.gmane.org/gmane.comp.finance.ledger.general/7398/focus=7417) 2015
 
 ### comparisons
 
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
 - [Martin Blais: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg/edit?pli=1#heading=h.2ax1dztqboy7) 2014
-- [ledger-cli: ledger vs hledger vs beancount or how to choose the right cli client](http://thread.gmane.org/gmane.comp.finance.ledger.general/6563) 2014
+- [ledger vs hledger vs beancount or how to choose the right cli client](http://thread.gmane.org/gmane.comp.finance.ledger.general/6563) 2014
 - [Simon Michael: hledger & Ledger](http://hledger.org/faq.html#hledger-ledger) 2014
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
 - [Fabrice Niessen: Why Ledger?](http://www.mygooglest.com/fni/ledger.html) 2010
