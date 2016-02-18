@@ -144,7 +144,7 @@ Fill out and submit tax forms with another tool, or by hand.
 | cl-ledger                                     | [Common Lisp](https://github.com/ledger/cl-ledger)
 | ledger.pl                                     | [Perl](https://github.com/dimonf/ledger.pl)
 | [Penny](http://massysett.github.io/penny/)    | [Haskell](https://github.com/massysett/penny)
-| sm-Ledger                                     | [Squeak](https://gist.github.com/simonmichael/bb611dba654ccb1573e1)
+| sm-Ledger                                     | [Squeak Smalltalk](https://gist.github.com/simonmichael/bb611dba654ccb1573e1)
 | [UMM](http://hackage.haskell.org/package/UMM) | Haskell
 
 <!-- [compare](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
@@ -154,13 +154,13 @@ Fill out and submit tax forms with another tool, or by hand.
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals
 - [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions
 - [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return over time
-- [hledger-vagrant](https://t.co/LmdG6GPmma) how to install hledger as a virtual machine
 - [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices
 - [ledger-tutorials](https://github.com/tlvince/ledger-tutorials) convert Pete Keen's tutorials to ebook format
 
 ##### data import
 
 - [beancount-import](https://github.com/jbms/beancount-import) CSV to beancount converter (curses)
+- [gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) GNUCash to *ledger conversion
 - [icsvledger](https://launchpad.net/csv2ledger) CSV to *ledger converter
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to *ledger conversion, deduplication
 - [ledgerhub](http://furius.ca/ledgerhub/) fetch prices, extract entries, convert various formats to beancount (? deprecated)
@@ -190,20 +190,22 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [bean-add](https://github.com/simon-v/bean-add) interactive transaction entry
 - [hledger add](http://hledger.org/manual.html#add) interactive transaction entry (built-in command)
-- [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) curses UI for transaction entry
-- [hledger-ui](http://hackage.haskell.org/package/hledger-ui) curses UI for browsing
   ([demo](https://asciinema.org/a/29665))
 - [ledger-add](https://github.com/Tagirijus/ledger-add) interactive transaction entry
-- [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive helper for making charts with gnuplot
+- [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive helper for making charts with GNUplot
+
+##### UI, curses
+
+- [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) curses UI for transaction entry
+- [hledger-ui](http://hackage.haskell.org/package/hledger-ui) curses UI for browsing
 
 ##### UI, GUI
 
-- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) GUI tools and python library front end for Ledger
+- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) GTK GUI tools + python library for driving Ledger
 
 ##### UI, web
 
 - [fava](https://github.com/aumayr/beancount-web) web UI for browsing (Python, beancount)
-- [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API + static file server (Haskell)
 - [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for browsing, data entry
   (Haskell, [demo](http://demo.hledger.org))
 - [hledger-web on Sandstorm](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90) free web instances in a few clicks
@@ -214,6 +216,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### API
 
+- [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API + static file server (Haskell)
 - [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API (JavaScript)
 
 </div>
@@ -238,7 +241,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
 - [Martin Blais: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg/edit?pli=1#heading=h.2ax1dztqboy7) 2014
 - [ledger-cli: ledger vs hledger vs beancount or how to choose the right cli client](http://thread.gmane.org/gmane.comp.finance.ledger.general/6563) 2014
-- [Simon Michael: hledger & Ledger](http://hledger.org/faq.html#hledger-ledger)
+- [Simon Michael: hledger & Ledger](http://hledger.org/faq.html#hledger-ledger) 2014
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
 - [Fabrice Niessen: Why Ledger?](http://www.mygooglest.com/fni/ledger.html) 2010
 
@@ -298,6 +301,12 @@ Fill out and submit tax forms with another tool, or by hand.
 - [#ledgercli](https://twitter.com/hashtag/ledgercli)
 
 ### common tasks
+
+##### choosing accounts
+
+- [sample chart of accounts (freelancer)](https://gist.github.com/simonmichael/9936299)
+- [Beancount Cookbook: Account Naming Conventions](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk/view#heading=h.tu0f1kydrpgn)
+- [Mint: Ways to Categorize Your Spending](https://www.mint.com/mint-categories)
 
 ##### data entry
 

@@ -144,7 +144,7 @@ You can use this to track and report the data needed for tax reporting. Fill out
 </tr>
 <tr class="even">
 <td align="left">sm-Ledger</td>
-<td align="left"><a href="https://gist.github.com/simonmichael/bb611dba654ccb1573e1">Squeak</a></td>
+<td align="left"><a href="https://gist.github.com/simonmichael/bb611dba654ccb1573e1">Squeak Smalltalk</a></td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="http://hackage.haskell.org/package/UMM">UMM</a></td>
@@ -158,13 +158,13 @@ You can use this to track and report the data needed for tax reporting. Fill out
 <li><a href="http://hackage.haskell.org/package/hledger-diff">hledger-diff</a> report differing transactions between two journals</li>
 <li><a href="http://hackage.haskell.org/package/hledger-interest">hledger-interest</a> generate *ledger interest transactions</li>
 <li><a href="http://hackage.haskell.org/package/hledger-irr">hledger-irr</a> calculate an account's internal rate of return over time</li>
-<li><a href="https://t.co/LmdG6GPmma">hledger-vagrant</a> how to install hledger as a virtual machine</li>
 <li><a href="https://github.com/nathankot/ledger-get-prices">ledger-get-prices</a> download market prices</li>
 <li><a href="https://github.com/tlvince/ledger-tutorials">ledger-tutorials</a> convert Pete Keen's tutorials to ebook format</li>
 </ul>
 <h5 id="data-import">data import</h5>
 <ul>
 <li><a href="https://github.com/jbms/beancount-import">beancount-import</a> CSV to beancount converter (curses)</li>
+<li><a href="https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py">gnucash2ledger.py</a> GNUCash to *ledger conversion</li>
 <li><a href="https://launchpad.net/csv2ledger">icsvledger</a> CSV to *ledger converter</li>
 <li><a href="https://gitlab.com/egh/ledger-autosync">ledger-autosync</a> OFX download, OFX to *ledger conversion, deduplication</li>
 <li><a href="http://furius.ca/ledgerhub/">ledgerhub</a> fetch prices, extract entries, convert various formats to beancount (? deprecated)</li>
@@ -193,20 +193,22 @@ You can use this to track and report the data needed for tax reporting. Fill out
 <h5 id="ui-console">UI, console</h5>
 <ul>
 <li><a href="https://github.com/simon-v/bean-add">bean-add</a> interactive transaction entry</li>
-<li><a href="http://hledger.org/manual.html#add">hledger add</a> interactive transaction entry (built-in command)</li>
-<li><a href="https://github.com/hpdeifel/hledger-iadd">hledger-iadd</a> curses UI for transaction entry</li>
-<li><a href="http://hackage.haskell.org/package/hledger-ui">hledger-ui</a> curses UI for browsing (<a href="https://asciinema.org/a/29665">demo</a>)</li>
+<li><a href="http://hledger.org/manual.html#add">hledger add</a> interactive transaction entry (built-in command) (<a href="https://asciinema.org/a/29665">demo</a>)</li>
 <li><a href="https://github.com/Tagirijus/ledger-add">ledger-add</a> interactive transaction entry</li>
-<li><a href="https://github.com/Tagirijus/ledger-plot">ledger-plot</a> interactive helper for making charts with gnuplot</li>
+<li><a href="https://github.com/Tagirijus/ledger-plot">ledger-plot</a> interactive helper for making charts with GNUplot</li>
+</ul>
+<h5 id="ui-curses">UI, curses</h5>
+<ul>
+<li><a href="https://github.com/hpdeifel/hledger-iadd">hledger-iadd</a> curses UI for transaction entry</li>
+<li><a href="http://hackage.haskell.org/package/hledger-ui">hledger-ui</a> curses UI for browsing</li>
 </ul>
 <h5 id="ui-gui">UI, GUI</h5>
 <ul>
-<li><a href="https://github.com/Rudd-O/ledgerhelpers">ledgerhelpers</a> GUI tools and python library front end for Ledger</li>
+<li><a href="https://github.com/Rudd-O/ledgerhelpers">ledgerhelpers</a> GTK GUI tools + python library for driving Ledger</li>
 </ul>
 <h5 id="ui-web">UI, web</h5>
 <ul>
 <li><a href="https://github.com/aumayr/beancount-web">fava</a> web UI for browsing (Python, beancount)</li>
-<li><a href="https://github.com/simonmichael/hledger/tree/master/hledger-api">hledger-api</a> JSON API + static file server (Haskell)</li>
 <li><a href="http://hackage.haskell.org/package/hledger-web">hledger-web</a> web UI for browsing, data entry (Haskell, <a href="http://demo.hledger.org">demo</a>)</li>
 <li><a href="https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90">hledger-web on Sandstorm</a> free web instances in a few clicks</li>
 <li><a href="https://github.com/peterkeen/Ledger-Web">Ledger Web</a> web-based, postgres-backed reporting system</li>
@@ -216,6 +218,7 @@ You can use this to track and report the data needed for tax reporting. Fill out
 </ul>
 <h5 id="api">API</h5>
 <ul>
+<li><a href="https://github.com/simonmichael/hledger/tree/master/hledger-api">hledger-api</a> JSON API + static file server (Haskell)</li>
 <li><a href="https://github.com/rstacruz/node-hledger">node-hledger</a> Node.js API (JavaScript)</li>
 </ul>
 </div>
@@ -239,7 +242,7 @@ You can use this to track and report the data needed for tax reporting. Fill out
 <li><a href="http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/">Matthias Kauer: Command Line Accounting – A look at the various ledger ports</a> 2015</li>
 <li><a href="https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg/edit?pli=1#heading=h.2ax1dztqboy7">Martin Blais: A Comparison of Beancount and Ledger</a> 2014</li>
 <li><a href="http://thread.gmane.org/gmane.comp.finance.ledger.general/6563">ledger-cli: ledger vs hledger vs beancount or how to choose the right cli client</a> 2014</li>
-<li><a href="http://hledger.org/faq.html#hledger-ledger">Simon Michael: hledger &amp; Ledger</a></li>
+<li><a href="http://hledger.org/faq.html#hledger-ledger">Simon Michael: hledger &amp; Ledger</a> 2014</li>
 <li><a href="http://massysett.github.io/penny/why-penny.html">Omari Norman: Why Penny</a> 2013</li>
 <li><a href="http://www.mygooglest.com/fni/ledger.html">Fabrice Niessen: Why Ledger?</a> 2010</li>
 </ul>
@@ -294,6 +297,12 @@ You can use this to track and report the data needed for tax reporting. Fill out
 <li><a href="https://twitter.com/hashtag/ledgercli">#ledgercli</a></li>
 </ul>
 <h3 id="common-tasks">common tasks</h3>
+<h5 id="choosing-accounts">choosing accounts</h5>
+<ul>
+<li><a href="https://gist.github.com/simonmichael/9936299">sample chart of accounts (freelancer)</a></li>
+<li><a href="https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk/view#heading=h.tu0f1kydrpgn">Beancount Cookbook: Account Naming Conventions</a></li>
+<li><a href="https://www.mint.com/mint-categories">Mint: Ways to Categorize Your Spending</a></li>
+</ul>
 <h5 id="data-entry">data entry</h5>
 <h5 id="reconciling">reconciling</h5>
 <h5 id="reporting">reporting</h5>
