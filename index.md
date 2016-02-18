@@ -34,10 +34,17 @@ Transactions consist of
 
 ### … with text
 
-Ledger, hledger, beancount, and other **[Ledger-likes](#ledger-likes)**
-are minimalist software tools for efficient double-entry-style accounting.
-<!-- **[double-entry-style](https://news.ycombinator.com/item?id=10512418)** accounting. -->
-This site introduces them and their way of doing things.
+<!-- Ledger, hledger, beancount, and other **[Ledger-likes](#ledger-likes)** -->
+<!-- are minimalist software tools for efficient double-entry-style accounting. -->
+<!-- <\!-- **[double-entry-style](https://news.ycombinator.com/item?id=10512418)** accounting. -\-> -->
+<!-- This site introduces them and their way of doing things. -->
+
+In 2003, John Wiegley invented Ledger: a plain text data format and command-line reporting tool for efficient double-entry-style accounting.
+This idea went viral among software developers and technical folk, and we now have
+5+ actively-developed **[Ledger-likes](#ledger-likes)** such as hledger and Beancount,
+with 40+ add-on tools and an active community.
+This site was created in 2016 to introduce our
+tools, documentation, workflows and principles.
 
 Accounting data is valuable;
 we want to know that it will be accessible for ever - even without software.
