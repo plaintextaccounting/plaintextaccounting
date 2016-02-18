@@ -190,7 +190,6 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [bean-add](https://github.com/simon-v/bean-add) interactive transaction entry
 - [hledger add](http://hledger.org/manual.html#add) interactive transaction entry (built-in command)
-  ([demo](https://asciinema.org/a/29665))
 - [ledger-add](https://github.com/Tagirijus/ledger-add) interactive transaction entry
 - [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive helper for making charts with GNUplot
 
@@ -198,6 +197,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) curses UI for transaction entry
 - [hledger-ui](http://hackage.haskell.org/package/hledger-ui) curses UI for browsing
+  ([demo](https://asciinema.org/a/29665))
 
 ##### UI, GUI
 
