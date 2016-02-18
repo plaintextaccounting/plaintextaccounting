@@ -77,14 +77,14 @@ This simple model makes them easy to understand and rely on.
 
 ### questions ?
 
-**is there no graphical user interface ? Must I use the command line ?**\
-Not entirely! A bit. Decreasingly.
-"Plain Text Accounting" is a broad description, referring mainly to the data format.
-The **[GUIs](#ui-console)** are coming.
-
 **who is this for ?**\
 Techies, power users, and do-it-yourself-ers, for now.
-If you need a rich GUI providing lots of guidance, you may prefer to use something else.
+If you need a complete GUI providing lots of guidance, you may prefer to use something else.
+
+**must I edit text and type cryptic commands ?**\
+Not entirely!
+"Plain Text Accounting" is a broad description, referring mainly to the data format.
+We don't object to additional **[GUIs](#ui-console)**, and they are coming.
 
 **who is using it, and how ?**\
 See **[Who's using Ledger?](https://github.com/ledger/ledger/wiki/Who's-using-ledger%3F)** for some stories.
