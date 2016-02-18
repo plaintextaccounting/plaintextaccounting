@@ -130,24 +130,25 @@ Fill out and submit tax forms with another tool, or by hand.
 ### Ledger-likes
 
 <!-- http://pandoc.org/README.html#tables -->
+
 |
-|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------:
-|                                               | Code, committers                                                                                               | Mail list, size                                                                                                                           | IRC, size
-| [Ledger](http://ledger-cli.org)               | [C++](https://github.com/ledger/ledger)          101 <!-- ([openhub](https://www.openhub.net/p/ledger)) -->    | [ledger-cli](http://list.ledger-cli.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.general)) -->                  750 | [#ledger](http://webchat.freenode.net/?channels=ledger&randomnick=1)        70
-| [hledger](http://hledger.org)                 | [Haskell](http://code.hledger.org)                30 <!-- ([openhub](https://www.openhub.net/p/hledger)) -->   | [hledger](http://list.hledger.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.hledger)) -->                         80 | [#hledger](http://webchat.freenode.net/?channels=hledger&randomnick=1)      25
-| [Beancount](http://furius.ca/beancount)       | [Python](http://bitbucket.org/blais/beancount/)    8 <!-- ([openhub](https://www.openhub.net/p/beancount)) --> | [beancount](https://groups.google.com/forum/#!forum/beancount) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.beancount)) -->   70 | [#beancount](http://webchat.freenode.net/?channels=beancount&randomnick=1)   5
-| Abandon                                       | [Scala](https://github.com/hrj/abandon)            5 <!-- ([openhub](https://www.openhub.net/p/abandon)) -->   |                                                                                                                                           |
-| Ledger in Go                                  | [Go](https://github.com/howeyc/ledger)             2                                                           |                                                                                                                                           |
+|----------------------------------------------------|---------------------------------------------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------:
+| Project, start&nbsp;date                           | Code, committers                                                                                               | Mail list, size                                                                                                                           | IRC, size
+| [Ledger](http://ledger-cli.org) <br>2003           | [C++](https://github.com/ledger/ledger)          101 <!-- ([openhub](https://www.openhub.net/p/ledger)) -->    | [ledger-cli](http://list.ledger-cli.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.general)) -->                  750 | [#ledger](http://webchat.freenode.net/?channels=ledger&randomnick=1)        70
+| [hledger](http://hledger.org) <br>2007             | [Haskell](http://code.hledger.org)                30 <!-- ([openhub](https://www.openhub.net/p/hledger)) -->   | [hledger](http://list.hledger.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.hledger)) -->                         80 | [#hledger](http://webchat.freenode.net/?channels=hledger&randomnick=1)      25
+| [Beancount](http://furius.ca/beancount) <br>2008   | [Python](http://bitbucket.org/blais/beancount/)    8 <!-- ([openhub](https://www.openhub.net/p/beancount)) --> | [beancount](https://groups.google.com/forum/#!forum/beancount) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.beancount)) -->   70 | [#beancount](http://webchat.freenode.net/?channels=beancount&randomnick=1)   5
+| Abandon <br>2013                                   | [Scala](https://github.com/hrj/abandon)            5 <!-- ([openhub](https://www.openhub.net/p/abandon)) -->   |                                                                                                                                           |
+| Ledger in Go <br>2013                              | [Go](https://github.com/howeyc/ledger)             2                                                           |                                                                                                                                           |
 
-| Inactive:                                     | |
-|-----------------------------------------------|-----------------------------------------------------
-| cl-ledger                                     | [Common Lisp](https://github.com/ledger/cl-ledger)
-| ledger.pl                                     | [Perl](https://github.com/dimonf/ledger.pl)
-| [Penny](http://massysett.github.io/penny/)    | [Haskell](https://github.com/massysett/penny)
-| sm-Ledger                                     | [Squeak Smalltalk](https://gist.github.com/simonmichael/bb611dba654ccb1573e1)
-| [UMM](http://hackage.haskell.org/package/UMM) | Haskell
+| Inactive:                                          | |
+|----------------------------------------------------|-----------------------------------------------------
+| ledger.pl <br>2013                                 | [Perl](https://github.com/dimonf/ledger.pl)
+| [Penny](http://massysett.github.io/penny/) <br>2012| [Haskell](https://github.com/massysett/penny)
+| [UMM](http://hackage.haskell.org/package/UMM) <br>2009 | Haskell
+| cl-ledger <br>2007                                 | [Common Lisp](https://github.com/ledger/cl-ledger)
+| sm-Ledger <br>2007                                 | [Squeak Smalltalk](https://gist.github.com/simonmichael/bb611dba654ccb1573e1)
 
-<!-- [compare](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
+<!-- [compare at openhub](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
 
 ### related tools
 
