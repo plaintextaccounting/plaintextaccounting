@@ -250,7 +250,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ### articles
 
-- [Pete Keen's Program your Finances tutorials](https://www.petekeen.net/finance)
+- [Pete Keen's Program your Finances tutorials](https://www.petekeen.net/finance) 2012
 - [An Alternative to QuickBooks](http://goykhman.ca/gene/blog/2012/2012-09-23-an-alternative-to-quickbooks.html) 2012
 - [The accounting quest: Ledger](http://lwn.net/Articles/501681/) 2012
 - [Ledger, the bran muffin of accounting tools](http://archive09.linux.com/feature/58307) 2006
@@ -266,7 +266,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [Sascha Welter: Doing my own accounting](http://betabug.ch/blogs/ch-athens/1221) 2011
 - [Clint Adams: Accounting at SFLC](http://www.softwarefreedom.org/blog/2011/sep/07/accounting-at-sflc/) 2011
 - [Christine Spang: [h]ledger rocks my world](http://blog.spang.cc/posts/hledger_rocks_my_world/) 2010
-- [Roman Cheplyaka: hledger](http://ro-che.blogspot.com/2010/02/hledger.html) 2010
+<!-- - [Roman Cheplyaka: hledger](http://ro-che.blogspot.com/2010/02/hledger.html) 2010 -->
   
 ### hacker news
 
@@ -296,7 +296,7 @@ Fill out and submit tax forms with another tool, or by hand.
 ##### budgetting
 
 - [Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
-- [YNAB-ish envelope budgetting with hledger/ledger](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
+- [envelope budgetting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
 
 ##### shared expenses
 
@@ -308,7 +308,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### multiple currencies
 
-- [ledger-currencies](https://github.com/mikekchar/ledger-currencies)
+- [ledger-currencies tutorial](https://github.com/mikekchar/ledger-currencies)
 
 ##### tax reporting
 
@@ -326,7 +326,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [Ledger Python 3 Support](https://groups.google.com/forum/#!topic/ledger-cli/C99w-79Jq8o) Python
 
-- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) Python + CLI
+- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) Python
 
 - [hledger-lib](http://hackage.haskell.org/package/hledger-lib),
   [hledger](http://hackage.haskell.org/package/hledger),
@@ -337,7 +337,7 @@ Fill out and submit tax forms with another tool, or by hand.
   [examples](https://github.com/simonmichael/hledger/tree/master/hledger-api/examples)
   JSON
 
-- [node-hledger](https://github.com/rstacruz/node-hledger) JavaScript + CLI
+- [node-hledger](https://github.com/rstacruz/node-hledger) JavaScript
 
 
 </div>
