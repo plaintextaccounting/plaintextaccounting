@@ -180,10 +180,12 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### UI, console
 
-- [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) curses UI for data entry
+- [bean-add](https://github.com/simon-v/bean-add) interactive transaction entry
+- [hledger add](http://hledger.org/manual.html#add) interactive transaction entry (built-in command)
+- [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) curses UI for transaction entry
 - [hledger-ui](http://hackage.haskell.org/package/hledger-ui) curses UI for browsing
   ([demo](https://asciinema.org/a/29665))
-- [ledger-add](https://github.com/Tagirijus/ledger-add) interactive console UI for data entry
+- [ledger-add](https://github.com/Tagirijus/ledger-add) interactive transaction entry
 - [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive helper for making charts with gnuplot
 
 ##### UI, GUI
@@ -200,8 +202,11 @@ Fill out and submit tax forms with another tool, or by hand.
 - [Ledger Web](https://github.com/peterkeen/Ledger-Web) web-based, postgres-backed reporting system
 - [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing, data entry (Python)
 - [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing (JavaScript)
-- [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API (JavaScript)
 - [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for browsing, price fetching (F#, Ledger)
+
+##### API
+
+- [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API (JavaScript)
 
 </div>
 <div class="five columns u-pull-right">
@@ -289,14 +294,16 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### reporting
 
+##### budgeting
+
+- [Ledger: Budgeting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting)
+- [Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
+- [envelope budgeting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
+
 ##### forecasting
 
+- [Ledger: Forecasting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Forecasting)
 - [Notes on Installing and Using ledger on NetBSD](http://atomicules.co.uk/2015/06/20/Notes-on-installing-and-using-Ledger-on-NetBSD.html) (and forecasting)
-
-##### budgetting
-
-- [Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
-- [envelope budgetting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
 
 ##### shared expenses
 
