@@ -137,6 +137,7 @@ Fill out and submit tax forms with another tool, or by hand.
 | cl-ledger                                     | [Common Lisp](https://github.com/ledger/cl-ledger)
 | ledger.pl                                     | [Perl](https://github.com/dimonf/ledger.pl)
 | [Penny](http://massysett.github.io/penny/)    | [Haskell](https://github.com/massysett/penny)
+| sm-Ledger                                     | [Squeak](https://gist.github.com/simonmichael/bb611dba654ccb1573e1)
 | [UMM](http://hackage.haskell.org/package/UMM) | Haskell
 
 <!-- [compare](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
@@ -227,6 +228,9 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ### comparisons
 
+- [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
+- [Martin Blais: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg/edit?pli=1#heading=h.2ax1dztqboy7) 2014
+- [ledger-cli: ledger vs hledger vs beancount or how to choose the right cli client](http://thread.gmane.org/gmane.comp.finance.ledger.general/6563) 2014
 - [Simon Michael: hledger & Ledger](http://hledger.org/faq.html#hledger-ledger)
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
 - [Fabrice Niessen: Why Ledger?](http://www.mygooglest.com/fni/ledger.html) 2010
