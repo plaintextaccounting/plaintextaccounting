@@ -44,7 +44,7 @@ This idea went viral among software developers and technical folk, and we now ha
 5+ actively-developed **[Ledger-likes](#ledger-likes)** such as hledger and Beancount,
 with 40+ add-on tools and an active community.
 This site was created in 2016 to introduce our
-tools, documentation, workflows and principles.
+tools, documentation, and practices.
 
 Accounting data is valuable;
 we want to know that it will be accessible for ever - even without software.
