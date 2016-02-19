@@ -286,6 +286,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ### videos
 
+- [Conquering Your Finances with Emacs and Ledger](https://www.youtube.com/watch?v=cjoCNRpLanY) 2016
 - [FLOSS Weekly 375: hledger](https://twit.tv/shows/floss-weekly/episodes/375)
   ([youtube](https://www.youtube.com/watch?v=Xjl-wVJcYpE),
   [3m overview](https://www.youtube.com/watch?v=qS2UcDV_lbs))
