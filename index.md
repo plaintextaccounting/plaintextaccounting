@@ -221,6 +221,20 @@ Fill out and submit tax forms with another tool, or by hand.
 - [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API + static file server (Haskell)
 - [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API (JavaScript)
 
+<br>
+<br>
+
+### twitter
+
+- [\@LedgerTips](https://twitter.com/LedgerTips),  [#ledgercli](https://twitter.com/hashtag/ledgercli)
+
+<!-- twitter widget -->
+<div style="margin:0 15% 0 0;">
+<a class="twitter-timeline" width="" height="600px" data-dnt="true" href="https://twitter.com/hashtag/ledgercli" data-widget-id="539507319734677504"></a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+<!-- end of twitter widget -->
+
 </div>
 <div class="five columns u-pull-right">
 
@@ -246,6 +260,19 @@ Fill out and submit tax forms with another tool, or by hand.
 - [Simon Michael: hledger & Ledger](http://hledger.org/faq.html#hledger-ledger) 2014
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
 - [Fabrice Niessen: Why Ledger?](http://www.mygooglest.com/fni/ledger.html) 2010
+- Hacker News:
+  [2009](https://news.ycombinator.com/item?id=872244),
+  [2013](https://news.ycombinator.com/item?id=5233255),
+  [2014](https://news.ycombinator.com/item?id=7707262),
+  [2014](https://news.ycombinator.com/item?id=8806056), 
+  [2015](https://news.ycombinator.com/item?id=10510394)
+<!--
+- [Ledger, a command-line accounting system](https://news.ycombinator.com/item?id=10510394) 2015
+- [Hledger – Double-entry accounting from the Unix tools perspective (2012)](https://news.ycombinator.com/item?id=8806056) 2014
+- [Ledger, a powerful CLI accounting tool](https://news.ycombinator.com/item?id=7707262) 2014
+- [Command Line Accounting With Ledger and Reckon](https://news.ycombinator.com/item?id=5233255) 2013
+- [Ledger: Command-line double-entry accounting](https://news.ycombinator.com/item?id=872244) 2009
+-->
 
 ### online books
 
@@ -289,19 +316,6 @@ Fill out and submit tax forms with another tool, or by hand.
 - [Christine Spang: [h]ledger rocks my world](http://blog.spang.cc/posts/hledger_rocks_my_world/) 2010
 <!-- - [Roman Cheplyaka: hledger](http://ro-che.blogspot.com/2010/02/hledger.html) 2010 -->
   
-### hacker news
-
-- [Ledger, a command-line accounting system](https://news.ycombinator.com/item?id=10510394) 2015
-- [Hledger – Double-entry accounting from the Unix tools perspective (2012)](https://news.ycombinator.com/item?id=8806056) 2014
-- [Ledger, a powerful CLI accounting tool](https://news.ycombinator.com/item?id=7707262) 2014
-- [Command Line Accounting With Ledger and Reckon](https://news.ycombinator.com/item?id=5233255) 2013
-- [Ledger: Command-line double-entry accounting](https://news.ycombinator.com/item?id=872244) 2009
-
-### twitter
-
-- [\@LedgerTips](https://twitter.com/LedgerTips)
-- [#ledgercli](https://twitter.com/hashtag/ledgercli)
-
 ### common tasks
 
 ##### choosing accounts
