@@ -227,6 +227,26 @@ Fill out and submit tax forms with another tool, or by hand.
 
 <div class="row">
 <div class="five columns u-pull-left">
+##### mail lists/IRC
+</div>
+
+[see above](#ledger-likes)
+
+</div>
+
+<div class="row">
+<div class="five columns u-pull-left">
+##### stack exchange
+</div>
+
+[ledger](http://money.stackexchange.com/search?q=ledger-cli),
+[hledger](http://money.stackexchange.com/search?q=hledger)
+<!-- [beancount](http://money.stackexchange.com/search?q=beancount) -->
+
+</div>
+
+<div class="row">
+<div class="five columns u-pull-left">
 ##### hacker news
 </div>
 
@@ -286,6 +306,9 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [General accounting docs](http://hledger.org/more-docs.html#accounting)
 - [account structure (Ledger vs accounting)](http://thread.gmane.org/gmane.comp.finance.ledger.general/7398/focus=7417) 2015
+<!--
+- http://money.stackexchange.com/questions/47561/simplified-version-of-double-entry-bookkeeping-for-personal-and-business-finance
+-->
 
 ### comparisons
 
