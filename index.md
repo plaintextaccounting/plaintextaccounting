@@ -222,11 +222,44 @@ Fill out and submit tax forms with another tool, or by hand.
 - [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API (JavaScript)
 
 <br>
-<br>
 
-### twitter
+### discussion
 
-- [\@LedgerTips](https://twitter.com/LedgerTips),  [#ledgercli](https://twitter.com/hashtag/ledgercli)
+<div class="row">
+<div class="five columns u-pull-left">
+##### hacker news
+</div>
+
+[2009](https://news.ycombinator.com/item?id=872244),
+[2013](https://news.ycombinator.com/item?id=5233255),
+[2014](https://news.ycombinator.com/item?id=7707262),
+[2014](https://news.ycombinator.com/item?id=8806056), 
+[2015](https://news.ycombinator.com/item?id=10510394)
+<!--
+- [Ledger, a command-line accounting system](https://news.ycombinator.com/item?id=10510394) 2015
+- [Hledger – Double-entry accounting from the Unix tools perspective (2012)](https://news.ycombinator.com/item?id=8806056) 2014
+- [Ledger, a powerful CLI accounting tool](https://news.ycombinator.com/item?id=7707262) 2014
+- [Command Line Accounting With Ledger and Reckon](https://news.ycombinator.com/item?id=5233255) 2013
+- [Ledger: Command-line double-entry accounting](https://news.ycombinator.com/item?id=872244) 2009
+-->
+
+</div>
+
+<div class="row">
+<div class="five columns u-pull-left">
+##### reddit
+</div>
+
+[/r/ledger](https://www.reddit.com/r/ledger/)
+
+</div>
+
+<div class="row">
+<div class="five columns u-pull-left">
+##### twitter
+</div>
+
+[\@LedgerTips](https://twitter.com/LedgerTips),  [#ledgercli](https://twitter.com/hashtag/ledgercli)
 
 <!-- twitter widget -->
 <div style="margin:0 15% 0 0;">
@@ -234,6 +267,8 @@ Fill out and submit tax forms with another tool, or by hand.
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
 <!-- end of twitter widget -->
+
+</div>
 
 </div>
 <div class="five columns u-pull-right">
@@ -260,19 +295,6 @@ Fill out and submit tax forms with another tool, or by hand.
 - [Simon Michael: hledger & Ledger](http://hledger.org/faq.html#hledger-ledger) 2014
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
 - [Fabrice Niessen: Why Ledger?](http://www.mygooglest.com/fni/ledger.html) 2010
-- Hacker News:
-  [2009](https://news.ycombinator.com/item?id=872244),
-  [2013](https://news.ycombinator.com/item?id=5233255),
-  [2014](https://news.ycombinator.com/item?id=7707262),
-  [2014](https://news.ycombinator.com/item?id=8806056), 
-  [2015](https://news.ycombinator.com/item?id=10510394)
-<!--
-- [Ledger, a command-line accounting system](https://news.ycombinator.com/item?id=10510394) 2015
-- [Hledger – Double-entry accounting from the Unix tools perspective (2012)](https://news.ycombinator.com/item?id=8806056) 2014
-- [Ledger, a powerful CLI accounting tool](https://news.ycombinator.com/item?id=7707262) 2014
-- [Command Line Accounting With Ledger and Reckon](https://news.ycombinator.com/item?id=5233255) 2013
-- [Ledger: Command-line double-entry accounting](https://news.ycombinator.com/item?id=872244) 2009
--->
 
 ### online books
 
