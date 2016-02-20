@@ -371,7 +371,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [Beancount Cookbook: Account Naming Conventions](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk/view#heading=h.tu0f1kydrpgn)
 - [Mint: Ways to Categorize Your Spending](https://www.mint.com/mint-categories)
 
-##### data entry
+##### entering data
 
 - [hledger step by step: basic data entry](http://hledger.org/step-by-step.html#basic-data-entry-reporting)
 - ledger-mode:\
@@ -382,7 +382,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [Accounting bookkeeping entries](http://hledger.org/more-docs.html#accounting)
 - [UI tools](#ui-console)
 
-##### data import
+##### importing
 
 - [Ledger: The convert command](http://www.ledger-cli.org/3.0/doc/ledger3.html#The-convert-command)
 - [hledger: CSV files](http://hledger.org/manual.html#csv)
@@ -436,7 +436,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [Non-Profit Accounting With Ledger CLI, A Tutorial](https://github.com/conservancy/npo-ledger-cli/blob/master/npo-ledger-cli-tutorial.md)
 
-##### data export
+##### exporting
 
 - [Ledger: The csv command](http://www.ledger-cli.org/3.0/doc/ledger3.html#The-csv-command)
 - [hledger: CSV output](http://hledger.org/manual.html#csv-output)
