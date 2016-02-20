@@ -422,6 +422,9 @@ Fill out and submit tax forms with another tool, or by hand.
 ##### shared expenses
 
 - [Sharing Expenses in Beancount](https://docs.google.com/document/d/1FRcJqUfeAMQO6KjG94w6rF7VajMGJaFplmF1Wu0rCHY/edit#heading=h.yshh8f17jbdb) and others
+- [Keeping (financial) score with Ledger](http://sachachua.com/blog/2014/11/keeping-financial-score-ledger/)
+- [Program Your Finances: Automated Transactions](https://www.petekeen.net/program-your-finances-automated-transactions) using automated transactions to track reimbursables
+- [How to keep control of shared expenses inside marriage ?](http://money.stackexchange.com/questions/7101/how-to-keep-control-of-shared-expenses-inside-marriage)
 
 ##### taxes
 
