@@ -194,6 +194,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [hledger add](http://hledger.org/manual.html#add) interactive transaction entry (built-in command)
 - [ledger-add](https://github.com/Tagirijus/ledger-add) interactive transaction entry
 - [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive helper for making charts with GNUplot
+- [ledger xact](http://ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (built-in command)
 
 ##### UI, curses
 
@@ -304,7 +305,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ### concepts
 
-- [General accounting docs](http://hledger.org/more-docs.html#accounting)
+- [Accounting docs](http://hledger.org/more-docs.html#accounting)
 - [account structure (Ledger vs accounting)](http://thread.gmane.org/gmane.comp.finance.ledger.general/7398/focus=7417) 2015
 <!--
 - http://money.stackexchange.com/questions/47561/simplified-version-of-double-entry-bookkeeping-for-personal-and-business-finance
@@ -372,9 +373,30 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### data entry
 
+- [hledger step by step: basic data entry](http://hledger.org/step-by-step.html#basic-data-entry-reporting)
+- ledger-mode:\
+  `C-c C-a` add a transaction,\
+  `C-c C-b` amount calculator,\
+  `C-c C-c`/`C-c C-e` toggle cleared
+- [Beancount: Command Line Accounting Cookbook](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk)
+- [Accounting bookkeeping entries](http://hledger.org/more-docs.html#accounting)
+- [UI tools](#ui-console)
+
+##### data import
+
+- [Ledger: The convert command](http://www.ledger-cli.org/3.0/doc/ledger3.html#The-convert-command)
+- [hledger: CSV files](http://hledger.org/manual.html#csv)
+- [hledger: How to read CSV files](http://hledger.org/how-to-read-csv-files.html)
+- [Fetching Prices in Beancount](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c)
+- [import tools](#data-import)
+
 ##### reconciling
 
+- ledger-mode: `C-c C-r`
+
 ##### reporting
+
+- [hledger: How to use account aliases](http://hledger.org/how-to-use-account-aliases.html)
 
 ##### budgeting
 
@@ -398,20 +420,31 @@ Fill out and submit tax forms with another tool, or by hand.
 ##### multiple currencies
 
 - [ledger-currencies tutorial](https://github.com/mikekchar/ledger-currencies)
+- [Tutorial on multiple currency accounting](http://www.mscs.dal.ca/~selinger/accounting/tutorial.html)
 
 ##### tax reporting
 
 ##### time tracking
 
+- [Ledger: Time Keeping](http://ledger-cli.org/3.0/doc/ledger3.html#Time-Keeping)
+- [hledger: Timeclock files](http://hledger.org/manual.html#timeclock)
+- [hledger: Timedot files](http://hledger.org/manual.html#timedot)
 - [Timetracking and billing with (h)ledger](https://github.com/anarcat/ledger-timetracking)
+- [time tracking tools](#time-tracking)
 
 ##### non-profit accounting
 
 - [Non-Profit Accounting With Ledger CLI, A Tutorial](https://github.com/conservancy/npo-ledger-cli/blob/master/npo-ledger-cli-tutorial.md)
 
-##### import and export
+##### data export
+
+- [Ledger: The csv command](http://www.ledger-cli.org/3.0/doc/ledger3.html#The-csv-command)
+- [hledger: CSV output](http://hledger.org/manual.html#csv-output)
+- [Beancount: Exporting Your Portfolio](https://docs.google.com/document/d/1mNyE_ONuyEkF_I2l6V_AoAU5HJgI654AOBhHsnNPPqw)
 
 ##### API access
+
+- [Ledger: Extending with Python](http://ledger-cli.org/3.0/doc/ledger3.html#Extending-with-Python)
 
 - [Ledger Python 3 Support](https://groups.google.com/forum/#!topic/ledger-cli/C99w-79Jq8o) Python
 

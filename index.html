@@ -200,6 +200,7 @@ You can use this to track and report the data needed for tax reporting. Fill out
 <li><a href="http://hledger.org/manual.html#add">hledger add</a> interactive transaction entry (built-in command)</li>
 <li><a href="https://github.com/Tagirijus/ledger-add">ledger-add</a> interactive transaction entry</li>
 <li><a href="https://github.com/Tagirijus/ledger-plot">ledger-plot</a> interactive helper for making charts with GNUplot</li>
+<li><a href="http://ledger-cli.org/3.0/doc/ledger3.html#xact">ledger xact</a> history-aware transaction generator (built-in command)</li>
 </ul>
 <h5 id="ui-curses">UI, curses</h5>
 <ul>
@@ -282,7 +283,7 @@ You can use this to track and report the data needed for tax reporting. Fill out
 </ul>
 <h3 id="concepts">concepts</h3>
 <ul>
-<li><a href="http://hledger.org/more-docs.html#accounting">General accounting docs</a></li>
+<li><a href="http://hledger.org/more-docs.html#accounting">Accounting docs</a></li>
 <li><a href="http://thread.gmane.org/gmane.comp.finance.ledger.general/7398/focus=7417">account structure (Ledger vs accounting)</a> 2015 <!--
 - http://money.stackexchange.com/questions/47561/simplified-version-of-double-entry-bookkeeping-for-personal-and-business-finance
 --></li>
@@ -342,8 +343,32 @@ You can use this to track and report the data needed for tax reporting. Fill out
 <li><a href="https://www.mint.com/mint-categories">Mint: Ways to Categorize Your Spending</a></li>
 </ul>
 <h5 id="data-entry">data entry</h5>
+<ul>
+<li><a href="http://hledger.org/step-by-step.html#basic-data-entry-reporting">hledger step by step: basic data entry</a></li>
+<li>ledger-mode:<br />
+<code>C-c C-a</code> add a transaction,<br />
+<code>C-c C-b</code> amount calculator,<br />
+<code>C-c C-c</code>/<code>C-c C-e</code> toggle cleared</li>
+<li><a href="https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk">Beancount: Command Line Accounting Cookbook</a></li>
+<li><a href="http://hledger.org/more-docs.html#accounting">Accounting bookkeeping entries</a></li>
+<li><a href="#ui-console">UI tools</a></li>
+</ul>
+<h5 id="data-import-1">data import</h5>
+<ul>
+<li><a href="http://www.ledger-cli.org/3.0/doc/ledger3.html#The-convert-command">Ledger: The convert command</a></li>
+<li><a href="http://hledger.org/manual.html#csv">hledger: CSV files</a></li>
+<li><a href="http://hledger.org/how-to-read-csv-files.html">hledger: How to read CSV files</a></li>
+<li><a href="https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c">Fetching Prices in Beancount</a></li>
+<li><a href="#data-import">import tools</a></li>
+</ul>
 <h5 id="reconciling">reconciling</h5>
+<ul>
+<li>ledger-mode: <code>C-c C-r</code></li>
+</ul>
 <h5 id="reporting">reporting</h5>
+<ul>
+<li><a href="http://hledger.org/how-to-use-account-aliases.html">hledger: How to use account aliases</a></li>
+</ul>
 <h5 id="budgeting">budgeting</h5>
 <ul>
 <li><a href="http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting">Ledger: Budgeting</a></li>
@@ -366,19 +391,30 @@ You can use this to track and report the data needed for tax reporting. Fill out
 <h5 id="multiple-currencies">multiple currencies</h5>
 <ul>
 <li><a href="https://github.com/mikekchar/ledger-currencies">ledger-currencies tutorial</a></li>
+<li><a href="http://www.mscs.dal.ca/~selinger/accounting/tutorial.html">Tutorial on multiple currency accounting</a></li>
 </ul>
 <h5 id="tax-reporting">tax reporting</h5>
 <h5 id="time-tracking-1">time tracking</h5>
 <ul>
+<li><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Time-Keeping">Ledger: Time Keeping</a></li>
+<li><a href="http://hledger.org/manual.html#timeclock">hledger: Timeclock files</a></li>
+<li><a href="http://hledger.org/manual.html#timedot">hledger: Timedot files</a></li>
 <li><a href="https://github.com/anarcat/ledger-timetracking">Timetracking and billing with (h)ledger</a></li>
+<li><a href="#time-tracking">time tracking tools</a></li>
 </ul>
 <h5 id="non-profit-accounting">non-profit accounting</h5>
 <ul>
 <li><a href="https://github.com/conservancy/npo-ledger-cli/blob/master/npo-ledger-cli-tutorial.md">Non-Profit Accounting With Ledger CLI, A Tutorial</a></li>
 </ul>
-<h5 id="import-and-export">import and export</h5>
+<h5 id="data-export">data export</h5>
+<ul>
+<li><a href="http://www.ledger-cli.org/3.0/doc/ledger3.html#The-csv-command">Ledger: The csv command</a></li>
+<li><a href="http://hledger.org/manual.html#csv-output">hledger: CSV output</a></li>
+<li><a href="https://docs.google.com/document/d/1mNyE_ONuyEkF_I2l6V_AoAU5HJgI654AOBhHsnNPPqw">Beancount: Exporting Your Portfolio</a></li>
+</ul>
 <h5 id="api-access">API access</h5>
 <ul>
+<li><p><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Extending-with-Python">Ledger: Extending with Python</a></p></li>
 <li><p><a href="https://groups.google.com/forum/#!topic/ledger-cli/C99w-79Jq8o">Ledger Python 3 Support</a> Python</p></li>
 <li><p><a href="https://github.com/Rudd-O/ledgerhelpers">ledgerhelpers</a> Python</p></li>
 <li><p><a href="http://hackage.haskell.org/package/hledger-lib">hledger-lib</a>, <a href="http://hackage.haskell.org/package/hledger">hledger</a>, <a href="http://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html">example</a> Haskell</p></li>
