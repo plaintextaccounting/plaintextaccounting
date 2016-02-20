@@ -314,6 +314,7 @@ Fill out and submit tax forms with another tool, or by hand.
 ### comparisons
 
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
+- [Another Ledger user's perspective](http://thread.gmane.org/gmane.comp.finance.beancount/227) on Beancount 2015
 - [Martin Blais: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg/edit?pli=1#heading=h.2ax1dztqboy7) 2014
 - [ledger vs hledger vs beancount or how to choose the right cli client](http://thread.gmane.org/gmane.comp.finance.ledger.general/6563) 2014
 - [Simon Michael: hledger & Ledger](http://hledger.org/faq.html#hledger-ledger) 2014
@@ -407,11 +408,7 @@ Fill out and submit tax forms with another tool, or by hand.
 ##### forecasting
 
 - [Ledger: Forecasting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Forecasting)
-- [Notes on Installing and Using ledger on NetBSD](http://atomicules.co.uk/2015/06/20/Notes-on-installing-and-using-Ledger-on-NetBSD.html) (and forecasting)
-
-##### shared expenses
-
-- [Sharing Expenses in Beancount](https://docs.google.com/document/d/1FRcJqUfeAMQO6KjG94w6rF7VajMGJaFplmF1Wu0rCHY/edit#heading=h.yshh8f17jbdb) (and others)
+- [Notes on Installing and Using ledger on NetBSD](http://atomicules.co.uk/2015/06/20/Notes-on-installing-and-using-Ledger-on-NetBSD.html) and forecasting
 
 ##### invoicing
 
@@ -419,10 +416,17 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### multiple currencies
 
+- [Peter Selinger: Tutorial on multiple currency accounting](http://www.mscs.dal.ca/~selinger/accounting/tutorial.html)
 - [ledger-currencies tutorial](https://github.com/mikekchar/ledger-currencies)
-- [Tutorial on multiple currency accounting](http://www.mscs.dal.ca/~selinger/accounting/tutorial.html)
 
-##### tax reporting
+##### shared expenses
+
+- [Sharing Expenses in Beancount](https://docs.google.com/document/d/1FRcJqUfeAMQO6KjG94w6rF7VajMGJaFplmF1Wu0rCHY/edit#heading=h.yshh8f17jbdb) and others
+
+##### taxes
+
+- [Another Ledger user's perspective](http://thread.gmane.org/gmane.comp.finance.beancount/227/focus=237) some tax discussion
+- [hledger: How to use account aliases](http://hledger.org/how-to-use-account-aliases.html) for tax reporting
 
 ##### time tracking
 
