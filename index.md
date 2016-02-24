@@ -223,6 +223,17 @@ Fill out and submit tax forms with another tool, or by hand.
 - [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API + static file server (Haskell)
 - [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API (JavaScript)
 
+<!--
+##### other console/curses tools
+
+- [Taskwarrior](http://taskwarrior.org) modern task manager
+- [add / tapecalc](http://invisible-island.net/add/add.html) dynamically updating tape calculator
+- [sc](http://www.linuxjournal.com/article/10699) spreadsheet
+- [sc-im](https://github.com/andmarti1424/sc-im) update of sc
+- [GNU PEM & Oleo](http://www.examiner.com/article/gnu-pem-oleo-two-great-command-line-text-based-financial-accounting-apps) expenses manager, spreadsheet
+- the [org empire](http://orgmode.org)...
+-->
+
 <br>
 
 ### discussion
