@@ -267,7 +267,8 @@ Fill out and submit tax forms with another tool, or by hand.
 [2013](https://news.ycombinator.com/item?id=5233255),
 [2014](https://news.ycombinator.com/item?id=7707262),
 [2014](https://news.ycombinator.com/item?id=8806056), 
-[2015](https://news.ycombinator.com/item?id=10510394)
+[2015](https://news.ycombinator.com/item?id=10510394),
+[2016](https://news.ycombinator.com/item?id=11164330)
 <!--
 - [Ledger, a command-line accounting system](https://news.ycombinator.com/item?id=10510394) 2015
 - [Hledger – Double-entry accounting from the Unix tools perspective (2012)](https://news.ycombinator.com/item?id=8806056) 2014
@@ -414,6 +415,7 @@ Fill out and submit tax forms with another tool, or by hand.
 ##### budgeting
 
 - [Ledger: Budgeting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting)
+- [Weaving a budget with Org & ledger](http://orgmode.org/worg/org-tutorials/weaving-a-budget.html)
 - [Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
 - [envelope budgeting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
 
@@ -435,7 +437,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [Sharing Expenses in Beancount](https://docs.google.com/document/d/1FRcJqUfeAMQO6KjG94w6rF7VajMGJaFplmF1Wu0rCHY/edit#heading=h.yshh8f17jbdb) and others
 - [Keeping (financial) score with Ledger](http://sachachua.com/blog/2014/11/keeping-financial-score-ledger/)
-- [Program Your Finances: Automated Transactions](https://www.petekeen.net/program-your-finances-automated-transactions) using automated transactions to track reimbursables
+- [Program Your Finances: Automated Transactions](https://www.petekeen.net/program-your-finances-automated-transactions) for tracking reimbursables
 - [How to keep control of shared expenses inside marriage ?](http://money.stackexchange.com/questions/7101/how-to-keep-control-of-shared-expenses-inside-marriage)
 
 ##### taxes
