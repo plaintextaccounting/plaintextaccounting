@@ -490,9 +490,8 @@ Fill out and submit tax forms with another tool, or by hand.
 
 <hr>
 Send updates via the
-[github repo](https://github.com/simonmichael/plaintextaccounting)
-or
-[etherpad](https://oasis.sandstorm.io/shared/UAYLwagGI0a2pIMg9Hhv74K04nbuxanXiS5ZtBV6NF-)
+[github repo](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
+([changes](https://github.com/plaintextaccounting/plaintextaccounting.github.io/commits/master))
 
 </div>
 
