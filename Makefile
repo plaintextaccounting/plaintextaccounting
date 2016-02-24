@@ -4,7 +4,7 @@ watch:
 	fswatch -0 *.{md,tmpl} | xargs -0 -n1 -I{} make all
 
 livereload:
-	livereloadx --static .
+	livereloadx -p 10000 --static .
 
 clean:
 	rm -f $(patsubst %.md,%.html,$(wildcard *.md))
