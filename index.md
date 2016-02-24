@@ -166,6 +166,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) GNUCash to *ledger conversion
 - [icsvledger](https://launchpad.net/csv2ledger) CSV to *ledger converter
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to *ledger conversion, deduplication
+- [ledger2beancount.py](https://gist.github.com/travisdahlke/71152286b0a8826249fe) *ledger to beancount converter
 - [ledgerhub](http://furius.ca/ledgerhub/) fetch prices, extract entries, convert various formats to beancount (? deprecated)
 - [qb2ledger](https://gist.github.com/genegoykhman/3765100) QuickBooks General Journal CSV to *ledger converter
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
