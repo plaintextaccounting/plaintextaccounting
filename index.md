@@ -161,6 +161,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### data import
 
+- bean-identify, bean-extract, bean-file - Beancount built-in tools
 - [beancount-import](https://github.com/jbms/beancount-import) CSV to beancount converter (curses)
 - [gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) GNUCash to *ledger conversion
 - [icsvledger](https://launchpad.net/csv2ledger) CSV to *ledger converter
