@@ -143,6 +143,7 @@ Fill out and submit tax forms with another tool, or by hand.
 | Inactive:                                          | |
 |----------------------------------------------------|-----------------------------------------------------
 | uledger <br>2015                                   | [Python](https://github.com/danpat/uledger)
+| pacioli <br>2013                                   | [Python](https://github.com/mdipierro/pacioli)
 | ledger.pl <br>2013                                 | [Perl](https://github.com/dimonf/ledger.pl)
 | [Penny](http://massysett.github.io/penny/) <br>2012| [Haskell](https://github.com/massysett/penny)
 | [UMM](http://hackage.haskell.org/package/UMM) <br>2009 | Haskell
