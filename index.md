@@ -417,9 +417,10 @@ Fill out and submit tax forms with another tool, or by hand.
 ##### budgeting
 
 - [Ledger: Budgeting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting)
+- [Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting)
+- [envelope budgeting with plain transactions](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
 - [Weaving a budget with Org & ledger](http://orgmode.org/worg/org-tutorials/weaving-a-budget.html)
 - [Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
-- [envelope budgeting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
 
 ##### forecasting
 
