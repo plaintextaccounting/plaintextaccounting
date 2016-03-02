@@ -3,7 +3,7 @@
 
 <div class="row" style="padding-top:20%;">
 
-<h1 style="text-align:center; margin-bottom:5%;">Plain Text Accounting</h1>
+<h1 style="text-align:center; margin-bottom:5%;"><marquee title="because the 90s were cool">Plain Text Accounting</marquee></h1>
 
 <div class="three columns">
 
