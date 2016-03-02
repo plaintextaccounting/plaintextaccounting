@@ -379,6 +379,11 @@ Fill out and submit tax forms with another tool, or by hand.
 - [Christine Spang: [h]ledger rocks my world](http://blog.spang.cc/posts/hledger_rocks_my_world/) 2010
 <!-- - [Roman Cheplyaka: hledger](http://ro-che.blogspot.com/2010/02/hledger.html) 2010 -->
   
+### inspiration
+
+- [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
+- [David Mitchell: Personal Debts](https://www.youtube.com/watch?v=9zyp8RF-Fyw)
+
 ### common tasks
 
 ##### choosing accounts
