@@ -400,6 +400,7 @@ Fill out and submit tax forms with another tool, or by hand.
   `C-c C-b` amount calculator,\
   `C-c C-c`/`C-c C-e` toggle cleared
 - [Beancount: Command Line Accounting Cookbook](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk)
+- [hledger: How to use another account separator character](http://hledger.org/how-to-use-another-account-separator-character.html)
 - [Accounting bookkeeping entries](http://hledger.org/more-docs.html#accounting)
 - [UI tools](#ui-console)
 
