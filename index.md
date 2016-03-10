@@ -207,7 +207,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### UI, GUI
 
-- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) GTK GUI tools + python library for driving Ledger
+- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) GTK GUI tools + helper library (Python)
 
 ##### UI, web
 
@@ -223,7 +223,9 @@ Fill out and submit tax forms with another tool, or by hand.
 ##### API
 
 - [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API + static file server (Haskell)
+- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) extends Ledger's python library (Python)
 - [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API (JavaScript)
+- [sassetti](https://github.com/jvasile/sassetti) Command-line wrapper (Common Lisp)
 
 <!--
 ##### other console/curses tools
