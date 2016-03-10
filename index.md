@@ -218,6 +218,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [Ledger Web](https://github.com/peterkeen/Ledger-Web) web-based, postgres-backed reporting system
 - [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing, data entry (Python)
 - [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing (JavaScript)
+- [ledgible](https://github.com/lipidity/ledgible) web UI for browsing, data entry (Python, [demo](https://lipidity.com/cgi/ledgible/app.py/))
 - [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for browsing, price fetching (F#, Ledger)
 
 ##### API
