@@ -1,0 +1,41 @@
+tr {
+  vertical-align:top;
+}
+/* TOC */
+/* update these class ids on each save */
+p { margin:0; }
+p.c37 { visibility:hidden; }
+p.c26 { margin-left:1em; }
+p.c24  { margin-left:3em; }
+p.c19 { margin-left:2em; }
+/* heading cells */
+tr:first-child {
+  font-weight:bold;
+}
+td:first-child {
+  /* font-weight:bold; */
+}
+tr:first-child a {
+  font-size:small;
+  /* white-space:nowrap; */
+}
+td:first-child {
+  width:10%;
+}
+/* body cells */
+tr:not(:first-child) td:not(:first-child) span:first-child { 
+  white-space:nowrap;
+  font-weight:bold;
+  color:navy;
+  font-family:monospace;
+  /* font-family:monaco; */
+  /* font-size:small; */
+}
+tr:not(:first-child) td:not(:first-child) span:not(:first-child) { 
+  /* white-space:nowrap; */
+  /* font-family:monospace; */
+  font-size:small;
+}
+td:not(:first-child) { 
+  width:30%;
+}

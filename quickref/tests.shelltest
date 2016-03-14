@@ -1,0 +1,11 @@
+#!/usr/bin/env shelltest
+# -*- sh -*-
+
+ ledger -f a.ledger print
+>>>=0
+
+ hledger -f a.hledger print
+>>>=0
+
+ beancount -f a.beancount print
+>>>=0
