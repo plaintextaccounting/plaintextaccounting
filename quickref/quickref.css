@@ -4,10 +4,10 @@ tr {
 /* TOC */
 /* update these class ids on each save */
 p { margin:0; }
-p.c36 { visibility:hidden; }
-p.c25 { margin-left:1em; }
-p.c6  { margin-left:3em; }
-p.c15 { margin-left:2em; }
+p.c22 { visibility:hidden; }
+p.c2  { margin-left:1em; }
+p.c18 { margin-left:3em; }
+p.c27 { margin-left:2em; }
 /* heading cells */
 tr:first-child {
   font-weight:bold;
