@@ -361,6 +361,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [FLOSS Weekly 150: Ledger](https://twit.tv/shows/floss-weekly/episodes/150)
   ([youtube](https://www.youtube.com/watch?v=TDqrrH-gTt0)) 2011
 - [Accounting course by Prof. Krug](https://www.youtube.com/playlist?list=PL259DBFA47F3B4761) 2011
+- [Khan Academy: Accounting and financial statements](https://www.khanacademy.org/economics-finance-domain/core-finance/accounting-and-financial-stateme)
 
 ### articles
 
