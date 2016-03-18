@@ -423,6 +423,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### reporting
 
+- [example queries for Beancount](http://aumayr.github.io/beancount-sql-queries/)
 - [hledger: How to use account aliases](http://hledger.org/how-to-use-account-aliases.html)
 
 ##### budgeting
