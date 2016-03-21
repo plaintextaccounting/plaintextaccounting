@@ -320,6 +320,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [hledger docs](http://hledger.org)
 - [Beancount docs](http://furius.ca/beancount/doc/index) (or [sphinx version with API docs](http://aumayr.github.io/beancount-docs-static/))
 - [Beancount Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
+- [Quick Reference for the Ledger-Likes](quickref/)
 
 ### concepts
 
