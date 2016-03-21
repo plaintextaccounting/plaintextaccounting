@@ -298,7 +298,11 @@ Fill out and submit tax forms with another tool, or by hand.
 ##### twitter
 </div>
 
-[\@LedgerTips](https://twitter.com/LedgerTips),  [#ledgercli](https://twitter.com/hashtag/ledgercli)
+[\@LedgerTips](https://twitter.com/LedgerTips),
+[#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting),
+[#ledgercli](https://twitter.com/hashtag/ledgercli),
+[#hledger](https://twitter.com/hashtag/hledger),
+[#beancount](https://twitter.com/hashtag/beancount)
 
 <!-- twitter widget -->
 <div style="margin:0 15% 0 0;">
