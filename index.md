@@ -417,6 +417,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [Ledger: The convert command](http://www.ledger-cli.org/3.0/doc/ledger3.html#The-convert-command)
 - [hledger: CSV files](http://hledger.org/manual.html#csv)
 - [hledger: How to read CSV files](http://hledger.org/how-to-read-csv-files.html)
+- [Importing External Data in Beancount](http://furius.ca/beancount/doc/ingest)
 - [Fetching Prices in Beancount](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c)
 - [import tools](#data-import)
 
