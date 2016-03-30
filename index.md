@@ -452,6 +452,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 - [Peter Selinger: Tutorial on multiple currency accounting](http://www.mscs.dal.ca/~selinger/accounting/tutorial.html)
 - [ledger-currencies tutorial](https://github.com/mikekchar/ledger-currencies)
+- [on currency vs commodity valuation](https://groups.google.com/d/msg/ledger-cli/dc6F-HvZOyE/5IuoxzMOBwAJ)
 
 ##### shared expenses
 
