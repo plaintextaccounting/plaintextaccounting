@@ -478,6 +478,7 @@ Fill out and submit tax forms with another tool, or by hand.
 ##### inventory tracking
 
 - [Inventory Booking](http://furius.ca/beancount/doc/proposal-booking), [discussion](https://groups.google.com/forum/#!searchin/ledger-cli/inventory/ledger-cli/aQvbjTZa7HE/x3KNPteJWPsJ)
+- [Accounting Savvy for Business Owners ch. 8](http://www.amazon.com/Accounting-Savvy-Business-Owners-Essentials/dp/193292518X)
 
 ##### non-profit accounting
 
