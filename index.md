@@ -475,6 +475,10 @@ Fill out and submit tax forms with another tool, or by hand.
 - [Timetracking and billing with (h)ledger](https://github.com/anarcat/ledger-timetracking)
 - [time tracking tools](#time-tracking)
 
+##### inventory tracking
+
+- [Inventory Booking](http://furius.ca/beancount/doc/proposal-booking), [discussion](https://groups.google.com/forum/#!searchin/ledger-cli/inventory/ledger-cli/aQvbjTZa7HE/x3KNPteJWPsJ)
+
 ##### non-profit accounting
 
 - [Non-Profit Accounting With Ledger CLI, A Tutorial](https://github.com/conservancy/npo-ledger-cli/blob/master/npo-ledger-cli-tutorial.md)
