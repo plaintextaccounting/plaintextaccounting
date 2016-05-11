@@ -162,6 +162,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ##### data import
 
+- [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
 - bean-identify, bean-extract, bean-file - Beancount built-in tools
 - [beancount-import](https://github.com/jbms/beancount-import) CSV to beancount converter (curses)
 - [gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) GNUCash to *ledger conversion
@@ -421,6 +422,7 @@ Fill out and submit tax forms with another tool, or by hand.
 - [hledger: How to read CSV files](http://hledger.org/how-to-read-csv-files.html)
 - [Importing External Data in Beancount](http://furius.ca/beancount/doc/ingest)
 - [Fetching Prices in Beancount](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c)
+- [Payment matching done right](https://tomszilagyi.github.io/payment-matching/)
 - [import tools](#data-import)
 
 ##### reconciling
