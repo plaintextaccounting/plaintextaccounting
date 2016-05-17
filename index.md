@@ -174,6 +174,7 @@ Inactive:
 - [ledgerhub](http://furius.ca/ledgerhub/) fetch prices, extract entries, convert various formats to beancount (? deprecated)
 - [plaid2text](https://github.com/madhat2r/plaid2text) Plaid API to *ledger/beancount download/conversion
 - [qb2ledger](https://gist.github.com/genegoykhman/3765100) QuickBooks General Journal CSV to *ledger converter
+- [QIFtoLedger](https://github.com/Kolomona/QIFtoLedger) (Bank of America's) QIF to *ledger converter
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
 
