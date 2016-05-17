@@ -326,7 +326,6 @@ Fill out and submit tax forms with another tool, or by hand.
 - [hledger docs](http://hledger.org)
 - [Beancount docs](http://furius.ca/beancount/doc/index) (or [sphinx version with API docs](http://aumayr.github.io/beancount-docs-static/))
 - [Beancount Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
-- [Quick Reference for the Ledger-Likes](quickref/)
 
 ### concepts
 
@@ -338,6 +337,7 @@ Fill out and submit tax forms with another tool, or by hand.
 
 ### comparisons
 
+- [Quick Reference for the Ledger-Likes](quickref/)
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
 - [Another Ledger user's perspective](http://thread.gmane.org/gmane.comp.finance.beancount/227) on Beancount 2015
 - [Martin Blais: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg/edit?pli=1#heading=h.2ax1dztqboy7) 2014
