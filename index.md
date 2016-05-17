@@ -162,7 +162,7 @@ Inactive:
 - [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices
 - [ledger-tutorials](https://github.com/tlvince/ledger-tutorials) convert Pete Keen's tutorials to ebook format
 
-##### data import
+##### data import/conversion
 
 - [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
 - bean-identify, bean-extract, bean-file - Beancount built-in tools
