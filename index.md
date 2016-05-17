@@ -30,7 +30,7 @@ Transactions consist of
 **[credits](https://en.wikipedia.org/wiki/Debits_and_credits)** (decreases to asset or expense accounts, or increases to liability or equity accounts).
 
 </div>
-<div class="four columns">
+<div class="three columns">
 
 ### … with text
 
@@ -73,7 +73,7 @@ they read the input data without changing it, and output a report.
 This simple model makes them easy to understand and rely on.
 
 </div>
-<div class="four columns">
+<div class="three columns">
 
 ### questions ?
 
@@ -121,11 +121,56 @@ You can use this to track and report the data needed for tax reporting.
 Fill out and submit tax forms with another tool, or by hand.
 
 </div>
+<div class="two columns" style="white-space:nowrap;">
+
+### read more
+
+[Ledger-likes](#ledger-likes)  
+[related tools](#related-tools)  
+&nbsp;&nbsp;[data import/conversion](#data-importconversion)  
+&nbsp;&nbsp;[editor support](#editor-support)  
+&nbsp;&nbsp;[time logging](#time-logging)  
+&nbsp;&nbsp;[UI, console](#ui-console)  
+&nbsp;&nbsp;[UI, curses](#ui-curses)  
+&nbsp;&nbsp;[UI, GUI](#ui-gui)  
+&nbsp;&nbsp;[UI, web](#ui-web)  
+&nbsp;&nbsp;[API](#api)  
+[discussion](#discussion)  
+&nbsp;&nbsp;[mail lists/IRC](#mail-listsirc)  
+&nbsp;&nbsp;[stack exchange](#stack-exchange)  
+&nbsp;&nbsp;[hacker news](#hacker-news)  
+&nbsp;&nbsp;[reddit](#reddit)  
+&nbsp;&nbsp;[twitter](#twitter)  
+[docs](#docs)  
+&nbsp;&nbsp;[concepts](#concepts)  
+&nbsp;&nbsp;[comparisons](#comparisons)  
+&nbsp;&nbsp;[online books](#online-books)  
+&nbsp;&nbsp;[presentations](#presentations)  
+&nbsp;&nbsp;[videos](#videos)  
+&nbsp;&nbsp;[articles](#articles)  
+&nbsp;&nbsp;[blog posts](#blog-posts)  
+&nbsp;&nbsp;[inspiration](#inspiration)  
+[common tasks](#common-tasks)  
+&nbsp;&nbsp;[choosing accounts](#choosing-accounts)  
+&nbsp;&nbsp;[entering data](#entering-data)  
+&nbsp;&nbsp;[importing](#importing)  
+&nbsp;&nbsp;[reconciling](#reconciling)  
+&nbsp;&nbsp;[reporting](#reporting)  
+&nbsp;&nbsp;[budgeting](#budgeting)  
+&nbsp;&nbsp;[forecasting](#forecasting)  
+&nbsp;&nbsp;[invoicing](#invoicing)  
+&nbsp;&nbsp;[multiple currencies](#multiple-currencies)  
+&nbsp;&nbsp;[shared expenses](#shared-expenses)  
+&nbsp;&nbsp;[taxes](#taxes)  
+&nbsp;&nbsp;[time tracking](#time-tracking)  
+&nbsp;&nbsp;[inventory tracking](#inventory-tracking)  
+&nbsp;&nbsp;[non-profit accounting](#non-profit-accounting)  
+&nbsp;&nbsp;[exporting](#exporting)  
+&nbsp;&nbsp;[API access](#api-access)  
 
 </div>
-<div class="row" style="padding-top:5%;">
 
-<div class="seven columns">
+</div>
 
 ### Ledger-likes
 
@@ -134,25 +179,32 @@ Fill out and submit tax forms with another tool, or by hand.
 th, td { border:none; padding-top:0; }
 </style>
 |
-|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------:
-| Project, start&nbsp;date                        | Code, committers                                                                                               | Mail list, size                                                                                                                           | IRC, size
-| **[Ledger](http://ledger-cli.org)**, 2003           | [C++](https://github.com/ledger/ledger)          101 <!-- ([openhub](https://www.openhub.net/p/ledger)) -->    | [ledger-cli](http://list.ledger-cli.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.general)) -->                  650 | [#ledger](http://webchat.freenode.net/?channels=ledger&randomnick=1)        75
-| **[hledger](http://hledger.org)**, 2007             | [Haskell](http://code.hledger.org)                30 <!-- ([openhub](https://www.openhub.net/p/hledger)) -->   | [hledger](http://list.hledger.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.hledger)) -->                         75 | [#hledger](http://webchat.freenode.net/?channels=hledger&randomnick=1)      30
-| **[Beancount](http://furius.ca/beancount)**, 2008   | [Python](http://bitbucket.org/blais/beancount/)    8 <!-- ([openhub](https://www.openhub.net/p/beancount)) --> | [beancount](https://groups.google.com/forum/#!forum/beancount) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.beancount)) -->   70 | [#beancount](http://webchat.freenode.net/?channels=beancount&randomnick=1)   5
-| Abandon, 2013                                   | [Scala](https://github.com/hrj/abandon)            5 <!-- ([openhub](https://www.openhub.net/p/abandon)) -->   |                                                                                                                                           |
-| Ledger in Go, 2013                              | [Go](https://github.com/howeyc/ledger)             2                                                           |                                                                                                                                           |
+|---------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------:
+| Project, start&nbsp;date                          | Last release | Code, committers                                                                                               | Mail list, size                                                                                                                           | IRC, size
+| **[Ledger](http://ledger-cli.org)**, 2003         | 2016/01      | [C++](https://github.com/ledger/ledger)          101 <!-- ([openhub](https://www.openhub.net/p/ledger)) -->    | [ledger-cli](http://list.ledger-cli.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.general)) -->                  650 | [#ledger](http://webchat.freenode.net/?channels=ledger&randomnick=1)        75
+| **[hledger](http://hledger.org)**, 2007           | 2015/10      | [Haskell](http://code.hledger.org)                30 <!-- ([openhub](https://www.openhub.net/p/hledger)) -->   | [hledger](http://list.hledger.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.hledger)) -->                         75 | [#hledger](http://webchat.freenode.net/?channels=hledger&randomnick=1)      30
+| **[Beancount](http://furius.ca/beancount)**, 2008 |              | [Python](http://bitbucket.org/blais/beancount/)    8 <!-- ([openhub](https://www.openhub.net/p/beancount)) --> | [beancount](https://groups.google.com/forum/#!forum/beancount) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.beancount)) -->   70 | [#beancount](http://webchat.freenode.net/?channels=beancount&randomnick=1)   5
+| Abandon, 2013                                     | 2015/11      | [Scala](https://github.com/hrj/abandon)            5 <!-- ([openhub](https://www.openhub.net/p/abandon)) -->   |                                                                                                                                           |
+| Ledger in Go, 2013                                |              | [Go](https://github.com/howeyc/ledger)             2                                                           |                                                                                                                                           |
 
 Inactive:
 
-- uledger, 2015, [Python](https://github.com/danpat/uledger)
-- pacioli, 2013, [Python](https://github.com/mdipierro/pacioli)
-- ledger.pl, 2013, [Perl](https://github.com/dimonf/ledger.pl)
-- [Penny](http://massysett.github.io/penny/), 2012, [Haskell](https://github.com/massysett/penny)
-- [UMM](http://hackage.haskell.org/package/UMM), 2009, Haskell
-- cl-ledger, 2007, [Common Lisp](https://github.com/ledger/cl-ledger)
-- sm-Ledger, 2007, [Squeak Smalltalk](https://gist.github.com/simonmichael/bb611dba654ccb1573e1)
+|
+|---------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------:
+| Project, start&nbsp;date                          | Last release | Code
+| uledger, 2015 | | [Python](https://github.com/danpat/uledger)
+| pacioli, 2013 | | [Python](https://github.com/mdipierro/pacioli)
+| ledger.pl, 2013 | | [Perl](https://github.com/dimonf/ledger.pl)
+| [Penny](http://massysett.github.io/penny/), 2012 | 2014 | [Haskell](https://github.com/massysett/penny)
+| [UMM](http://hackage.haskell.org/package/UMM), 2009 | 2010 | Haskell
+| cl-ledger, 2007 | | [Common Lisp](https://github.com/ledger/cl-ledger)
+| sm-Ledger, 2007 | | [Squeak Smalltalk](https://gist.github.com/simonmichael/bb611dba654ccb1573e1)
 
 <!-- [compare at openhub](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
+
+<div class="row">
+
+<div class="seven columns">
 
 ### related tools
 
@@ -162,7 +214,7 @@ Inactive:
 - [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices
 - [ledger-tutorials](https://github.com/tlvince/ledger-tutorials) convert Pete Keen's tutorials to ebook format
 
-##### data import/conversion
+#### data import/conversion
 
 - [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
 - bean-identify, bean-extract, bean-file - Beancount built-in tools
@@ -178,7 +230,7 @@ Inactive:
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
 
-##### editor support
+#### editor support
 
 - [beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default) for Emacs
 - [hledger-mode](https://github.com/narendraj9/dotfiles/tree/master/.emacs.d/packages/rest/hledger-mode) for Emacs
@@ -190,13 +242,13 @@ Inactive:
 - [sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax) for Sublime Text/TextMate
 - [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle) for TextMate
 
-##### time tracking
+#### time logging
 
 - [org2tc](https://github.com/jwiegley/org2tc) org to timeclock converter
 - [on-modify.timetrack.py](https://gist.github.com/wbsch/d977b0ac29aa1dfa4437) taskwarrior hook for timeclock output
-- [tim](https://github.com/MatthiasKauer/tim) time tracking tool using hledger for reporting
+- [tim](https://github.com/MatthiasKauer/tim) time logging and reporting tool using hledger
 
-##### UI, console
+#### UI, console
 
 - [bean-add](https://github.com/simon-v/bean-add) interactive transaction entry
 - [hledger add](http://hledger.org/manual.html#add) interactive transaction entry (built-in command)
@@ -204,17 +256,17 @@ Inactive:
 - [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive helper for making charts with GNUplot
 - [ledger xact](http://ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (built-in command)
 
-##### UI, curses
+#### UI, curses
 
 - [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) curses UI for transaction entry
 - [hledger-ui](http://hackage.haskell.org/package/hledger-ui) curses UI for browsing
   ([demo](https://asciinema.org/a/29665))
 
-##### UI, GUI
+#### UI, GUI
 
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) GTK GUI tools + helper library (Python)
 
-##### UI, web
+#### UI, web
 
 - [fava](https://github.com/aumayr/beancount-web) web UI for browsing (Python, beancount, [demo](http://fava.pythonanywhere.com/))
 - [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for browsing, data entry
@@ -226,7 +278,7 @@ Inactive:
 - [ledgible](https://github.com/lipidity/ledgible) web UI for browsing, data entry (Python, [demo](https://lipidity.com/cgi/ledgible/app.py/))
 - [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for browsing, price fetching (F#, Ledger)
 
-##### API
+#### API
 
 - [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API + static file server (Haskell)
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) extends Ledger's python library (Python)
@@ -234,7 +286,7 @@ Inactive:
 - [sassetti](https://github.com/jvasile/sassetti) command-line wrapper (Common Lisp)
 
 <!--
-##### other console/curses tools
+other console/curses tools
 
 - [Taskwarrior](http://taskwarrior.org) modern task manager
 - [add / tapecalc](http://invisible-island.net/add/add.html) dynamically updating tape calculator
@@ -250,7 +302,7 @@ Inactive:
 
 <div class="row">
 <div class="five columns u-pull-left">
-##### mail lists/IRC
+#### mail lists/IRC
 </div>
 
 [see above](#ledger-likes)
@@ -259,7 +311,7 @@ Inactive:
 
 <div class="row">
 <div class="five columns u-pull-left">
-##### stack exchange
+#### stack exchange
 </div>
 
 [ledger](http://money.stackexchange.com/search?q=ledger-cli),
@@ -270,7 +322,7 @@ Inactive:
 
 <div class="row">
 <div class="five columns u-pull-left">
-##### hacker news
+#### hacker news
 </div>
 
 [2009](https://news.ycombinator.com/item?id=872244),
@@ -292,7 +344,7 @@ Inactive:
 
 <div class="row">
 <div class="five columns u-pull-left">
-##### reddit
+#### reddit
 </div>
 
 [/r/ledger](https://www.reddit.com/r/ledger/)
@@ -301,7 +353,7 @@ Inactive:
 
 <div class="row">
 <div class="five columns u-pull-left">
-##### twitter
+#### twitter
 </div>
 
 [\@LedgerTips](https://twitter.com/LedgerTips),
@@ -330,7 +382,7 @@ Inactive:
 - [Beancount docs](http://furius.ca/beancount/doc/index) (or [sphinx version with API docs](http://aumayr.github.io/beancount-docs-static/))
 - [Beancount Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
 
-### concepts
+#### concepts
 
 - [Accounting docs](http://hledger.org/more-docs.html#accounting)
 - [account structure (Ledger vs accounting)](http://thread.gmane.org/gmane.comp.finance.ledger.general/7398/focus=7417) 2015
@@ -338,7 +390,7 @@ Inactive:
 - http://money.stackexchange.com/questions/47561/simplified-version-of-double-entry-bookkeeping-for-personal-and-business-finance
 -->
 
-### comparisons
+#### comparisons
 
 - [Quick Reference for the Ledger-Likes](quickref/)
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
@@ -349,17 +401,17 @@ Inactive:
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
 - [Fabrice Niessen: Why Ledger?](http://www.mygooglest.com/fni/ledger.html) 2010
 
-### online books
+#### online books
 
 - [Getting Started With Ledger](https://github.com/rolfschr/GSWL-book/releases/latest) 2016
 
-### presentations
+#### presentations
 
 - [Ledger CLI Accounting for Geeks](http://blog.loadingdata.nl/accounting-for-geeks/) 2014
 - [Hacking Your Finances for Fun and Profit](http://matthewturland.com/slides/ledger-stats/) 2013
 - [Ledger and Text based Accounting](http://www.adamsinfoserv.com/AISTWiki/pub/AIS/Presentations/Ledger.pdf) 2009
 
-### videos
+#### videos
 
 - [Conquering Your Finances with Emacs and Ledger](https://www.youtube.com/watch?v=cjoCNRpLanY) 2016
 - [FLOSS Weekly 375: hledger](https://twit.tv/shows/floss-weekly/episodes/375)
@@ -373,14 +425,14 @@ Inactive:
 - [Accounting course by Prof. Krug](https://www.youtube.com/playlist?list=PL259DBFA47F3B4761) 2011
 - [Khan Academy: Accounting and financial statements](https://www.khanacademy.org/economics-finance-domain/core-finance/accounting-and-financial-stateme)
 
-### articles
+#### articles
 
 - [Pete Keen's Program your Finances tutorials](https://www.petekeen.net/finance) 2012
 - [An Alternative to QuickBooks](http://goykhman.ca/gene/blog/2012/2012-09-23-an-alternative-to-quickbooks.html) 2012
 - [The accounting quest: Ledger](http://lwn.net/Articles/501681/) 2012
 - [Ledger, the bran muffin of accounting tools](http://archive09.linux.com/feature/58307) 2006
 
-### blog posts
+#### blog posts
 
 - [Managing my personal finances with beancount](https://alexjj.com/finance/2016/02/27/managing-personal-finances-with-beancount/) 2016
 - [Finding duplicate accounts in Hledger journals](http://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html) 2015
@@ -394,20 +446,20 @@ Inactive:
 - [Christine Spang: [h]ledger rocks my world](http://blog.spang.cc/posts/hledger_rocks_my_world/) 2010
 <!-- - [Roman Cheplyaka: hledger](http://ro-che.blogspot.com/2010/02/hledger.html) 2010 -->
   
-### inspiration
+#### inspiration
 
 - [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
 - [David Mitchell: Personal Debts](https://www.youtube.com/watch?v=9zyp8RF-Fyw)
 
 ### common tasks
 
-##### choosing accounts
+#### choosing accounts
 
 - [sample chart of accounts (freelancer)](https://gist.github.com/simonmichael/9936299)
 - [Beancount Cookbook: Account Naming Conventions](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk/view#heading=h.tu0f1kydrpgn)
 - [Mint: Ways to Categorize Your Spending](https://www.mint.com/mint-categories)
 
-##### entering data
+#### entering data
 
 - [hledger step by step: basic data entry](http://hledger.org/step-by-step.html#basic-data-entry-reporting)
 - ledger-mode:\
@@ -419,7 +471,7 @@ Inactive:
 - [Accounting bookkeeping entries](http://hledger.org/more-docs.html#accounting)
 - [UI tools](#ui-console)
 
-##### importing
+#### importing
 
 - [Ledger: The convert command](http://www.ledger-cli.org/3.0/doc/ledger3.html#The-convert-command)
 - [hledger: CSV files](http://hledger.org/manual.html#csv)
@@ -429,16 +481,16 @@ Inactive:
 - [Payment matching done right](https://tomszilagyi.github.io/payment-matching/)
 - [import tools](#data-import)
 
-##### reconciling
+#### reconciling
 
 - ledger-mode: `C-c C-r`
 
-##### reporting
+#### reporting
 
 - [example queries for Beancount](http://aumayr.github.io/beancount-sql-queries/)
 - [hledger: How to use account aliases](http://hledger.org/how-to-use-account-aliases.html)
 
-##### budgeting
+#### budgeting
 
 - [Ledger: Budgeting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting)
 - [Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting)
@@ -446,34 +498,34 @@ Inactive:
 - [Weaving a budget with Org & ledger](http://orgmode.org/worg/org-tutorials/weaving-a-budget.html)
 - [Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
 
-##### forecasting
+#### forecasting
 
 - [Ledger: Forecasting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Forecasting)
 - [Notes on Installing and Using ledger on NetBSD](http://atomicules.co.uk/2015/06/20/Notes-on-installing-and-using-Ledger-on-NetBSD.html) and forecasting
 
-##### invoicing
+#### invoicing
 
 - [invoicing entries](https://gist.github.com/simonmichael/986a65106a9db1f8bd68)
 
-##### multiple currencies
+#### multiple currencies
 
 - [Peter Selinger: Tutorial on multiple currency accounting](http://www.mscs.dal.ca/~selinger/accounting/tutorial.html)
 - [ledger-currencies tutorial](https://github.com/mikekchar/ledger-currencies)
 - [on currency vs commodity valuation](https://groups.google.com/d/msg/ledger-cli/dc6F-HvZOyE/5IuoxzMOBwAJ)
 
-##### shared expenses
+#### shared expenses
 
 - [Sharing Expenses in Beancount](https://docs.google.com/document/d/1FRcJqUfeAMQO6KjG94w6rF7VajMGJaFplmF1Wu0rCHY/edit#heading=h.yshh8f17jbdb) and others
 - [Keeping (financial) score with Ledger](http://sachachua.com/blog/2014/11/keeping-financial-score-ledger/)
 - [Program Your Finances: Automated Transactions](https://www.petekeen.net/program-your-finances-automated-transactions) for tracking reimbursables
 - [How to keep control of shared expenses inside marriage ?](http://money.stackexchange.com/questions/7101/how-to-keep-control-of-shared-expenses-inside-marriage)
 
-##### taxes
+#### taxes
 
 - [Another Ledger user's perspective](http://thread.gmane.org/gmane.comp.finance.beancount/227/focus=237) some tax discussion
 - [hledger: How to use account aliases](http://hledger.org/how-to-use-account-aliases.html) for tax reporting
 
-##### time tracking
+#### time tracking
 
 - [Ledger: Time Keeping](http://ledger-cli.org/3.0/doc/ledger3.html#Time-Keeping)
 - [hledger: Timeclock files](http://hledger.org/manual.html#timeclock)
@@ -481,22 +533,22 @@ Inactive:
 - [Timetracking and billing with (h)ledger](https://github.com/anarcat/ledger-timetracking)
 - [time tracking tools](#time-tracking)
 
-##### inventory tracking
+#### inventory tracking
 
 - [Inventory Booking](http://furius.ca/beancount/doc/proposal-booking), [discussion](https://groups.google.com/forum/#!searchin/ledger-cli/inventory/ledger-cli/aQvbjTZa7HE/x3KNPteJWPsJ)
 - [Accounting Savvy for Business Owners ch. 8](http://www.amazon.com/Accounting-Savvy-Business-Owners-Essentials/dp/193292518X)
 
-##### non-profit accounting
+#### non-profit accounting
 
 - [Non-Profit Accounting With Ledger CLI, A Tutorial](https://github.com/conservancy/npo-ledger-cli/blob/master/npo-ledger-cli-tutorial.md)
 
-##### exporting
+#### exporting
 
 - [Ledger: The csv command](http://www.ledger-cli.org/3.0/doc/ledger3.html#The-csv-command)
 - [hledger: CSV output](http://hledger.org/manual.html#csv-output)
 - [Beancount: Exporting Your Portfolio](https://docs.google.com/document/d/1mNyE_ONuyEkF_I2l6V_AoAU5HJgI654AOBhHsnNPPqw)
 
-##### API access
+#### API access
 
 - [Ledger: Extending with Python](http://ledger-cli.org/3.0/doc/ledger3.html#Extending-with-Python)
 
