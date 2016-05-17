@@ -1,4 +1,4 @@
-strong > a, strong > a:hover {
+p > strong > a, p > strong > a:hover {
     text-decoration:none;
     color:black;
 }
