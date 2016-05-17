@@ -2,7 +2,7 @@ all: mdtohtml
 
 mdtohtml: $(patsubst %.md,%.html,$(wildcard *.md)) Makefile
 
-watch:
+liverender:
 	fswatch -l 0.1 -0 *.{md,tmpl} | xargs -0 -n1 -I{} make all
 
 livereload:
