@@ -261,6 +261,7 @@ Inactive:
 - [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) curses UI for transaction entry
 - [hledger-ui](http://hackage.haskell.org/package/hledger-ui) curses UI for browsing
   ([demo](https://asciinema.org/a/29665))
+- [regdel](https://github.com/guillaumechereau/regdel) curses UI for browsing (Ledger)
 
 #### UI, GUI
 
