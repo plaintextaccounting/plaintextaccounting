@@ -32,7 +32,7 @@ Transactions consist of
 </div>
 <div class="three columns">
 
-### … with text
+### ...with text
 
 <!-- Ledger, hledger, beancount, and other **[Ledger-likes](#ledger-likes)** -->
 <!-- are minimalist software tools for efficient double-entry-style accounting. -->
