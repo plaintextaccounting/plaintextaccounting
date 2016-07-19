@@ -333,7 +333,9 @@ other console/curses tools
 [2014](https://news.ycombinator.com/item?id=8806056), 
 [2015](https://news.ycombinator.com/item?id=10510394),
 [2016](https://news.ycombinator.com/item?id=11164330),
-[2016](https://news.ycombinator.com/item?id=11366693)
+[2016](https://news.ycombinator.com/item?id=11366693),
+[2016](https://news.ycombinator.com/item?id=12119050)
+
 <!--
 - [Ledger, a command-line accounting system](https://news.ycombinator.com/item?id=10510394) 2015
 - [Hledger – Double-entry accounting from the Unix tools perspective (2012)](https://news.ycombinator.com/item?id=8806056) 2014
