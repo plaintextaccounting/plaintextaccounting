@@ -473,6 +473,7 @@ other console/curses tools
 - [Beancount: Command Line Accounting Cookbook](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk)
 - [hledger: How to use another account separator character](http://hledger.org/how-to-use-another-account-separator-character.html)
 - [Accounting bookkeeping entries](http://hledger.org/more-docs.html#accounting)
+- [ledger-envelope-generator.rb](https://github.com/simonmichael/hledger/issues/313)
 - [UI tools](#ui-console)
 
 #### importing
