@@ -127,7 +127,7 @@ This simple model makes them easy to understand and rely on.
 
 <div class="">
 
-### Frequently Asked Questions
+### frequently asked questions
 
 **Who is this for ?**\
 Mostly techies and power users for now.
@@ -206,7 +206,7 @@ There are a number of generic GUIs available (hledger has curses and web interfa
 
 **Isn't a plain text format too limited for large organizations ?**\
 *"it's pretty obvious that plain-text files don't scale to a multinational, with hundreds of accountants of various types all trying to work with the same files. Even with proper use of Git I bet that would get old fast. You would instead want a real database, with a schema, and some data validation and some programs/webpages to smooth out the data entry and querying and whatnot."*\
-I'm not sure. Current plain text accounting tools can do some schema definition and data validation, and will do more in future. The plain text storage format is open, human-readable, future-proof (useful even without the software), scales smoothly from simple to complex needs, and taps a huge ecosystem of highly useful tooling, such as version control systems. And, despite the name, there's no reason these tools can't support other kinds of storage, such as a database. (hledger has four storage formats and is designed to accept more).
+I'm not sure. Current plain text accounting tools can do some schema definition and data validation, and will do more in future. The plain text storage format is open, human-readable, future-proof (useful even without the software), scales smoothly from simple to complex needs, and taps a huge ecosystem of highly useful tooling, such as version control systems. And, despite the name, there's no reason these tools can't support other kinds of storage, such as a database.
 
 **Where can I see a comparison of hledger, Ledger, beancount, and the rest ?**\
 Glad you asked! See below, and also [comparisons](#comparisons). hledger's FAQ discusses differences from Ledger, Beancount docs probably do too.
