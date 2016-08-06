@@ -538,11 +538,23 @@ other console/curses tools
 
 #### budgeting
 
+With Ledger's --budget report:
+
 - [Ledger: Budgeting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting)
-- [Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting)
-- [envelope budgeting with plain transactions](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
-- [Weaving a budget with Org & ledger](http://orgmode.org/worg/org-tutorials/weaving-a-budget.html)
-- [Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
+
+With Ledger's automated transactions:
+
+- [Pete Keen: Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting)
+- [Marcin Borkowski: Ledger – virtual postings aka envelopes](http://mbork.pl/2016-07-18_Ledger_–_virtual_postings_aka_envelopes)
+
+With org-mode:
+
+- [Org tutorials: Weaving a budget with Org & ledger](http://orgmode.org/worg/org-tutorials/weaving-a-budget.html)
+- [Alan Schmitt: Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
+
+With ordinary subaccounts:
+
+- [Simon Michael: envelope budgeting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
 
 #### forecasting
 
