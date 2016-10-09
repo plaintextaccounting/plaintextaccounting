@@ -479,7 +479,7 @@ other console/curses tools
 
 #### blog posts
 
-- [Managing my personal finances with beancount](https://alexjj.com/finance/2016/02/27/managing-personal-finances-with-beancount/) 2016
+- [Managing my personal finances with beancount](https://alexjj.com/blog/2016/2/managing-my-personal-finances-with-beancount/) 2016
 - [Finding duplicate accounts in Hledger journals](http://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html) 2015
 - [Matthew Turland: Ledger basics and habits](http://matthewturland.com/2014/03/29/ledger-basics-and-habits/) 2014
 - [Simon Michael: What is hledger ?](http://joyful.com/blog/2013-10-20-what-is-hledger.html) 2013
