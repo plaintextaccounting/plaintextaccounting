@@ -136,7 +136,7 @@ If you need a complete GUI providing lots of guidance, you may prefer to use som
 **Must I edit text and type cryptic commands ?**\
 Not entirely!
 "Plain Text Accounting" is a broad description, referring mainly to the data format.
-We don't object to additional **[GUIs](#ui-console)**, and they are [coming](#ui-console).
+We welcome optional **[GUIs](#ui-console)**, and they are [coming](#ui-console).
 
 **Who is using this, and how ?**\
 See **[Who's using Ledger?](https://github.com/ledger/ledger/wiki/Who's-using-ledger%3F)** for some stories.
