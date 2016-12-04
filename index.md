@@ -283,6 +283,7 @@ Inactive:
 - [ledger](https://atom.io/packages/ledger) for Atom
 - [sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax) for Sublime Text/TextMate
 - [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle) for TextMate
+- [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger) for Visual Studio Code
 
 #### time logging
 
