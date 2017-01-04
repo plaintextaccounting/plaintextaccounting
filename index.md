@@ -537,6 +537,7 @@ other console/curses tools
 
 - [example queries for Beancount](http://aumayr.github.io/beancount-sql-queries/)
 - [hledger: How to use account aliases](http://hledger.org/how-to-use-account-aliases.html)
+- [Report Scripts for Ledger CLI with Gnuplot](https://www.sundialdreams.com/report-scripts-for-ledger-cli-with-gnuplot/)
 
 #### budgeting
 
