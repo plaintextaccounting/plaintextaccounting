@@ -8,11 +8,8 @@ served with a custom domain.
 Contributing
 ------------
 
-Several ways to contribute changes:
-
-A. drop link suggestions etc. on the etherpad linked in the site footer
-B. fork the github repo, submit a pull request
-C. regular contributors can request commit access
+Fork the github repo, submit a pull request.
+If you're a recurring contributor, remind me to give you commit access.
 
 Before committing, rebuild the HTML (requires pandoc):
 
