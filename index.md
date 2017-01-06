@@ -315,7 +315,7 @@ Inactive:
 
 #### UI, web
 
-- [fava](https://github.com/aumayr/beancount-web) web UI for browsing (Python, beancount, [demo](http://fava.pythonanywhere.com/))
+- [fava](https://github.com/beancount/fava) web UI for browsing (Python, beancount, [demo](http://fava.pythonanywhere.com/))
 - [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for browsing, data entry
   (Haskell, [demo](http://demo.hledger.org))
 - [hledger-web on Sandstorm](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90) free web instances in a few clicks
