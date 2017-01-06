@@ -301,6 +301,7 @@ Inactive:
 - [ledger-add](https://github.com/Tagirijus/ledger-add) interactive transaction entry
 - [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive helper for making charts with GNUplot
 - [ledger xact](http://ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (built-in command)
+- [recurring](http://hub.darcs.net/simon/ledgertools/browse/recurring) show/add recurring entries using Ledger
 
 #### UI, curses
 
