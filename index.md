@@ -434,6 +434,7 @@ other console/curses tools
 
 #### concepts
 
+- [The Double-Entry Counting Method](https://furius.ca/beancount/doc/intro) 2016
 - [Accounting docs](http://hledger.org/more-docs.html#accounting)
 - [account structure (Ledger vs accounting)](http://thread.gmane.org/gmane.comp.finance.ledger.general/7398/focus=7417) 2015
 <!--
