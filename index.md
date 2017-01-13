@@ -281,19 +281,24 @@ Note these often work quite well for other ledger-likes, not just the one they a
 
 - [language-ledger](https://atom.io/packages/language-ledger) for Atom
 - [ledger](https://atom.io/packages/ledger) for Atom
-
+\
+\
 - [beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default) for Emacs
 - [hledger-mode](https://github.com/narendraj9/hledger-mode) for Emacs
 - [ledger-mode](http://ledger-cli.org/3.0/doc/ledger-mode.html) for Emacs (also works for hledger, beancount etc.)
-
+\
+\
 - [hledger-vim](https://github.com/anekos/hledger-vim) for VIM
 - [vim-beancount](https://github.com/nathangrigg/vim-beancount) for VIM
 - [vim-ledger](https://github.com/ledger/vim-ledger) for VIM
-
+\
+\
 - [sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax) for Sublime Text/TextMate
-
+\
+\
 - [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle) for TextMate
-
+\
+\
 - [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger) for Visual Studio Code
 
 #### time logging
