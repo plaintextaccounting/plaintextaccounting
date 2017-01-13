@@ -281,6 +281,7 @@ Inactive:
 - [ledger-mode](http://ledger-cli.org/3.0/doc/ledger-mode.html) for Emacs (also works for hledger, beancount etc.)
 - [vim-beancount](https://github.com/nathangrigg/vim-beancount) for VIM
 - [vim-ledger](https://github.com/ledger/vim-ledger) for VIM
+- [hledger-vim](https://github.com/anekos/hledger-vim) for VIM
 - [language-ledger](https://atom.io/packages/language-ledger) for Atom
 - [ledger](https://atom.io/packages/ledger) for Atom
 - [sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax) for Sublime Text/TextMate
