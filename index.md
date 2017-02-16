@@ -273,6 +273,7 @@ Inactive:
 - [QIFtoLedger](https://github.com/Kolomona/QIFtoLedger) (Bank of America's) QIF to *ledger converter
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
+- [csv2beancount](https://github.com/PaNaVTEC/csv2beancount) CSV to beancount converter
 
 #### editor support
 
