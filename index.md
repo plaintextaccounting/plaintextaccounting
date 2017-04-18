@@ -150,7 +150,7 @@ Online tools like Xero, FreeAgent.
 Paper accounting.
 A bookkeeper.
 
-**Why is this better than QuickBooks&nbsp;?**\
+**Why is this better than QuickBooks?**\
 Your data remains accessible.
 No yearly fees.
 Free software you can fix and port.
@@ -158,17 +158,17 @@ Cross platform.
 Scriptable.
 Efficient.
 
-**How do I communicate with my accountant&nbsp;?**\
+**How do I communicate with my accountant?**\
 Clean up text reports by hand,
 print them as PDF,
 export CSV reports to a spreadsheet..
 
-**What if my accountant only uses QuickBooks&nbsp;?**\
+**What if my accountant only uses QuickBooks?**\
 You'll need a new accountant,
 or a duplicate set of books in QuickBooks,
 or to pioneer *ledger -> QuickBooks exporting.
 
-**Can I use this to do my taxes&nbsp;?**\
+**Can I use this to do my taxes?**\
 You can use this to track and report the data needed for tax reporting.
 Fill out and submit tax forms with another tool, or by hand.
 
