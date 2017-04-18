@@ -129,19 +129,19 @@ This simple model makes them easy to understand and rely on.
 
 ### frequently asked questions
 
-**Who is this for ?**\
+**Who is this for?**\
 Mostly techies and power users for now.
 If you need a complete GUI providing lots of guidance, you may prefer to use something else.
 
-**Must I edit text and type cryptic commands ?**\
+**Must I edit text and type cryptic commands?**\
 Not entirely!
 "Plain Text Accounting" is a broad description, referring mainly to the data format.
 We welcome optional **[GUIs](#ui-console)**, and they are [coming](#ui-console).
 
-**Who is using this, and how ?**\
+**Who is using this, and how?**\
 See **[Who's using Ledger?](https://github.com/ledger/ledger/wiki/Who's-using-ledger%3F)** for some stories.
 
-**What are the alternatives ?**\
+**What are the alternatives?**\
 FOSS tools like GNUCash, Grisbi, KMyMoney.
 Proprietary tools like Quicken/Quickbooks, You Need A Budget.
 Online tools like Xero, FreeAgent.
@@ -172,43 +172,43 @@ or to pioneer *ledger -> QuickBooks exporting.
 You can use this to track and report the data needed for tax reporting.
 Fill out and submit tax forms with another tool, or by hand.
 
-**How do I do budgeting ?**\
+**How do I do budgeting?**\
 See [budgeting](#budgeting) below. I emulate YNAB-ish envelope budgetting (see third link).
 
-**Double entry accounting ? Where are the debits and credits ?**\
+**Double entry accounting? Where are the debits and credits?**\
 Most (not all) plain text accounting implementations use signed amounts instead of debits and credits. This makes them "double entry light" perhaps, but it has been a rather successful simplification, intuitive to most newcomers.
 
 <!-- (from <https://news.ycombinator.com/item?id=12124890>:) -->
 
-**Isn't personal accounting a waste of time ?**\
+**Isn't personal accounting a waste of time?**\
 People have very different needs and practise personal accounting for many different reasons. There is of course a point of diminishing returns; tailor your accounting practices to your needs. Needs change over time. Some of us would benefit from doing more (or better) accounting, some less (I would guess this second group is smaller).
 In [The Millionaire Next Door](https://en.wikipedia.org/wiki/The_Millionaire_Next_Door) (highly recommended), one research finding was that above-average wealth accumulators spend more time on financial planning, which for many of us requires accounting as a foundation. "Minimal time dedicated to financial planning is a leading indicator of a UAW [Under Accumulator of Wealth]".
 
-**Do you really enter every little transaction ?**\
+**Do you really enter every little transaction?**\
 Yes! Many folks in our community do it. Mahatma Gandhi reconciled to the penny every night. J.D. Rockefeller was famous for his ledgers.
 It's not required. I started doing it as a temporary learning exercise, and still like it. It makes troubleshooting and reconciling easier.
 
-**How is that possible ?**\
+**How is that possible?**\
 Practice, and a process/toolset that suits you. Some folks import most of the data from their banks, so little manual data entry is required. A few prefer to manually enter everything, for the increased awareness and insight. "Manual" data entry is usually assisted in some way: interactive console tools (hledger add and similar), web-based tools (hledger-web and similar), GUI tools (ledgerhelpers), smart editors (eg emacs & ledger-mode), recurring transaction scripts. I currently use a mixture of bank CSV import and rapid copy/paste in emacs. I spend 15 minutes a day on average, and for me that's currently a good investment.
 
-**How do I use the transaction data in my bank's web or mobile app ?**\
+**How do I use the transaction data in my bank's web or mobile app?**\
 If you can export it as CSV, you can import it and run queries against it. There are also some tools for converting OFX, QIF etc.
 
-**So I've got a huge list of transactions recorded, duplicating my bank statements. How does that help ?**\
+**So I've got a huge list of transactions recorded, duplicating my bank statements. How does that help?**\
 Accounting is modelling flows of money (or other value). Such a model aggregates information from many sources, in one trusted place. With it you can efficiently generate reports, forecast things (cashflow!), answer questions, try experiments.
 Some people need a very simple model, others benefit from a more detailed one, and we don't know up front what we might need in future. The most fundamental accounting data is a simple list of transactions (the journal). Once you have captured this, you can mine it for anything you may want later on.
 Plain text accounting provides nice open data format(s), tools and practices for doing this, and could be a good foundation for more powerful tools.
 
-**Isn't a command-line tool too limited for real-world accounting needs ?**\
+**Isn't a command-line tool too limited for real-world accounting needs?**\
 *"I am sure for a simple expense/budget ledger it will work OK, but when it comes to recurring journals, multiple reconciliation accounts, inter company transfers, control account tracing etc., give me a nice GUI any day..."*\
 Understandable. The current plain text accounting tools provide a very generic double entry accounting system with which you can model such things, and script them.
 There are a number of generic GUIs available (hledger has curses and web interfaces, and there are web/curses/GTK interfaces for Ledger and beancount). But there are not yet a lot of rich task-specific GUIs. There's no reason they can't be built, though.
 
-**Isn't a plain text format too limited for large organizations ?**\
+**Isn't a plain text format too limited for large organizations?**\
 *"it's pretty obvious that plain-text files don't scale to a multinational, with hundreds of accountants of various types all trying to work with the same files. Even with proper use of Git I bet that would get old fast. You would instead want a real database, with a schema, and some data validation and some programs/webpages to smooth out the data entry and querying and whatnot."*\
 I'm not sure. Current plain text accounting tools can do some schema definition and data validation, and will do more in future. The plain text storage format is open, human-readable, future-proof (useful even without the software), scales smoothly from simple to complex needs, and taps a huge ecosystem of highly useful tooling, such as version control systems. And, despite the name, there's no reason these tools can't support other kinds of storage, such as a database.
 
-**Where can I see a comparison of hledger, Ledger, beancount, and the rest ?**\
+**Where can I see a comparison of hledger, Ledger, beancount, and the rest?**\
 Glad you asked! See below, and also [comparisons](#comparisons). hledger's FAQ discusses differences from Ledger, Beancount docs probably do too.
 
 </div>
@@ -504,7 +504,7 @@ other console/curses tools
 - [Alex Johnstone: Managing my personal finances with beancount](https://alexjj.com/blog/2016/2/managing-my-personal-finances-with-beancount/) 2016
 - [Stefano Rodighiero: hledger-dupes](http://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html) 2015
 - [Matthew Turland: Ledger basics and habits](http://matthewturland.com/2014/03/29/ledger-basics-and-habits/) 2014
-- [Simon Michael: What is hledger ?](http://joyful.com/blog/2013-10-20-what-is-hledger.html) 2013
+- [Simon Michael: What is hledger?](http://joyful.com/blog/2013-10-20-what-is-hledger.html) 2013
 - [Simon Michael: More on ledger](http://joyful.com/blog/2013-10-19-more-on-ledger.html) 2013
 - [Simon Michael: Introducing hledger!](http://joyful.com/blog/2013-10-18-introducing-hledger.html) 2013
 - [Joey Hess: hledger](http://joeyh.name/blog/entry/hledger) 2012
@@ -600,7 +600,7 @@ With ordinary subaccounts:
 - [Sharing Expenses in Beancount](https://docs.google.com/document/d/1FRcJqUfeAMQO6KjG94w6rF7VajMGJaFplmF1Wu0rCHY/edit#heading=h.yshh8f17jbdb) and others
 - [Keeping (financial) score with Ledger](http://sachachua.com/blog/2014/11/keeping-financial-score-ledger/)
 - [Program Your Finances: Automated Transactions](https://www.petekeen.net/program-your-finances-automated-transactions) for tracking reimbursables
-- [How to keep control of shared expenses inside marriage ?](http://money.stackexchange.com/questions/7101/how-to-keep-control-of-shared-expenses-inside-marriage)
+- [How to keep control of shared expenses inside marriage?](http://money.stackexchange.com/questions/7101/how-to-keep-control-of-shared-expenses-inside-marriage)
 
 #### taxes
 
