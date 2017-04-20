@@ -1,6 +1,6 @@
 ## Don’t Sink Your First Attempts at Plaintext Accounting
 
-Plain text accounting programs such as Ledger and HLedger are powerful, helpful tools, but your own user errors can take the wind out of your sails when you would rather be breezing through your accounting. Here, then, are several mistakes—ones that I have personally tested—that you will want to avoid in order to enjoy the benefits of plaintext accounting without unnecessary pain. 
+Plain text accounting programs such as Ledger and Hledger are powerful, helpful tools, but your own user errors can take the wind out of your sails when you would rather be breezing through your accounting. Here, then, are several mistakes—ones that I have personally tested—that you will want to avoid in order to enjoy the benefits of plaintext accounting without unnecessary pain. 
 
 ### Preliminary assumptions:
 
@@ -76,7 +76,7 @@ Here’s another error that’s easy to make and easy to overlook – omitting a
   Liabilities:CreditCard
 ```
 
-If you have been working with US dollars, it’s very easy to think that the above 20.00 refers to $20.00, but Ledger and HLedger will process this amount as something other than US dollars. 
+If you have been working with US dollars, it’s very easy to think that the above 20.00 refers to $20.00, but Ledger and Hledger will process this amount as something other than US dollars. 
 
 ### Using a Comma When You Need a Period
 
