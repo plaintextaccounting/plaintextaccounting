@@ -444,12 +444,10 @@ other console/curses tools
 - [Ledger manuals](http://ledger-cli.org/docs.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
 - [The Great Cheatsheet for Ledger CLI](http://ricostacruz.com/cheatsheets/ledger.html)
-
 - [hledger docs](http://hledger.org/docs.html)
-
-- [Beancount docs](http://furius.ca/beancount/doc/index) (or [sphinx version with API docs](http://aumayr.github.io/beancount-docs-static/))
+- [Beancount docs](http://furius.ca/beancount/doc/index) (or [sphinx version](http://aumayr.github.io/beancount-docs-static/))
 - [Beancount Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
-
+- [Don’t Sink Your First Attempts at Plaintext Accounting](plaintext-accounting-errors.html)
 - [Syntax Quick Reference for the Ledger-Likes](quickref/)
 
 #### concepts
