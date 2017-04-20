@@ -444,9 +444,13 @@ other console/curses tools
 - [Ledger manuals](http://ledger-cli.org/docs.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
 - [The Great Cheatsheet for Ledger CLI](http://ricostacruz.com/cheatsheets/ledger.html)
+
 - [hledger docs](http://hledger.org/docs.html)
+
 - [Beancount docs](http://furius.ca/beancount/doc/index) (or [sphinx version with API docs](http://aumayr.github.io/beancount-docs-static/))
 - [Beancount Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
+
+- [Syntax Quick Reference for the Ledger-Likes](quickref/)
 
 #### concepts
 
@@ -459,7 +463,6 @@ other console/curses tools
 
 #### comparisons
 
-- [Quick Reference for the Ledger-Likes](quickref/)
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
 - [Another Ledger user's perspective](http://thread.gmane.org/gmane.comp.finance.beancount/227) on Beancount 2015
 - [Martin Blais: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg/edit?pli=1#heading=h.2ax1dztqboy7) 2014
