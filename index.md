@@ -227,6 +227,7 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 | **[Beancount](http://furius.ca/beancount)**, 2008 |              | [Python](http://bitbucket.org/blais/beancount/)   10 <!-- ([openhub](https://www.openhub.net/p/beancount)) --> | [beancount](https://groups.google.com/forum/#!forum/beancount) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.beancount)) -->  120 | [#beancount](http://webchat.freenode.net/?channels=beancount&randomnick=1)  10
 | Abandon, 2013                                     | 2017/02      | [Scala](https://github.com/hrj/abandon)            9 <!-- ([openhub](https://www.openhub.net/p/abandon)) -->   |                                                                                                                                           | [gitter](https://gitter.im/hrj/abandon)
 | Ledger in Go, 2013                                |              | [Go](https://github.com/howeyc/ledger)             4                                                           |                                                                                                                                           |
+| Tackler, 2017                                     | 2017/04      | [Scala](https://github.com/sn127/tackler)             1                                                           |                                                                                                                                        | [gitter](https://gitter.im/sn127/tackler)
 
 Inactive:
 
