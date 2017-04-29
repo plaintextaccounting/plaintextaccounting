@@ -496,32 +496,26 @@ other console/curses tools
 
 #### articles & blog posts
 
-- [Brady Trainor: Hledger web](https://bradyt.com/2017/01/28/Hledger-web.html) 2017/1/28
-- [Karan Ahuja: Hledger Improvements Wishlist.](http://www.karanahuja.in/2016-05-17-Hledger-Improvements-Wishlist/) 2016/5/17
-- [Alex Johnstone: Managing my personal finances with beancount](https://alexjj.com/blog/2016/2/managing-my-personal-finances-with-beancount/) 2016/2/27
-- [Stefano Rodighiero: hledger-dupes](http://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html) 2015/1/4
-- [Matthew Turland: Ledger basics and habits](http://matthewturland.com/2014/03/29/ledger-basics-and-habits/) 2014/3/29
-- [Simon Michael: What is hledger?](http://joyful.com/blog/2013-10-20-what-is-hledger.html) 2013/10/20
-- [Simon Michael: More on ledger](http://joyful.com/blog/2013-10-19-more-on-ledger.html) 2013/10/19
-- [Simon Michael: Introducing hledger!](http://joyful.com/blog/2013-10-18-introducing-hledger.html) 2013/10/18
-- [Joey Hess: hledger](http://joeyh.name/blog/entry/hledger) 2012/12/3
-- [Gene Goykhman: An Alternative to QuickBooks](http://goykhman.ca/gene/blog/2012/2012-09-23-an-alternative-to-quickbooks.html) 2012/9/23
-- [LWN.net: The accounting quest: Ledger](http://lwn.net/Articles/501681/) 2012/6/13
-- [Pete Keen: A Robust Reporting System for Ledger](https://www.petekeen.net/finance) 2012/1/1
-- [Pete Keen: Program your Finances: Automated Transactions](https://www.petekeen.net/finance) 2011/12/18
-- [Sascha Welter: Doing my own accounting](http://betabug.ch/blogs/ch-athens/1221) 2011/12/5
-- [Clint Adams: Accounting at SFLC](http://www.softwarefreedom.org/blog/2011/sep/07/accounting-at-sflc/) 2011/9/7
-- [Pete Keen: Program your Finances: Vacation Tracking](https://www.petekeen.net/finance) 2011/8/4
-- [Pete Keen: Program your Finances: Reporting for Fun and Profit](https://www.petekeen.net/finance) 2011/7/1
-- [Christine Spang: [h]ledger rocks my world](http://blog.spang.cc/posts/hledger_rocks_my_world/) 2010/7/5
-- [Pete Keen: Program your Finances: Command-line Accounting](https://www.petekeen.net/finance) (& [intro](https://www.petekeen.net/finance)) 2010/5/23
-- [Joe Barr: Ledger, the bran muffin of accounting tools](http://archive09.linux.com/feature/58307) 2006/11/10
-
-  
-#### inspiration
-
-- [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
-- [David Mitchell: Personal Debts](https://www.youtube.com/watch?v=9zyp8RF-Fyw)
+- [Brady Trainor: Hledger web](https://bradyt.com/2017/01/28/Hledger-web.html) 2017<!-- /1/28 -->
+- [Karan Ahuja: Hledger Improvements Wishlist.](http://www.karanahuja.in/2016-05-17-Hledger-Improvements-Wishlist/) 2016<!-- /5/17 -->
+- [Alex Johnstone: Managing my personal finances with beancount](https://alexjj.com/blog/2016/2/managing-my-personal-finances-with-beancount/) 2016<!-- /2/27 -->
+- [Stefano Rodighiero: hledger-dupes](http://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html) 2015<!-- /1/4 -->
+- [Matthew Turland: Ledger basics and habits](http://matthewturland.com/2014/03/29/ledger-basics-and-habits/) 2014<!-- /3/29 -->
+- [Simon Michael: What is hledger?](http://joyful.com/blog/2013-10-20-what-is-hledger.html) 2013<!-- /10/20 -->
+- [Simon Michael: More on ledger](http://joyful.com/blog/2013-10-19-more-on-ledger.html) 2013<!-- /10/19 -->
+- [Simon Michael: Introducing hledger!](http://joyful.com/blog/2013-10-18-introducing-hledger.html) 2013<!-- /10/18 -->
+- [Joey Hess: hledger](http://joeyh.name/blog/entry/hledger) 2012<!-- /12/3 -->
+- [Gene Goykhman: An Alternative to QuickBooks](http://goykhman.ca/gene/blog/2012/2012-09-23-an-alternative-to-quickbooks.html) 2012<!-- /9/23 -->
+- [LWN.net: The accounting quest: Ledger](http://lwn.net/Articles/501681/) 2012<!-- /6/13 -->
+- [Pete Keen: A Robust Reporting System for Ledger](https://www.petekeen.net/finance) 2012<!-- /1/1 -->
+- [Pete Keen: Program your Finances: Automated Transactions](https://www.petekeen.net/finance) 2011<!-- /12/18 -->
+- [Sascha Welter: Doing my own accounting](http://betabug.ch/blogs/ch-athens/1221) 2011<!-- /12/5 -->
+- [Clint Adams: Accounting at SFLC](http://www.softwarefreedom.org/blog/2011/sep/07/accounting-at-sflc/) 2011<!-- /9/7 -->
+- [Pete Keen: Program your Finances: Vacation Tracking](https://www.petekeen.net/finance) 2011<!-- /8/4 -->
+- [Pete Keen: Program your Finances: Reporting for Fun and Profit](https://www.petekeen.net/finance) 2011<!-- /7/1 -->
+- [Christine Spang: [h]ledger rocks my world](http://blog.spang.cc/posts/hledger_rocks_my_world/) 2010<!-- /7/5 -->
+- [Pete Keen: Program your Finances: Command-line Accounting](https://www.petekeen.net/finance) (& [intro](https://www.petekeen.net/finance)) 2010<!-- /5/23 -->
+- [Joe Barr: Ledger, the bran muffin of accounting tools](http://archive09.linux.com/feature/58307) 2006<!-- /11/10 -->
 
 ### common tasks
 
