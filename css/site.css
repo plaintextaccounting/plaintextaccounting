@@ -8,6 +8,10 @@ p > strong > a, p > strong > a:hover {
     color:black;
 }
 
+.tight p {
+    margin:0;
+}
+
 /*
 li {
     margin-bottom:0;

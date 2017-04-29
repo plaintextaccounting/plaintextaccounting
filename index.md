@@ -438,7 +438,7 @@ other console/curses tools
 </div>
 
 </div>
-<div class="five columns u-pull-right">
+<div class="five columns u-pull-right tight">
 
 ### docs
 
