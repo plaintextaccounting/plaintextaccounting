@@ -97,7 +97,7 @@ This simple model makes them easy to understand and rely on.
 &nbsp;&nbsp;[reddit](#reddit)  
 &nbsp;&nbsp;[twitter](#twitter)  
 [docs](#docs)  
-&nbsp;&nbsp;[accounting](#accounting)  
+&nbsp;&nbsp;[accounting](#accounting-1)  
 &nbsp;&nbsp;[comparisons](#comparisons)  
 &nbsp;&nbsp;[presentations](#presentations)  
 &nbsp;&nbsp;[videos](#videos)  
