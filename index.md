@@ -50,7 +50,7 @@ Accounting data is valuable;
 we want to know that it will be accessible for ever - even without software.
 We want to know when it changes, and revision-control it.
 We want to search and manipulate it efficiently.
-So, we store it as human-readable **[plain](http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry) [text](http://hledger.org/manual.html#journal)**.
+So, we store it as human-readable **[plain](http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry) [text](http://hledger.org/manual.html#journal-format)**.
 
 We simplify debits and credits by using
 **[signed numbers](http://ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes)** instead -
@@ -63,7 +63,7 @@ to suit our needs.
 This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail.
 
 Ledger-likes are, at least in part,
-**[command-line](http://ledger-cli.org/3.0/doc/ledger3.html#Basic-Usage) [tools](http://hledger.org/manual.html#usage)**.
+**[command-line](http://ledger-cli.org/3.0/doc/ledger3.html#Basic-Usage) [tools](http://hledger.org/manual.html#hledger)**.
 This makes them efficient to use and very
 **[scriptable](#related-tools)** and flexible.
 
@@ -223,7 +223,7 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 |---------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------:
 | Project, start&nbsp;date                          | Last release | Code, committers                                                                                               | Mail list, size                                                                                                                           | Chat, size
 | **[Ledger](http://ledger-cli.org)**, 2003         | 2016/01      | [C++](https://github.com/ledger/ledger)          111 <!-- ([openhub](https://www.openhub.net/p/ledger)) -->    | [ledger-cli](http://list.ledger-cli.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.general)) -->                  650 | [#ledger](http://webchat.freenode.net/?channels=ledger&randomnick=1)       100
-| **[hledger](http://hledger.org)**, 2007           | 2017/03      | [Haskell](http://code.hledger.org)                53 <!-- ([openhub](https://www.openhub.net/p/hledger)) -->   | [hledger](http://list.hledger.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.hledger)) -->                        100 | [#hledger](http://webchat.freenode.net/?channels=hledger&randomnick=1)      40
+| **[hledger](http://hledger.org)**, 2007           | 2017/03      | [Haskell](http://code.hledger.org)                53 <!-- ([openhub](https://www.openhub.net/p/hledger)) -->   | [hledger](http://mail.hledger.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.hledger)) -->                        100 | [#hledger](http://webchat.freenode.net/?channels=hledger&randomnick=1)      40
 | **[Beancount](http://furius.ca/beancount)**, 2008 |              | [Python](http://bitbucket.org/blais/beancount/)   10 <!-- ([openhub](https://www.openhub.net/p/beancount)) --> | [beancount](https://groups.google.com/forum/#!forum/beancount) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.beancount)) -->  120 | [#beancount](http://webchat.freenode.net/?channels=beancount&randomnick=1)  10
 | Abandon, 2013                                     | 2017/02      | [Scala](https://github.com/hrj/abandon)            9 <!-- ([openhub](https://www.openhub.net/p/abandon)) -->   |                                                                                                                                           | [gitter](https://gitter.im/hrj/abandon)
 | Ledger in Go, 2013                                |              | [Go](https://github.com/howeyc/ledger)             4                                                           |                                                                                                                                           |
@@ -258,7 +258,7 @@ Inactive:
 
 #### data import/conversion
 
-- [Ledger](http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](http://hledger.org/csv.html) have CSV conversion built in. Also:
+- [Ledger](http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](http://hledger.org/manual.html#csv-format) have CSV conversion built in. Also:
 - [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
 - bean-identify, bean-extract, bean-file - Beancount built-in tools
 - [beancount-import](https://github.com/jbms/beancount-import) CSV to beancount converter (curses)
@@ -445,34 +445,28 @@ other console/curses tools
 - [Ledger manuals](http://ledger-cli.org/docs.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
 - [The Great Cheatsheet for Ledger CLI](http://ricostacruz.com/cheatsheets/ledger.html)
-- [hledger docs](http://hledger.org/docs.html)
-- [Beancount docs](http://furius.ca/beancount/doc/index) (or [sphinx version](http://aumayr.github.io/beancount-docs-static/))
+- [Getting Started With Ledger](https://github.com/rolfschr/GSWL-book/releases/latest)
+- [hledger User Guide](http://hledger.org/docs.html)
+- [Beancount docs](http://furius.ca/beancount/doc/index) ([sphinx version](http://aumayr.github.io/beancount-docs-static/))
 - [Beancount Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
 - [Don’t Sink Your First Attempts at Plaintext Accounting](plaintext-accounting-errors.html)
 - [Syntax Quick Reference for the Ledger-Likes](quickref/)
 
-#### concepts
+#### accounting
 
-- [The Double-Entry Counting Method](https://furius.ca/beancount/doc/intro) 2016
-- [Accounting docs](http://hledger.org/more-docs.html#accounting)
-- [account structure (Ledger vs accounting)](http://thread.gmane.org/gmane.comp.finance.ledger.general/7398/focus=7417) 2015
-<!--
-- http://money.stackexchange.com/questions/47561/simplified-version-of-double-entry-bookkeeping-for-personal-and-business-finance
--->
+- [Misc. accounting intros](http://hledger.org/more-docs.html#accounting)
+- [The Double-Entry Counting Method](https://furius.ca/beancount/doc/intro)
+- [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
 
 #### comparisons
 
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
-- [Another Ledger user's perspective](http://thread.gmane.org/gmane.comp.finance.beancount/227) on Beancount 2015
+- [Another Ledger user's perspective](http://thread.gmane.org/gmane.comp.finance.beancount/227) 2015
 - [Martin Blais: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg/edit?pli=1#heading=h.2ax1dztqboy7) 2014
 - [ledger vs hledger vs beancount or how to choose the right cli client](http://thread.gmane.org/gmane.comp.finance.ledger.general/6563) 2014
 - [Simon Michael: hledger & Ledger](http://hledger.org/faq.html#hledger-ledger) 2014
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
 - [Fabrice Niessen: Why Ledger?](http://www.mygooglest.com/fni/ledger.html) 2010
-
-#### online books
-
-- [Getting Started With Ledger](https://github.com/rolfschr/GSWL-book/releases/latest) 2016
 
 #### presentations
 
@@ -493,6 +487,7 @@ other console/curses tools
   ([youtube](https://www.youtube.com/watch?v=TDqrrH-gTt0)) 2011
 - [Accounting course by Prof. Krug](https://www.youtube.com/playlist?list=PL259DBFA47F3B4761) 2011
 - [Khan Academy: Accounting and financial statements](https://www.khanacademy.org/economics-finance-domain/core-finance/accounting-and-financial-stateme)
+- [David Mitchell: Personal Debts](https://www.youtube.com/watch?v=9zyp8RF-Fyw)
 
 #### articles & blog posts
 
@@ -521,19 +516,21 @@ other console/curses tools
 
 #### choosing accounts
 
-- [sample chart of accounts (freelancer)](https://gist.github.com/simonmichael/9936299)
+- [sample chart of accounts for a freelancer](https://gist.github.com/simonmichael/9936299)
 - [Beancount Cookbook: Account Naming Conventions](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk/view#heading=h.tu0f1kydrpgn)
 - [Mint: Ways to Categorize Your Spending](https://www.mint.com/mint-categories)
+- [account structure](http://thread.gmane.org/gmane.comp.finance.ledger.general/7398/focus=7417)
+- [Simplified version of double-entry bookkeeping for personal and business finance?](http://money.stackexchange.com/questions/47561/simplified-version-of-double-entry-bookkeeping-for-personal-and-business-finance)
 
 #### entering data
 
-- [hledger step by step: basic data entry](http://hledger.org/step-by-step.html#basic-data-entry-reporting)
+- [hledger Step by Step: basic data entry](http://hledger.org/step-by-step.html#basic-data-entry-reporting)
 - ledger-mode:\
   `C-c C-a` add a transaction,\
   `C-c C-b` amount calculator,\
   `C-c C-c`/`C-c C-e` toggle cleared
 - [Beancount: Command Line Accounting Cookbook](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk)
-- [hledger: How to use another account separator character](http://hledger.org/how-to-use-another-account-separator-character.html)
+- [hledger Cookbook: Use another account separator character](http://hledger.org/cookbook.html#use-another-account-separator-character)
 - [Accounting bookkeeping entries](http://hledger.org/more-docs.html#accounting)
 - [ledger-envelope-generator.rb](https://github.com/simonmichael/hledger/issues/313)
 - [UI tools](#ui-console)
@@ -542,7 +539,7 @@ other console/curses tools
 
 - [Ledger: The convert command](http://www.ledger-cli.org/3.0/doc/ledger3.html#The-convert-command)
 - [hledger: CSV format](http://hledger.org/manual.html#csv-format)
-- [hledger: Convert CSV files](http://hledger.org/csv-import.html)
+- [hledger Cookbook: Convert CSV files](http://hledger.org/cookbook.html#convert-csv-files)
 - [Importing External Data in Beancount](http://furius.ca/beancount/doc/ingest)
 - [Fetching Prices in Beancount](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c)
 - [Payment matching done right](https://tomszilagyi.github.io/payment-matching/)
@@ -551,38 +548,43 @@ other console/curses tools
 #### reconciling
 
 - ledger-mode: `C-c C-r`
+- [How to use ledger(1) to reconcile your chequebook with your bank statement](https://mumble.net/~campbell/tmp/20170426/HOWTO-reconcile-cheques)
 
 #### reporting
 
 - [example queries for Beancount](http://aumayr.github.io/beancount-sql-queries/)
-- [hledger: How to use account aliases](http://hledger.org/how-to-use-account-aliases.html)
+- [hledger Cookbook: Rewrite account names](http://hledger.org/cookbook.html#rewrite-account-names)
 - [Report Scripts for Ledger CLI with Gnuplot](https://www.sundialdreams.com/report-scripts-for-ledger-cli-with-gnuplot/)
 
 #### budgeting
 
-With Ledger's --budget report:
+Budget reporting with Ledger's periodic transactions:
 
 - [Ledger: Budgeting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting)
 
-With Ledger's automated transactions:
+<p style="margin-bottom:.1em;">Budget reporting with hledger-budget:
+
+- [hledger-budget](http://hledger.org/manual.html#budget)
+
+Envelope budgeting with ordinary accounts:
+
+- [Simon Michael: envelope budgeting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
+
+Envelope budgeting with Ledger's automated transactions:
 
 - [bsilvereagle: Envelope Budgeting with ledger](https://frdmtoplay.com/envelope-budgeting-with-ledger)
 - [Pete Keen: Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting)
 - [Marcin Borkowski: Ledger – virtual postings aka envelopes](http://mbork.pl/2016-07-18_Ledger_–_virtual_postings_aka_envelopes)
 
-With org-mode:
+Envelope budgeting with automated transactions, org & babel:
 
 - [Org tutorials: Weaving a budget with Org & ledger](http://orgmode.org/worg/org-tutorials/weaving-a-budget.html)
 - [Alan Schmitt: Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
 
-With ordinary subaccounts:
-
-- [Simon Michael: envelope budgeting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
-
 #### forecasting
 
 - [Ledger: Forecasting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Forecasting)
-- [Notes on Installing and Using ledger on NetBSD](http://atomicules.co.uk/2015/06/20/Notes-on-installing-and-using-Ledger-on-NetBSD.html) and forecasting
+<!-- down 2017/4/28 - [Notes on Installing and Using ledger on NetBSD](http://atomicules.co.uk/2015/06/20/Notes-on-installing-and-using-Ledger-on-NetBSD.html) and forecasting -->
 
 #### invoicing
 
@@ -592,27 +594,28 @@ With ordinary subaccounts:
 
 - [Peter Selinger: Tutorial on multiple currency accounting](http://www.mscs.dal.ca/~selinger/accounting/tutorial.html)
 - [ledger-currencies tutorial](https://github.com/mikekchar/ledger-currencies)
-- [on currency vs commodity valuation](https://groups.google.com/d/msg/ledger-cli/dc6F-HvZOyE/5IuoxzMOBwAJ)
+- [Understanding the valuation function and the market function](https://groups.google.com/d/msg/ledger-cli/dc6F-HvZOyE/5IuoxzMOBwAJ)
 
 #### shared expenses
 
-- [Sharing Expenses in Beancount](https://docs.google.com/document/d/1FRcJqUfeAMQO6KjG94w6rF7VajMGJaFplmF1Wu0rCHY/edit#heading=h.yshh8f17jbdb) and others
+- [Sharing Expenses in Beancount](https://docs.google.com/document/d/1FRcJqUfeAMQO6KjG94w6rF7VajMGJaFplmF1Wu0rCHY/edit#heading=h.yshh8f17jbdb)
 - [Keeping (financial) score with Ledger](http://sachachua.com/blog/2014/11/keeping-financial-score-ledger/)
-- [Program Your Finances: Automated Transactions](https://www.petekeen.net/program-your-finances-automated-transactions) for tracking reimbursables
+- [Program Your Finances: Automated Transactions](https://www.petekeen.net/program-your-finances-automated-transactions)
 - [How to keep control of shared expenses inside marriage?](http://money.stackexchange.com/questions/7101/how-to-keep-control-of-shared-expenses-inside-marriage)
+- [How to use ledger(1) to split shared expenses](https://mumble.net/~campbell/tmp/20170426/HOWTO-sharedexpense)
 
 #### taxes
 
-- [Another Ledger user's perspective](http://thread.gmane.org/gmane.comp.finance.beancount/227/focus=237) some tax discussion
-- [hledger: How to use account aliases](http://hledger.org/how-to-use-account-aliases.html) for tax reporting
+- [Another Ledger user's perspective](http://thread.gmane.org/gmane.comp.finance.beancount/227/focus=237)
+- [hledger Cookbook: Rewrite account names](http://hledger.org/cookbook.html#rewrite-account-names)
 
 #### time tracking
 
 - [Ledger: Time Keeping](http://ledger-cli.org/3.0/doc/ledger3.html#Time-Keeping)
-- [hledger: Timeclock files](http://hledger.org/manual.html#timeclock)
-- [hledger: Timedot files](http://hledger.org/manual.html#timedot)
+- [hledger: Timeclock files](http://hledger.org/manual.html#timeclock-format)
+- [hledger: Timedot files](http://hledger.org/manual.html#timedot-format)
 - [Timetracking and billing with (h)ledger](https://github.com/anarcat/ledger-timetracking)
-- [time tracking tools](#time-tracking)
+- [time tracking tools](#time-logging)
 
 #### inventory tracking
 
@@ -639,7 +642,7 @@ With ordinary subaccounts:
 
 - [hledger-lib](http://hackage.haskell.org/package/hledger-lib),
   [hledger](http://hackage.haskell.org/package/hledger),
-  [example](http://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html)
+  [an example](http://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html)
   Haskell
 
 - [hledger-api](http://editor.swagger.io/#/?import=demo.hledger.org/api/swagger.json&no-proxy),
