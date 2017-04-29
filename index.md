@@ -1,6 +1,8 @@
 <!-- CSS: http://getskeleton.com -->
 <!-- markdown: http://pandoc.org/README.html -->
-
+<div style="float:right; position:fixed; bottom:1em; right:1em;">
+[![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.github.io.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
+</div>
 <div class="row" style="padding-top:10%;">
 
 <h1 style="text-align:center; margin-bottom:5%;">Plain Text Accounting</h1>
@@ -658,9 +660,8 @@ Envelope budgeting with automated transactions, org & babel:
 <div class="row" style="text-align:center;">
 
 <hr>
-Send updates via the
-[github repo](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
-([changes](https://github.com/plaintextaccounting/plaintextaccounting.github.io/commits/master))
+\(c) 2016-2017 [Joyful Systems](http://joyful.com) & co. |
+Send updates via [github](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
+([latest changes](https://github.com/plaintextaccounting/plaintextaccounting.github.io/commits/master))
 
 </div>
-
