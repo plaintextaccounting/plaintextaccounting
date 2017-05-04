@@ -491,7 +491,7 @@ other console/curses tools
 
 #### articles & blog posts
 
-- [Brady Trainor: Hledger web](https://bradyt.com/2017/01/28/Hledger-web.html) 2017<!-- /1/28 -->
+- [Brady Trainor: Hledger web](https://bradyt.com/2017/04/28/Hledger-web.html) 2017<!-- /4/28 -->
 - [Karan Ahuja: Hledger Improvements Wishlist.](http://www.karanahuja.in/2016-05-17-Hledger-Improvements-Wishlist/) 2016<!-- /5/17 -->
 - [Alex Johnstone: Managing my personal finances with beancount](https://alexjj.com/blog/2016/2/managing-my-personal-finances-with-beancount/) 2016<!-- /2/27 -->
 - [Stefano Rodighiero: hledger-dupes](http://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html) 2015<!-- /1/4 -->
