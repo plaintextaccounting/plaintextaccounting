@@ -548,7 +548,8 @@ other console/curses tools
 #### reconciling
 
 - ledger-mode: `C-c C-r`
-- [How to use ledger(1) to reconcile your chequebook with your bank statement](https://mumble.net/~campbell/tmp/20170426/HOWTO-reconcile-cheques)
+- [How to use ledger(1) to reconcile your chequebook with your bank statement](https://mumble.net/~campbell/2017/02/26/ledger/HOWTO-reconcile-cheques)
+- [How to use ledger(1) to reconcile your payments with your payment processor](https://mumble.net/~campbell/2017/02/26/ledger/HOWTO-reconcile-payments)
 
 #### reporting
 
@@ -602,7 +603,7 @@ Envelope budgeting with automated transactions, org & babel:
 - [Keeping (financial) score with Ledger](http://sachachua.com/blog/2014/11/keeping-financial-score-ledger/)
 - [Program Your Finances: Automated Transactions](https://www.petekeen.net/program-your-finances-automated-transactions)
 - [How to keep control of shared expenses inside marriage?](http://money.stackexchange.com/questions/7101/how-to-keep-control-of-shared-expenses-inside-marriage)
-- [How to use ledger(1) to split shared expenses](https://mumble.net/~campbell/tmp/20170426/HOWTO-sharedexpense)
+- [How to use ledger(1) to split shared expenses](https://mumble.net/~campbell/2017/02/26/ledger/HOWTO-sharedexpense)
 
 #### taxes
 
