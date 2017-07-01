@@ -413,6 +413,7 @@ other console/curses tools
 #### reddit
 </div>
 
+[/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/),
 [/r/ledger](https://www.reddit.com/r/ledger/)
 
 </div>
