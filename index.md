@@ -301,6 +301,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle) for TextMate
 \
 \
+- [hledger-vscode](https://github.com/mhansen/hledger-vscode) for Visual Studio Code
 - [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger) for Visual Studio Code
 
 #### time logging
