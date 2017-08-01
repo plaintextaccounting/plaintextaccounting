@@ -116,6 +116,7 @@ This simple model makes them easy to understand and rely on.
 &nbsp;&nbsp;[taxes](#taxes)  
 &nbsp;&nbsp;[time tracking](#time-tracking)  
 &nbsp;&nbsp;[inventory tracking](#inventory-tracking)  
+&nbsp;&nbsp;[estate accounting](#estate-accounting)  
 &nbsp;&nbsp;[non-profit accounting](#non-profit-accounting)  
 &nbsp;&nbsp;[exporting](#exporting)  
 &nbsp;&nbsp;[API access](#api-access)  
@@ -495,6 +496,9 @@ other console/curses tools
 
 #### articles & blog posts
 
+- [S.M. Oliva: A Simple First Account](https://commandlineprobate.com/post/002-a-simple-first-account/) 2017<!-- /7/31 -->
+- [S.M. Oliva: The Basics of hledger](https://commandlineprobate.com/post/001-the-basics-of-hledger/) 2017<!-- /7/30 -->
+- [S.M. Oliva: Introduction to Command Line Probate](https://commandlineprobate.com/post/000-introduction-to-command-line-probate/) 2017<!-- /7/5 -->
 - [Brady Trainor: Hledger web](https://bradyt.com/2017/04/28/Hledger-web.html) 2017<!-- /4/28 -->
 - [Karan Ahuja: Hledger Improvements Wishlist.](http://www.karanahuja.in/2016-05-17-Hledger-Improvements-Wishlist/) 2016<!-- /5/17 -->
 - [Alex Johnstone: Managing my personal finances with beancount](https://alexjj.com/blog/2016/2/managing-my-personal-finances-with-beancount/) 2016<!-- /2/27 -->
@@ -626,6 +630,10 @@ Envelope budgeting with automated transactions, org & babel:
 
 - [Inventory Booking](http://furius.ca/beancount/doc/proposal-booking), [discussion](https://groups.google.com/forum/#!searchin/ledger-cli/inventory/ledger-cli/aQvbjTZa7HE/x3KNPteJWPsJ)
 - [Accounting Savvy for Business Owners ch. 8](http://www.amazon.com/Accounting-Savvy-Business-Owners-Essentials/dp/193292518X)
+
+#### estate accounting
+
+- [Command Line Probate blog](https://commandlineprobate.com)
 
 #### non-profit accounting
 
