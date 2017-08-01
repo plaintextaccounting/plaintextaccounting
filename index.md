@@ -281,28 +281,28 @@ Inactive:
 Grouped by editor.
 Note these often work quite well for other ledger-likes, not just the one they are named for.
 
-- [language-ledger](https://atom.io/packages/language-ledger) for Atom
-- [ledger](https://atom.io/packages/ledger) for Atom
+- <span style="float:right;">Atom</span> [language-ledger](https://atom.io/packages/language-ledger)
+- <span style="float:right;">Atom</span> [ledger](https://atom.io/packages/ledger)
 \
 \
-- [beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default) for Emacs
-- [hledger-mode](https://github.com/narendraj9/hledger-mode) for Emacs
-- [ledger-mode](http://ledger-cli.org/3.0/doc/ledger-mode.html) for Emacs (also works for hledger, beancount etc.)
+- <span style="float:right;">Emacs</span> [beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default)
+- <span style="float:right;">Emacs</span> [hledger-mode](https://github.com/narendraj9/hledger-mode)
+- <span style="float:right;">Emacs</span> [ledger-mode](http://ledger-cli.org/3.0/doc/ledger-mode.html) (also works for hledger, beancount etc.)
 \
 \
-- [hledger-vim](https://github.com/anekos/hledger-vim) for VIM
-- [vim-beancount](https://github.com/nathangrigg/vim-beancount) for VIM
-- [vim-ledger](https://github.com/ledger/vim-ledger) for VIM
+- <span style="float:right;">VIM</span> [hledger-vim](https://github.com/anekos/hledger-vim)
+- <span style="float:right;">VIM</span> [vim-beancount](https://github.com/nathangrigg/vim-beancount)
+- <span style="float:right;">VIM</span> [vim-ledger](https://github.com/ledger/vim-ledger)
 \
 \
-- [sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax) for Sublime Text/TextMate
+- <span style="float:right;">Sublime</span> [sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax)
 \
 \
-- [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle) for TextMate
+- <span style="float:right;">TextMate</span> [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle)
 \
 \
-- [hledger-vscode](https://github.com/mhansen/hledger-vscode) for Visual Studio Code
-- [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger) for Visual Studio Code
+- <span style="float:right;">Visual Studio Code</span> [hledger-vscode](https://github.com/mhansen/hledger-vscode)
+- <span style="float:right;">Visual Studio Code</span> [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger)
 
 #### time logging
 
