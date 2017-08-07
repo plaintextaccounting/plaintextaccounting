@@ -615,6 +615,7 @@ Envelope budgeting with automated transactions, org & babel:
 
 #### taxes
 
+- [How to use ledger(1) to track US income taxes](https://mumble.net/~campbell/2017/08/06/ledger/HOWTO-track-tax)
 - [Another Ledger user's perspective](http://thread.gmane.org/gmane.comp.finance.beancount/227/focus=237)
 - [hledger Cookbook: Rewrite account names](http://hledger.org/cookbook.html#rewrite-account-names)
 
