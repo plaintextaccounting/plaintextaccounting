@@ -496,6 +496,7 @@ other console/curses tools
 
 #### articles & blog posts
 
+- [S.M. Oliva: Inventory, Part I: Will It Probate?](https://commandlineprobate.com/post/003-inventory-part-1-will-it-probate/) 2017<!-- /8/31 -->
 - [S.M. Oliva: A Simple First Account](https://commandlineprobate.com/post/002-a-simple-first-account/) 2017<!-- /7/31 -->
 - [S.M. Oliva: The Basics of hledger](https://commandlineprobate.com/post/001-the-basics-of-hledger/) 2017<!-- /7/30 -->
 - [S.M. Oliva: Introduction to Command Line Probate](https://commandlineprobate.com/post/000-introduction-to-command-line-probate/) 2017<!-- /7/5 -->
