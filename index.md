@@ -255,6 +255,7 @@ Inactive:
 - [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return over time
 - [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices
 - [ledger-tutorials](https://github.com/tlvince/ledger-tutorials) convert Pete Keen's tutorials to ebook format
+- [ledger-reconciler](https://disjoint.ca/projects/ledger-reconciler) automatically download and reconcile your ledger financial entries
 
 #### data import/conversion
 
