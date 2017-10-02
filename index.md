@@ -481,6 +481,7 @@ other console/curses tools
 
 #### videos
 
+- [Colin Dean: Plaintext Accounting with the ledger ecosystem](https://www.youtube.com/watch?v=FJtaM43PgXQ) 2017
 - [Colin Dean: Plain Text Accounting](https://www.youtube.com/watch?v=8r5Cp66k4PA) 2017
 - [Ben Orenstein: Conquering Your Finances with Emacs and Ledger](https://www.youtube.com/watch?v=cjoCNRpLanY) 2016
 - [FLOSS Weekly 375: hledger](https://twit.tv/shows/floss-weekly/episodes/375)
