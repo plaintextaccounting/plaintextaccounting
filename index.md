@@ -261,6 +261,7 @@ Inactive:
 - [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
 - bean-identify, bean-extract, bean-file - Beancount built-in tools
 - [beancount-import](https://github.com/jbms/beancount-import) CSV to beancount converter (curses)
+- [csv2beancount](https://github.com/PaNaVTEC/csv2beancount) CSV to beancount converter
 - [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) GnuCash to beancount converter
 - [gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) GNUCash to *ledger converter
 - [grisbi2Ledger](https://github.com/Hawk777/grisbi2ledger) Grisbi to *ledger converter
@@ -276,7 +277,7 @@ Inactive:
 - [QIFtoLedger](https://github.com/Kolomona/QIFtoLedger) (Bank of America's) QIF to *ledger converter
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
-- [csv2beancount](https://github.com/PaNaVTEC/csv2beancount) CSV to beancount converter
+- [You Need A Budget (3?) to *ledger converter](https://github.com/pgr0ss/ynab_to_ledger)
 
 #### editor support
 
