@@ -277,7 +277,7 @@ Inactive:
 - [QIFtoLedger](https://github.com/Kolomona/QIFtoLedger) (Bank of America's) QIF to *ledger converter
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
-- [You Need A Budget (3?) to *ledger converter](https://github.com/pgr0ss/ynab_to_ledger)
+- [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) You Need A Budget (3 ?) to *ledger converter
 
 #### editor support
 
