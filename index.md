@@ -401,7 +401,8 @@ other console/curses tools
 [2016](https://news.ycombinator.com/item?id=11164330),
 [2016](https://news.ycombinator.com/item?id=11366693),
 [2016](https://news.ycombinator.com/item?id=12119050),
-[2017](https://news.ycombinator.com/item?id=13566147)
+[2017](https://news.ycombinator.com/item?id=13566147),
+[2017](https://news.ycombinator.com/item?id=15818682)
 
 <!--
 - [Ledger, a command-line accounting system](https://news.ycombinator.com/item?id=10510394) 2015
