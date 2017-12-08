@@ -226,7 +226,7 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 | **[hledger](http://hledger.org)**, 2007           | 2017/09      | [Haskell](http://code.hledger.org)                67 <!-- ([openhub](https://www.openhub.net/p/hledger)) -->   | [hledger](http://mail.hledger.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.hledger)) -->                        120 | [#hledger](http://webchat.freenode.net/?channels=hledger&randomnick=1)      40
 | **[Beancount](http://furius.ca/beancount)**, 2008 |              | [Python](http://bitbucket.org/blais/beancount/)   17 <!-- ([openhub](https://www.openhub.net/p/beancount)) --> | [beancount](https://groups.google.com/forum/#!forum/beancount) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.beancount)) -->  170 | [#beancount](http://webchat.freenode.net/?channels=beancount&randomnick=1)  10
 | Abandon, 2013                                     | 2017/02      | [Scala](https://github.com/hrj/abandon)           12 <!-- ([openhub](https://www.openhub.net/p/abandon)) -->   |                                                                                                                                           | [gitter](https://gitter.im/hrj/abandon)
-| Ledger in Go, 2013                                |              | [Go](https://github.com/howeyc/ledger)             5                                                           |                                                                                                                                           |
+| Ledger in Go, 2013                                | 2017/12      | [Go](https://github.com/howeyc/ledger)             5                                                           |                                                                                                                                           |
 | Tackler, 2017                                     | 2017/04      | [Scala](https://github.com/sn127/tackler)          3                                                           |                                                                                                                                           | [gitter](https://gitter.im/sn127/tackler)
 
 Inactive:
@@ -278,6 +278,7 @@ Inactive:
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
 - [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) You Need A Budget to *ledger converter
+- [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
 
 #### editor support
 
@@ -345,6 +346,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing (JavaScript)
 - [ledgible](https://github.com/lipidity/ledgible) web UI for browsing, data entry (Python, [demo](https://lipidity.com/cgi/ledgible/app.py/))
 - [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for browsing, price fetching (F#, Ledger)
+- [Ledger in Go](https://github.com/howeyc/ledger) has lweb, a web UI for browsing transactions, reports, and porfolios
 
 #### API
 
