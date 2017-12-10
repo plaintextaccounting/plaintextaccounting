@@ -44,28 +44,13 @@
 Plain Text Accounting
 </h1>
 <div class="four columns">
-<h3 id="accounting">accounting</h3>
-<p><strong><a href="https://en.wikipedia.org/wiki/Accounting">accounting</a></strong> is tracking the flow of valuable commodities, such as money or time. It clarifies activity, priorities, obligations, opportunities. It can <strong><a href="http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons">reduce stress</a></strong> and even be enjoyable.</p>
-<p><strong><a href="https://en.wikipedia.org/wiki/Double-entry_bookkeeping_system">double-entry bookkeeping</a></strong> is a process for doing this reliably. For every movement of value (a <strong><a href="https://en.wikipedia.org/wiki/Financial_transaction">transaction</a></strong>), both the source and destination are recorded. Simple arithmetic invariants help prevent errors.</p>
-<p>In traditional double-entry bookkeeping, value at any point in time is tracked in various <strong><a href="https://en.wikipedia.org/wiki/Account_(accountancy)">accounts</a></strong>, classified as <strong><a href="https://en.wikipedia.org/wiki/Asset">asset</a></strong> (owned), <strong><a href="https://en.wikipedia.org/wiki/Liability_(financial_accounting)">liability</a></strong> (owed) or <strong><a href="https://en.wikipedia.org/wiki/Equity_(finance)">equity</a></strong> (invested). Two more classifications track changes during some period: <strong><a href="https://en.wikipedia.org/wiki/Revenue">revenues</a></strong> (inflows) and <strong><a href="https://en.wikipedia.org/wiki/Expense">expenses</a></strong> (outflows).</p>
-<p>Transactions consist of <strong><a href="https://en.wikipedia.org/wiki/Debits_and_credits">debits</a></strong> (increases to asset or expense accounts, or decreases to liability or equity accounts) or <strong><a href="https://en.wikipedia.org/wiki/Debits_and_credits">credits</a></strong> (decreases to asset or expense accounts, or increases to liability or equity accounts).</p>
+<h3 id="accounting">accounting</h3><p><strong><a href="https://en.wikipedia.org/wiki/Accounting">accounting</a></strong> is tracking the flow of valuable commodities, such as money or time. It clarifies activity, priorities, obligations, opportunities. It can <strong><a href="http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons">reduce stress</a></strong> and even be enjoyable.</p><p><strong><a href="https://en.wikipedia.org/wiki/Double-entry_bookkeeping_system">double-entry bookkeeping</a></strong> is a process for doing this reliably. For every movement of value (a <strong><a href="https://en.wikipedia.org/wiki/Financial_transaction">transaction</a></strong>), both the source and destination are recorded. Simple arithmetic invariants help prevent errors.</p><p>In traditional double-entry bookkeeping, value at any point in time is tracked in various <strong><a href="https://en.wikipedia.org/wiki/Account_(accountancy)">accounts</a></strong>, classified as <strong><a href="https://en.wikipedia.org/wiki/Asset">asset</a></strong> (owned), <strong><a href="https://en.wikipedia.org/wiki/Liability_(financial_accounting)">liability</a></strong> (owed) or <strong><a href="https://en.wikipedia.org/wiki/Equity_(finance)">equity</a></strong> (invested). Two more classifications track changes during some period: <strong><a href="https://en.wikipedia.org/wiki/Revenue">revenues</a></strong> (inflows) and <strong><a href="https://en.wikipedia.org/wiki/Expense">expenses</a></strong> (outflows).</p><p>Transactions consist of <strong><a href="https://en.wikipedia.org/wiki/Debits_and_credits">debits</a></strong> (increases to asset or expense accounts, or decreases to liability or equity accounts) or <strong><a href="https://en.wikipedia.org/wiki/Debits_and_credits">credits</a></strong> (decreases to asset or expense accounts, or increases to liability or equity accounts).</p>
 </div>
 <div class="four columns">
-<h3 id="with-text">...with text</h3>
-<!-- Ledger, hledger, beancount, and other **[Ledger-likes](#ledger-likes)** -->
-<!-- are minimalist software tools for efficient double-entry-style accounting. -->
-<!-- <\!-- **[double-entry-style](https://news.ycombinator.com/item?id=10512418)** accounting. -\-> -->
-<!-- This site introduces them and their way of doing things. -->
-<p>In 2003, John Wiegley invented Ledger: a plain text data format and command-line reporting tool for efficient double-entry-style accounting. This idea went viral among software developers and technical folk, and we now have 5+ actively-developed <strong><a href="#ledger-likes">Ledger-likes</a></strong> such as hledger and Beancount, with 40+ add-on tools and an active community. This site was created in 2016 to introduce our tools, documentation, and practices.</p>
-<p>Accounting data is valuable; we want to know that it will be accessible for ever - even without software. We want to know when it changes, and revision-control it. We want to search and manipulate it efficiently. So, we store it as human-readable <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry">plain</a> <a href="http://hledger.org/manual.html#journal-format">text</a></strong>.</p>
-<p>We simplify debits and credits by using <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes">signed numbers</a></strong> instead - positive for inflows to an account, negative for outflows from an account.</p>
-<p>We define arbitrary <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Structuring-your-Accounts">account</a> <a href="http://hledger.org/manual.html#account-names">hierarchy</a></strong> to suit our needs. This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail.</p>
-<p>Ledger-likes are, at least in part, <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Basic-Usage">command-line</a> <a href="http://hledger.org/manual.html#hledger">tools</a></strong>. This makes them efficient to use and very <strong><a href="#related-tools">scriptable</a></strong> and flexible.</p>
-<p>Ledger-likes also, at their core, tend towards <strong><a href="https://en.wikipedia.org/wiki/Function_(mathematics)">functional operation</a></strong>: they read the input data without changing it, and output a report. This simple model makes them easy to understand and rely on.</p>
+<h3 id="with-text">…with text</h3><!-- Ledger, hledger, beancount, and other **[Ledger-likes](#ledger-likes)** --><!-- are minimalist software tools for efficient double-entry-style accounting. --><!-- <\!-- **[double-entry-style](https://news.ycombinator.com/item?id=10512418)** accounting. -\-> --><!-- This site introduces them and their way of doing things. --><p>In 2003, John Wiegley invented Ledger: a plain text data format and command-line reporting tool for efficient double-entry-style accounting. This idea went viral among software developers and technical folk, and we now have 5+ actively-developed <strong><a href="#ledger-likes">Ledger-likes</a></strong> such as hledger and Beancount, with 40+ add-on tools and an active community. This site was created in 2016 to introduce our tools, documentation, and practices.</p><p>Accounting data is valuable; we want to know that it will be accessible for ever - even without software. We want to know when it changes, and revision-control it. We want to search and manipulate it efficiently. So, we store it as human-readable <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry">plain</a> <a href="http://hledger.org/manual.html#journal-format">text</a></strong>.</p><p>We simplify debits and credits by using <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes">signed numbers</a></strong> - positive for inflows to an account, negative for outflows from an account.</p><p>We define arbitrary <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Structuring-your-Accounts">account</a> <a href="http://hledger.org/manual.html#account-names">hierarchy</a></strong> to suit our needs. This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail.</p><p>Ledger-likes are, at least in part, <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Basic-Usage">command-line</a> <a href="http://hledger.org/manual.html#hledger">tools</a></strong>. This makes them efficient to use and very <strong><a href="#related-tools">scriptable</a></strong> and flexible.</p><p>Ledger-likes also, at their core, tend towards <strong><a href="https://en.wikipedia.org/wiki/Function_(mathematics)">functional operation</a></strong>: they read the input data without changing it, and output a report. This simple model makes them easy to understand and rely on.</p>
 </div>
 <div class="three columns" style="white-space:nowrap;">
-<h3 id="read-more">read more</h3>
-<p><a href="#faq">FAQ</a><br />
+<h3 id="read-more">read more</h3><p><a href="#faq">FAQ</a><br />
 <a href="#ledger-likes">Ledger-likes</a><br />
 <a href="#related-tools">related tools</a><br />
   <a href="#data-importconversion">data import/conversion</a><br />
@@ -111,44 +96,44 @@ Plain Text Accounting
 <div>
 <h3 id="frequently-asked-questions">frequently asked questions</h3>
 <p><strong>Who is this for?</strong><br />
-Mostly techies and power users for now. If you need a complete GUI providing lots of guidance, you may prefer to use something else.</p>
+Those who are comfortable on the command line and who understand the value of storing information in plain text. If you need a complete GUI providing lots of guidance, you may prefer to use something else.</p>
 <p><strong>Must I edit text and type cryptic commands?</strong><br />
-Not entirely! &quot;Plain Text Accounting&quot; is a broad description, referring mainly to the data format. We welcome optional <strong><a href="#ui-console">GUIs</a></strong>, and they are <a href="#ui-console">coming</a>.</p>
+Not entirely! “Plain Text Accounting” is a broad description, referring mainly to the data format. We welcome optional <strong><a href="#ui-console">GUIs</a></strong>, and they are <a href="#ui-console">coming</a>.</p>
 <p><strong>Who is using this, and how?</strong><br />
-See <strong><a href="https://github.com/ledger/ledger/wiki/Who&#39;s-using-ledger%3F">Who's using Ledger?</a></strong> for some stories.</p>
+See <strong><a href="https://github.com/ledger/ledger/wiki/Who&#39;s-using-ledger%3F">Who’s using Ledger?</a></strong> for some stories.</p>
 <p><strong>What are the alternatives?</strong><br />
-FOSS tools like GNUCash, Grisbi, KMyMoney. Proprietary tools like Quicken/Quickbooks, You Need A Budget. Online tools like Xero, FreeAgent. (There are <strong><a href="https://en.wikipedia.org/wiki/Comparison_of_accounting_software">many</a></strong>). <strong><a href="https://backchannel.com/a-spreadsheet-way-of-knowledge-8de60af7146e#.2hr7pi9pb">Spreadsheets</a></strong>. Paper accounting. A bookkeeper.</p>
+<strong><a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">FOSS</a></strong> tools like GNUCash, Grisbi, KMyMoney. Proprietary tools like Quicken/Quickbooks, You Need A Budget. Online tools like Xero, FreeAgent. (There are <strong><a href="https://en.wikipedia.org/wiki/Comparison_of_accounting_software">many</a></strong>). <strong><a href="https://backchannel.com/a-spreadsheet-way-of-knowledge-8de60af7146e#.2hr7pi9pb">Spreadsheets</a></strong>. Paper accounting. A bookkeeper.</p>
 <p><strong>Why is this better than QuickBooks?</strong><br />
 Your data remains accessible. No yearly fees. Free software you can fix and port. Cross platform. Scriptable. Efficient.</p>
 <p><strong>How do I communicate with my accountant?</strong><br />
 Clean up text reports by hand, print them as PDF, export CSV reports to a spreadsheet..</p>
 <p><strong>What if my accountant only uses QuickBooks?</strong><br />
-You'll need a new accountant, or a duplicate set of books in QuickBooks, or to pioneer *ledger -&gt; QuickBooks exporting.</p>
+You’ll need a new accountant, or a duplicate set of books in QuickBooks, or to pioneer *ledger -&gt; QuickBooks exporting.</p>
 <p><strong>Can I use this to do my taxes?</strong><br />
 You can use this to track and report the data needed for tax reporting. Fill out and submit tax forms with another tool, or by hand.</p>
 <p><strong>How do I do budgeting?</strong><br />
 See <a href="#budgeting">budgeting</a> below. I emulate YNAB-ish envelope budgetting (see third link).</p>
 <p><strong>Double entry accounting? Where are the debits and credits?</strong><br />
-Most (not all) plain text accounting implementations use signed amounts instead of debits and credits. This makes them &quot;double entry light&quot; perhaps, but it has been a rather successful simplification, intuitive to most newcomers.</p>
+Most (not all) plain text accounting implementations use signed amounts instead of debits and credits. This makes them “double entry light” perhaps, but it has been a rather successful simplification, intuitive to most newcomers.</p>
 <!-- (from <https://news.ycombinator.com/item?id=12124890>:) -->
-<p><strong>Isn't personal accounting a waste of time?</strong><br />
-People have very different needs and practise personal accounting for many different reasons. There is of course a point of diminishing returns; tailor your accounting practices to your needs. Needs change over time. Some of us would benefit from doing more (or better) accounting, some less (I would guess this second group is smaller). In <a href="https://en.wikipedia.org/wiki/The_Millionaire_Next_Door">The Millionaire Next Door</a> (highly recommended), one research finding was that above-average wealth accumulators spend more time on financial planning, which for many of us requires accounting as a foundation. &quot;Minimal time dedicated to financial planning is a leading indicator of a UAW [Under Accumulator of Wealth]&quot;.</p>
+<p><strong>Isn’t personal accounting a waste of time?</strong><br />
+People have very different needs and practise personal accounting for many different reasons. There is of course a point of diminishing returns; tailor your accounting practices to your needs. Needs change over time. Some of us would benefit from doing more (or better) accounting, some less (I would guess this second group is smaller). In <a href="https://en.wikipedia.org/wiki/The_Millionaire_Next_Door">The Millionaire Next Door</a> (highly recommended), one research finding was that above-average wealth accumulators spend more time on financial planning, which for many of us requires accounting as a foundation. “Minimal time dedicated to financial planning is a leading indicator of a UAW [Under Accumulator of Wealth]”.</p>
 <p><strong>Do you really enter every little transaction?</strong><br />
-Yes! Many folks in our community do it. Mahatma Gandhi reconciled to the penny every night. J.D. Rockefeller was famous for his ledgers. It's not required. I started doing it as a temporary learning exercise, and still like it. It makes troubleshooting and reconciling easier.</p>
+Yes! Many folks in our community do it. Mahatma Gandhi reconciled to the penny every night. J.D. Rockefeller was famous for his ledgers. It’s not required. I started doing it as a temporary learning exercise, and still like it. It makes troubleshooting and reconciling easier.</p>
 <p><strong>How is that possible?</strong><br />
-Practice, and a process/toolset that suits you. Some folks import most of the data from their banks, so little manual data entry is required. A few prefer to manually enter everything, for the increased awareness and insight. &quot;Manual&quot; data entry is usually assisted in some way: interactive console tools (hledger add and similar), web-based tools (hledger-web and similar), GUI tools (ledgerhelpers), smart editors (eg emacs &amp; ledger-mode), recurring transaction scripts. I currently use a mixture of bank CSV import and rapid copy/paste in emacs. I spend 15 minutes a day on average, and for me that's currently a good investment.</p>
-<p><strong>How do I use the transaction data in my bank's web or mobile app?</strong><br />
+Practice, and a process/toolset that suits you. Some folks import most of the data from their banks, so little manual data entry is required. A few prefer to manually enter everything, for the increased awareness and insight. “Manual” data entry is usually assisted in some way: interactive console tools (hledger add and similar), web-based tools (hledger-web and similar), GUI tools (ledgerhelpers), smart editors (eg emacs &amp; ledger-mode), recurring transaction scripts. I currently use a mixture of bank CSV import and rapid copy/paste in emacs. I spend 15 minutes a day on average, and for me that’s currently a good investment.</p>
+<p><strong>How do I use the transaction data in my bank’s web or mobile app?</strong><br />
 If you can export it as CSV, you can import it and run queries against it. There are also some tools for converting OFX, QIF etc.</p>
-<p><strong>So I've got a huge list of transactions recorded, duplicating my bank statements. How does that help?</strong><br />
-Accounting is modelling flows of money (or other value). Such a model aggregates information from many sources, in one trusted place. With it you can efficiently generate reports, forecast things (cashflow!), answer questions, try experiments. Some people need a very simple model, others benefit from a more detailed one, and we don't know up front what we might need in future. The most fundamental accounting data is a simple list of transactions (the journal). Once you have captured this, you can mine it for anything you may want later on. Plain text accounting provides nice open data format(s), tools and practices for doing this, and could be a good foundation for more powerful tools.</p>
-<p><strong>Isn't a command-line tool too limited for real-world accounting needs?</strong><br />
-<em>&quot;I am sure for a simple expense/budget ledger it will work OK, but when it comes to recurring journals, multiple reconciliation accounts, inter company transfers, control account tracing etc., give me a nice GUI any day...&quot;</em><br />
-Understandable. The current plain text accounting tools provide a very generic double entry accounting system with which you can model such things, and script them. There are a number of generic GUIs available (hledger has curses and web interfaces, and there are web/curses/GTK interfaces for Ledger and beancount). But there are not yet a lot of rich task-specific GUIs. There's no reason they can't be built, though.</p>
-<p><strong>Isn't a plain text format too limited for large organizations?</strong><br />
-<em>&quot;it's pretty obvious that plain-text files don't scale to a multinational, with hundreds of accountants of various types all trying to work with the same files. Even with proper use of Git I bet that would get old fast. You would instead want a real database, with a schema, and some data validation and some programs/webpages to smooth out the data entry and querying and whatnot.&quot;</em><br />
-I'm not sure. Current plain text accounting tools can do some schema definition and data validation, and will do more in future. The plain text storage format is open, human-readable, future-proof (useful even without the software), scales smoothly from simple to complex needs, and taps a huge ecosystem of highly useful tooling, such as version control systems. And, despite the name, there's no reason these tools can't support other kinds of storage, such as a database.</p>
+<p><strong>So I’ve got a huge list of transactions recorded, duplicating my bank statements. How does that help?</strong><br />
+Accounting is modelling flows of money (or other value). Such a model aggregates information from many sources, in one trusted place. With it you can efficiently generate reports, forecast things (cashflow!), answer questions, try experiments. Some people need a very simple model, others benefit from a more detailed one, and we don’t know up front what we might need in future. The most fundamental accounting data is a simple list of transactions (the journal). Once you have captured this, you can mine it for anything you may want later on. Plain text accounting provides nice open data format(s), tools and practices for doing this, and could be a good foundation for more powerful tools.</p>
+<p><strong>Isn’t a command-line tool too limited for real-world accounting needs?</strong><br />
+<em>“I am sure for a simple expense/budget ledger it will work OK, but when it comes to recurring journals, multiple reconciliation accounts, inter company transfers, control account tracing etc., give me a nice GUI any day…”</em><br />
+Understandable. The current plain text accounting tools provide a very generic double entry accounting system with which you can model such things, and script them. There are a number of generic GUIs available (hledger has curses and web interfaces, and there are web/curses/GTK interfaces for Ledger and beancount). But there are not yet a lot of rich task-specific GUIs. There’s no reason they can’t be built, though.</p>
+<p><strong>Isn’t a plain text format too limited for large organizations?</strong><br />
+<em>“it’s pretty obvious that plain-text files don’t scale to a multinational, with hundreds of accountants of various types all trying to work with the same files. Even with proper use of Git I bet that would get old fast. You would instead want a real database, with a schema, and some data validation and some programs/webpages to smooth out the data entry and querying and whatnot.”</em><br />
+I’m not sure. Current plain text accounting tools can do some schema definition and data validation, and will do more in future. The plain text storage format is open, human-readable, future-proof (useful even without the software), scales smoothly from simple to complex needs, and taps a huge ecosystem of highly useful tooling, such as version control systems. And, despite the name, there’s no reason these tools can’t support other kinds of storage, such as a database.</p>
 <p><strong>Where can I see a comparison of hledger, Ledger, beancount, and the rest?</strong><br />
-Glad you asked! See below, and also <a href="#comparisons">comparisons</a>. hledger's FAQ discusses differences from Ledger, Beancount docs probably do too.</p>
+Glad you asked! See below, and also <a href="#comparisons">comparisons</a>. hledger’s FAQ discusses differences from Ledger, Beancount docs probably do too.</p>
 </div>
 <h3 id="ledger-likes">Ledger-likes</h3>
 <!-- http://pandoc.org/README.html#tables -->
@@ -158,52 +143,53 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 <table>
 <tbody>
 <tr class="odd">
-<td align="left">Project, start date</td>
-<td align="left">Last release</td>
-<td align="right">Code, committers</td>
-<td align="left">Mail list, size</td>
-<td align="right">Chat, size</td>
+<td>Project, start date</td>
+<td>Last release</td>
+<td style="text-align: right;">Code, committers</td>
+<td>Mail list, size</td>
+<td style="text-align: right;">Chat, size</td>
 </tr>
 <tr class="even">
-<td align="left"><strong><a href="http://ledger-cli.org">Ledger</a></strong>, 2003</td>
-<td align="left">2016/01</td>
-<td align="right"><a href="https://github.com/ledger/ledger">C++</a> 112 <!-- ([openhub](https://www.openhub.net/p/ledger)) --></td>
-<td align="left"><a href="http://list.ledger-cli.org/">ledger-cli</a> <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.general)) --> 650</td>
-<td align="right"><a href="http://webchat.freenode.net/?channels=ledger&amp;randomnick=1">#ledger</a> 100</td>
+<td><strong><a href="http://ledger-cli.org">Ledger</a></strong>, 2003</td>
+<td>2016/01</td>
+<td style="text-align: right;"><a href="https://github.com/ledger/ledger">C++</a> 112 <!-- ([openhub](https://www.openhub.net/p/ledger)) --></td>
+<td><a href="http://list.ledger-cli.org/">ledger-cli</a> <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.general)) --> 650</td>
+<td style="text-align: right;"><a href="http://webchat.freenode.net/?channels=ledger&amp;randomnick=1">#ledger</a> 100</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong><a href="http://hledger.org">hledger</a></strong>, 2007</td>
-<td align="left">2017/09</td>
-<td align="right"><a href="http://code.hledger.org">Haskell</a> 67 <!-- ([openhub](https://www.openhub.net/p/hledger)) --></td>
-<td align="left"><a href="http://mail.hledger.org/">hledger</a> <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.hledger)) --> 120</td>
-<td align="right"><a href="http://webchat.freenode.net/?channels=hledger&amp;randomnick=1">#hledger</a> 40</td>
+<td><strong><a href="http://hledger.org">hledger</a></strong>, 2007</td>
+<td>2017/09</td>
+<td style="text-align: right;"><a href="http://code.hledger.org">Haskell</a> 67 <!-- ([openhub](https://www.openhub.net/p/hledger)) --></td>
+<td><a href="http://mail.hledger.org/">hledger</a> <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.hledger)) --> 120</td>
+<td style="text-align: right;"><a href="http://webchat.freenode.net/?channels=hledger&amp;randomnick=1">#hledger</a> 40</td>
 </tr>
 <tr class="even">
-<td align="left"><strong><a href="http://furius.ca/beancount">Beancount</a></strong>, 2008</td>
-<td align="left"></td>
-<td align="right"><a href="http://bitbucket.org/blais/beancount/">Python</a> 17 <!-- ([openhub](https://www.openhub.net/p/beancount)) --></td>
-<td align="left"><a href="https://groups.google.com/forum/#!forum/beancount">beancount</a> <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.beancount)) --> 170</td>
-<td align="right"><a href="http://webchat.freenode.net/?channels=beancount&amp;randomnick=1">#beancount</a> 10</td>
+<td><strong><a href="http://furius.ca/beancount">Beancount</a></strong>, 2008</td>
+<td></td>
+<td style="text-align: right;"><a href="http://bitbucket.org/blais/beancount/">Python</a> 17 <!-- ([openhub](https://www.openhub.net/p/beancount)) --></td>
+<td><a href="https://groups.google.com/forum/#!forum/beancount">beancount</a> <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.beancount)) --> 170</td>
+<td style="text-align: right;"><a href="http://webchat.freenode.net/?channels=beancount&amp;randomnick=1">#beancount</a> 10</td>
 </tr>
 <tr class="odd">
-<td align="left">Abandon, 2013</td>
-<td align="left">2017/02</td>
-<td align="right"><a href="https://github.com/hrj/abandon">Scala</a> 12 <!-- ([openhub](https://www.openhub.net/p/abandon)) --></td>
-<td align="left"></td>
-<td align="right"><a href="https://gitter.im/hrj/abandon">gitter</a></td>
+<td>Abandon, 2013</td>
+<td>2017/02</td>
+<td style="text-align: right;"><a href="https://github.com/hrj/abandon">Scala</a> 12 <!-- ([openhub](https://www.openhub.net/p/abandon)) --></td>
+<td></td>
+<td style="text-align: right;"><a href="https://gitter.im/hrj/abandon">gitter</a></td>
 </tr>
 <tr class="even">
-<td align="left">Ledger in Go, 2013</td>
-<td align="left">2017/12</td>
-<td align="right"><a href="https://github.com/howeyc/ledger">Go</a> 5</td>
-<td align="left"></td>
+<td>Ledger in Go, 2013</td>
+<td>2017/12</td>
+<td style="text-align: right;"><a href="https://github.com/howeyc/ledger">Go</a> 5</td>
+<td></td>
+<td style="text-align: right;"></td>
 </tr>
 <tr class="odd">
-<td align="left">Tackler, 2017</td>
-<td align="left">2017/04</td>
-<td align="right"><a href="https://github.com/sn127/tackler">Scala</a> 3</td>
-<td align="left"></td>
-<td align="right"><a href="https://gitter.im/sn127/tackler">gitter</a></td>
+<td>Tackler, 2017</td>
+<td>2017/04</td>
+<td style="text-align: right;"><a href="https://github.com/sn127/tackler">Scala</a> 3</td>
+<td></td>
+<td style="text-align: right;"><a href="https://gitter.im/sn127/tackler">gitter</a></td>
 </tr>
 </tbody>
 </table>
@@ -211,44 +197,44 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 <table>
 <tbody>
 <tr class="odd">
-<td align="left">Project, start date</td>
-<td align="left">Last release</td>
-<td align="right">Code</td>
+<td>Project, start date</td>
+<td>Last release</td>
+<td style="text-align: right;">Code</td>
 </tr>
 <tr class="even">
-<td align="left">uledger, 2015</td>
-<td align="left"></td>
-<td align="right"><a href="https://github.com/danpat/uledger">Python</a></td>
+<td>uledger, 2015</td>
+<td></td>
+<td style="text-align: right;"><a href="https://github.com/danpat/uledger">Python</a></td>
 </tr>
 <tr class="odd">
-<td align="left">pacioli, 2013</td>
-<td align="left"></td>
-<td align="right"><a href="https://github.com/mdipierro/pacioli">Python</a></td>
+<td>pacioli, 2013</td>
+<td></td>
+<td style="text-align: right;"><a href="https://github.com/mdipierro/pacioli">Python</a></td>
 </tr>
 <tr class="even">
-<td align="left">ledger.pl, 2013</td>
-<td align="left"></td>
-<td align="right"><a href="https://github.com/dimonf/ledger.pl">Perl</a></td>
+<td>ledger.pl, 2013</td>
+<td></td>
+<td style="text-align: right;"><a href="https://github.com/dimonf/ledger.pl">Perl</a></td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="http://massysett.github.io/penny/">Penny</a>, 2012</td>
-<td align="left">2014</td>
-<td align="right"><a href="https://github.com/massysett/penny">Haskell</a></td>
+<td><a href="http://massysett.github.io/penny/">Penny</a>, 2012</td>
+<td>2014</td>
+<td style="text-align: right;"><a href="https://github.com/massysett/penny">Haskell</a></td>
 </tr>
 <tr class="even">
-<td align="left"><a href="http://hackage.haskell.org/package/UMM">UMM</a>, 2009</td>
-<td align="left">2010</td>
-<td align="right">Haskell</td>
+<td><a href="http://hackage.haskell.org/package/UMM">UMM</a>, 2009</td>
+<td>2010</td>
+<td style="text-align: right;">Haskell</td>
 </tr>
 <tr class="odd">
-<td align="left">cl-ledger, 2007</td>
-<td align="left"></td>
-<td align="right"><a href="https://github.com/ledger/cl-ledger">Common Lisp</a></td>
+<td>cl-ledger, 2007</td>
+<td></td>
+<td style="text-align: right;"><a href="https://github.com/ledger/cl-ledger">Common Lisp</a></td>
 </tr>
 <tr class="even">
-<td align="left">sm-Ledger, 2007</td>
-<td align="left"></td>
-<td align="right"><a href="https://gist.github.com/simonmichael/bb611dba654ccb1573e1">Squeak Smalltalk</a></td>
+<td>sm-Ledger, 2007</td>
+<td></td>
+<td style="text-align: right;"><a href="https://gist.github.com/simonmichael/bb611dba654ccb1573e1">Squeak Smalltalk</a></td>
 </tr>
 </tbody>
 </table>
@@ -256,15 +242,12 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 <div class="row">
 
 <div class="seven columns">
-<h3 id="related-tools">related tools</h3>
-<ul>
+<h3 id="related-tools">related tools</h3><ul>
 <li><a href="http://hackage.haskell.org/package/hledger-diff">hledger-diff</a> report differing transactions between two journals</li>
 <li><a href="http://hackage.haskell.org/package/hledger-interest">hledger-interest</a> generate *ledger interest transactions</li>
-<li><a href="http://hackage.haskell.org/package/hledger-irr">hledger-irr</a> calculate an account's internal rate of return over time</li>
-<li><a href="https://github.com/tlvince/ledger-tutorials">ledger-tutorials</a> convert Pete Keen's tutorials to ebook format</li>
-</ul>
-<h4 id="data-importconversion">data import/conversion</h4>
-<ul>
+<li><a href="http://hackage.haskell.org/package/hledger-irr">hledger-irr</a> calculate an account’s internal rate of return over time</li>
+<li><a href="https://github.com/tlvince/ledger-tutorials">ledger-tutorials</a> convert Pete Keen’s tutorials to ebook format</li>
+</ul><h4 id="data-importconversion">data import/conversion</h4><ul>
 <li><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files">Ledger</a> and <a href="http://hledger.org/manual.html#csv-format">hledger</a> have CSV conversion built in. Also:</li>
 <li><a href="https://github.com/tomszilagyi/banks2ledger">banks2ledger</a> - CSV to *ledger converter</li>
 <li>bean-identify, bean-extract, bean-file - Beancount built-in tools</li>
@@ -282,15 +265,12 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 <li><a href="https://github.com/ebridges/plaid2qif">plaid2qif</a> Download transactions from plaid as QIF or CSV files.</li>
 <li><a href="https://github.com/madhat2r/plaid2text">plaid2text</a> Plaid API to *ledger/beancount download/conversion</li>
 <li><a href="https://gist.github.com/genegoykhman/3765100">qb2ledger</a> QuickBooks General Journal CSV to *ledger converter</li>
-<li><a href="https://github.com/Kolomona/QIFtoLedger">QIFtoLedger</a> (Bank of America's) QIF to *ledger converter</li>
+<li><a href="https://github.com/Kolomona/QIFtoLedger">QIFtoLedger</a> (Bank of America’s) QIF to *ledger converter</li>
 <li><a href="https://github.com/cantino/reckon">reckon</a> smart interactive/non-interactive CSV to *ledger converter</li>
 <li><a href="https://github.com/eval/total_recall">total_recall</a> CSV to *ledger converter</li>
 <li><a href="https://github.com/pgr0ss/ynab_to_ledger">ynab_to_ledger</a> You Need A Budget to *ledger converter</li>
 <li><a href="https://github.com/howeyc/ledger">Ledger in Go</a> has limport, a CSV to *ledger converter</li>
-</ul>
-<h4 id="editor-support">editor support</h4>
-<p>Grouped by editor. Note these often work quite well for other ledger-likes, not just the one they are named for.</p>
-<ul>
+</ul><h4 id="editor-support">editor support</h4><p>Grouped by editor. Note these often work quite well for other ledger-likes, not just the one they are named for.</p><ul>
 <li><span style="float:right;">Atom</span> <a href="https://atom.io/packages/language-ledger">language-ledger</a></li>
 <li><span style="float:right;">Atom</span> <a href="https://atom.io/packages/ledger">ledger</a><br />
 <br />
@@ -313,35 +293,25 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 </li>
 <li><span style="float:right;">Visual Studio Code</span> <a href="https://github.com/mhansen/hledger-vscode">hledger-vscode</a></li>
 <li><span style="float:right;">Visual Studio Code</span> <a href="https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger">ledger</a></li>
-</ul>
-<h4 id="time-logging">time logging</h4>
-<ul>
+</ul><h4 id="time-logging">time logging</h4><ul>
 <li><a href="https://github.com/jwiegley/org2tc">org2tc</a> org to timeclock converter</li>
 <li><a href="https://gist.github.com/wbsch/d977b0ac29aa1dfa4437">on-modify.timetrack.py</a> taskwarrior hook for timeclock output</li>
 <li><a href="https://github.com/nuex/t">t</a> ledger timeclock shellscript</li>
 <li><a href="https://github.com/MatthiasKauer/tim">tim</a> time logging and reporting tool using hledger</li>
-</ul>
-<h4 id="ui-console">UI, console</h4>
-<ul>
+</ul><h4 id="ui-console">UI, console</h4><ul>
 <li><a href="https://github.com/simon-v/bean-add">bean-add</a> interactive transaction entry</li>
 <li><a href="http://hledger.org/manual.html#add">hledger add</a> interactive transaction entry (built-in command)</li>
 <li><a href="https://github.com/Tagirijus/ledger-add">ledger-add</a> interactive transaction entry</li>
 <li><a href="https://github.com/Tagirijus/ledger-plot">ledger-plot</a> interactive helper for making charts with GNUplot</li>
 <li><a href="http://ledger-cli.org/3.0/doc/ledger3.html#xact">ledger xact</a> history-aware transaction generator (built-in command)</li>
 <li><a href="http://hub.darcs.net/simon/ledgertools/browse/recurring">recurring</a> show/add recurring entries using Ledger</li>
-</ul>
-<h4 id="ui-curses">UI, curses</h4>
-<ul>
+</ul><h4 id="ui-curses">UI, curses</h4><ul>
 <li><a href="https://github.com/hpdeifel/hledger-iadd">hledger-iadd</a> curses UI for transaction entry</li>
 <li><a href="http://hackage.haskell.org/package/hledger-ui">hledger-ui</a> curses UI for browsing (<a href="https://asciinema.org/a/29665">demo</a>)</li>
 <li><a href="https://github.com/guillaumechereau/regdel">regdel</a> curses UI for browsing (Ledger)</li>
-</ul>
-<h4 id="ui-gui">UI, GUI</h4>
-<ul>
+</ul><h4 id="ui-gui">UI, GUI</h4><ul>
 <li><a href="https://github.com/Rudd-O/ledgerhelpers">ledgerhelpers</a> GTK GUI tools + helper library (Python)</li>
-</ul>
-<h4 id="ui-web">UI, web</h4>
-<ul>
+</ul><h4 id="ui-web">UI, web</h4><ul>
 <li><a href="https://github.com/beancount/fava">fava</a> web UI for browsing (Python, beancount, <a href="http://fava.pythonanywhere.com/">demo</a>)</li>
 <li><a href="http://hackage.haskell.org/package/hledger-web">hledger-web</a> web UI for browsing, data entry (Haskell, <a href="http://demo.hledger.org">demo</a>)</li>
 <li><a href="https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90">hledger-web on Sandstorm</a> free web instances in a few clicks</li>
@@ -351,15 +321,12 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 <li><a href="https://github.com/lipidity/ledgible">ledgible</a> web UI for browsing, data entry (Python, <a href="https://lipidity.com/cgi/ledgible/app.py/">demo</a>)</li>
 <li><a href="https://github.com/readysetmark/WealthPulse">WealthPulse</a> web UI for browsing, price fetching (F#, Ledger)</li>
 <li><a href="https://github.com/howeyc/ledger">Ledger in Go</a> has lweb, a web UI for browsing transactions, reports, and porfolios</li>
-</ul>
-<h4 id="api">API</h4>
-<ul>
+</ul><h4 id="api">API</h4><ul>
 <li><a href="https://github.com/simonmichael/hledger/tree/master/hledger-api">hledger-api</a> JSON API + static file server (Haskell)</li>
-<li><a href="https://github.com/Rudd-O/ledgerhelpers">ledgerhelpers</a> extends Ledger's python library (Python)</li>
+<li><a href="https://github.com/Rudd-O/ledgerhelpers">ledgerhelpers</a> extends Ledger’s python library (Python)</li>
 <li><a href="https://github.com/rstacruz/node-hledger">node-hledger</a> Node.js API (JavaScript)</li>
 <li><a href="https://github.com/jvasile/sassetti">sassetti</a> command-line wrapper (Common Lisp)</li>
-</ul>
-<!--
+</ul><!--
 other console/curses tools
 
 - [Taskwarrior](http://taskwarrior.org) modern task manager
@@ -368,22 +335,17 @@ other console/curses tools
 - [sc-im](https://github.com/andmarti1424/sc-im) update of sc
 - [GNU PEM & Oleo](http://www.examiner.com/article/gnu-pem-oleo-two-great-command-line-text-based-financial-accounting-apps) expenses manager, spreadsheet
 - the [org empire](http://orgmode.org)...
--->
-<p><br></p>
-<h3 id="discussion">discussion</h3>
-<div class="row">
+--><p><br></p><h3 id="discussion">discussion</h3><div class="row">
 <div class="five columns u-pull-left">
 <h4 id="mail-listsirc">mail lists/IRC</h4>
 </div>
 <p><a href="#ledger-likes">see above</a></p>
-</div>
-<div class="row">
+</div><div class="row">
 <div class="five columns u-pull-left">
 <h4 id="stack-exchange">stack exchange</h4>
 </div>
 <p><a href="http://money.stackexchange.com/search?q=ledger-cli">ledger</a>, <a href="http://money.stackexchange.com/search?q=hledger">hledger</a> <!-- [beancount](http://money.stackexchange.com/search?q=beancount) --></p>
-</div>
-<div class="row">
+</div><div class="row">
 <div class="five columns u-pull-left">
 <h4 id="hacker-news">hacker news</h4>
 </div>
@@ -395,14 +357,12 @@ other console/curses tools
 - [Command Line Accounting With Ledger and Reckon](https://news.ycombinator.com/item?id=5233255) 2013
 - [Ledger: Command-line double-entry accounting](https://news.ycombinator.com/item?id=872244) 2009
 -->
-</div>
-<div class="row">
+</div><div class="row">
 <div class="five columns u-pull-left">
 <h4 id="reddit">reddit</h4>
 </div>
 <p><a href="https://www.reddit.com/r/plaintextaccounting/">/r/plaintextaccounting</a>, <a href="https://www.reddit.com/r/ledger/">/r/ledger</a></p>
-</div>
-<div class="row">
+</div><div class="row">
 <div class="five columns u-pull-left">
 <h4 id="twitter">twitter</h4>
 </div>
@@ -439,7 +399,7 @@ other console/curses tools
 <h4 id="comparisons">comparisons</h4>
 <ul>
 <li><a href="http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/">Matthias Kauer: Command Line Accounting – A look at the various ledger ports</a> 2015</li>
-<li><a href="http://thread.gmane.org/gmane.comp.finance.beancount/227">Another Ledger user's perspective</a> 2015</li>
+<li><a href="http://thread.gmane.org/gmane.comp.finance.beancount/227">Another Ledger user’s perspective</a> 2015</li>
 <li><a href="https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg/edit?pli=1#heading=h.2ax1dztqboy7">Martin Blais: A Comparison of Beancount and Ledger</a> 2014</li>
 <li><a href="http://thread.gmane.org/gmane.comp.finance.ledger.general/6563">ledger vs hledger vs beancount or how to choose the right cli client</a> 2014</li>
 <li><a href="http://hledger.org/faq.html#hledger-ledger">Simon Michael: hledger &amp; Ledger</a> 2014</li>
@@ -461,7 +421,7 @@ other console/curses tools
 <li><a href="https://www.youtube.com/watch?v=MGu1Bw2USQo">Evolution of ledger</a> 2015</li>
 <li><a href="https://www.youtube.com/watch?v=dEADGr9dqow">Evolution of hledger</a> 2015</li>
 <li><a href="https://twit.tv/shows/floss-weekly/episodes/150">FLOSS Weekly 150: Ledger</a> (<a href="https://www.youtube.com/watch?v=TDqrrH-gTt0">youtube</a>) 2011</li>
-<li><a href="https://www.youtube.com/playlist?list=PL259DBFA47F3B4761">Accounting course by Prof. Krug</a> 2011</li>
+<li><a href="https://www.youtube.com/playlist?list=PL259DBFA47F3B4761">Accounting course by Prof. Krug</a> 2011</li>
 <li><a href="https://www.khanacademy.org/economics-finance-domain/core-finance/accounting-and-financial-stateme">Khan Academy: Accounting and financial statements</a></li>
 <li><a href="https://www.youtube.com/watch?v=9zyp8RF-Fyw">David Mitchell: Personal Debts</a></li>
 </ul>
@@ -538,7 +498,7 @@ other console/curses tools
 <li><a href="https://www.sundialdreams.com/report-scripts-for-ledger-cli-with-gnuplot/">Report Scripts for Ledger CLI with Gnuplot</a></li>
 </ul>
 <h4 id="budgeting">budgeting</h4>
-<p>Budget reporting with Ledger's periodic transactions:</p>
+<p>Budget reporting with Ledger’s periodic transactions:</p>
 <ul>
 <li><a href="http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting">Ledger: Budgeting</a></li>
 </ul>
@@ -551,7 +511,7 @@ other console/curses tools
 <ul>
 <li><a href="https://gist.github.com/simonmichael/a1addcb652da4e78b183">Simon Michael: envelope budgeting example</a></li>
 </ul>
-<p>Envelope budgeting with Ledger's automated transactions:</p>
+<p>Envelope budgeting with Ledger’s automated transactions:</p>
 <ul>
 <li><a href="https://frdmtoplay.com/envelope-budgeting-with-ledger">bsilvereagle: Envelope Budgeting with ledger</a></li>
 <li><a href="https://www.petekeen.net/program-your-finances-envelope-budgeting">Pete Keen: Program Your Finances: Envelope Budgeting</a></li>
@@ -587,7 +547,7 @@ other console/curses tools
 <h4 id="taxes">taxes</h4>
 <ul>
 <li><a href="https://mumble.net/~campbell/2017/08/06/ledger/HOWTO-track-tax">How to use ledger(1) to track US income taxes</a></li>
-<li><a href="http://thread.gmane.org/gmane.comp.finance.beancount/227/focus=237">Another Ledger user's perspective</a></li>
+<li><a href="http://thread.gmane.org/gmane.comp.finance.beancount/227/focus=237">Another Ledger user’s perspective</a></li>
 <li><a href="http://hledger.org/cookbook.html#rewrite-account-names">hledger Cookbook: Rewrite account names</a></li>
 </ul>
 <h4 id="time-tracking">time tracking</h4>
@@ -601,7 +561,7 @@ other console/curses tools
 <h4 id="inventory-tracking">inventory tracking</h4>
 <ul>
 <li><a href="http://furius.ca/beancount/doc/proposal-booking">Inventory Booking</a>, <a href="https://groups.google.com/forum/#!searchin/ledger-cli/inventory/ledger-cli/aQvbjTZa7HE/x3KNPteJWPsJ">discussion</a></li>
-<li><a href="http://www.amazon.com/Accounting-Savvy-Business-Owners-Essentials/dp/193292518X">Accounting Savvy for Business Owners ch. 8</a></li>
+<li><a href="http://www.amazon.com/Accounting-Savvy-Business-Owners-Essentials/dp/193292518X">Accounting Savvy for Business Owners ch. 8</a></li>
 </ul>
 <h4 id="estate-accounting">estate accounting</h4>
 <ul>
