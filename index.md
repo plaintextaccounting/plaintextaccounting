@@ -55,7 +55,7 @@ We want to search and manipulate it efficiently.
 So, we store it as human-readable **[plain](http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry) [text](http://hledger.org/manual.html#journal-format)**.
 
 We simplify debits and credits by using
-**[signed numbers](http://ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes)** instead -
+**[signed numbers](http://ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes)** -
 positive for inflows to an account, negative for outflows from an account.
 
 We define arbitrary
@@ -130,7 +130,7 @@ This simple model makes them easy to understand and rely on.
 ### frequently asked questions
 
 **Who is this for?**\
-Mostly techies and power users for now.
+Those who are comfortable on the command line and who understand the value of storing information in plain text.
 If you need a complete GUI providing lots of guidance, you may prefer to use something else.
 
 **Must I edit text and type cryptic commands?**\
@@ -142,7 +142,7 @@ We welcome optional **[GUIs](#ui-console)**, and they are [coming](#ui-console).
 See **[Who's using Ledger?](https://github.com/ledger/ledger/wiki/Who's-using-ledger%3F)** for some stories.
 
 **What are the alternatives?**\
-FOSS tools like GNUCash, Grisbi, KMyMoney.
+**[FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)** tools like GNUCash, Grisbi, KMyMoney.
 Proprietary tools like Quicken/Quickbooks, You Need A Budget.
 Online tools like Xero, FreeAgent.
 (There are **[many](https://en.wikipedia.org/wiki/Comparison_of_accounting_software)**).
