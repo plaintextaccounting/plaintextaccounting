@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Plain Text Accounting, a guide to Ledger and friends</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/site.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+<h1 id="beancount">Beancount</h1>
+<p><a href="http://furius.ca/beancount/doc/syntax" class="uri">http://furius.ca/beancount/doc/syntax</a><br />
+<a href="http://furius.ca/beancount/doc/cheatsheet" class="uri">http://furius.ca/beancount/doc/cheatsheet</a></p>
+<h2 id="basic-example">Basic example</h2>
+<pre><code>; a comment
+
+2016-01-01 open Assets:Checking
+2016-01-01 open Equity:Opening-Balances
+2016-01-01 open Expenses:Groceries
+
+2016-01-01 txn &quot;set opening balance&quot;
+   Assets:Checking         500.00 USD
+   Equity:Opening-Balances
+
+2016-01-05 txn &quot;farmer&#39;s market&quot;
+   Expenses:Groceries     50 USD
+   Assets:Checking</code></pre>
+<p>All referenced accounts must have an open directive.</p>
+<h2 id="comments">Comments</h2>
+<pre><code>; comment</code></pre>
+<p>Any unrecognised line is also a comment</p>
+<h2 id="basic-transactions">Basic transactions</h2>
+<pre><code>DATE txn [[&quot;PAYEE&quot;] &quot;DESCRIPTION&quot;]
+   ACCOUNT    AMOUNT
+   ACCOUNT    [AMOUNT]</code></pre>
+<p>DESCRIPTION must be in double quotes, can be multiline. No need for two spaces between account and amount.</p>
+<h2 id="dates">Dates</h2>
+<pre><code>YYYY-MM-DD
+YYYY/MM/DD
+YYYY.MM.DD</code></pre>
+<p>Only YYYY-MM-DD with 8 digits is officially supported.</p>
+<h2 id="account-names">Account names</h2>
+<pre><code>TOPACCT[:SUBACCT[:...]]
+
+Income:Salary
+Liabilities:CreditCard:CITI-1234
+Assets:House</code></pre>
+<p>Top level account must be one of Assets, Liabilities, Equity, Income, Expenses. Each subaccount must be capitalised. Letters, digits and hyphen are allowed (no spaces).</p>
+<h2 id="amounts">Amounts</h2>
+<pre><code>QUANTITY COMMODITY
+
+10USD
+1000.0001 USD</code></pre>
+<p>COMMODITY is all capital letters, on the right, and required . Decimal point is . (period). Digit group separator , (comma) is allowed and ignored.</p>
+<h2 id="more-transaction-features">More transaction features</h2>
+<pre><code>DATE [txn|FLAG] [[&quot;PAYEE&quot;] &quot;DESCRIPTION&quot;]
+   [FLAG] ACCOUNT       AMOUNT [PRICE]
+   ...
+   [FLAG] ACCOUNT       AMOUNT [PRICE]</code></pre>
+<p>The txn keyword may be replaced by a FLAG. For just a payee, use <code>&quot;PAYEE&quot; &quot;&quot;</code>.</p>
+<h2 id="prices">Prices</h2>
+<p><code>{LOTUNITPRICE[ / LOTDATE]}</code> and/or one of <code>@ UNITPRICE</code>, <code>@@ TOTALPRICE</code>.</p>
+<p>Lot prices are remembered and form distinct commodities, other prices are not. If there is both a lot price and a regular price, the latter records a market price.</p>
+<h2 id="balance-assertions">Balance assertions</h2>
+<pre><code>DATE balance ACCOUNT AMOUNT
+
+2014-08-09 balance Assets:Cash 562.00 USD
+2014-08-09 balance Assets:Cash 210.00 CAD</code></pre>
+<p>Asserts the balance in this commodity, in this account, including subaccounts, at the start of this day.</p>
+<h2 id="balance-assignments">Balance assignments</h2>
+<h2 id="directives">Directives</h2>
+<pre><code>[DATE] KEYWORD ARGS...
+   [SUBDIRECTIVES]
+
+DATE balance
+DATE close
+DATE commodity
+DATE document
+DATE event
+DATE note
+DATE open
+DATE pad
+DATE price
+DATE txn
+include
+option
+plugin
+poptag
+pushtag</code></pre>
+<h2 id="account-open">account, open</h2>
+<pre><code>DATE open ACCOUNT [COMMODITY[,...]] [METHOD]
+
+2014-05-01 open Assets:Cash USD,CAD</code></pre>
+<p>Every account posted to needs an open directive with prior date.</p>
+<h2 id="close">close</h2>
+<pre><code>DATE close ACCOUNT</code></pre>
+<h2 id="commodity">commodity</h2>
+<pre><code>DATE commodity COMMODITY
+   [METADATA]
+
+1867-01-01 commodity CAD
+   name: &quot;Canadian Dollar&quot;
+   asset-class: &quot;cash&quot;</code></pre>
+<p>Attaches metadata to a commodity.</p>
+<h2 id="market-price">market price</h2>
+<pre><code>DATE price COMMODITY AMOUNT
+
+2014-07-09 price USD  1.08 CAD</code></pre>
+<p>Also set by transaction prices.</p>
+
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

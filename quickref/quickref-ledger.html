@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Plain Text Accounting, a guide to Ledger and friends</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/site.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+<h1 id="ledger">Ledger</h1>
+<p><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Journal-Format" class="uri">http://ledger-cli.org/3.0/doc/ledger3.html#Journal-Format</a><br />
+<a href="http://ricostacruz.com/cheatsheets/ledger.html" class="uri">http://ricostacruz.com/cheatsheets/ledger.html</a></p>
+<h2 id="basic-example">Basic example</h2>
+<pre><code>; a comment
+
+2016/1/1 set opening balance
+   assets:checking       $500.00
+   equity:opening balances
+
+2016/1/5 farmer&#39;s market
+   expenses:groceries     $50.00
+   Assets:checking</code></pre>
+<p>Comments, directives, and/or transactions in any order.</p>
+<h2 id="comments">Comments</h2>
+<pre><code>; comment
+# comment
+% comment
+| comment
+* comment and org-mode outline node</code></pre>
+<p>Non-comment lines may end with a comment. Indented comments are attached to the preceding transaction or posting.</p>
+<h2 id="basic-transactions">Basic transactions</h2>
+<pre><code>DATE [DESCRIPTION]
+   ACCOUNT    AMOUNT
+   ACCOUNT    [AMOUNT]</code></pre>
+<p>A transaction contains any number of indented postings (usually two), whose amounts must sum to zero. At least two spaces required between account and amount. One amount may be omitted.</p>
+<h2 id="dates">Dates</h2>
+<pre><code>YYYY-MM-DD
+YYYY/MM/DD
+YYYY.MM.DD
+MM-DD
+MM/DD
+MM.DD</code></pre>
+<p>Other formats allowed if specified with <code>--input-date-format</code>.</p>
+<h2 id="account-names">Account names</h2>
+<pre><code>TOPACCT[:SUBACCT[:...]]
+
+Revenues:Salary
+liabilities:credit card:CITI 1234
+other assets:house</code></pre>
+<p>Account names begin with a letter. May contain single spaces. May contain subaccounts separated by : (colon).</p>
+<h2 id="amounts">Amounts</h2>
+<p>One of <code>COMMODITY QUANTITY</code>, <code>QUANTITY COMMODITY</code>, <code>QUANTITY</code>.</p>
+<pre><code>10
+$10.00
+1,000.0001 USD
+10 &quot;prepaid classes&quot;</code></pre>
+<p>COMMODITY is a symbol, word or phrase; if it contains spaces or numbers, it must be in double quotes. It can be on the left or right, with or without a separating space. QUANTITY is a number with 0 or more decimal places. Decimal point is . (period). Digits can be grouped into thousands by , (comma). Amount styles influence the standard display style for each commodity.</p>
+<h2 id="more-transaction-features">More transaction features</h2>
+<pre><code>DATE [FLAG] [(CODE)] DESCRIPTION
+   [FLAG] ACCOUNT  AMOUNT [PRICE] [=BAL]
+   ...
+   [FLAG] ACCOUNT  [AMOUNT [PRICE] [=BAL]]</code></pre>
+<p>FLAG (aka STATE) is empty, ! or * meaning uncleared, pending or cleared CODE is any string, in parentheses DESCRIPTION can be a payee name, narration, or both</p>
+<h2 id="prices">Prices</h2>
+<p>One of <code>@ UNITPRICE</code>, <code>@@ TOTALPRICE</code> and/or one of <code>{LOTUNITPRICE}</code>, <code>{=FIXEDLOTUNITPRICE}</code> and/or <code>[LOTDATE]</code>.</p>
+<p>A UNITPRICE or TOTALPRICE also records a market price on this date. A LOTDATE is written in square brackets.</p>
+<h2 id="balance-assertions">Balance assertions</h2>
+<p><code>= AMOUNT</code> after posting amount &amp; price.</p>
+<pre><code>2016-03-10
+   Expenses:Food      $20
+   Assets:Cash       $-20 = $80</code></pre>
+<p>Asserts the balance in this commodity, in this account, excluding subaccounts, at this point in the parse order.</p>
+<h2 id="balance-assignments">Balance assignments</h2>
+<p><code>= AMOUNT</code> with no preceding/inferred posting amount.</p>
+<pre><code>2012-03-10 Adjustment
+   Assets:Cash            = $50
+   Expenses:Misc </code></pre>
+<p>Sets the posting amount so as to make the balance assertion true. (The other amountless posting allows the transaction to balance).</p>
+<h2 id="directives">Directives</h2>
+<pre><code>KEYWORD ARGS...
+   [SUBDIRECTIVES]
+
+account 
+
+alias
+apply
+assert
+bucket
+capture
+check
+comment
+commodity
+define
+end
+expr
+fixed
+include
+P 
+
+payee
+tag
+test
+year
+
+Timeclock directives:
+i
+o
+b
+h</code></pre>
+<h2 id="account-open">account, open</h2>
+<pre><code>account ACCOUNT 
+   [SUBDIRECTIVES]
+
+account Revenues:Salary
+account Expenses:Food:Chicken
+   note chicken food expenses
+   alias food
+   payee ^(KFC|Popeyes)$
+   check commodity == &quot;$&quot;
+   assert commodity == &quot;$&quot;
+   eval print(&quot;Hello!&quot;)
+   default</code></pre>
+<p>Gives more error checking with --strict or --pedantic. Optional subdirectives do more stuff.</p>
+<h2 id="close">close</h2>
+<h2 id="commodity">commodity</h2>
+<pre><code>commodity COMMODITY
+
+commodity EUR
+commodity $
+  note American Dollars
+  format $1,000.00
+  nomarket
+  default</code></pre>
+<p>Gives more error checking with --strict or --pedantic. Optional subdirectives do more stuff.</p>
+<h2 id="market-price">market price</h2>
+<pre><code>P DATE TIME COMMODITY UNITPRICE
+
+P 2004/06/21 02:18:02 AAPL $32.91
+P 2004/06/21 02:18:02 AU $400.00</code></pre>
+<p>Used by -V and -X. Also set by transaction prices.</p>
+
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
