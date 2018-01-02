@@ -262,6 +262,7 @@ Inactive:
 - [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
 - bean-identify, bean-extract, bean-file - Beancount built-in tools
 - [beancount-import](https://github.com/jbms/beancount-import) CSV to beancount converter (curses)
+- [beancount-ynab](https://github.com/hoostus/beancount-ynab) You Need A Budget to beancount converter
 - [csv2beancount](https://github.com/PaNaVTEC/csv2beancount) CSV to beancount converter
 - [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) GnuCash to beancount converter
 - [gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) GNUCash to *ledger converter
