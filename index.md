@@ -455,7 +455,7 @@ other console/curses tools
 - [Ledger manuals](http://ledger-cli.org/docs.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
 - [Ledger CLI cheatsheet](https://devhints.io/ledger)
-- [Getting Started With Ledger](https://github.com/rolfschr/GSWL-book/releases/latest)
+- [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
 - [hledger User Guide](http://hledger.org/docs.html)
 - [Beancount docs](http://furius.ca/beancount/doc/index) ([sphinx version](http://aumayr.github.io/beancount-docs-static/))
 - [Beancount Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
