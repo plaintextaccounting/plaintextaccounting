@@ -44,28 +44,13 @@
 Plain Text Accounting
 </h1>
 <div class="four columns">
-<h3 id="accounting">accounting</h3>
-<p><strong><a href="https://en.wikipedia.org/wiki/Accounting">accounting</a></strong> is tracking the flow of valuable commodities, such as money or time. It clarifies activity, priorities, obligations, opportunities. It can <strong><a href="http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons">reduce stress</a></strong> and even be enjoyable.</p>
-<p><strong><a href="https://en.wikipedia.org/wiki/Double-entry_bookkeeping_system">double-entry bookkeeping</a></strong> is a process for doing this reliably. For every movement of value (a <strong><a href="https://en.wikipedia.org/wiki/Financial_transaction">transaction</a></strong>), both the source and destination are recorded. Simple arithmetic invariants help prevent errors.</p>
-<p>In traditional double-entry bookkeeping, value at any point in time is tracked in various <strong><a href="https://en.wikipedia.org/wiki/Account_(accountancy)">accounts</a></strong>, classified as <strong><a href="https://en.wikipedia.org/wiki/Asset">asset</a></strong> (owned), <strong><a href="https://en.wikipedia.org/wiki/Liability_(financial_accounting)">liability</a></strong> (owed) or <strong><a href="https://en.wikipedia.org/wiki/Equity_(finance)">equity</a></strong> (invested). Two more classifications track changes during some period: <strong><a href="https://en.wikipedia.org/wiki/Revenue">revenues</a></strong> (inflows) and <strong><a href="https://en.wikipedia.org/wiki/Expense">expenses</a></strong> (outflows).</p>
-<p>Transactions consist of <strong><a href="https://en.wikipedia.org/wiki/Debits_and_credits">debits</a></strong> (increases to asset or expense accounts, or decreases to liability or equity accounts) or <strong><a href="https://en.wikipedia.org/wiki/Debits_and_credits">credits</a></strong> (decreases to asset or expense accounts, or increases to liability or equity accounts).</p>
+<h3 id="accounting">accounting</h3><p><strong><a href="https://en.wikipedia.org/wiki/Accounting">accounting</a></strong> is tracking the flow of valuable commodities, such as money or time. It clarifies activity, priorities, obligations, opportunities. It can <strong><a href="http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons">reduce stress</a></strong> and even be enjoyable.</p><p><strong><a href="https://en.wikipedia.org/wiki/Double-entry_bookkeeping_system">double-entry bookkeeping</a></strong> is a process for doing this reliably. For every movement of value (a <strong><a href="https://en.wikipedia.org/wiki/Financial_transaction">transaction</a></strong>), both the source and destination are recorded. Simple arithmetic invariants help prevent errors.</p><p>In traditional double-entry bookkeeping, value at any point in time is tracked in various <strong><a href="https://en.wikipedia.org/wiki/Account_(accountancy)">accounts</a></strong>, classified as <strong><a href="https://en.wikipedia.org/wiki/Asset">asset</a></strong> (owned), <strong><a href="https://en.wikipedia.org/wiki/Liability_(financial_accounting)">liability</a></strong> (owed) or <strong><a href="https://en.wikipedia.org/wiki/Equity_(finance)">equity</a></strong> (invested). Two more classifications track changes during some period: <strong><a href="https://en.wikipedia.org/wiki/Revenue">revenues</a></strong> (inflows) and <strong><a href="https://en.wikipedia.org/wiki/Expense">expenses</a></strong> (outflows).</p><p>Transactions consist of <strong><a href="https://en.wikipedia.org/wiki/Debits_and_credits">debits</a></strong> (increases to asset or expense accounts, or decreases to liability or equity accounts) or <strong><a href="https://en.wikipedia.org/wiki/Debits_and_credits">credits</a></strong> (decreases to asset or expense accounts, or increases to liability or equity accounts).</p>
 </div>
 <div class="four columns">
-<h3 id="with-text">...with text</h3>
-<!-- Ledger, hledger, beancount, and other **[Ledger-likes](#ledger-likes)** -->
-<!-- are minimalist software tools for efficient double-entry-style accounting. -->
-<!-- <\!-- **[double-entry-style](https://news.ycombinator.com/item?id=10512418)** accounting. -\-> -->
-<!-- This site introduces them and their way of doing things. -->
-<p>In 2003, John Wiegley invented Ledger: a plain text data format and command-line reporting tool for efficient double-entry-style accounting. This idea went viral among software developers and technical folk, and we now have 5+ actively-developed <strong><a href="#ledger-likes">Ledger-likes</a></strong> such as hledger and Beancount, with 40+ add-on tools and an active community. This site was created in 2016 to introduce our tools, documentation, and practices.</p>
-<p>Accounting data is valuable; we want to know that it will be accessible for ever - even without software. We want to know when it changes, and revision-control it. We want to search and manipulate it efficiently. So, we store it as human-readable <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry">plain</a> <a href="http://hledger.org/manual.html#journal-format">text</a></strong>.</p>
-<p>We simplify debits and credits by using <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes">signed numbers</a></strong> - positive for inflows to an account, negative for outflows from an account.</p>
-<p>We define arbitrary <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Structuring-your-Accounts">account</a> <a href="http://hledger.org/manual.html#account-names">hierarchy</a></strong> to suit our needs. This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail.</p>
-<p>Ledger-likes are, at least in part, <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Basic-Usage">command-line</a> <a href="http://hledger.org/manual.html#hledger">tools</a></strong>. This makes them efficient to use and very <strong><a href="#related-tools">scriptable</a></strong> and flexible.</p>
-<p>Ledger-likes also, at their core, tend towards <strong><a href="https://en.wikipedia.org/wiki/Function_(mathematics)">functional operation</a></strong>: they read the input data without changing it, and output a report. This simple model makes them easy to understand and rely on.</p>
+<h3 id="with-text">...with text</h3><!-- Ledger, hledger, beancount, and other **[Ledger-likes](#ledger-likes)** --><!-- are minimalist software tools for efficient double-entry-style accounting. --><!-- <\!-- **[double-entry-style](https://news.ycombinator.com/item?id=10512418)** accounting. -\-> --><!-- This site introduces them and their way of doing things. --><p>In 2003, John Wiegley invented Ledger: a plain text data format and command-line reporting tool for efficient double-entry-style accounting. This idea went viral among software developers and technical folk, and we now have 5+ actively-developed <strong><a href="#ledger-likes">Ledger-likes</a></strong> such as hledger and Beancount, with 40+ add-on tools and an active community. This site was created in 2016 to introduce our tools, documentation, and practices.</p><p>Accounting data is valuable; we want to know that it will be accessible for ever - even without software. We want to know when it changes, and revision-control it. We want to search and manipulate it efficiently. So, we store it as human-readable <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry">plain</a> <a href="http://hledger.org/manual.html#journal-format">text</a></strong>.</p><p>We simplify debits and credits by using <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes">signed numbers</a></strong> - positive for inflows to an account, negative for outflows from an account.</p><p>We define arbitrary <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Structuring-your-Accounts">account</a> <a href="http://hledger.org/manual.html#account-names">hierarchy</a></strong> to suit our needs. This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail.</p><p>Ledger-likes are, at least in part, <strong><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Basic-Usage">command-line</a> <a href="http://hledger.org/manual.html#hledger">tools</a></strong>. This makes them efficient to use and very <strong><a href="#related-tools">scriptable</a></strong> and flexible.</p><p>Ledger-likes also, at their core, tend towards <strong><a href="https://en.wikipedia.org/wiki/Function_(mathematics)">functional operation</a></strong>: they read the input data without changing it, and output a report. This simple model makes them easy to understand and rely on.</p>
 </div>
 <div class="three columns" style="white-space:nowrap;">
-<h3 id="read-more">read more</h3>
-<p><a href="#faq">FAQ</a><br />
+<h3 id="read-more">read more</h3><p><a href="#faq">FAQ</a><br />
 <a href="#ledger-likes">Ledger-likes</a><br />
 <a href="#related-tools">related tools</a><br />
   <a href="#data-importconversion">data import/conversion</a><br />
@@ -160,58 +145,58 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 <tr class="odd">
 <td>Project, start date</td>
 <td>Last release</td>
-<td align="right">Code, committers</td>
+<td style="text-align: right;">Code, committers</td>
 <td>Mail list, size</td>
-<td align="right">Chat, size</td>
+<td style="text-align: right;">Chat, size</td>
 </tr>
 <tr class="even">
 <td><strong><a href="http://ledger-cli.org">Ledger</a></strong>, 2003</td>
 <td>2016/01</td>
-<td align="right"><a href="https://github.com/ledger/ledger">C++</a> 142 <!-- ([openhub](https://www.openhub.net/p/ledger)) --></td>
+<td style="text-align: right;"><a href="https://github.com/ledger/ledger">C++</a> 142 <!-- ([openhub](https://www.openhub.net/p/ledger)) --></td>
 <td><a href="http://list.ledger-cli.org/">ledger-cli</a> <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.general)) --> 650</td>
-<td align="right"><a href="http://webchat.freenode.net/?channels=ledger&amp;randomnick=1">#ledger</a> 100</td>
+<td style="text-align: right;"><a href="http://webchat.freenode.net/?channels=ledger&amp;randomnick=1">#ledger</a> 100</td>
 </tr>
 <tr class="odd">
 <td><strong><a href="http://hledger.org">hledger</a></strong>, 2007</td>
 <td>2017/12</td>
-<td align="right"><a href="http://code.hledger.org">Haskell</a> 75 <!-- ([openhub](https://www.openhub.net/p/hledger)) --></td>
+<td style="text-align: right;"><a href="http://code.hledger.org">Haskell</a> 75 <!-- ([openhub](https://www.openhub.net/p/hledger)) --></td>
 <td><a href="http://mail.hledger.org/">hledger</a> <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.hledger)) --> 120</td>
 <td style="text-align: right;"><a href="http://webchat.freenode.net/?channels=hledger&amp;randomnick=1">#hledger</a> 50</td>
 </tr>
 <tr class="even">
 <td><strong><a href="http://furius.ca/beancount">Beancount</a></strong>, 2008</td>
 <td></td>
-<td align="right"><a href="http://bitbucket.org/blais/beancount/">Python</a> 17 <!-- ([openhub](https://www.openhub.net/p/beancount)) --></td>
+<td style="text-align: right;"><a href="http://bitbucket.org/blais/beancount/">Python</a> 17 <!-- ([openhub](https://www.openhub.net/p/beancount)) --></td>
 <td><a href="https://groups.google.com/forum/#!forum/beancount">beancount</a> <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.beancount)) --> 170</td>
-<td align="right"><a href="http://webchat.freenode.net/?channels=beancount&amp;randomnick=1">#beancount</a> 10</td>
+<td style="text-align: right;"><a href="http://webchat.freenode.net/?channels=beancount&amp;randomnick=1">#beancount</a> 10</td>
 </tr>
 <tr class="odd">
 <td>Abandon, 2013</td>
 <td>2017/05</td>
-<td align="right"><a href="https://github.com/hrj/abandon">Scala</a> 12 <!-- ([openhub](https://www.openhub.net/p/abandon)) --></td>
+<td style="text-align: right;"><a href="https://github.com/hrj/abandon">Scala</a> 12 <!-- ([openhub](https://www.openhub.net/p/abandon)) --></td>
 <td></td>
-<td align="right"><a href="https://gitter.im/hrj/abandon">gitter</a></td>
+<td style="text-align: right;"><a href="https://gitter.im/hrj/abandon">gitter</a></td>
 </tr>
 <tr class="even">
 <td>Ledger in Go, 2013</td>
 <td>2017/12</td>
-<td align="right"><a href="https://github.com/howeyc/ledger">Go</a> 5</td>
+<td style="text-align: right;"><a href="https://github.com/howeyc/ledger">Go</a> 5</td>
 <td></td>
-<td align="right"></td>
+<td style="text-align: right;"></td>
 </tr>
 <tr class="odd">
 <td>Tackler, 2017</td>
 <td>2018/01</td>
-<td align="right"><a href="https://github.com/sn127/tackler">Scala</a> 1</td>
+<td style="text-align: right;"><a href="https://github.com/sn127/tackler">Scala</a> 1</td>
 <td></td>
-<td align="right"><a href="https://gitter.im/sn127/tackler">gitter</a></td>
+<td style="text-align: right;"><a href="https://gitter.im/sn127/tackler">gitter</a></td>
 </tr>
 <tr class="even">
 <td>.Net Ledger, 2017</td>
 <td>2017/12</td>
-<td align="right"><a href="https://github.com/dmitry-merzlyakov/nledger">C#</a> 1</td>
+<td style="text-align: right;"><a href="https://github.com/dmitry-merzlyakov/nledger">C#</a> 1</td>
 <td></td>
-<td align="right"><a href="https://gitter.im/nledger/lobby">gitter</a></td>
+<td style="text-align: right;"><a href="https://gitter.im/nledger/lobby">gitter</a></td>
 </tr>
 </tbody>
 </table>
@@ -221,42 +206,42 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 <tr class="odd">
 <td>Project, start date</td>
 <td>Last release</td>
-<td align="right">Code</td>
+<td style="text-align: right;">Code</td>
 </tr>
 <tr class="even">
 <td>uledger, 2015</td>
 <td></td>
-<td align="right"><a href="https://github.com/danpat/uledger">Python</a></td>
+<td style="text-align: right;"><a href="https://github.com/danpat/uledger">Python</a></td>
 </tr>
 <tr class="odd">
 <td>pacioli, 2013</td>
 <td></td>
-<td align="right"><a href="https://github.com/mdipierro/pacioli">Python</a></td>
+<td style="text-align: right;"><a href="https://github.com/mdipierro/pacioli">Python</a></td>
 </tr>
 <tr class="even">
 <td>ledger.pl, 2013</td>
 <td></td>
-<td align="right"><a href="https://github.com/dimonf/ledger.pl">Perl</a></td>
+<td style="text-align: right;"><a href="https://github.com/dimonf/ledger.pl">Perl</a></td>
 </tr>
 <tr class="odd">
 <td><a href="http://massysett.github.io/penny/">Penny</a>, 2012</td>
 <td>2014</td>
-<td align="right"><a href="https://github.com/massysett/penny">Haskell</a></td>
+<td style="text-align: right;"><a href="https://github.com/massysett/penny">Haskell</a></td>
 </tr>
 <tr class="even">
 <td><a href="http://hackage.haskell.org/package/UMM">UMM</a>, 2009</td>
 <td>2010</td>
-<td align="right">Haskell</td>
+<td style="text-align: right;">Haskell</td>
 </tr>
 <tr class="odd">
 <td>cl-ledger, 2007</td>
 <td></td>
-<td align="right"><a href="https://github.com/ledger/cl-ledger">Common Lisp</a></td>
+<td style="text-align: right;"><a href="https://github.com/ledger/cl-ledger">Common Lisp</a></td>
 </tr>
 <tr class="even">
 <td>sm-Ledger, 2007</td>
 <td></td>
-<td align="right"><a href="https://gist.github.com/simonmichael/bb611dba654ccb1573e1">Squeak Smalltalk</a></td>
+<td style="text-align: right;"><a href="https://gist.github.com/simonmichael/bb611dba654ccb1573e1">Squeak Smalltalk</a></td>
 </tr>
 </tbody>
 </table>
@@ -264,15 +249,12 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 <div class="row">
 
 <div class="seven columns">
-<h3 id="related-tools">related tools</h3>
-<ul>
+<h3 id="related-tools">related tools</h3><ul>
 <li><a href="http://hackage.haskell.org/package/hledger-diff">hledger-diff</a> report differing transactions between two journals</li>
 <li><a href="http://hackage.haskell.org/package/hledger-interest">hledger-interest</a> generate *ledger interest transactions</li>
 <li><a href="http://hackage.haskell.org/package/hledger-irr">hledger-irr</a> calculate an account's internal rate of return over time</li>
 <li><a href="https://github.com/tlvince/ledger-tutorials">ledger-tutorials</a> convert Pete Keen's tutorials to ebook format</li>
-</ul>
-<h4 id="data-importconversion">data import/conversion</h4>
-<ul>
+</ul><h4 id="data-importconversion">data import/conversion</h4><ul>
 <li><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files">Ledger</a> and <a href="http://hledger.org/manual.html#csv-format">hledger</a> have CSV conversion built in. Also:</li>
 <li><a href="https://github.com/tomszilagyi/banks2ledger">banks2ledger</a> - CSV to *ledger converter</li>
 <li>bean-identify, bean-extract, bean-file - Beancount built-in tools</li>
@@ -297,10 +279,7 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 <li><a href="https://github.com/eval/total_recall">total_recall</a> CSV to *ledger converter</li>
 <li><a href="https://github.com/pgr0ss/ynab_to_ledger">ynab_to_ledger</a> You Need A Budget to *ledger converter</li>
 <li><a href="https://github.com/howeyc/ledger">Ledger in Go</a> has limport, a CSV to *ledger converter</li>
-</ul>
-<h4 id="editor-support">editor support</h4>
-<p>Grouped by editor. Note these often work quite well for other ledger-likes, not just the one they are named for.</p>
-<ul>
+</ul><h4 id="editor-support">editor support</h4><p>Grouped by editor. Note these often work quite well for other ledger-likes, not just the one they are named for.</p><ul>
 <li><span style="float:right;">Atom</span> <a href="https://atom.io/packages/language-ledger">language-ledger</a></li>
 <li><span style="float:right;">Atom</span> <a href="https://atom.io/packages/ledger">ledger</a><br />
 <br />
@@ -323,35 +302,25 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 </li>
 <li><span style="float:right;">Visual Studio Code</span> <a href="https://github.com/mhansen/hledger-vscode">hledger-vscode</a></li>
 <li><span style="float:right;">Visual Studio Code</span> <a href="https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger">ledger</a></li>
-</ul>
-<h4 id="time-logging">time logging</h4>
-<ul>
+</ul><h4 id="time-logging">time logging</h4><ul>
 <li><a href="https://github.com/jwiegley/org2tc">org2tc</a> org to timeclock converter</li>
 <li><a href="https://gist.github.com/wbsch/d977b0ac29aa1dfa4437">on-modify.timetrack.py</a> taskwarrior hook for timeclock output</li>
 <li><a href="https://github.com/nuex/t">t</a> ledger timeclock shellscript</li>
 <li><a href="https://github.com/MatthiasKauer/tim">tim</a> time logging and reporting tool using hledger</li>
-</ul>
-<h4 id="ui-console">UI, console</h4>
-<ul>
+</ul><h4 id="ui-console">UI, console</h4><ul>
 <li><a href="https://github.com/simon-v/bean-add">bean-add</a> interactive transaction entry</li>
 <li><a href="http://hledger.org/manual.html#add">hledger add</a> interactive transaction entry (built-in command)</li>
 <li><a href="https://github.com/Tagirijus/ledger-add">ledger-add</a> interactive transaction entry</li>
 <li><a href="https://github.com/Tagirijus/ledger-plot">ledger-plot</a> interactive helper for making charts with GNUplot</li>
 <li><a href="http://ledger-cli.org/3.0/doc/ledger3.html#xact">ledger xact</a> history-aware transaction generator (built-in command)</li>
 <li><a href="http://hub.darcs.net/simon/ledgertools/browse/recurring">recurring</a> show/add recurring entries using Ledger</li>
-</ul>
-<h4 id="ui-curses">UI, curses</h4>
-<ul>
+</ul><h4 id="ui-curses">UI, curses</h4><ul>
 <li><a href="https://github.com/hpdeifel/hledger-iadd">hledger-iadd</a> curses UI for transaction entry</li>
 <li><a href="http://hackage.haskell.org/package/hledger-ui">hledger-ui</a> curses UI for browsing (<a href="https://asciinema.org/a/29665">demo</a>)</li>
 <li><a href="https://github.com/guillaumechereau/regdel">regdel</a> curses UI for browsing (Ledger)</li>
-</ul>
-<h4 id="ui-gui">UI, GUI</h4>
-<ul>
+</ul><h4 id="ui-gui">UI, GUI</h4><ul>
 <li><a href="https://github.com/Rudd-O/ledgerhelpers">ledgerhelpers</a> GTK GUI tools + helper library (Python)</li>
-</ul>
-<h4 id="ui-web">UI, web</h4>
-<ul>
+</ul><h4 id="ui-web">UI, web</h4><ul>
 <li><a href="https://github.com/beancount/fava">fava</a> web UI for browsing (Python, beancount, <a href="http://fava.pythonanywhere.com/">demo</a>)</li>
 <li><a href="http://hackage.haskell.org/package/hledger-web">hledger-web</a> web UI for browsing, data entry (Haskell, <a href="http://demo.hledger.org">demo</a>)</li>
 <li><a href="https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90">hledger-web on Sandstorm</a> free web instances in a few clicks</li>
@@ -361,15 +330,12 @@ th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 <li><a href="https://github.com/lipidity/ledgible">ledgible</a> web UI for browsing, data entry (Python, <a href="https://lipidity.com/cgi/ledgible/app.py/">demo</a>)</li>
 <li><a href="https://github.com/readysetmark/WealthPulse">WealthPulse</a> web UI for browsing, price fetching (F#, Ledger)</li>
 <li><a href="https://github.com/howeyc/ledger">Ledger in Go</a> has lweb, a web UI for browsing transactions, reports, and porfolios</li>
-</ul>
-<h4 id="api">API</h4>
-<ul>
+</ul><h4 id="api">API</h4><ul>
 <li><a href="https://github.com/simonmichael/hledger/tree/master/hledger-api">hledger-api</a> JSON API + static file server (Haskell)</li>
 <li><a href="https://github.com/Rudd-O/ledgerhelpers">ledgerhelpers</a> extends Ledger's python library (Python)</li>
 <li><a href="https://github.com/rstacruz/node-hledger">node-hledger</a> Node.js API (JavaScript)</li>
 <li><a href="https://github.com/jvasile/sassetti">sassetti</a> command-line wrapper (Common Lisp)</li>
-</ul>
-<!--
+</ul><!--
 other console/curses tools
 
 - [Taskwarrior](http://taskwarrior.org) modern task manager
@@ -378,22 +344,17 @@ other console/curses tools
 - [sc-im](https://github.com/andmarti1424/sc-im) update of sc
 - [GNU PEM & Oleo](http://www.examiner.com/article/gnu-pem-oleo-two-great-command-line-text-based-financial-accounting-apps) expenses manager, spreadsheet
 - the [org empire](http://orgmode.org)...
--->
-<p><br></p>
-<h3 id="discussion">discussion</h3>
-<div class="row">
+--><p><br></p><h3 id="discussion">discussion</h3><div class="row">
 <div class="five columns u-pull-left">
 <h4 id="mail-listsirc">mail lists/IRC</h4>
 </div>
 <p><a href="#ledger-likes">see above</a></p>
-</div>
-<div class="row">
+</div><div class="row">
 <div class="five columns u-pull-left">
 <h4 id="stack-exchange">stack exchange</h4>
 </div>
 <p><a href="http://money.stackexchange.com/search?q=ledger-cli">ledger</a>, <a href="http://money.stackexchange.com/search?q=hledger">hledger</a> <!-- [beancount](http://money.stackexchange.com/search?q=beancount) --></p>
-</div>
-<div class="row">
+</div><div class="row">
 <div class="five columns u-pull-left">
 <h4 id="hacker-news">hacker news</h4>
 </div>
@@ -405,14 +366,12 @@ other console/curses tools
 - [Command Line Accounting With Ledger and Reckon](https://news.ycombinator.com/item?id=5233255) 2013
 - [Ledger: Command-line double-entry accounting](https://news.ycombinator.com/item?id=872244) 2009
 -->
-</div>
-<div class="row">
+</div><div class="row">
 <div class="five columns u-pull-left">
 <h4 id="reddit">reddit</h4>
 </div>
 <p><a href="https://www.reddit.com/r/plaintextaccounting/">/r/plaintextaccounting</a>, <a href="https://www.reddit.com/r/ledger/">/r/ledger</a></p>
-</div>
-<div class="row">
+</div><div class="row">
 <div class="five columns u-pull-left">
 <h4 id="twitter">twitter</h4>
 </div>
