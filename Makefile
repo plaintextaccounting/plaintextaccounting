@@ -3,7 +3,7 @@ all: html
 # generate html from all md files
 html: $(patsubst %.md,%.html,$(wildcard *.md quickref/*.md)) Makefile
 
-PANDOC=pandoc -f markdown+autolink_bare_uris
+PANDOC=pandoc -f markdown-smart+autolink_bare_uris
 
 # generate html from a md file
 %.html: %.md index.tmpl
