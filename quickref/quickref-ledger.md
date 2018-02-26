@@ -1,3 +1,5 @@
+% Syntax quick reference: Ledger
+
 # Ledger
 
 http://ledger-cli.org/3.0/doc/ledger3.html#Journal-Format  

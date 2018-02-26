@@ -1,3 +1,5 @@
+% Plain Text Accounting, a guide to Ledger and friends
+
 <!-- CSS: http://getskeleton.com -->
 <!-- markdown: http://pandoc.org/README.html -->
 <div style="float:right; position:fixed; bottom:1em; right:1em;">

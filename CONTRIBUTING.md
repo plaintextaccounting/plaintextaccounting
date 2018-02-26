@@ -1,3 +1,5 @@
+% Contributing
+
 # Contributing to `plaintextaccounting.org`
 
 It's as easy as forking this Github repo, making your changes, and submitting a pull request.

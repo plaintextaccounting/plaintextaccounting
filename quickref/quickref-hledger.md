@@ -1,3 +1,5 @@
+% Syntax quick reference: hledger
+
 # hledger
 
 http://hledger.org/journal.html  

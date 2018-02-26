@@ -1,3 +1,5 @@
+% Don’t Sink Your First Attempts at Plaintext Accounting
+
 ## Don’t Sink Your First Attempts at Plaintext Accounting
 
 > I wrote the article below to help newcomers to plaintext

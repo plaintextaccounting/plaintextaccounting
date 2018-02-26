@@ -1,3 +1,5 @@
+% README
+
 # The plaintextaccounting.org website.
 
 plaintextaccounting.org is an informative portal for Ledger, hledger, beancount, and the other ledger-likes.

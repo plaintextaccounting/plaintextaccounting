@@ -1,3 +1,5 @@
+% Syntax quick reference: Beancount
+
 # Beancount
 
 http://furius.ca/beancount/doc/syntax  
