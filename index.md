@@ -427,8 +427,7 @@ other console/curses tools
 #### reddit
 </div>
 
-[/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/),
-[/r/ledger](https://www.reddit.com/r/ledger/)
+[/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/)
 
 </div>
 
@@ -437,11 +436,11 @@ other console/curses tools
 #### twitter
 </div>
 
-[\@LedgerTips](https://twitter.com/LedgerTips),
 [#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting),
 [#ledgercli](https://twitter.com/hashtag/ledgercli),
 [#hledger](https://twitter.com/hashtag/hledger),
-[#beancount](https://twitter.com/hashtag/beancount)
+[#beancount](https://twitter.com/hashtag/beancount),
+[\@LedgerTips](https://twitter.com/LedgerTips)
 
 <!-- twitter widget -->
 <div style="margin:0 15% 0 0;">
