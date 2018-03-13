@@ -313,6 +313,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 \
 - <span style="float:right;">Visual Studio Code</span> [hledger-vscode](https://github.com/mhansen/hledger-vscode)
 - <span style="float:right;">Visual Studio Code</span> [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger)
+- <span style="float:right;">Visual Studio Code</span> [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
 
 #### time logging
 
