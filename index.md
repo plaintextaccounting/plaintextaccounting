@@ -118,7 +118,7 @@ This simple model makes them easy to understand and rely on.
 &nbsp;&nbsp;[taxes](#taxes)  
 &nbsp;&nbsp;[time tracking](#time-tracking)  
 &nbsp;&nbsp;[inventory tracking](#inventory-tracking)  
-&nbsp;&nbsp;[estate accounting](#estate-accounting)  
+<!-- down 2018/03/14 &nbsp;&nbsp;[estate accounting](#estate-accounting)   -->
 &nbsp;&nbsp;[non-profit accounting](#non-profit-accounting)  
 &nbsp;&nbsp;[exporting](#exporting)  
 &nbsp;&nbsp;[API access](#api-access)  
@@ -509,10 +509,10 @@ other console/curses tools
 #### articles & blog posts
 
 - [Michael Walker: I Need A Budget](https://www.barrucadu.co.uk/posts/etc/2017-12-16-i-need-a-budget.html) 2017 <!-- /12/16 -->
-- [S.M. Oliva: Inventory, Part I: Will It Probate?](https://commandlineprobate.com/post/003-inventory-part-1-will-it-probate/) 2017<!-- /8/31 -->
-- [S.M. Oliva: A Simple First Account](https://commandlineprobate.com/post/002-a-simple-first-account/) 2017<!-- /7/31 -->
-- [S.M. Oliva: The Basics of hledger](https://commandlineprobate.com/post/001-the-basics-of-hledger/) 2017<!-- /7/30 -->
-- [S.M. Oliva: Introduction to Command Line Probate](https://commandlineprobate.com/post/000-introduction-to-command-line-probate/) 2017<!-- /7/5 -->
+<!-- down 2018/03/14 - [S.M. Oliva: Inventory, Part I: Will It Probate?](https://commandlineprobate.com/post/003-inventory-part-1-will-it-probate/) 2017/8/31 -->
+<!-- down 2018/03/14  - [S.M. Oliva: A Simple First Account](https://commandlineprobate.com/post/002-a-simple-first-account/) 2017/7/31 -->
+<!-- down 2018/03/14  - [S.M. Oliva: The Basics of hledger](https://commandlineprobate.com/post/001-the-basics-of-hledger/) 2017/7/30 -->
+<!-- down 2018/03/14  - [S.M. Oliva: Introduction to Command Line Probate](https://commandlineprobate.com/post/000-introduction-to-command-line-probate/) 2017/7/5 -->
 - [Michael Walker: Visualise your finances with hledger, InfluxDB, and Grafana](https://www.barrucadu.co.uk/posts/etc/2017-05-18-visualise-your-finances-with-hledger-influxdb-grafana.html) 2017<!-- 5/18 -->
 - [Brady Trainor: Hledger web](https://bradyt.com/2017/04/28/Hledger-web/) 2017<!-- /4/28 -->
 - [Karan Ahuja: Hledger Improvements Wishlist.](http://www.karanahuja.in/2016-05-17-Hledger-Improvements-Wishlist/) 2016<!-- /5/17 -->
@@ -648,9 +648,9 @@ Envelope budgeting with automated transactions, org & babel:
 - [Inventory Booking](http://furius.ca/beancount/doc/proposal-booking), [discussion](https://groups.google.com/forum/#!searchin/ledger-cli/inventory/ledger-cli/aQvbjTZa7HE/x3KNPteJWPsJ)
 - [Accounting Savvy for Business Owners ch. 8](http://www.amazon.com/Accounting-Savvy-Business-Owners-Essentials/dp/193292518X)
 
-#### estate accounting
+<!-- #### estate accounting
 
-- [Command Line Probate blog](https://commandlineprobate.com)
+down 2018/03/14 - [Command Line Probate blog](https://commandlineprobate.com) -->
 
 #### non-profit accounting
 
