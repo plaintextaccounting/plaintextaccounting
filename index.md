@@ -285,6 +285,7 @@ Inactive:
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
 - [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) You Need A Budget to *ledger converter
 - [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
+- [ledger2beancount](https://github.com/zacchiro/ledger2beancount) ledger to beancount converter
 
 #### editor support
 
