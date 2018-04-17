@@ -568,6 +568,7 @@ other console/curses tools
 - [Importing External Data in Beancount](http://furius.ca/beancount/doc/ingest)
 - [Fetching Prices in Beancount](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c)
 - [Payment matching done right](https://tomszilagyi.github.io/payment-matching/)
+- [Full-fledged hledger tutorial](https://github.com/adept/full-fledged-hledger)
 - [import tools](#data-import)
 
 #### reconciling
@@ -581,6 +582,7 @@ other console/curses tools
 - [example queries for Beancount](http://aumayr.github.io/beancount-sql-queries/)
 - [hledger Cookbook: Rewrite account names](http://hledger.org/cookbook.html#rewrite-account-names)
 - [Report Scripts for Ledger CLI with Gnuplot](https://www.sundialdreams.com/report-scripts-for-ledger-cli-with-gnuplot/)
+- [Full-fledged hledger tutorial](https://github.com/adept/full-fledged-hledger)
 
 #### budgeting
 
