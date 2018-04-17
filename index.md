@@ -269,6 +269,7 @@ Inactive:
 - [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) GnuCash to beancount converter
 - [gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) GNUCash to *ledger converter
 - [grisbi2Ledger](https://github.com/Hawk777/grisbi2ledger) Grisbi to *ledger converter
+- [hledger-import-dsl](https://github.com/hpdeifel/hledger-import-dsl) alternate, programmable CSV converter for hledger
 - [icsvledger](https://launchpad.net/csv2ledger) CSV to *ledger converter
 - [into-ledger](https://github.com/manishrjain/into-ledger) CSV to *ledger converter
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to *ledger conversion, deduplication
