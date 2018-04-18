@@ -283,6 +283,7 @@ Inactive:
 - [qb2ledger](https://gist.github.com/genegoykhman/3765100) QuickBooks General Journal CSV to *ledger converter
 - [QIFtoLedger](https://github.com/Kolomona/QIFtoLedger) (Bank of America's) QIF to *ledger converter
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
+- [smart_importer](https://github.com/johannesjh/smart_importer) library for building smarter CSV to beancount/Fava converters
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
 - [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) You Need A Budget to *ledger converter
 - [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
