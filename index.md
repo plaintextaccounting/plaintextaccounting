@@ -512,12 +512,13 @@ other console/curses tools
 
 #### articles & blog posts
 
-- [Counting beans - and more - with Beancount](https://lwn.net/SubscriberLink/751874/a38128abb72e45c5/) 2018 <!-- 4/19 -->
+- [LWN: Counting beans - and more - with Beancount](https://lwn.net/SubscriberLink/751874/a38128abb72e45c5/) 2018 <!-- 4/19 -->
 - [Michael Walker: I Need A Budget](https://www.barrucadu.co.uk/posts/etc/2017-12-16-i-need-a-budget.html) 2017 <!-- /12/16 -->
 <!-- down 2018/03/14 - [S.M. Oliva: Inventory, Part I: Will It Probate?](https://commandlineprobate.com/post/003-inventory-part-1-will-it-probate/) 2017/8/31 -->
 <!-- down 2018/03/14  - [S.M. Oliva: A Simple First Account](https://commandlineprobate.com/post/002-a-simple-first-account/) 2017/7/31 -->
 <!-- down 2018/03/14  - [S.M. Oliva: The Basics of hledger](https://commandlineprobate.com/post/001-the-basics-of-hledger/) 2017/7/30 -->
 <!-- down 2018/03/14  - [S.M. Oliva: Introduction to Command Line Probate](https://commandlineprobate.com/post/000-introduction-to-command-line-probate/) 2017/7/5 -->
+- [LWN: Restarting the free accounting search](https://lwn.net/Articles/729088/) 2017 <!-- 7/28 -->
 - [Michael Walker: Visualise your finances with hledger, InfluxDB, and Grafana](https://www.barrucadu.co.uk/posts/etc/2017-05-18-visualise-your-finances-with-hledger-influxdb-grafana.html) 2017<!-- 5/18 -->
 - [Brady Trainor: Hledger web](https://bradyt.com/2017/04/28/Hledger-web/) 2017<!-- /4/28 -->
 - [Karan Ahuja: Hledger Improvements Wishlist.](http://www.karanahuja.in/2016-05-17-Hledger-Improvements-Wishlist/) 2016<!-- /5/17 -->
@@ -529,7 +530,7 @@ other console/curses tools
 - [Simon Michael: Introducing hledger!](http://joyful.com/blog/2013-10-18-introducing-hledger.html) 2013<!-- /10/18 -->
 - [Joey Hess: hledger](http://joeyh.name/blog/entry/hledger) 2012<!-- /12/3 -->
 - [Gene Goykhman: An Alternative to QuickBooks](http://goykhman.ca/gene/blog/2012/2012-09-23-an-alternative-to-quickbooks.html) 2012<!-- /9/23 -->
-- [LWN.net: The accounting quest: Ledger](http://lwn.net/Articles/501681/) 2012<!-- /6/13 -->
+- [LWN: The accounting quest: Ledger](http://lwn.net/Articles/501681/) 2012<!-- /6/13 -->
 - [Pete Keen: A Robust Reporting System for Ledger](https://www.petekeen.net/finance) 2012<!-- /1/1 -->
 - [Pete Keen: Program your Finances: Automated Transactions](https://www.petekeen.net/finance) 2011<!-- /12/18 -->
 - [Sascha Welter: Doing my own accounting](http://betabug.ch/blogs/ch-athens/1221) 2011<!-- /12/5 -->
