@@ -512,6 +512,7 @@ other console/curses tools
 
 #### articles & blog posts
 
+- [Counting beans - and more - with Beancount](https://lwn.net/SubscriberLink/751874/a38128abb72e45c5/) 2018 <!-- 4/19 -->
 - [Michael Walker: I Need A Budget](https://www.barrucadu.co.uk/posts/etc/2017-12-16-i-need-a-budget.html) 2017 <!-- /12/16 -->
 <!-- down 2018/03/14 - [S.M. Oliva: Inventory, Part I: Will It Probate?](https://commandlineprobate.com/post/003-inventory-part-1-will-it-probate/) 2017/8/31 -->
 <!-- down 2018/03/14  - [S.M. Oliva: A Simple First Account](https://commandlineprobate.com/post/002-a-simple-first-account/) 2017/7/31 -->
