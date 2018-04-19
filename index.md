@@ -84,7 +84,8 @@ This simple model makes them easy to understand and rely on.
 [FAQ](#faq)  
 [Ledger-likes](#ledger-likes)  
 [related tools](#related-tools)  
-&nbsp;&nbsp;[data import/conversion](#data-importconversion)  
+&nbsp;&nbsp;[data import](#data-import)  
+&nbsp;&nbsp;[data conversion](#data-conversion)  
 &nbsp;&nbsp;[editor support](#editor-support)  
 &nbsp;&nbsp;[time logging](#time-logging)  
 &nbsp;&nbsp;[UI, console](#ui-console)  
@@ -258,36 +259,49 @@ Inactive:
 - [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return over time
 - [ledger-tutorials](https://github.com/tlvince/ledger-tutorials) convert Pete Keen's tutorials to ebook format
 
-#### data import/conversion
+#### data import
 
-- [Ledger](http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](http://hledger.org/manual.html#csv-format) have CSV conversion built in. Also:
+tools to get data *into* your plain text accounting tool, usually starting from
+CSV or similar "raw" dumps from your bank:
+
+- [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
+- [Ledger](http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](http://hledger.org/manual.html#csv-format) have CSV conversion built in
 - [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
-- bean-identify, bean-extract, bean-file - Beancount built-in tools
 - [beancount-import](https://github.com/jbms/beancount-import) CSV to beancount converter (curses)
-- [beancount-ynab](https://github.com/hoostus/beancount-ynab) You Need A Budget to beancount converter
 - [csv2beancount](https://github.com/PaNaVTEC/csv2beancount) CSV to beancount converter
-- [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) GnuCash to beancount converter
-- [gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) GNUCash to *ledger converter
-- [grisbi2Ledger](https://github.com/Hawk777/grisbi2ledger) Grisbi to *ledger converter
 - [hledger-import-dsl](https://github.com/hpdeifel/hledger-import-dsl) alternate, programmable CSV converter for hledger
 - [icsvledger](https://launchpad.net/csv2ledger) CSV to *ledger converter
 - [into-ledger](https://github.com/manishrjain/into-ledger) CSV to *ledger converter
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to *ledger conversion, deduplication
 - [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices
 - [ledger-reconciler](https://disjoint.ca/projects/ledger-reconciler) automatically download and reconcile your ledger financial entries
-- [ledger2beancount.py](https://gist.github.com/travisdahlke/71152286b0a8826249fe) *ledger to beancount converter
 - [ledgerbil](https://github.com/scarpent/ledgerbil) schedule recurring txns, interactive reconcile, date sorting
-- [outofit](https://github.com/rcaputo/outofit) QuickBooks to *ledger converter
 - [plaid2qif](https://github.com/ebridges/plaid2qif) Download transactions from plaid as QIF or CSV files
 - [plaid2text](https://github.com/madhat2r/plaid2text) Plaid API to *ledger/beancount download/conversion
-- [qb2ledger](https://gist.github.com/genegoykhman/3765100) QuickBooks General Journal CSV to *ledger converter
-- [QIFtoLedger](https://github.com/Kolomona/QIFtoLedger) (Bank of America's) QIF to *ledger converter
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
 - [smart_importer](https://github.com/johannesjh/smart_importer) library for building smarter CSV to beancount/Fava converters
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
-- [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) You Need A Budget to *ledger converter
-- [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
-- [ledger2beancount](https://github.com/zacchiro/ledger2beancount) ledger to beancount converter
+- bean-identify, bean-extract, bean-file - Beancount built-in tools
+
+#### data conversion
+
+Tools to convert across different accounting systems, plain text or not.
+
+- from You Need a Budget:
+  - [beancount-ynab](https://github.com/hoostus/beancount-ynab) You Need A Budget to beancount converter
+  - [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) You Need A Budget to *ledger converter
+- from Grisbi: [grisbi2Ledger](https://github.com/Hawk777/grisbi2ledger) Grisbi to *ledger converter
+- from Gnucash:
+  - [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) GnuCash to beancount converter
+  - [gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) GNUCash to *ledger converter
+- from Quickbooks:
+  - [qb2ledger](https://gist.github.com/genegoykhman/3765100) QuickBooks General Journal CSV to *ledger converter
+  - [outofit](https://github.com/rcaputo/outofit) QuickBooks to *ledger converter
+- from QIF: [QIFtoLedger](https://github.com/Kolomona/QIFtoLedger) (Bank of America's) QIF to *ledger converter
+- from Ledger to Beancount:
+  - [ledger-to-beancount](https://github.com/glasserc/ledger-to-beancount) another Ledger to Beancount converter
+  - [ledger2beancount.py](https://gist.github.com/travisdahlke/71152286b0a8826249fe) *ledger to beancount converter
+  - [ledger2beancount](https://github.com/zacchiro/ledger2beancount) feature complete ledger to beancount syntactic converter
 
 #### editor support
 
