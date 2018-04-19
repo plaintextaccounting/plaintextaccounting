@@ -696,7 +696,7 @@ down 2018/03/14 - [Command Line Probate blog](https://commandlineprobate.com) --
 <div class="row" style="text-align:center;">
 
 <hr>
-\(c) 2016-2017 [Joyful Systems](http://joyful.com) & co. |
+\(c) 2016-2018 [Simon Michael](http://joyful.com) & contributors |
 Send updates via [github](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
 ([latest changes](https://github.com/plaintextaccounting/plaintextaccounting.github.io/commits/master))
 
