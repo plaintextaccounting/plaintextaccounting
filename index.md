@@ -288,6 +288,7 @@ Inactive:
 - [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) You Need A Budget to *ledger converter
 - [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
 - [ledger2beancount](https://github.com/zacchiro/ledger2beancount) ledger to beancount converter
+- [ledger-to-beancount](https://github.com/glasserc/ledger-to-beancount/) yet another simple ledger to beancount converter written in Python
 
 #### editor support
 
