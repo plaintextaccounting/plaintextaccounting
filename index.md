@@ -585,7 +585,7 @@ other console/curses tools
 #### reporting
 
 - [example queries for Beancount](http://aumayr.github.io/beancount-sql-queries/)
-- [hledger Cookbook: Rewrite account names](http://hledger.org/cookbook.html#rewrite-account-names)
+- [hledger Cookbook: Rewrite account names](https://github.com/simonmichael/hledger/wiki/Rewrite-account-names)
 - [Report Scripts for Ledger CLI with Gnuplot](https://www.sundialdreams.com/report-scripts-for-ledger-cli-with-gnuplot/)
 - [Full-fledged hledger tutorial](https://github.com/adept/full-fledged-hledger)
 
@@ -642,7 +642,6 @@ Envelope budgeting with automated transactions, org & babel:
 
 - [How to use ledger(1) to track US income taxes](https://mumble.net/~campbell/2017/08/06/ledger/HOWTO-track-tax)
 - [Another Ledger user's perspective](http://thread.gmane.org/gmane.comp.finance.beancount/227/focus=237)
-- [hledger Cookbook: Rewrite account names](http://hledger.org/cookbook.html#rewrite-account-names)
 
 #### time tracking
 
