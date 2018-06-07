@@ -221,29 +221,83 @@ Glad you asked! See below, and also [comparisons](#comparisons). hledger's FAQ d
 <style>
 th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 </style>
-|
-|---------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------:
-| Project, start&nbsp;date                          | Last release | Code, committers                                                                                               | Mail list, size                                                                                                                           | Chat, size
-| **[Ledger](http://ledger-cli.org)**, 2003         | 2016/01      | [C++](https://github.com/ledger/ledger)          142 <!-- ([openhub](https://www.openhub.net/p/ledger)) -->    | [ledger-cli](http://list.ledger-cli.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.general)) -->                  870 | [#ledger](https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#ledger)        80
-| **[hledger](http://hledger.org)**, 2007           | 2018/04      | [Haskell](http://code.hledger.org)                80 <!-- ([openhub](https://www.openhub.net/p/hledger)) -->   | [hledger](http://mail.hledger.org/) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.ledger.hledger)) -->                        130 | [#hledger](https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger)      50
-| **[Beancount](http://furius.ca/beancount)**, 2008 | 2018/03      | [Python](http://bitbucket.org/blais/beancount/)   17 <!-- ([openhub](https://www.openhub.net/p/beancount)) --> | [beancount](https://groups.google.com/forum/#!forum/beancount) <!-- ([gmane](http://dir.gmane.org/gmane.comp.finance.beancount)) -->  200 | [#beancount](https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#beancount)  10
-| Abandon, 2013                                     | 2017/05      | [Scala](https://github.com/hrj/abandon)           12 <!-- ([openhub](https://www.openhub.net/p/abandon)) -->   |                                                                                                                                           | [gitter](https://gitter.im/hrj/abandon)
-| Ledger in Go, 2013                                | 2017/12      | [Go](https://github.com/howeyc/ledger)             5                                                           |                                                                                                                                           |
-| Tackler, 2017                                     | 2018/01      | [Scala](https://github.com/sn127/tackler)          1                                                           |                                                                                                                                           | [gitter](https://gitter.im/sn127/tackler)
-| .Net Ledger, 2017                                 | 2017/12      | [C#](https://github.com/dmitry-merzlyakov/nledger) 1                                                           |                                                                                                                                           | [gitter](https://gitter.im/nledger/lobby)
+
+Project | Start | Last release | Code | Committers | Stars | Mail list, size | IRC, size
+--------|-------|:------------:|------|-----------:|------:|-----------------|----------
+[Ledger]       | 2003 | 2016-01 | [C++][ledger-gh]          | 142 | 2446 | [ledger][ledger-mail], 870 | [#ledger], 80
+[Hledger]      | 2007 | 2018-04 | [Haskell][hledger-code]   | 81  |  759 | [hledger][hledger-mail], 130 | [#hledger], 50
+[Beancount]    | 2008 | 2018-03 | [Python][beancount-bb]    | 17  |   42 | [beancount][beancount-mail], 200 | [#beancount], 10
+[Abandon]      | 2013 | 2017-05 | [Scala][abandon-gh]       | 12  |  132 | | [gitter][abandon-gi]
+[Ledger in Go] | 2013 | 2017-12 | [Go][ledger-go-gh]        | 5   |  142 | |
+[Tackler]      | 2017 | 2018-01 | [Scala][tackler-gh]       | 1   |   14 | | [gitter][tackler-gi]
+[.Net Ledger]  | 2017 | 2017-12 | [C#][nledger-gh]          | 1   |   12 | | [gitter][nledger-gi]
+[Transity]     | 2018 | 2018-06 | [PureScript][transity-gh] | 1   |  230 | | [gitter][transity-gi]
 
 Inactive:
 
-|
-|---------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------------:|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------:
-| Project, start&nbsp;date                          | Last release | Code
-| uledger, 2015 | | [Python](https://github.com/danpat/uledger)
-| pacioli, 2013 | | [Python](https://github.com/mdipierro/pacioli)
-| ledger.pl, 2013 | | [Perl](https://github.com/dimonf/ledger.pl)
-| [Penny](http://massysett.github.io/penny/), 2012 | 2014 | [Haskell](https://github.com/massysett/penny)
-| [UMM](http://hackage.haskell.org/package/UMM), 2009 | 2010 | Haskell
-| cl-ledger, 2007 | | [Common Lisp](https://github.com/ledger/cl-ledger)
-| sm-Ledger, 2007 | | [Squeak Smalltalk](https://gist.github.com/simonmichael/bb611dba654ccb1573e1)
+Project | Start | Last release | Code
+--------|-------|--------------|------------------------------------------------
+uledger   | 2015 |      | [Python][uledger-gh]
+pacioli   | 2013 |      | [Python][pacioli-gh]
+ledger.pl | 2013 |      | [Perl][ledger.pl-gh]
+[Penny]   | 2012 | 2014 | [Haskell][penny-gh]
+[UMM]     | 2009 | 2010 | [Haskell][UMM]
+cl-ledger | 2007 |      | [Common Lisp][cl-ledger-gh]
+sm-Ledger | 2007 |      | [Squeak Smalltalk][smalltalk-gh]
+
+
+[Abandon]: https://github.com/hrj/abandon#readme
+[abandon-gh]: https://github.com/hrj/abandon
+[abandon-gi]: https://gitter.im/hrj/abandon
+
+[Beancount]: http://furius.ca/beancount
+[beancount-mail]: https://groups.google.com/forum/#!forum/beancount
+<!-- size: http://dir.gmane.org/gmane.comp.finance.beancount -->
+[#beancount]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#beancount
+[beancount-bb]: http://bitbucket.org/blais/beancount/
+
+[cl-ledger-gh]: https://github.com/ledger/cl-ledger
+
+[Hledger]: http://hledger.org
+[hledger-mail]: http://mail.hledger.org/
+<!-- size: http://dir.gmane.org/gmane.comp.finance.ledger.hledger -->
+[#hledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger
+[hledger-code]: http://code.hledger.org
+
+[Ledger]: http://ledger-cli.org
+[#ledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#ledger
+[ledger-mail]: http://list.ledger-cli.org/
+[ledger-gh]: https://github.com/ledger/ledger
+
+[ledger.pl-gh]: https://github.com/dimonf/ledger.pl
+
+[Ledger in Go]: https://github.com/howeyc/ledger#readme
+[ledger-go-gh]: https://github.com/howeyc/ledger
+
+[.Net Ledger]: https://github.com/dmitry-merzlyakov/nledger
+[nledger-gh]: https://github.com/dmitry-merzlyakov/nledger
+[nledger-gi]: https://gitter.im/nledger/lobby
+
+[pacioli-gh]: https://github.com/mdipierro/pacioli
+
+[Penny]: http://massysett.github.io/penny/
+[penny-gh]: https://github.com/massysett/penny
+
+[smalltalk-gh]: https://gist.github.com/simonmichael/bb611dba654ccb1573e1
+
+[Tackler]: https://github.com/sn127/tackler#readme
+[tackler-gh]: https://github.com/sn127/tackler
+[tackler-gi]: https://gitter.im/sn127/tackler
+
+[Transity]: https://github.com/feramhq/transity#readme
+[transity-gh]: https://github.com/feramhq/transity
+[transity-gi]: https://gitter.im/feramhq/transity
+
+[uledger-gh]: https://github.com/danpat/uledger
+
+[UMM]: http://hackage.haskell.org/package/UMM
+
+
 
 <!-- [compare at openhub](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
 
@@ -409,7 +463,7 @@ other console/curses tools
 [2009](https://news.ycombinator.com/item?id=872244),
 [2013](https://news.ycombinator.com/item?id=5233255),
 [2014](https://news.ycombinator.com/item?id=7707262),
-[2014](https://news.ycombinator.com/item?id=8806056), 
+[2014](https://news.ycombinator.com/item?id=8806056),
 [2015](https://news.ycombinator.com/item?id=10510394),
 [2016](https://news.ycombinator.com/item?id=11164330),
 [2016](https://news.ycombinator.com/item?id=11366693),
