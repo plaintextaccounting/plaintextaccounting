@@ -229,10 +229,10 @@ Project        | Start | Last release | Code                      | Committers |
 [hledger]      | 2007  | 2018-04      | [haskell][hledger-code]   | 90         |  761  | [hledger][hledger-mail], 140     | [#hledger], 60
 [Beancount]    | 2008  | 2018-03      | [python][beancount-bb]    | 17         |   42  | [beancount][beancount-mail], 200 | [#beancount], 20
 [Abandon]      | 2013  | 2017-05      | [scala][abandon-gh]       | 12         |  133  |                                  | [gitter][abandon-gi]
+[Transity]     | 2018  | 2018-06      | [purescript][transity-gh] | 5          |  271  |                                  | [gitter][transity-gi]
 [Ledger in Go] | 2013  | 2017-12      | [go][ledger-go-gh]        | 5          |  142  |                                  |
 [Tackler]      | 2017  | 2018-01      | [scala][tackler-gh]       | 1          |   14  |                                  | [gitter][tackler-gi]
 [.Net Ledger]  | 2017  | 2017-12      | [C#][nledger-gh]          | 1          |   12  |                                  | [gitter][nledger-gi]
-[Transity]     | 2018  | 2018-06      | [pureScript][transity-gh] | 5          |  271  |                                  | [gitter][transity-gi]
 
 Inactive:
 
