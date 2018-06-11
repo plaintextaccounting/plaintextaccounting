@@ -225,14 +225,14 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 
 Project        | Start | Last release | Code                      | Committers | Stars | Mail list, size                  | Chat, size
 ---------------|-------|:------------:|---------------------------|-----------:|------:|----------------------------------|----------------------
-[Ledger]       | 2003  | 2016-01      | [C++][ledger-gh]          | 142        | 2446  | [ledger][ledger-mail], 870       | [#ledger], 80
-[hledger]      | 2007  | 2018-04      | [haskell][hledger-code]   | 81         |  759  | [hledger][hledger-mail], 130     | [#hledger], 50
-[Beancount]    | 2008  | 2018-03      | [python][beancount-bb]    | 17         |   42  | [beancount][beancount-mail], 200 | [#beancount], 10
-[Abandon]      | 2013  | 2017-05      | [scala][abandon-gh]       | 12         |  132  |                                  | [gitter][abandon-gi]
+[Ledger]       | 2003  | 2016-01      | [C++][ledger-gh]          | 150        | 2455  | [ledger][ledger-mail], 870       | [#ledger], 90
+[hledger]      | 2007  | 2018-04      | [haskell][hledger-code]   | 90         |  761  | [hledger][hledger-mail], 140     | [#hledger], 60
+[Beancount]    | 2008  | 2018-03      | [python][beancount-bb]    | 17         |   42  | [beancount][beancount-mail], 200 | [#beancount], 20
+[Abandon]      | 2013  | 2017-05      | [scala][abandon-gh]       | 12         |  133  |                                  | [gitter][abandon-gi]
 [Ledger in Go] | 2013  | 2017-12      | [go][ledger-go-gh]        | 5          |  142  |                                  |
 [Tackler]      | 2017  | 2018-01      | [scala][tackler-gh]       | 1          |   14  |                                  | [gitter][tackler-gi]
 [.Net Ledger]  | 2017  | 2017-12      | [C#][nledger-gh]          | 1          |   12  |                                  | [gitter][nledger-gi]
-[Transity]     | 2018  | 2018-06      | [pureScript][transity-gh] | 1          |  230  |                                  | [gitter][transity-gi]
+[Transity]     | 2018  | 2018-06      | [pureScript][transity-gh] | 5          |  271  |                                  | [gitter][transity-gi]
 
 Inactive:
 
