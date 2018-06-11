@@ -217,33 +217,34 @@ Glad you asked! See below, and also [comparisons](#comparisons). hledger's FAQ d
 
 ### Ledger-likes
 
-<!-- http://pandoc.org/README.html#tables -->
 <style>
 th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
 </style>
+<!-- sorted by committers -->
+<!-- syntax: http://pandoc.org/README.html#tables -->
 
 Project | Start | Last release | Code | Committers | Stars | Mail list, size | IRC, size
 --------|-------|:------------:|------|-----------:|------:|-----------------|----------
 [Ledger]       | 2003 | 2016-01 | [C++][ledger-gh]          | 142 | 2446 | [ledger][ledger-mail], 870 | [#ledger], 80
-[Hledger]      | 2007 | 2018-04 | [Haskell][hledger-code]   | 81  |  759 | [hledger][hledger-mail], 130 | [#hledger], 50
-[Beancount]    | 2008 | 2018-03 | [Python][beancount-bb]    | 17  |   42 | [beancount][beancount-mail], 200 | [#beancount], 10
-[Abandon]      | 2013 | 2017-05 | [Scala][abandon-gh]       | 12  |  132 | | [gitter][abandon-gi]
-[Ledger in Go] | 2013 | 2017-12 | [Go][ledger-go-gh]        | 5   |  142 | |
-[Tackler]      | 2017 | 2018-01 | [Scala][tackler-gh]       | 1   |   14 | | [gitter][tackler-gi]
+[hledger]      | 2007 | 2018-04 | [haskell][hledger-code]   | 81  |  759 | [hledger][hledger-mail], 130 | [#hledger], 50
+[Beancount]    | 2008 | 2018-03 | [python][beancount-bb]    | 17  |   42 | [beancount][beancount-mail], 200 | [#beancount], 10
+[Abandon]      | 2013 | 2017-05 | [scala][abandon-gh]       | 12  |  132 | | [gitter][abandon-gi]
+[Ledger in Go] | 2013 | 2017-12 | [go][ledger-go-gh]        | 5   |  142 | |
+[Tackler]      | 2017 | 2018-01 | [scala][tackler-gh]       | 1   |   14 | | [gitter][tackler-gi]
 [.Net Ledger]  | 2017 | 2017-12 | [C#][nledger-gh]          | 1   |   12 | | [gitter][nledger-gi]
-[Transity]     | 2018 | 2018-06 | [PureScript][transity-gh] | 1   |  230 | | [gitter][transity-gi]
+[Transity]     | 2018 | 2018-06 | [pureScript][transity-gh] | 1   |  230 | | [gitter][transity-gi]
 
 Inactive:
 
 Project | Start | Last release | Code
 --------|-------|--------------|------------------------------------------------
-uledger   | 2015 |      | [Python][uledger-gh]
-pacioli   | 2013 |      | [Python][pacioli-gh]
-ledger.pl | 2013 |      | [Perl][ledger.pl-gh]
-[Penny]   | 2012 | 2014 | [Haskell][penny-gh]
-[UMM]     | 2009 | 2010 | [Haskell][UMM]
-cl-ledger | 2007 |      | [Common Lisp][cl-ledger-gh]
-sm-Ledger | 2007 |      | [Squeak Smalltalk][smalltalk-gh]
+uledger   | 2015 |      | [python][uledger-gh]
+pacioli   | 2013 |      | [python][pacioli-gh]
+ledger.pl | 2013 |      | [perl][ledger.pl-gh]
+[Penny]   | 2012 | 2014 | [haskell][penny-gh]
+[UMM]     | 2009 | 2010 | [haskell][UMM]
+cl-ledger | 2007 |      | [common lisp][cl-ledger-gh]
+sm-Ledger | 2007 |      | [squeak smalltalk][smalltalk-gh]
 
 
 [Abandon]: https://github.com/hrj/abandon#readme
@@ -258,7 +259,7 @@ sm-Ledger | 2007 |      | [Squeak Smalltalk][smalltalk-gh]
 
 [cl-ledger-gh]: https://github.com/ledger/cl-ledger
 
-[Hledger]: http://hledger.org
+[hledger]: http://hledger.org
 [hledger-mail]: http://mail.hledger.org/
 <!-- size: http://dir.gmane.org/gmane.comp.finance.ledger.hledger -->
 [#hledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger
