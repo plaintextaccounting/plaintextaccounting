@@ -220,8 +220,9 @@ Glad you asked! See below, and also [comparisons](#comparisons). hledger's FAQ d
 <style>
 th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; white-space:nowrap; }
 </style>
-<!-- sorted by committers -->
+
 <!-- syntax: http://pandoc.org/README.html#tables -->
+<!-- actives sorted by committers, inactives sorted by start -->
 
 Project        | Start | Last release | Code                      | Committers | Stars | Mail list, size                  | Chat, size
 ---------------|-------|:------------:|---------------------------|-----------:|------:|----------------------------------|----------------------
@@ -233,19 +234,15 @@ Project        | Start | Last release | Code                      | Committers |
 [Ledger in Go] | 2013  | 2017-12      | [go][ledger-go-gh]        | 5          |  142  |                                  |
 [Tackler]      | 2017  | 2018-01      | [scala][tackler-gh]       | 1          |   14  |                                  | [gitter][tackler-gi]
 [.Net Ledger]  | 2017  | 2017-12      | [C#][nledger-gh]          | 1          |   12  |                                  | [gitter][nledger-gi]
-
-Inactive:
-
-Project   | Start | Last release | Code
-----------|-------|:------------:|---------------------------------
-uledger   | 2015  |              | [python][uledger-gh]
-pacioli   | 2013  |              | [python][pacioli-gh]
-ledger.pl | 2013  |              | [perl][ledger.pl-gh]
-[Penny]   | 2012  | 2014         | [haskell][penny-gh]
-[UMM]     | 2009  | 2010         | [haskell][UMM]
-cl-ledger | 2007  |              | [common lisp][cl-ledger-gh]
-sm-Ledger | 2007  |              | [squeak smalltalk][smalltalk-gh]
-
+&nbsp;         |       |              |
+**Inactive:**  |       |              |
+uledger        | 2015  |              | [python][uledger-gh]
+pacioli        | 2013  |              | [python][pacioli-gh]
+ledger.pl      | 2013  |              | [perl][ledger.pl-gh]
+[Penny]        | 2012  | 2014         | [haskell][penny-gh]
+[UMM]          | 2009  | 2010         | [haskell][UMM]
+cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh]
+sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 
 [Abandon]: https://github.com/hrj/abandon#readme
 [abandon-gh]: https://github.com/hrj/abandon
