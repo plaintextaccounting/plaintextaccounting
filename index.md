@@ -218,7 +218,7 @@ Glad you asked! See below, and also [comparisons](#comparisons). hledger's FAQ d
 ### Ledger-likes
 
 <style>
-th, td { border:none; padding-top:0; border-bottom:thin solid #ddd;}
+th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; white-space:nowrap; }
 </style>
 <!-- sorted by committers -->
 <!-- syntax: http://pandoc.org/README.html#tables -->
