@@ -341,6 +341,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 - [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
 - [ledger2beancount](https://github.com/zacchiro/ledger2beancount) ledger to beancount converter
 - [ledger-to-beancount](https://github.com/glasserc/ledger-to-beancount/) yet another simple ledger to beancount converter written in Python
+- [ldgr](https://github.com/brandonpittman/ldgr) a CLI for working with Ledger files 
 
 #### editor support
 
