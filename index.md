@@ -81,7 +81,7 @@ This simple model makes them easy to understand and rely on.
 
 ### read more
 
-[FAQ](#faq)  
+[FAQ](#frequently-asked-questions)  
 [Ledger-likes](#ledger-likes)  
 [related tools](#related-tools)  
 &nbsp;&nbsp;[data import/conversion](#data-importconversion)  
