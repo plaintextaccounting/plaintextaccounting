@@ -469,7 +469,11 @@ other console/curses tools
 [2016](https://news.ycombinator.com/item?id=12119050),
 [2017](https://news.ycombinator.com/item?id=13566147),
 [2017](https://news.ycombinator.com/item?id=15818682),
-[2018](https://news.ycombinator.com/item?id=16859341)
+[2018](https://news.ycombinator.com/item?id=16285587),
+[2018](https://news.ycombinator.com/item?id=16859341),
+[2018](https://news.ycombinator.com/item?id=17166450),
+[2018](https://news.ycombinator.com/item?id=17242136),
+[2018](https://news.ycombinator.com/item?id=17371374)
 
 <!--
 - [Ledger, a command-line accounting system](https://news.ycombinator.com/item?id=10510394) 2015
