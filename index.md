@@ -573,6 +573,7 @@ other console/curses tools
 - [Tracking Investments in Lots with Hledger](http://rantsideasstuff.com/posts/2018/07/01-tracking-investments-in-lots-with-hledger/) 2018 <!-- 7/1 -->
 - [LWN: Counting beans - and more - with Beancount](https://lwn.net/SubscriberLink/751874/a38128abb72e45c5/) 2018 <!-- 4/19 -->
 - [Michael Walker: I Need A Budget](https://www.barrucadu.co.uk/posts/etc/2017-12-16-i-need-a-budget.html) 2017 <!-- /12/16 -->
+- [Accounting for the simple minds with plain text accounting](https://dustri.org/b/accounting-for-the-simple-minds-with-plain-text-accounting.html) 2017 <!-- 12/1 -->
 <!-- down 2018/03/14 - [S.M. Oliva: Inventory, Part I: Will It Probate?](https://commandlineprobate.com/post/003-inventory-part-1-will-it-probate/) 2017/8/31 -->
 <!-- down 2018/03/14  - [S.M. Oliva: A Simple First Account](https://commandlineprobate.com/post/002-a-simple-first-account/) 2017/7/31 -->
 <!-- down 2018/03/14  - [S.M. Oliva: The Basics of hledger](https://commandlineprobate.com/post/001-the-basics-of-hledger/) 2017/7/30 -->
