@@ -342,6 +342,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 - [ledger2beancount](https://github.com/zacchiro/ledger2beancount) ledger to beancount converter
 - [ledger-to-beancount](https://github.com/glasserc/ledger-to-beancount/) yet another simple ledger to beancount converter written in Python
 - [ldgr](https://github.com/brandonpittman/ldgr) a CLI for working with Ledger files 
+- [r-ledger](https://github.com/trevorld/r-ledger) an R package for querying data from ledger/hledger/beancount files
 
 #### editor support
 
