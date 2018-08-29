@@ -532,7 +532,7 @@ other console/curses tools
 
 - [Command-line Accounting in Context](http://furius.ca/beancount/doc/motivation)
 - [The Double-Entry Counting Method](https://furius.ca/beancount/doc/intro)
-- [Misc. accounting intros](http://hledger.org/more-docs.html#accounting)
+- [Misc. accounting intros](https://github.com/simonmichael/hledger/wiki/More%20docs#accounting)
 - [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
 
 #### comparisons
