@@ -226,14 +226,14 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 
 Project        | Start | Last release | Code                      | Committers | Stars | Mail list, size                  | Chat, size
 ---------------|-------|:------------:|---------------------------|-----------:|------:|----------------------------------|----------------------
-[Ledger]       | 2003  | 2016-01      | [C++][ledger-gh]          | 150        | 2455  | [ledger][ledger-mail], 870       | [#ledger], 90
-[hledger]      | 2007  | 2018-06      | [haskell][hledger-code]   | 90         |  808  | [hledger][hledger-mail], 140     | [#hledger], 60
-[Beancount]    | 2008  | 2018-03      | [python][beancount-bb]    | 17         |   42  | [beancount][beancount-mail], 200 | [#beancount], 20
-[Abandon]      | 2013  | 2017-05      | [scala][abandon-gh]       | 12         |  133  |                                  | [gitter][abandon-gi]
-[Transity]     | 2018  | 2018-06      | [purescript][transity-gh] | 5          |  271  |                                  | [gitter][transity-gi]
-[Ledger in Go] | 2013  | 2017-12      | [go][ledger-go-gh]        | 5          |  142  |                                  |
+[Ledger]       | 2003  | 2016-01      | [C++][ledger-gh]          | 156        | 2608  | [ledger][ledger-mail], 870       | [#ledger], 60
+[hledger]      | 2007  | 2018-10      | [haskell][hledger-code]   | 96         |  862  | [hledger][hledger-mail], 150     | [#hledger], 60
+[Beancount]    | 2008  | 2018-10      | [python][beancount-bb]    | 17         |       | [beancount][beancount-mail], 200 | [#beancount], 10
+[Abandon]      | 2013  | 2017-05      | [scala][abandon-gh]       | 9          |  132  |                                  | [gitter][abandon-gi]
+[Ledger in Go] | 2013  | 2018-06      | [go][ledger-go-gh]        | 5          |  161  |                                  |
+[Transity]     | 2018  | 2018-09      | [purescript][transity-gh] | 4          |  368  |                                  | [gitter][transity-gi]
 [Tackler]      | 2017  | 2018-01      | [scala][tackler-gh]       | 1          |   14  |                                  | [gitter][tackler-gi]
-[.Net Ledger]  | 2017  | 2017-12      | [C#][nledger-gh]          | 1          |   12  |                                  | [gitter][nledger-gi]
+[.Net Ledger]  | 2017  | 2018-08      | [C#][nledger-gh]          | 1          |   22  |                                  | [gitter][nledger-gi]
 &nbsp;         |       |              |
 **Inactive:**  |       |              |
 uledger        | 2015  |              | [python][uledger-gh]
