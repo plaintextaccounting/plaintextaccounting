@@ -385,6 +385,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [hledger add](http://hledger.org/manual.html#add) interactive transaction entry (built-in command)
 - [ledger-add](https://github.com/Tagirijus/ledger-add) interactive transaction entry
 - [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive helper for making charts with GNUplot
+- [ledger-plots](https://github.com/esovetkin/ledger-plots) a script to generate various plots and more written in R
 - [ledger xact](http://ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (built-in command)
 - [recurring](http://hub.darcs.net/simon/ledgertools/browse/recurring) show/add recurring entries using Ledger
 
