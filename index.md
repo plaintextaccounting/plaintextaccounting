@@ -410,7 +410,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [ledger-analytics](https://github.com/kendricktan/ledger-analytics) web UI for data analytics (JavaScript)
 - [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing, data entry (Python)
 - [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing (JavaScript)
-- [ledgible](https://github.com/lipidity/ledgible) web UI for browsing, data entry (Python, [demo](https://lipidity.com/cgi/ledgible/app.py/))
+- [ledgible](https://github.com/lipidity/ledgible) web UI for browsing, data entry (Python)
 - [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for browsing, price fetching (F#, Ledger)
 - [Ledger in Go](https://github.com/howeyc/ledger) has lweb, a web UI for browsing transactions, reports, and porfolios
 
