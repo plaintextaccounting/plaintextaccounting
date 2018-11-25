@@ -43,6 +43,14 @@ For all reloading options:
     brew install fswatch npm caskroom/cask/livereload && \
     npm install -g livereloadx
 
+#### Debian (and derivatives) Linux
+
+The version of Pandoc shipped in Debian Stretch is old and lacks required
+features (specifically, the "smart" extension for Markdown), so you'll need to
+install it from a newer repository. For example:
+
+     sudo apt install -t unstable pandoc
+
 ## Making changes
 
 Once you've cloned the repository and setup the tools, make changes to whatever is necessary. **Don't change the `html` files**. The `html` is automatically generated!
