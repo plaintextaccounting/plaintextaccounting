@@ -526,7 +526,7 @@ other console/curses tools
 - [Ledger CLI cheatsheet](https://devhints.io/ledger)
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
 - [hledger User Guide](http://hledger.org/docs.html)
-- [Beancount docs](http://furius.ca/beancount/doc/index) ([sphinx version](http://aumayr.github.io/beancount-docs-static/))
+- [Beancount docs (google)](http://furius.ca/beancount/doc/index) / [(sphinx)](http://aumayr.github.io/beancount-docs-static/)
 - [Beancount Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
 - [Don’t Sink Your First Attempts at Plaintext Accounting](plaintext-accounting-errors.html)
 - [Syntax Quick Reference for the Ledger-Likes](quickref/)
