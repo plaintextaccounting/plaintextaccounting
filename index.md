@@ -527,7 +527,7 @@ other console/curses tools
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
 - [hledger User Guide](http://hledger.org/docs.html)
 - [Beancount docs (google)](http://furius.ca/beancount/doc/index) / [(sphinx)](http://aumayr.github.io/beancount-docs-static/)
-- [Beancount Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
+- [Beancount: Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
 - [Don’t Sink Your First Attempts at Plaintext Accounting](plaintext-accounting-errors.html)
 - [Syntax Quick Reference for the Ledger-Likes](quickref/)
 
@@ -535,15 +535,15 @@ other console/curses tools
 <!-- intros/overviews to double entry/plain text accounting -->
 
 - [General accounting intros](https://github.com/simonmichael/hledger/wiki/More%20docs#accounting)
-- [Beancount: Command-line Accounting in Context](http://aumayr.github.io/beancount-docs-static/users/cl_accounting.html)
-- [Beancount: The Double-Entry Counting Method](http://aumayr.github.io/beancount-docs-static/users/double_entry_method.html)
+- [Beancount: Command-line Accounting in Context](https://docs.google.com/document/d/1e4Vz3wZB_8-ZcAwIFde8X5CjzKshE4-OXtVVHm4RQ8s)
+- [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 - [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
 
 #### comparisons
 
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
 - [Another Ledger user's perspective](http://thread.gmane.org/gmane.comp.finance.beancount/227) 2015
-- [Martin Blais: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg/edit?pli=1#heading=h.2ax1dztqboy7) 2014
+- [Martin Blais: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg) 2014
 - [ledger vs hledger vs beancount or how to choose the right cli client](http://thread.gmane.org/gmane.comp.finance.ledger.general/6563) 2014
 - [Simon Michael: hledger & Ledger](http://hledger.org/faq.html#hledger-ledger) 2014
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
@@ -639,8 +639,8 @@ other console/curses tools
 - [Ledger: The convert command](http://www.ledger-cli.org/3.0/doc/ledger3.html#The-convert-command)
 - [hledger: CSV format](http://hledger.org/manual.html#csv-format)
 - [hledger Cookbook: Convert CSV files](http://hledger.org/cookbook.html#convert-csv-files)
-- [Importing External Data in Beancount](http://furius.ca/beancount/doc/ingest)
-- [Fetching Prices in Beancount](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c)
+- [Beancount: Importing External Data in Beancount](https://docs.google.com/document/d/11EwQdujzEo2cxqaF5PgxCEZXWfKKQCYSMfdJowp_1S8)
+- [Beancount: Prices in Beancount](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c)
 - [Payment matching done right](https://tomszilagyi.github.io/payment-matching/)
 - [Full-fledged hledger tutorial](https://github.com/adept/full-fledged-hledger)
 - [import tools](#data-import)
@@ -703,7 +703,7 @@ Envelope budgeting with automated transactions, org & babel:
 
 #### shared expenses
 
-- [Sharing Expenses in Beancount](https://docs.google.com/document/d/1FRcJqUfeAMQO6KjG94w6rF7VajMGJaFplmF1Wu0rCHY/edit#heading=h.yshh8f17jbdb)
+- [Beancount: Sharing Expenses in Beancount](https://docs.google.com/document/d/1FRcJqUfeAMQO6KjG94w6rF7VajMGJaFplmF1Wu0rCHY)
 - [Keeping (financial) score with Ledger](http://sachachua.com/blog/2014/11/keeping-financial-score-ledger/)
 - [Program Your Finances: Automated Transactions](https://www.petekeen.net/program-your-finances-automated-transactions)
 - [How to keep control of shared expenses inside marriage?](http://money.stackexchange.com/questions/7101/how-to-keep-control-of-shared-expenses-inside-marriage)
@@ -725,7 +725,7 @@ Envelope budgeting with automated transactions, org & babel:
 
 #### inventory tracking
 
-- [Inventory Booking](http://furius.ca/beancount/doc/proposal-booking), [discussion](https://groups.google.com/forum/#!searchin/ledger-cli/inventory/ledger-cli/aQvbjTZa7HE/x3KNPteJWPsJ)
+- [Beancount: Inventory Booking](https://docs.google.com/document/d/1F8IJ_7fMHZ75XFPocMokLxVZczAhrBRBVN9uMhQFCZ4), [discussion](https://groups.google.com/forum/#!searchin/ledger-cli/inventory/ledger-cli/aQvbjTZa7HE/x3KNPteJWPsJ)
 - [Accounting Savvy for Business Owners ch. 8](http://www.amazon.com/Accounting-Savvy-Business-Owners-Essentials/dp/193292518X)
 
 <!-- #### estate accounting
