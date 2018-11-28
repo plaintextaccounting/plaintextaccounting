@@ -536,6 +536,7 @@ other console/curses tools
 - [The Double-Entry Counting Method](https://furius.ca/beancount/doc/intro)
 - [Misc. accounting intros](https://github.com/simonmichael/hledger/wiki/More%20docs#accounting)
 - [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
+- [Ledger Practices: Accrual vs. Cash Basis Accounting](https://felixcrux.com/blog/ledger-practices-accrual-vs-cash-basis-accounting)
 
 #### comparisons
 
@@ -603,6 +604,7 @@ other console/curses tools
 - [Christine Spang: [h]ledger rocks my world](http://blog.spang.cc/posts/hledger_rocks_my_world/) 2010<!-- /7/5 -->
 - [Pete Keen: Program your Finances: Command-line Accounting](https://www.petekeen.net/finance) (& [intro](https://www.petekeen.net/finance)) 2010<!-- /5/23 -->
 - [Joe Barr: Ledger, the bran muffin of accounting tools](http://archive09.linux.com/feature/58307) 2006<!-- /11/10 -->
+- [Ledger Practices](https://felixcrux.com/blog/ledger-practices) 2016-2018
 
 ### common tasks
 
@@ -650,6 +652,7 @@ other console/curses tools
 - [hledger Cookbook: Rewrite account names](https://github.com/simonmichael/hledger/wiki/Rewrite-account-names)
 - [Report Scripts for Ledger CLI with Gnuplot](https://www.sundialdreams.com/report-scripts-for-ledger-cli-with-gnuplot/)
 - [Full-fledged hledger tutorial](https://github.com/adept/full-fledged-hledger)
+- [Ledger Practices: Reporting Special Events Separately From Regular Spending](https://felixcrux.com/blog/ledger-practices-reporting-special-events-separately)
 
 #### budgeting
 
@@ -685,6 +688,7 @@ Envelope budgeting with automated transactions, org & babel:
 #### invoicing
 
 - [invoicing entries](https://gist.github.com/simonmichael/986a65106a9db1f8bd68)
+- [Ledger Practices: Tracking Reimbursable Expenses](https://felixcrux.com/blog/ledger-practices-tracking-reimbursable-expenses)
 
 #### multiple currencies
 
@@ -699,6 +703,7 @@ Envelope budgeting with automated transactions, org & babel:
 - [Program Your Finances: Automated Transactions](https://www.petekeen.net/program-your-finances-automated-transactions)
 - [How to keep control of shared expenses inside marriage?](http://money.stackexchange.com/questions/7101/how-to-keep-control-of-shared-expenses-inside-marriage)
 - [How to use ledger(1) to split shared expenses](https://mumble.net/~campbell/2017/02/26/ledger/HOWTO-sharedexpense)
+- [Ledger Practices: Tracking Accounts Jointly and Separately](https://felixcrux.com/blog/ledger-practices-tracking-accounts-jointly-and-separately)
 
 #### taxes
 
