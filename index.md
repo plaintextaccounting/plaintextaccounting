@@ -99,7 +99,8 @@ This simple model makes them easy to understand and rely on.
 &nbsp;&nbsp;[reddit](#reddit)  
 &nbsp;&nbsp;[twitter](#twitter)  
 [docs](#docs)  
-&nbsp;&nbsp;[accounting](#accounting-1)  
+&nbsp;&nbsp;[general accounting](#general-accounting)  
+&nbsp;&nbsp;[plain text accounting](#plain-text-accounting)  
 &nbsp;&nbsp;[comparisons](#comparisons)  
 &nbsp;&nbsp;[presentations](#presentations)  
 &nbsp;&nbsp;[videos](#videos)  
@@ -522,7 +523,16 @@ other console/curses tools
 <div class="five columns u-pull-right tight">
 
 ### docs
+
+#### general accounting
+
+- [hledger: Accounting](https://github.com/simonmichael/hledger/wiki/More%20docs#accounting)
+- [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
+- [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
+
+#### plain text accounting
 <!-- official docs & useful intro docs -->
+<!-- XXX reorg -->
 
 - [Ledger manuals](http://ledger-cli.org/docs.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
@@ -535,13 +545,6 @@ other console/curses tools
 - [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
 - [Don’t Sink Your First Attempts at Plaintext Accounting](plaintext-accounting-errors.html)
 - [Syntax Quick Reference for the Ledger-Likes](quickref/)
-
-#### accounting
-<!-- general accounting intros/overviews -->
-
-- [hledger: Accounting](https://github.com/simonmichael/hledger/wiki/More%20docs#accounting)
-- [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
-- [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 
 #### comparisons
 
