@@ -106,6 +106,7 @@ This simple model makes them easy to understand and rely on.
 &nbsp;&nbsp;[articles & blog posts](#articles-blog-posts)  
 [common tasks](#common-tasks)  
 &nbsp;&nbsp;[choosing accounts](#choosing-accounts)  
+&nbsp;&nbsp;[choosing cash vs accrual](#choosing-cash-vs-accrual)  
 &nbsp;&nbsp;[entering data](#entering-data)  
 &nbsp;&nbsp;[importing](#importing)  
 &nbsp;&nbsp;[reconciling](#reconciling)  
@@ -531,12 +532,12 @@ other console/curses tools
 - [Syntax Quick Reference for the Ledger-Likes](quickref/)
 
 #### accounting
+<!-- intros/overviews -->
 
 - [Command-line Accounting in Context](http://furius.ca/beancount/doc/motivation)
 - [The Double-Entry Counting Method](https://furius.ca/beancount/doc/intro)
 - [Misc. accounting intros](https://github.com/simonmichael/hledger/wiki/More%20docs#accounting)
 - [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
-- [Ledger Practices: Accrual vs. Cash Basis Accounting](https://felixcrux.com/blog/ledger-practices-accrual-vs-cash-basis-accounting)
 
 #### comparisons
 
@@ -615,6 +616,10 @@ other console/curses tools
 - [Mint: Ways to Categorize Your Spending](https://www.mint.com/mint-categories)
 - [account structure](http://thread.gmane.org/gmane.comp.finance.ledger.general/7398/focus=7417)
 - [Simplified version of double-entry bookkeeping for personal and business finance?](http://money.stackexchange.com/questions/47561/simplified-version-of-double-entry-bookkeeping-for-personal-and-business-finance)
+
+#### choosing cash vs accrual
+
+- [Ledger Practices: Accrual vs. Cash Basis Accounting](https://felixcrux.com/blog/ledger-practices-accrual-vs-cash-basis-accounting)
 
 #### entering data
 
