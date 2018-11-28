@@ -532,7 +532,7 @@ other console/curses tools
 - [Syntax Quick Reference for the Ledger-Likes](quickref/)
 
 #### accounting
-<!-- intros/overviews -->
+<!-- intros/overviews to double entry/plain text accounting -->
 
 - [Command-line Accounting in Context](http://furius.ca/beancount/doc/motivation)
 - [The Double-Entry Counting Method](https://furius.ca/beancount/doc/intro)
