@@ -534,9 +534,9 @@ other console/curses tools
 #### accounting
 <!-- intros/overviews to double entry/plain text accounting -->
 
-- [Command-line Accounting in Context](http://furius.ca/beancount/doc/motivation)
-- [The Double-Entry Counting Method](https://furius.ca/beancount/doc/intro)
-- [Misc. accounting intros](https://github.com/simonmichael/hledger/wiki/More%20docs#accounting)
+- [General accounting intros](https://github.com/simonmichael/hledger/wiki/More%20docs#accounting)
+- [Beancount: Command-line Accounting in Context](http://aumayr.github.io/beancount-docs-static/users/cl_accounting.html)
+- [Beancount: The Double-Entry Counting Method](http://aumayr.github.io/beancount-docs-static/users/double_entry_method.html)
 - [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
 
 #### comparisons
