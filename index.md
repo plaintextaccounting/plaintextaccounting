@@ -115,6 +115,7 @@ This simple model makes them easy to understand and rely on.
 &nbsp;&nbsp;[forecasting](#forecasting)  
 &nbsp;&nbsp;[invoicing](#invoicing)  
 &nbsp;&nbsp;[multiple currencies](#multiple-currencies)  
+&nbsp;&nbsp;[trip expenses](#trip-expenses)  
 &nbsp;&nbsp;[shared expenses](#shared-expenses)  
 &nbsp;&nbsp;[taxes](#taxes)  
 &nbsp;&nbsp;[time tracking](#time-tracking)  
@@ -122,6 +123,7 @@ This simple model makes them easy to understand and rely on.
 <!-- down 2018/03/14 &nbsp;&nbsp;[estate accounting](#estate-accounting)   -->
 &nbsp;&nbsp;[non-profit accounting](#non-profit-accounting)  
 &nbsp;&nbsp;[exporting](#exporting)  
+&nbsp;&nbsp;[exporting](#customising)  
 &nbsp;&nbsp;[API access](#api-access)  
 
 </div>
@@ -520,6 +522,7 @@ other console/curses tools
 <div class="five columns u-pull-right tight">
 
 ### docs
+<!-- official docs & useful intro docs -->
 
 - [Ledger manuals](http://ledger-cli.org/docs.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
@@ -527,17 +530,18 @@ other console/curses tools
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
 - [hledger User Guide](http://hledger.org/docs.html)
 - [Beancount docs (google)](http://furius.ca/beancount/doc/index) / [(sphinx)](http://aumayr.github.io/beancount-docs-static/)
+- [Beancount: Command-line Accounting in Context](https://docs.google.com/document/d/1e4Vz3wZB_8-ZcAwIFde8X5CjzKshE4-OXtVVHm4RQ8s)
 - [Beancount: Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
+- [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
 - [Don’t Sink Your First Attempts at Plaintext Accounting](plaintext-accounting-errors.html)
 - [Syntax Quick Reference for the Ledger-Likes](quickref/)
 
 #### accounting
-<!-- intros/overviews to double entry/plain text accounting -->
+<!-- general accounting intros/overviews -->
 
-- [General accounting intros](https://github.com/simonmichael/hledger/wiki/More%20docs#accounting)
-- [Beancount: Command-line Accounting in Context](https://docs.google.com/document/d/1e4Vz3wZB_8-ZcAwIFde8X5CjzKshE4-OXtVVHm4RQ8s)
-- [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
+- [hledger: Accounting](https://github.com/simonmichael/hledger/wiki/More%20docs#accounting)
 - [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
+- [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 
 #### comparisons
 
@@ -573,7 +577,9 @@ other console/curses tools
 - [David Mitchell: Personal Debts](https://www.youtube.com/watch?v=9zyp8RF-Fyw)
 
 #### articles & blog posts
+<!-- "series" are positioned by most recent post date; their individual posts can be linked elsewhere if appropriate -->
 
+- [Felix Crux: Ledger Practices series](https://felixcrux.com/blog/ledger-practices) 2016-2018
 - [Depreciation in Personal Finance with Hledger](http://rantsideasstuff.com/posts/2018/07/08-depreciation-in-personal-finance-with-hledger/) 2018 <!-- 7/4 -->
 - [Tracking Investments in Lots with Hledger](http://rantsideasstuff.com/posts/2018/07/01-tracking-investments-in-lots-with-hledger/) 2018 <!-- 7/1 -->
 - [LWN: Counting beans - and more - with Beancount](https://lwn.net/SubscriberLink/751874/a38128abb72e45c5/) 2018 <!-- 4/19 -->
@@ -596,16 +602,11 @@ other console/curses tools
 - [Joey Hess: hledger](http://joeyh.name/blog/entry/hledger) 2012<!-- /12/3 -->
 - [Gene Goykhman: An Alternative to QuickBooks](http://goykhman.ca/gene/blog/2012/2012-09-23-an-alternative-to-quickbooks.html) 2012<!-- /9/23 -->
 - [LWN: The accounting quest: Ledger](http://lwn.net/Articles/501681/) 2012<!-- /6/13 -->
-- [Pete Keen: A Robust Reporting System for Ledger](https://www.petekeen.net/finance) 2012<!-- /1/1 -->
-- [Pete Keen: Program your Finances: Automated Transactions](https://www.petekeen.net/finance) 2011<!-- /12/18 -->
-- [Sascha Welter: Doing my own accounting](http://betabug.ch/blogs/ch-athens/1221) 2011<!-- /12/5 -->
+- [Pete Keen: Program your Finances series](https://www.petekeen.net/finance) 2010-2012<!-- /5/23 -->
 - [Clint Adams: Accounting at SFLC](http://www.softwarefreedom.org/blog/2011/sep/07/accounting-at-sflc/) 2011<!-- /9/7 -->
-- [Pete Keen: Program your Finances: Vacation Tracking](https://www.petekeen.net/finance) 2011<!-- /8/4 -->
-- [Pete Keen: Program your Finances: Reporting for Fun and Profit](https://www.petekeen.net/finance) 2011<!-- /7/1 -->
+- [Sascha Welter: Doing my own accounting](http://betabug.ch/blogs/ch-athens/1221) 2011<!-- /12/5 -->
 - [Christine Spang: [h]ledger rocks my world](http://blog.spang.cc/posts/hledger_rocks_my_world/) 2010<!-- /7/5 -->
-- [Pete Keen: Program your Finances: Command-line Accounting](https://www.petekeen.net/finance) (& [intro](https://www.petekeen.net/finance)) 2010<!-- /5/23 -->
 - [Joe Barr: Ledger, the bran muffin of accounting tools](http://archive09.linux.com/feature/58307) 2006<!-- /11/10 -->
-- [Ledger Practices](https://felixcrux.com/blog/ledger-practices) 2016-2018
 
 ### common tasks
 
@@ -632,6 +633,7 @@ other console/curses tools
 - [hledger Cookbook: Use another account separator character](http://hledger.org/cookbook.html#use-another-account-separator-character)
 - [Accounting bookkeeping entries](http://hledger.org/more-docs.html#accounting)
 - [ledger-envelope-generator.rb](https://github.com/simonmichael/hledger/issues/313)
+- [Ledger Practices: Separate Your Journals](https://felixcrux.com/blog/ledger-practices-separate-your-journals)
 - [UI tools](#ui-console)
 
 #### importing
@@ -658,6 +660,8 @@ other console/curses tools
 - [Report Scripts for Ledger CLI with Gnuplot](https://www.sundialdreams.com/report-scripts-for-ledger-cli-with-gnuplot/)
 - [Full-fledged hledger tutorial](https://github.com/adept/full-fledged-hledger)
 - [Ledger Practices: Reporting Special Events Separately From Regular Spending](https://felixcrux.com/blog/ledger-practices-reporting-special-events-separately)
+- [Program your Finances: Reporting for Fun and Profit](https://www.petekeen.net/program-your-finances-reporting-for-fun-and-profit)
+- [Pete Keen: A Robust Reporting System for Ledger](https://www.petekeen.net/a-robust-reporting-system-for-ledger) 2012<!-- /1/1 -->
 
 #### budgeting
 
@@ -677,7 +681,7 @@ Envelope budgeting with ordinary accounts:
 Envelope budgeting with Ledger's automated transactions:
 
 - [bsilvereagle: Envelope Budgeting with ledger](https://frdmtoplay.com/envelope-budgeting-with-ledger)
-- [Pete Keen: Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting)
+- [Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting)
 - [Marcin Borkowski: Ledger – virtual postings aka envelopes](http://mbork.pl/2016-07-18_Ledger_–_virtual_postings_aka_envelopes)
 
 Envelope budgeting with automated transactions, org & babel:
@@ -700,6 +704,10 @@ Envelope budgeting with automated transactions, org & babel:
 - [Peter Selinger: Tutorial on multiple currency accounting](http://www.mscs.dal.ca/~selinger/accounting/tutorial.html)
 - [ledger-currencies tutorial](https://github.com/mikekchar/ledger-currencies)
 - [Understanding the valuation function and the market function](https://groups.google.com/d/msg/ledger-cli/dc6F-HvZOyE/5IuoxzMOBwAJ)
+
+#### trip expenses
+
+- [Program your Finances: Vacation Tracking](https://www.petekeen.net/program-your-finances-vacation-tracking) 2011<!-- /8/4 -->
 
 #### shared expenses
 
@@ -741,6 +749,10 @@ down 2018/03/14 - [Command Line Probate blog](https://commandlineprobate.com) --
 - [Ledger: The csv command](http://www.ledger-cli.org/3.0/doc/ledger3.html#The-csv-command)
 - [hledger: CSV output](http://hledger.org/manual.html#csv-output)
 - [Beancount: Exporting Your Portfolio](https://docs.google.com/document/d/1mNyE_ONuyEkF_I2l6V_AoAU5HJgI654AOBhHsnNPPqw)
+
+#### customising
+
+- [Ledger Practices: Create a .ledgerrc](https://felixcrux.com/blog/ledger-practices-create-a-ledgerrc)
 
 #### API access
 

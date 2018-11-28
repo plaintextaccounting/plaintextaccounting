@@ -84,12 +84,14 @@ Plain Text Accounting
   <a href="#forecasting">forecasting</a><br />
   <a href="#invoicing">invoicing</a><br />
   <a href="#multiple-currencies">multiple currencies</a><br />
+  <a href="#trip-expenses">trip expenses</a><br />
   <a href="#shared-expenses">shared expenses</a><br />
   <a href="#taxes">taxes</a><br />
   <a href="#time-tracking">time tracking</a><br />
   <a href="#inventory-tracking">inventory tracking</a><br />
 <!-- down 2018/03/14 &nbsp;&nbsp;[estate accounting](#estate-accounting)   -->   <a href="#non-profit-accounting">non-profit accounting</a><br />
   <a href="#exporting">exporting</a><br />
+  <a href="#customising">exporting</a><br />
   <a href="#api-access">API access</a></p>
 </div>
 </div>
@@ -490,6 +492,7 @@ other console/curses tools
 <div class="five columns u-pull-right tight">
 
 <h3 id="docs">docs</h3>
+<!-- official docs & useful intro docs -->
 <ul>
 <li><a href="http://ledger-cli.org/docs.html">Ledger manuals</a></li>
 <li><a href="https://github.com/ledger/ledger/wiki">Ledger wiki</a></li>
@@ -497,17 +500,18 @@ other console/curses tools
 <li><a href="https://rolfschr.github.io/gswl-book/latest.html">Getting Started With Ledger</a></li>
 <li><a href="http://hledger.org/docs.html">hledger User Guide</a></li>
 <li><a href="http://furius.ca/beancount/doc/index">Beancount docs (google)</a> / <a href="http://aumayr.github.io/beancount-docs-static/">(sphinx)</a></li>
+<li><a href="https://docs.google.com/document/d/1e4Vz3wZB_8-ZcAwIFde8X5CjzKshE4-OXtVVHm4RQ8s">Beancount: Command-line Accounting in Context</a></li>
 <li><a href="http://furius.ca/beancount/doc/cheatsheet">Beancount: Syntax Cheatsheet</a></li>
+<li><a href="https://www.petekeen.net/keeping-finances-with-ledger">Program your Finances: Command-line Accounting</a></li>
 <li><a href="plaintext-accounting-errors.html">Don’t Sink Your First Attempts at Plaintext Accounting</a></li>
 <li><a href="quickref/">Syntax Quick Reference for the Ledger-Likes</a></li>
 </ul>
 <h4 id="accounting-1">accounting</h4>
-<!-- intros/overviews to double entry/plain text accounting -->
+<!-- general accounting intros/overviews -->
 <ul>
-<li><a href="https://github.com/simonmichael/hledger/wiki/More%20docs#accounting">General accounting intros</a></li>
-<li><a href="https://docs.google.com/document/d/1e4Vz3wZB_8-ZcAwIFde8X5CjzKshE4-OXtVVHm4RQ8s">Beancount: Command-line Accounting in Context</a></li>
-<li><a href="https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4">Beancount: The Double-Entry Counting Method</a></li>
+<li><a href="https://github.com/simonmichael/hledger/wiki/More%20docs#accounting">hledger: Accounting</a></li>
 <li><a href="http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons">Accounting for Dragons</a></li>
+<li><a href="https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4">Beancount: The Double-Entry Counting Method</a></li>
 </ul>
 <h4 id="comparisons">comparisons</h4>
 <ul>
@@ -539,7 +543,9 @@ other console/curses tools
 <li><a href="https://www.youtube.com/watch?v=9zyp8RF-Fyw">David Mitchell: Personal Debts</a></li>
 </ul>
 <h4 id="articles-blog-posts">articles &amp; blog posts</h4>
+<!-- "series" are positioned by most recent post date; their individual posts can be linked elsewhere if appropriate -->
 <ul>
+<li><a href="https://felixcrux.com/blog/ledger-practices">Felix Crux: Ledger Practices series</a> 2016-2018</li>
 <li><a href="http://rantsideasstuff.com/posts/2018/07/08-depreciation-in-personal-finance-with-hledger/">Depreciation in Personal Finance with Hledger</a> 2018 <!-- 7/4 --></li>
 <li><a href="http://rantsideasstuff.com/posts/2018/07/01-tracking-investments-in-lots-with-hledger/">Tracking Investments in Lots with Hledger</a> 2018 <!-- 7/1 --></li>
 <li><a href="https://lwn.net/SubscriberLink/751874/a38128abb72e45c5/">LWN: Counting beans - and more - with Beancount</a> 2018 <!-- 4/19 --></li>
@@ -558,16 +564,11 @@ other console/curses tools
 <li><a href="http://joeyh.name/blog/entry/hledger">Joey Hess: hledger</a> 2012<!-- /12/3 --></li>
 <li><a href="http://goykhman.ca/gene/blog/2012/2012-09-23-an-alternative-to-quickbooks.html">Gene Goykhman: An Alternative to QuickBooks</a> 2012<!-- /9/23 --></li>
 <li><a href="http://lwn.net/Articles/501681/">LWN: The accounting quest: Ledger</a> 2012<!-- /6/13 --></li>
-<li><a href="https://www.petekeen.net/finance">Pete Keen: A Robust Reporting System for Ledger</a> 2012<!-- /1/1 --></li>
-<li><a href="https://www.petekeen.net/finance">Pete Keen: Program your Finances: Automated Transactions</a> 2011<!-- /12/18 --></li>
-<li><a href="http://betabug.ch/blogs/ch-athens/1221">Sascha Welter: Doing my own accounting</a> 2011<!-- /12/5 --></li>
+<li><a href="https://www.petekeen.net/finance">Pete Keen: Program your Finances series</a> 2010-2012<!-- /5/23 --></li>
 <li><a href="http://www.softwarefreedom.org/blog/2011/sep/07/accounting-at-sflc/">Clint Adams: Accounting at SFLC</a> 2011<!-- /9/7 --></li>
-<li><a href="https://www.petekeen.net/finance">Pete Keen: Program your Finances: Vacation Tracking</a> 2011<!-- /8/4 --></li>
-<li><a href="https://www.petekeen.net/finance">Pete Keen: Program your Finances: Reporting for Fun and Profit</a> 2011<!-- /7/1 --></li>
+<li><a href="http://betabug.ch/blogs/ch-athens/1221">Sascha Welter: Doing my own accounting</a> 2011<!-- /12/5 --></li>
 <li><a href="http://blog.spang.cc/posts/hledger_rocks_my_world/">Christine Spang: [h]ledger rocks my world</a> 2010<!-- /7/5 --></li>
-<li><a href="https://www.petekeen.net/finance">Pete Keen: Program your Finances: Command-line Accounting</a> (&amp; <a href="https://www.petekeen.net/finance">intro</a>) 2010<!-- /5/23 --></li>
 <li><a href="http://archive09.linux.com/feature/58307">Joe Barr: Ledger, the bran muffin of accounting tools</a> 2006<!-- /11/10 --></li>
-<li><a href="https://felixcrux.com/blog/ledger-practices">Ledger Practices</a> 2016-2018</li>
 </ul>
 <h3 id="common-tasks">common tasks</h3>
 <h4 id="choosing-accounts">choosing accounts</h4>
@@ -593,6 +594,7 @@ other console/curses tools
 <li><a href="http://hledger.org/cookbook.html#use-another-account-separator-character">hledger Cookbook: Use another account separator character</a></li>
 <li><a href="http://hledger.org/more-docs.html#accounting">Accounting bookkeeping entries</a></li>
 <li><a href="https://github.com/simonmichael/hledger/issues/313">ledger-envelope-generator.rb</a></li>
+<li><a href="https://felixcrux.com/blog/ledger-practices-separate-your-journals">Ledger Practices: Separate Your Journals</a></li>
 <li><a href="#ui-console">UI tools</a></li>
 </ul>
 <h4 id="importing">importing</h4>
@@ -619,6 +621,8 @@ other console/curses tools
 <li><a href="https://www.sundialdreams.com/report-scripts-for-ledger-cli-with-gnuplot/">Report Scripts for Ledger CLI with Gnuplot</a></li>
 <li><a href="https://github.com/adept/full-fledged-hledger">Full-fledged hledger tutorial</a></li>
 <li><a href="https://felixcrux.com/blog/ledger-practices-reporting-special-events-separately">Ledger Practices: Reporting Special Events Separately From Regular Spending</a></li>
+<li><a href="https://www.petekeen.net/program-your-finances-reporting-for-fun-and-profit">Program your Finances: Reporting for Fun and Profit</a></li>
+<li><a href="https://www.petekeen.net/a-robust-reporting-system-for-ledger">Pete Keen: A Robust Reporting System for Ledger</a> 2012<!-- /1/1 --></li>
 </ul>
 <h4 id="budgeting">budgeting</h4>
 <p>Budget reporting with Ledger's periodic transactions:</p>
@@ -638,7 +642,7 @@ other console/curses tools
 <p>Envelope budgeting with Ledger's automated transactions:</p>
 <ul>
 <li><a href="https://frdmtoplay.com/envelope-budgeting-with-ledger">bsilvereagle: Envelope Budgeting with ledger</a></li>
-<li><a href="https://www.petekeen.net/program-your-finances-envelope-budgeting">Pete Keen: Program Your Finances: Envelope Budgeting</a></li>
+<li><a href="https://www.petekeen.net/program-your-finances-envelope-budgeting">Program Your Finances: Envelope Budgeting</a></li>
 <li><a href="http://mbork.pl/2016-07-18_Ledger_–_virtual_postings_aka_envelopes">Marcin Borkowski: Ledger – virtual postings aka envelopes</a></li>
 </ul>
 <p>Envelope budgeting with automated transactions, org &amp; babel:</p>
@@ -660,6 +664,10 @@ other console/curses tools
 <li><a href="http://www.mscs.dal.ca/~selinger/accounting/tutorial.html">Peter Selinger: Tutorial on multiple currency accounting</a></li>
 <li><a href="https://github.com/mikekchar/ledger-currencies">ledger-currencies tutorial</a></li>
 <li><a href="https://groups.google.com/d/msg/ledger-cli/dc6F-HvZOyE/5IuoxzMOBwAJ">Understanding the valuation function and the market function</a></li>
+</ul>
+<h4 id="trip-expenses">trip expenses</h4>
+<ul>
+<li><a href="https://www.petekeen.net/program-your-finances-vacation-tracking">Program your Finances: Vacation Tracking</a> 2011<!-- /8/4 --></li>
 </ul>
 <h4 id="shared-expenses">shared expenses</h4>
 <ul>
@@ -700,6 +708,10 @@ down 2018/03/14 - [Command Line Probate blog](https://commandlineprobate.com) --
 <li><a href="http://www.ledger-cli.org/3.0/doc/ledger3.html#The-csv-command">Ledger: The csv command</a></li>
 <li><a href="http://hledger.org/manual.html#csv-output">hledger: CSV output</a></li>
 <li><a href="https://docs.google.com/document/d/1mNyE_ONuyEkF_I2l6V_AoAU5HJgI654AOBhHsnNPPqw">Beancount: Exporting Your Portfolio</a></li>
+</ul>
+<h4 id="customising">customising</h4>
+<ul>
+<li><a href="https://felixcrux.com/blog/ledger-practices-create-a-ledgerrc">Ledger Practices: Create a .ledgerrc</a></li>
 </ul>
 <h4 id="api-access">API access</h4>
 <ul>
