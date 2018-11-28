@@ -82,7 +82,7 @@ This simple model makes them easy to understand and rely on.
 ### read more
 
 [FAQ](#frequently-asked-questions)  
-[Ledger-likes](#ledger-likes)  
+[software](#software)  
 [related tools](#related-tools)  
 &nbsp;&nbsp;[data import/conversion](#data-importconversion)  
 &nbsp;&nbsp;[editor support](#editor-support)  
@@ -219,7 +219,9 @@ Glad you asked! See below, and also [comparisons](#comparisons). hledger's FAQ d
 
 </div>
 
-### Ledger-likes
+<a name="ledger-likes"></a>
+
+### software
 
 <style>
 th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; white-space:nowrap; }
@@ -233,6 +235,7 @@ Project        | Start | Last release | Code                      | Committers |
 [Ledger]       | 2003  | 2016-01      | [C++][ledger-gh]          | 156        | 2608  | [ledger][ledger-mail], 870       | [#ledger], 60
 [hledger]      | 2007  | 2018-10      | [haskell][hledger-code]   | 96         |  862  | [hledger][hledger-mail], 150     | [#hledger], 60
 [Beancount]    | 2008  | 2018-10      | [python][beancount-bb]    | 17         |       | [beancount][beancount-mail], 200 | [#beancount], 10
+&nbsp;         |       |              |
 [Abandon]      | 2013  | 2017-05      | [scala][abandon-gh]       | 9          |  132  |                                  | [gitter][abandon-gi]
 [Ledger in Go] | 2013  | 2018-06      | [go][ledger-go-gh]        | 5          |  161  |                                  |
 [Transity]     | 2018  | 2018-09      | [purescript][transity-gh] | 4          |  368  |                                  | [gitter][transity-gi]
