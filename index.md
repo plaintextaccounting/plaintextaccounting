@@ -239,7 +239,7 @@ Project        | Start | Last release | Code                      | Committers |
 [Abandon]      | 2013  | 2017-05      | [scala][abandon-gh]       | 9          |  133  |                                  | [gitter][abandon-gi]
 [Ledger in Go] | 2013  | 2018-06      | [go][ledger-go-gh]        | 5          |  165  |                                  |
 [Transity]     | 2018  | 2018-09      | [purescript][transity-gh] | 4          |  374  |                                  | [gitter][transity-gi]
-[Tackler]      | 2017  | 2018-01      | [scala][tackler-gh]       | 1          |   14  |                                  | [gitter][tackler-gi]
+[Tackler]      | 2017  | 2018-12      | [scala][tackler-gl]       | 1          |   14  |                                  |
 [.Net Ledger]  | 2017  | 2018-08      | [C#][nledger-gh]          | 1          |   26  |                                  | [gitter][nledger-gi]
 &nbsp;         |       |              |
 **Inactive:**  |       |              |
@@ -290,9 +290,8 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 
 [smalltalk-gh]: https://gist.github.com/simonmichael/bb611dba654ccb1573e1
 
-[Tackler]: https://github.com/sn127/tackler#readme
-[tackler-gh]: https://github.com/sn127/tackler
-[tackler-gi]: https://gitter.im/sn127/tackler
+[Tackler]: https://gitlab.com/e257/accounting/tackler#readme
+[tackler-gl]: https://gitlab.com/e257/accounting/tackler
 
 [Transity]: https://github.com/feramhq/transity#readme
 [transity-gh]: https://github.com/feramhq/transity
