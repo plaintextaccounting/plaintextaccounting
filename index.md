@@ -83,7 +83,8 @@ This simple model makes them easy to understand and rely on.
 
 [FAQ](#frequently-asked-questions)  
 [software](#software)  
-[related tools](#related-tools)  
+&nbsp;&nbsp;[plain text accounting tools](#plain-text-accounting-tools)  
+&nbsp;&nbsp;[add-ons](#add-ons)  
 &nbsp;&nbsp;[data import/conversion](#data-importconversion)  
 &nbsp;&nbsp;[editor support](#editor-support)  
 &nbsp;&nbsp;[time logging](#time-logging)  
@@ -223,6 +224,8 @@ Glad you asked! See below, and also [comparisons](#comparisons). hledger's FAQ d
 
 ### software
 
+#### plain text accounting tools
+
 <style>
 th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; white-space:nowrap; }
 </style>
@@ -309,7 +312,9 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 
 <div class="seven columns">
 
-### related tools
+#### add-ons
+
+This and the sections below collect add-ons and helper tools related to the above (ledger, hledger, and beancount mostly).
 
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals
 - [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions
