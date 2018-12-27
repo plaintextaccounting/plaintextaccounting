@@ -314,11 +314,12 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 
 #### add-ons
 
-This and the sections below collect add-ons and helper tools related to the above (ledger, hledger, and beancount mostly).
+This and the following sections collect add-ons and helper tools related to the above.
+"*ledger" below means Ledger & hledger-style journal format.
 
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals
 - [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions
-- [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return over time
+- [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](http://hledger.org/manual.html#roi))
 
 #### data import/conversion
 
