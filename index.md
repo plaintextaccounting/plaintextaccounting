@@ -124,7 +124,7 @@ This simple model makes them easy to understand and rely on.
 <!-- down 2018/03/14 &nbsp;&nbsp;[estate accounting](#estate-accounting)   -->
 &nbsp;&nbsp;[non-profit accounting](#non-profit-accounting)  
 &nbsp;&nbsp;[exporting](#exporting)  
-&nbsp;&nbsp;[exporting](#customising)  
+&nbsp;&nbsp;[customising](#customising)  
 &nbsp;&nbsp;[API access](#api-access)  
 
 </div>
