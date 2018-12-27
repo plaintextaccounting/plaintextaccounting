@@ -314,7 +314,6 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals
 - [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions
 - [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return over time
-- [ledger-tutorials](https://github.com/tlvince/ledger-tutorials) convert Pete Keen's tutorials to ebook format
 
 #### data import/conversion
 
@@ -333,6 +332,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to *ledger conversion, deduplication
 - [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices
 - [ledger-reconciler](https://disjoint.ca/projects/ledger-reconciler) automatically download and reconcile your ledger financial entries
+- [ledger-tutorials](https://github.com/tlvince/ledger-tutorials) convert Pete Keen's tutorials to ebook format
 - [ledger2beancount.py](https://gist.github.com/travisdahlke/71152286b0a8826249fe) *ledger to beancount converter
 - [ledgerbil](https://github.com/scarpent/ledgerbil) schedule recurring txns, interactive reconcile, date sorting
 - [outofit](https://github.com/rcaputo/outofit) QuickBooks to *ledger converter
