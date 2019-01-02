@@ -244,6 +244,7 @@ Project        | Start | Last release | Code                      | Committers |
 [Transity]     | 2018  | 2018-09      | [purescript][transity-gh] | 4          |  374  |                                  | [gitter][transity-gi]
 [Tackler]      | 2017  | 2018-12      | [scala][tackler-gl]       | 1          |   14  |                                  |
 [.Net Ledger]  | 2017  | 2018-08      | [C#][nledger-gh]          | 1          |   26  |                                  | [gitter][nledger-gi]
+cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4        |   50  |                                  | 
 &nbsp;         |       |              |
 **Inactive:**  |       |              |
 uledger        | 2015  |              | [python][uledger-gh]
@@ -251,7 +252,6 @@ pacioli        | 2013  |              | [python][pacioli-gh]
 ledger.pl      | 2013  |              | [perl][ledger.pl-gh]
 [Penny]        | 2012  | 2014         | [haskell][penny-gh]
 [UMM]          | 2009  | 2010         | [haskell][UMM]
-cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh]
 sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 
 [Abandon]: https://github.com/hrj/abandon#readme
