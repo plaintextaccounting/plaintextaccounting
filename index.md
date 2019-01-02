@@ -240,11 +240,11 @@ Project        | Start | Last release | Code                        | Committers
 [Beancount]    | 2008  | 2018-10      | [python][beancount-bb]      | 17         |       | [beancount][beancount-mail], 200 | [#beancount], 20
 &nbsp;         |       |              |
 [Abandon]      | 2013  | 2017-05      | [scala][abandon-gh]         | 9          |  132  |                                  | [gitter][abandon-gi]
-[Ledger in Go] | 2013  | 2018-06      | [go][ledger-go-gh]          | 5          |  168  |                                  |
 [Transity]     | 2018  | 2018-09      | [purescript][transity-gh]   | 5          |  382  |                                  | [gitter][transity-gi]
-[Tackler]      | 2017  | 2018-12      | [scala][tackler-gl]         | 1          |    0  |                                  |
-[.Net Ledger]  | 2017  | 2018-08      | [C#][nledger-gh]            | 1          |   29  |                                  | [gitter][nledger-gi]
+[Ledger in Go] | 2013  | 2018-06      | [go][ledger-go-gh]          | 5          |  168  |                                  |
 cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4          |   50  |                                  | 
+[.Net Ledger]  | 2017  | 2018-08      | [C#][nledger-gh]            | 1          |   29  |                                  | [gitter][nledger-gi]
+[Tackler]      | 2017  | 2018-12      | [scala][tackler-gl]         | 1          |    0  |                                  |
 &nbsp;         |       |              |
 **Inactive:**  |       |              |
 uledger        | 2015  |              | [python][uledger-gh]
