@@ -367,7 +367,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 \
 - <span style="float:right;">Emacs</span> [beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default)
 - <span style="float:right;">Emacs</span> [hledger-mode](https://github.com/narendraj9/hledger-mode)
-- <span style="float:right;">Emacs</span> [ledger-mode](http://ledger-cli.org/3.0/doc/ledger-mode.html) (also works for hledger, beancount etc.)
+- <span style="float:right;">Emacs</span> [ledger-mode](https://www.ledger-cli.org/3.0/doc/ledger-mode.html) (also works for hledger, beancount etc.)
 \
 \
 - <span style="float:right;">VIM</span> [hledger-vim](https://github.com/anekos/hledger-vim)
