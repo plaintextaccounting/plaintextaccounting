@@ -644,7 +644,7 @@ other console/curses tools
   `C-c C-c`/`C-c C-e` toggle cleared
 - [Beancount: Command Line Accounting Cookbook](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk)
 - [hledger Cookbook: Use another account separator character](http://hledger.org/cookbook.html#use-another-account-separator-character)
-- [Accounting bookkeeping entries](http://hledger.org/more-docs.html#accounting)
+- [Accounting bookkeeping entries](https://github.com/simonmichael/hledger/wiki/more-docs#accounting)
 - [ledger-envelope-generator.rb](https://github.com/simonmichael/hledger/issues/313)
 - [Ledger Practices: Separate Your Journals](https://felixcrux.com/blog/ledger-practices-separate-your-journals)
 - [UI tools](#ui-console)
