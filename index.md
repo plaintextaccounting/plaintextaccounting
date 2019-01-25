@@ -244,6 +244,7 @@ Project        | Start | Last release | Code                        | Committers
 [Ledger in Go] | 2013  | 2018-06      | [go][ledger-go-gh]          | 5          |  168  |                                  |
 cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4          |   50  |                                  | 
 [.Net Ledger]  | 2017  | 2018-08      | [C#][nledger-gh]            | 1          |   29  |                                  | [gitter][nledger-gi]
+[monescript]   | 2017  | 2018-01      | [javascript][monescript-gh] | 1          |    3  |                                  |
 [Tackler]      | 2017  | 2018-12      | [scala][tackler-gl]         | 1          |    0  |                                  |
 &nbsp;         |       |              |
 **Inactive:**  |       |              |
@@ -292,6 +293,9 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [penny-gh]: https://github.com/massysett/penny
 
 [smalltalk-gh]: https://gist.github.com/simonmichael/bb611dba654ccb1573e1
+
+[monescript]: https://monescript.github.io/
+[monescript-gh]: https://github.com/monescript/monescript
 
 [Tackler]: https://gitlab.com/e257/accounting/tackler#readme
 [tackler-gl]: https://gitlab.com/e257/accounting/tackler
