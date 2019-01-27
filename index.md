@@ -244,6 +244,7 @@ Project        | Start | Last release | Code                        | Committers
 [Ledger in Go] | 2013  | 2018-06      | [go][ledger-go-gh]          | 5          |  168  |                                  |
 cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4          |   50  |                                  | 
 [.Net Ledger]  | 2017  | 2018-08      | [C#][nledger-gh]            | 1          |   29  |                                  | [gitter][nledger-gi]
+[beans]        | 2017  | 2019-01      | [haskell][beans-gh]         | 1          |   10  |                                  |
 [monescript]   | 2017  | 2018-01      | [javascript][monescript-gh] | 1          |    3  |                                  |
 [Tackler]      | 2017  | 2018-12      | [scala][tackler-gl]         | 1          |    0  |                                  |
 &nbsp;         |       |              |
@@ -303,6 +304,9 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [Transity]: https://github.com/feramhq/transity#readme
 [transity-gh]: https://github.com/feramhq/transity
 [transity-gi]: https://gitter.im/feramhq/transity
+
+[beans]: https://sboehler.github.io/beans
+[beans-gh]: https://github.com/sboehler/beans
 
 [uledger-gh]: https://github.com/danpat/uledger
 
