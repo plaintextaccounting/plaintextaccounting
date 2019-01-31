@@ -601,8 +601,8 @@ other console/curses tools
 
 - [John Sullivan: Answering questions with accounting: Reimbursements](https://blog.johncs.com/posts/accounting-reimbursements.htm) 2019 <!-- 01/07 -->
 - [Felix Crux: Ledger Practices series](https://felixcrux.com/blog/ledger-practices) 2016-2018
-- [Depreciation in Personal Finance with Hledger](http://rantsideasstuff.com/posts/2018/07/08-depreciation-in-personal-finance-with-hledger/) 2018 <!-- 7/4 -->
-- [Tracking Investments in Lots with Hledger](http://rantsideasstuff.com/posts/2018/07/01-tracking-investments-in-lots-with-hledger/) 2018 <!-- 7/1 -->
+- [Zoran Zaric: Depreciation in Personal Finance with Hledger](http://rantsideasstuff.com/posts/2018/07/08-depreciation-in-personal-finance-with-hledger/) 2018 <!-- 7/4 -->
+- [Zoran Zaric: Tracking Investments in Lots with Hledger](http://rantsideasstuff.com/posts/2018/07/01-tracking-investments-in-lots-with-hledger/) 2018 <!-- 7/1 -->
 - [LWN: Counting beans - and more - with Beancount](https://lwn.net/SubscriberLink/751874/a38128abb72e45c5/) 2018 <!-- 4/19 -->
 - [Michael Walker: I Need A Budget](https://www.barrucadu.co.uk/posts/etc/2017-12-16-i-need-a-budget.html) 2017 <!-- /12/16 -->
 - [Accounting for the simple minds with plain text accounting](https://dustri.org/b/accounting-for-the-simple-minds-with-plain-text-accounting.html) 2017 <!-- 12/1 -->
