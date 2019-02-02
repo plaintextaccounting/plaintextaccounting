@@ -86,12 +86,14 @@ This simple model makes them easy to understand and rely on.
 &nbsp;&nbsp;[plain text accounting tools](#plain-text-accounting-tools)  
 &nbsp;&nbsp;[add-ons](#add-ons)  
 &nbsp;&nbsp;[data import/conversion](#data-importconversion)  
-&nbsp;&nbsp;[editor support](#editor-support)  
+&nbsp;&nbsp;[data generation](#data-generation)  
+&nbsp;&nbsp;[reports](#reports)  
 &nbsp;&nbsp;[time logging](#time-logging)  
 &nbsp;&nbsp;[UI, console](#ui-console)  
 &nbsp;&nbsp;[UI, curses](#ui-curses)  
 &nbsp;&nbsp;[UI, GUI](#ui-gui)  
 &nbsp;&nbsp;[UI, web](#ui-web)  
+&nbsp;&nbsp;[editor support](#editor-support)  
 &nbsp;&nbsp;[API](#api)  
 [discussion](#discussion)  
 &nbsp;&nbsp;[mail lists/IRC](#mail-listsirc)  
@@ -363,7 +365,7 @@ This and the following sections collect add-ons and helper tools related to the 
 - [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions (haskell)
 - [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
 
-#### reporting
+#### reports
 
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals (haskell)
 - [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](http://hledger.org/manual.html#roi)) (haskell)
