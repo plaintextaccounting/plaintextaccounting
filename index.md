@@ -92,8 +92,8 @@ This simple model makes them easy to understand and rely on.
 &nbsp;&nbsp;[UI, curses](#ui-curses)  
 &nbsp;&nbsp;[UI, GUI](#ui-gui)  
 &nbsp;&nbsp;[UI, web](#ui-web)  
-&nbsp;&nbsp;[editor support](#editor-support)  
 &nbsp;&nbsp;[API](#api)  
+&nbsp;&nbsp;[editor support](#editor-support)  
 [discussion](#discussion)  
 &nbsp;&nbsp;[mail lists/IRC](#mail-listsirc)  
 &nbsp;&nbsp;[stack exchange](#stack-exchange)  
@@ -410,6 +410,23 @@ The following sections collect add-ons and helper tools related to the above.
 - [ledgible](https://github.com/lipidity/ledgible) web UI for ledger browsing, data entry (python)
 - [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for ledger browsing, price fetching (F#)
 
+#### API
+
+- [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API server for *ledger files (haskell)
+- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) extends Ledger's python library (python)
+- [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API for *ledger files (javascript)
+
+<!--
+other console/curses tools
+
+- [Taskwarrior](http://taskwarrior.org) modern task manager
+- [add / tapecalc](http://invisible-island.net/add/add.html) dynamically updating tape calculator
+- [sc](http://www.linuxjournal.com/article/10699) spreadsheet
+- [sc-im](https://github.com/andmarti1424/sc-im) update of sc
+- [GNU PEM & Oleo](http://www.examiner.com/article/gnu-pem-oleo-two-great-command-line-text-based-financial-accounting-apps) expenses manager, spreadsheet
+- the [org empire](http://orgmode.org)...
+-->
+
 #### editor support
 
 Grouped by editor.
@@ -438,23 +455,6 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - <span style="float:right;">Visual Studio Code</span> [hledger-vscode](https://github.com/mhansen/hledger-vscode)
 - <span style="float:right;">Visual Studio Code</span> [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger)
 - <span style="float:right;">Visual Studio Code</span> [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
-
-#### API
-
-- [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API server for *ledger files (haskell)
-- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) extends Ledger's python library (python)
-- [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API for *ledger files (javascript)
-
-<!--
-other console/curses tools
-
-- [Taskwarrior](http://taskwarrior.org) modern task manager
-- [add / tapecalc](http://invisible-island.net/add/add.html) dynamically updating tape calculator
-- [sc](http://www.linuxjournal.com/article/10699) spreadsheet
-- [sc-im](https://github.com/andmarti1424/sc-im) update of sc
-- [GNU PEM & Oleo](http://www.examiner.com/article/gnu-pem-oleo-two-great-command-line-text-based-financial-accounting-apps) expenses manager, spreadsheet
-- the [org empire](http://orgmode.org)...
--->
 
 <br>
 
