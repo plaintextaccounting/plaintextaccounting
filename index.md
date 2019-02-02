@@ -330,7 +330,7 @@ This and the following sections collect add-ons and helper tools related to the 
 - [Ledger](http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](http://hledger.org/manual.html#csv-format) have CSV conversion built in. Also:
 - bean-identify, bean-extract, bean-file - Beancount built-in tools
 - [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
-- [beancount-import](https://github.com/jbms/beancount-import) CSV to beancount converter (curses)
+- [beancount-import](https://github.com/jbms/beancount-import) curses-style CSV to beancount converter
 - [beancount-ynab](https://github.com/hoostus/beancount-ynab) You Need A Budget to beancount converter
 - [csv2beancount](https://github.com/PaNaVTEC/csv2beancount) CSV to beancount converter
 - [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) GnuCash to beancount converter
@@ -358,13 +358,17 @@ This and the following sections collect add-ons and helper tools related to the 
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
 - [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) You Need A Budget to *ledger converter
 
+#### data generation
+
+- [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions (haskell)
+- [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
+
 #### reporting
 
-- [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals
-- [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions
-- [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](http://hledger.org/manual.html#roi))
-- [r-ledger](https://github.com/trevorld/r-ledger) an R package for reading and reporting on ledger/hledger/beancount files
-- [TaxingLots](https://framagit.org/jkepler/TaxingLots) calculates capital gains for a ledger journal
+- [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals (haskell)
+- [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](http://hledger.org/manual.html#roi)) (haskell)
+- [r-ledger](https://github.com/trevorld/r-ledger) an R package for reading and reporting on ledger/hledger/beancount files (R)
+- [TaxingLots](https://framagit.org/jkepler/TaxingLots) calculates capital gains for a ledger journal (python)
 
 #### time logging
 
@@ -380,16 +384,15 @@ This and the following sections collect add-ons and helper tools related to the 
 - [ledger-add](https://github.com/Tagirijus/ledger-add) interactive transaction entry
 - [ldgr](https://github.com/brandonpittman/ldgr) a CLI to add/sort/tag ledger files (ruby)
 - [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive helper for making charts with GNUplot
-- [ledger-plots](https://github.com/esovetkin/ledger-plots) a script to generate various plots and more written in R
+- [ledger-plots](https://github.com/esovetkin/ledger-plots) a script to generate various plots and more (R)
 - [ledger xact](http://ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (built-in command)
 - [recurring](http://hub.darcs.net/simon/ledgertools/browse/recurring) show/add recurring entries using Ledger
 
 #### UI, curses
 
-- [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) curses UI for transaction entry
-- [hledger-ui](http://hackage.haskell.org/package/hledger-ui) curses UI for browsing
-  ([demo](https://asciinema.org/a/29665))
-- [regdel](https://github.com/guillaumechereau/regdel) curses UI for browsing (Ledger)
+- [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) curses UI for *ledger transaction entry (haskell)
+- [hledger-ui](http://hackage.haskell.org/package/hledger-ui) curses UI for *ledger browsing (haskell, [demo](https://asciinema.org/a/29665))
+- [regdel](https://github.com/guillaumechereau/regdel) curses UI for browsing Ledger files (python)
 
 #### UI, GUI
 
@@ -397,16 +400,16 @@ This and the following sections collect add-ons and helper tools related to the 
 
 #### UI, web
 
-- [fava](https://github.com/beancount/fava) web UI for browsing (Python, beancount, [demo](http://fava.pythonanywhere.com/))
+- [fava](https://github.com/beancount/fava) web UI for beancount browsing (python, [demo](http://fava.pythonanywhere.com/))
+- [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for *ledger browsing, data entry (haskell, [demo](http://demo.hledger.org))
 - [hledger-web on Sandstorm](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90) free web instances in a few clicks
-- [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for browsing, data entry (Haskell, [demo](http://demo.hledger.org))
-- [Ledger in Go](https://github.com/howeyc/ledger) has lweb, a web UI for browsing transactions, reports, and porfolios
-- [Ledger Web](https://github.com/peterkeen/Ledger-Web) web-based, postgres-backed reporting system
-- [ledger-analytics](https://github.com/kendricktan/ledger-analytics) web UI for data analytics (JavaScript)
-- [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing, data entry (Python)
-- [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing (JavaScript)
-- [ledgible](https://github.com/lipidity/ledgible) web UI for browsing, data entry (Python)
-- [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for browsing, price fetching (F#, Ledger)
+- [Ledger in Go](https://github.com/howeyc/ledger) has lweb, a web UI for browsing ledger transactions, reports, and porfolios
+- [Ledger Web](https://github.com/peterkeen/Ledger-Web) web-based, postgres-backed ledger reporting system
+- [ledger-analytics](https://github.com/kendricktan/ledger-analytics) web UI for ledger data analytics (javascript)
+- [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for ledger browsing, data entry (python)
+- [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for ledger browsing (javascript)
+- [ledgible](https://github.com/lipidity/ledgible) web UI for ledger browsing, data entry (python)
+- [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for ledger browsing, price fetching (F#)
 
 #### editor support
 
@@ -439,10 +442,9 @@ Note these often work quite well for other ledger-likes, not just the one they a
 
 #### API
 
-- [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API + static file server (Haskell)
-- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) extends Ledger's python library (Python)
-- [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API (JavaScript)
-- [sassetti](https://github.com/jvasile/sassetti) command-line wrapper (Common Lisp)
+- [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API server for *ledger files (haskell)
+- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) extends Ledger's python library (python)
+- [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API for *ledger files (javascript)
 
 <!--
 other console/curses tools
