@@ -398,16 +398,15 @@ This and the following sections collect add-ons and helper tools related to the 
 #### UI, web
 
 - [fava](https://github.com/beancount/fava) web UI for browsing (Python, beancount, [demo](http://fava.pythonanywhere.com/))
-- [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for browsing, data entry
-  (Haskell, [demo](http://demo.hledger.org))
 - [hledger-web on Sandstorm](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90) free web instances in a few clicks
+- [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for browsing, data entry (Haskell, [demo](http://demo.hledger.org))
+- [Ledger in Go](https://github.com/howeyc/ledger) has lweb, a web UI for browsing transactions, reports, and porfolios
 - [Ledger Web](https://github.com/peterkeen/Ledger-Web) web-based, postgres-backed reporting system
 - [ledger-analytics](https://github.com/kendricktan/ledger-analytics) web UI for data analytics (JavaScript)
 - [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for browsing, data entry (Python)
 - [ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for browsing (JavaScript)
 - [ledgible](https://github.com/lipidity/ledgible) web UI for browsing, data entry (Python)
 - [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for browsing, price fetching (F#, Ledger)
-- [Ledger in Go](https://github.com/howeyc/ledger) has lweb, a web UI for browsing transactions, reports, and porfolios
 
 #### editor support
 
