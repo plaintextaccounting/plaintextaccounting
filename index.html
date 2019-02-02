@@ -385,9 +385,9 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <li><a href="http://hackage.haskell.org/package/hledger-irr">hledger-irr</a> calculate an account's internal rate of return (superseded by <a href="http://hledger.org/manual.html#roi">roi</a>)</li>
 </ul><h4 id="data-importconversion">data import/conversion</h4><ul>
 <li><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files">Ledger</a> and <a href="http://hledger.org/manual.html#csv-format">hledger</a> have CSV conversion built in. Also:</li>
-<li><a href="https://github.com/tomszilagyi/banks2ledger">banks2ledger</a> - CSV to *ledger converter</li>
 <li>bean-identify, bean-extract, bean-file - Beancount built-in tools</li>
-<li><a href="https://github.com/jbms/beancount-import">beancount-import</a> CSV to beancount converter (curses)</li>
+<li><a href="https://github.com/tomszilagyi/banks2ledger">banks2ledger</a> - CSV to *ledger converter</li>
+<li><a href="https://github.com/jbms/beancount-import">beancount-import</a> curses-style CSV to beancount converter</li>
 <li><a href="https://github.com/hoostus/beancount-ynab">beancount-ynab</a> You Need A Budget to beancount converter</li>
 <li><a href="https://github.com/PaNaVTEC/csv2beancount">csv2beancount</a> CSV to beancount converter</li>
 <li><a href="https://github.com/henriquebastos/gnucash-to-beancount/">gnucash-to-beancount</a> GnuCash to beancount converter</li>
@@ -396,11 +396,14 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <li><a href="https://github.com/hpdeifel/hledger-import-dsl">hledger-import-dsl</a> alternate, programmable CSV converter for hledger</li>
 <li><a href="https://launchpad.net/csv2ledger">icsvledger</a> CSV to *ledger converter</li>
 <li><a href="https://github.com/manishrjain/into-ledger">into-ledger</a> CSV to *ledger converter</li>
+<li><a href="https://github.com/howeyc/ledger">Ledger in Go</a> has limport, a CSV to *ledger converter</li>
 <li><a href="https://gitlab.com/egh/ledger-autosync">ledger-autosync</a> OFX download, OFX to *ledger conversion, deduplication</li>
 <li><a href="https://github.com/nathankot/ledger-get-prices">ledger-get-prices</a> download market prices</li>
 <li><a href="https://disjoint.ca/projects/ledger-reconciler">ledger-reconciler</a> automatically download and reconcile your ledger financial entries</li>
+<li><a href="https://github.com/glasserc/ledger-to-beancount/">ledger-to-beancount</a> yet another simple ledger to beancount converter (python)</li>
 <li><a href="https://github.com/tlvince/ledger-tutorials">ledger-tutorials</a> convert Pete Keen's tutorials to ebook format</li>
 <li><a href="https://gist.github.com/travisdahlke/71152286b0a8826249fe">ledger2beancount.py</a> *ledger to beancount converter</li>
+<li><a href="https://github.com/zacchiro/ledger2beancount">ledger2beancount</a> ledger to beancount converter</li>
 <li><a href="https://github.com/scarpent/ledgerbil">ledgerbil</a> schedule recurring txns, interactive reconcile, date sorting</li>
 <li><a href="https://github.com/rcaputo/outofit">outofit</a> QuickBooks to *ledger converter</li>
 <li><a href="https://github.com/ebridges/plaid2qif">plaid2qif</a> Download transactions from plaid as QIF or CSV files</li>
@@ -411,16 +414,14 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <li><a href="https://github.com/johannesjh/smart_importer">smart_importer</a> library for building smarter CSV to beancount/Fava converters</li>
 <li><a href="https://github.com/eval/total_recall">total_recall</a> CSV to *ledger converter</li>
 <li><a href="https://github.com/pgr0ss/ynab_to_ledger">ynab_to_ledger</a> You Need A Budget to *ledger converter</li>
-<li><a href="https://github.com/howeyc/ledger">Ledger in Go</a> has limport, a CSV to *ledger converter</li>
-<li><a href="https://github.com/zacchiro/ledger2beancount">ledger2beancount</a> ledger to beancount converter</li>
-<li><a href="https://github.com/glasserc/ledger-to-beancount/">ledger-to-beancount</a> yet another simple ledger to beancount converter written in Python</li>
-<li><a href="https://github.com/brandonpittman/ldgr">ldgr</a> a CLI for working with Ledger files</li>
-<li><a href="https://github.com/trevorld/r-ledger">r-ledger</a> an R package for querying data from ledger/hledger/beancount files</li>
+</ul><h4 id="data-generation">data generation</h4><ul>
+<li><a href="http://hackage.haskell.org/package/hledger-interest">hledger-interest</a> generate *ledger interest transactions (haskell)</li>
+<li><a href="https://github.com/jvasile/sassetti">sassetti</a> adds lisp macros to ledger files (common lisp)</li>
 </ul><h4 id="reporting">reporting</h4><ul>
-<li><a href="http://hackage.haskell.org/package/hledger-diff">hledger-diff</a> report differing transactions between two journals</li>
-<li><a href="http://hackage.haskell.org/package/hledger-interest">hledger-interest</a> generate *ledger interest transactions</li>
-<li><a href="http://hackage.haskell.org/package/hledger-irr">hledger-irr</a> calculate an account's internal rate of return (superseded by <a href="http://hledger.org/manual.html#roi">roi</a>)</li>
-<li><a href="https://framagit.org/jkepler/TaxingLots">TaxingLots</a> calculates capital gains for a ledger journal</li>
+<li><a href="http://hackage.haskell.org/package/hledger-diff">hledger-diff</a> report differing transactions between two journals (haskell)</li>
+<li><a href="http://hackage.haskell.org/package/hledger-irr">hledger-irr</a> calculate an account's internal rate of return (superseded by <a href="http://hledger.org/manual.html#roi">roi</a>) (haskell)</li>
+<li><a href="https://github.com/trevorld/r-ledger">r-ledger</a> an R package for reading and reporting on ledger/hledger/beancount files (R)</li>
+<li><a href="https://framagit.org/jkepler/TaxingLots">TaxingLots</a> calculates capital gains for a ledger journal (python)</li>
 </ul><h4 id="time-logging">time logging</h4><ul>
 <li><a href="https://github.com/jwiegley/org2tc">org2tc</a> org to timeclock converter</li>
 <li><a href="https://gist.github.com/wbsch/d977b0ac29aa1dfa4437">on-modify.timetrack.py</a> taskwarrior hook for timeclock output</li>
@@ -430,27 +431,28 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <li><a href="https://github.com/simon-v/bean-add">bean-add</a> interactive transaction entry</li>
 <li><a href="http://hledger.org/manual.html#add">hledger add</a> interactive transaction entry (built-in command)</li>
 <li><a href="https://github.com/Tagirijus/ledger-add">ledger-add</a> interactive transaction entry</li>
+<li><a href="https://github.com/brandonpittman/ldgr">ldgr</a> a CLI to add/sort/tag ledger files (ruby)</li>
 <li><a href="https://github.com/Tagirijus/ledger-plot">ledger-plot</a> interactive helper for making charts with GNUplot</li>
-<li><a href="https://github.com/esovetkin/ledger-plots">ledger-plots</a> a script to generate various plots and more written in R</li>
+<li><a href="https://github.com/esovetkin/ledger-plots">ledger-plots</a> a script to generate various plots and more (R)</li>
 <li><a href="http://ledger-cli.org/3.0/doc/ledger3.html#xact">ledger xact</a> history-aware transaction generator (built-in command)</li>
 <li><a href="http://hub.darcs.net/simon/ledgertools/browse/recurring">recurring</a> show/add recurring entries using Ledger</li>
 </ul><h4 id="ui-curses">UI, curses</h4><ul>
-<li><a href="https://github.com/hpdeifel/hledger-iadd">hledger-iadd</a> curses UI for transaction entry</li>
-<li><a href="http://hackage.haskell.org/package/hledger-ui">hledger-ui</a> curses UI for browsing (<a href="https://asciinema.org/a/29665">demo</a>)</li>
-<li><a href="https://github.com/guillaumechereau/regdel">regdel</a> curses UI for browsing (Ledger)</li>
+<li><a href="https://github.com/hpdeifel/hledger-iadd">hledger-iadd</a> curses UI for *ledger transaction entry (haskell)</li>
+<li><a href="http://hackage.haskell.org/package/hledger-ui">hledger-ui</a> curses UI for *ledger browsing (haskell, <a href="https://asciinema.org/a/29665">demo</a>)</li>
+<li><a href="https://github.com/guillaumechereau/regdel">regdel</a> curses UI for browsing Ledger files (python)</li>
 </ul><h4 id="ui-gui">UI, GUI</h4><ul>
 <li><a href="https://github.com/Rudd-O/ledgerhelpers">ledgerhelpers</a> GTK GUI tools + helper library (Python)</li>
 </ul><h4 id="ui-web">UI, web</h4><ul>
-<li><a href="https://github.com/beancount/fava">fava</a> web UI for browsing (Python, beancount, <a href="http://fava.pythonanywhere.com/">demo</a>)</li>
-<li><a href="http://hackage.haskell.org/package/hledger-web">hledger-web</a> web UI for browsing, data entry (Haskell, <a href="http://demo.hledger.org">demo</a>)</li>
+<li><a href="https://github.com/beancount/fava">fava</a> web UI for beancount browsing (python, <a href="http://fava.pythonanywhere.com/">demo</a>)</li>
+<li><a href="http://hackage.haskell.org/package/hledger-web">hledger-web</a> web UI for *ledger browsing, data entry (haskell, <a href="http://demo.hledger.org">demo</a>)</li>
 <li><a href="https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90">hledger-web on Sandstorm</a> free web instances in a few clicks</li>
-<li><a href="https://github.com/peterkeen/Ledger-Web">Ledger Web</a> web-based, postgres-backed reporting system</li>
-<li><a href="https://github.com/kendricktan/ledger-analytics">ledger-analytics</a> web UI for data analytics (JavaScript)</li>
-<li><a href="https://github.com/Ikke/ledger-dashboard">ledger-dashboard</a> web UI for browsing, data entry (Python)</li>
-<li><a href="https://github.com/slashdotdash/node-ledger-web">ledger-web</a> web UI for browsing (JavaScript)</li>
-<li><a href="https://github.com/lipidity/ledgible">ledgible</a> web UI for browsing, data entry (Python)</li>
-<li><a href="https://github.com/readysetmark/WealthPulse">WealthPulse</a> web UI for browsing, price fetching (F#, Ledger)</li>
-<li><a href="https://github.com/howeyc/ledger">Ledger in Go</a> has lweb, a web UI for browsing transactions, reports, and porfolios</li>
+<li><a href="https://github.com/howeyc/ledger">Ledger in Go</a> has lweb, a web UI for browsing ledger transactions, reports, and porfolios</li>
+<li><a href="https://github.com/peterkeen/Ledger-Web">Ledger Web</a> web-based, postgres-backed ledger reporting system</li>
+<li><a href="https://github.com/kendricktan/ledger-analytics">ledger-analytics</a> web UI for ledger data analytics (javascript)</li>
+<li><a href="https://github.com/Ikke/ledger-dashboard">ledger-dashboard</a> web UI for ledger browsing, data entry (python)</li>
+<li><a href="https://github.com/slashdotdash/node-ledger-web">ledger-web</a> web UI for ledger browsing (javascript)</li>
+<li><a href="https://github.com/lipidity/ledgible">ledgible</a> web UI for ledger browsing, data entry (python)</li>
+<li><a href="https://github.com/readysetmark/WealthPulse">WealthPulse</a> web UI for ledger browsing, price fetching (F#)</li>
 </ul><h4 id="editor-support">editor support</h4><p>Grouped by editor. Note these often work quite well for other ledger-likes, not just the one they are named for.</p><ul>
 <li><span style="float:right;">Atom</span> <a href="https://atom.io/packages/language-ledger">language-ledger</a></li>
 <li><span style="float:right;">Atom</span> <a href="https://atom.io/packages/ledger">ledger</a><br />
@@ -476,10 +478,9 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <li><span style="float:right;">Visual Studio Code</span> <a href="https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger">ledger</a></li>
 <li><span style="float:right;">Visual Studio Code</span> <a href="https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount">vscode-beancount</a></li>
 </ul><h4 id="api">API</h4><ul>
-<li><a href="https://github.com/simonmichael/hledger/tree/master/hledger-api">hledger-api</a> JSON API + static file server (Haskell)</li>
-<li><a href="https://github.com/Rudd-O/ledgerhelpers">ledgerhelpers</a> extends Ledger's python library (Python)</li>
-<li><a href="https://github.com/rstacruz/node-hledger">node-hledger</a> Node.js API (JavaScript)</li>
-<li><a href="https://github.com/jvasile/sassetti">sassetti</a> command-line wrapper (Common Lisp)</li>
+<li><a href="https://github.com/simonmichael/hledger/tree/master/hledger-api">hledger-api</a> JSON API server for *ledger files (haskell)</li>
+<li><a href="https://github.com/Rudd-O/ledgerhelpers">ledgerhelpers</a> extends Ledger's python library (python)</li>
+<li><a href="https://github.com/rstacruz/node-hledger">node-hledger</a> Node.js API for *ledger files (javascript)</li>
 </ul><!--
 other console/curses tools
 
