@@ -84,7 +84,6 @@ This simple model makes them easy to understand and rely on.
 [FAQ](#frequently-asked-questions)  
 [software](#software)  
 &nbsp;&nbsp;[plain text accounting tools](#plain-text-accounting-tools)  
-&nbsp;&nbsp;[add-ons](#add-ons)  
 &nbsp;&nbsp;[data import/conversion](#data-importconversion)  
 &nbsp;&nbsp;[data generation](#data-generation)  
 &nbsp;&nbsp;[reports](#reports)  
@@ -322,9 +321,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 
 <div class="seven columns">
 
-#### add-ons
-
-This and the following sections collect add-ons and helper tools related to the above.
+The following sections collect add-ons and helper tools related to the above.
 "\*ledger" below means Ledger & hledger-style journal format.
 
 #### data import/conversion
