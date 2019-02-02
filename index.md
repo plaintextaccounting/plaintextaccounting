@@ -356,15 +356,15 @@ This and the following sections collect add-ons and helper tools related to the 
 - [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) You Need A Budget to *ledger converter
 - [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
 - [ledger2beancount](https://github.com/zacchiro/ledger2beancount) ledger to beancount converter
-- [ledger-to-beancount](https://github.com/glasserc/ledger-to-beancount/) yet another simple ledger to beancount converter written in Python
-- [ldgr](https://github.com/brandonpittman/ldgr) a CLI for working with Ledger files 
-- [r-ledger](https://github.com/trevorld/r-ledger) an R package for querying data from ledger/hledger/beancount files
+- [ledger-to-beancount](https://github.com/glasserc/ledger-to-beancount/) yet another simple ledger to beancount converter (python)
+- [ldgr](https://github.com/brandonpittman/ldgr) a CLI to add/sort/tag ledger files (ruby)
 
 #### reporting
 
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals
 - [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions
 - [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](http://hledger.org/manual.html#roi))
+- [r-ledger](https://github.com/trevorld/r-ledger) an R package for reading and reporting on ledger/hledger/beancount files
 - [TaxingLots](https://framagit.org/jkepler/TaxingLots) calculates capital gains for a ledger journal
 
 #### time logging
