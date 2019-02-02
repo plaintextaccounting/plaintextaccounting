@@ -323,7 +323,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 #### add-ons
 
 This and the following sections collect add-ons and helper tools related to the above.
-"*ledger" below means Ledger & hledger-style journal format.
+"\*ledger" below means Ledger & hledger-style journal format.
 
 #### data import/conversion
 
