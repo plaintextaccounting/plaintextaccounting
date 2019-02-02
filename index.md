@@ -362,7 +362,7 @@ This and the following sections collect add-ons and helper tools related to the 
 
 #### data generation
 
-- [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions (haskell)
+- [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest entries (haskell)
 - [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
 
 #### reports
@@ -705,13 +705,13 @@ Envelope budgeting with ordinary accounts:
 - [Michael Walker: I Need A Budget](https://www.barrucadu.co.uk/posts/etc/2017-12-16-i-need-a-budget.html)
 - [Simon Michael: envelope budgeting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
 
-Envelope budgeting with Ledger's automated transactions:
+Envelope budgeting with Ledger's automated postings:
 
 - [bsilvereagle: Envelope Budgeting with ledger](https://frdmtoplay.com/envelope-budgeting-with-ledger)
 - [Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting)
 - [Marcin Borkowski: Ledger – virtual postings aka envelopes](http://mbork.pl/2016-07-18_Ledger_–_virtual_postings_aka_envelopes)
 
-Envelope budgeting with automated transactions, org & babel:
+Envelope budgeting with automated postings, org & babel:
 
 - [Org tutorials: Weaving a budget with Org & ledger](http://orgmode.org/worg/org-tutorials/weaving-a-budget.html)
 - [Alan Schmitt: Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
