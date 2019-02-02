@@ -325,10 +325,6 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 This and the following sections collect add-ons and helper tools related to the above.
 "*ledger" below means Ledger & hledger-style journal format.
 
-- [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals
-- [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions
-- [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](http://hledger.org/manual.html#roi))
-
 #### data import/conversion
 
 - [Ledger](http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](http://hledger.org/manual.html#csv-format) have CSV conversion built in. Also:
@@ -364,34 +360,12 @@ This and the following sections collect add-ons and helper tools related to the 
 - [ldgr](https://github.com/brandonpittman/ldgr) a CLI for working with Ledger files 
 - [r-ledger](https://github.com/trevorld/r-ledger) an R package for querying data from ledger/hledger/beancount files
 
-#### editor support
+#### reporting
 
-Grouped by editor.
-Note these often work quite well for other ledger-likes, not just the one they are named for.
-
-- <span style="float:right;">Atom</span> [language-ledger](https://atom.io/packages/language-ledger)
-- <span style="float:right;">Atom</span> [ledger](https://atom.io/packages/ledger)
-\
-\
-- <span style="float:right;">Emacs</span> [beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default)
-- <span style="float:right;">Emacs</span> [hledger-mode](https://github.com/narendraj9/hledger-mode)
-- <span style="float:right;">Emacs</span> [ledger-mode](https://www.ledger-cli.org/3.0/doc/ledger-mode.html) (also works for hledger, beancount etc.)
-\
-\
-- <span style="float:right;">VIM</span> [hledger-vim](https://github.com/anekos/hledger-vim)
-- <span style="float:right;">VIM</span> [vim-beancount](https://github.com/nathangrigg/vim-beancount)
-- <span style="float:right;">VIM</span> [vim-ledger](https://github.com/ledger/vim-ledger)
-\
-\
-- <span style="float:right;">Sublime</span> [sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax)
-\
-\
-- <span style="float:right;">TextMate</span> [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle)
-\
-\
-- <span style="float:right;">Visual Studio Code</span> [hledger-vscode](https://github.com/mhansen/hledger-vscode)
-- <span style="float:right;">Visual Studio Code</span> [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger)
-- <span style="float:right;">Visual Studio Code</span> [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
+- [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals
+- [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest transactions
+- [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](http://hledger.org/manual.html#roi))
+- [TaxingLots](https://framagit.org/jkepler/TaxingLots) calculates capital gains for a ledger journal
 
 #### time logging
 
@@ -434,6 +408,35 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [ledgible](https://github.com/lipidity/ledgible) web UI for browsing, data entry (Python)
 - [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for browsing, price fetching (F#, Ledger)
 - [Ledger in Go](https://github.com/howeyc/ledger) has lweb, a web UI for browsing transactions, reports, and porfolios
+
+#### editor support
+
+Grouped by editor.
+Note these often work quite well for other ledger-likes, not just the one they are named for.
+
+- <span style="float:right;">Atom</span> [language-ledger](https://atom.io/packages/language-ledger)
+- <span style="float:right;">Atom</span> [ledger](https://atom.io/packages/ledger)
+\
+\
+- <span style="float:right;">Emacs</span> [beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default)
+- <span style="float:right;">Emacs</span> [hledger-mode](https://github.com/narendraj9/hledger-mode)
+- <span style="float:right;">Emacs</span> [ledger-mode](https://www.ledger-cli.org/3.0/doc/ledger-mode.html) (also works for hledger, beancount etc.)
+\
+\
+- <span style="float:right;">VIM</span> [hledger-vim](https://github.com/anekos/hledger-vim)
+- <span style="float:right;">VIM</span> [vim-beancount](https://github.com/nathangrigg/vim-beancount)
+- <span style="float:right;">VIM</span> [vim-ledger](https://github.com/ledger/vim-ledger)
+\
+\
+- <span style="float:right;">Sublime</span> [sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax)
+\
+\
+- <span style="float:right;">TextMate</span> [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle)
+\
+\
+- <span style="float:right;">Visual Studio Code</span> [hledger-vscode](https://github.com/mhansen/hledger-vscode)
+- <span style="float:right;">Visual Studio Code</span> [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger)
+- <span style="float:right;">Visual Studio Code</span> [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
 
 #### API
 
