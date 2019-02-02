@@ -328,8 +328,8 @@ This and the following sections collect add-ons and helper tools related to the 
 #### data import/conversion
 
 - [Ledger](http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](http://hledger.org/manual.html#csv-format) have CSV conversion built in. Also:
-- [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
 - bean-identify, bean-extract, bean-file - Beancount built-in tools
+- [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
 - [beancount-import](https://github.com/jbms/beancount-import) CSV to beancount converter (curses)
 - [beancount-ynab](https://github.com/hoostus/beancount-ynab) You Need A Budget to beancount converter
 - [csv2beancount](https://github.com/PaNaVTEC/csv2beancount) CSV to beancount converter
@@ -339,11 +339,14 @@ This and the following sections collect add-ons and helper tools related to the 
 - [hledger-import-dsl](https://github.com/hpdeifel/hledger-import-dsl) alternate, programmable CSV converter for hledger
 - [icsvledger](https://launchpad.net/csv2ledger) CSV to *ledger converter
 - [into-ledger](https://github.com/manishrjain/into-ledger) CSV to *ledger converter
+- [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to *ledger conversion, deduplication
 - [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices
 - [ledger-reconciler](https://disjoint.ca/projects/ledger-reconciler) automatically download and reconcile your ledger financial entries
+- [ledger-to-beancount](https://github.com/glasserc/ledger-to-beancount/) yet another simple ledger to beancount converter (python)
 - [ledger-tutorials](https://github.com/tlvince/ledger-tutorials) convert Pete Keen's tutorials to ebook format
 - [ledger2beancount.py](https://gist.github.com/travisdahlke/71152286b0a8826249fe) *ledger to beancount converter
+- [ledger2beancount](https://github.com/zacchiro/ledger2beancount) ledger to beancount converter
 - [ledgerbil](https://github.com/scarpent/ledgerbil) schedule recurring txns, interactive reconcile, date sorting
 - [outofit](https://github.com/rcaputo/outofit) QuickBooks to *ledger converter
 - [plaid2qif](https://github.com/ebridges/plaid2qif) Download transactions from plaid as QIF or CSV files
@@ -354,10 +357,6 @@ This and the following sections collect add-ons and helper tools related to the 
 - [smart_importer](https://github.com/johannesjh/smart_importer) library for building smarter CSV to beancount/Fava converters
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
 - [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) You Need A Budget to *ledger converter
-- [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
-- [ledger2beancount](https://github.com/zacchiro/ledger2beancount) ledger to beancount converter
-- [ledger-to-beancount](https://github.com/glasserc/ledger-to-beancount/) yet another simple ledger to beancount converter (python)
-- [ldgr](https://github.com/brandonpittman/ldgr) a CLI to add/sort/tag ledger files (ruby)
 
 #### reporting
 
@@ -379,6 +378,7 @@ This and the following sections collect add-ons and helper tools related to the 
 - [bean-add](https://github.com/simon-v/bean-add) interactive transaction entry
 - [hledger add](http://hledger.org/manual.html#add) interactive transaction entry (built-in command)
 - [ledger-add](https://github.com/Tagirijus/ledger-add) interactive transaction entry
+- [ldgr](https://github.com/brandonpittman/ldgr) a CLI to add/sort/tag ledger files (ruby)
 - [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive helper for making charts with GNUplot
 - [ledger-plots](https://github.com/esovetkin/ledger-plots) a script to generate various plots and more written in R
 - [ledger xact](http://ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (built-in command)
