@@ -485,21 +485,8 @@ Note these often work quite well for other ledger-likes, not just the one they a
 #### hacker news
 </div>
 
-[2009](https://news.ycombinator.com/item?id=872244),
-[2013](https://news.ycombinator.com/item?id=5233255),
-[2014](https://news.ycombinator.com/item?id=7707262),
-[2014](https://news.ycombinator.com/item?id=8806056),
-[2015](https://news.ycombinator.com/item?id=10510394),
-[2016](https://news.ycombinator.com/item?id=11164330),
-[2016](https://news.ycombinator.com/item?id=11366693),
-[2016](https://news.ycombinator.com/item?id=12119050),
-[2017](https://news.ycombinator.com/item?id=13566147),
-[2017](https://news.ycombinator.com/item?id=15818682),
-[2018](https://news.ycombinator.com/item?id=16285587),
-[2018](https://news.ycombinator.com/item?id=16859341),
-[2018](https://news.ycombinator.com/item?id=17166450),
-[2018](https://news.ycombinator.com/item?id=17242136),
-[2018](https://news.ycombinator.com/item?id=17371374)
+[stories](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=story),
+[comments](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=comment)
 
 <!--
 - [Ledger, a command-line accounting system](https://news.ycombinator.com/item?id=10510394) 2015
