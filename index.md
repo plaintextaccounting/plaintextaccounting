@@ -630,6 +630,9 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [Clint Adams: Accounting at SFLC](http://www.softwarefreedom.org/blog/2011/sep/07/accounting-at-sflc/) 2011<!-- /9/7 -->
 - [Sascha Welter: Doing my own accounting](http://betabug.ch/blogs/ch-athens/1221) 2011<!-- /12/5 -->
 - [Christine Spang: [h]ledger rocks my world](http://blog.spang.cc/posts/hledger_rocks_my_world/) 2010<!-- /7/5 -->
+<!-- - [Roman Cheplyaka: hledger](http://ro-che.blogspot.com/2010/02/hledger.html) 2010 -->
+<!-- - [Fabrice Niessen on Ledger, hledger, beancount, CSV2Ledger](http://www.mygooglest.com/fni/ledger.html) 2010 -->
+- [советы: Ledger — бухучёт в командной строке](http://s.arboreus.com/2009/05/personal-accounting-in-command-line.html) ([english](http://translate.google.com/translate?hl=en&sl=ru&u=http://s.arboreus.com/2009/05/personal-accounting-in-command-line.html)) 2009
 - [Joe Barr: Ledger, the bran muffin of accounting tools](http://archive09.linux.com/feature/58307) 2006<!-- /11/10 -->
 
 ### common tasks
