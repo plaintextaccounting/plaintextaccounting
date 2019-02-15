@@ -329,9 +329,9 @@ The following sections collect add-ons and helper tools related to the above.
 - [Ledger](http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](http://hledger.org/manual.html#csv-format) have CSV conversion built in. Also:
 - bean-identify, bean-extract, bean-file - Beancount built-in tools
 - [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
-- [beancount-import](https://github.com/jbms/beancount-import) curses-style CSV to beancount converter
+- [beancount-import](https://github.com/jbms/beancount-import) web app/framework for converting various formats to beancount (python)
 - [beancount-ynab](https://github.com/hoostus/beancount-ynab) You Need A Budget to beancount converter
-- [csv2beancount](https://github.com/PaNaVTEC/csv2beancount) CSV to beancount converter
+- [csv2beancount](https://github.com/PaNaVTEC/csv2beancount) CSV to beancount converter (clojure)
 - [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) GnuCash to beancount converter
 - [gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) GNUCash to *ledger converter
 - [grisbi2Ledger](https://github.com/Hawk777/grisbi2ledger) Grisbi to *ledger converter
