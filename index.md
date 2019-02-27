@@ -566,6 +566,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 
 #### presentations
 
+- [Andreas Pauley: Purely Functional Personal Finance](https://pauley.org.za/functional-finance-hledger/) 2018
 - [Ledger CLI Accounting for Geeks](http://blog.loadingdata.nl/accounting-for-geeks/) 2014
 - [Hacking Your Finances for Fun and Profit](http://matthewturland.com/slides/ledger-stats/) 2013
 - [Ledger and Text based Accounting](http://www.adamsinfoserv.com/AISTWiki/pub/AIS/Presentations/Ledger.pdf) 2009
@@ -660,7 +661,8 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [Beancount: Importing External Data in Beancount](https://docs.google.com/document/d/11EwQdujzEo2cxqaF5PgxCEZXWfKKQCYSMfdJowp_1S8)
 - [Beancount: Prices in Beancount](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c)
 - [Payment matching done right](https://tomszilagyi.github.io/payment-matching/)
-- [Full-fledged hledger tutorial](https://github.com/adept/full-fledged-hledger)
+- ["Full-fledged hledger" tutorial](https://github.com/adept/full-fledged-hledger)
+- ["hledger: Make It So" tutorial/slideshow](https://github.com/apauley/hledger-makeitso)
 - [import tools](#data-import)
 
 #### reconciling
