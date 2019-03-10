@@ -299,7 +299,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [monescript]: https://monescript.github.io/
 [monescript-gh]: https://github.com/monescript/monescript
 
-[Tackler]: https://gitlab.com/e257/accounting/tackler#readme
+[Tackler]: https://tackler.e257.fi
 [tackler-gl]: https://gitlab.com/e257/accounting/tackler
 
 [Transity]: https://github.com/feramhq/transity#readme
