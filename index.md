@@ -561,7 +561,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [ledger vs hledger vs beancount or how to choose the right cli client](https://groups.google.com/d/topic/ledger-cli/__yuMVjrOH0/discussion) 2014
 - [hledger: hledger & Ledger](http://hledger.org/faq.html#hledger-ledger) 2014
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
-- [Fabrice Niessen: Why Ledger?](http://www.mygooglest.com/fni/ledger.html) 2010
+<!-- - [Fabrice Niessen: Why Ledger?](gone) 2010 -->
 
 #### presentations
 
