@@ -263,7 +263,6 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 
 [Beancount]: http://furius.ca/beancount
 [beancount-mail]: https://groups.google.com/forum/#!forum/beancount
-<!-- size: http://dir.gmane.org/gmane.comp.finance.beancount -->
 [#beancount]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#beancount
 [beancount-bb]: http://bitbucket.org/blais/beancount/
 
@@ -271,7 +270,6 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 
 [hledger]: http://hledger.org
 [hledger-mail]: http://mail.hledger.org/
-<!-- size: http://dir.gmane.org/gmane.comp.finance.ledger.hledger -->
 [#hledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger
 [hledger-code]: http://code.hledger.org
 
@@ -558,9 +556,9 @@ Note these often work quite well for other ledger-likes, not just the one they a
 #### comparisons
 
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
-- [Another Ledger user's perspective](http://thread.gmane.org/gmane.comp.finance.beancount/227) 2015
+- [Another Ledger user's perspective](https://groups.google.com/d/msg/beancount/QV4qgpFbtJ8/9fSgMw-XGC8J) 2015
 - [Beancount: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg) 2014
-- [ledger vs hledger vs beancount or how to choose the right cli client](http://thread.gmane.org/gmane.comp.finance.ledger.general/6563) 2014
+- [ledger vs hledger vs beancount or how to choose the right cli client](https://groups.google.com/d/topic/ledger-cli/__yuMVjrOH0/discussion) 2014
 - [hledger: hledger & Ledger](http://hledger.org/faq.html#hledger-ledger) 2014
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
 - [Fabrice Niessen: Why Ledger?](http://www.mygooglest.com/fni/ledger.html) 2010
@@ -633,7 +631,6 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [sample chart of accounts for a freelancer](https://gist.github.com/simonmichael/9936299)
 - [Beancount Cookbook: Account Naming Conventions](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk/view#heading=h.tu0f1kydrpgn)
 - [Mint: Ways to Categorize Your Spending](https://www.mint.com/mint-categories)
-- [account structure](http://thread.gmane.org/gmane.comp.finance.ledger.general/7398/focus=7417)
 - [Simplified version of double-entry bookkeeping for personal and business finance?](http://money.stackexchange.com/questions/47561/simplified-version-of-double-entry-bookkeeping-for-personal-and-business-finance)
 
 #### choosing cash vs accrual
@@ -740,7 +737,7 @@ Envelope budgeting with automated postings, org & babel:
 #### taxes
 
 - [How to use ledger(1) to track US income taxes](https://mumble.net/~campbell/2017/08/06/ledger/HOWTO-track-tax)
-- [Another Ledger user's perspective](http://thread.gmane.org/gmane.comp.finance.beancount/227/focus=237)
+- [Another Ledger user's perspective](https://groups.google.com/d/msg/beancount/QV4qgpFbtJ8/9fSgMw-XGC8J) 2015
 
 #### time tracking
 
