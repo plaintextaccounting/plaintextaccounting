@@ -660,7 +660,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [Beancount: Prices in Beancount](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c)
 - [Payment matching done right](https://tomszilagyi.github.io/payment-matching/)
 - ["Full-fledged hledger" tutorial](https://github.com/adept/full-fledged-hledger)
-- ["hledger: Make It So" tutorial/slideshow](https://github.com/apauley/hledger-makeitso)
+- ["Hledger Flow" tutorial/slideshow](https://github.com/apauley/hledger-flow)
 - [import tools](#data-import)
 
 #### reconciling
