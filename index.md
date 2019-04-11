@@ -400,8 +400,10 @@ The following sections collect add-ons and helper tools related to the above.
 #### UI, web
 
 - [fava](https://github.com/beancount/fava) web UI for beancount browsing (python, [demo](http://fava.pythonanywhere.com/))
-- [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for *ledger browsing, data entry (haskell, [demo](http://demo.hledger.org))
-- [hledger-web on Sandstorm](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90) free web instances in a few clicks
+- [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for *ledger browsing, data entry 
+  (haskell, 
+   [demo](http://demo.hledger.org), 
+   [Sandstorm app](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90) - free web instances in a few clicks)
 - [Ledger in Go](https://github.com/howeyc/ledger) web UI for browsing ledger transactions, reports, and porfolios
 - [Ledger Web](https://github.com/peterkeen/Ledger-Web) ledger HTML reporting system (ruby, postgres)
 - [Ledger Web](https://github.com/vifon/ledger-web) web UI/API for ledger browsing, data entry (python)
