@@ -103,7 +103,7 @@ Plain Text Accounting
 <p><strong>Who is this for?</strong><br />
 Those who are comfortable on the command line and who understand the value of storing information in plain text. If you need a complete GUI providing lots of guidance, you may prefer to use something else.</p>
 <p><strong>Must I edit text and type cryptic commands?</strong><br />
-Not entirely! &quot;Plain Text Accounting&quot; is a broad description, referring mainly to the data format. We welcome optional <strong><a href="#ui-console">GUIs</a></strong>, and they are <a href="#ui-console">coming</a>.</p>
+Not entirely! "Plain Text Accounting" is a broad description, referring mainly to the data format. We welcome optional <strong><a href="#ui-console">GUIs</a></strong>, and they are <a href="#ui-console">coming</a>.</p>
 <p><strong>Who is using this, and how?</strong><br />
 See <strong><a href="https://github.com/ledger/ledger/wiki/Who&#39;s-using-ledger%3F">Who's using Ledger?</a></strong> for some stories.</p>
 <p><strong>What are the alternatives?</strong><br />
@@ -119,23 +119,23 @@ You can use this to track and report the data needed for tax reporting. Fill out
 <p><strong>How do I do budgeting?</strong><br />
 See <a href="#budgeting">budgeting</a> below. I emulate YNAB-ish envelope budgetting (see third link).</p>
 <p><strong>Double entry accounting? Where are the debits and credits?</strong><br />
-Most (not all) plain text accounting implementations use signed amounts instead of debits and credits. This makes them &quot;double entry light&quot; perhaps, but it has been a rather successful simplification, intuitive to most newcomers.</p>
+Most (not all) plain text accounting implementations use signed amounts instead of debits and credits. This makes them "double entry light" perhaps, but it has been a rather successful simplification, intuitive to most newcomers.</p>
 <!-- (from <https://news.ycombinator.com/item?id=12124890>:) -->
 <p><strong>Isn't personal accounting a waste of time?</strong><br />
-People have very different needs and practise personal accounting for many different reasons. There is of course a point of diminishing returns; tailor your accounting practices to your needs. Needs change over time. Some of us would benefit from doing more (or better) accounting, some less (I would guess this second group is smaller). In <a href="https://en.wikipedia.org/wiki/The_Millionaire_Next_Door">The Millionaire Next Door</a> (highly recommended), one research finding was that above-average wealth accumulators spend more time on financial planning, which for many of us requires accounting as a foundation. &quot;Minimal time dedicated to financial planning is a leading indicator of a UAW [Under Accumulator of Wealth]&quot;.</p>
+People have very different needs and practise personal accounting for many different reasons. There is of course a point of diminishing returns; tailor your accounting practices to your needs. Needs change over time. Some of us would benefit from doing more (or better) accounting, some less (I would guess this second group is smaller). In <a href="https://en.wikipedia.org/wiki/The_Millionaire_Next_Door">The Millionaire Next Door</a> (highly recommended), one research finding was that above-average wealth accumulators spend more time on financial planning, which for many of us requires accounting as a foundation. "Minimal time dedicated to financial planning is a leading indicator of a UAW [Under Accumulator of Wealth]".</p>
 <p><strong>Do you really enter every little transaction?</strong><br />
 Yes! Many folks in our community do it. Mahatma Gandhi reconciled to the penny every night. J.D. Rockefeller was famous for his ledgers. It's not required. I started doing it as a temporary learning exercise, and still like it. It makes troubleshooting and reconciling easier.</p>
 <p><strong>How is that possible?</strong><br />
-Practice, and a process/toolset that suits you. Some folks import most of the data from their banks, so little manual data entry is required. A few prefer to manually enter everything, for the increased awareness and insight. &quot;Manual&quot; data entry is usually assisted in some way: interactive console tools (hledger add and similar), web-based tools (hledger-web and similar), GUI tools (ledgerhelpers), smart editors (eg emacs &amp; ledger-mode), recurring transaction scripts. I currently use a mixture of bank CSV import and rapid copy/paste in emacs. I spend 15 minutes a day on average, and for me that's currently a good investment.</p>
+Practice, and a process/toolset that suits you. Some folks import most of the data from their banks, so little manual data entry is required. A few prefer to manually enter everything, for the increased awareness and insight. "Manual" data entry is usually assisted in some way: interactive console tools (hledger add and similar), web-based tools (hledger-web and similar), GUI tools (ledgerhelpers), smart editors (eg emacs &amp; ledger-mode), recurring transaction scripts. I currently use a mixture of bank CSV import and rapid copy/paste in emacs. I spend 15 minutes a day on average, and for me that's currently a good investment.</p>
 <p><strong>How do I use the transaction data in my bank's web or mobile app?</strong><br />
 If you can export it as CSV, you can import it and run queries against it. There are also some tools for converting OFX, QIF etc.</p>
 <p><strong>So I've got a huge list of transactions recorded, duplicating my bank statements. How does that help?</strong><br />
 Accounting is modelling flows of money (or other value). Such a model aggregates information from many sources, in one trusted place. With it you can efficiently generate reports, forecast things (cashflow!), answer questions, try experiments. Some people need a very simple model, others benefit from a more detailed one, and we don't know up front what we might need in future. The most fundamental accounting data is a simple list of transactions (the journal). Once you have captured this, you can mine it for anything you may want later on. Plain text accounting provides nice open data format(s), tools and practices for doing this, and could be a good foundation for more powerful tools.</p>
 <p><strong>Isn't a command-line tool too limited for real-world accounting needs?</strong><br />
-<em>&quot;I am sure for a simple expense/budget ledger it will work OK, but when it comes to recurring journals, multiple reconciliation accounts, inter company transfers, control account tracing etc., give me a nice GUI any day...&quot;</em><br />
+<em>"I am sure for a simple expense/budget ledger it will work OK, but when it comes to recurring journals, multiple reconciliation accounts, inter company transfers, control account tracing etc., give me a nice GUI any day..."</em><br />
 Understandable. The current plain text accounting tools provide a very generic double entry accounting system with which you can model such things, and script them. There are a number of generic GUIs available (hledger has curses and web interfaces, and there are web/curses/GTK interfaces for Ledger and beancount). But there are not yet a lot of rich task-specific GUIs. There's no reason they can't be built, though.</p>
 <p><strong>Isn't a plain text format too limited for large organizations?</strong><br />
-<em>&quot;it's pretty obvious that plain-text files don't scale to a multinational, with hundreds of accountants of various types all trying to work with the same files. Even with proper use of Git I bet that would get old fast. You would instead want a real database, with a schema, and some data validation and some programs/webpages to smooth out the data entry and querying and whatnot.&quot;</em><br />
+<em>"it's pretty obvious that plain-text files don't scale to a multinational, with hundreds of accountants of various types all trying to work with the same files. Even with proper use of Git I bet that would get old fast. You would instead want a real database, with a schema, and some data validation and some programs/webpages to smooth out the data entry and querying and whatnot."</em><br />
 I'm not sure. Current plain text accounting tools can do some schema definition and data validation, and will do more in future. The plain text storage format is open, human-readable, future-proof (useful even without the software), scales smoothly from simple to complex needs, and taps a huge ecosystem of highly useful tooling, such as version control systems. And, despite the name, there's no reason these tools can't support other kinds of storage, such as a database.</p>
 <p><strong>Where can I see a comparison of hledger, Ledger, beancount, and the rest?</strong><br />
 Glad you asked! See below, and also <a href="#comparisons">comparisons</a>. hledger's FAQ discusses differences from Ledger, Beancount docs probably do too.</p>
@@ -378,7 +378,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <div class="row">
 
 <div class="seven columns">
-<p>The following sections collect add-ons and helper tools related to the above. &quot;*ledger&quot; below means Ledger &amp; hledger-style journal format.</p><h4 id="data-importconversion">data import/conversion</h4><ul>
+<p>The following sections collect add-ons and helper tools related to the above. "*ledger" below means Ledger &amp; hledger-style journal format.</p><h4 id="data-importconversion">data import/conversion</h4><ul>
 <li><a href="http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files">Ledger</a> and <a href="http://hledger.org/manual.html#csv-format">hledger</a> have CSV conversion built in. Also:</li>
 <li>bean-identify, bean-extract, bean-file - Beancount built-in tools</li>
 <li><a href="https://github.com/tomszilagyi/banks2ledger">banks2ledger</a> - CSV to *ledger converter</li>
@@ -646,8 +646,8 @@ other console/curses tools
 <li><a href="https://docs.google.com/document/d/11EwQdujzEo2cxqaF5PgxCEZXWfKKQCYSMfdJowp_1S8">Beancount: Importing External Data in Beancount</a></li>
 <li><a href="https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c">Beancount: Prices in Beancount</a></li>
 <li><a href="https://tomszilagyi.github.io/payment-matching/">Payment matching done right</a></li>
-<li><a href="https://github.com/adept/full-fledged-hledger">&quot;Full-fledged hledger&quot; tutorial</a></li>
-<li><a href="https://github.com/apauley/hledger-flow">&quot;Hledger Flow&quot; tutorial/slideshow</a></li>
+<li><a href="https://github.com/adept/full-fledged-hledger">"Full-fledged hledger" tutorial</a></li>
+<li><a href="https://github.com/apauley/hledger-flow">"Hledger Flow" tutorial/slideshow</a></li>
 <li><a href="#data-import">import tools</a></li>
 </ul>
 <h4 id="reconciling">reconciling</h4>
