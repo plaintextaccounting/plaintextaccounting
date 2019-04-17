@@ -347,6 +347,7 @@ The following sections collect add-ons and helper tools related to the above.
 - [ledger2beancount](https://github.com/zacchiro/ledger2beancount) ledger to beancount converter
 - [ledgerbil](https://github.com/scarpent/ledgerbil) schedule recurring txns, interactive reconcile, date sorting
 - [outofit](https://github.com/rcaputo/outofit) QuickBooks to *ledger converter
+- [piecash](https://github.com/sdementen/piecash) GNUCash SQL to *ledger converter (python)
 - [plaid2qif](https://github.com/ebridges/plaid2qif) Download transactions from plaid as QIF or CSV files
 - [plaid2text](https://github.com/madhat2r/plaid2text) Plaid API to *ledger/beancount download/conversion
 - [qb2ledger](https://gist.github.com/genegoykhman/3765100) QuickBooks General Journal CSV to *ledger converter
