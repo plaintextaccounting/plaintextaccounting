@@ -524,12 +524,6 @@ Note these often work quite well for other ledger-likes, not just the one they a
 [#beancount](https://twitter.com/hashtag/beancount),
 [\@LedgerTips](https://twitter.com/LedgerTips)
 
-<!-- twitter widget -->
-<div style="margin:0 15% 0 0;">
-<!-- <b>Tweets (#plaintextaccounting OR #ledgercli OR #hledger OR #beancount):</b> -->
-<a class="twitter-timeline" data-chrome="noheader" data-dnt="true" href="https://twitter.com/search?q=%23plaintextaccounting%20OR%20%23ledgercli%20OR%20%23hledger%20OR%20%23beancount%20-RT%20-%23TheJoker%20-joker" data-widget-id="711933503055667200">Tweets about #plaintextaccounting OR #ledgercli OR #hledger OR #beancount -RT -#TheJoker -joker</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</div>
-
 </div>
 
 </div>
