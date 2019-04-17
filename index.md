@@ -468,7 +468,10 @@ Note these often work quite well for other ledger-likes, not just the one they a
 #### mail lists/IRC
 </div>
 
-[see above](#ledger-likes)
+[#plaintextaccounting],
+[project mail lists/chats](#plain-text-accounting-tools)
+
+[#plaintextaccounting]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#plaintextaccounting
 
 </div>
 
