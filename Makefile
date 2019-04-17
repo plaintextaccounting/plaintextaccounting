@@ -1,7 +1,8 @@
 all: html
 
-# generate html from all md files
-html: $(patsubst %.md,%.html,$(filter-out README.md CONTRIBUTING.md,$(wildcard *.md quickref/*.md))) Makefile
+# Generate html from all md files
+# (including README, maybe useful for local preview. $(filter-out README.md, ...) to exclude).
+html: $(patsubst %.md,%.html,$(wildcard *.md quickref/*.md)) Makefile
 
 PANDOC=pandoc -f markdown-smart+autolink_bare_uris
 
