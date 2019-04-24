@@ -53,3 +53,23 @@ to request it.
 [entr]:        http://eradman.com/entrproject/
 [livereloadx]: https://nitoyon.github.io/livereloadx
 
+
+### How to use pandoc with container (without installing it)
+
+Some distros don't carry resent enough version of [pandoc]. In that case it is possible
+to run `pandoc` with container without installing pandoc into your system.
+
+Below is an example how to do that with [podman].
+
+```
+podman run \
+  --rm \
+  --volume "`pwd`:/data:Z" \
+  docker://pandoc/core:latest \
+  -f markdown-smart+autolink_bare_uris --template index.tmpl index.md -o index.html
+```
+
+Above command is missing `pandoc` by purpose because it's default target for pandoc container.
+
+[podman]: https://podman.io/whatis.html
+
