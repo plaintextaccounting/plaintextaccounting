@@ -247,7 +247,7 @@ cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4         
 [.Net Ledger]  | 2017  | 2018-08      | [C#][nledger-gh]            | 1          |   29  |                                  | [gitter][nledger-gi]
 [beans]        | 2017  | 2019-01      | [haskell][beans-gh]         | 1          |   10  |                                  |
 [monescript]   | 2017  | 2018-01      | [javascript][monescript-gh] | 1          |    3  |                                  |
-[Tackler]      | 2017  | 2018-12      | [scala][tackler-gl]         | 1          |    0  |                                  |
+[Tackler]      | 2017  | 2019-04      | [scala][tackler-gl]         | 1          | 3+15  |                                  | [gitter][tackler-gi]
 &nbsp;         |       |              |
 **Inactive:**  |       |              |
 uledger        | 2015  |              | [python][uledger-gh]
@@ -299,6 +299,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 
 [Tackler]: https://tackler.e257.fi
 [tackler-gl]: https://gitlab.com/e257/accounting/tackler
+[tackler-gi]: https://gitter.im/E257-FI/tackler
 
 [Transity]: https://github.com/feramhq/transity#readme
 [transity-gh]: https://github.com/feramhq/transity
