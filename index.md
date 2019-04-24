@@ -245,9 +245,9 @@ Project        | Start | Last release | Code                        | Committers
 [Ledger in Go] | 2013  | 2018-06      | [go][ledger-go-gh]          | 5          |  168  |                                  |
 cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4          |   50  |                                  | 
 [.Net Ledger]  | 2017  | 2018-08      | [C#][nledger-gh]            | 1          |   29  |                                  | [gitter][nledger-gi]
+[Tackler]      | 2017  | 2019-04      | [scala][tackler-gl]         | 1          |   18  |                                  | [gitter][tackler-gi]
 [beans]        | 2017  | 2019-01      | [haskell][beans-gh]         | 1          |   10  |                                  |
 [monescript]   | 2017  | 2018-01      | [javascript][monescript-gh] | 1          |    3  |                                  |
-[Tackler]      | 2017  | 2019-04      | [scala][tackler-gl]         | 1          | 3+15  |                                  | [gitter][tackler-gi]
 &nbsp;         |       |              |
 **Inactive:**  |       |              |
 uledger        | 2015  |              | [python][uledger-gh]
