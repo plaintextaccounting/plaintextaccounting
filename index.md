@@ -336,11 +336,11 @@ The following sections collect add-ons and helper tools related to the above.
 - [gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) GNUCash sqlite to *ledger converter (python)
 - [grisbi2Ledger](https://github.com/Hawk777/grisbi2ledger) Grisbi to *ledger converter
 - [hledger-import-dsl](https://github.com/hpdeifel/hledger-import-dsl) alternate, programmable CSV converter for hledger
+- [hledger-to-influxdb](https://github.com/barrucadu/hledger-scripts#hledger-to-influxdb) hledger to InfluxDB converter (haskell)
 - [icsvledger](https://launchpad.net/csv2ledger) CSV to *ledger converter
 - [into-ledger](https://github.com/manishrjain/into-ledger) CSV to *ledger converter
 - [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to *ledger conversion, deduplication
-- [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices
 - [ledger-reconciler](https://disjoint.ca/projects/ledger-reconciler) automatically download and reconcile your ledger financial entries
 - [ledger-to-beancount](https://github.com/glasserc/ledger-to-beancount/) yet another simple ledger to beancount converter (python)
 - [ledger-tutorials](https://github.com/tlvince/ledger-tutorials) convert Pete Keen's tutorials to ebook format
@@ -362,6 +362,8 @@ The following sections collect add-ons and helper tools related to the above.
 
 - [beancount-extract-price](https://github.com/Mayeu/beancount-scripts) generate prices transactions based on your beancount ledger (python)
 - [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest entries (haskell)
+- [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices (ruby)
+- [market-prices](https://github.com/barrucadu/hledger-scripts#market-prices) download market prices from several sources (python)
 - [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
 
 #### reports
