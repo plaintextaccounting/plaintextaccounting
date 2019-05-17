@@ -233,6 +233,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 
 <!-- syntax: http://pandoc.org/README.html#tables -->
 <!-- actives sorted by committers, inactives sorted by start -->
+<!-- with leading |'s markdown-mode can realign table with TAB but screws it up again with fontification -->
 
 Project        | Start | Last release | Code                        | Committers | Stars | Mail list, size                  | Chat, size
 ---------------|-------|:------------:|-----------------------------|-----------:|------:|----------------------------------|----------------------
