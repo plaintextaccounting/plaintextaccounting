@@ -293,7 +293,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [Penny]: http://massysett.github.io/penny/
 [penny-gh]: https://github.com/massysett/penny
 
-[Prudent]: https://prudent.me
+[prudent]: https://prudent.me
 [prudent-gh]: https://github.com/PrudentMe
 [prudent-chat]: https://twitter.com/PrudentLedger
 
@@ -406,6 +406,7 @@ The following sections collect add-ons and helper tools related to the above.
 #### UI, GUI
 
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) GTK GUI tools + helper library (Python)
+- [Prudent][prudent] Integrated journal editor and monthly report with drilldown (Javascript, mac only)
 
 #### UI, web
 
