@@ -248,7 +248,7 @@ cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4         
 [Tackler]      | 2017  | 2019-04      | [scala][tackler-gl]         | 1          |   18  |                                  | [gitter][tackler-gi]
 [beans]        | 2017  | 2019-01      | [haskell][beans-gh]         | 1          |   10  |                                  |
 [monescript]   | 2017  | 2018-01      | [javascript][monescript-gh] | 1          |    3  |                                  |
-[Prudent]      | 2018  |              | [javascript ?][prudent-gh]  | 1          |       |                                  | [@PrudentLedger][prudent-chat]
+[Prudent]      | 2018  |              | javascript ([addons][prudent-gh]) | 1          |       |                                  | [\@PrudentLedger][prudent-chat]
 &nbsp;         |       |              |
 **Inactive:**  |       |              |
 uledger        | 2015  |              | [python][uledger-gh]
@@ -406,7 +406,7 @@ The following sections collect add-ons and helper tools related to the above.
 #### UI, GUI
 
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) GTK GUI tools + helper library (Python)
-- [Prudent][prudent] Integrated journal editor and monthly report with drilldown (Javascript, mac only)
+- [Prudent][prudent] integrated journal editor and monthly report for Ledger (Javascript, mac only, closed source)
 
 #### UI, web
 
