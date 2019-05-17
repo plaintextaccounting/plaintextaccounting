@@ -406,8 +406,8 @@ The following sections collect add-ons and helper tools related to the above.
 
 #### UI, GUI
 
-- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) GTK GUI tools + helper library (Python)
-- [Prudent][prudent] integrated journal editor and monthly report for Ledger (Javascript, mac only, closed source)
+- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) misc. GUI tools + helper library (Python, GTK)
+- [Prudent][prudent] integrated journal editing/importing/reporting GUI for Ledger (Javascript, mac only, closed source)
 
 #### UI, web
 
