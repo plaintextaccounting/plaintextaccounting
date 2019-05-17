@@ -248,6 +248,7 @@ cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4         
 [Tackler]      | 2017  | 2019-04      | [scala][tackler-gl]         | 1          |   18  |                                  | [gitter][tackler-gi]
 [beans]        | 2017  | 2019-01      | [haskell][beans-gh]         | 1          |   10  |                                  |
 [monescript]   | 2017  | 2018-01      | [javascript][monescript-gh] | 1          |    3  |                                  |
+[Prudent]      | 2018  |              | [javascript ?][prudent-gh]  | 1          |       |                                  | [@PrudentLedger][prudent-chat]
 &nbsp;         |       |              |
 **Inactive:**  |       |              |
 uledger        | 2015  |              | [python][uledger-gh]
@@ -291,6 +292,10 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 
 [Penny]: http://massysett.github.io/penny/
 [penny-gh]: https://github.com/massysett/penny
+
+[Prudent]: https://prudent.me
+[prudent-gh]: https://github.com/PrudentMe
+[prudent-chat]: https://twitter.com/PrudentLedger
 
 [smalltalk-gh]: https://gist.github.com/simonmichael/bb611dba654ccb1573e1
 
