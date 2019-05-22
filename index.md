@@ -425,6 +425,11 @@ The following sections collect add-ons and helper tools related to the above.
 - [node-ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for ledger browsing (javascript)
 - [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for ledger browsing, price fetching (F#)
 
+#### UI, mobile
+
+- [MoLe](https://fossdroid.com/a/mole.html) mobile app front-end to hledger-web (available on F-Droid)
+- [Cone](https://f-droid.org/en/packages/info.tangential.cone/) data entry tool for the plain text accounting ledger format (available on F-Droid)
+
 #### API
 
 - [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API server for *ledger files (haskell)
