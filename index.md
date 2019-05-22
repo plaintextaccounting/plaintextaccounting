@@ -92,6 +92,7 @@ This simple model makes them easy to understand and rely on.
 &nbsp;&nbsp;[UI, curses](#ui-curses)  
 &nbsp;&nbsp;[UI, GUI](#ui-gui)  
 &nbsp;&nbsp;[UI, web](#ui-web)  
+&nbsp;&nbsp;[UI, mobile](#ui-mobile)  
 &nbsp;&nbsp;[API](#api)  
 &nbsp;&nbsp;[editor support](#editor-support)  
 [discussion](#discussion)  
@@ -427,8 +428,8 @@ The following sections collect add-ons and helper tools related to the above.
 
 #### UI, mobile
 
-- [MoLe](https://fossdroid.com/a/mole.html) mobile app front-end to hledger-web (available on F-Droid)
-- [Cone](https://f-droid.org/en/packages/info.tangential.cone/) data entry tool for the plain text accounting ledger format (available on F-Droid)
+- [cone](https://f-droid.org/en/packages/info.tangential.cone/) data entry app for the h/ledger format (Android, [dart](https://github.com/bradyt/cone))
+- [MoLe](https://fossdroid.com/a/mole.html) mobile client for hledger-web (Android, [java](https://git.ktnx.net/?p=mobile-ledger.git))
 
 #### API
 
