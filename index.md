@@ -401,7 +401,7 @@ The following sections collect add-ons and helper tools related to the above.
 #### UI, curses
 
 - [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) TUI for *ledger transaction entry (haskell)
-- [hledger-ui](http://hackage.haskell.org/package/hledger-ui) TUI for *ledger browsing (haskell, [demo](https://asciinema.org/a/29665))
+- [hledger-ui](http://hackage.haskell.org/package/hledger-ui) TUI for *ledger browsing (haskell, [video](https://asciinema.org/a/29665))
 - [ledger-add](https://github.com/Tagirijus/ledger-add) TUI for *ledger transaction entry (python)
 - [regdel](https://github.com/guillaumechereau/regdel) TUI for browsing Ledger files (python)
 
@@ -416,7 +416,7 @@ The following sections collect add-ons and helper tools related to the above.
 - [hledger-web](http://hackage.haskell.org/package/hledger-web) web UI for *ledger browsing, data entry 
   (haskell, 
    [demo](http://demo.hledger.org), 
-   [Sandstorm app](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90) - free web instances in a few clicks)
+   [Sandstorm app](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90))
 - [Ledger in Go](https://github.com/howeyc/ledger) web UI for browsing ledger transactions, reports, and porfolios
 - [Ledger Web](https://github.com/peterkeen/Ledger-Web) ledger HTML reporting system (ruby, postgres)
 - [Ledger Web](https://github.com/vifon/ledger-web) web UI/API for ledger browsing, data entry (python)
