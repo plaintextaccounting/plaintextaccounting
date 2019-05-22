@@ -390,20 +390,20 @@ The following sections collect add-ons and helper tools related to the above.
 
 #### UI, console
 
-- [bean-add](https://github.com/simon-v/bean-add) interactive transaction entry
-- [hledger add](http://hledger.org/manual.html#add) interactive transaction entry (built-in command)
-- [ledger-add](https://github.com/Tagirijus/ledger-add) interactive transaction entry
-- [ldgr](https://github.com/brandonpittman/ldgr) a CLI to add/sort/tag ledger files (ruby)
-- [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive helper for making charts with GNUplot
-- [ledger-plots](https://github.com/esovetkin/ledger-plots) a script to generate various plots and more (R)
-- [ledger xact](http://ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (built-in command)
-- [recurring](http://hub.darcs.net/simon/ledgertools/browse/recurring) show/add recurring entries using Ledger
+- [bean-add](https://github.com/simon-v/bean-add) interactive transaction entry tool (python)
+- [hledger add](http://hledger.org/manual.html#add) interactive transaction entry tool (builtin command)
+- [ldgr](https://github.com/brandonpittman/ldgr) command line tool to add/sort/tag ledger files (ruby)
+- [ledger xact](https://www.ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (builtin command)
+- [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive tool for making charts with GNUplot (python)
+- [ledger-plots](https://github.com/esovetkin/ledger-plots) R package & script to generate various plots and more (R)
+- [recurring](http://hub.darcs.net/simon/ledgertools/browse/recurring) command line tool to show/add recurring entries using Ledger (python)
 
 #### UI, curses
 
-- [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) curses UI for *ledger transaction entry (haskell)
-- [hledger-ui](http://hackage.haskell.org/package/hledger-ui) curses UI for *ledger browsing (haskell, [demo](https://asciinema.org/a/29665))
-- [regdel](https://github.com/guillaumechereau/regdel) curses UI for browsing Ledger files (python)
+- [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) TUI for *ledger transaction entry (haskell)
+- [hledger-ui](http://hackage.haskell.org/package/hledger-ui) TUI for *ledger browsing (haskell, [demo](https://asciinema.org/a/29665))
+- [ledger-add](https://github.com/Tagirijus/ledger-add) TUI for *ledger transaction entry (python)
+- [regdel](https://github.com/guillaumechereau/regdel) TUI for browsing Ledger files (python)
 
 #### UI, GUI
 
