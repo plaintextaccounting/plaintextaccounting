@@ -378,6 +378,8 @@ The following sections collect add-ons and helper tools related to the above.
 
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals (haskell)
 - [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](http://hledger.org/manual.html#roi)) (haskell)
+- [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive tool for making GNUplot charts from Ledger (python)
+- [ledger-plots](https://github.com/esovetkin/ledger-plots) R package & script to make charts from Ledger (R)
 - [r-ledger](https://github.com/trevorld/r-ledger) an R package for reading and reporting on ledger/hledger/beancount files (R)
 - [TaxingLots](https://framagit.org/jkepler/TaxingLots) calculates capital gains for a ledger journal (python)
 
@@ -394,8 +396,6 @@ The following sections collect add-ons and helper tools related to the above.
 - [hledger add](http://hledger.org/manual.html#add) interactive transaction entry tool (builtin command)
 - [ldgr](https://github.com/brandonpittman/ldgr) command line tool to add/sort/tag ledger files (ruby)
 - [ledger xact](https://www.ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (builtin command)
-- [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive tool for making charts with GNUplot (python)
-- [ledger-plots](https://github.com/esovetkin/ledger-plots) R package & script to generate various plots and more (R)
 - [recurring](http://hub.darcs.net/simon/ledgertools/browse/recurring) command line tool to show/add recurring entries using Ledger (python)
 
 #### UI, curses
