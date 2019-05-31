@@ -420,7 +420,7 @@ The following sections collect add-ons and helper tools related to the above.
    [Sandstorm app](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90))
 - [Ledger in Go](https://github.com/howeyc/ledger) web UI for browsing ledger transactions, reports, and porfolios
 - [Ledger Web](https://github.com/peterkeen/Ledger-Web) ledger HTML reporting system (ruby, postgres)
-- [Ledger Web](https://github.com/vifon/ledger-web) web UI/API for ledger browsing, data entry (python)
+- [Ledger Web](https://vifon.github.io/ledger-web) web UI/API for ledger browsing, data entry (python)
 - [ledger-analytics](https://github.com/kendricktan/ledger-analytics) web UI for ledger data analytics (javascript)
 - [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for ledger browsing, data entry (python)
 - [ledgible](https://github.com/lipidity/ledgible) web UI for ledger browsing, data entry (python)
