@@ -337,6 +337,7 @@ The following sections collect add-ons and helper tools related to the above.
 - [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
 - [beancount-import](https://github.com/jbms/beancount-import) web app/framework for converting various formats to beancount (python)
 - [beancount-ynab](https://github.com/hoostus/beancount-ynab) You Need A Budget to beancount converter
+- [buchhaltung](http://hackage.haskell.org/package/buchhaltung) CSV/FinTS/HBCI/OFX to *ledger conversion/deduplication (haskell)
 - [csv2beancount](https://github.com/PaNaVTEC/csv2beancount) CSV to beancount converter (clojure)
 - [gcash2ledger.py](https://gist.github.com/nonducor/ddc97e787810d52d067206a592a35ea7/) GNUCash XML to *ledger converter (python)
 - [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) GNUCash sqlite to beancount converter (python)
