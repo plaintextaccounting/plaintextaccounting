@@ -356,7 +356,6 @@ The following sections collect add-ons and helper tools related to the above.
 - [ledger-tutorials](https://github.com/tlvince/ledger-tutorials) convert Pete Keen's tutorials to ebook format
 - [ledger2beancount.py](https://gist.github.com/travisdahlke/71152286b0a8826249fe) *ledger to beancount converter
 - [ledger2beancount](https://github.com/zacchiro/ledger2beancount) ledger to beancount converter
-- [ledgerbil](https://github.com/scarpent/ledgerbil) schedule recurring txns, interactive reconcile, date sorting
 - [outofit](https://github.com/rcaputo/outofit) QuickBooks to *ledger converter
 - [piecash](https://github.com/sdementen/piecash) GNUCash SQL to *ledger converter (python)
 - [plaid2qif](https://github.com/ebridges/plaid2qif) Download transactions from plaid as QIF or CSV files
@@ -377,8 +376,10 @@ The following sections collect add-ons and helper tools related to the above.
 - [DepreciateForLedger](https://github.com/tazzben/DepreciateForLedger) generate *ledger depreciation transactions (python)
 - [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest entries (haskell)
 - [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices (ruby)
+- [ledgerbil](https://github.com/scarpent/ledgerbil) schedule recurring txns, interactive reconcile, date sorting
 - [LedgerScheduler](https://github.com/tazzben/LedgerScheduler) move entries from one file to another when they come due (python)
 - [market-prices](https://github.com/barrucadu/hledger-scripts#market-prices) download market prices from several sources (python)
+- [recurring](http://hub.darcs.net/simon/ledgertools/browse/recurring) generate recurring *ledger entries (python)
 - [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
 
 #### reports
@@ -403,7 +404,6 @@ The following sections collect add-ons and helper tools related to the above.
 - [hledger add](http://hledger.org/manual.html#add) interactive transaction entry tool (builtin command)
 - [ldgr](https://github.com/brandonpittman/ldgr) command line tool to add/sort/tag ledger files (ruby)
 - [ledger xact](https://www.ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (builtin command)
-- [recurring](http://hub.darcs.net/simon/ledgertools/browse/recurring) command line tool to show/add recurring entries using Ledger (python)
 
 #### UI, curses
 
