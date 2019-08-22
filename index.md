@@ -374,8 +374,10 @@ The following sections collect add-ons and helper tools related to the above.
 
 - [beancount-extract-price](https://github.com/Mayeu/beancount-scripts) generate prices transactions based on your beancount ledger (python)
 - [bean-price](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c) Beancount's price fetching tool
+- [DepreciateForLedger](https://github.com/tazzben/DepreciateForLedger) generate *ledger depreciation transactions (python)
 - [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest entries (haskell)
 - [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices (ruby)
+- [LedgerScheduler](https://github.com/tazzben/LedgerScheduler) move entries from one file to another when they come due (python)
 - [market-prices](https://github.com/barrucadu/hledger-scripts#market-prices) download market prices from several sources (python)
 - [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
 
