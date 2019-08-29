@@ -339,13 +339,14 @@ The following sections collect add-ons and helper tools related to the above.
 - [beancount-ynab](https://github.com/hoostus/beancount-ynab) You Need A Budget to beancount converter
 - [buchhaltung](http://hackage.haskell.org/package/buchhaltung) CSV/FinTS/HBCI/OFX to *ledger conversion/deduplication (haskell)
 - [csv2beancount](https://github.com/PaNaVTEC/csv2beancount) CSV to beancount converter (clojure)
+- [CSV2Ledger](https://launchpad.net/csv2ledger) CSV to *ledger converter (perl)
 - [gcash2ledger.py](https://gist.github.com/nonducor/ddc97e787810d52d067206a592a35ea7/) GNUCash XML to *ledger converter (python)
 - [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) GNUCash sqlite to beancount converter (python)
 - [gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) GNUCash sqlite to *ledger converter (python)
 - [grisbi2Ledger](https://github.com/Hawk777/grisbi2ledger) Grisbi to *ledger converter
 - [hledger-import-dsl](https://github.com/hpdeifel/hledger-import-dsl) alternate, programmable CSV converter for hledger
 - [hledger-to-influxdb](https://github.com/barrucadu/hledger-scripts#hledger-to-influxdb) hledger to InfluxDB converter (haskell)
-- [icsvledger](https://launchpad.net/csv2ledger) CSV to *ledger converter
+- [icsvledger](https://github.com/quentinsf/icsv2ledger) interactive CSV to *ledger converter (python)
 - [into-ledger](https://github.com/manishrjain/into-ledger) CSV to *ledger converter
 - [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to *ledger conversion, deduplication
