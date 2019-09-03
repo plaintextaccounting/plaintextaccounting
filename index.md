@@ -346,6 +346,7 @@ The following sections collect add-ons and helper tools related to the above.
 - [grisbi2Ledger](https://github.com/Hawk777/grisbi2ledger) Grisbi to *ledger converter
 - [hledger-import-dsl](https://github.com/hpdeifel/hledger-import-dsl) alternate, programmable CSV converter for hledger
 - [hledger-to-influxdb](https://github.com/barrucadu/hledger-scripts#hledger-to-influxdb) hledger to InfluxDB converter (haskell)
+- [homebank2ledger](https://github.com/chazmcgarvey/homebank2ledger) HomeBank to ledger and beancount converter (perl)
 - [icsvledger](https://github.com/quentinsf/icsv2ledger) interactive CSV to *ledger converter (python)
 - [into-ledger](https://github.com/manishrjain/into-ledger) CSV to *ledger converter
 - [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
