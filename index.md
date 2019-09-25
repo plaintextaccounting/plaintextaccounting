@@ -239,7 +239,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 Project        | Start | Last release | Code                        | Committers | Stars | Mail list, size                  | Chat, size
 ---------------|-------|:------------:|-----------------------------|-----------:|------:|----------------------------------|----------------------
 [Ledger]       | 2003  | 2019-03      | [C++][ledger-gh]            | 160        |  2994 | [ledger][ledger-mail], 922       | [#ledger], 70
-[hledger]      | 2007  | 2019-03      | [haskell][hledger-code]     | 100        |  1198 | [hledger][hledger-mail], 151     | [#hledger], 65
+[hledger]      | 2007  | 2019-09      | [haskell][hledger-code]     | 110        |  1226 | [hledger][hledger-mail], 151     | [#hledger], 70
 [Beancount]    | 2008  | 2019-01      | [python][beancount-bb]      | 40         |       | [beancount][beancount-mail], 261 | [#beancount], 20
 &nbsp;         |       |              |
 [Abandon]      | 2013  | 2017-05      | [scala][abandon-gh]         | 9          |  132  |                                  | [gitter][abandon-gi]
