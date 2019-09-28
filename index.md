@@ -251,7 +251,7 @@ cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4         
 [beans]        | 2017  | 2019-01      | [haskell][beans-gh]         | 1          |   10  |                                  |
 [monescript]   | 2017  | 2018-01      | [javascript][monescript-gh] | 1          |    3  |                                  |
 [Prudent]      | 2018  |              | javascript ([addons][prudent-gh]) | 1          |       |                                  | [\@PrudentLedger][prudent-chat]
-[goledger]     | 2019  | 2019-09      | [go] | 1          |                | 
+[goledger]     | 2019  | 2019-09      | [go][goledger-gh] | 1          |                | 
 &nbsp;         |       |              |
 **Inactive:**  |       |              |
 uledger        | 2015  |              | [python][uledger-gh]
@@ -299,6 +299,9 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [prudent]: https://prudent.me
 [prudent-gh]: https://github.com/PrudentMe
 [prudent-chat]: https://twitter.com/PrudentLedger
+
+[goledger]: https://github.com/mescanne/goledger
+[goledger-gh]: https://github.com/mescanne/goledger
 
 [smalltalk-gh]: https://gist.github.com/simonmichael/bb611dba654ccb1573e1
 
