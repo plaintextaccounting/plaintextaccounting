@@ -67,9 +67,9 @@ to suit our needs.
 This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail.
 
 Ledger-likes are, at least in part,
-**[command-line](http://ledger-cli.org/3.0/doc/ledger3.html#Basic-Usage) [tools](http://hledger.org/manual.html#hledger)**.
+**[command-line tools](#software)**.
 This makes them efficient to use and very
-**[scriptable](#related-tools)** and flexible.
+scriptable and flexible.
 
 Ledger-likes also, at their core, tend towards
 **[functional operation](https://en.wikipedia.org/wiki/Function_(mathematics))**:
