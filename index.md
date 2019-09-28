@@ -251,6 +251,7 @@ cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4         
 [beans]        | 2017  | 2019-01      | [haskell][beans-gh]         | 1          |   10  |                                  |
 [monescript]   | 2017  | 2018-01      | [javascript][monescript-gh] | 1          |    3  |                                  |
 [Prudent]      | 2018  |              | javascript ([addons][prudent-gh]) | 1          |       |                                  | [\@PrudentLedger][prudent-chat]
+[goledger]     | 2019  | 2019-09      | [go] | 1          |                | 
 &nbsp;         |       |              |
 **Inactive:**  |       |              |
 uledger        | 2015  |              | [python][uledger-gh]
