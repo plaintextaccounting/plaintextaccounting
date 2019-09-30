@@ -247,6 +247,7 @@ Project        | Start | Last release | Code                        | Committers
 [Ledger in Go] | 2013  | 2018-06      | [go][ledger-go-gh]          | 5          |  168  |                                  |
 cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4          |   50  |                                  | 
 [.Net Ledger]  | 2017  | 2018-08      | [C#][nledger-gh]            | 1          |   29  |                                  | [gitter][nledger-gi]
+[ledger (Go)]       | 2018  | 2019         | [Go][ledger-abourget]       | 1          |    22 |             |
 [Tackler]      | 2017  | 2019-04      | [scala][tackler-gl]         | 1          |   18  |                                  | [gitter][tackler-gi]
 [beans]        | 2017  | 2019-01      | [haskell][beans-gh]         | 1          |   10  |                                  |
 [monescript]   | 2017  | 2018-01      | [javascript][monescript-gh] | 1          |    3  |                                  |
@@ -271,7 +272,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [beancount-bb]: http://bitbucket.org/blais/beancount/
 
 [cl-ledger-gh]: https://github.com/ledger/cl-ledger
-
+[ledger-abourget]: https://gitub.com/abourget/ledger
 [hledger]: http://hledger.org
 [hledger-mail]: http://mail.hledger.org/
 [#hledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger
@@ -374,6 +375,7 @@ The following sections collect add-ons and helper tools related to the above.
 - [ynab-to-ledger](https://github.com/vermiceli/ynab-to-ledger) You Need A Budget (YNAB) to *ledger converter. Handles multiple currencies, multiple number formats, reconciliation, memos, transfers, and split transactions
 - [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) You Need A Budget to *ledger converter
 - [Costflow](https://docs.costflow.io) convert one line message to beancount/*ledger format
+- [Go ledger parsing tools](https://github.com/abourget/ledger) Auto-formatter for ledger files, like `gofmt`.. plus a more sophisticated file parser, which could be the base of more tools.
 
 #### data generation
 
