@@ -270,7 +270,14 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [#beancount]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#beancount
 [beancount-bb]: http://bitbucket.org/blais/beancount/
 
+[beans]: https://sboehler.github.io/beans
+[beans-gh]: https://github.com/sboehler/beans
+
 [cl-ledger-gh]: https://github.com/ledger/cl-ledger
+
+[goledger]: https://github.com/mescanne/goledger
+[goledger-gh]: https://github.com/mescanne/goledger
+
 [hledger]: http://hledger.org
 [hledger-mail]: http://mail.hledger.org/
 [#hledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger
@@ -281,10 +288,13 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [ledger-mail]: http://list.ledger-cli.org/
 [ledger-gh]: https://github.com/ledger/ledger
 
-[ledger.pl-gh]: https://github.com/dimonf/ledger.pl
-
 [Ledger in Go]: https://github.com/howeyc/ledger#readme
 [ledger-go-gh]: https://github.com/howeyc/ledger
+
+[ledger.pl-gh]: https://github.com/dimonf/ledger.pl
+
+[monescript]: https://monescript.github.io/
+[monescript-gh]: https://github.com/monescript/monescript
 
 [.Net Ledger]: https://github.com/dmitry-merzlyakov/nledger
 [nledger-gh]: https://github.com/dmitry-merzlyakov/nledger
@@ -299,13 +309,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [prudent-gh]: https://github.com/PrudentMe
 [prudent-chat]: https://twitter.com/PrudentLedger
 
-[goledger]: https://github.com/mescanne/goledger
-[goledger-gh]: https://github.com/mescanne/goledger
-
 [smalltalk-gh]: https://gist.github.com/simonmichael/bb611dba654ccb1573e1
-
-[monescript]: https://monescript.github.io/
-[monescript-gh]: https://github.com/monescript/monescript
 
 [Tackler]: https://tackler.e257.fi
 [tackler-gl]: https://gitlab.com/e257/accounting/tackler
@@ -314,9 +318,6 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [Transity]: https://github.com/feramhq/transity#readme
 [transity-gh]: https://github.com/feramhq/transity
 [transity-gi]: https://gitter.im/feramhq/transity
-
-[beans]: https://sboehler.github.io/beans
-[beans-gh]: https://github.com/sboehler/beans
 
 [uledger-gh]: https://github.com/danpat/uledger
 
