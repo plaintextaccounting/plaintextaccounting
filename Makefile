@@ -11,12 +11,21 @@ PANDOC=pandoc -f markdown-smart+autolink_bare_uris
 	$(PANDOC) --template index.tmpl $< -o $@
 
 # regenerate html whenever an md file changes
-liverender:
+html-auto:
 	ls *.md | entr make html
 
-# in a browser viewing localhost:10000/somepage.html, reload the page when somepage.html changes
-livereload:
-	livereloadx -p 10000 --static .
+BROWSE=open
+LIVERELOADPORT=8100
+LIVERELOAD=livereloadx -p $(LIVERELOADPORT) -s
+  #  --exclude '*.html'
+  # Exclude html files to avoid reloading browser as every page is generated.
+  # A reload happens at the end when the css/js files get copied.
+
+# Auto-regenerate html, and watch changes in a new browser window.
+html-watch:
+	make html-auto &
+	(sleep 1; $(BROWSE) http://localhost:$(LIVERELOADPORT)/) &
+	$(LIVERELOAD) .
 
 # regenerate syntax quick reference html from google docs html export
 # (it has been manually edited, let's not do this again)
