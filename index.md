@@ -271,7 +271,6 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [beancount-bb]: http://bitbucket.org/blais/beancount/
 
 [cl-ledger-gh]: https://github.com/ledger/cl-ledger
-[ledgerfmt-abourget]: https://github.com/abourget/ledger
 [hledger]: http://hledger.org
 [hledger-mail]: http://mail.hledger.org/
 [#hledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger
@@ -374,7 +373,7 @@ The following sections collect add-ons and helper tools related to the above.
 - [ynab-to-ledger](https://github.com/vermiceli/ynab-to-ledger) You Need A Budget (YNAB) to *ledger converter. Handles multiple currencies, multiple number formats, reconciliation, memos, transfers, and split transactions
 - [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) You Need A Budget to *ledger converter
 - [Costflow](https://docs.costflow.io) convert one line message to beancount/*ledger format
-- [Go Ledger parser][ledgerfmt-abourget] a parser and ledgerfmt, ledger2json, json2ledger tools (go)
+- [Go Ledger parser](https://github.com/abourget/ledger) a parser and ledgerfmt, ledger2json, json2ledger tools (go)
 
 #### data generation
 
