@@ -1,7 +1,30 @@
 % Plain Text Accounting, a guide to Ledger and friends
 
-<!-- CSS: http://getskeleton.com -->
-<!-- markdown: http://pandoc.org/README.html -->
+<!--
+Editing tips:
+
+This is pandoc markdown (markdown-smart+autolink_bare_uris) + html.
+http://pandoc.org/README.html
+index.tmpl defines the page layout, using normalize, skeleton and local css.
+http://getskeleton.com
+We run pandoc locally and commit the html it generates, eg index.html.
+
+If editing via github web UI:
+- you can see an approximate preview with the Preview tab
+- no need to update the generated html; we'll do that when needed
+
+If editing in a local clone:
+- you can use make html or make html-watch to see an accurate preview
+- if you do, you might as well commit the updated html as well; 
+  otherwise we'll do that when needed
+
+If using emacs markdown-mode:
+- S-TAB cycles heading/content visibility
+- TAB on a heading cycles visibility of that section
+- C-x n s/C-x n w on a heading narrows to/widens from that section
+
+-->
+
 <div style="float:right; position:fixed; bottom:1em; right:1em;">
 [![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.github.io.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
 </div>
