@@ -147,7 +147,6 @@ This simple model makes them easy to understand and rely on.
 &nbsp;&nbsp;[taxes](#taxes)  
 &nbsp;&nbsp;[time tracking](#time-tracking)  
 &nbsp;&nbsp;[inventory tracking](#inventory-tracking)  
-<!-- down 2018/03/14 &nbsp;&nbsp;[estate accounting](#estate-accounting)   -->
 &nbsp;&nbsp;[non-profit accounting](#non-profit-accounting)  
 &nbsp;&nbsp;[exporting](#exporting)  
 &nbsp;&nbsp;[customising](#customising)  
@@ -551,14 +550,6 @@ Note these often work quite well for other ledger-likes, not just the one they a
 [stories](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=story),
 [comments](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=comment)
 
-<!--
-- [Ledger, a command-line accounting system](https://news.ycombinator.com/item?id=10510394) 2015
-- [Hledger – Double-entry accounting from the Unix tools perspective (2012)](https://news.ycombinator.com/item?id=8806056) 2014
-- [Ledger, a powerful CLI accounting tool](https://news.ycombinator.com/item?id=7707262) 2014
-- [Command Line Accounting With Ledger and Reckon](https://news.ycombinator.com/item?id=5233255) 2013
-- [Ledger: Command-line double-entry accounting](https://news.ycombinator.com/item?id=872244) 2009
--->
-
 </div>
 
 <div class="row">
@@ -810,10 +801,6 @@ Envelope budgeting with automated postings, org & babel:
 - [Beancount: Inventory Booking](https://docs.google.com/document/d/1F8IJ_7fMHZ75XFPocMokLxVZczAhrBRBVN9uMhQFCZ4), [discussion](https://groups.google.com/forum/#!searchin/ledger-cli/inventory/ledger-cli/aQvbjTZa7HE/x3KNPteJWPsJ)
 - [Accounting Savvy for Business Owners ch. 8](http://www.amazon.com/Accounting-Savvy-Business-Owners-Essentials/dp/193292518X)
 
-<!-- #### estate accounting
-
-down 2018/03/14 - [Command Line Probate blog](https://commandlineprobate.com) -->
-
 #### non-profit accounting
 
 - [Non-Profit Accounting With Ledger CLI, A Tutorial](https://github.com/conservancy/npo-ledger-cli/blob/master/npo-ledger-cli-tutorial.md)
@@ -849,7 +836,7 @@ down 2018/03/14 - [Command Line Probate blog](https://commandlineprobate.com) --
 <div class="row" style="text-align:center;">
 
 <hr>
-\(c) 2016-2018 [Simon Michael](http://joyful.com) & contributors |
+\(c) 2016-2019 [Simon Michael](http://joyful.com) & contributors |
 Send updates via [github](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
 ([latest changes](https://github.com/plaintextaccounting/plaintextaccounting.github.io/commits/master))
 
