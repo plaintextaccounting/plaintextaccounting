@@ -3,10 +3,12 @@ h1, h2, h3 {
     white-space:nowrap;
 }
 
+/*
 p > strong > a, p > strong > a:hover {
     text-decoration:none;
     color:black;
 }
+*/
 
 .tight p {
     margin:0;

@@ -25,50 +25,73 @@ If using emacs markdown-mode:
 
 -->
 
-<div style="float:right; position:fixed; bottom:1em; right:1em;">
-[![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.github.io.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
-</div>
+<style>
+body {
+    background-color:#fdd;
+}
+h1 {
+    text-align:center; 
+    margin-bottom:5%;
+}
+h2 {
+    /*  font-size:2em; */
+}
+h3 {
+    font-size:2em;
+}
+h5 {
+    font-size:1.1em;
+    font-weight:bold;
+    margin-bottom:0;
+}
+.columns {
+    margin-left:0 !important;
+    margin-right:4%;
+}
+</style>
+
 <div class="row" style="padding-top:10%;">
+# Plain Text Accounting
 
-<h1 style="text-align:center; margin-bottom:5%;">Plain Text Accounting</h1>
 
-<div class="four columns">
+***Plain text accounting*** means doing accounting with plain text
+data formats and minimalist software in the style of Ledger, hledger,
+beancount, and similar tools.
+This site provides a FAQ and a directory of the community's tools, docs and practices. 
+Maintained by [Simon&nbsp;Michael](http://joyful.com) (Ledger
+contributor, hledger author, PTA researcher & fan) and contributors
+like you, we hope you find it helpful. Got feedback ? Join
+[#plaintextaccounting](https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#plaintextaccounting).
 
-### accounting
+<div class="eight columns">
+### FAQ
 
-**[accounting](https://en.wikipedia.org/wiki/Accounting)** is tracking the flow of valuable commodities, such as money or time.
+##### What is Accounting?
+[Accounting](https://en.wikipedia.org/wiki/Accounting) is tracking the flow of valuable commodities, such as money or time.
 It clarifies activity, priorities, obligations, opportunities.
-It can **[reduce stress](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)** and even be enjoyable.
+It can [reduce stress](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons) and even be enjoyable.
 
-**[double-entry bookkeeping](https://en.wikipedia.org/wiki/Double-entry_bookkeeping_system)** is a process for doing this reliably.
-For every movement of value (a **[transaction](https://en.wikipedia.org/wiki/Financial_transaction)**), both the source and destination are recorded.
+##### What is Double-Entry Bookkeeping?
+[Double-entry bookkeeping](https://en.wikipedia.org/wiki/Double-entry_bookkeeping_system) is a process for doing this reliably.
+For every movement of value (a [transaction](https://en.wikipedia.org/wiki/Financial_transaction)), both the source and destination are recorded.
 Simple arithmetic invariants help prevent errors.
 
-In traditional double-entry bookkeeping, value at any point in time is tracked in various **[accounts](https://en.wikipedia.org/wiki/Account_(accountancy))**, classified as
-**[asset](https://en.wikipedia.org/wiki/Asset)** (owned),
-**[liability](https://en.wikipedia.org/wiki/Liability_(financial_accounting))** (owed)
-or **[equity](https://en.wikipedia.org/wiki/Equity_(finance))** (invested).
+In traditional double-entry bookkeeping, value at any point in time is tracked in various [accounts](https://en.wikipedia.org/wiki/Account_(accountancy)), classified as
+[asset](https://en.wikipedia.org/wiki/Asset) (owned),
+[liability](https://en.wikipedia.org/wiki/Liability_(financial_accounting)) (owed)
+or [equity](https://en.wikipedia.org/wiki/Equity_(finance)) (invested).
 Two more classifications track changes during some period:
-**[revenues](https://en.wikipedia.org/wiki/Revenue)** (inflows)
-and **[expenses](https://en.wikipedia.org/wiki/Expense)** (outflows).
+[revenues](https://en.wikipedia.org/wiki/Revenue) (inflows)
+and [expenses](https://en.wikipedia.org/wiki/Expense) (outflows).
 
 Transactions consist of
-**[debits](https://en.wikipedia.org/wiki/Debits_and_credits)** (increases to asset or expense accounts, or decreases to liability or equity accounts) or
-**[credits](https://en.wikipedia.org/wiki/Debits_and_credits)** (decreases to asset or expense accounts, or increases to liability or equity accounts).
+[debits](https://en.wikipedia.org/wiki/Debits_and_credits) (increases to asset or expense accounts, or decreases to liability or equity accounts) or
+[credits](https://en.wikipedia.org/wiki/Debits_and_credits) (decreases to asset or expense accounts, or increases to liability or equity accounts).
 
-</div>
-<div class="four columns">
-
-### ...with text
-
-<!-- Ledger, hledger, beancount, and other **[Ledger-likes](#ledger-likes)** -->
-<!-- are minimalist software tools for efficient double-entry-style accounting. -->
-<!-- <\!-- **[double-entry-style](https://news.ycombinator.com/item?id=10512418)** accounting. -\-> -->
-<!-- This site introduces them and their way of doing things. -->
-
+##### What is Plain Text Accounting?
 In 2003, John Wiegley invented Ledger: a plain text data format and command-line reporting tool for efficient double-entry-style accounting.
 This idea went viral among software developers and technical folk, and we now have
-5+ actively-developed **[Ledger-likes](#ledger-likes)** such as hledger and Beancount,
+5+ actively-developed [Ledger-likes](#ledger-likes) such as hledger and Beancount,
 with 40+ add-on tools and an active community.
 This site was created in 2016 to introduce our
 tools, documentation, and practices.
@@ -77,32 +100,32 @@ Accounting data is valuable;
 we want to know that it will be accessible for ever - even without software.
 We want to know when it changes, and revision-control it.
 We want to search and manipulate it efficiently.
-So, we store it as human-readable **[plain](http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry) [text](http://hledger.org/manual.html#journal-format)**.
+So, we store it as human-readable [plain](http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry) [text](http://hledger.org/manual.html#journal-format).
 
 We simplify debits and credits by using
-**[signed numbers](http://ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes)** -
+[signed numbers](http://ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes) -
 positive for inflows to an account, negative for outflows from an account.
 
 We define arbitrary
-**[account](http://ledger-cli.org/3.0/doc/ledger3.html#Structuring-your-Accounts)
-[hierarchy](http://hledger.org/manual.html#account-names)**
+[account](http://ledger-cli.org/3.0/doc/ledger3.html#Structuring-your-Accounts)
+[hierarchy](http://hledger.org/manual.html#account-names)
 to suit our needs.
 This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail.
 
 Ledger-likes are, at least in part,
-**[command-line tools](#software)**.
+[command-line tools](#software).
 This makes them efficient to use and very
 scriptable and flexible.
 
 Ledger-likes also, at their core, tend towards
-**[functional operation](https://en.wikipedia.org/wiki/Function_(mathematics))**:
+[functional operation](https://en.wikipedia.org/wiki/Function_(mathematics)):
 they read the input data without changing it, and output a report.
 This simple model makes them easy to understand and rely on.
 
 </div>
 <div class="three columns" style="white-space:nowrap;">
 
-### read more
+### Site map
 
 [FAQ](#frequently-asked-questions)  
 [software](#software)  
@@ -153,35 +176,31 @@ This simple model makes them easy to understand and rely on.
 &nbsp;&nbsp;[API access](#api-access)  
 
 </div>
-
 </div>
+<div>
 
-<div class="">
-
-### frequently asked questions
-
-**Who is this for?**\
+##### Who is this for?
 Those who are comfortable on the command line and who understand the value of storing information in plain text.
 If you need a complete GUI providing lots of guidance, you may prefer to use something else.
 
-**Must I edit text and type cryptic commands?**\
+##### Must I edit text and type cryptic commands?
 Not entirely!
 "Plain Text Accounting" is a broad description, referring mainly to the data format.
-We welcome optional **[GUIs](#ui-console)**, and they are [coming](#ui-console).
+We welcome optional [GUIs](#ui-console), and they are [coming](#ui-console).
 
-**Who is using this, and how?**\
-See **[Who's using Ledger?](https://github.com/ledger/ledger/wiki/Who's-using-ledger%3F)** for some stories.
+##### Who is using this, and how?
+See [Who's using Ledger?](https://github.com/ledger/ledger/wiki/Who's-using-ledger%3F) for some stories.
 
-**What are the alternatives?**\
-**[FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software)** tools like GNUCash, Grisbi, KMyMoney.
+##### What are the alternatives?
+[FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) tools like GNUCash, Grisbi, KMyMoney.
 Proprietary tools like Quicken/Quickbooks, You Need A Budget.
 Online tools like Xero, FreeAgent.
-(There are **[many](https://en.wikipedia.org/wiki/Comparison_of_accounting_software)**).
-**[Spreadsheets](https://backchannel.com/a-spreadsheet-way-of-knowledge-8de60af7146e#.2hr7pi9pb)**.
+(There are [many](https://en.wikipedia.org/wiki/Comparison_of_accounting_software)).
+[Spreadsheets](https://backchannel.com/a-spreadsheet-way-of-knowledge-8de60af7146e#.2hr7pi9pb).
 Paper accounting.
 A bookkeeper.
 
-**Why is this better than QuickBooks?**\
+##### Why is this better than QuickBooks?
 Your data remains accessible.
 No yearly fees.
 Free software you can fix and port.
@@ -189,57 +208,57 @@ Cross platform.
 Scriptable.
 Efficient.
 
-**How do I communicate with my accountant?**\
+##### How do I communicate with my accountant?
 Clean up text reports by hand,
 print them as PDF,
 export CSV reports to a spreadsheet..
 
-**What if my accountant only uses QuickBooks?**\
+##### What if my accountant only uses QuickBooks?
 You'll need a new accountant,
 or a duplicate set of books in QuickBooks,
 or to pioneer *ledger -> QuickBooks exporting.
 
-**Can I use this to do my taxes?**\
+##### Can I use this to do my taxes?
 You can use this to track and report the data needed for tax reporting.
 Fill out and submit tax forms with another tool, or by hand.
 
-**How do I do budgeting?**\
+##### How do I do budgeting?
 See [budgeting](#budgeting) below. I emulate YNAB-ish envelope budgetting (see third link).
 
-**Double entry accounting? Where are the debits and credits?**\
+##### Double entry accounting? Where are the debits and credits?
 Most (not all) plain text accounting implementations use signed amounts instead of debits and credits. This makes them "double entry light" perhaps, but it has been a rather successful simplification, intuitive to most newcomers.
 
 <!-- (from <https://news.ycombinator.com/item?id=12124890>:) -->
 
-**Isn't personal accounting a waste of time?**\
+##### Isn't personal accounting a waste of time?
 People have very different needs and practise personal accounting for many different reasons. There is of course a point of diminishing returns; tailor your accounting practices to your needs. Needs change over time. Some of us would benefit from doing more (or better) accounting, some less (I would guess this second group is smaller).
 In [The Millionaire Next Door](https://en.wikipedia.org/wiki/The_Millionaire_Next_Door) (highly recommended), one research finding was that above-average wealth accumulators spend more time on financial planning, which for many of us requires accounting as a foundation. "Minimal time dedicated to financial planning is a leading indicator of a UAW [Under Accumulator of Wealth]".
 
-**Do you really enter every little transaction?**\
+##### Do you really enter every little transaction?
 Yes! Many folks in our community do it. Mahatma Gandhi reconciled to the penny every night. J.D. Rockefeller was famous for his ledgers.
 It's not required. I started doing it as a temporary learning exercise, and still like it. It makes troubleshooting and reconciling easier.
 
-**How is that possible?**\
+##### How is that possible?
 Practice, and a process/toolset that suits you. Some folks import most of the data from their banks, so little manual data entry is required. A few prefer to manually enter everything, for the increased awareness and insight. "Manual" data entry is usually assisted in some way: interactive console tools (hledger add and similar), web-based tools (hledger-web and similar), GUI tools (ledgerhelpers), smart editors (eg emacs & ledger-mode), recurring transaction scripts. I currently use a mixture of bank CSV import and rapid copy/paste in emacs. I spend 15 minutes a day on average, and for me that's currently a good investment.
 
-**How do I use the transaction data in my bank's web or mobile app?**\
+##### How do I use the transaction data in my bank's web or mobile app?
 If you can export it as CSV, you can import it and run queries against it. There are also some tools for converting OFX, QIF etc.
 
-**So I've got a huge list of transactions recorded, duplicating my bank statements. How does that help?**\
+##### So I've got a huge list of transactions recorded, duplicating my bank statements. How does that help?
 Accounting is modelling flows of money (or other value). Such a model aggregates information from many sources, in one trusted place. With it you can efficiently generate reports, forecast things (cashflow!), answer questions, try experiments.
 Some people need a very simple model, others benefit from a more detailed one, and we don't know up front what we might need in future. The most fundamental accounting data is a simple list of transactions (the journal). Once you have captured this, you can mine it for anything you may want later on.
 Plain text accounting provides nice open data format(s), tools and practices for doing this, and could be a good foundation for more powerful tools.
 
-**Isn't a command-line tool too limited for real-world accounting needs?**\
+##### Isn't a command-line tool too limited for real-world accounting needs?
 *"I am sure for a simple expense/budget ledger it will work OK, but when it comes to recurring journals, multiple reconciliation accounts, inter company transfers, control account tracing etc., give me a nice GUI any day..."*\
 Understandable. The current plain text accounting tools provide a very generic double entry accounting system with which you can model such things, and script them.
 There are a number of generic GUIs available (hledger has curses and web interfaces, and there are web/curses/GTK interfaces for Ledger and beancount). But there are not yet a lot of rich task-specific GUIs. There's no reason they can't be built, though.
 
-**Isn't a plain text format too limited for large organizations?**\
+##### Isn't a plain text format too limited for large organizations?
 *"it's pretty obvious that plain-text files don't scale to a multinational, with hundreds of accountants of various types all trying to work with the same files. Even with proper use of Git I bet that would get old fast. You would instead want a real database, with a schema, and some data validation and some programs/webpages to smooth out the data entry and querying and whatnot."*\
 I'm not sure. Current plain text accounting tools can do some schema definition and data validation, and will do more in future. The plain text storage format is open, human-readable, future-proof (useful even without the software), scales smoothly from simple to complex needs, and taps a huge ecosystem of highly useful tooling, such as version control systems. And, despite the name, there's no reason these tools can't support other kinds of storage, such as a database.
 
-**Where can I see a comparison of hledger, Ledger, beancount, and the rest?**\
+##### Where can I see a comparison of hledger, Ledger, beancount, and the rest?
 Glad you asked! See below, and also [comparisons](#comparisons). hledger's FAQ discusses differences from Ledger, Beancount docs probably do too.
 
 </div>
@@ -840,4 +859,8 @@ Envelope budgeting with automated postings, org & babel:
 Send updates via [github](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
 ([latest changes](https://github.com/plaintextaccounting/plaintextaccounting.github.io/commits/master))
 
+</div>
+
+<div style="float:right; position:fixed; bottom:1em; right:1em;">
+[![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.github.io.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
 </div>
