@@ -27,7 +27,7 @@ If using emacs markdown-mode:
 
 <style>
 body {
-    background-color:#fdd;
+/*    background-color:#fdd;*/
 }
 .columns {
     margin-left:0 !important;
@@ -51,6 +51,26 @@ h5 {
     font-weight:bold;
     margin-bottom:0;
 }
+/* these need to be full width
+#section1 {
+    background-color:#fff;
+}
+#section2 {
+    background-color:#eee;
+}
+#section3 {
+    background-color:#ddd;
+}
+#section4 {
+    background-color:#ccc;
+}
+#section5 {
+    background-color:#bbb;
+}
+#section6 {
+    background-color:#aaa;
+}
+*/
 </style>
 
 <div style="float:right; position:fixed; top:.5em; right:.5em;">
