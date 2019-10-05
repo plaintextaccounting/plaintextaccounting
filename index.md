@@ -161,6 +161,12 @@ This simple model makes them easy to understand and rely on.
 ## site map
 
 [FAQ](#frequently-asked-questions)  
+[news/discussion](#newsdiscussion)  
+&nbsp;&nbsp;[mail lists/IRC](#mail-listsirc)  
+&nbsp;&nbsp;[twitter](#twitter)  
+&nbsp;&nbsp;[reddit](#reddit)  
+&nbsp;&nbsp;[hacker news](#hacker-news)  
+&nbsp;&nbsp;[stack exchange](#stack-exchange)  
 [software](#software)  
 &nbsp;&nbsp;[plain text accounting apps](#plain-text-accounting-apps)  
 &nbsp;&nbsp;[data import/conversion](#data-importconversion)  
@@ -174,12 +180,6 @@ This simple model makes them easy to understand and rely on.
 &nbsp;&nbsp;[UI, mobile](#ui-mobile)  
 &nbsp;&nbsp;[API](#api)  
 &nbsp;&nbsp;[editor support](#editor-support)  
-[discussion](#discussion)  
-&nbsp;&nbsp;[mail lists/IRC](#mail-listsirc)  
-&nbsp;&nbsp;[stack exchange](#stack-exchange)  
-&nbsp;&nbsp;[hacker news](#hacker-news)  
-&nbsp;&nbsp;[reddit](#reddit)  
-&nbsp;&nbsp;[twitter](#twitter)  
 [docs](#docs)  
 &nbsp;&nbsp;[general accounting](#general-accounting)  
 &nbsp;&nbsp;[plain text accounting](#plain-text-accounting)  
@@ -296,14 +296,71 @@ Glad you asked! See below, and also [comparisons](#comparisons). hledger's FAQ d
 
 </div> <!-- section -->
 
-<a name="ledger-likes"></a>
 <div id="section3">
+
+## news/discussion
+
+ <div class="row">
+  <div class="three columns u-pull-left">
+##### mail&nbsp;lists/IRC
+  </div>
+
+[#plaintextaccounting],
+[project mail lists/chats](#plain-text-accounting-tools)
+
+[#plaintextaccounting]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#plaintextaccounting
+
+ </div> <!-- row -->
+ <div class="row">
+  <div class="three columns u-pull-left">
+##### twitter
+  </div>
+
+[#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting),
+[#ledgercli](https://twitter.com/hashtag/ledgercli),
+[#hledger](https://twitter.com/hashtag/hledger),
+[#beancount](https://twitter.com/hashtag/beancount),
+[\@LedgerTips](https://twitter.com/LedgerTips)
+
+ </div> <!-- row -->
+ <div class="row">
+  <div class="three columns u-pull-left">
+##### reddit
+  </div>
+
+[/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/)
+
+ </div> <!-- row -->
+ <div class="row">
+  <div class="three columns u-pull-left">
+##### hacker&nbsp;news
+  </div>
+
+[stories](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=story),
+[comments](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=comment)
+
+ </div> <!-- row -->
+ <div class="row">
+  <div class="three columns u-pull-left">
+##### stack&nbsp;exchange
+  </div>
+
+[ledger](http://money.stackexchange.com/search?q=ledger-cli),
+[hledger](http://money.stackexchange.com/search?q=hledger)
+<!-- [beancount](http://money.stackexchange.com/search?q=beancount) -->
+
+ </div> <!-- row -->
+</div> <!-- section -->
+
+<div id="section4">
 
 <style>
 th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; white-space:nowrap; }
 </style>
 
 ## software
+
+<a name="ledger-likes"></a>
 
 ### plain text accounting apps
 
@@ -591,63 +648,6 @@ Note these often work quite well for other ledger-likes, not just the one they a
   [hledger-vscode](https://github.com/mhansen/hledger-vscode)
 , [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger)
 , [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
-
-</div> <!-- section -->
-
-<div id="section4">
-
-## discussion
-
- <div class="row">
-  <div class="three columns u-pull-left">
-##### mail&nbsp;lists/IRC
-  </div>
-
-[#plaintextaccounting],
-[project mail lists/chats](#plain-text-accounting-tools)
-
-[#plaintextaccounting]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#plaintextaccounting
-
-</div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-##### stack&nbsp;exchange
-  </div>
-
-[ledger](http://money.stackexchange.com/search?q=ledger-cli),
-[hledger](http://money.stackexchange.com/search?q=hledger)
-<!-- [beancount](http://money.stackexchange.com/search?q=beancount) -->
-
- </div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-##### hacker&nbsp;news
-  </div>
-
-[stories](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=story),
-[comments](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=comment)
-
- </div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-##### reddit
-  </div>
-
-[/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/)
-
- </div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-##### twitter
-  </div>
-
-[#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting),
-[#ledgercli](https://twitter.com/hashtag/ledgercli),
-[#hledger](https://twitter.com/hashtag/hledger),
-[#beancount](https://twitter.com/hashtag/beancount),
-[\@LedgerTips](https://twitter.com/LedgerTips)
-
- </div> <!-- row -->
 
 </div> <!-- section -->
 
