@@ -35,6 +35,7 @@ body {
 }
 h1 {
     text-align:center; 
+    margin-top:10%;
     margin-bottom:5%;
 }
 h2 {
@@ -78,7 +79,7 @@ h5 {
 [![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.github.io.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
 </div>
 
-<div id="section1" class="row" style="padding-top:10%;">
+<div id="section1">
 
 # plain text accounting
 
@@ -95,21 +96,35 @@ Got feedback ? Join us in
 
  </div>
 
- <div class="faq eight columns">
+ <div class="row">
+  <div class="faq eight columns">
 
 ## FAQ
 
-##### What is Accounting?
+##### What's the history of Plain Text Accounting?
+
+In 2003, John Wiegley invented Ledger: 
+a command-line reporting tool and a plain text data format and for efficient double-entry-style accounting.
+Ledger's ideas appealed to many software developers and technical folk.
+In 2007 and 2008 it was joined by hledger and Beancount respectively,
+and as of 2019 there are more than a dozen [Ledger-likes](#plain-text-accounting-apps),
+many add-on tools and an active community.
+This site was started in 2016 to help keep track of it all.
+
+##### What is accounting, anyway?
+
 [Accounting](https://en.wikipedia.org/wiki/Accounting) is tracking the flow of valuable commodities, such as money or time.
 It clarifies activity, priorities, obligations, opportunities.
 It can [reduce stress](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons) and even be enjoyable.
 
-##### What is Double-Entry Bookkeeping?
-[Double-entry bookkeeping](https://en.wikipedia.org/wiki/Double-entry_bookkeeping_system) is a process for doing this reliably.
+##### And what is double-entry bookkeeping?
+
+[Double-entry bookkeeping](https://en.wikipedia.org/wiki/Double-entry_bookkeeping_system) 
+is a process for keeping accounting records reliably.
 For every movement of value (a [transaction](https://en.wikipedia.org/wiki/Financial_transaction)), both the source and destination are recorded.
 Simple arithmetic invariants help prevent errors.
 
-In traditional double-entry bookkeeping, value at any point in time is tracked in various [accounts](https://en.wikipedia.org/wiki/Account_(accountancy)), classified as
+Value at any point in time is tracked in various [accounts](https://en.wikipedia.org/wiki/Account_(accountancy)), classified as
 [asset](https://en.wikipedia.org/wiki/Asset) (owned),
 [liability](https://en.wikipedia.org/wiki/Liability_(financial_accounting)) (owed)
 or [equity](https://en.wikipedia.org/wiki/Equity_(finance)) (invested).
@@ -121,19 +136,15 @@ Transactions consist of
 [debits](https://en.wikipedia.org/wiki/Debits_and_credits) (increases to asset or expense accounts, or decreases to liability or equity accounts) or
 [credits](https://en.wikipedia.org/wiki/Debits_and_credits) (decreases to asset or expense accounts, or increases to liability or equity accounts).
 
-##### What is Plain Text Accounting?
-In 2003, John Wiegley invented Ledger: a plain text data format and command-line reporting tool for efficient double-entry-style accounting.
-This idea went viral among software developers and technical folk, and we now have
-5+ actively-developed [Ledger-likes](#ledger-likes) such as hledger and Beancount,
-with 40+ add-on tools and an active community.
-This site was created in 2016 to introduce our
-tools, documentation, and practices.
+##### What are some characteristics of Plain Text Accounting ?
 
 Accounting data is valuable;
 we want to know that it will be accessible for ever - even without software.
 We want to know when it changes, and revision-control it.
 We want to search and manipulate it efficiently.
-So, we store it as human-readable [plain](http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry) [text](http://hledger.org/manual.html#journal-format).
+So, we store it as human-readable 
+[plain](http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry) 
+[text](http://hledger.org/manual.html#journal-format).
 
 We simplify debits and credits by using
 [signed numbers](http://ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes) -
@@ -155,8 +166,8 @@ Ledger-likes also, at their core, tend towards
 they read the input data without changing it, and output a report.
 This simple model makes them easy to understand and rely on.
 
- </div> <!-- column -->
- <div id="sitemap" class="three columns" style="white-space:nowrap;">
+  </div> <!-- column -->
+  <div id="sitemap" class="three columns" style="white-space:nowrap;">
 
 ## site map
 
@@ -208,8 +219,9 @@ This simple model makes them easy to understand and rely on.
 &nbsp;&nbsp;[customising](#customising)  
 &nbsp;&nbsp;[API access](#api-access)  
 
- </div> <!-- column -->
-</div> <!-- row, section -->
+  </div> <!-- column -->
+ </div> <!-- row -->
+</div> <!-- section -->
 <div id="section2" class="faq">
 
 ##### Who is this for?
