@@ -316,10 +316,10 @@ Glad you asked! See below, and also [comparisons](#comparisons). hledger's FAQ d
 ##### twitter
   </div>
 
-[#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting),
-[#ledgercli](https://twitter.com/hashtag/ledgercli),
-[#hledger](https://twitter.com/hashtag/hledger),
-[#beancount](https://twitter.com/hashtag/beancount),
+[#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting?f=live),
+[#ledgercli](https://twitter.com/hashtag/ledgercli?f=live),
+[#hledger](https://twitter.com/hashtag/hledger?f=live),
+[#beancount](https://twitter.com/hashtag/beancount?f=live),
 [\@LedgerTips](https://twitter.com/LedgerTips)
 
  </div> <!-- row -->
