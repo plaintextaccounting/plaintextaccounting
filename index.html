@@ -84,33 +84,36 @@ h5 {
     font-weight:bold;
     margin-bottom:0;
 }
-/* these need to be full width
+#intro {
+  font-size:1.2em;
+}
 #section1 {
-    background-color:#fff;
+  /* background-color:#fff; */  /* these need to be full width */
 }
 #section2 {
-    background-color:#eee;
+    /* background-color:#eee; */
 }
 #section3 {
-    background-color:#ddd;
+    /* background-color:#ddd; */
 }
 #section4 {
-    background-color:#ccc;
+    /* background-color:#ccc; */
 }
 #section5 {
-    background-color:#bbb;
+    /* background-color:#bbb; */
 }
 #section6 {
-    background-color:#aaa;
+    /* background-color:#aaa; */
 }
-*/
 </style>
 <div style="float:right; position:fixed; top:.5em; right:.5em;">
 <p><a href="https://github.com/plaintextaccounting/plaintextaccounting.github.io"><img src="https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.github.io.svg?style=social&amp;label=Github" alt="github" title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag" /></a></p>
 </div>
 <div id="section1" class="row" style="padding-top:10%;">
 <h1 id="plain-text-accounting">plain text accounting</h1>
-<p><strong><em>Plain text accounting</em></strong> means doing accounting with plain text data formats and minimalist software in the style of Ledger, hledger, beancount, and co. This site provides a FAQ and a directory of the community's tools, docs and practices. It is maintained by Simon Michael (Ledger contributor, hledger author, PTA researcher &amp; fan) and contributors like you. Got feedback ? Join us in <a href="https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#plaintextaccounting">#plaintextaccounting</a>.</p>
+<div id="intro">
+<p><strong><em>Plain text accounting</em></strong> means doing accounting with plain text data formats and scriptable software, in the style of <a href="#plain-text-accounting-apps">Ledger, hledger, beancount, and co</a>. This site collects FAQs and a directory for the PTA community's tools, docs and practices. It is maintained by Simon Michael (hledger project leader, Ledger contributor, PTA researcher &amp; fan), and contributors like you. Got feedback ? Join us in <a href="https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#plaintextaccounting">#plaintextaccounting</a>.</p>
+</div>
 <div class="faq eight columns">
 <h2 id="faq">FAQ</h2><h5 id="what-is-accounting">What is Accounting?</h5><p><a href="https://en.wikipedia.org/wiki/Accounting">Accounting</a> is tracking the flow of valuable commodities, such as money or time. It clarifies activity, priorities, obligations, opportunities. It can <a href="http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons">reduce stress</a> and even be enjoyable.</p><h5 id="what-is-double-entry-bookkeeping">What is Double-Entry Bookkeeping?</h5><p><a href="https://en.wikipedia.org/wiki/Double-entry_bookkeeping_system">Double-entry bookkeeping</a> is a process for doing this reliably. For every movement of value (a <a href="https://en.wikipedia.org/wiki/Financial_transaction">transaction</a>), both the source and destination are recorded. Simple arithmetic invariants help prevent errors.</p><p>In traditional double-entry bookkeeping, value at any point in time is tracked in various <a href="https://en.wikipedia.org/wiki/Account_(accountancy)">accounts</a>, classified as <a href="https://en.wikipedia.org/wiki/Asset">asset</a> (owned), <a href="https://en.wikipedia.org/wiki/Liability_(financial_accounting)">liability</a> (owed) or <a href="https://en.wikipedia.org/wiki/Equity_(finance)">equity</a> (invested). Two more classifications track changes during some period: <a href="https://en.wikipedia.org/wiki/Revenue">revenues</a> (inflows) and <a href="https://en.wikipedia.org/wiki/Expense">expenses</a> (outflows).</p><p>Transactions consist of <a href="https://en.wikipedia.org/wiki/Debits_and_credits">debits</a> (increases to asset or expense accounts, or decreases to liability or equity accounts) or <a href="https://en.wikipedia.org/wiki/Debits_and_credits">credits</a> (decreases to asset or expense accounts, or increases to liability or equity accounts).</p><h5 id="what-is-plain-text-accounting">What is Plain Text Accounting?</h5><p>In 2003, John Wiegley invented Ledger: a plain text data format and command-line reporting tool for efficient double-entry-style accounting. This idea went viral among software developers and technical folk, and we now have 5+ actively-developed <a href="#ledger-likes">Ledger-likes</a> such as hledger and Beancount, with 40+ add-on tools and an active community. This site was created in 2016 to introduce our tools, documentation, and practices.</p><p>Accounting data is valuable; we want to know that it will be accessible for ever - even without software. We want to know when it changes, and revision-control it. We want to search and manipulate it efficiently. So, we store it as human-readable <a href="http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry">plain</a> <a href="http://hledger.org/manual.html#journal-format">text</a>.</p><p>We simplify debits and credits by using <a href="http://ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes">signed numbers</a> - positive for inflows to an account, negative for outflows from an account.</p><p>We define arbitrary <a href="http://ledger-cli.org/3.0/doc/ledger3.html#Structuring-your-Accounts">account</a> <a href="http://hledger.org/manual.html#account-names">hierarchy</a> to suit our needs. This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail.</p><p>Ledger-likes are, at least in part, <a href="#software">command-line tools</a>. This makes them efficient to use and very scriptable and flexible.</p><p>Ledger-likes also, at their core, tend towards <a href="https://en.wikipedia.org/wiki/Function_(mathematics)">functional operation</a>: they read the input data without changing it, and output a report. This simple model makes them easy to understand and rely on.</p>
 </div>

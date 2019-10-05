@@ -51,26 +51,27 @@ h5 {
     font-weight:bold;
     margin-bottom:0;
 }
-/* these need to be full width
+#intro {
+  font-size:1.2em;
+}
 #section1 {
-    background-color:#fff;
+  /* background-color:#fff; */  /* these need to be full width */
 }
 #section2 {
-    background-color:#eee;
+    /* background-color:#eee; */
 }
 #section3 {
-    background-color:#ddd;
+    /* background-color:#ddd; */
 }
 #section4 {
-    background-color:#ccc;
+    /* background-color:#ccc; */
 }
 #section5 {
-    background-color:#bbb;
+    /* background-color:#bbb; */
 }
 #section6 {
-    background-color:#aaa;
+    /* background-color:#aaa; */
 }
-*/
 </style>
 
 <div style="float:right; position:fixed; top:.5em; right:.5em;">
@@ -81,15 +82,18 @@ h5 {
 
 # plain text accounting
 
+ <div id="intro">
 
 ***Plain text accounting*** means doing accounting with plain text
-data formats and minimalist software in the style of Ledger, hledger,
-beancount, and co.
-This site provides a FAQ and a directory of the community's tools, docs and practices. 
-It is maintained by Simon&nbsp;Michael (Ledger contributor, hledger
-author, PTA researcher & fan) and contributors like you. Got feedback
-? Join us in
+data formats and scriptable software, in the style of 
+[Ledger, hledger, beancount, and co](#plain-text-accounting-apps).
+This site collects FAQs and a directory for the PTA community's tools, docs and practices. 
+It is maintained by Simon&nbsp;Michael (hledger project leader, Ledger
+contributor, PTA researcher & fan), and contributors like you. 
+Got feedback ? Join us in
 [#plaintextaccounting](https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#plaintextaccounting).
+
+ </div>
 
  <div class="faq eight columns">
 
