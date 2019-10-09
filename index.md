@@ -96,7 +96,8 @@ This site collects FAQs and a directory for the PTA community's tools, docs and 
 It is maintained by Simon&nbsp;Michael (hledger project leader, Ledger
 contributor, PTA researcher & fan), and contributors like you. 
 Got feedback ? Join us in
-[#plaintextaccounting](https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#plaintextaccounting).
+[#plaintextaccounting](https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#plaintextaccounting)
+or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting.github.io/edit/master/index.md).
 
  </div>
 
