@@ -55,6 +55,10 @@ h5 {
 #intro {
   font-size:1.2em;
 }
+#sitemapheading {
+  font-size:4.2rem;
+    /*  font-weight:bold; */
+}
 #section1 {
   /* background-color:#fff; */  /* these need to be full width */
 }
@@ -101,7 +105,17 @@ Got feedback ? Join us in
 
 ## FAQ
 
-##### What's the history of Plain Text Accounting?
+(A work in progress; improvements always welcome.)
+
+### What and why
+
+##### What is Accounting, and what can it do for me?
+
+[Accounting](https://en.wikipedia.org/wiki/Accounting) is tracking the flow of valuable commodities, such as money or time.
+It clarifies activity, priorities, obligations, opportunities.
+It can [reduce stress](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons) and even be enjoyable.
+
+##### What is Plain Text Accounting?
 
 In 2003, John Wiegley invented Ledger: 
 a command-line reporting tool and a plain text data format and for efficient double-entry-style accounting.
@@ -111,13 +125,7 @@ and as of 2019 there are more than a dozen [Ledger-likes](#plain-text-accounting
 many add-on tools and an active community.
 This site was started in 2016 to help keep track of it all.
 
-##### What is accounting, anyway?
-
-[Accounting](https://en.wikipedia.org/wiki/Accounting) is tracking the flow of valuable commodities, such as money or time.
-It clarifies activity, priorities, obligations, opportunities.
-It can [reduce stress](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons) and even be enjoyable.
-
-##### And what is double-entry bookkeeping?
+##### What is double-entry?
 
 [Double-entry bookkeeping](https://en.wikipedia.org/wiki/Double-entry_bookkeeping_system) 
 is a process for keeping accounting records reliably.
@@ -169,9 +177,11 @@ This simple model makes them easy to understand and rely on.
   </div> <!-- column -->
   <div id="sitemap" class="three columns" style="white-space:nowrap;">
 
-## site map
-
+<div id=sitemapheading>site map</div> <!-- don't disrupt content tree -->
 [FAQ](#frequently-asked-questions)  
+&nbsp;&nbsp;[What and Why](#what-and-why)  
+&nbsp;&nbsp;[Objections and Concerns](#objections-and-concerns)  
+&nbsp;&nbsp;[Getting started, Practicalities](#getting-started-practicalities)  
 [news/discussion](#newsdiscussion)  
 &nbsp;&nbsp;[mail lists/IRC](#mail-listsirc)  
 &nbsp;&nbsp;[twitter](#twitter)  
@@ -224,60 +234,102 @@ This simple model makes them easy to understand and rely on.
 </div> <!-- section -->
 <div id="section2" class="faq">
 
-##### Who is this for?
-Those who are comfortable on the command line and who understand the value of storing information in plain text.
-If you need a complete GUI providing lots of guidance, you may prefer to use something else.
+##### Who is using this, and how?
+[Who's using Ledger?](https://github.com/ledger/ledger/wiki/Who's-using-ledger%3F) has some stories.
+
+##### Is it a good fit for me?
+Most current PTA users tend to be comfortable using the command line,
+editing plain text, and perhaps using version control.
+If you would like to use a GUI providing lots of guidance, 
+PTA tools won't meet that need.
+
+##### What are the alternatives?
+Traditional GUI-centric accounting software:  
+[Free/open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software): GNUCash, Grisbi, KMyMoney..  
+Commercial: Quicken, Quickbooks, You Need A Budget..
+
+Online/cloud-based accounting software: Xero, FreeAgent..
+
+Here is Wikipedia's [Comparison of accounting software](https://en.wikipedia.org/wiki/Comparison_of_accounting_software).
+Also: 
+
+- [spreadsheets](https://backchannel.com/a-spreadsheet-way-of-knowledge-8de60af7146e#.2hr7pi9pb)
+- keeping accounts on paper
+- using a bookkeeper/accountant.
+
+##### What are the advantages over traditional (Free/open-source) accounting software, like GnuCash?
+
+<!-- https://www.reddit.com/r/plaintextaccounting/comments/dboxgx/what_are_the_advantages_of_ledger_and_the_likes/ -->
+
+Some key factors:
+
+<!-- why stupid line breaks without nbsp ? why numbers instead of letters ? -->
+
+a.&nbsp;The plain text, human readable, well supported data formats.
+
+b.&nbsp;The division of concerns between creating and managing the data
+   (your responsibility) and analysing it (the tool's responsibility).
+   Ie "immutable data" + "referentially transparent reporting tools".
+
+c.&nbsp;The command-line interface.
+
+d.&nbsp;The ecosystem of related tools.
+
+create synergies such as:
+
+1.&nbsp;The data is more future proof. You can access it relatively easily
+   with different software, newly-written software, or no software.
+
+2.&nbsp;The command-line based UI, together with the plain text format,
+   allows easy integration with other software, custom workflows and
+   automation.
+
+3.&nbsp;The user's responsibilities and mental model feel simpler, ie: "I
+   just need to keep a list of transactions". Complex features and
+   tools are not visible until you need them. Common actions can be
+   easily scripted for daily use.
+
+4.&nbsp;The data can be managed using the rich ecosystem of tools for
+   managing text. This is appealing to folks familiar with such tools.
+
+5.&nbsp;Most significantly, the data can be effectively version controlled,
+   providing an audit trail, unlimited "undo", and collaboration.
+
+6.&nbsp;Because the software (mostly) does not touch your data, and because
+   version control would let you know and roll back if it did, you can have
+   great confidence in the integrity of your data. 
+   If the software misbehaves, your data is not at risk.
+   It's safe and relaxing to try out new features or new software on your data.
+
+7.&nbsp;The data/tool separation facilitates decentralised development,
+   stimulating an ecosystem of more tools and integrations.
+
+8.&nbsp;The free form DSL-style format provides great expressiveness for
+   modelling and documenting real-world financial activities, without
+   UI-imposed limitations.
+
+##### Why are the advantages over commercial accounting software, like QuickBooks?
+In addition to the advantages above, being Free or Open Source software helps ensure:
+- No lockin - your data remains accessible, and there are no yearly fees.
+- You can fix, enhance and port the software.
+- The software is more portable, scriptable, and lightweight.
+
+##### Where can I read more discussion of this approach ?
+
+- [The Surprising Ease of Plain Text Accounting](https://news.ycombinator.com/item?id=12119050)
+- Articles linked below...
+- ...
+
+### Objections and Concerns
+
+##### Isn't personal accounting a waste of time?
+People have very different needs and practise personal accounting for many different reasons. There is of course a point of diminishing returns; tailor your accounting practices to your needs. Needs change over time. Some of us would benefit from doing more (or better) accounting, some less (I would guess this second group is smaller).
+In [The Millionaire Next Door](https://en.wikipedia.org/wiki/The_Millionaire_Next_Door) (highly recommended), one research finding was that above-average wealth accumulators spend more time on financial planning, which for many of us requires accounting as a foundation. "Minimal time dedicated to financial planning is a leading indicator of a UAW [Under Accumulator of Wealth]".
 
 ##### Must I edit text and type cryptic commands?
 Not entirely!
 "Plain Text Accounting" is a broad description, referring mainly to the data format.
 We welcome optional [GUIs](#ui-console), and they are [coming](#ui-console).
-
-##### Who is using this, and how?
-See [Who's using Ledger?](https://github.com/ledger/ledger/wiki/Who's-using-ledger%3F) for some stories.
-
-##### What are the alternatives?
-[FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) tools like GNUCash, Grisbi, KMyMoney.
-Proprietary tools like Quicken/Quickbooks, You Need A Budget.
-Online tools like Xero, FreeAgent.
-(There are [many](https://en.wikipedia.org/wiki/Comparison_of_accounting_software)).
-[Spreadsheets](https://backchannel.com/a-spreadsheet-way-of-knowledge-8de60af7146e#.2hr7pi9pb).
-Paper accounting.
-A bookkeeper.
-
-##### Why is this better than QuickBooks?
-Your data remains accessible.
-No yearly fees.
-Free software you can fix and port.
-Cross platform.
-Scriptable.
-Efficient.
-
-##### How do I communicate with my accountant?
-Clean up text reports by hand,
-print them as PDF,
-export CSV reports to a spreadsheet..
-
-##### What if my accountant only uses QuickBooks?
-You'll need a new accountant,
-or a duplicate set of books in QuickBooks,
-or to pioneer *ledger -> QuickBooks exporting.
-
-##### Can I use this to do my taxes?
-You can use this to track and report the data needed for tax reporting.
-Fill out and submit tax forms with another tool, or by hand.
-
-##### How do I do budgeting?
-See [budgeting](#budgeting) below. I emulate YNAB-ish envelope budgetting (see third link).
-
-##### Double entry accounting? Where are the debits and credits?
-Most (not all) plain text accounting implementations use signed amounts instead of debits and credits. This makes them "double entry light" perhaps, but it has been a rather successful simplification, intuitive to most newcomers.
-
-<!-- (from <https://news.ycombinator.com/item?id=12124890>:) -->
-
-##### Isn't personal accounting a waste of time?
-People have very different needs and practise personal accounting for many different reasons. There is of course a point of diminishing returns; tailor your accounting practices to your needs. Needs change over time. Some of us would benefit from doing more (or better) accounting, some less (I would guess this second group is smaller).
-In [The Millionaire Next Door](https://en.wikipedia.org/wiki/The_Millionaire_Next_Door) (highly recommended), one research finding was that above-average wealth accumulators spend more time on financial planning, which for many of us requires accounting as a foundation. "Minimal time dedicated to financial planning is a leading indicator of a UAW [Under Accumulator of Wealth]".
 
 ##### Do you really enter every little transaction?
 Yes! Many folks in our community do it. Mahatma Gandhi reconciled to the penny every night. J.D. Rockefeller was famous for his ledgers.
@@ -303,8 +355,66 @@ There are a number of generic GUIs available (hledger has curses and web interfa
 *"it's pretty obvious that plain-text files don't scale to a multinational, with hundreds of accountants of various types all trying to work with the same files. Even with proper use of Git I bet that would get old fast. You would instead want a real database, with a schema, and some data validation and some programs/webpages to smooth out the data entry and querying and whatnot."*\
 I'm not sure. Current plain text accounting tools can do some schema definition and data validation, and will do more in future. The plain text storage format is open, human-readable, future-proof (useful even without the software), scales smoothly from simple to complex needs, and taps a huge ecosystem of highly useful tooling, such as version control systems. And, despite the name, there's no reason these tools can't support other kinds of storage, such as a database.
 
+
+##### If this is double entry accounting, where are the debits and credits?
+
+Most (not all) plain text accounting implementations use signed
+amounts instead of debits and credits. This makes them "double entry
+light" perhaps, but it has been a rather successful simplification,
+intuitive to most newcomers.
+
+##### How do I communicate with my accountant?
+Clean up text reports by hand,
+print them as PDF,
+export CSV reports to a spreadsheet..
+
+##### What if my accountant only uses QuickBooks?
+You'll need a new accountant,
+or a duplicate set of books in QuickBooks,
+or to pioneer *ledger -> QuickBooks exporting.
+
+##### Can I use this to do my taxes?
+You can use this to track and report the data needed for tax reporting.
+Fill out and submit tax forms with another tool, or by hand.
+
+### Getting started, Practicalities
+
 ##### Where can I see a comparison of hledger, Ledger, beancount, and the rest?
 Glad you asked! See below, and also [comparisons](#comparisons). hledger's FAQ discusses differences from Ledger, Beancount docs probably do too.
+
+##### How to organise files ? Should I split the journal into many files ?
+
+All in one file (or one file per year) and ordered by date is simplest
+and creates the fewest headaches (balance assertions/assignments,
+scope of directives, where to put entries, finding things..).
+
+If you use emacs: it’s possible to insert org headings (which are
+comments to h/ledger) and then use org-mode or org-minor-mode to
+collapse/expand/navigate sections of your journal.
+
+Also in emacs: in ledger-mode, C-c C-f can give you a filtered view of
+just one account’s transactions. (But be careful, if you edit in the
+wrong place it will lose data.)
+
+https://www.reddit.com/r/plaintextaccounting/comments/d69slp/how_do_you_manage_multiple_accounts_in/
+
+##### How big is your ledger/journal file ?
+
+For individual accounting, somewhere around 1000 transactions and 300K per year seems likely to be typical.
+
+https://www.reddit.com/r/plaintextaccounting/comments/dbjizl/how_big_is_your_ledgerjournal_file/
+
+##### How do I do budgeting?
+See [budgeting](#budgeting) below. I emulate YNAB-ish envelope budgetting (see third link).
+
+<!-- 
+TODO
+
+##### How to get started ?
+
+getting-started.md
+
+-->
 
 </div> <!-- section -->
 
