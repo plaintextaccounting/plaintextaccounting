@@ -153,7 +153,7 @@ We want to know when it changes, and revision-control it.
 We want to search and manipulate it efficiently.
 So, we store it as human-readable 
 [plain](http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry) 
-[text](http://hledger.org/manual.html#journal-format).
+[text](https://hledger.org/journal.html).
 
 We simplify debits and credits by using
 [signed numbers](http://ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes) -
@@ -161,7 +161,7 @@ positive for inflows to an account, negative for outflows from an account.
 
 We define arbitrary
 [account](http://ledger-cli.org/3.0/doc/ledger3.html#Structuring-your-Accounts)
-[hierarchy](http://hledger.org/manual.html#account-names)
+[hierarchy](https://hledger.org/journal.html#account-names)
 to suit our needs.
 This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail.
 
@@ -545,7 +545,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [goledger]: https://github.com/mescanne/goledger
 [goledger-gh]: https://github.com/mescanne/goledger
 
-[hledger]: http://hledger.org
+[hledger]: https://hledger.org
 [hledger-mail]: http://mail.hledger.org/
 [#hledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger
 [hledger-code]: http://code.hledger.org
@@ -597,7 +597,7 @@ Next, related add-ons and helpers by category
 
 ### data import/conversion
 
-- [Ledger](http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](http://hledger.org/manual.html#csv-format) have CSV conversion built in. Also:
+- [Ledger](http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](https://hledger.org/csv.html) have CSV conversion built in. Also:
 - bean-identify, bean-extract, bean-file - Beancount built-in tools
 - [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
 - [beancount-import](https://github.com/jbms/beancount-import) web app/framework for converting various formats to beancount (python)
@@ -653,7 +653,7 @@ Next, related add-ons and helpers by category
 ### reports
 
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals (haskell)
-- [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](http://hledger.org/manual.html#roi)) (haskell)
+- [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](https://hledger.org/hledger.html#roi)) (haskell)
 - [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive tool for making GNUplot charts from Ledger (python)
 - [ledger-plots](https://github.com/esovetkin/ledger-plots) R package & script to make charts from Ledger (R)
 - [r-ledger](https://github.com/trevorld/r-ledger) an R package for reading and reporting on ledger/hledger/beancount files (R)
@@ -669,7 +669,7 @@ Next, related add-ons and helpers by category
 ### UI, console
 
 - [bean-add](https://github.com/simon-v/bean-add) interactive transaction entry tool (python)
-- [hledger add](http://hledger.org/manual.html#add) interactive transaction entry tool (builtin command)
+- [hledger add](https://hledger.org/hledger.html#add) interactive transaction entry tool (builtin command)
 - [ldgr](https://github.com/brandonpittman/ldgr) command line tool to add/sort/tag ledger files (ruby)
 - [ledger xact](https://www.ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (builtin command)
 
@@ -806,7 +806,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
 - [Ledger CLI cheatsheet](https://devhints.io/ledger)
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
-- [hledger User Guide](http://hledger.org/docs.html)
+- [hledger docs](https://hledger.org/sitemap.html)
 - [Beancount docs (google)](http://furius.ca/beancount/doc/index) / [(sphinx)](http://aumayr.github.io/beancount-docs-static/)
 - [Beancount: Command-line Accounting in Context](https://docs.google.com/document/d/1e4Vz3wZB_8-ZcAwIFde8X5CjzKshE4-OXtVVHm4RQ8s)
 - [Beancount: Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
@@ -820,7 +820,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [Another Ledger user's perspective](https://groups.google.com/d/msg/beancount/QV4qgpFbtJ8/9fSgMw-XGC8J) 2015
 - [Beancount: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg) 2014
 - [ledger vs hledger vs beancount or how to choose the right cli client](https://groups.google.com/d/topic/ledger-cli/__yuMVjrOH0/discussion) 2014
-- [hledger: hledger & Ledger](http://hledger.org/faq.html#hledger-ledger) 2014
+- [hledger: hledger & Ledger](https://hledger.org/faq.html#how-is-hledger-different-from-ledger) 2014, 2019
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
 <!-- - [Fabrice Niessen: Why Ledger?](gone) 2010 -->
 
@@ -901,13 +901,12 @@ Note these often work quite well for other ledger-likes, not just the one they a
 
 ### entering data
 
-- [hledger Step by Step: basic data entry](http://hledger.org/step-by-step.html#basic-data-entry-reporting)
+- [hledger Basics tutorial: Record a transaction with “hledger add”](https://hledger.org/basics-tutorial.html#record-a-transaction-with-hledger-add)
 - ledger-mode:\
   `C-c C-a` add a transaction,\
   `C-c C-b` amount calculator,\
   `C-c C-c`/`C-c C-e` toggle cleared
 - [Beancount: Command Line Accounting Cookbook](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk)
-- [hledger Cookbook: Use another account separator character](http://hledger.org/cookbook.html#use-another-account-separator-character)
 - [Accounting bookkeeping entries](https://github.com/simonmichael/hledger/wiki/more-docs#accounting)
 - [ledger-envelope-generator.rb](https://github.com/simonmichael/hledger/issues/313)
 - [Ledger Practices: Separate Your Journals](https://felixcrux.com/blog/ledger-practices-separate-your-journals)
@@ -916,8 +915,8 @@ Note these often work quite well for other ledger-likes, not just the one they a
 ### importing
 
 - [Ledger: The convert command](http://www.ledger-cli.org/3.0/doc/ledger3.html#The-convert-command)
-- [hledger: CSV format](http://hledger.org/manual.html#csv-format)
-- [hledger Cookbook: Convert CSV files](http://hledger.org/cookbook.html#convert-csv-files)
+- [hledger: CSV format](https://hledger.org/csv.html)
+- [hledger: Convert CSV files](https://hledger.org/convert-csv-files.html)
 - [Beancount: Importing External Data in Beancount](https://docs.google.com/document/d/11EwQdujzEo2cxqaF5PgxCEZXWfKKQCYSMfdJowp_1S8)
 - [Beancount: Prices in Beancount](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c)
 - [Payment matching done right](https://tomszilagyi.github.io/payment-matching/)
@@ -943,13 +942,11 @@ Note these often work quite well for other ledger-likes, not just the one they a
 
 ### budgeting
 
-Budget reporting with Ledger's periodic transactions:
+Budget reporting with Ledger's/hledger's periodic transactions:
 
 - [Ledger: Budgeting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting)
-
-<p style="margin-bottom:.1em;">Budget reporting with hledger-budget:
-
-- [hledger-budget](http://hledger.org/manual.html#budget)
+- [hledger: Budget report](https://hledger.org/hledger.html#budget-report)
+- [hledger: Budgeting and forecasting](https://hledger.org/budgeting-and-forecasting.html)
 
 Envelope budgeting with ordinary accounts:
 
@@ -1004,8 +1001,8 @@ Envelope budgeting with automated postings, org & babel:
 ### time tracking
 
 - [Ledger: Time Keeping](http://ledger-cli.org/3.0/doc/ledger3.html#Time-Keeping)
-- [hledger: Timeclock files](http://hledger.org/manual.html#timeclock-format)
-- [hledger: Timedot files](http://hledger.org/manual.html#timedot-format)
+- [hledger: Timeclock files](https://hledger.org/timeclock.html)
+- [hledger: Timedot files](https://hledger.org/timedot.html)
 - [Timetracking and billing with (h)ledger](https://github.com/anarcat/ledger-timetracking)
 - [time tracking tools](#time-logging)
 
@@ -1021,7 +1018,7 @@ Envelope budgeting with automated postings, org & babel:
 ### exporting
 
 - [Ledger: The csv command](http://www.ledger-cli.org/3.0/doc/ledger3.html#The-csv-command)
-- [hledger: CSV output](http://hledger.org/manual.html#csv-output)
+- [hledger: Output format](https://hledger.org/hledger.html?highlight=budget#output-format)
 - [Beancount: Exporting Your Portfolio](https://docs.google.com/document/d/1mNyE_ONuyEkF_I2l6V_AoAU5HJgI654AOBhHsnNPPqw)
 
 ### customising
@@ -1036,10 +1033,7 @@ Envelope budgeting with automated postings, org & babel:
 - [hledger-lib](http://hackage.haskell.org/package/hledger-lib),
   [hledger](http://hackage.haskell.org/package/hledger),
   [an example](http://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html)
-  Haskell
-- [hledger-api](http://editor.swagger.io/#/?import=demo.hledger.org/api/swagger.json&no-proxy),
-  [examples](https://github.com/simonmichael/hledger/tree/master/hledger-api/examples)
-  JSON
+- [hledger-web: JSON API](https://hledger.org/hledger-web.html#json-api)
 - [node-hledger](https://github.com/rstacruz/node-hledger) JavaScript
 
 
