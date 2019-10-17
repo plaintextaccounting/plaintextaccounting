@@ -152,15 +152,15 @@ we want to know that it will be accessible for ever - even without software.
 We want to know when it changes, and revision-control it.
 We want to search and manipulate it efficiently.
 So, we store it as human-readable 
-[plain](http://ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry) 
+[plain](https://www.ledger-cli.org/3.0/doc/ledger3.html#The-Most-Basic-Entry) 
 [text](https://hledger.org/journal.html).
 
 We simplify debits and credits by using
-[signed numbers](http://ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes) -
+[signed numbers](https://www.ledger-cli.org/3.0/doc/ledger3.html#Stating-where-money-goes) -
 positive for inflows to an account, negative for outflows from an account.
 
 We define arbitrary
-[account](http://ledger-cli.org/3.0/doc/ledger3.html#Structuring-your-Accounts)
+[account](https://www.ledger-cli.org/3.0/doc/ledger3.html#Structuring-your-Accounts)
 [hierarchy](https://hledger.org/journal.html#account-names)
 to suit our needs.
 This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail.
@@ -550,7 +550,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [#hledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger
 [hledger-code]: http://code.hledger.org
 
-[Ledger]: http://ledger-cli.org
+[Ledger]: https://www.ledger-cli.org
 [#ledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#ledger
 [ledger-mail]: http://list.ledger-cli.org/
 [ledger-gh]: https://github.com/ledger/ledger
@@ -597,7 +597,7 @@ Next, related add-ons and helpers by category
 
 ### data import/conversion
 
-- [Ledger](http://ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](https://hledger.org/csv.html) have CSV conversion built in. Also:
+- [Ledger](https://www.ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](https://hledger.org/csv.html) have CSV conversion built in. Also:
 - bean-identify, bean-extract, bean-file - Beancount built-in tools
 - [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
 - [beancount-import](https://github.com/jbms/beancount-import) web app/framework for converting various formats to beancount (python)
@@ -802,7 +802,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 <!-- official docs & useful intro docs -->
 <!-- XXX reorg -->
 
-- [Ledger manuals](http://ledger-cli.org/docs.html)
+- [Ledger manuals](https://www.ledger-cli.org/docs.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
 - [Ledger CLI cheatsheet](https://devhints.io/ledger)
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
@@ -1000,7 +1000,7 @@ Envelope budgeting with automated postings, org & babel:
 
 ### time tracking
 
-- [Ledger: Time Keeping](http://ledger-cli.org/3.0/doc/ledger3.html#Time-Keeping)
+- [Ledger: Time Keeping](https://www.ledger-cli.org/3.0/doc/ledger3.html#Time-Keeping)
 - [hledger: Timeclock files](https://hledger.org/timeclock.html)
 - [hledger: Timedot files](https://hledger.org/timedot.html)
 - [Timetracking and billing with (h)ledger](https://github.com/anarcat/ledger-timetracking)
@@ -1027,7 +1027,7 @@ Envelope budgeting with automated postings, org & babel:
 
 ### API access
 
-- [Ledger: Extending with Python](http://ledger-cli.org/3.0/doc/ledger3.html#Extending-with-Python)
+- [Ledger: Extending with Python](https://www.ledger-cli.org/3.0/doc/ledger3.html#Extending-with-Python)
 - [Ledger Python 3 Support](https://groups.google.com/forum/#!topic/ledger-cli/C99w-79Jq8o) Python
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) Python
 - [hledger-lib](http://hackage.haskell.org/package/hledger-lib),

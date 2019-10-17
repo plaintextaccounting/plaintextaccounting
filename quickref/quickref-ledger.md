@@ -2,7 +2,7 @@
 
 # Ledger
 
-http://ledger-cli.org/3.0/doc/ledger3.html#Journal-Format  
+https://www.ledger-cli.org/3.0/doc/ledger3.html#Journal-Format  
 http://ricostacruz.com/cheatsheets/ledger.html  
 
 ## Basic example
