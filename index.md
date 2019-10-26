@@ -854,6 +854,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 
 - [Skip Oliva: Accounting in Plain Text, Part 1](https://cvillefoss.blog/2019/02/12/accounting-in-plain-text-part-1) 2019
 - [John Sullivan: Answering questions with accounting: Reimbursements](https://blog.johncs.com/posts/accounting-reimbursements.htm) 2019 <!-- 01/07 -->
+- [Michael Walker: Personal Finance](https://memo.barrucadu.co.uk/personal-finance.html) 2018-2019
 - [Felix Crux: Ledger Practices series](https://felixcrux.com/blog/ledger-practices) 2016-2018
 - [Zoran Zaric: Depreciation in Personal Finance with Hledger](http://rantsideasstuff.com/posts/2018/07/08-depreciation-in-personal-finance-with-hledger/) 2018 <!-- 7/4 -->
 - [Zoran Zaric: Tracking Investments in Lots with Hledger](http://rantsideasstuff.com/posts/2018/07/01-tracking-investments-in-lots-with-hledger/) 2018 <!-- 7/1 -->
