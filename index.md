@@ -754,9 +754,9 @@ Note these often work quite well for other ledger-likes, not just the one they a
 ##### VIM
   </div>
 
-  [hledger-vim](https://github.com/anekos/hledger-vim)
+  [vim-ledger](https://github.com/ledger/vim-ledger) (supports ledger & hledger)
 , [vim-beancount](https://github.com/nathangrigg/vim-beancount)
-, [vim-ledger](https://github.com/ledger/vim-ledger)
+, [hledger-vim](https://github.com/anekos/hledger-vim)
 
  </div> <!-- row -->
  <div class="row">
