@@ -735,8 +735,8 @@ Note these often work quite well for other ledger-likes, not just the one they a
 ##### Atom
   </div>
 
-  [language-ledger](https://atom.io/packages/language-ledger)
-, [ledger](https://atom.io/packages/ledger)
+  [language-ledger](https://atom.io/packages/language-ledger),
+  [ledger](https://atom.io/packages/ledger)
 
  </div> <!-- row -->
  <div class="row">
@@ -744,9 +744,9 @@ Note these often work quite well for other ledger-likes, not just the one they a
 ##### Emacs
   </div>
 
-  [beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default)
-, [hledger-mode](https://github.com/narendraj9/hledger-mode)
-, [ledger-mode](https://www.ledger-cli.org/3.0/doc/ledger-mode.html) (also works for hledger, beancount etc.)
+  [beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default),
+  [hledger-mode](https://github.com/narendraj9/hledger-mode),
+  [ledger-mode](https://www.ledger-cli.org/3.0/doc/ledger-mode.html) (also works for hledger, beancount etc.)
 
  </div> <!-- row -->
  <div class="row">
@@ -754,9 +754,9 @@ Note these often work quite well for other ledger-likes, not just the one they a
 ##### VIM
   </div>
 
+  [vim-ledger](https://github.com/ledger/vim-ledger) (supports ledger & hledger),
+  [vim-beancount](https://github.com/nathangrigg/vim-beancount),
   [hledger-vim](https://github.com/anekos/hledger-vim)
-, [vim-beancount](https://github.com/nathangrigg/vim-beancount)
-, [vim-ledger](https://github.com/ledger/vim-ledger)
 
  </div> <!-- row -->
  <div class="row">
@@ -780,9 +780,9 @@ Note these often work quite well for other ledger-likes, not just the one they a
 ##### VS&nbsp;Code
   </div>
 
-  [hledger-vscode](https://github.com/mhansen/hledger-vscode)
-, [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger)
-, [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
+  [hledger-vscode](https://github.com/mhansen/hledger-vscode),
+  [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger),
+  [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
 
 </div> <!-- section -->
 
