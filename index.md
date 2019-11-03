@@ -437,14 +437,14 @@ getting-started.md
 
  <div class="row">
   <div class="three columns u-pull-left">
-##### mail&nbsp;lists/IRC
+##### mail&nbsp;lists/IRC<br><br>
   </div>
-
-[#plaintextaccounting],
-[project mail lists/chats](#plain-text-accounting-tools)
+<span style="white-space:nowrap;">[#plaintextaccounting] on Freenode IRC,</span>
+<span style="white-space:nowrap;"><a href="https://matrix.to/#/#freenode_#plaintextaccounting:matrix.org">#freenode_#plaintextaccounting:matrix.org</a> on Matrix,</span>
+<span style="white-space:nowrap;">[project-specific mail lists/chats](#plain-text-accounting-apps)</span>
 
 [#plaintextaccounting]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#plaintextaccounting
-(<a href="https://matrix.to/#/#freenode_#plaintextaccounting:matrix.org">#freenode_#plaintextaccounting:matrix.org</a> on Matrix)
+
 
  </div> <!-- row -->
  <div class="row">
