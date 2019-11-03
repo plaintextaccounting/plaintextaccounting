@@ -11,7 +11,7 @@ PANDOC=pandoc -f markdown-smart+autolink_bare_uris
 	$(PANDOC) --template index.tmpl $< -o $@
 
 # regenerate html whenever an md file changes
-html-auto:
+html-auto auto:
 	ls *.md | entr make html
 
 BROWSE=open
@@ -22,7 +22,7 @@ LIVERELOAD=livereloadx -p $(LIVERELOADPORT) -s
   # A reload happens at the end when the css/js files get copied.
 
 # Auto-regenerate html, and watch changes in a new browser window.
-html-watch:
+html-watch watch:
 	make html-auto &
 	(sleep 1; $(BROWSE) http://localhost:$(LIVERELOADPORT)/) &
 	$(LIVERELOAD) .
