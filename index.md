@@ -444,6 +444,7 @@ getting-started.md
 [project mail lists/chats](#plain-text-accounting-tools)
 
 [#plaintextaccounting]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#plaintextaccounting
+(<a href="https://matrix.to/#/#freenode_#plaintextaccounting:matrix.org">#freenode_#plaintextaccounting:matrix.org</a> on Matrix)
 
  </div> <!-- row -->
  <div class="row">
