@@ -644,6 +644,7 @@ Next, related add-ons and helpers by category
 - [bean-price](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c) Beancount's price fetching tool (python)
 - [DepreciateForLedger](https://github.com/tazzben/DepreciateForLedger) generate *ledger depreciation transactions (python)
 - [hledger-interest](http://hackage.haskell.org/package/hledger-interest) generate *ledger interest entries (haskell)
+- [ladd](https://github.com/ninewise/dotfiles/blob/master/local/bin/ladd) generate and edit a new *ledger transaction by fuzzy-matching past descriptions
 - [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices (ruby)
 - [ledgerbil](https://github.com/scarpent/ledgerbil) schedule recurring txns, interactive reconcile, date sorting
 - [LedgerScheduler](https://github.com/tazzben/LedgerScheduler) move entries from one file to another when they come due (python)
