@@ -119,7 +119,7 @@ It can [reduce stress](http://podcastle.org/2009/10/09/pc-miniature-38-accountin
 ##### What is Plain Text Accounting?
 
 In 2003, John Wiegley invented Ledger: 
-a command-line reporting tool and a plain text data format and for efficient double-entry-style accounting.
+a command-line reporting tool and a plain text data format for efficient double-entry-style accounting.
 Ledger's ideas appealed to many software developers and technical folk.
 In 2007 and 2008 it was joined by hledger and Beancount respectively,
 and as of 2019 there are more than a dozen [Ledger-likes](#plain-text-accounting-apps),
