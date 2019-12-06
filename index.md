@@ -877,7 +877,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [Michael Walker: Visualise your finances with hledger, InfluxDB, and Grafana](https://www.barrucadu.co.uk/posts/etc/2017-05-18-visualise-your-finances-with-hledger-influxdb-grafana.html) 2017<!-- 5/18 -->
 - [Brady Trainor: Hledger web](https://bradyt.com/2017/04/28/Hledger-web/) 2017<!-- /4/28 -->
 - [Karan Ahuja: Hledger Improvements Wishlist.](http://www.karanahuja.in/2016-05-17-Hledger-Improvements-Wishlist/) 2016<!-- /5/17 -->
-- [Alex Johnstone: Managing my personal finances with beancount](https://alexjj.com/blog/2016/2/managing-my-personal-finances-with-beancount/) 2016<!-- /2/27 -->
+- [Alex Johnstone: Managing my personal finances with beancount](https://alexjj.com/blog/2016/managing-my-personal-finances-with-beancount/) 2016<!-- /2/27 -->
 - [Stefano Rodighiero: hledger-dupes](http://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html) 2015<!-- /1/4 -->
 - [Matthew Turland: Ledger basics and habits](http://matthewturland.com/2014/03/29/ledger-basics-and-habits/) 2014<!-- /3/29 -->
 - [Simon Michael: What is hledger?](http://joyful.com/blog/2013-10-20-what-is-hledger.html) 2013<!-- /10/20 -->
