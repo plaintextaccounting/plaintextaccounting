@@ -854,6 +854,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 ### articles & blog posts
 <!-- "series" are positioned by most recent post date; their individual posts can be linked elsewhere if appropriate -->
 
+- [Justin Kaipada: Managing Ledger for Humans](https://www.kaipada.com/post/managing-ledger-for-humans/) 2019 <!-- 11/25 -->
 - [Amitai Burstein: Why We Chose Plain Text Accounting with Hledger](https://www.gizra.com/content/plain-text-accounting-hledger) 2019 <!-- 11/21 -->
 - [S.M. Oliva: Accounting in Plain Text, Part 3](https://cvillefoss.blog/2019/03/25/accounting-in-plain-text-part-3/) 2019 <!-- 3/25 -->
 - [S.M. Oliva: Accounting in Plain Text, Part 2](https://cvillefoss.blog/2019/02/26/accounting-in-plain-text-part-2/) 2019 <!-- 2/26 -->
