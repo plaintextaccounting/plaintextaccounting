@@ -646,6 +646,7 @@ Next, related add-ons and helpers by category
 - [LedgerScheduler](https://github.com/tazzben/LedgerScheduler) move entries from one file to another when they come due (python)
 - [market-prices](https://github.com/barrucadu/hledger-scripts#market-prices) download market prices from several sources (python)
 - [recurring](http://hub.darcs.net/simon/ledgertools/browse/recurring) generate recurring *ledger entries (python)
+- [reorder-journal.sh](https://github.com/amitaibu/hledger-example/blob/master/reorder-journal.sh) sort hledger entries, preserving directives/comments at top of file (bash)
 - [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
 
 ### reports
@@ -853,6 +854,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 ### articles & blog posts
 <!-- "series" are positioned by most recent post date; their individual posts can be linked elsewhere if appropriate -->
 
+- [Amitai Burstein: Why We Chose Plain Text Accounting with Hledger](https://www.gizra.com/content/plain-text-accounting-hledger) 2019 <!-- 11/21 -->
 - [S.M. Oliva: Accounting in Plain Text, Part 3](https://cvillefoss.blog/2019/03/25/accounting-in-plain-text-part-3/) 2019 <!-- 3/25 -->
 - [S.M. Oliva: Accounting in Plain Text, Part 2](https://cvillefoss.blog/2019/02/26/accounting-in-plain-text-part-2/) 2019 <!-- 2/26 -->
 - [S.M. Oliva: Accounting in Plain Text, Part 1.5](https://cvillefoss.blog/2019/02/19/accounting-in-plain-text-part-1-5) 2019 <!-- 2/19 -->
