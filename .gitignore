@@ -1,3 +1,5 @@
 .idea/
 .vendor/
 README.html
+.*
+_*
