@@ -949,24 +949,25 @@ Note these often work quite well for other ledger-likes, not just the one they a
 
 ### budgeting
 
-Budget reporting with Ledger's/hledger's periodic transactions:
+Budget reporting with periodic transactions:
 
 - [Ledger: Budgeting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting)
 - [hledger: Budget report](https://hledger.org/hledger.html#budget-report)
 - [hledger: Budgeting and forecasting](https://hledger.org/budgeting-and-forecasting.html)
+- [reddit: simple year budget](https://www.reddit.com/r/plaintextaccounting/comments/e5sl1m/advice_on_projectionsforecasts/)
 
 Envelope budgeting with ordinary accounts:
 
 - [Michael Walker: I Need A Budget](https://www.barrucadu.co.uk/posts/etc/2017-12-16-i-need-a-budget.html)
 - [Simon Michael: envelope budgeting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
 
-Envelope budgeting with Ledger's automated postings:
+Envelope budgeting with auto postings:
 
 - [bsilvereagle: Envelope Budgeting with ledger](https://frdmtoplay.com/envelope-budgeting-with-ledger)
 - [Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting)
 - [Marcin Borkowski: Ledger – virtual postings aka envelopes](http://mbork.pl/2016-07-18_Ledger_–_virtual_postings_aka_envelopes)
 
-Envelope budgeting with automated postings, org & babel:
+Envelope budgeting with auto postings, org & babel:
 
 - [Org tutorials: Weaving a budget with Org & ledger](http://orgmode.org/worg/org-tutorials/weaving-a-budget.html)
 - [Alan Schmitt: Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
