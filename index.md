@@ -421,12 +421,9 @@ https://www.reddit.com/r/plaintextaccounting/comments/dbjizl/how_big_is_your_led
 See [budgeting](#budgeting) below. I emulate YNAB-ish envelope budgetting (see third link).
 
 <!-- 
-TODO
-
-##### How to get started ?
+TODO ##### How to get started ?
 
 getting-started.md
-
 -->
 
 </div> <!-- section -->
