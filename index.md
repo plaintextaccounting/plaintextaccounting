@@ -853,7 +853,10 @@ Note these often work quite well for other ledger-likes, not just the one they a
 ### articles & blog posts
 <!-- "series" are positioned by most recent post date; their individual posts can be linked elsewhere if appropriate -->
 
-- [Skip Oliva: Accounting in Plain Text, Part 1](https://cvillefoss.blog/2019/02/12/accounting-in-plain-text-part-1) 2019
+- [S.M. Oliva: Accounting in Plain Text, Part 3](https://cvillefoss.blog/2019/03/25/accounting-in-plain-text-part-3/) 2019 <!-- 3/25 -->
+- [S.M. Oliva: Accounting in Plain Text, Part 2](https://cvillefoss.blog/2019/02/26/accounting-in-plain-text-part-2/) 2019 <!-- 2/26 -->
+- [S.M. Oliva: Accounting in Plain Text, Part 1.5](https://cvillefoss.blog/2019/02/19/accounting-in-plain-text-part-1-5) 2019 <!-- 2/19 -->
+- [S.M. Oliva: Accounting in Plain Text, Part 1](https://cvillefoss.blog/2019/02/12/accounting-in-plain-text-part-1) 2019 <!-- 2/12 -->
 - [John Sullivan: Answering questions with accounting: Reimbursements](https://blog.johncs.com/posts/accounting-reimbursements.htm) 2019 <!-- 01/07 -->
 - [Michael Walker: Personal Finance](https://memo.barrucadu.co.uk/personal-finance.html) 2018-2019
 - [Felix Crux: Ledger Practices series](https://felixcrux.com/blog/ledger-practices) 2016-2018
@@ -862,10 +865,10 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [LWN: Counting beans - and more - with Beancount](https://lwn.net/SubscriberLink/751874/a38128abb72e45c5/) 2018 <!-- 4/19 -->
 - [Michael Walker: I Need A Budget](https://www.barrucadu.co.uk/posts/etc/2017-12-16-i-need-a-budget.html) 2017 <!-- /12/16 -->
 - [Accounting for the simple minds with plain text accounting](https://dustri.org/b/accounting-for-the-simple-minds-with-plain-text-accounting.html) 2017 <!-- 12/1 -->
-<!-- down 2018/03/14 - [S.M. Oliva: Inventory, Part I: Will It Probate?](https://commandlineprobate.com/post/003-inventory-part-1-will-it-probate/) 2017/8/31 -->
-<!-- down 2018/03/14  - [S.M. Oliva: A Simple First Account](https://commandlineprobate.com/post/002-a-simple-first-account/) 2017/7/31 -->
-<!-- down 2018/03/14  - [S.M. Oliva: The Basics of hledger](https://commandlineprobate.com/post/001-the-basics-of-hledger/) 2017/7/30 -->
-<!-- down 2018/03/14  - [S.M. Oliva: Introduction to Command Line Probate](https://commandlineprobate.com/post/000-introduction-to-command-line-probate/) 2017/7/5 -->
+- [S.M. Oliva: Inventory, Part I: Will It Probate?](https://clprobate.wordpress.com/2017/08/31/inventory-part-1-will-it-probate/) 2017  <!-- 8/31 -->
+- [S.M. Oliva: A Simple First Account](https://clprobate.wordpress.com/2017/07/30/a-simple-first-account/) 2017 <!-- 7/30 -->
+- [S.M. Oliva: The Basics of hledger](https://clprobate.wordpress.com/2017/07/30/the-basics-of-hledger) 2017 <!-- 7/30 -->
+- [S.M. Oliva: Introduction to Command Line Probate](https://clprobate.wordpress.com/2017/07/05/introduction-to-command-line-probate/) 2017 <!-- 7/5 -->
 - [LWN: Restarting the free accounting search](https://lwn.net/Articles/729088/) 2017 <!-- 7/28 -->
 - [Michael Walker: Visualise your finances with hledger, InfluxDB, and Grafana](https://www.barrucadu.co.uk/posts/etc/2017-05-18-visualise-your-finances-with-hledger-influxdb-grafana.html) 2017<!-- 5/18 -->
 - [Brady Trainor: Hledger web](https://bradyt.com/2017/04/28/Hledger-web/) 2017<!-- /4/28 -->
