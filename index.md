@@ -478,9 +478,9 @@ getting-started.md
 ##### stack&nbsp;exchange
   </div>
 
-[ledger](http://money.stackexchange.com/search?q=ledger-cli),
-[hledger](http://money.stackexchange.com/search?q=hledger)
-<!-- [beancount](http://money.stackexchange.com/search?q=beancount) -->
+[[ledger-cli]](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest) (["ledger-cli"](https://money.stackexchange.com/search?tab=newest&q=ledger-cli),
+[[hledger]](https://money.stackexchange.com/questions/tagged/hledger?tab=newest) (["hledger"](https://money.stackexchange.com/search?tab=newest&q=hledger)
+<!-- [beancount](https://money.stackexchange.com/search?tab=newest&q=beancount) -->
 
  </div> <!-- row -->
 </div> <!-- section -->
