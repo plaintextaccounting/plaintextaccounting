@@ -664,7 +664,8 @@ Next, related add-ons and helpers by category
 - [org2tc](https://github.com/jwiegley/org2tc) org to timeclock converter
 - [on-modify.timetrack.py](https://gist.github.com/wbsch/d977b0ac29aa1dfa4437) taskwarrior hook for timeclock output
 - [t](https://github.com/nuex/t) ledger timeclock shellscript
-- [tim](https://github.com/MatthiasKauer/tim) time logging and reporting tool using hledger
+- [tim](https://github.com/MatthiasKauer/tim) time logging/reporting tool using hledger
+- [timekeeping-template](https://github.com/bbarker/timekeeping-template) time logging/reporting examples/how-to using hledger
 
 ### UI, console
 
