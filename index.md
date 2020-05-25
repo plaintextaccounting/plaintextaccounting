@@ -505,7 +505,7 @@ Project        | Start | Last release | Code                        | Committers
 ---------------|-------|:------------:|-----------------------------|-----------:|------:|----------------------------------|----------------------
 [Ledger]       | 2003  | 2020-05      | [C++][ledger-gh]            | 160        |  3.3k | [ledger][ledger-mail], 922       | [#ledger], 80
 [hledger]      | 2007  | 2020-03      | [haskell][hledger-code]     | 122        |  1.4k | [hledger][hledger-mail], 175     | [#hledger], 100
-[Beancount]    | 2008  | 2019-01      | [python][beancount-bb]      | 40         |       | [beancount][beancount-mail], 261 | [#beancount], 20
+[Beancount]    | 2008  | 2019-08      | [python][beancount-gh]      | 40         |    39 | [beancount][beancount-mail], 377 | [#beancount], 20
 &nbsp;         |       |              |
 [Abandon]      | 2013  | 2017-05      | [scala][abandon-gh]         | 9          |  132  |                                  | [gitter][abandon-gi]
 [Transity]     | 2018  | 2018-09      | [purescript][transity-gh]   | 5          |  382  |                                  | [gitter][transity-gi]
@@ -533,7 +533,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [Beancount]: http://furius.ca/beancount
 [beancount-mail]: https://groups.google.com/forum/#!forum/beancount
 [#beancount]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#beancount
-[beancount-bb]: http://bitbucket.org/blais/beancount/
+[beancount-gh]: https://github.com/beancount/beancount/
 
 [beans]: https://sboehler.github.io/beans
 [beans-gh]: https://github.com/sboehler/beans
@@ -811,7 +811,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [Ledger CLI cheatsheet](https://devhints.io/ledger)
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
 - [hledger docs](https://hledger.org/sitemap.html)
-- [Beancount docs (google)](http://furius.ca/beancount/doc/index) / [(sphinx)](http://aumayr.github.io/beancount-docs-static/)
+- [Beancount docs](https://beancount.github.io/docs/) / [(google)](http://furius.ca/beancount/doc/index) / [(sphinx)](http://aumayr.github.io/beancount-docs-static/)
 - [Beancount: Command-line Accounting in Context](https://docs.google.com/document/d/1e4Vz3wZB_8-ZcAwIFde8X5CjzKshE4-OXtVVHm4RQ8s)
 - [Beancount: Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
 - [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
