@@ -35,6 +35,7 @@ allowing it to be served with the custom `plaintextaccounting.org` domain.
 6. Submit a pull request.
 
 [pandoc]: http://pandoc.org/installing.html
+[GNU Make]: https://www.gnu.org/software/make/
 
 ### How to get commit access
 
