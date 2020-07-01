@@ -511,6 +511,7 @@ Project        | Start | Last release | Code                        | Committers
 [Transity]     | 2018  | 2018-09      | [purescript][transity-gh]   | 5          |  382  |                                  | [gitter][transity-gi]
 [Ledger in Go] | 2013  | 2018-06      | [go][ledger-go-gh]          | 5          |  168  |                                  |
 cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4          |   50  |                                  | 
+rust_ledger    | 2019  | 2020-05      | [rust][rust_ledger-gh]      | 2          |   10  |                                  |
 [.Net Ledger]  | 2017  | 2018-08      | [C#][nledger-gh]            | 1          |   29  |                                  | [gitter][nledger-gi]
 [Tackler]      | 2017  | 2019-04      | [scala][tackler-gl]         | 1          |   18  |                                  | [gitter][tackler-gi]
 [beans]        | 2017  | 2019-01      | [haskell][beans-gh]         | 1          |   10  |                                  |
@@ -573,6 +574,8 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [prudent]: https://prudent.me
 [prudent-gh]: https://github.com/PrudentMe
 [prudent-chat]: https://twitter.com/PrudentLedger
+
+[rust_ledger-gh]: https://github.com/ebcrowder/rust_ledger
 
 [smalltalk-gh]: https://gist.github.com/simonmichael/bb611dba654ccb1573e1
 
