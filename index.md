@@ -505,7 +505,7 @@ Project        | Start | Last release | Code                        | Committers
 ---------------|-------|:------------:|-----------------------------|-----------:|------:|----------------------------------|----------------------
 [Ledger]       | 2003  | 2020-05      | [C++][ledger-gh]            | 162        |  3.4k | [ledger][ledger-mail], 922       | [#ledger], 80
 [hledger]      | 2007  | 2020-06      | [haskell][hledger-gh]       | 117        |  1.5k | [hledger][hledger-mail], 175     | [#hledger], 90
-[Beancount]    | 2008  | 2019-08      | [python][beancount-gh]      | 44         |   204 | [beancount][beancount-mail], 377 | [#beancount], 20
+[Beancount]    | 2008  | 2020-06      | [python][beancount-gh]      | 44         |   204 | [beancount][beancount-mail], 377 | [#beancount], 20
 &nbsp;         |       |              |
 Abandon        | 2013  | 2019-09      | [scala][abandon-gh]         | 11         |   151 |                                  | [gitter][abandon-gitter]
 Transity       | 2018  | 2019-05      | [purescript][transity-gh]   | 7          |   472 |                                  | [gitter][transity-gitter]
