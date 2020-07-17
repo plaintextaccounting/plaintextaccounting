@@ -512,7 +512,6 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | Ledger in Go  | 2013  | 2019-11      | [go][ledger-in-go-gh]                            |          6 |   221 |                                  |                                 |
 | cl-ledger     | 2007  |              | [common lisp][cl-ledger-gh]                      |          4 |    66 |                                  |                                 |
 | rust\_ledger  | 2019  | 2020-05      | [rust][rust_ledger-gh]                           |          2 |    15 |                                  |                                 |
-| &nbsp;        |       |              |                                                  |            |       |                                  |                                 |
 | .Net Ledger   | 2017  | 2018-08      | [C#][nledger-gh]                                 |          1 |    67 |                                  | [gitter][nledger-gitter]        |
 | [beans]       | 2017  | 2019-02      | [haskell][beans-gh]                              |          1 |    20 |                                  |                                 |
 | goledger      | 2019  |              | [go][goledger-gh]                                |          1 |    13 |                                  |                                 |
