@@ -508,14 +508,14 @@ Project        | Start | Last release | Code                        | Committers
 [Beancount]    | 2008  | 2019-08      | [python][beancount-gh]      | 44         |   204 | [beancount][beancount-mail], 377 | [#beancount], 20
 &nbsp;         |       |              |
 Abandon        | 2013  | 2019-09      | [scala][abandon-gh]         | 11         |   151 |                                  | [gitter][abandon-gi]
-[Transity]     | 2018  | 2019-05      | [purescript][transity-gh]   | 7          |   472 |                                  | [gitter][transity-gi]
+Transity       | 2018  | 2019-05      | [purescript][transity-gh]   | 7          |   472 |                                  | [gitter][transity-gi]
 Ledger in Go   | 2013  | 2019-11      | [go][ledger-in-go-gh]       | 6          |   221 |                                  |
 cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4          |    66 |                                  | 
 rust_ledger    | 2019  | 2020-05      | [rust][rust_ledger-gh]      | 2          |    15 |                                  |
 &nbsp;         |       |              |
-[.Net Ledger]  | 2017  | 2018-08      | [C#][nledger-gh]            | 1          |    67 |                                  | [gitter][nledger-gi]
+.Net Ledger    | 2017  | 2018-08      | [C#][nledger-gh]            | 1          |    67 |                                  | [gitter][nledger-gi]
 [beans]        | 2017  | 2019-02      | [haskell][beans-gh]         | 1          |    20 |                                  |
-[goledger]     | 2019  |              | [go][goledger-gh]           | 1          |    13 | 
+goledger       | 2019  |              | [go][goledger-gh]           | 1          |    13 | 
 [monescript]   | 2017  | 2018-01      | [javascript][monescript-gh] | 1          |    12 |                                  |
 [Tackler]      | 2017  | 2019-09      | [scala][tackler-gl]         | 1          |     6 |                                  | [gitter][tackler-gi]
 [acc]          | 2020  |              | [rust][acc-gh]              | 1          |     1 |                                  |
@@ -525,7 +525,7 @@ rust_ledger    | 2019  | 2020-05      | [rust][rust_ledger-gh]      | 2         
 uledger        | 2015  |              | [python][uledger-gh]
 pacioli        | 2013  |              | [python][pacioli-gh]
 ledger.pl      | 2013  |              | [perl][ledger.pl-gh]
-[Penny]        | 2012  | 2014         | [haskell][penny-gh]
+Penny          | 2012  | 2014         | [haskell][penny-gh]
 [UMM]          | 2009  | 2010         | [haskell][UMM]
 sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 
@@ -536,28 +536,27 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 
 [Beancount]: http://furius.ca/beancount
 [Beancount2]: https://beancount.github.io
+[beancount-gh]: https://github.com/beancount/beancount/
 [beancount-mail]: https://groups.google.com/forum/#!forum/beancount
 [#beancount]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#beancount
-[beancount-gh]: https://github.com/beancount/beancount/
 
 [beans]: https://sboehler.github.io/beans
 [beans-gh]: https://github.com/sboehler/beans
 
 [cl-ledger-gh]: https://github.com/ledger/cl-ledger
 
-[goledger]: https://github.com/mescanne/goledger
 [goledger-gh]: https://github.com/mescanne/goledger
 
 [hledger]: https://hledger.org
-[hledger-mail]: http://mail.hledger.org/
-[#hledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger
 [hledger-gh]: https://github.com/simonmichael/hledger
 [hledger-code]: http://code.hledger.org
+[hledger-mail]: http://mail.hledger.org/
+[#hledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger
 
 [Ledger]: https://www.ledger-cli.org
+[ledger-gh]: https://github.com/ledger/ledger
 [#ledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#ledger
 [ledger-mail]: http://list.ledger-cli.org/
-[ledger-gh]: https://github.com/ledger/ledger
 
 [ledger-in-go-gh]: https://github.com/howeyc/ledger
 
@@ -566,13 +565,11 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [monescript]: https://monescript.github.io/
 [monescript-gh]: https://github.com/monescript/monescript
 
-[.Net Ledger]: https://github.com/dmitry-merzlyakov/nledger
 [nledger-gh]: https://github.com/dmitry-merzlyakov/nledger
 [nledger-gi]: https://gitter.im/nledger/lobby
 
 [pacioli-gh]: https://github.com/mdipierro/pacioli
 
-[Penny]: http://massysett.github.io/penny/
 [penny-gh]: https://github.com/massysett/penny
 
 [prudent]: https://prudent.me
@@ -587,9 +584,9 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [tackler-gl]: https://gitlab.com/e257/accounting/tackler
 [tackler-gi]: https://gitter.im/E257-FI/tackler
 
-[Transity]: https://www.feram.io/transity
 [transity-gh]: https://github.com/feramhq/transity
 [transity-gi]: https://gitter.im/feramhq/transity
+[transity-demo]: https://www.feram.io/transity
 
 [uledger-gh]: https://github.com/danpat/uledger
 
