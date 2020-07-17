@@ -519,7 +519,7 @@ goledger       | 2019  |              | [go][goledger-gh]           | 1         
 [monescript]   | 2017  | 2018-01      | [javascript][monescript-gh] | 1          |    12 |                                  |
 Tackler        | 2017  | 2019-09      | [scala][tackler-gl]         | 1          |     6 |                                  | [gitter][tackler-gitter]
 acc            | 2020  |              | [rust][acc-gh]              | 1          |     1 |                                  |
-[Prudent]      | 2018  |              | javascript, non-FOSS ([addons][prudent-gh])|1|   |                                  | [\@PrudentLedger][prudent-chat]
+[Prudent]      | 2018  |              | javascript, closed-source ([addons][prudent-gh])|1||                                | [\@PrudentLedger][prudent-chat]
 &nbsp;         |       |              |
 **Inactive:**  |       |              |
 uledger        | 2015  |              | [python][uledger-gh]
