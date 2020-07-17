@@ -498,26 +498,28 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 ### plain text accounting apps
 
 <!-- syntax: http://pandoc.org/README.html#tables -->
-<!-- actives sorted by committers, inactives sorted by start -->
+<!-- actives sorted by committers+other community size/activity signals; inactives sorted by start -->
 <!-- with leading |'s markdown-mode can realign table with TAB but screws it up again with fontification -->
 
 Project        | Start | Last release | Code                        | Committers | Stars | Mail list, size                  | Chat, size
 ---------------|-------|:------------:|-----------------------------|-----------:|------:|----------------------------------|----------------------
-[Ledger]       | 2003  | 2020-05      | [C++][ledger-gh]            | 160        |  3.3k | [ledger][ledger-mail], 922       | [#ledger], 80
-[hledger]      | 2007  | 2020-06      | [haskell][hledger-code]     | 124        |  1.4k | [hledger][hledger-mail], 175     | [#hledger], 90
-[Beancount]    | 2008  | 2019-08      | [python][beancount-gh]      | 40         |    39 | [beancount][beancount-mail], 377 | [#beancount], 20
+[Ledger]       | 2003  | 2020-05      | [C++][ledger-gh]            | 162        |  3.4k | [ledger][ledger-mail], 922       | [#ledger], 80
+[hledger]      | 2007  | 2020-06      | [haskell][hledger-gh]       | 117        |  1.5k | [hledger][hledger-mail], 175     | [#hledger], 90
+[Beancount]    | 2008  | 2019-08      | [python][beancount-gh]      | 44         |   204 | [beancount][beancount-mail], 377 | [#beancount], 20
 &nbsp;         |       |              |
-[Abandon]      | 2013  | 2017-05      | [scala][abandon-gh]         | 9          |  132  |                                  | [gitter][abandon-gi]
-[Transity]     | 2018  | 2018-09      | [purescript][transity-gh]   | 5          |  382  |                                  | [gitter][transity-gi]
-[Ledger in Go] | 2013  | 2018-06      | [go][ledger-go-gh]          | 5          |  168  |                                  |
-cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4          |   50  |                                  | 
-rust_ledger    | 2019  | 2020-05      | [rust][rust_ledger-gh]      | 2          |   10  |                                  |
-[.Net Ledger]  | 2017  | 2018-08      | [C#][nledger-gh]            | 1          |   29  |                                  | [gitter][nledger-gi]
-[Tackler]      | 2017  | 2019-04      | [scala][tackler-gl]         | 1          |   18  |                                  | [gitter][tackler-gi]
-[beans]        | 2017  | 2019-01      | [haskell][beans-gh]         | 1          |   10  |                                  |
-[monescript]   | 2017  | 2018-01      | [javascript][monescript-gh] | 1          |    3  |                                  |
-[Prudent]      | 2018  |              | javascript ([addons][prudent-gh]) | 1          |       |                                  | [\@PrudentLedger][prudent-chat]
-[goledger]     | 2019  | 2019-09      | [go][goledger-gh] | 1          |                | 
+Abandon        | 2013  | 2019-09      | [scala][abandon-gh]         | 11         |   151 |                                  | [gitter][abandon-gi]
+[Transity]     | 2018  | 2019-05      | [purescript][transity-gh]   | 7          |   472 |                                  | [gitter][transity-gi]
+Ledger in Go   | 2013  | 2019-11      | [go][ledger-in-go-gh]       | 6          |   221 |                                  |
+cl-ledger      | 2007  |              | [common lisp][cl-ledger-gh] | 4          |    66 |                                  | 
+rust_ledger    | 2019  | 2020-05      | [rust][rust_ledger-gh]      | 2          |    15 |                                  |
+&nbsp;         |       |              |
+[.Net Ledger]  | 2017  | 2018-08      | [C#][nledger-gh]            | 1          |    67 |                                  | [gitter][nledger-gi]
+[beans]        | 2017  | 2019-02      | [haskell][beans-gh]         | 1          |    20 |                                  |
+[goledger]     | 2019  |              | [go][goledger-gh]           | 1          |    13 | 
+[monescript]   | 2017  | 2018-01      | [javascript][monescript-gh] | 1          |    12 |                                  |
+[Tackler]      | 2017  | 2019-09      | [scala][tackler-gl]         | 1          |     6 |                                  | [gitter][tackler-gi]
+[acc]          | 2020  |              | [rust][acc-gh]              | 1          |     1 |                                  |
+[Prudent]      | 2018  |              | javascript, non-FOSS ([addons][prudent-gh])|1|   |                                  | [\@PrudentLedger][prudent-chat]
 &nbsp;         |       |              |
 **Inactive:**  |       |              |
 uledger        | 2015  |              | [python][uledger-gh]
@@ -527,11 +529,13 @@ ledger.pl      | 2013  |              | [perl][ledger.pl-gh]
 [UMM]          | 2009  | 2010         | [haskell][UMM]
 sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 
-[Abandon]: https://github.com/hrj/abandon#readme
 [abandon-gh]: https://github.com/hrj/abandon
 [abandon-gi]: https://gitter.im/hrj/abandon
 
+[acc-gh]: https://github.com/rudolfschmidt/acc
+
 [Beancount]: http://furius.ca/beancount
+[Beancount2]: https://beancount.github.io
 [beancount-mail]: https://groups.google.com/forum/#!forum/beancount
 [#beancount]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#beancount
 [beancount-gh]: https://github.com/beancount/beancount/
@@ -547,6 +551,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [hledger]: https://hledger.org
 [hledger-mail]: http://mail.hledger.org/
 [#hledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger
+[hledger-gh]: https://github.com/simonmichael/hledger
 [hledger-code]: http://code.hledger.org
 
 [Ledger]: https://www.ledger-cli.org
@@ -554,8 +559,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [ledger-mail]: http://list.ledger-cli.org/
 [ledger-gh]: https://github.com/ledger/ledger
 
-[Ledger in Go]: https://github.com/howeyc/ledger#readme
-[ledger-go-gh]: https://github.com/howeyc/ledger
+[ledger-in-go-gh]: https://github.com/howeyc/ledger
 
 [ledger.pl-gh]: https://github.com/dimonf/ledger.pl
 
@@ -583,7 +587,7 @@ sm-Ledger      | 2007  |              | [squeak smalltalk][smalltalk-gh]
 [tackler-gl]: https://gitlab.com/e257/accounting/tackler
 [tackler-gi]: https://gitter.im/E257-FI/tackler
 
-[Transity]: https://github.com/feramhq/transity#readme
+[Transity]: https://www.feram.io/transity
 [transity-gh]: https://github.com/feramhq/transity
 [transity-gi]: https://gitter.im/feramhq/transity
 

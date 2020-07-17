@@ -335,7 +335,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <p><a name="ledger-likes"></a></p>
 <h3 id="plain-text-accounting-apps">plain text accounting apps</h3>
 <!-- syntax: http://pandoc.org/README.html#tables -->
-<!-- actives sorted by committers, inactives sorted by start -->
+<!-- actives sorted by committers+other community size/activity signals; inactives sorted by start -->
 <!-- with leading |'s markdown-mode can realign table with TAB but screws it up again with fontification -->
 <table>
 <colgroup>
@@ -366,8 +366,8 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <td>2003</td>
 <td style="text-align: center;">2020-05</td>
 <td><a href="https://github.com/ledger/ledger">C++</a></td>
-<td style="text-align: right;">160</td>
-<td style="text-align: right;">3.3k</td>
+<td style="text-align: right;">162</td>
+<td style="text-align: right;">3.4k</td>
 <td><a href="http://list.ledger-cli.org/">ledger</a>, 922</td>
 <td><a href="https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#ledger">#ledger</a>, 80</td>
 </tr>
@@ -375,9 +375,9 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <td><a href="https://hledger.org">hledger</a></td>
 <td>2007</td>
 <td style="text-align: center;">2020-06</td>
-<td><a href="http://code.hledger.org">haskell</a></td>
-<td style="text-align: right;">124</td>
-<td style="text-align: right;">1.4k</td>
+<td><a href="https://github.com/simonmichael/hledger">haskell</a></td>
+<td style="text-align: right;">117</td>
+<td style="text-align: right;">1.5k</td>
 <td><a href="http://mail.hledger.org/">hledger</a>, 175</td>
 <td><a href="https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger">#hledger</a>, 90</td>
 </tr>
@@ -386,8 +386,8 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <td>2008</td>
 <td style="text-align: center;">2019-08</td>
 <td><a href="https://github.com/beancount/beancount/">python</a></td>
-<td style="text-align: right;">40</td>
-<td style="text-align: right;">39</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">204</td>
 <td><a href="https://groups.google.com/forum/#!forum/beancount">beancount</a>, 377</td>
 <td><a href="https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#beancount">#beancount</a>, 20</td>
 </tr>
@@ -402,32 +402,32 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <td></td>
 </tr>
 <tr class="odd">
-<td><a href="https://github.com/hrj/abandon#readme">Abandon</a></td>
+<td>Abandon</td>
 <td>2013</td>
-<td style="text-align: center;">2017-05</td>
+<td style="text-align: center;">2019-09</td>
 <td><a href="https://github.com/hrj/abandon">scala</a></td>
-<td style="text-align: right;">9</td>
-<td style="text-align: right;">132</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">151</td>
 <td></td>
 <td><a href="https://gitter.im/hrj/abandon">gitter</a></td>
 </tr>
 <tr class="even">
-<td><a href="https://github.com/feramhq/transity#readme">Transity</a></td>
+<td><a href="https://www.feram.io/transity">Transity</a></td>
 <td>2018</td>
-<td style="text-align: center;">2018-09</td>
+<td style="text-align: center;">2019-05</td>
 <td><a href="https://github.com/feramhq/transity">purescript</a></td>
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">382</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">472</td>
 <td></td>
 <td><a href="https://gitter.im/feramhq/transity">gitter</a></td>
 </tr>
 <tr class="odd">
-<td><a href="https://github.com/howeyc/ledger#readme">Ledger in Go</a></td>
+<td>Ledger in Go</td>
 <td>2013</td>
-<td style="text-align: center;">2018-06</td>
+<td style="text-align: center;">2019-11</td>
 <td><a href="https://github.com/howeyc/ledger">go</a></td>
-<td style="text-align: right;">5</td>
-<td style="text-align: right;">168</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">221</td>
 <td></td>
 <td></td>
 </tr>
@@ -437,7 +437,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <td style="text-align: center;"></td>
 <td><a href="https://github.com/ledger/cl-ledger">common lisp</a></td>
 <td style="text-align: right;">4</td>
-<td style="text-align: right;">50</td>
+<td style="text-align: right;">66</td>
 <td></td>
 <td></td>
 </tr>
@@ -447,69 +447,89 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <td style="text-align: center;">2020-05</td>
 <td><a href="https://github.com/ebcrowder/rust_ledger">rust</a></td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">10</td>
+<td style="text-align: right;">15</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
+<td> </td>
+<td></td>
+<td style="text-align: center;"></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td><a href="https://github.com/dmitry-merzlyakov/nledger">.Net Ledger</a></td>
 <td>2017</td>
 <td style="text-align: center;">2018-08</td>
 <td><a href="https://github.com/dmitry-merzlyakov/nledger">C#</a></td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">29</td>
+<td style="text-align: right;">67</td>
 <td></td>
 <td><a href="https://gitter.im/nledger/lobby">gitter</a></td>
-</tr>
-<tr class="odd">
-<td><a href="https://tackler.e257.fi">Tackler</a></td>
-<td>2017</td>
-<td style="text-align: center;">2019-04</td>
-<td><a href="https://gitlab.com/e257/accounting/tackler">scala</a></td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;">18</td>
-<td></td>
-<td><a href="https://gitter.im/E257-FI/tackler">gitter</a></td>
 </tr>
 <tr class="even">
 <td><a href="https://sboehler.github.io/beans">beans</a></td>
 <td>2017</td>
-<td style="text-align: center;">2019-01</td>
+<td style="text-align: center;">2019-02</td>
 <td><a href="https://github.com/sboehler/beans">haskell</a></td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">10</td>
+<td style="text-align: right;">20</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
+<td><a href="https://github.com/mescanne/goledger">goledger</a></td>
+<td>2019</td>
+<td style="text-align: center;"></td>
+<td><a href="https://github.com/mescanne/goledger">go</a></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">13</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
 <td><a href="https://monescript.github.io/">monescript</a></td>
 <td>2017</td>
 <td style="text-align: center;">2018-01</td>
 <td><a href="https://github.com/monescript/monescript">javascript</a></td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">3</td>
+<td style="text-align: right;">12</td>
 <td></td>
 <td></td>
 </tr>
+<tr class="odd">
+<td><a href="https://tackler.e257.fi">Tackler</a></td>
+<td>2017</td>
+<td style="text-align: center;">2019-09</td>
+<td><a href="https://gitlab.com/e257/accounting/tackler">scala</a></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6</td>
+<td></td>
+<td><a href="https://gitter.im/E257-FI/tackler">gitter</a></td>
+</tr>
 <tr class="even">
+<td>[acc]</td>
+<td>2020</td>
+<td style="text-align: center;"></td>
+<td><a href="https://github.com/rudolfschmidt/acc">rust</a></td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td><a href="https://prudent.me">Prudent</a></td>
 <td>2018</td>
 <td style="text-align: center;"></td>
-<td>javascript (<a href="https://github.com/PrudentMe">addons</a>)</td>
+<td>javascript, non-FOSS (<a href="https://github.com/PrudentMe">addons</a>)</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;"></td>
 <td></td>
 <td><a href="https://twitter.com/PrudentLedger">@PrudentLedger</a></td>
-</tr>
-<tr class="odd">
-<td><a href="https://github.com/mescanne/goledger">goledger</a></td>
-<td>2019</td>
-<td style="text-align: center;">2019-09</td>
-<td><a href="https://github.com/mescanne/goledger">go</a></td>
-<td style="text-align: right;">1</td>
-<td style="text-align: right;"></td>
-<td></td>
-<td></td>
 </tr>
 <tr class="even">
 <td> </td>
