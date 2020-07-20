@@ -309,7 +309,7 @@ create synergies such as:
    modelling and documenting real-world financial activities, without
    UI-imposed limitations.
 
-##### Why are the advantages over commercial accounting software, like QuickBooks?
+##### What are the advantages over commercial accounting software, like QuickBooks?
 In addition to the advantages above, being Free or Open Source software helps ensure:
 - No lockin - your data remains accessible, and there are no yearly fees.
 - You can fix, enhance and port the software.
