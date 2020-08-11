@@ -670,6 +670,7 @@ Next, related add-ons and helpers by category
 - [t](https://github.com/nuex/t) ledger timeclock shellscript
 - [tim](https://github.com/MatthiasKauer/tim) time logging/reporting tool using hledger
 - [timekeeping-template](https://github.com/bbarker/timekeeping-template) time logging/reporting examples/how-to using hledger
+- [tito](https://mostlyabsurd.com/files/tito) time logging bash scripts that avoid double clock-in
 
 ### UI, console
 
