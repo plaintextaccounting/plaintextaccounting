@@ -510,13 +510,14 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | Transity      | 2018  | 2019-05      | [purescript][transity-gh]                        |          7 |   472 |                                  | [gitter][transity-gitter]       |
 | Ledger in Go  | 2013  | 2019-11      | [go][ledger-in-go-gh]                            |          6 |   221 |                                  |                                 |
 | cl-ledger     | 2007  |              | [common lisp][cl-ledger-gh]                      |          4 |    66 |                                  |                                 |
-| rust\_ledger  | 2019  | 2020-05      | [rust][rust_ledger-gh]                           |          2 |    15 |                                  |                                 |
+| rust\_ledger  | 2019  | 2020-09      | [rust][rust_ledger-gh]                           |          2 |    18 |                                  |                                 |
 | .Net Ledger   | 2017  | 2018-08      | [C#][nledger-gh]                                 |          1 |    67 |                                  | [gitter][nledger-gitter]        |
 | [beans]       | 2017  | 2019-02      | [haskell][beans-gh]                              |          1 |    20 |                                  |                                 |
 | goledger      | 2019  |              | [go][goledger-gh]                                |          1 |    13 |                                  |                                 |
 | [monescript]  | 2017  | 2018-01      | [javascript][monescript-gh]                      |          1 |    12 |                                  |                                 |
 | Tackler       | 2017  | 2019-09      | [scala][tackler-gl]                              |          1 |     6 |                                  | [gitter][tackler-gitter]        |
 | acc           | 2020  |              | [rust][acc-gh]                                   |          1 |     1 |                                  |                                 |
+| bankroll      | 2020  | 2020-08      | [rust][bankroll-gl   ]                           |          2 |     1 |                                  |                                 |
 | [Prudent]     | 2018  |              | javascript, closed-source ([addons][prudent-gh]) |          1 |       |                                  | [\@PrudentLedger][prudent-chat] |
 | &nbsp;        |       |              |                                                  |            |       |                                  |                                 |
 | **Inactive:** |       |              |                                                  |            |       |                                  |                                 |
@@ -575,6 +576,8 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 [prudent-chat]: https://twitter.com/PrudentLedger
 
 [rust_ledger-gh]: https://github.com/ebcrowder/rust_ledger
+
+[bankroll-gl]: https://gitlab.com/dantuck/bankroll
 
 [smalltalk-gh]: https://gist.github.com/simonmichael/bb611dba654ccb1573e1
 
