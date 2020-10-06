@@ -504,7 +504,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | Project       | Start | Last release | Code                                             | Committers | Stars | Mail list, size                  | Chat, size                      |
 |---------------|-------|:------------:|--------------------------------------------------|-----------:|------:|----------------------------------|---------------------------------|
 | [Ledger]      | 2003  | 2020-05      | [C++][ledger-gh]                                 |        162 |  3.4k | [ledger][ledger-mail], 922       | [#ledger], 80                   |
-| [hledger]     | 2007  | 2020-06      | [haskell][hledger-gh]                            |        117 |  1.5k | [hledger][hledger-mail], 175     | [#hledger], 90                  |
+| [hledger]     | 2007  | 2020-09      | [haskell][hledger-gh]                            |        127 |  1.5k | [hledger][hledger-mail], 180     | [#hledger], 90                  |
 | [Beancount]   | 2008  | 2020-06      | [python][beancount-gh]                           |         44 |   204 | [beancount][beancount-mail], 377 | [#beancount], 20                |
 | Abandon       | 2013  | 2019-09      | [scala][abandon-gh]                              |         11 |   151 |                                  | [gitter][abandon-gitter]        |
 | Transity      | 2018  | 2019-05      | [purescript][transity-gh]                        |          7 |   472 |                                  | [gitter][transity-gitter]       |
