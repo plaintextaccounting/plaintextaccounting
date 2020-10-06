@@ -519,7 +519,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | acc           | 2020  |              | [rust][acc-gh]                                   |          1 |     1 |                                  |                                 |
 | bankroll      | 2020  | 2020-08      | [rust][bankroll-gl]                              |          2 |     1 |                                  |                                 |
 | [pta]         | 2020  | 2020-09      | perl                                             |          1 |       |                                  |                                 |
-| [Prudent]     | 2018  |              | javascript, closed-source ([addons][prudent-gh]) |          1 |       |                                  | [\@PrudentLedger][prudent-chat] |
+| [Prudent]     | 2018  |              | js (closed; [addons][prudent-gh]) |          1 |       |                                  | [\@PrudentLedger][prudent-chat] |
 | &nbsp;        |       |              |                                                  |            |       |                                  |                                 |
 | **Inactive:** |       |              |                                                  |            |       |                                  |                                 |
 | uledger       | 2015  |              | [python][uledger-gh]                             |            |       |                                  |                                 |
@@ -528,6 +528,13 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | Penny         | 2012  | 2014         | [haskell][penny-gh]                              |            |       |                                  |                                 |
 | UMM           | 2009  | 2010         | [haskell][UMM-hackage]                           |            |       |                                  |                                 |
 | sm-Ledger     | 2007  |              | [squeak smalltalk][smalltalk-gh]                 |            |       |                                  |                                 |
+| &nbsp;        |       |              |                                                  |            |       |                                  |                                 |
+| **See also:** |       |              |                                                  |            |       |                                  |                                 |
+| [plaintextaccounting.org] | |        |                                                  |            |       |                                  | [#plaintextaccounting], 50      |
+|                           | |        |                                                  |            |       |                                  | [/r/plaintextaccounting], 1773  |
+
+[plaintextaccounting.org]: https://plaintextaccounting.org
+[/r/plaintextaccounting]: https://www.reddit.com/r/plaintextaccounting
 
 [abandon-gh]: https://github.com/hrj/abandon
 [abandon-gitter]: https://gitter.im/hrj/abandon
