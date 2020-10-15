@@ -519,7 +519,8 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | acc           | 2020  |              | [rust][acc-gh]                                   |          1 |     1 |                                  |                                 |
 | bankroll      | 2020  | 2020-08      | [rust][bankroll-gl]                              |          2 |     1 |                                  |                                 |
 | [pta]         | 2020  | 2020-09      | perl                                             |          1 |       |                                  |                                 |
-| [Prudent]     | 2018  |              | js (closed; [addons][prudent-gh]) |          1 |       |                                  | [\@PrudentLedger][prudent-chat] |
+| [Prudent]     | 2018  |              | js (closed; [addons][prudent-gh])                |          1 |       |                                  | [\@PrudentLedger][prudent-chat] |
+| blossom       | 2020  |              | [F#][blossom-gh]                                 |          1 |       |                                  |                                 |
 | &nbsp;        |       |              |                                                  |            |       |                                  |                                 |
 | **Inactive:** |       |              |                                                  |            |       |                                  |                                 |
 | uledger       | 2015  |              | [python][uledger-gh]                             |            |       |                                  |                                 |
@@ -549,6 +550,8 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 
 [beans]: https://sboehler.github.io/beans
 [beans-gh]: https://github.com/sboehler/beans
+
+[blossom-gh]: https://github.com/blossom-hub/blossom
 
 [cl-ledger-gh]: https://github.com/ledger/cl-ledger
 
