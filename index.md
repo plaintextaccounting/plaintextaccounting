@@ -632,6 +632,7 @@ Next, related add-ons and helpers by category
 - [icsvledger](https://github.com/quentinsf/icsv2ledger) interactive CSV to *ledger converter (python)
 - [into-ledger](https://github.com/manishrjain/into-ledger) CSV to *ledger converter
 - [kmymoney2hledger](https://github.com/maridonkers/kmymoney2hledger) KMyMoney to *ledger converter (clojure)
+- [kmymoney2ledgers](https://github.com/isabekov/kmymoney2ledgers) KMyMoney to *ledger/beancount converter (python)
 - [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to *ledger conversion, deduplication
 - [ledger-guesser](https://github.com/j3k0/ledger-guesser) neural network for generating entries like past ones, can be used with ledger-autosync (javascript)
