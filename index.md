@@ -512,7 +512,6 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | cl-ledger     | 2007  |              | [common lisp][cl-ledger-gh]                      |          4 |    66 |                                  |                                 |
 | rust\_ledger  | 2019  | 2020-09      | [rust][rust_ledger-gh]                           |          2 |    18 |                                  |                                 |
 | .Net Ledger   | 2017  | 2018-08      | [C#][nledger-gh]                                 |          1 |    67 |                                  | [gitter][nledger-gitter]        |
-| [beans]       | 2017  | 2019-02      | [haskell][beans-gh]                              |          1 |    20 |                                  |                                 |
 | goledger      | 2019  |              | [go][goledger-gh]                                |          1 |    13 |                                  |                                 |
 | [monescript]  | 2017  | 2018-01      | [javascript][monescript-gh]                      |          1 |    12 |                                  |                                 |
 | Tackler       | 2017  | 2019-09      | [scala][tackler-gl]                              |          1 |     6 |                                  | [gitter][tackler-gitter]        |
@@ -521,8 +520,10 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | [pta]         | 2020  | 2020-09      | perl                                             |          1 |       |                                  |                                 |
 | [Prudent]     | 2018  |              | js (closed; [addons][prudent-gh])                |          1 |       |                                  | [\@PrudentLedger][prudent-chat] |
 | blossom       | 2020  |              | [F#][blossom-gh]                                 |          1 |       |                                  |                                 |
+| knut          | 2020  |              | [go][beans-gh]                                   |          1 |       |                                  |                                 |
 | &nbsp;        |       |              |                                                  |            |       |                                  |                                 |
 | **Inactive:** |       |              |                                                  |            |       |                                  |                                 |
+| [beans]       | 2019  | 2019         | [haskell][beans-gh]                              |            |       |                                  |                                 |
 | uledger       | 2015  |              | [python][uledger-gh]                             |            |       |                                  |                                 |
 | pacioli       | 2013  |              | [python][pacioli-gh]                             |            |       |                                  |                                 |
 | ledger.pl     | 2013  |              | [perl][ledger.pl-gh]                             |            |       |                                  |                                 |
@@ -562,6 +563,8 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 [hledger-code]: http://code.hledger.org
 [hledger-mail]: http://mail.hledger.org/
 [#hledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger
+
+[knut-gh]: https://github.com/sboehler/knut
 
 [Ledger]: https://www.ledger-cli.org
 [ledger-gh]: https://github.com/ledger/ledger
