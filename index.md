@@ -520,7 +520,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | [pta]         | 2020  | 2020-09      | perl                                             |          1 |       |                                  |                                 |
 | [Prudent]     | 2018  |              | js (closed; [addons][prudent-gh])                |          1 |       |                                  | [\@PrudentLedger][prudent-chat] |
 | blossom       | 2020  |              | [F#][blossom-gh]                                 |          1 |       |                                  |                                 |
-| knut          | 2020  |              | [go][beans-gh]                                   |          1 |       |                                  |                                 |
+| knut          | 2020  |              | [go][knut-gh]                                    |          1 |       |                                  |                                 |
 | &nbsp;        |       |              |                                                  |            |       |                                  |                                 |
 | **Inactive:** |       |              |                                                  |            |       |                                  |                                 |
 | [beans]       | 2019  | 2019         | [haskell][beans-gh]                              |            |       |                                  |                                 |
