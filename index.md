@@ -681,6 +681,7 @@ Next, related add-ons and helpers by category
 - [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](https://hledger.org/hledger.html#roi)) (haskell)
 - [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive tool for making GNUplot charts from Ledger (python)
 - [ledger-plots](https://github.com/esovetkin/ledger-plots) R package & script to make charts from Ledger (R)
+- [ludget](https://pypi.org/project/ludget) generate charts from Ledger (python)
 - [r-ledger](https://github.com/trevorld/r-ledger) an R package for reading and reporting on ledger/hledger/beancount files (R)
 - [TaxingLots](https://framagit.org/jkepler/TaxingLots) calculates capital gains for a ledger journal (python)
 
