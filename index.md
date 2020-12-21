@@ -1058,28 +1058,35 @@ Note these often work quite well for other ledger-likes, not just the one they a
 
 ### budgeting
 
-Budgeting with per-period goals:
+**Periodic budgeting: setting per-period goals**
 
 - [Ledger: Budgeting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting)
-- [hledger: Budgeting](https://hledger.org/budgeting.html)
-- [reddit: simple year budget](https://www.reddit.com/r/plaintextaccounting/comments/e5sl1m/advice_on_projectionsforecasts/)
+- [hledger: Budget report](https://hledger.org/hledger.html#budget-report)
+- [reddit: simple yearly budget example](https://www.reddit.com/r/plaintextaccounting/comments/e5sl1m/advice_on_projectionsforecasts/)
+- [hledger: Budgeting and forecasting: Periodic budget](https://hledger.org/budgeting-and-forecasting.html#periodic-budget)
 
-Budgeting with envelope accounts:
+**Envelope budgeting: pre-allocating funds**
 
 - [Michael Walker: I Need A Budget](https://www.barrucadu.co.uk/posts/etc/2017-12-16-i-need-a-budget.html)
 - [Simon Michael: envelope budgeting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
+- [hledger: Budgeting and forecasting: Envelope budget](https://hledger.org/budgeting-and-forecasting.html#envelope-budget)
 
-Envelope budgeting with auto postings:
+**Envelope budgeting with auto postings**
 
-- [Budgeting with ledger-cli while tracking used points](https://fransiska.github.io/ledger/2019/10/24/ledger-budget-point) <!-- 2019/10/24 -->
+- [fransiska: Budgeting with ledger-cli while tracking used points](https://fransiska.github.io/ledger/2019/10/24/ledger-budget-point) <!-- 2019/10/24 -->
+- [Mykola Orliuk: Budgeting with hledger](https://gist.github.com/ony/bbec599c0893e676b772559909b81de6) <!-- 2017/1/14 -->
 - [bsilvereagle: Envelope Budgeting with ledger](https://frdmtoplay.com/envelope-budgeting-with-ledger) <!-- 2016/10/28 -->
 - [Marcin Borkowski: Ledger – virtual postings aka envelopes](http://mbork.pl/2016-07-18_Ledger_–_virtual_postings_aka_envelopes) <!-- 2016/7/18 -->
 - [Pete Keen: Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting) <!-- 2015/4/7 -->
 
-Envelope budgeting with auto postings, org-mode and babel:
+**Envelope budgeting with auto postings, org-mode and babel**
 
 - [Org tutorials: Weaving a budget with Org & ledger](http://orgmode.org/worg/org-tutorials/weaving-a-budget.html)
 - [Alan Schmitt: Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
+
+**More links**
+
+- [hledger: Budgeting](https://hledger.org/budgeting.html)
 
 
 ### forecasting
