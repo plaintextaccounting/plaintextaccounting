@@ -679,6 +679,7 @@ Next, related add-ons and helpers by category
 
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals (haskell)
 - [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](https://hledger.org/hledger.html#roi)) (haskell)
+- [hreports](https://pypi.org/project/hreports) save custom reports and PDF templates (python)
 - [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive tool for making GNUplot charts from Ledger (python)
 - [ledger-plots](https://github.com/esovetkin/ledger-plots) R package & script to make charts from Ledger (R)
 - [ludget](https://pypi.org/project/ludget) generate charts from Ledger (python)
