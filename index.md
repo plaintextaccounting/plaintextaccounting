@@ -1084,8 +1084,9 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [Org tutorials: Weaving a budget with Org & ledger](http://orgmode.org/worg/org-tutorials/weaving-a-budget.html)
 - [Alan Schmitt: Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
 
-**More links**
+**More**
 
+- [hledger: annotated example budget journals](https://github.com/simonmichael/hledger/tree/master/examples/budgeting)
 - [hledger: Budgeting](https://hledger.org/budgeting.html)
 
 
