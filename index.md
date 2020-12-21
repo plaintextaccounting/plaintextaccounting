@@ -1057,8 +1057,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 Budget reporting with periodic transactions:
 
 - [Ledger: Budgeting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting)
-- [hledger: Budget report](https://hledger.org/hledger.html#budget-report)
-- [hledger: Budgeting and forecasting](https://hledger.org/budgeting-and-forecasting.html)
+- [hledger: Budgeting](https://hledger.org/budgeting.html)
 - [reddit: simple year budget](https://www.reddit.com/r/plaintextaccounting/comments/e5sl1m/advice_on_projectionsforecasts/)
 
 Envelope budgeting with ordinary accounts:
