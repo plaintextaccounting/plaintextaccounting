@@ -1058,6 +1058,13 @@ Note these often work quite well for other ledger-likes, not just the one they a
 
 ### budgeting
 
+*The purpose of a budget is to help thy purse to fatten.
+It is to assist thee to have thy necessities, and insofar as attainable, thy other desires.
+It is to enable thee to realise thy most cherished desires, by defending them from thy casual wishes.
+Like a bright light in a dark cave, thy budget shows up the leaks from thy purse,
+and enables thee to stop them and control thy expenditures for definite and gratifying purposes.
+-- The Richest Man in Babylon*
+
 **Periodic budgeting: setting per-period goals**
 
 - [Ledger: Budgeting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting)
