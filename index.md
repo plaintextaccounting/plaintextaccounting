@@ -418,7 +418,7 @@ For individual accounting, somewhere between 500-1500 transactions and 100-400K 
 https://www.reddit.com/r/plaintextaccounting/comments/dbjizl/how_big_is_your_ledgerjournal_file/
 
 ##### How do I do budgeting?
-See [budgeting](#budgeting) below. I emulate YNAB-ish envelope budgetting (see third link).
+See [budgeting](#budgeting) below.
 
 <!-- 
 TODO ##### How to get started ?
@@ -1137,6 +1137,7 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [hledger: Timeclock files](https://hledger.org/timeclock.html)
 - [hledger: Timedot files](https://hledger.org/timedot.html)
 - [Timetracking and billing with (h)ledger](https://github.com/anarcat/ledger-timetracking)
+- [hledger: Time planning](https://hledger.org/time-planning.html)
 - [time tracking tools](#time-logging)
 - [reddit: Ledger CLI time tracking and transaction account linking](https://www.reddit.com/r/plaintextaccounting/comments/e2sd0k/ledger_cli_time_tracking_and_transaction_account/)
 
