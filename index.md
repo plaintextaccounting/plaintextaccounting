@@ -1140,6 +1140,7 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [hledger: Time planning](https://hledger.org/time-planning.html)
 - [time tracking tools](#time-logging)
 - [reddit: Ledger CLI time tracking and transaction account linking](https://www.reddit.com/r/plaintextaccounting/comments/e2sd0k/ledger_cli_time_tracking_and_transaction_account/)
+- [arbeitszeit.py](https://github.com/haansn08/arbeitszeit.py)
 
 ### inventory tracking
 
