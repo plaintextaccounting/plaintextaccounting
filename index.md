@@ -514,12 +514,12 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | .Net Ledger   | 2017  | 2018-08      | [C#][nledger-gh]                                 |          1 |    67 |                                  | [gitter][nledger-gitter]        |
 | goledger      | 2019  |              | [go][goledger-gh]                                |          1 |    13 |                                  |                                 |
 | [monescript]  | 2017  | 2018-01      | [javascript][monescript-gh]                      |          1 |    12 |                                  |                                 |
+| blossom       | 2020  |              | [F#][blossom-gh]                                 |          1 |    12 |                                  |                                 |
 | Tackler       | 2017  | 2021-01      | [scala][tackler-gl]                              |          1 |     6 |                                  | [gitter][tackler-gitter]        |
 | acc           | 2020  |              | [rust][acc-gh]                                   |          1 |     1 |                                  |                                 |
 | bankroll      | 2020  | 2020-08      | [rust][bankroll-gl]                              |          2 |     1 |                                  |                                 |
 | [pta]         | 2020  | 2020-09      | perl                                             |          1 |       |                                  |                                 |
 | [Prudent]     | 2018  |              | js (closed; [addons][prudent-gh])                |          1 |       |                                  | [\@PrudentLedger][prudent-chat] |
-| blossom       | 2020  |              | [F#][blossom-gh]                                 |          1 |       |                                  |                                 |
 | knut          | 2020  |              | [go][knut-gh]                                    |          1 |       |                                  |                                 |
 | &nbsp;        |       |              |                                                  |            |       |                                  |                                 |
 | **Inactive:** |       |              |                                                  |            |       |                                  |                                 |
