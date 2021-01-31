@@ -885,6 +885,10 @@ Note these often work quite well for other ledger-likes, not just the one they a
 
 ### articles & blog posts
 
+2021
+
+- [Zoran Zaric: Budgeting for annual expenses with Hledger](http://rantsideasstuff.com/posts/2021/01/31-budgeting-for-annual-expenses-with-hledger/) <!-- 2021/01/31 -->
+
 2020
 
 - [Hacking on my finances](https://duarteocarmo.com/blog/hacking-on-my-finances.html) <!-- 2020/10/19 -->
@@ -1074,6 +1078,7 @@ and enables thee to stop them and control thy expenditures for definite and grat
 
 **Envelope budgeting: pre-allocating funds**
 
+- [reddit: New blogpost: Budgeting for annual expenses with Hledger](https://www.reddit.com/r/plaintextaccounting/comments/l9aiup/new_blogpost_budgeting_for_annual_expenses_with/)
 - [Michael Walker: I Need A Budget](https://www.barrucadu.co.uk/posts/etc/2017-12-16-i-need-a-budget.html)
 - [Simon Michael: envelope budgeting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
 - [hledger: Budgeting and forecasting: Envelope budget](https://hledger.org/budgeting-and-forecasting.html#envelope-budget)
