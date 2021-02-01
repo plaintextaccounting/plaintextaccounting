@@ -904,6 +904,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 ### in 2021
 
 - [Zoran Zaric: Budgeting for annual expenses with Hledger](http://rantsideasstuff.com/posts/2021/01/31-budgeting-for-annual-expenses-with-hledger/) <!-- 2021/01/31 -->
+- [Samuel Walladge: Tracking capital gains with hledger](https://www.swalladge.net/archives/2021/01/30/hledger-tracking-capital-gains/) <!-- 2021/01/30 -->
 
 ### in 2020
 
