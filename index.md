@@ -647,6 +647,7 @@ Next, related add-ons and helpers by category
 - [grisbi2Ledger](https://github.com/Hawk777/grisbi2ledger) Grisbi to *ledger converter
 - [hledger-import-dsl](https://github.com/hpdeifel/hledger-import-dsl) alternate, programmable CSV converter for hledger
 - [hledger-to-influxdb](https://github.com/barrucadu/hledger-scripts#hledger-to-influxdb) hledger to InfluxDB converter (haskell)
+- [hledger2beancount](https://github.com/tjroth/hledger2beancount) hledger to beancount converter (haskell)
 - [homebank2ledger](https://github.com/chazmcgarvey/homebank2ledger) HomeBank to ledger and beancount converter (perl)
 - [icsvledger](https://github.com/quentinsf/icsv2ledger) interactive CSV to *ledger converter (python)
 - [into-ledger](https://github.com/manishrjain/into-ledger) CSV to *ledger converter
@@ -660,7 +661,7 @@ Next, related add-ons and helpers by category
 - [ledger-to-beancount](https://github.com/glasserc/ledger-to-beancount/) yet another simple ledger to beancount converter (python)
 - [ledger-tutorials](https://github.com/tlvince/ledger-tutorials) convert Pete Keen's tutorials to ebook format
 - [ledger2beancount.py](https://gist.github.com/travisdahlke/71152286b0a8826249fe) *ledger to beancount converter
-- [ledger2beancount](https://github.com/beancount/ledger2beancount) ledger to beancount converter
+- [ledger2beancount](https://github.com/beancount/ledger2beancount) h/ledger to beancount converter (perl). Use this one.
 - [outofit](https://github.com/rcaputo/outofit) QuickBooks to *ledger converter
 - [piecash](https://github.com/sdementen/piecash) GNUCash SQL to *ledger converter (python)
 - [plaid2qif](https://github.com/ebridges/plaid2qif) Download transactions from plaid as QIF or CSV files
