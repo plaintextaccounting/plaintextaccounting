@@ -669,6 +669,7 @@ Next, related add-ons and helpers by category
 - [qb2ledger](https://gist.github.com/genegoykhman/3765100) QuickBooks General Journal CSV to *ledger converter
 - [QIFtoLedger](https://github.com/Kolomona/QIFtoLedger) (Bank of America's) QIF to *ledger converter
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
+- [slc](https://github.com/marvinpinto/slc) slc is a CLI application to generate Ledger accounting entries, works with generic CSV files as well as the Stripe API
 - [smart_importer](https://github.com/johannesjh/smart_importer) library for building smarter CSV to beancount/Fava converters
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
 - [ynab-to-ledger](https://github.com/vermiceli/ynab-to-ledger) You Need A Budget (YNAB) to *ledger converter. Handles multiple currencies, multiple number formats, reconciliation, memos, transfers, and split transactions
