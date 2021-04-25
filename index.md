@@ -534,6 +534,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | [Tackler]                 | 2017  | 2021-01      | [scala][tackler-gl]               |          1 |     6 |                                  | [gitter][tackler-gitter]        |
 | acc                       | 2020  |              | [rust][acc-gh]                    |          1 |     1 |                                  |                                 |
 | bankroll                  | 2020  | 2020-08      | [rust][bankroll-gl]               |          2 |     1 |                                  |                                 |
+| [ledg]                    | 2021  | 2021-04      | [javascript][ledg]                |          1 |       |                                  |                                 |
 | [pta]                     | 2020  | 2020-09      | perl                              |          1 |       |                                  |                                 |
 | [Prudent]                 | 2018  |              | js (closed; [addons][prudent-gh]) |          1 |       |                                  | [\@PrudentLedger][prudent-chat] |
 | knut                      | 2020  |              | [go][knut-gh]                     |          1 |       |                                  |                                 |
@@ -624,6 +625,8 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 [uledger-gh]: https://github.com/danpat/uledger
 
 [UMM-hackage]: http://hackage.haskell.org/package/UMM
+
+[ledg]: https://github.com/SitanHuang/ledg
 
 <!-- [compare at openhub](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
 
