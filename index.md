@@ -56,8 +56,8 @@ h5 {
   font-size:1.2em;
 }
 #sitemapheading {
-  font-size:4.2rem;
-    /*  font-weight:bold; */
+  font-size:2rem;
+  font-weight:bold;
 }
 #section1 {
   /* background-color:#fff; */  /* these need to be full width */
@@ -92,7 +92,7 @@ h5 {
 ***Plain text accounting*** means doing accounting with plain text
 data formats and scriptable software, in the style of 
 [Ledger, hledger, beancount, and co](#plain-text-accounting-apps).
-This site collects FAQs and a directory for the PTA community's tools, docs and practices. 
+This site is a FAQ and directory for the PTA community's tools, docs and practices. 
 It is maintained by Simon&nbsp;Michael (hledger project leader, Ledger
 contributor, PTA researcher & fan), and contributors like you. 
 Got feedback ? Join us in
