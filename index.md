@@ -96,7 +96,8 @@ This site is a FAQ and directory for the PTA community's tools, docs and practic
 It is maintained by Simon&nbsp;Michael (hledger project leader, Ledger
 contributor, PTA researcher & fan), and contributors like you. 
 Got feedback ? Join us in
-[#plaintextaccounting](https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#plaintextaccounting)
+[#plaintextaccounting]
+or [#plaintextaccounting:matrix.org]
 or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting.github.io/edit/master/index.md).
 
  </div>
@@ -452,12 +453,9 @@ getting-started.md
   <div class="three columns u-pull-left">
 ##### mail&nbsp;lists/IRC<br><br>
   </div>
-<span style="white-space:nowrap;">[#plaintextaccounting] on Freenode IRC,</span>
-<span style="white-space:nowrap;"><a href="https://matrix.to/#/#freenode_#plaintextaccounting:matrix.org">#freenode_#plaintextaccounting:matrix.org</a> on Matrix,</span>
+<span style="white-space:nowrap;">[#plaintextaccounting] on Libera IRC,</span>
+<span style="white-space:nowrap;">[#plaintextaccounting:matrix.org] on Matrix,</span>
 <span style="white-space:nowrap;">[project-specific mail lists/chats](#plain-text-accounting-apps)</span>
-
-[#plaintextaccounting]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#plaintextaccounting
-
 
  </div> <!-- row -->
  <div class="row">
@@ -554,6 +552,8 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 
 [plaintextaccounting.org]: https://plaintextaccounting.org
 [/r/plaintextaccounting]: https://www.reddit.com/r/plaintextaccounting
+[#plaintextaccounting]: http://kiwiirc.com/nextclient/irc.libera.chat:+6697/#plaintextaccounting
+[#plaintextaccounting:matrix.org]: https://matrix.to/#/#plaintextaccounting:matrix.org
 
 [abandon-gh]: https://github.com/hrj/abandon
 [abandon-gitter]: https://gitter.im/hrj/abandon
@@ -565,6 +565,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 [beancount-gh]: https://github.com/beancount/beancount/
 [beancount-mail]: https://groups.google.com/forum/#!forum/beancount
 [#beancount]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#beancount
+[#beancount-libera]: http://kiwiirc.com/nextclient/irc.libera.chat:+6697/#beancount
 
 [beans]: https://sboehler.github.io/beans
 [beans-gh]: https://github.com/sboehler/beans
@@ -579,13 +580,14 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 [hledger-gh]: https://github.com/simonmichael/hledger
 [hledger-code]: http://code.hledger.org
 [hledger-mail]: http://mail.hledger.org/
-[#hledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#hledger
+[#hledger]: http://kiwiirc.com/nextclient/irc.libera.chat:+6697/#hledger
 
 [knut-gh]: https://github.com/sboehler/knut
 
 [Ledger]: https://www.ledger-cli.org
 [ledger-gh]: https://github.com/ledger/ledger
 [#ledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#ledger
+[#ledger-libera]: http://kiwiirc.com/nextclient/irc.libera.chat:+6697/#ledger
 [ledger-mail]: http://list.ledger-cli.org/
 
 [ledger-in-go-gh]: https://github.com/howeyc/ledger
