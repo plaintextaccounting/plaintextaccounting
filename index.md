@@ -586,8 +586,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 
 [Ledger]: https://www.ledger-cli.org
 [ledger-gh]: https://github.com/ledger/ledger
-[#ledger]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#ledger
-[#ledger-libera]: http://kiwiirc.com/nextclient/irc.libera.chat:+6697/#ledger
+[#ledger]: http://kiwiirc.com/nextclient/irc.libera.chat:+6697/#ledger
 [ledger-mail]: http://list.ledger-cli.org/
 
 [ledger-in-go-gh]: https://github.com/howeyc/ledger
