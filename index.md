@@ -517,8 +517,8 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 
 | Project                   | Start | Last release | Code                              | Committers | Stars | Mail list, size                  | Chat, size                      |
 |---------------------------|-------|:------------:|-----------------------------------|-----------:|------:|----------------------------------|---------------------------------|
-| [Ledger]                  | 2003  | 2020-05      | [C++][ledger-gh]                  |        162 |  3.4k | [ledger][ledger-mail], 922       | [#ledger], 80                   |
-| [hledger]                 | 2007  | 2021-14      | [haskell][hledger-gh]             |        131 |  1.6k | [hledger][hledger-mail], 182     | [#hledger], 90                  |
+| [Ledger]                  | 2003  | 2020-05      | [C++][ledger-gh]                  |        162 |  3.4k | [ledger][ledger-mail], 922       | [#ledger], 60                   |
+| [hledger]                 | 2007  | 2021-14      | [haskell][hledger-gh]             |        131 |  1.6k | [hledger][hledger-mail], 182     | [#hledger], 60                  |
 | [Beancount]               | 2008  | 2020-06      | [python][beancount-gh]            |         44 |   618 | [beancount][beancount-mail], 377 | [#beancount], 20                |
 | Abandon                   | 2013  | 2019-09      | [scala][abandon-gh]               |         11 |   151 |                                  | [gitter][abandon-gitter]        |
 | Transity                  | 2018  | 2019-05      | [purescript][transity-gh]         |          7 |   472 |                                  | [gitter][transity-gitter]       |
@@ -547,12 +547,12 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | sm-Ledger                 | 2007  |              | [squeak smalltalk][smalltalk-gh]  |            |       |                                  |                                 |
 | &nbsp;                    |       |              |                                   |            |       |                                  |                                 |
 | **See also:**             |       |              |                                   |            |       |                                  |                                 |
-| [plaintextaccounting.org] |       |              |                                   |            |       |                                  | [#plaintextaccounting], 50      |
-|                           |       |              |                                   |            |       |                                  | [/r/plaintextaccounting], 1773  |
+| [plaintextaccounting.org] |       |              |                                   |            |       |                                  | [#plaintextaccounting], 40      |
+|                           |       |              |                                   |            |       |                                  | [/r/plaintextaccounting], 2700  |
 
 [plaintextaccounting.org]: https://plaintextaccounting.org
 [/r/plaintextaccounting]: https://www.reddit.com/r/plaintextaccounting
-[#plaintextaccounting]: http://kiwiirc.com/nextclient/irc.libera.chat:+6697/#plaintextaccounting
+[#plaintextaccounting]: https://web.libera.chat/#plaintextaccounting
 [#plaintextaccounting:matrix.org]: https://matrix.to/#/#plaintextaccounting:matrix.org
 
 [abandon-gh]: https://github.com/hrj/abandon
@@ -564,8 +564,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 [Beancount2]: https://beancount.github.io
 [beancount-gh]: https://github.com/beancount/beancount/
 [beancount-mail]: https://groups.google.com/forum/#!forum/beancount
-[#beancount]: https://kiwiirc.com/nextclient/#ircs://irc.freenode.net/#beancount
-[#beancount-libera]: http://kiwiirc.com/nextclient/irc.libera.chat:+6697/#beancount
+[#beancount]: https://web.libera.chat/#beancount
 
 [beans]: https://sboehler.github.io/beans
 [beans-gh]: https://github.com/sboehler/beans
@@ -580,13 +579,13 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 [hledger-gh]: https://github.com/simonmichael/hledger
 [hledger-code]: http://code.hledger.org
 [hledger-mail]: http://mail.hledger.org/
-[#hledger]: http://kiwiirc.com/nextclient/irc.libera.chat:+6697/#hledger
+[#hledger]: https://web.libera.chat/#hledger
 
 [knut-gh]: https://github.com/sboehler/knut
 
 [Ledger]: https://www.ledger-cli.org
 [ledger-gh]: https://github.com/ledger/ledger
-[#ledger]: http://kiwiirc.com/nextclient/irc.libera.chat:+6697/#ledger
+[#ledger]: https://web.libera.chat/#ledger
 [ledger-mail]: http://list.ledger-cli.org/
 
 [ledger-in-go-gh]: https://github.com/howeyc/ledger
