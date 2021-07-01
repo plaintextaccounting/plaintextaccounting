@@ -691,6 +691,7 @@ Next, related add-ons and helpers by category
 - [LedgerStockUpdate](https://github.com/adchari/LedgerStockUpdate) update a Ledger price database (go)
 - [lotter](https://src.d10.dev/lotter) generate postings for capital gain/loss (go)
 - [market-prices](https://github.com/barrucadu/hledger-scripts#market-prices) download market prices from several sources (python)
+- [pricehist](https://gitlab.com/chrisberkhout/pricehist) fetch and format historical price data, with support for multiple sources and output formats (python)
 - [recurring](http://hub.darcs.net/simon/ledgertools/browse/recurring) generate recurring *ledger entries (python)
 - [reorder-journal.sh](https://github.com/amitaibu/hledger-example/blob/master/reorder-journal.sh) sort hledger entries, preserving directives/comments at top of file (bash)
 - [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
