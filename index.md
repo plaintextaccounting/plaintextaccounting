@@ -859,7 +859,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
 - [Ledger CLI cheatsheet](https://devhints.io/ledger)
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
-- [hledger docs](https://hledger.org/sitemap.html)
+- [hledger docs](https://hledger.org/)
 - [Beancount docs](https://beancount.github.io/docs/) / [(google)](http://furius.ca/beancount/doc/index) / [(sphinx)](http://aumayr.github.io/beancount-docs-static/)
 - [Beancount: Command-line Accounting in Context](https://docs.google.com/document/d/1e4Vz3wZB_8-ZcAwIFde8X5CjzKshE4-OXtVVHm4RQ8s)
 - [Beancount: Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
