@@ -1214,7 +1214,7 @@ and enables thee to stop them and control thy expenditures for definite and grat
 <div id="section6" style="text-align:center;">
 
 <hr>
-\(c) 2016-2019 [Simon Michael](http://joyful.com) & contributors |
+\(c) 2016-2021 [Simon Michael](http://joyful.com) & contributors |
 Send updates via [github](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
 ([latest changes](https://github.com/plaintextaccounting/plaintextaccounting.github.io/commits/master))
 
