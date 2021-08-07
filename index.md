@@ -514,13 +514,15 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <!-- Syntax: http://pandoc.org/README.html#tables -->
 <!-- Leading |'s let markdown-mode realign the table with TAB, but screw up fontification. Hmm, maybe fixed ? Try it. -->
 <!-- Active projects are sorted by committers+other community size/activity signals; inactives are sorted by start. -->
+<!-- For projects on github, Committers is the "Contributors" count from there -->
+<!-- TODO: 20210729 updates for Abandon downwardsw -->
 
 | Project                   | Start | Last release | Code                              | Committers | Stars | Mail list, ~size                | Chat, ~size                                                                                                   |
 |---------------------------|-------|:------------:|-----------------------------------|-----------:|------:|---------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [Ledger]                  | 2003  | 2020-05      | [C++][ledger-gh]                  |        162 |  3.4k | [ledger][ledger-mail] 920       | [irc][#ledger:libera.chat] 60                                                                                 |
-| [hledger]                 | 2007  | 2021-14      | [haskell][hledger-gh]             |        131 |  1.6k | [hledger][hledger-mail] 200     | [irc][#hledger:libera.chat] 80, [matrix][#hledger:matrix.org] 40                                              |
-| [Beancount]               | 2008  | 2020-06      | [python][beancount-gh]            |         44 |   618 | [beancount][beancount-mail] 380 | [irc][#beancount:libera.chat] 20, [fava gitter][beancount-fava-gitter]/[matrix][#beancount_fava:gitter.im] 40 |
-| Abandon                   | 2013  | 2019-09      | [scala][abandon-gh]               |         11 |   151 |                                 | [gitter][abandon-gitter]/[matrix][#hrj_abandon:gitter.im]                                                     |
+| [Ledger]                  | 2003  | 2021-05      | [C++][ledger-gh]                  |        176 |  3.9k | [ledger][ledger-mail] 920       | [irc][#ledger:libera.chat] 60                                                                                 |
+| [hledger]                 | 2007  | 2021-08      | [haskell][hledger-gh]             |        128 |  1.8k | [hledger][hledger-mail] 200     | [irc][#hledger:libera.chat] 80, [matrix][#hledger:matrix.org] 40                                              |
+| [Beancount]               | 2008  | 2020-06      | [python][beancount-gh]            |         59 |   975 | [beancount][beancount-mail] 380 | [irc][#beancount:libera.chat] 20, [fava gitter][beancount-fava-gitter]/[matrix][#beancount_fava:gitter.im] 40 |
+| Abandon                   | 2013  | 2019-09      | [scala][abandon-gh]               |         11 |   156 |                                 | [gitter][abandon-gitter]/[matrix][#hrj_abandon:gitter.im]                                                     |
 | Transity                  | 2018  | 2019-05      | [purescript][transity-gh]         |          7 |   472 |                                 | [gitter][transity-gitter]/[matrix][#feramhq_transity:gitter.im]                                               |
 | Ledger in Go              | 2013  | 2019-11      | [go][ledger-in-go-gh]             |          6 |   221 |                                 |                                                                                                               |
 | cl-ledger                 | 2007  |              | [common lisp][cl-ledger-gh]       |          4 |    66 |                                 |                                                                                                               |
