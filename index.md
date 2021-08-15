@@ -664,6 +664,7 @@ Next, related add-ons and helpers by category
 - [homebank2ledger](https://github.com/chazmcgarvey/homebank2ledger) HomeBank to ledger and beancount converter (perl)
 - [icsvledger](https://github.com/quentinsf/icsv2ledger) interactive CSV to *ledger converter (python)
 - [into-ledger](https://github.com/manishrjain/into-ledger) CSV to *ledger converter
+- [jali](https://git.darmstadt.ccc.de/jali/jali) downloader/importer to *ledger (python)
 - [kmymoney2hledger](https://github.com/maridonkers/kmymoney2hledger) KMyMoney to *ledger converter (clojure)
 - [kmymoney2ledgers](https://github.com/isabekov/kmymoney2ledgers) KMyMoney to *ledger/beancount converter (python)
 - [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
