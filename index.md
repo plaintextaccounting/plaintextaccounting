@@ -430,7 +430,7 @@ https://www.reddit.com/r/plaintextaccounting/comments/d69slp/how_do_you_manage_m
 
 ##### How big is your ledger/journal file ?
 
-For individual accounting, somewhere between 500-1500 transactions and 100-400K of journal per year seems typical.
+For individual accounting, somewhere between 500-1500 transactions and 100-400 Kb of journal file per year seems typical.
 
 https://www.reddit.com/r/plaintextaccounting/comments/dbjizl/how_big_is_your_ledgerjournal_file/
 
