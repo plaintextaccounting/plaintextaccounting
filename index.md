@@ -847,6 +847,14 @@ Note these often work quite well for other ledger-likes, not just the one they a
   [hledger-vscode](https://github.com/mhansen/hledger-vscode),
   [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger),
   [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
+ </div> <!-- row -->
+ <div class="row">
+  <div class="three columns u-pull-left">
+
+##### Jetbrains (IntelliJ)
+  </div>
+
+[Ledger Plugin](https://plugins.jetbrains.com/plugin/15405-ledger-cli)
 
 </div> <!-- section -->
 
