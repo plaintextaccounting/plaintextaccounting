@@ -451,15 +451,17 @@ getting-started.md
 
  <div class="row">
   <div class="three columns u-pull-left">
+
 ##### mail&nbsp;lists/IRC<br><br>
   </div>
-<span style="white-space:nowrap;">[#plaintextaccounting:libera.chat] on Libera IRC,</span>
-<span style="white-space:nowrap;">[#plaintextaccounting:matrix.org] on Matrix,</span>
-<span style="white-space:nowrap;">[project-specific mail lists/chats](#plain-text-accounting-apps)</span>
-
+  <a style="white-space:nowrap;" href="https://matrix.to/#/#plaintextaccounting:matrix.org">#plaintextaccounting:matrix.org</a>
+  or <a style="white-space:nowrap;" href="https://web.libera.chat/#plaintextaccounting">#plaintextaccounting:libera.chat</a>
+  (bridged);
+  <span style="white-space:nowrap;">[project-specific mail lists/chats](#plain-text-accounting-apps)</span>
  </div> <!-- row -->
  <div class="row">
   <div class="three columns u-pull-left">
+
 ##### twitter
   </div>
 
@@ -472,6 +474,7 @@ getting-started.md
  </div> <!-- row -->
  <div class="row">
   <div class="three columns u-pull-left">
+
 ##### reddit
   </div>
 
@@ -480,6 +483,7 @@ getting-started.md
  </div> <!-- row -->
  <div class="row">
   <div class="three columns u-pull-left">
+
 ##### hacker&nbsp;news
   </div>
 
@@ -489,6 +493,7 @@ getting-started.md
  </div> <!-- row -->
  <div class="row">
   <div class="three columns u-pull-left">
+
 ##### stack&nbsp;exchange
   </div>
 
@@ -549,7 +554,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | sm-Ledger                 | 2007  |              | [squeak smalltalk][smalltalk-gh]  |            |       |                                 |                                                                                                               |
 | &nbsp;                    |       |              |                                   |            |       |                                 |                                                                                                               |
 | **See also:**             |       |              |                                   |            |       |                                 |                                                                                                               |
-| [plaintextaccounting.org] |       |              |                                   |            |       |                                 | [irc][#plaintextaccounting:libera.chat] 50, [matrix][#plaintextaccounting:matrix.org] 30                      |
+| [plaintextaccounting.org] |       |              |                                   |            |       |                                 | [matrix][#plaintextaccounting:matrix.org]/[irc][#plaintextaccounting:libera.chat] 90                          |
 |                           |       |              |                                   |            |       |                                 | [/r/plaintextaccounting] 2800                                                                                 |
 
 [plaintextaccounting.org]: https://plaintextaccounting.org
