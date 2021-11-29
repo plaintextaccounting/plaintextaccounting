@@ -780,7 +780,9 @@ Next, related add-ons and helpers by category
 
 ### API
 
-- [hledger-api](https://github.com/simonmichael/hledger/tree/master/hledger-api) JSON API server for *ledger files (retired, use hledger-web instead) (haskell)
+- [gledger](https://github.com/gledger/gledger) Go package to interface with Ledger (go)
+- [hledger-lib](https://github.com/simonmichael/hledger/tree/master/hledger-lib) library for parsing and generating reports from *ledger files (haskell)
+- [hledger-web](https://github.com/simonmichael/hledger/tree/master/hledger-web) the web app includes a JSON API server for *ledger files (haskell)
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) extends Ledger's python library (python)
 - [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API for *ledger files (javascript)
 
@@ -1131,6 +1133,7 @@ and enables thee to stop them and control thy expenditures for definite and grat
 
 **Envelope budgeting: pre-allocating funds**
 
+- [Jeremy Bush: hledger-envelope-budget](https://github.com/zombor/hledger-envelope-budget) ([discussion](https://www.reddit.com/r/plaintextaccounting/comments/r4ah79/envelope_budgeting_in_hledger_without_virtuals/))
 - [reddit: New blogpost: Budgeting for annual expenses with Hledger](https://www.reddit.com/r/plaintextaccounting/comments/l9aiup/new_blogpost_budgeting_for_annual_expenses_with/)
 - [Michael Walker: Personal Finance](https://memo.barrucadu.co.uk/personal-finance.html)
 - [Simon Michael: envelope budgeting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
