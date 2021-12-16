@@ -1139,6 +1139,7 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [Michael Walker: Personal Finance](https://memo.barrucadu.co.uk/personal-finance.html)
 - [Simon Michael: envelope budgeting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
 - [hledger: Budgeting and forecasting: Envelope budget](https://hledger.org/budgeting-and-forecasting.html#envelope-budget)
+- [hledger envelope budgeting](<https://github.com/zombor/hledger-envelope-budget>)
 
 **Envelope budgeting with auto postings**
 
