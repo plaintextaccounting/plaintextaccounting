@@ -878,6 +878,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [hledger: Accounting](https://github.com/simonmichael/hledger/wiki/More%20docs#accounting)
 - [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
+- [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
 
 ### plain text accounting
 <!-- official docs & useful intro docs -->
