@@ -1133,6 +1133,7 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [hledger: Budget report](https://hledger.org/hledger.html#budget-report)
 - [reddit: simple yearly budget example](https://www.reddit.com/r/plaintextaccounting/comments/e5sl1m/advice_on_projectionsforecasts/)
 - [hledger: Budgeting and forecasting: Periodic budget](https://hledger.org/budgeting-and-forecasting.html#periodic-budget)
+- [budget_report](https://github.com/sulemankm/budget_report) budget reporting with beancount
 
 **Envelope budgeting: pre-allocating funds**
 
