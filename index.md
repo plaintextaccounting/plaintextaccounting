@@ -716,6 +716,7 @@ Next, related add-ons and helpers by category
 
 ### reports
 
+- [budget_report](https://github.com/sulemankm/budget_report) budget reporting with beancount (python)
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals (haskell)
 - [hledger-irr](http://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](https://hledger.org/hledger.html#roi)) (haskell)
 - [hreports](https://pypi.org/project/hreports) save custom reports and PDF templates (python)
