@@ -99,6 +99,7 @@ Got feedback ? Join us in
 [#plaintextaccounting:libera.chat]
 or [#plaintextaccounting:matrix.org]
 or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting.github.io/edit/master/index.md).
+See also **[wiki.plaintextaccounting.org](https://wiki.plaintextaccounting.org)**, new for 2022!
 
  </div>
 
