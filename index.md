@@ -84,7 +84,7 @@ h5 {
 </div>
 
 <div style="float:right; width:30%; margin:0 0 4em 3em;">
-<img src="images/pta-avatar.jpg" width=250>
+<img src="images/pta-avatar.jpg" width=250 style="border-radius:50%;">
 </div>
 
 <div id="section1">
