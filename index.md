@@ -83,6 +83,10 @@ h5 {
 [![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.github.io.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
 </div>
 
+<div style="float:right; width:30%; margin:0 0 4em 3em;">
+<img src="images/pta-avatar.jpg" width=250>
+</div>
+
 <div id="section1">
 
 # plain text accounting
