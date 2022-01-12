@@ -573,7 +573,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 
 [acc-gh]: https://github.com/rudolfschmidt/acc
 
-[Beancount]: http://furius.ca/beancount
+[Beancount]: https://github.com/beancount/
 [Beancount2]: https://beancount.github.io
 [beancount-gh]: https://github.com/beancount/beancount/
 [beancount-mail]: https://groups.google.com/forum/#!forum/beancount
