@@ -19,17 +19,9 @@ to minimise layout troubleshooting time).
 
 ### Hosting and deployment
 
-The site's repo is https://github.com/plaintextaccounting/plaintextaccounting.github.io .
-Changes to the master branch will appear at https://plaintextaccounting.org.
-Until 2022 this was done by Github Pages,
-hence the name `plaintextaccounting.github.io`
-making it the Github Pages site for the 
-[plaintextaccounting organization](https://github.com/plaintextaccounting/), 
-allowing it to have the custom domain.
-Rendered HTML was generated locally and committed by editors.
-
-Since 2022-01-14, the site is rendered by Cloudflare Pages, 
-and HTML is no longer committed in the repo. Some cleanups may still be ongoing.
+The site's repo is https://github.com/plaintextaccounting/plaintextaccounting.
+Since 2022-01, the site is rendered by Cloudflare Pages.
+Changes merged in the master branch appear at plaintextaccounting.org within 2-3 minutes.
 
 ### Where to discuss / give feedback
 
@@ -42,7 +34,7 @@ Site-related questions or discussion are welcome here.
 ### How to make a change through the web
 
 1. Log in to Github and click the pencil at
-   [index.md](https://github.com/plaintextaccounting/plaintextaccounting.github.io/blob/master/index.md).
+   [index.md](https://github.com/plaintextaccounting/plaintextaccounting/blob/master/index.md).
 2. Make your changes to the markdown source.
 3. Use the Preview tab to check the result.
 4. When everything looks right, commit with a descriptive message.
@@ -60,7 +52,7 @@ This will be applied immediately if you have commit access, otherwise a fork and
 
 [pandoc]: http://pandoc.org/installing.html
 [GNU Make]: https://www.gnu.org/software/make/
-[open an issue]: https://github.com/plaintextaccounting/plaintextaccounting.github.io/issues/new
+[open an issue]: https://github.com/plaintextaccounting/plaintextaccounting/issues/new
 <!-- ?title=Contributor+requesting+commit+bit&body=Request+for+commit+access -->
 
 ### How to see a live preview on your machine

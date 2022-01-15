@@ -80,7 +80,7 @@ h5 {
 </style>
 
 <div style="float:right; position:fixed; top:.5em; right:.5em;">
-[![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.github.io.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
+[![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting)
 </div>
 
 <div style="float:right; width:30%; margin:0 0 4em 3em;">
@@ -102,7 +102,7 @@ contributor, PTA researcher & fan), and contributors like you.
 Got feedback ? Join us in
 [#plaintextaccounting:libera.chat]
 or [#plaintextaccounting:matrix.org]
-or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting.github.io/edit/master/index.md).
+or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edit/master/index.md).
 
 2022: See also **[wiki.plaintextaccounting.org](https://wiki.plaintextaccounting.org)**!
 
@@ -1256,8 +1256,8 @@ and enables thee to stop them and control thy expenditures for definite and grat
 
 <hr>
 \(c) 2016-2021 [Simon Michael](http://joyful.com) & contributors |
-Send updates via [github](https://github.com/plaintextaccounting/plaintextaccounting.github.io)
-([latest changes](https://github.com/plaintextaccounting/plaintextaccounting.github.io/commits/master))
+Send updates via [github](https://github.com/plaintextaccounting/plaintextaccounting)
+([latest changes](https://github.com/plaintextaccounting/plaintextaccounting/commits/master))
 
 </div>
 
