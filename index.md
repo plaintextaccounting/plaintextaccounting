@@ -97,13 +97,14 @@ h5 {
 data formats and scriptable software, in the style of 
 [Ledger, hledger, beancount, and co](#plain-text-accounting-apps).
 This site is a FAQ and directory for the PTA community's tools, docs and practices. 
-It is maintained by Simon&nbsp;Michael (hledger project leader, Ledger
+It is [maintained](README.html) by Simon&nbsp;Michael (hledger project leader, Ledger
 contributor, PTA researcher & fan), and contributors like you. 
 Got feedback ? Join us in
 [#plaintextaccounting:libera.chat]
 or [#plaintextaccounting:matrix.org]
 or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting.github.io/edit/master/index.md).
-See also **[wiki.plaintextaccounting.org](https://wiki.plaintextaccounting.org)**, new for 2022!
+
+2022: See also **[wiki.plaintextaccounting.org](https://wiki.plaintextaccounting.org)**!
 
  </div>
 
