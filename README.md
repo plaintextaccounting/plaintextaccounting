@@ -2,48 +2,75 @@
 
 This is the source for [plaintextaccounting.org](http://plaintextaccounting.org),
 an information portal/overview site for Plain Text Accounting and
-related tools: Ledger, hledger, beancount, etc.
+related tools: Ledger, hledger, beancount, etc. 
 
-The repo is named `plaintextaccounting.github.io` to make it the
-Github Pages site for the 
+Since 2022-01, there is also a companion wiki: https://wiki.plaintextaccounting.org.
+(The wiki is hosted on Github and its urls are not finalised, but
+`https://wiki.plaintextaccounting.org[/PAGE]` will always redirect to the right place.)
+
+## Contributing
+
+### Construction and rendering
+
+The site is mainly one big markdown page, plus a few more.
+These are rendered by [Pandoc]
+(chosen originally for its power and dependability, 
+to minimise layout troubleshooting time).
+
+### Hosting and deployment
+
+The site's repo is https://github.com/plaintextaccounting/plaintextaccounting.github.io .
+Changes to the master branch will appear at https://plaintextaccounting.org.
+Until 2022 this was done by Github Pages,
+hence the name `plaintextaccounting.github.io`
+making it the Github Pages site for the 
 [plaintextaccounting organization](https://github.com/plaintextaccounting/), 
-allowing it to be served with the custom `plaintextaccounting.org` domain.
+allowing it to have the custom domain.
+Rendered HTML was generated locally and committed by editors.
 
-### How to contribute an update (using web UI)
+Since 2022-01-14, the site is rendered by Cloudflare Pages, 
+and HTML is no longer committed in the repo. Some cleanups may still be ongoing.
 
-(Ok for trivial updates)
+### Where to discuss / give feedback
+
+The site is managed via 
+
+- the Github issue tracker
+- and the `#plaintextaccounting:matrix.org` room on Matrix, or the bridged `#plaintextaccounting` channel on Libera.chat.
+Site-related questions or discussion are welcome here.
+
+### How to make a change through the web
 
 1. Log in to Github and click the pencil at
    [index.md](https://github.com/plaintextaccounting/plaintextaccounting.github.io/blob/master/index.md).
-2. Make your changes to the markdown source. Commit.
-3. Make the corresponding changes in the generated [index.html](https://github.com/plaintextaccounting/plaintextaccounting.github.io/blob/master/index.html). Commit.
-   It's ok to skip this step if you must; we'll update the html for you.
-4. These commits will be bundled into a pull request (I think). 
-   Or will be applied immediately if you have commit access.
+2. Make your changes to the markdown source.
+3. Use the Preview tab to check the result.
+4. When everything looks right, commit with a descriptive message.
 
-### How to contribute an update (using pandoc)
+This will be applied immediately if you have commit access, otherwise a fork and pull request will be created, which we will review soon.
 
-1. Log in to Github, fork this repo, clone it to your machine.
-3. Make your changes to `index.md` (and/or `README.md`, `css/*`, `images/*`).
-4. Regenerate `index.html` as follows:
-   - Ensure you have [pandoc] 2.5+ and [GNU Make] installed, and run `make`. (Preferred).
-   - If you don't have GNU Make, you can run
-     `pandoc -f markdown-smart+autolink_bare_uris --template index.tmpl index.md -o index.html`
-   - If you don't have pandoc, you can update `index.html` by hand (ok for trivial changes).
-4. Commit the changes (source files and regenerated html files, eg both `index.md` and `index.html`).
+### How to make a change on your machine
+
+1. Log in to Github, fork this repo, and clone the fork to your machine.
+2. Make your changes to `index.md` (and/or `README.md`, `css/*`, `images/*`).
+3. To preview, run `make` (requires [GNU Make] and [pandoc] 2.5+) and view `index.html` in your web browser.
+4. When everything looks right, commit with a descriptive message.
 5. `git push` to your fork.
 6. Submit a pull request.
 
 [pandoc]: http://pandoc.org/installing.html
 [GNU Make]: https://www.gnu.org/software/make/
+[open an issue]: https://github.com/plaintextaccounting/plaintextaccounting.github.io/issues/new
+<!-- ?title=Contributor+requesting+commit+bit&body=Request+for+commit+access -->
 
-### How to get commit access
+### How to see a live preview on your machine
 
-If you're a recurring contributor and haven't yet been granted commit access, 
-feel free to [open an issue](https://github.com/plaintextaccounting/plaintextaccounting.github.io/issues/new?title=Contributor+requesting+commit+bit&body=Request+for+commit+access)
-to request it.
+Quick and dirty ways (warning, may not render the site accurately):
 
-### How to see a live local preview
+- Use VS Code's preview pane (eg on mac: Cmd k Cmd v while editing index.md)
+- Use Obsidian's preview mode (edit index.md, `|` to split the window, switch one into preview mode)
+
+An accurate way:
 
 1. Install [entr] and [livereloadx]
 2. In one window, `make liverender` to update index.html
@@ -53,4 +80,9 @@ to request it.
 
 [entr]:        http://eradman.com/entrproject/
 [livereloadx]: https://nitoyon.github.io/livereloadx
+
+### How to get commit access
+
+If you're a recurring contributor and haven't yet been granted commit access, 
+please request it in the #plaintextaccounting chat.
 
