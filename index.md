@@ -901,7 +901,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
 - [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
 - [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
-- [Don’t Sink Your First Attempts at Plaintext Accounting](https://wiki.plaintextaccounting.org/Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting)
+- [Don’t Sink Your First Attempts at Plaintext Accounting](https://wiki.plaintextaccounting.org/Don’t-Sink-Your-First-Attempts-at-Plaintext-Accounting)
 - [Syntax Quick Reference for the Ledger-Likes](quickref/)
 
 ### comparisons
