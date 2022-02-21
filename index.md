@@ -191,7 +191,7 @@ This simple model makes them easy to understand and rely on.
 &nbsp;&nbsp;[Objections and Concerns](#objections-and-concerns)  
 &nbsp;&nbsp;[Getting started, Practicalities](#getting-started-practicalities)  
 [news/discussion](#newsdiscussion)  
-&nbsp;&nbsp;[mail lists/IRC](#mail-listsirc)  
+&nbsp;&nbsp;[mail lists/IRC](#maillistsirc)  
 &nbsp;&nbsp;[twitter](#twitter)  
 &nbsp;&nbsp;[reddit](#reddit)  
 &nbsp;&nbsp;[hacker news](#hacker-news)  
