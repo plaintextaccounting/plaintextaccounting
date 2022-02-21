@@ -104,7 +104,7 @@ Got feedback ? Join us in
 or [#plaintextaccounting:matrix.org]
 or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edit/master/index.md).
 
-2022: See also **[wiki.plaintextaccounting.org](https://wiki.plaintextaccounting.org)**!
+2022: See also the companion wiki, **[wiki.plaintextaccounting.org](https://wiki.plaintextaccounting.org)**.
 
  </div>
 
