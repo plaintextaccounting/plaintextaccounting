@@ -706,6 +706,7 @@ Next, related add-ons and helpers by category
 ### price fetching
 
 - [bean-price](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c) Beancount's price fetching tool (python)
+- [hledger-stockquotes](https://github.com/prikhi/hledger-stockquotes) download market prices for your hledger commodities (haskell)
 - [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices (ruby)
 - [LedgerStockUpdate](https://github.com/adchari/LedgerStockUpdate) update a Ledger price database (go)
 - [market-prices](https://github.com/barrucadu/hledger-scripts#market-prices) download market prices from several sources (python)
