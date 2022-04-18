@@ -459,7 +459,7 @@ getting-started.md
  <div class="row">
   <div class="three columns u-pull-left">
 
-##### mail&nbsp;lists/IRC<br><br>
+##### mail lists/IRC<br><br>
   </div>
   <a style="white-space:nowrap;" href="https://matrix.to/#/#plaintextaccounting:matrix.org">#plaintextaccounting:matrix.org</a>
   or <a style="white-space:nowrap;" href="https://web.libera.chat/#plaintextaccounting">#plaintextaccounting:libera.chat</a>
@@ -491,7 +491,7 @@ getting-started.md
  <div class="row">
   <div class="three columns u-pull-left">
 
-##### hacker&nbsp;news
+##### hacker news
   </div>
 
 [stories](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=story),
@@ -501,7 +501,7 @@ getting-started.md
  <div class="row">
   <div class="three columns u-pull-left">
 
-##### stack&nbsp;exchange
+##### stack exchange
   </div>
 
 [[ledger-cli]](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest) / ["ledger-cli"](https://money.stackexchange.com/search?tab=newest&q=ledger-cli),
@@ -866,7 +866,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
  </div> <!-- row -->
  <div class="row">
   <div class="three columns u-pull-left">
-##### VS&nbsp;Code
+##### VS Code
   </div>
 
   [hledger-vscode](https://github.com/mhansen/hledger-vscode),
