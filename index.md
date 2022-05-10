@@ -1223,8 +1223,8 @@ and enables thee to stop them and control thy expenditures for definite and grat
 ### time tracking
 
 - [Ledger: Time Keeping](https://www.ledger-cli.org/3.0/doc/ledger3.html#Time-Keeping)
-- [hledger: Timeclock files](https://hledger.org/timeclock.html)
-- [hledger: Timedot files](https://hledger.org/timedot.html)
+- [hledger: Timeclock format](https://hledger.org/hledger.html#timeclock-format)
+- [hledger: Timedot format](https://hledger.org/hledger.html#timedot-format)
 - [Timetracking and billing with (h)ledger](https://github.com/anarcat/ledger-timetracking)
 - [hledger: Time planning](https://hledger.org/time-planning.html)
 - [time tracking tools](#time-logging)
