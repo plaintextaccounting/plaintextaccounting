@@ -841,12 +841,10 @@ Note these often work quite well for other ledger-likes, not just the one they a
  </div> <!-- row -->
  <div class="row">
   <div class="three columns u-pull-left">
-##### VIM
+##### nano
   </div>
 
-  [vim-ledger](https://github.com/ledger/vim-ledger) (supports ledger & hledger),
-  [vim-beancount](https://github.com/nathangrigg/vim-beancount),
-  [hledger-vim](https://github.com/anekos/hledger-vim)
+  [scopatz/nanorc](https://github.com/scopatz/nanorc/blob/master/ledger.nanorc)
 
  </div> <!-- row -->
  <div class="row">
@@ -867,6 +865,16 @@ Note these often work quite well for other ledger-likes, not just the one they a
  </div> <!-- row -->
  <div class="row">
   <div class="three columns u-pull-left">
+##### VIM
+  </div>
+
+  [vim-ledger](https://github.com/ledger/vim-ledger) (supports ledger & hledger),
+  [vim-beancount](https://github.com/nathangrigg/vim-beancount),
+  [hledger-vim](https://github.com/anekos/hledger-vim)
+
+ </div> <!-- row -->
+ <div class="row">
+  <div class="three columns u-pull-left">
 ##### VS Code
   </div>
 
@@ -876,7 +884,6 @@ Note these often work quite well for other ledger-likes, not just the one they a
  </div> <!-- row -->
  <div class="row">
   <div class="three columns u-pull-left">
-
 ##### Jetbrains (IntelliJ)
   </div>
 
