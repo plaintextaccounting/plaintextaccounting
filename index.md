@@ -92,7 +92,7 @@ or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edi
 **[Tools](#tools)**
 ... [PTA apps](#pta-apps)
 ... [Editor support](#editor-support)
-... [Data import/conversion tools](#data-importconversion-tools)
+... [Data import/conversion](#data-importconversion)
 ... [Price fetching](#price-fetching)
 ... [Data generation](#data-generation)
 ... [Reports](#reports)
@@ -176,46 +176,48 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 
 ### PTA apps
 
-To do Plain Text Accounting, 
-you can choose from three popular and long-lived apps,
-or the many smaller ones:
+To do Plain Text Accounting, choose one of the apps below.
+Generally it's relatively easy to migrate data from one to another.
 
 <!-- Syntax: http://pandoc.org/README.html#tables -->
 <!-- Leading |'s let markdown-mode realign the table with TAB, but screw up fontification. Hmm, maybe fixed ? Try it. -->
-<!-- Active projects are sorted by committers+other community size/activity signals; inactives are sorted by start. -->
-<!-- For projects on github, Committers is the "Contributors" count from there -->
-<!-- TODO: 20210729 updates for Abandon downwardsw -->
+<!-- Active projects are sorted by committers+other community size/activity signals; inactives are sorted by start date. -->
+<!-- Committers count can be eg the "Contributors" count on github. -->
 
-| Project                   | Start | Last release | Code                              | Committers | Stars | Mail list, ~size                | Chat, ~size                                                                                                   |
-|---------------------------|-------|:------------:|-----------------------------------|-----------:|------:|---------------------------------|---------------------------------------------------------------------------------------------------------------|
-| [Ledger]                  | 2003  | 2021-05      | [C++][ledger-gh]                  |        176 |  4.2k | [ledger][ledger-mail] ~900      | [irc][#ledger:libera.chat] 60                                                                                 |
-| [hledger]                 | 2007  | 2022-06      | [haskell][hledger-gh]             |        148 |    2k | [hledger][hledger-mail] ~200    | [matrix][#hledger:matrix.org]/[irc][#hledger:libera.chat] 120                                                 |
-| [Beancount]               | 2008  | 2020-06      | [python][beancount-gh]            |         59 |  1.8k | [beancount][beancount-mail] ~500 | [irc][#beancount:libera.chat] 20, [fava gitter][beancount-fava-gitter]/[matrix][#beancount_fava:gitter.im] 40 |
-| Abandon                   | 2013  | 2019-09      | [scala][abandon-gh]               |         11 |   156 |                                 | [gitter][abandon-gitter]/[matrix][#hrj_abandon:gitter.im]                                                     |
-| Transity                  | 2018  | 2019-05      | [purescript][transity-gh]         |          7 |   472 |                                 | [gitter][transity-gitter]/[matrix][#feramhq_transity:gitter.im]                                               |
-| Ledger in Go              | 2013  | 2019-11      | [go][ledger-in-go-gh]             |          6 |   221 |                                 |                                                                                                               |
-| cl-ledger                 | 2007  |              | [common lisp][cl-ledger-gh]       |          4 |    66 |                                 |                                                                                                               |
-| rust\_ledger              | 2019  | 2020-09      | [rust][rust_ledger-gh]            |          2 |    18 |                                 |                                                                                                               |
-| .Net Ledger               | 2017  | 2018-08      | [C#][nledger-gh]                  |          1 |    67 |                                 | [gitter][nledger-gitter]/[matrix][#nledger_Lobby:gitter.im]                                                   |
-| goledger                  | 2019  |              | [go][goledger-gh]                 |          1 |    13 |                                 |                                                                                                               |
-| [monescript]              | 2017  | 2018-01      | [javascript][monescript-gh]       |          1 |    12 |                                 |                                                                                                               |
-| blossom                   | 2020  |              | [F#][blossom-gh]                  |          1 |    12 |                                 |                                                                                                               |
-| [Tackler]                 | 2017  | 2021-01      | [scala][tackler-gl]               |          1 |     6 |                                 | [gitter][tackler-gitter]/[matrix][#E257-FI_tackler:gitter.im]                                                 |
-| acc                       | 2020  |              | [rust][acc-gh]                    |          1 |     1 |                                 |                                                                                                               |
-| bankroll                  | 2020  | 2020-08      | [rust][bankroll-gl]               |          2 |     1 |                                 |                                                                                                               |
-| [ledg]                    | 2021  | 2021-04      | [javascript][ledg]                |          1 |       |                                 |                                                                                                               |
-| [pta]                     | 2020  | 2020-09      | perl                              |          1 |       |                                 |                                                                                                               |
-| [Prudent]                 | 2018  |              | js (closed; [addons][prudent-gh]) |          1 |       |                                 | [\@PrudentLedger][prudent-chat]                                                                               |
-| knut                      | 2020  |              | [go][knut-gh]                     |          1 |       |                                 |                                                                                                               |
-| &nbsp;                    |       |              |                                   |            |       |                                 |                                                                                                               |
-| **Inactive:**             |       |              |                                   |            |       |                                 |                                                                                                               |
-| [beans]                   | 2019  | 2019         | [haskell][beans-gh]               |            |       |                                 |                                                                                                               |
-| uledger                   | 2015  |              | [python][uledger-gh]              |            |       |                                 |                                                                                                               |
-| pacioli                   | 2013  |              | [python][pacioli-gh]              |            |       |                                 |                                                                                                               |
-| ledger.pl                 | 2013  |              | [perl][ledger.pl-gh]              |            |       |                                 |                                                                                                               |
-| Penny                     | 2012  | 2014         | [haskell][penny-gh]               |            |       |                                 |                                                                                                               |
-| UMM                       | 2009  | 2010         | [haskell][UMM-hackage]            |            |       |                                 |                                                                                                               |
-| sm-Ledger                 | 2007  |              | [squeak smalltalk][smalltalk-gh]  |            |       |                                 |                                                                                                               |
+| Project               | Start  | Last release | Code                              | Committers | Stars | Mail list, ~size                 | Chat, ~size                                                                                                   |
+|-----------------------|--------|:------------:|-----------------------------------|-----------:|------:|----------------------------------|---------------------------------------------------------------------------------------------------------------|
+|                       | &nbsp; |              |                                   |            |       |                                  |                                                                                                               |
+| **Popular:**          |        |              |                                   |            |       |                                  |                                                                                                               |
+| [Ledger]              | 2003   | 2021-05      | [C++][ledger-gh]                  |        189 |  4.3k | [ledger][ledger-mail] ~900       | [irc][#ledger:libera.chat] 60                                                                                 |
+| [hledger]             | 2007   | 2022-06      | [haskell][hledger-gh]             |        148 |  2.1k | [hledger][hledger-mail] ~200     | [matrix][#hledger:matrix.org]/[irc][#hledger:libera.chat] 120                                                 |
+| [Beancount]           | 2008   | 2020-06      | [python][beancount-gh]            |         64 |    2k | [beancount][beancount-mail] ~600 | [irc][#beancount:libera.chat] 20, [fava gitter][beancount-fava-gitter]/[matrix][#beancount_fava:gitter.im] 40 |
+|                       | &nbsp; |              |                                   |            |       |                                  |                                                                                                               |
+| **Smaller userbase:** |        |              |                                   |            |       |                                  |                                                                                                               |
+| Abandon               | 2013   | 2019-09      | [scala][abandon-gh]               |         11 |   162 |                                  | [gitter][abandon-gitter]/[matrix][#hrj_abandon:gitter.im]                                                     |
+| Transity              | 2018   | 2019-05      | [purescript][transity-gh]         |          8 |   571 |                                  | [gitter][transity-gitter]/[matrix][#feramhq_transity:gitter.im]                                               |
+| Ledger in Go          | 2013   | 2019-11      | [go][ledger-in-go-gh]             |          8 |   323 |                                  |                                                                                                               |
+| rust\_ledger          | 2019   | 2020-09      | [rust][rust_ledger-gh]            |          4 |    90 |                                  |                                                                                                               |
+| .Net Ledger           | 2017   | 2018-08      | [C#][nledger-gh]                  |          1 |   134 |                                  | [gitter][nledger-gitter]/[matrix][#nledger_Lobby:gitter.im]                                                   |
+| goledger              | 2019   |              | [go][goledger-gh]                 |          1 |    23 |                                  |                                                                                                               |
+| blossom               | 2020   |              | [F#][blossom-gh]                  |          1 |    20 |                                  |                                                                                                               |
+| [Tackler]             | 2017   | 2021-01      | [scala][tackler-gl]               |          1 |     8 |                                  | [gitter][tackler-gitter]/[matrix][#E257-FI_tackler:gitter.im]                                                 |
+| [ledg]                | 2021   | 2021-04      | [javascript][ledg]                |          1 |    30 |                                  |                                                                                                               |
+| [pta]                 | 2020   | 2020-09      | perl                              |          1 |       |                                  |                                                                                                               |
+| [Prudent]             | 2018   |              | js (closed); [addons][prudent-gh] |          1 |       |                                  | [\@PrudentLedger][prudent-chat]                                                                               |
+| knut                  | 2020   |              | [go][knut-gh]                     |          3 |    39 |                                  |                                                                                                               |
+|                       | &nbsp; |              |                                   |            |       |                                  |                                                                                                               |
+| **Inactive:**         |        |              |                                   |            |       |                                  |                                                                                                               |
+| bankroll              | 2020   | 2020-08      | [rust][bankroll-gl]               |          1 |     1 |                                  |                                                                                                               |
+| acc                   | 2020   |              | [rust][acc-gh]                    |          1 |     1 |                                  |                                                                                                               |
+| [beans]               | 2019   | 2019         | [haskell][beans-gh]               |            |       |                                  |                                                                                                               |
+| [monescript]          | 2017   | 2018-01      | [javascript][monescript-gh]       |          1 |    12 |                                  |                                                                                                               |
+| uledger               | 2015   |              | [python][uledger-gh]              |            |       |                                  |                                                                                                               |
+| pacioli               | 2013   |              | [python][pacioli-gh]              |            |       |                                  |                                                                                                               |
+| ledger.pl             | 2013   |              | [perl][ledger.pl-gh]              |            |       |                                  |                                                                                                               |
+| Penny                 | 2012   | 2014         | [haskell][penny-gh]               |            |       |                                  |                                                                                                               |
+| UMM                   | 2009   | 2010         | [haskell][UMM-hackage]            |            |       |                                  |                                                                                                               |
+| sm-Ledger             | 2007   |              | [squeak smalltalk][smalltalk-gh]  |            |       |                                  |                                                                                                               |
+| cl-ledger             | 2007   |              | [common lisp][cl-ledger-gh]       |          4 |    66 |                                  |                                                                                                               |
 
 [plaintextaccounting.org]: https://plaintextaccounting.org
 [/r/plaintextaccounting]: https://www.reddit.com/r/plaintextaccounting
@@ -341,7 +343,7 @@ These often also work well for PTA apps other than the one they are named for.
 [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger),
 [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
 
-### Data import/conversion tools
+### Data import/conversion
 
 Additional helper tools complementing the PTA apps, by category.
 
