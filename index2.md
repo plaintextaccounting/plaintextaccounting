@@ -90,7 +90,7 @@ or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edi
 ... [Objections and Concerns](https://wiki.plaintextaccounting.org/faq#objections-and-concerns)
 ... [Getting started, Practicalities](https://wiki.plaintextaccounting.org/faq#getting-started-practicalities)
 \
-**[News/discussion](#newsdiscussion)**
+**[News & discussion](#news-discussion)**
 \
 **[Tools](#tools)**
 ... [PTA apps](#pta-apps)
@@ -138,7 +138,7 @@ or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edi
 ... [Customising](#customising)
 ... [API access](#api-access)
 
-## News/discussion
+## News & discussion
 
 **Chat**
 <a style="white-space:nowrap;" href="https://matrix.to/#/#plaintextaccounting:matrix.org">Matrix</a> or
