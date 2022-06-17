@@ -764,7 +764,9 @@ Like a bright light in a dark cave, thy budget shows up the leaks from thy purse
 and enables thee to stop them and control thy expenditures for definite and gratifying purposes.
 -- The Richest Man in Babylon*
 
-**Periodic budgeting: setting per-period goals**
+#### Goal budgeting
+
+(Setting per-period goals and tracking performance.)
 
 - [Ledger: Budgeting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting)
 - [hledger: Budget report](https://hledger.org/hledger.html#budget-report)
@@ -772,7 +774,9 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [hledger: Budgeting and forecasting: Periodic budget](https://hledger.org/budgeting-and-forecasting.html#periodic-budget)
 - [budget_report](https://github.com/sulemankm/budget_report) budget reporting with beancount
 
-**Envelope budgeting: pre-allocating funds**
+#### Envelope budgeting
+
+(Pre-allocating funds and controlling spending.)
 
 - [Jeremy Bush: hledger-envelope-budget](https://github.com/zombor/hledger-envelope-budget) ([discussion](https://www.reddit.com/r/plaintextaccounting/comments/r4ah79/envelope_budgeting_in_hledger_without_virtuals/))
 - [reddit: New blogpost: Budgeting for annual expenses with Hledger](https://www.reddit.com/r/plaintextaccounting/comments/l9aiup/new_blogpost_budgeting_for_annual_expenses_with/)
@@ -781,7 +785,7 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [hledger: Budgeting and forecasting: Envelope budget](https://hledger.org/budgeting-and-forecasting.html#envelope-budget)
 - [hledger envelope budgeting](<https://github.com/zombor/hledger-envelope-budget>)
 
-**Envelope budgeting with auto postings**
+#### Envelope budgeting with auto postings
 
 - [fransiska: Budgeting with ledger-cli while tracking used points](https://fransiska.github.io/ledger/2019/10/24/ledger-budget-point) <!-- 2019/10/24 -->
 - [Mykola Orliuk: Budgeting with hledger](https://gist.github.com/ony/bbec599c0893e676b772559909b81de6) <!-- 2017/1/14 -->
@@ -789,12 +793,12 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [Marcin Borkowski: Ledger – virtual postings aka envelopes](http://mbork.pl/2016-07-18_Ledger_–_virtual_postings_aka_envelopes) <!-- 2016/7/18 -->
 - [Pete Keen: Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting) <!-- 2015/4/7 -->
 
-**Envelope budgeting with auto postings, org-mode and babel**
+#### Envelope budgeting with auto postings, org-mode and babel
 
 - [Org tutorials: Weaving a budget with Org & ledger](http://orgmode.org/worg/org-tutorials/weaving-a-budget.html)
 - [Alan Schmitt: Using Org for Ledger Reports and Budget](http://alan.petitepomme.net/tips/ledger_and_org.html)
 
-**More**
+#### More
 
 - [hledger: annotated example budget journals](https://github.com/simonmichael/hledger/tree/master/examples/budgeting)
 - [hledger: Budgeting](https://hledger.org/budgeting.html)
