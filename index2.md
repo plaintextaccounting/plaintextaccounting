@@ -72,7 +72,7 @@ li {
 
 ***Plain text accounting*** is a way of doing bookkeeping and accounting 
 with plain text files and scriptable, command-line-friendly software, such as
-[Ledger, hledger, or Beancount](#plain-text-accounting-apps).
+[Ledger, hledger, or Beancount](#pta-apps).
 
 This site together with [wiki.plaintextaccounting.org](https://wiki.plaintextaccounting.org)
 is an entry point to the PTA community's tools, docs and practices. 
