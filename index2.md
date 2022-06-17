@@ -91,12 +91,6 @@ or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edi
 ... [Getting started, Practicalities](https://wiki.plaintextaccounting.org/faq#getting-started-practicalities)
 \
 **[News/discussion](#newsdiscussion)**
-... Chat
-... Mail lists
-... Twitter
-... Reddit
-... Hacker News
-... Stack Exchange
 \
 **[Tools](#tools)**
 ... [PTA apps](#pta-apps)
@@ -122,22 +116,6 @@ or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edi
 **[Videos](#videos)**
 \
 **[Articles & blog posts](#articles-blog-posts)**
-... [2021](#in-2021)
-... [2020](#in-2020)
-... [2019](#in-2019)
-... [2018](#in-2018)
-... [2017](#in-2017)
-... [2016](#in-2016)
-... [2015](#in-2015)
-... [2014](#in-2014)
-... [2013](#in-2013)
-... [2012](#in-2012)
-... [2011](#in-2011)
-... [2010](#in-2010)
-... [2009](#in-2009)
-... [2008](#in-2008)
-... [2007](#in-2007)
-... [2006](#in-2006)
 \
 **[Common tasks](#common-tasks)**
 ... [choosing accounts](#choosing-accounts)
@@ -368,6 +346,8 @@ These often also work well for PTA apps other than the one they are named for.
 
 ### Data import/conversion tools
 
+Additional helper tools complementing the PTA apps, by category.
+
 - [Ledger](https://www.ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](https://hledger.org/csv.html) have CSV conversion built in. Also:
 - bean-identify, bean-extract, bean-file - Beancount built-in tools
 - [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
@@ -594,14 +574,14 @@ other console/curses tools
 
 ## Articles & blog posts
 
-### in 2021
+### In 2021
 
 - [Arsen Arsenović: Keeping track of finances from many places](https://www.aarsen.me/posts/2021-08-13-personal-finances-with-hledger.html) <!-- 2021-08-15 -->
 - [Zoran Zaric: Budgeting for annual expenses with Hledger](http://rantsideasstuff.com/posts/2021/01/31-budgeting-for-annual-expenses-with-hledger/) <!-- 2021/01/31 -->
 - [Samuel Walladge: Tracking capital gains with hledger](https://www.swalladge.net/archives/2021/01/30/hledger-tracking-capital-gains/) <!-- 2021/01/30 -->
 - [Duarte O.Carmo: Hacking on my finances (Part 2: Beancount on Beanstalk)](https://duarteocarmo.com/blog/hacking-on-my-finances-part-2-beancount-on-beanstalk.html) <!-- 2021/01/15 -->
 
-### in 2020
+### In 2020
 
 - [Duarte O.Carmo: Hacking on my finances](https://duarteocarmo.com/blog/hacking-on-my-finances.html) <!-- 2020/10/19 -->
 - [Conversations in Code: Episode 3 / Introduction to Plain Text Accounting](https://www.reddit.com/r/plaintextaccounting/comments/ivrbdu/announcing_a_new_podcast_fossopensource_related/) <!-- 2020/9/19 --> [podcast]
@@ -617,7 +597,7 @@ other console/curses tools
 - [Lee Yingtong Li: Incorrect accounting of unrealised gains in ledger-cli](https://yingtongli.me/blog/2020/03/31/ledger-gains.html) <!-- 2020/3/31 -->
 - [Christian Egli: Quick and dirty PDF reports for Plain Text Accounting](https://egli.dev/posts/quick-and-dirty-pdf-reports-for-plain-text-accounting/) <!-- 2020/2/13 -->
 
-### in 2019
+### In 2019
 
 - [Lee Yingtong Li: FIFO inventory with ledger-cli](https://yingtongli.me/blog/2019/12/11/ledger-fifo.html) <!-- 2019/12/11 -->
 - [Justin Kaipada: Managing Ledger for Humans](https://www.kaipada.com/post/managing-ledger-for-humans/) <!-- 2019/11/25 -->
@@ -634,7 +614,7 @@ other console/curses tools
 <!-- - <s>S.M. Oliva: Accounting in Plain Text, Part 1.5</s>[](https://cvillefoss.blog/2019/02/19/accounting-in-plain-text-part-1-5) 2019 <\!-- 2/19 -\-> -->
 <!-- - <s>S.M. Oliva: Accounting in Plain Text, Part 1</s>[](https://cvillefoss.blog/2019/02/12/accounting-in-plain-text-part-1) 2019 <\!-- 2/12 -\-> -->
 
-### in 2018
+### In 2018
 
 - [Felix Crux: Tracking Accounts Jointly and Separately](https://felixcrux.com/blog/ledger-practices-tracking-accounts-jointly-and-separately) <!-- 2018-10-29) -->
 - [Pepijn Looije: Real World Ledger part 1: Weighing Eggs in Baskets](https://p.epij.nl/ledger-cli/accounting/2018/08/23/real-world-ledger-part-1/) <!-- 2018/8/23 -->
@@ -645,7 +625,7 @@ other console/curses tools
 - [Michael Walker: Personal Finance](https://memo.barrucadu.co.uk/personal-finance.html) <!-- 2018/1/7 -->
 - [Siddhant Goel: Managing Personal Finances using Python](https://sgoel.dev/posts/managing-personal-finances-using-python/) <!-- 2018/9/16 -->
 
-### in 2017
+### In 2017
 
 - [Michael Walker: I Need A Budget](https://www.barrucadu.co.uk/posts/etc/2017-12-16-i-need-a-budget.html) <!-- 2017/12/16 -->
 - [Accounting for the simple minds with plain text accounting](https://dustri.org/b/accounting-for-the-simple-minds-with-plain-text-accounting.html) <!-- 2017/12/1 -->
@@ -657,7 +637,7 @@ other console/curses tools
 - [Michael Walker: Visualise your finances with hledger, InfluxDB, and Grafana](https://www.barrucadu.co.uk/posts/etc/2017-05-18-visualise-your-finances-with-hledger-influxdb-grafana.html) <!-- 2017/5/18 -->
 - [Brady Trainor: Hledger web](https://bradyt.com/2017/04/28/Hledger-web/) <!-- 2017/4/28 -->
 
-### in 2016
+### In 2016
 
 - [Felix Crux: Accrual vs. Cash Basis Accounting](https://felixcrux.com/blog/ledger-practices-accrual-vs-cash-basis-accounting) <!-- 2016-11-30 -->
 - [bsilvereagle: Envelope Budgeting with ledger](https://frdmtoplay.com/envelope-budgeting-with-ledger) <!-- 2016/10/28 -->
@@ -670,30 +650,30 @@ other console/curses tools
 - [Karan Ahuja: Hledger Improvements Wishlist.](http://www.karanahuja.in/2016-05-17-Hledger-Improvements-Wishlist/) <!-- 2016/5/17 -->
 - [Alex Johnstone: Managing my personal finances with beancount](https://alexjj.com/blog/2016/managing-my-personal-finances-with-beancount/) <!-- 2016/2/27 -->
 
-### in 2015
+### In 2015
 
 - [Pete Keen: Program Your Finances: Algorithmic Savings](https://www.petekeen.net/program-your-finances-algorithmic-savings) <!-- 2015/6/16 -->
 - [Pete Keen: Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting) <!-- 2015/4/7 -->
 - [Stefano Rodighiero: hledger-dupes](http://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html) <!-- 2015/1/4 -->
 
-### in 2014
+### In 2014
 
 - [Matthew Turland: Ledger basics and habits](http://matthewturland.com/2014/03/29/ledger-basics-and-habits/) <!-- 2014/3/29 -->
 
-### in 2013
+### In 2013
 
 - [Simon Michael: What is hledger?](http://joyful.com/blog/2013-10-20-what-is-hledger.html) <!-- 2013/10/20 -->
 - [Simon Michael: More on ledger](http://joyful.com/blog/2013-10-19-more-on-ledger.html) <!-- 2013/10/19 -->
 - [Simon Michael: Introducing hledger!](http://joyful.com/blog/2013-10-18-introducing-hledger.html) <!-- 2013/10/18 -->
 
-### in 2012
+### In 2012
 
 - [Joey Hess: hledger](http://joeyh.name/blog/entry/hledger) <!-- 2012/12/3 -->
 - [Gene Goykhman: An Alternative to QuickBooks](http://goykhman.ca/gene/blog/2012/2012-09-23-an-alternative-to-quickbooks.html) <!-- 2012/9/23 -->
 - [LWN: The accounting quest: Ledger](http://lwn.net/Articles/501681/) <!-- 2012/6/13 -->
 - [Pete Keen: A Robust Reporting System for Ledger](https://www.petekeen.net/a-robust-reporting-system-for-ledger) <!-- 2012/1/1 -->
 
-### in 2011
+### In 2011
 
 - [Pete Keen: Program your Finances: Automated Transactions](https://www.petekeen.net/program-your-finances-automated-transactions) <!-- 2011/12/18 -->
 - [Sascha Welter: Doing my own accounting](http://betabug.ch/blogs/ch-athens/1221) <!-- 2011/12/5 -->
@@ -701,7 +681,7 @@ other console/curses tools
 - [Pete Keen: Program your Finances: Vacation Tracking](https://www.petekeen.net/program-your-finances-vacation-tracking) <!-- 2011/8/4 -->
 - [Pete Keen: Program your Finances: Reporting for Fun and Profit](https://www.petekeen.net/program-your-finances-reporting-for-fun-and-profit) <!-- 2011/7/9 -->
 
-### in 2010
+### In 2010
 
 - [Pete Keen: Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger) <!-- 2010/12/31 estimate -->
 - [Christine Spang: [h]ledger rocks my world](http://blog.spang.cc/posts/hledger_rocks_my_world/) <!-- 2010/7/5 -->
@@ -709,29 +689,32 @@ other console/curses tools
 <!-- - [Roman Cheplyaka: hledger](http://ro-che.blogspot.com/2010/02/hledger.html) 2010 -->
 <!-- - [Fabrice Niessen on Ledger, hledger, beancount, CSV2Ledger](http://www.mygooglest.com/fni/ledger.html) 2010 -->
 
-### in 2009
+### In 2009
 
 - [советы: Ledger — бухучёт в командной строке](http://s.arboreus.com/2009/05/personal-accounting-in-command-line.html) ([english](http://translate.google.com/translate?hl=en&sl=ru&u=http://s.arboreus.com/2009/05/personal-accounting-in-command-line.html)) <!-- 2009/5/15 -->
 
-### in 2006
+### In 2006
 
 - [Joe Barr: Ledger, the bran muffin of accounting tools](https://www.linux.com/news/ledger-bran-muffin-accounting-tools) <!-- 2006/11/10 -->
 
 
 ## Common tasks
 
-### choosing accounts
+Practical tips and how-tos.
+See also the examples on [wiki.plaintextaccounting.org](https://wiki.plaintextaccounting.org).
+
+### Choosing accounts
 
 - [sample chart of accounts for a freelancer](https://gist.github.com/simonmichael/9936299)
 - [Beancount Cookbook: Account Naming Conventions](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk/view#heading=h.tu0f1kydrpgn)
 - [Mint: Ways to Categorize Your Spending](https://www.mint.com/mint-categories)
 - [Simplified version of double-entry bookkeeping for personal and business finance?](http://money.stackexchange.com/questions/47561/simplified-version-of-double-entry-bookkeeping-for-personal-and-business-finance)
 
-### choosing cash vs accrual
+### Choosing cash vs accrual
 
 - [Ledger Practices: Accrual vs. Cash Basis Accounting](https://felixcrux.com/blog/ledger-practices-accrual-vs-cash-basis-accounting)
 
-### entering data
+### Entering data
 
 - [hledger Basics tutorial: Record a transaction with “hledger add”](https://hledger.org/basics-tutorial.html#record-a-transaction-with-hledger-add)
 - ledger-mode:\
@@ -744,7 +727,7 @@ other console/curses tools
 - [Ledger Practices: Separate Your Journals](https://felixcrux.com/blog/ledger-practices-separate-your-journals)
 - [UI tools](#ui-console)
 
-### importing
+### Importing
 
 - [Ledger: The convert command](http://www.ledger-cli.org/3.0/doc/ledger3.html#The-convert-command)
 - [hledger: CSV format](https://hledger.org/csv.html)
@@ -756,13 +739,13 @@ other console/curses tools
 - ["Hledger Flow" tutorial/slideshow](https://github.com/apauley/hledger-flow)
 - [import tools](#data-import)
 
-### reconciling
+### Reconciling
 
 - ledger-mode: `C-c C-r`
 - [How to use ledger(1) to reconcile your chequebook with your bank statement](https://mumble.net/~campbell/2017/02/26/ledger/HOWTO-reconcile-cheques)
 - [How to use ledger(1) to reconcile your payments with your payment processor](https://mumble.net/~campbell/2017/02/26/ledger/HOWTO-reconcile-payments)
 
-### reporting
+### Reporting
 
 - [example queries for Beancount](http://aumayr.github.io/beancount-sql-queries/)
 - [hledger Cookbook: Rewrite account names](https://github.com/simonmichael/hledger/wiki/Rewrite-account-names)
@@ -772,7 +755,7 @@ other console/curses tools
 - [Program your Finances: Reporting for Fun and Profit](https://www.petekeen.net/program-your-finances-reporting-for-fun-and-profit)
 - [Pete Keen: A Robust Reporting System for Ledger](https://www.petekeen.net/a-robust-reporting-system-for-ledger) 2012<!-- /1/1 -->
 
-### budgeting
+### Budgeting
 
 *The purpose of a budget is to help thy purse to fatten.
 It is to assist thee to have thy necessities, and insofar as attainable, thy other desires.
@@ -817,27 +800,27 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [hledger: Budgeting](https://hledger.org/budgeting.html)
 
 
-### forecasting
+### Forecasting
 
 - [Ledger: Forecasting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Forecasting)
 <!-- down 2017/4/28 - [Notes on Installing and Using ledger on NetBSD](http://atomicules.co.uk/2015/06/20/Notes-on-installing-and-using-Ledger-on-NetBSD.html) and forecasting -->
 
-### invoicing
+### Invoicing
 
 - [invoicing entries](https://gist.github.com/simonmichael/986a65106a9db1f8bd68)
 - [Ledger Practices: Tracking Reimbursable Expenses](https://felixcrux.com/blog/ledger-practices-tracking-reimbursable-expenses)
 
-### multiple currencies
+### Multiple currencies
 
 - [Peter Selinger: Tutorial on multiple currency accounting](http://www.mscs.dal.ca/~selinger/accounting/tutorial.html)
 - [ledger-currencies tutorial](https://github.com/mikekchar/ledger-currencies)
 - [Understanding the valuation function and the market function](https://groups.google.com/d/msg/ledger-cli/dc6F-HvZOyE/5IuoxzMOBwAJ)
 
-### trip expenses
+### Trip expenses
 
 - [Program your Finances: Vacation Tracking](https://www.petekeen.net/program-your-finances-vacation-tracking) 2011<!-- /8/4 -->
 
-### shared expenses
+### Shared expenses
 
 - [Beancount: Sharing Expenses in Beancount](https://docs.google.com/document/d/1FRcJqUfeAMQO6KjG94w6rF7VajMGJaFplmF1Wu0rCHY)
 - [Keeping (financial) score with Ledger](http://sachachua.com/blog/2014/11/keeping-financial-score-ledger/)
@@ -846,12 +829,12 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [How to use ledger(1) to split shared expenses](https://mumble.net/~campbell/2017/02/26/ledger/HOWTO-sharedexpense)
 - [Ledger Practices: Tracking Accounts Jointly and Separately](https://felixcrux.com/blog/ledger-practices-tracking-accounts-jointly-and-separately)
 
-### taxes
+### Taxes
 
 - [How to use ledger(1) to track US income taxes](https://mumble.net/~campbell/2017/08/06/ledger/HOWTO-track-tax)
 - [Another Ledger user's perspective](https://groups.google.com/d/msg/beancount/QV4qgpFbtJ8/9fSgMw-XGC8J) 2015
 
-### time tracking
+### Time tracking
 
 - [Ledger: Time Keeping](https://www.ledger-cli.org/3.0/doc/ledger3.html#Time-Keeping)
 - [hledger: Timeclock format](https://hledger.org/hledger.html#timeclock-format)
@@ -862,27 +845,27 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [reddit: Ledger CLI time tracking and transaction account linking](https://www.reddit.com/r/plaintextaccounting/comments/e2sd0k/ledger_cli_time_tracking_and_transaction_account/)
 - [arbeitszeit.py](https://github.com/haansn08/arbeitszeit.py)
 
-### inventory tracking
+### Inventory tracking
 
 - [Accounting Savvy for Business Owners ch. 8](http://www.amazon.com/Accounting-Savvy-Business-Owners-Essentials/dp/193292518X)
 
-### investing
+### Investing
 
 - [Beancount: Inventory Booking](https://docs.google.com/document/d/1F8IJ_7fMHZ75XFPocMokLxVZczAhrBRBVN9uMhQFCZ4), [discussion](https://groups.google.com/forum/#!searchin/ledger-cli/inventory/ledger-cli/aQvbjTZa7HE/x3KNPteJWPsJ)
 - [hledger: Track investments](https://hledger.org/track-investments.html)
 - [hledger: Track investments 2](https://hledger.org/investments.html)
 
-### non-profit accounting
+### Non-profit accounting
 
 - [Non-Profit Accounting With Ledger CLI, A Tutorial](https://github.com/conservancy/npo-ledger-cli/blob/master/npo-ledger-cli-tutorial.md)
 
-### exporting
+### Exporting
 
 - [Ledger: The csv command](http://www.ledger-cli.org/3.0/doc/ledger3.html#The-csv-command)
 - [hledger: Output format](https://hledger.org/hledger.html?highlight=budget#output-format)
 - [Beancount: Exporting Your Portfolio](https://docs.google.com/document/d/1mNyE_ONuyEkF_I2l6V_AoAU5HJgI654AOBhHsnNPPqw)
 
-### customising
+### Customising
 
 - [Ledger Practices: Create a .ledgerrc](https://felixcrux.com/blog/ledger-practices-create-a-ledgerrc)
 
