@@ -58,10 +58,6 @@ li {
 }
 </style>
 
-<div style="float:right; position:fixed; top:.5em; right:.5em;">
-[![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting)
-</div>
-
 <div style="float:right; width:30%; margin:0 0 4em 3em;">
 <img src="images/pta-avatar.jpg" width=250 style="border-radius:50%;">
 </div>
@@ -80,6 +76,7 @@ It is [maintained](README.html) by
 Simon&nbsp;Michael (hledger project leader, Ledger contributor, PTA fan) and contributors like you. 
 To give feedback or chat, join us in [#plaintextaccounting:libera.chat] or [#plaintextaccounting:matrix.org]
 or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edit/master/index.md).
+[![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting)
 
 </div>
 
