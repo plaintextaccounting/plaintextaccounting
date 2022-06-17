@@ -1,22 +1,17 @@
-% Plain Text Accounting, a guide to Ledger and friends
+% Plain Text Accounting portal
 
 <!--
 Editing tips:
 
-This is pandoc markdown (markdown-smart+autolink_bare_uris) + html.
-http://pandoc.org/README.html
+This is whatever markdown Cloudflare Sites renders.
 index.tmpl defines the page layout, using normalize, skeleton and local css.
-http://getskeleton.com
-We run pandoc locally and commit the html it generates, eg index.html.
+(http://getskeleton.com)
 
 If editing via github web UI:
 - you can see an approximate preview with the Preview tab
-- no need to update the generated html; we'll do that when needed
 
 If editing in a local clone:
-- you can use make html or make html-watch to see an accurate preview
-- if you do, you might as well commit the updated html as well; 
-  otherwise we'll do that when needed
+- you can use make html-watch to see an accurate preview
 
 If using emacs markdown-mode:
 - S-TAB cycles heading/content visibility
@@ -27,7 +22,6 @@ If using emacs markdown-mode:
 
 <style>
 body {
-/*    background-color:#fdd;*/
 }
 .columns {
     margin-left:0 !important;
@@ -48,6 +42,9 @@ h4 {
 h5 {
     font-size:1.2em;
 }
+li {
+    margin:revert;
+}
 .faq h5 { /* questions */
     font-weight:bold;
     margin-bottom:0;
@@ -59,24 +56,6 @@ h5 {
   font-size:2rem;
   font-weight:bold;
 }
-#section1 {
-  /* background-color:#fff; */  /* these need to be full width */
-}
-#section2 {
-    /* background-color:#eee; */
-}
-#section3 {
-    /* background-color:#ddd; */
-}
-#section4 {
-    /* background-color:#ccc; */
-}
-#section5 {
-    /* background-color:#bbb; */
-}
-#section6 {
-    /* background-color:#aaa; */
-}
 </style>
 
 <div style="float:right; position:fixed; top:.5em; right:.5em;">
@@ -87,11 +66,9 @@ h5 {
 <img src="images/pta-avatar.jpg" width=250 style="border-radius:50%;">
 </div>
 
-<div id="section1">
-
 # plain text accounting
 
- <div id="intro">
+<div id="intro">
 
 ***Plain text accounting*** is a way of doing bookkeeping and accounting 
 with plain text files and scriptable, command-line-friendly software, such as
@@ -101,154 +78,127 @@ This site together with [wiki.plaintextaccounting.org](https://wiki.plaintextacc
 is an entry point to the PTA community's tools, docs and practices. 
 It is [maintained](README.html) by 
 Simon&nbsp;Michael (hledger project leader, Ledger contributor, PTA fan) and contributors like you. 
-Got feedback ? Join us in [#plaintextaccounting:libera.chat] or [#plaintextaccounting:matrix.org]
+To give feedback or chat, join us in [#plaintextaccounting:libera.chat] or [#plaintextaccounting:matrix.org]
 or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edit/master/index.md).
 
- </div>
+</div>
 
 ## Overview
 
-[FAQ](#frequently-asked-questions)  
-&nbsp;&nbsp;[What and Why](#what-and-why)  
-&nbsp;&nbsp;[Objections and Concerns](#objections-and-concerns)  
-&nbsp;&nbsp;[Getting started, Practicalities](#getting-started-practicalities)  
-[news/discussion](#newsdiscussion)  
-&nbsp;&nbsp;[mail lists/IRC](#maillistsirc)  
-&nbsp;&nbsp;[twitter](#twitter)  
-&nbsp;&nbsp;[reddit](#reddit)  
-&nbsp;&nbsp;[hacker news](#hacker-news)  
-&nbsp;&nbsp;[stack exchange](#stack-exchange)  
-[software](#software)  
-&nbsp;&nbsp;[plain text accounting apps](#plain-text-accounting-apps)  
-&nbsp;&nbsp;[data import/conversion](#data-importconversion)  
-&nbsp;&nbsp;[price fetching](#price-fetching)  
-&nbsp;&nbsp;[data generation](#data-generation)  
-&nbsp;&nbsp;[reports](#reports)  
-&nbsp;&nbsp;[time logging](#time-logging)  
-&nbsp;&nbsp;[UI, console](#ui-console)  
-&nbsp;&nbsp;[UI, curses](#ui-curses)  
-&nbsp;&nbsp;[UI, GUI](#ui-gui)  
-&nbsp;&nbsp;[UI, web](#ui-web)  
-&nbsp;&nbsp;[UI, mobile](#ui-mobile)  
-&nbsp;&nbsp;[API](#api)  
-&nbsp;&nbsp;[editor support](#editor-support)  
-[docs](#docs)  
-&nbsp;&nbsp;[general accounting](#general-accounting)  
-&nbsp;&nbsp;[plain text accounting](#plain-text-accounting)  
-&nbsp;&nbsp;[comparisons](#comparisons)  
-&nbsp;&nbsp;[presentations](#presentations)  
-&nbsp;&nbsp;[videos](#videos)  
-[articles & blog posts](#articles-blog-posts)  
-&nbsp;&nbsp;[in 2021](#in-2021)  
-&nbsp;&nbsp;[in 2020](#in-2020)  
-&nbsp;&nbsp;[in 2019](#in-2019)  
-&nbsp;&nbsp;[in 2018](#in-2018)  
-&nbsp;&nbsp;[in 2017](#in-2017)  
-&nbsp;&nbsp;[in 2016](#in-2016)  
-&nbsp;&nbsp;[in 2015](#in-2015)  
-&nbsp;&nbsp;[in 2014](#in-2014)  
-&nbsp;&nbsp;[in 2013](#in-2013)  
-&nbsp;&nbsp;[in 2012](#in-2012)  
-&nbsp;&nbsp;[in 2011](#in-2011)  
-&nbsp;&nbsp;[in 2010](#in-2010)  
-&nbsp;&nbsp;[in 2009](#in-2009)  
-&nbsp;&nbsp;[in 2008](#in-2008)  
-&nbsp;&nbsp;[in 2007](#in-2007)  
-&nbsp;&nbsp;[in 2006](#in-2006)  
-[common tasks](#common-tasks)  
-&nbsp;&nbsp;[choosing accounts](#choosing-accounts)  
-&nbsp;&nbsp;[choosing cash vs accrual](#choosing-cash-vs-accrual)  
-&nbsp;&nbsp;[entering data](#entering-data)  
-&nbsp;&nbsp;[importing](#importing)  
-&nbsp;&nbsp;[reconciling](#reconciling)  
-&nbsp;&nbsp;[reporting](#reporting)  
-&nbsp;&nbsp;[budgeting](#budgeting)  
-&nbsp;&nbsp;[forecasting](#forecasting)  
-&nbsp;&nbsp;[invoicing](#invoicing)  
-&nbsp;&nbsp;[multiple currencies](#multiple-currencies)  
-&nbsp;&nbsp;[trip expenses](#trip-expenses)  
-&nbsp;&nbsp;[shared expenses](#shared-expenses)  
-&nbsp;&nbsp;[taxes](#taxes)  
-&nbsp;&nbsp;[time tracking](#time-tracking)  
-&nbsp;&nbsp;[inventory tracking](#inventory-tracking)  
-&nbsp;&nbsp;[non-profit accounting](#non-profit-accounting)  
-&nbsp;&nbsp;[exporting](#exporting)  
-&nbsp;&nbsp;[customising](#customising)  
-&nbsp;&nbsp;[API access](#api-access)  
+**[FAQ](https://wiki.plaintextaccounting.org/faq#frequently-asked-questions)**
+... [What and Why](https://wiki.plaintextaccounting.org/faq#what-and-why)
+... [Objections and Concerns](https://wiki.plaintextaccounting.org/faq#objections-and-concerns)
+... [Getting started, Practicalities](https://wiki.plaintextaccounting.org/faq#getting-started-practicalities)
+\
+**[News/discussion](#newsdiscussion)**
+... mail lists/IRC
+... twitter
+... reddit
+... hacker news
+... stack exchange
+\
+**[Tools](#tools)**
+... [PTA apps](#pta-apps)
+... [data import/conversion tools](#data-importconversion-tools)
+... [price fetching](#price-fetching)
+... [data generation](#data-generation)
+... [reports](#reports)
+... [time logging](#time-logging)
+... [UI, console](#ui-console)
+... [UI, curses](#ui-curses)
+... [UI, GUI](#ui-gui)
+... [UI, web](#ui-web)
+... [UI, mobile](#ui-mobile)
+... [API](#api)
+... [editor support](#editor-support)
+\
+**[Docs](#docs)**
+... [general accounting](#general-accounting)
+... [plain text accounting](#plain-text-accounting)
+... [comparisons](#comparisons)
+... [presentations](#presentations)
+\
+**[Videos](#videos)**
+\
+**[Articles & blog posts](#articles-blog-posts)**
+... [2021](#in-2021)
+... [2020](#in-2020)
+... [2019](#in-2019)
+... [2018](#in-2018)
+... [2017](#in-2017)
+... [2016](#in-2016)
+... [2015](#in-2015)
+... [2014](#in-2014)
+... [2013](#in-2013)
+... [2012](#in-2012)
+... [2011](#in-2011)
+... [2010](#in-2010)
+... [2009](#in-2009)
+... [2008](#in-2008)
+... [2007](#in-2007)
+... [2006](#in-2006)
+\
+**[Common tasks](#common-tasks)**
+... [choosing accounts](#choosing-accounts)
+... [choosing cash vs accrual](#choosing-cash-vs-accrual)
+... [entering data](#entering-data)
+... [importing](#importing)
+... [reconciling](#reconciling)
+... [reporting](#reporting)
+... [budgeting](#budgeting)
+... [forecasting](#forecasting)
+... [invoicing](#invoicing)
+... [multiple currencies](#multiple-currencies)
+... [trip expenses](#trip-expenses)
+... [shared expenses](#shared-expenses)
+... [taxes](#taxes)
+... [time tracking](#time-tracking)
+... [inventory tracking](#inventory-tracking)
+... [non-profit accounting](#non-profit-accounting)
+... [exporting](#exporting)
+... [customising](#customising)
+... [API access](#api-access)
 
- </div> <!-- row -->
-</div> <!-- section -->
+## News/discussion
 
-<div id="section3">
-
-## news/discussion
-
- <div class="row">
-  <div class="three columns u-pull-left">
-
-##### mail lists/IRC<br><br>
-  </div>
-  <a style="white-space:nowrap;" href="https://matrix.to/#/#plaintextaccounting:matrix.org">#plaintextaccounting:matrix.org</a>
-  or <a style="white-space:nowrap;" href="https://web.libera.chat/#plaintextaccounting">#plaintextaccounting:libera.chat</a>
-  (bridged);
-  <span style="white-space:nowrap;">[project-specific mail lists/chats](#plain-text-accounting-apps)</span>
- </div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-
-##### twitter
-  </div>
-
+**Mail lists/IRC**
+<a style="white-space:nowrap;" href="https://matrix.to/#/#plaintextaccounting:matrix.org">#plaintextaccounting:matrix.org</a>
+or <a style="white-space:nowrap;" href="https://web.libera.chat/#plaintextaccounting">#plaintextaccounting:libera.chat</a>
+(bridged);
+<span style="white-space:nowrap;">[project-specific mail lists/chats](#plain-text-accounting-apps)</span>
+\
+**Twitter**
 [#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting?f=live),
 [#ledgercli](https://twitter.com/hashtag/ledgercli?f=live),
 [#hledger](https://twitter.com/hashtag/hledger?f=live),
 [#beancount](https://twitter.com/hashtag/beancount?f=live),
 [\@LedgerTips](https://twitter.com/LedgerTips)
-
- </div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-
-##### reddit
-  </div>
-
+\
+**Reddit**
 [/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/)
-
- </div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-
-##### hacker news
-  </div>
-
+\
+**Hacker News**
 [stories](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=story),
 [comments](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=comment)
-
- </div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-
-##### stack exchange
-  </div>
-
+\
+**Stack Exchange**
 [[ledger-cli]](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest) / ["ledger-cli"](https://money.stackexchange.com/search?tab=newest&q=ledger-cli),
 [[hledger]](https://money.stackexchange.com/questions/tagged/hledger?tab=newest) / ["hledger"](https://money.stackexchange.com/search?tab=newest&q=hledger)
 <!-- [beancount](https://money.stackexchange.com/search?tab=newest&q=beancount) -->
-
- </div> <!-- row -->
-</div> <!-- section -->
-
-<div id="section4">
 
 <style>
 th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; white-space:nowrap; }
 </style>
 
-## software
+## Tools
 
 <a name="ledger-likes"></a>
 
-### plain text accounting apps
+### PTA apps
+
+To do Plain Text Accounting, 
+you can choose from three popular and long-lived apps,
+or the many smaller ones:
 
 <!-- Syntax: http://pandoc.org/README.html#tables -->
 <!-- Leading |'s let markdown-mode realign the table with TAB, but screw up fontification. Hmm, maybe fixed ? Try it. -->
@@ -286,10 +236,6 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | Penny                     | 2012  | 2014         | [haskell][penny-gh]               |            |       |                                 |                                                                                                               |
 | UMM                       | 2009  | 2010         | [haskell][UMM-hackage]            |            |       |                                 |                                                                                                               |
 | sm-Ledger                 | 2007  |              | [squeak smalltalk][smalltalk-gh]  |            |       |                                 |                                                                                                               |
-| &nbsp;                    |       |              |                                   |            |       |                                 |                                                                                                               |
-| **See also:**             |       |              |                                   |            |       |                                 |                                                                                                               |
-| [plaintextaccounting.org] |       |              |                                   |            |       |                                 | [matrix][#plaintextaccounting:matrix.org]/[irc][#plaintextaccounting:libera.chat] 90                          |
-|                           |       |              |                                   |            |       |                                 | [/r/plaintextaccounting] 2800                                                                                 |
 
 [plaintextaccounting.org]: https://plaintextaccounting.org
 [/r/plaintextaccounting]: https://www.reddit.com/r/plaintextaccounting
@@ -379,10 +325,42 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 
 <!-- [compare at openhub](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
 
-Next, related add-ons and helpers by category
-(note: `*ledger` below means Ledger and hledger-style journal format):
+### Editor plugins
 
-### data import/conversion
+These often also work well for PTA apps other than the one they are named for.
+
+**Atom**
+[language-ledger](https://atom.io/packages/language-ledger),
+[ledger](https://atom.io/packages/ledger)
+\
+**Emacs**
+[beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default),
+[hledger-mode](https://github.com/narendraj9/hledger-mode),
+[ledger-mode](https://www.ledger-cli.org/3.0/doc/ledger-mode.html)
+\
+**IntelliJ**
+[Ledger Plugin](https://plugins.jetbrains.com/plugin/15405-ledger-cli)
+\
+**Nano**
+[scopatz/nanorc](https://github.com/scopatz/nanorc/blob/master/ledger.nanorc)
+\
+**Sublime**
+[sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax)
+\
+**TextMate**
+[Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle)
+\
+**VIM**
+[vim-ledger](https://github.com/ledger/vim-ledger) (supports ledger & hledger),
+[vim-beancount](https://github.com/nathangrigg/vim-beancount),
+[hledger-vim](https://github.com/anekos/hledger-vim)
+\
+**VS Code**
+[hledger-vscode](https://github.com/mhansen/hledger-vscode),
+[ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger),
+[vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
+
+### Data import/conversion tools
 
 - [Ledger](https://www.ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](https://hledger.org/csv.html) have CSV conversion built in. Also:
 - bean-identify, bean-extract, bean-file - Beancount built-in tools
@@ -431,7 +409,7 @@ Next, related add-ons and helpers by category
 - [Costflow](https://docs.costflow.io) convert one line message to beancount/*ledger format
 - [Go Ledger parser](https://github.com/abourget/ledger) a parser and ledgerfmt, ledger2json, json2ledger tools (go)
 
-### price fetching
+### Price fetching
 
 - [bean-price](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c) Beancount's price fetching tool (python)
 - [hledger-stockquotes](https://github.com/prikhi/hledger-stockquotes) download market prices for your hledger commodities (haskell)
@@ -443,7 +421,7 @@ Next, related add-ons and helpers by category
 - [the-solipsist/scripts](https://github.com/the-solipsist/scripts/) download prices for your hledger commodities, including indian commodities (bash)
 - [update-hledger-market-prices.hs](https://github.com/cdepillabout/docs/blob/master/code/update-hledger-market-prices.hs) download market prices (haskell)
 
-### data generation
+### Data generation
 
 - [beancount-extract-price](https://github.com/Mayeu/beancount-scripts) generate prices transactions based on your beancount ledger (python)
 - [DepreciateForLedger](https://github.com/tazzben/DepreciateForLedger) generate *ledger depreciation transactions (python)
@@ -455,7 +433,7 @@ Next, related add-ons and helpers by category
 - [reorder-journal.sh](https://github.com/amitaibu/hledger-example/blob/master/reorder-journal.sh) sort hledger entries, preserving directives/comments at top of file (bash)
 - [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
 
-### reports
+### Reports
 
 - [budget_report](https://github.com/sulemankm/budget_report) budget reporting with beancount (python)
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals (haskell)
@@ -468,7 +446,7 @@ Next, related add-ons and helpers by category
 - [r-ledger](https://github.com/trevorld/r-ledger) an R package for reading and reporting on ledger/hledger/beancount files (R)
 - [TaxingLots](https://framagit.org/jkepler/TaxingLots) calculates capital gains for a ledger journal (python)
 
-### time logging
+### Time logging
 
 - [org2tc](https://github.com/jwiegley/org2tc) org to timeclock converter
 - [on-modify.timetrack.py](https://gist.github.com/wbsch/d977b0ac29aa1dfa4437) taskwarrior hook for timeclock output
@@ -542,87 +520,7 @@ other console/curses tools
 - the [org empire](http://orgmode.org)...
 -->
 
-### editor support
-
-Editor plugins.
-Note these often work quite well for other ledger-likes, not just the one they are named for.
-
- <div class="row">
-  <div class="three columns u-pull-left">
-##### Atom
-  </div>
-
-  [language-ledger](https://atom.io/packages/language-ledger),
-  [ledger](https://atom.io/packages/ledger)
-
- </div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-##### Emacs
-  </div>
-
-  [beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default),
-  [hledger-mode](https://github.com/narendraj9/hledger-mode),
-  [ledger-mode](https://www.ledger-cli.org/3.0/doc/ledger-mode.html) (also works for hledger, beancount etc.)
-
- </div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-##### nano
-  </div>
-
-  [scopatz/nanorc](https://github.com/scopatz/nanorc/blob/master/ledger.nanorc)
-
- </div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-##### Sublime
-  </div>
-
-  [sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax)
-
- </div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-##### TextMate
-  </div>
-
-  [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle)
-
- </div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-##### VIM
-  </div>
-
-  [vim-ledger](https://github.com/ledger/vim-ledger) (supports ledger & hledger),
-  [vim-beancount](https://github.com/nathangrigg/vim-beancount),
-  [hledger-vim](https://github.com/anekos/hledger-vim)
-
- </div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-##### VS Code
-  </div>
-
-  [hledger-vscode](https://github.com/mhansen/hledger-vscode),
-  [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger),
-  [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
- </div> <!-- row -->
- <div class="row">
-  <div class="three columns u-pull-left">
-##### Jetbrains (IntelliJ)
-  </div>
-
-[Ledger Plugin](https://plugins.jetbrains.com/plugin/15405-ledger-cli)
-
-</div> <!-- section -->
-
-<div id="section5">
-
-<!-- <div class="three columns u-pull-right tight"> -->
-
-## docs
+## Docs
 
 ### general accounting
 
@@ -667,7 +565,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [Hacking Your Finances for Fun and Profit](http://matthewturland.com/slides/ledger-stats/) 2013
 - [Ledger and Text based Accounting](http://www.adamsinfoserv.com/AISTWiki/pub/AIS/Presentations/Ledger.pdf) 2009
 
-### videos
+## Videos
 
 - [Simon Michael: Inside hledger: an architectural tour and how-to](https://www.youtube.com/watch?v=6PKmZSHxu0c) 2021
 - [hledger fan youtube channel](https://www.youtube.com/channel/UCZLxXTjOqLzq4z5Jy0AyWSQ) (short lessons) 2019
@@ -688,7 +586,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [Khan Academy: Accounting and financial statements](https://www.khanacademy.org/economics-finance-domain/core-finance/accounting-and-financial-stateme)
 - [David Mitchell: Personal Debts](https://www.youtube.com/watch?v=9zyp8RF-Fyw)
 
-## articles & blog posts
+## Articles & blog posts
 
 ### in 2021
 
@@ -814,7 +712,7 @@ Note these often work quite well for other ledger-likes, not just the one they a
 - [Joe Barr: Ledger, the bran muffin of accounting tools](https://www.linux.com/news/ledger-bran-muffin-accounting-tools) <!-- 2006/11/10 -->
 
 
-## common tasks
+## Common tasks
 
 ### choosing accounts
 
@@ -994,14 +892,10 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [node-hledger](https://github.com/rstacruz/node-hledger) JavaScript
 
 
-</div> <!-- section -->
 
-<div id="section6" style="text-align:center;">
 
 <hr>
 \(c) 2016-2021 [Simon Michael](http://joyful.com) & contributors |
 Send updates via [github](https://github.com/plaintextaccounting/plaintextaccounting)
 ([latest changes](https://github.com/plaintextaccounting/plaintextaccounting/commits/master))
-
-</div>
 
