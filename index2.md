@@ -895,7 +895,7 @@ and enables thee to stop them and control thy expenditures for definite and grat
 
 
 <hr>
-\(c) 2016-2021 [Simon Michael](http://joyful.com) & contributors |
+\(c) 2016-2022 [Simon Michael](http://joyful.com) & contributors |
 Send updates via [github](https://github.com/plaintextaccounting/plaintextaccounting)
 ([latest changes](https://github.com/plaintextaccounting/plaintextaccounting/commits/master))
 
