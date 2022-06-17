@@ -91,11 +91,12 @@ or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edi
 ... [Getting started, Practicalities](https://wiki.plaintextaccounting.org/faq#getting-started-practicalities)
 \
 **[News/discussion](#newsdiscussion)**
-... mail lists/IRC
-... twitter
-... reddit
-... hacker news
-... stack exchange
+... Chat
+... Mail lists
+... Twitter
+... Reddit
+... Hacker News
+... Stack Exchange
 \
 **[Tools](#tools)**
 ... [PTA apps](#pta-apps)
@@ -113,10 +114,10 @@ or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edi
 ... [editor support](#editor-support)
 \
 **[Docs](#docs)**
-... [general accounting](#general-accounting)
-... [plain text accounting](#plain-text-accounting)
-... [comparisons](#comparisons)
-... [presentations](#presentations)
+... [General accounting](#general-accounting)
+... [Plain text accounting](#plain-text-accounting)
+... [App comparisons](#app-comparisons)
+... [Presentations](#presentations)
 \
 **[Videos](#videos)**
 \
@@ -161,11 +162,13 @@ or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edi
 
 ## News/discussion
 
-**Mail lists/IRC**
-<a style="white-space:nowrap;" href="https://matrix.to/#/#plaintextaccounting:matrix.org">#plaintextaccounting:matrix.org</a>
-or <a style="white-space:nowrap;" href="https://web.libera.chat/#plaintextaccounting">#plaintextaccounting:libera.chat</a>
-(bridged);
-<span style="white-space:nowrap;">[project-specific mail lists/chats](#plain-text-accounting-apps)</span>
+**Chat**
+<a style="white-space:nowrap;" href="https://matrix.to/#/#plaintextaccounting:matrix.org">Matrix</a> or
+<a style="white-space:nowrap;" href="https://web.libera.chat/#plaintextaccounting">IRC</a> (bridged),
+<span style="white-space:nowrap;">[app-specific chats](#plain-text-accounting-apps)</span>
+\
+**Mail lists**
+<span style="white-space:nowrap;">[app-specific mail lists](#plain-text-accounting-apps)</span>
 \
 **Twitter**
 [#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting?f=live),
@@ -182,8 +185,10 @@ or <a style="white-space:nowrap;" href="https://web.libera.chat/#plaintextaccoun
 [comments](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=comment)
 \
 **Stack Exchange**
-[[ledger-cli]](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest) / ["ledger-cli"](https://money.stackexchange.com/search?tab=newest&q=ledger-cli),
-[[hledger]](https://money.stackexchange.com/questions/tagged/hledger?tab=newest) / ["hledger"](https://money.stackexchange.com/search?tab=newest&q=hledger)
+[[ledger-cli]](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest),
+["ledger-cli"](https://money.stackexchange.com/search?tab=newest&q=ledger-cli),
+[[hledger]](https://money.stackexchange.com/questions/tagged/hledger?tab=newest),
+["hledger"](https://money.stackexchange.com/search?tab=newest&q=hledger)
 <!-- [beancount](https://money.stackexchange.com/search?tab=newest&q=beancount) -->
 
 <style>
@@ -327,6 +332,7 @@ or the many smaller ones:
 
 ### Editor plugins
 
+Helpers which make your text editor or IDE more aware of PTA apps and file formats.
 These often also work well for PTA apps other than the one they are named for.
 
 **Atom**
@@ -351,7 +357,7 @@ These often also work well for PTA apps other than the one they are named for.
 [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle)
 \
 **VIM**
-[vim-ledger](https://github.com/ledger/vim-ledger) (supports ledger & hledger),
+[vim-ledger](https://github.com/ledger/vim-ledger),
 [vim-beancount](https://github.com/nathangrigg/vim-beancount),
 [hledger-vim](https://github.com/anekos/hledger-vim)
 \
@@ -522,14 +528,14 @@ other console/curses tools
 
 ## Docs
 
-### general accounting
+### General accounting
 
 - [hledger: Accounting](https://github.com/simonmichael/hledger/wiki/More%20docs#accounting)
 - [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 - [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
 
-### plain text accounting
+### Plain text accounting
 <!-- official docs & useful intro docs -->
 <!-- XXX reorg -->
 
@@ -546,7 +552,7 @@ other console/curses tools
 - [Don’t Sink Your First Attempts at Plaintext Accounting](https://wiki.plaintextaccounting.org/Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting)
 - [Syntax Quick Reference for the Ledger-Likes](quickref/)
 
-### comparisons
+### App comparisons
 
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
 - [Another Ledger user's perspective](https://groups.google.com/d/msg/beancount/QV4qgpFbtJ8/9fSgMw-XGC8J) 2015
@@ -556,7 +562,7 @@ other console/curses tools
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
 <!-- - [Fabrice Niessen: Why Ledger?](gone) 2010 -->
 
-### presentations
+### Presentations
 
 - [Simon Michael: Inside hledger: an architectural tour and how-to](https://rawcdn.githack.com/simonmichael/hledger/4013a81af8dd2804c73ecac18fb3e7e4745a4275/doc/haskellerz/haskellerz.slidy.html) 2021
 - [Michael Lynch](https://decks.mtlynch.io/plaintext-acccounting/) 2021
