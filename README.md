@@ -57,18 +57,14 @@ This will be applied immediately if you have commit access, otherwise a fork and
 
 ### How to see a live preview on your machine
 
-Quick and dirty ways (warning, may not render the site accurately):
+Quick and dirty ways:
 
 - Use VS Code's preview pane (eg on mac: Cmd k Cmd v while editing index.md)
 - Use Obsidian's preview mode (edit index.md, `|` to split the window, switch one into preview mode)
 
-An accurate way:
+For accurate rendering:
 
-1. Install [entr] and [livereloadx]
-2. In one window, `make liverender` to update index.html
-3. In another window, `make livereload` to run a live-reloading local webserver
-4. Open the page in a browser: http://localhost:10000
-5. Save changes in `index.md`, see updates in the browser.
+- Install [entr] and [livereloadx], run `make html-watch` for a live-reloading view at http://localhost:8100
 
 [entr]:        http://eradman.com/entrproject/
 [livereloadx]: https://nitoyon.github.io/livereloadx
