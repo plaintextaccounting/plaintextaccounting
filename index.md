@@ -527,9 +527,9 @@ other console/curses tools
 ### General accounting
 
 - [hledger: Accounting](https://github.com/simonmichael/hledger/wiki/More%20docs#accounting)
-- [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 - [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
+- [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
 
 ### Plain text accounting, official docs
 
@@ -540,8 +540,8 @@ other console/curses tools
 ### More intro docs
 
 - [Syntax Quick Reference for the Ledger-Likes](quickref/)
-- [Ledger wiki](https://github.com/ledger/ledger/wiki)
 - [Ledger CLI cheatsheet](https://devhints.io/ledger)
+- [Ledger wiki](https://github.com/ledger/ledger/wiki)
 - [Don’t Sink Your First Attempts at Plaintext Accounting](https://wiki.plaintextaccounting.org/Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting)
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
 - [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
