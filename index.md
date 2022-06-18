@@ -111,7 +111,8 @@ or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edi
 \
 **[Docs](#docs)**
 ... [General accounting](#general-accounting)
-... [Plain text accounting](#plain-text-accounting)
+... [Plain text accounting, official docs](#plain-text-accounting-official-docs)
+... [More intro docs](#more-intro-docs)
 ... [App comparisons](#app-comparisons)
 ... [Presentations](#presentations)
 \
@@ -530,22 +531,21 @@ other console/curses tools
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 - [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
 
-### Plain text accounting
-<!-- official docs & useful intro docs -->
-<!-- XXX reorg -->
+### Plain text accounting, official docs
 
-- [Ledger manuals](https://www.ledger-cli.org/docs.html)
+- [Ledger docs](https://www.ledger-cli.org/docs.html)
+- [hledger docs](https://hledger.org/)
+- [Beancount docs](https://beancount.github.io/docs/)
+
+### More intro docs
+
+- [Syntax Quick Reference for the Ledger-Likes](quickref/)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
 - [Ledger CLI cheatsheet](https://devhints.io/ledger)
-- [hledger docs](https://hledger.org/)
-- [Beancount docs](https://beancount.github.io/docs/) / [(google)](http://furius.ca/beancount/doc/index) / [(sphinx)](http://aumayr.github.io/beancount-docs-static/)
-- [Beancount: Command-line Accounting in Context](https://docs.google.com/document/d/1e4Vz3wZB_8-ZcAwIFde8X5CjzKshE4-OXtVVHm4RQ8s)
-- [Beancount: Syntax Cheatsheet](http://furius.ca/beancount/doc/cheatsheet)
+- [Don’t Sink Your First Attempts at Plaintext Accounting](https://wiki.plaintextaccounting.org/Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting)
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
 - [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
 - [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
-- [Don’t Sink Your First Attempts at Plaintext Accounting](https://wiki.plaintextaccounting.org/Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting)
-- [Syntax Quick Reference for the Ledger-Likes](quickref/)
 
 ### App comparisons
 
