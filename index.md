@@ -550,11 +550,11 @@ other console/curses tools
 
 ### App comparisons
 
+- [hledger FAQ > hledger and other things](https://hledger.org/faq.html#hledger-and-other-things) 2014, 2019, 2022
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
 - [Another Ledger user's perspective](https://groups.google.com/d/msg/beancount/QV4qgpFbtJ8/9fSgMw-XGC8J) 2015
 - [Beancount: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg) 2014
 - [ledger vs hledger vs beancount or how to choose the right cli client](https://groups.google.com/d/topic/ledger-cli/__yuMVjrOH0/discussion) 2014
-- [hledger: hledger & Ledger](https://hledger.org/faq.html#how-is-hledger-different-from-ledger) 2014, 2019
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
 <!-- - [Fabrice Niessen: Why Ledger?](gone) 2010 -->
 
