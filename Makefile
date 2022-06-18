@@ -4,7 +4,8 @@ all: html
 # (including README, maybe useful for local preview. $(filter-out README.md, ...) to exclude).
 html: $(patsubst %.md,%.html,$(wildcard *.md quickref/*.md)) Makefile
 
-PANDOC=pandoc -f markdown-smart+autolink_bare_uris
+# PANDOC=pandoc -f markdown-smart+autolink_bare_uris
+PANDOC=pandoc -f gfm
 
 # generate html from a md file
 %.html: %.md index.tmpl
@@ -12,7 +13,7 @@ PANDOC=pandoc -f markdown-smart+autolink_bare_uris
 
 # regenerate html whenever an md file changes
 html-auto auto:
-	ls *.md | entr make html
+	ls *.md quickref/*.md | entr make html
 
 BROWSE=open
 LIVERELOADPORT=8100
