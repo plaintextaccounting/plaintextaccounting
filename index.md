@@ -88,14 +88,13 @@ or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edi
 | **[Common tasks](#common-tasks)**
 -->
 
-**[FAQ](https://wiki.plaintextaccounting.org/faq#frequently-asked-questions)**\
-... [What and Why](https://wiki.plaintextaccounting.org/faq#what-and-why)
-... [Objections and Concerns](https://wiki.plaintextaccounting.org/faq#objections-and-concerns)
-... [Getting started](https://wiki.plaintextaccounting.org/faq#getting-started)
+**[Newcomer FAQ](https://wiki.plaintextaccounting.org/Newcomer-FAQ)**
+... [Objections and Concerns](https://github.com/plaintextaccounting/plaintextaccounting/wiki/Newcomer-FAQ#objections-and-concerns)
+... [Getting started](https://wiki.plaintextaccounting.org/Getting-started)
 \
 **[News & discussion](#news-discussion)**
 \
-**[Tools](#tools)**\
+**[Tools](#tools)**
 ... [PTA apps](#pta-apps)
 ... [Editor support](#editor-support)
 ... [Data import/conversion](#data-importconversion)
@@ -110,7 +109,7 @@ or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edi
 ... [UI, mobile](#ui-mobile)
 ... [API](#api)
 \
-**[Docs](#docs)**\
+**[Docs](#docs)**
 ... [General accounting](#general-accounting)
 ... [Plain text accounting](#plain-text-accounting)
 ... [App comparisons](#app-comparisons)
@@ -120,7 +119,7 @@ or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edi
 \
 **[Articles & blog posts](#articles-blog-posts)**
 \
-**[Common tasks](#common-tasks)**\
+**[Common tasks](#common-tasks)**
 ... [Choosing accounts](#choosing-accounts)
 ... [Choosing cash vs accrual](#choosing-cash-vs-accrual)
 ... [Entering data](#entering-data)
@@ -754,6 +753,7 @@ See also the examples on [wiki.plaintextaccounting.org](https://wiki.plaintextac
 - ["Full-fledged hledger" tutorial](https://github.com/adept/full-fledged-hledger)
 - ["Hledger Flow" tutorial/slideshow](https://github.com/apauley/hledger-flow)
 - [import tools](#data-import)
+- [wiki.plaintextaccounting.org/importing](https://wiki.plaintextaccounting.org/importing)
 
 ### Reconciling
 
