@@ -76,7 +76,7 @@ It is [maintained](README.html) by
 Simon&nbsp;Michael (hledger project leader, Ledger contributor, PTA fan) and contributors like you. 
 Updates are welcome; join the [chat](#news-discussion)
 or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edit/master/index.md).
-[![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting)
+[![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github)](https://github.com/plaintextaccounting/plaintextaccounting)
 
 <!--
   **[FAQ](https://wiki.plaintextaccounting.org/faq#frequently-asked-questions)**
