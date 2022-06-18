@@ -1,3 +1,5 @@
+% Plain Text Accounting portal
+
 <!--
 Editing tips:
 
