@@ -4,8 +4,7 @@ all: html
 # (including README, maybe useful for local preview. $(filter-out README.md, ...) to exclude).
 html: $(patsubst %.md,%.html,$(wildcard *.md quickref/*.md)) Makefile
 
-# PANDOC=pandoc -f markdown-smart+autolink_bare_uris
-PANDOC=pandoc -f gfm
+PANDOC=pandoc -f markdown-smart-tex_math_dollars+autolink_bare_uris
 
 # generate html from a md file
 %.html: %.md index.tmpl
