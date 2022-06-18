@@ -4,10 +4,14 @@
 
 # Syntax Quick Reference for the Ledger-Likes
 
-The journal file formats of Ledger, hledger and Beancount, side by side. Last tested: 2016.\
+  [Big 3](index.html)
+| [Ledger](quickref-ledger.html)
+| [hledger](quickref-hledger.html)
+| [Beancount](quickref-beancount.html)
+
+The journal file formats of Ledger, hledger and Beancount, in brief. Last tested: 2016.
 See also: 
-separate [Ledger](quickref-ledger.html), [hledger](quickref-hledger.html), [Beancount](quickref-beancount.html) versions; 
-original [google sheet](https://docs.google.com/document/d/1L5OyRZ4nxQVjZJugyEyYi_H-229yaWV-yx0raAO1iog) version;
+[original google sheet](https://docs.google.com/document/d/1L5OyRZ4nxQVjZJugyEyYi_H-229yaWV-yx0raAO1iog),
 [plaintextaccounting.org](https://plaintextaccounting.org).
 
 

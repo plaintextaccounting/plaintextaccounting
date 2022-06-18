@@ -2,11 +2,15 @@
 
 # Syntax quick reference: Ledger
 
+  [Big 3](index.html)
+| [Ledger](quickref-ledger.html)
+| [hledger](quickref-hledger.html)
+| [Beancount](quickref-beancount.html)
+
 Last tested: 2016.
 See also:
-- https://www.ledger-cli.org/3.0/doc/ledger3.html#Journal-Format
-- https://ricostacruz.com/cheatsheets/ledger.html
-- https://plaintextaccounting.org/quickref
+https://www.ledger-cli.org/3.0/doc/ledger3.html#Journal-Format,
+https://ricostacruz.com/cheatsheets/ledger.html.
 
 ## Basic example
 

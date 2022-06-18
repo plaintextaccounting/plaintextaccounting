@@ -2,11 +2,15 @@
 
 # Syntax quick reference: Beancount
 
+  [Big 3](index.html)
+| [Ledger](quickref-ledger.html)
+| [hledger](quickref-hledger.html)
+| [Beancount](quickref-beancount.html)
+
 Last tested: 2016.
 See also:
-- https://beancount.github.io/docs/beancount_language_syntax.html
-- https://beancount.github.io/docs/beancount_cheat_sheet.html
-- https://plaintextaccounting.org/quickref
+https://beancount.github.io/docs/beancount_language_syntax.html,
+https://beancount.github.io/docs/beancount_cheat_sheet.html.
 
 ## Basic example
 
