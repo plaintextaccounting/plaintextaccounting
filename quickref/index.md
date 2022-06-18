@@ -1,17 +1,8 @@
 <link href="quickref.css" rel="stylesheet">
-<style>
-body { line-height:revert; }
-div.container { width:100%; max-width:revert; margin:1em; }
-ul ul {margin-top:revert; margin-bottom:revert;}
-ul li {margin-top:revert; margin-bottom:revert;}
-p { margin:revert;}
-h2 { white-space:revert; }
-
-</style>
 
 <a href="https://en.wikipedia.org/wiki/Rosetta_Stone" style="float:right; margin:0 2em;"><img width=100 src="images/image00.jpg"></a>
 
-## Syntax Quick Reference for the Ledger-Likes
+# Syntax Quick Reference for the Ledger-Likes
 
 The journal file formats of Ledger, hledger and Beancount, side by side. Last tested: 2016.\
 See also: 
@@ -39,12 +30,12 @@ Contents:
     - [commodity](#h.n9q16dsjsoye)
     - [market price](#h.wya8r85tgqsx)
 
-### Journal format
+## Journal format
 
 Things in square brackets are  optional. Some notes in the Ledger column are common to all.
 
 <!-- table exported from google sheet -->
-<table class="c22">
+<table id="quickref3">
   <tbody>
     <tr class="c11">
       <td class="c16" colspan="1" rowspan="1">

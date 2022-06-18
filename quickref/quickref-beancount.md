@@ -1,4 +1,4 @@
-% Syntax quick reference: Beancount
+<link href="quickref.css" rel="stylesheet">
 
 # Syntax quick reference: Beancount
 

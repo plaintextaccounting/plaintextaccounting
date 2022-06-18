@@ -1,4 +1,4 @@
-% Syntax quick reference: hledger
+<link href="quickref.css" rel="stylesheet">
 
 # Syntax quick reference: hledger
 

@@ -1,4 +1,4 @@
-% Syntax quick reference: Ledger
+<link href="quickref.css" rel="stylesheet">
 
 # Syntax quick reference: Ledger
 
