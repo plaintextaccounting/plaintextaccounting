@@ -543,10 +543,12 @@ other console/curses tools
 ### More intro docs
 
 - [Syntax Quick Reference for the Ledger-Likes](quickref/)
+- [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
 - [Ledger CLI cheatsheet](https://devhints.io/ledger)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
+- [hledger Getting Started Guide](https://hledger.org/start.html)
+- [Tackler Quickstart](https://tackler.e257.fi/docs/quickstart/)
 - [Don’t Sink Your First Attempts at Plaintext Accounting](https://wiki.plaintextaccounting.org/Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting)
-- [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
 - [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
 - [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
 
