@@ -533,9 +533,12 @@ other console/curses tools
 
 ### Plain text accounting, official docs
 
-- [Ledger docs](https://www.ledger-cli.org/docs.html)
-- [hledger docs](https://hledger.org/)
-- [Beancount docs](https://beancount.github.io/docs/)
+- [Ledger](https://www.ledger-cli.org/docs.html)
+| [hledger](https://hledger.org/)
+| [Beancount](https://beancount.github.io/docs/)
+| [Ledger in Go](https://howeyc.github.io/ledger/)
+| [Tackler](https://tackler.e257.fi/docs/)
+| [pta](https://mandoc.bsd.lv/pta/)
 
 ### More intro docs
 
