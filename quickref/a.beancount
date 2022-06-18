@@ -3,7 +3,7 @@
 2016-01-01 open Expenses:Groceries
 
 2016-01-01 txn "set opening balance"
-    Assets:Checking         1.000,0001USD
+    Assets:Checking         1000.0001 USD
     Equity:Opening-Balances
 
 2016/1/5 txn "farmer's market"
