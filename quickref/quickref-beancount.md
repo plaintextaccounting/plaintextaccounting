@@ -1,9 +1,12 @@
 % Syntax quick reference: Beancount
 
-# Beancount
+# Syntax quick reference: Beancount
 
-http://furius.ca/beancount/doc/syntax  
-http://furius.ca/beancount/doc/cheatsheet  
+Last tested: 2016.
+See also:
+- https://beancount.github.io/docs/beancount_language_syntax.html
+- https://beancount.github.io/docs/beancount_cheat_sheet.html
+- https://plaintextaccounting.org/quickref
 
 ## Basic example
 

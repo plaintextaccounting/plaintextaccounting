@@ -1,8 +1,11 @@
 % Syntax quick reference: hledger
 
-# hledger
+# Syntax quick reference: hledger
 
-http://hledger.org/journal.html  
+Last tested: 2016.
+See also:
+- https://hledger.org/hledger.html#journal-format
+- https://plaintextaccounting.org/quickref
 
 ## Basic example
 

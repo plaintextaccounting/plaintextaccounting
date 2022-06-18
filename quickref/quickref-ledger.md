@@ -1,9 +1,12 @@
 % Syntax quick reference: Ledger
 
-# Ledger
+# Syntax quick reference: Ledger
 
-https://www.ledger-cli.org/3.0/doc/ledger3.html#Journal-Format  
-http://ricostacruz.com/cheatsheets/ledger.html  
+Last tested: 2016.
+See also:
+- https://www.ledger-cli.org/3.0/doc/ledger3.html#Journal-Format
+- https://ricostacruz.com/cheatsheets/ledger.html
+- https://plaintextaccounting.org/quickref
 
 ## Basic example
 
