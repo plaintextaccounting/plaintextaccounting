@@ -56,6 +56,8 @@ li {
   font-size:2rem;
   font-weight:bold;
 }
+
+th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; white-space:nowrap; }
 </style>
 
 <div style="float:right; width:30%; margin:0 0 4em 3em;">
@@ -70,28 +72,26 @@ li {
 with plain text files and scriptable, command-line-friendly software, such as
 [Ledger, hledger, or Beancount](#pta-apps).
 
+Welcome!
 This site together with [wiki.plaintextaccounting.org](https://wiki.plaintextaccounting.org)
 is an entry point to the PTA community's tools, docs and practices. 
 It is [maintained](README.html) by 
 Simon&nbsp;Michael (hledger project leader, Ledger contributor, PTA fan) and contributors like you. 
 Updates are helpful; join the [chat](#news-discussion)
 or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edit/master/index.md).
-[![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting).
-Welcome!
+[![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting)
 
 Overview:
 \
 <small>
 *2022-06: FAQs and Common Tasks links have moved to the wiki.*
 </small>
-\
+
 **What is this ?**
 ... [Newcomer FAQ](https://wiki.plaintextaccounting.org/Newcomer-FAQ)
 ... [Objections and Concerns](https://github.com/plaintextaccounting/plaintextaccounting/wiki/Newcomer-FAQ#objections-and-concerns)
-... [Getting started](https://wiki.plaintextaccounting.org/Getting-started)
-\
-**[News & discussion](#news-discussion)**
-\
+... [Getting started FAQ](https://wiki.plaintextaccounting.org/Getting-started-FAQ)
+
 **[Tools](#tools)**
 ... [PTA apps](#pta-apps)
 ... [Editor support](#editor-support)
@@ -106,55 +106,29 @@ Overview:
 ... [UI, web](#ui-web)
 ... [UI, mobile](#ui-mobile)
 ... [API](#api)
-\
+
 **[Docs](#docs)**
 ... [General accounting](#general-accounting)
 ... [Plain text accounting, official docs](#plain-text-accounting-official-docs)
 ... [More intro docs](#more-intro-docs)
 ... [App comparisons](#app-comparisons)
 ... [Presentations](#presentations)
-... [Cookbook](https://wiki.plaintextaccounting.org)
-\
+
 **[Videos](#videos)**
+...
 \
 **[Articles & blog posts](#articles-blog-posts)**
+...
+\
+**[News & discussion](#news-discussion)**
+...
+
+**[Wiki/cookbook](https://wiki.plaintextaccounting.org)**
+...
 
 </div>
-
-## News & discussion
-
-**Chat**
-<a style="white-space:nowrap;" href="https://matrix.to/#/#plaintextaccounting:matrix.org">Matrix</a> or
-<a style="white-space:nowrap;" href="https://web.libera.chat/#plaintextaccounting">IRC</a> (bridged),
-<span style="white-space:nowrap;">[app-specific chats](#plain-text-accounting-apps)</span>
 \
-**Mail lists**
-<span style="white-space:nowrap;">[app-specific mail lists](#plain-text-accounting-apps)</span>
 \
-**Twitter**
-[#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting?f=live),
-[#ledgercli](https://twitter.com/hashtag/ledgercli?f=live),
-[#hledger](https://twitter.com/hashtag/hledger?f=live),
-[#beancount](https://twitter.com/hashtag/beancount?f=live),
-[\@LedgerTips](https://twitter.com/LedgerTips)
-\
-**Reddit**
-[/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/)
-\
-**Hacker News**
-[stories](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=story),
-[comments](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=comment)
-\
-**Stack Exchange**
-[[ledger-cli]](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest),
-["ledger-cli"](https://money.stackexchange.com/search?tab=newest&q=ledger-cli),
-[[hledger]](https://money.stackexchange.com/questions/tagged/hledger?tab=newest),
-["hledger"](https://money.stackexchange.com/search?tab=newest&q=hledger)
-<!-- [beancount](https://money.stackexchange.com/search?tab=newest&q=beancount) -->
-
-<style>
-th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; white-space:nowrap; }
-</style>
 
 ## Tools
 
@@ -686,6 +660,37 @@ other console/curses tools
 
 - [Joe Barr: Ledger, the bran muffin of accounting tools](https://www.linux.com/news/ledger-bran-muffin-accounting-tools) <!-- 2006/11/10 -->
 
+
+## News & discussion
+
+**Chat**
+<a style="white-space:nowrap;" href="https://matrix.to/#/#plaintextaccounting:matrix.org">Matrix</a> or
+<a style="white-space:nowrap;" href="https://web.libera.chat/#plaintextaccounting">IRC</a> (bridged),
+<span style="white-space:nowrap;">[app-specific chats](#plain-text-accounting-apps)</span>
+\
+**Mail lists**
+<span style="white-space:nowrap;">[app-specific mail lists](#plain-text-accounting-apps)</span>
+\
+**Twitter**
+[#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting?f=live),
+[#ledgercli](https://twitter.com/hashtag/ledgercli?f=live),
+[#hledger](https://twitter.com/hashtag/hledger?f=live),
+[#beancount](https://twitter.com/hashtag/beancount?f=live),
+[\@LedgerTips](https://twitter.com/LedgerTips)
+\
+**Reddit**
+[/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/)
+\
+**Hacker News**
+[stories](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=story),
+[comments](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=comment)
+\
+**Stack Exchange**
+[[ledger-cli]](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest),
+["ledger-cli"](https://money.stackexchange.com/search?tab=newest&q=ledger-cli),
+[[hledger]](https://money.stackexchange.com/questions/tagged/hledger?tab=newest),
+["hledger"](https://money.stackexchange.com/search?tab=newest&q=hledger)
+<!-- [beancount](https://money.stackexchange.com/search?tab=newest&q=beancount) -->
 
 <hr>
 \(c) 2016-2022 [Simon Michael](http://joyful.com) & contributors |
