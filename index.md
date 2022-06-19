@@ -74,21 +74,19 @@ This site together with [wiki.plaintextaccounting.org](https://wiki.plaintextacc
 is an entry point to the PTA community's tools, docs and practices. 
 It is [maintained](README.html) by 
 Simon&nbsp;Michael (hledger project leader, Ledger contributor, PTA fan) and contributors like you. 
-Updates are welcome; join the [chat](#news-discussion)
+Updates are helpful; join the [chat](#news-discussion)
 or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edit/master/index.md).
-[![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting)
+[![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting).
+Welcome!
 
-<!--
-  **[FAQ](https://wiki.plaintextaccounting.org/faq#frequently-asked-questions)**
-| **[News & discussion](#news-discussion)**
-| **[Tools](#tools)**
-| **[Docs](#docs)**
-| **[Videos](#videos)**
-| **[Articles & blog posts](#articles-blog-posts)**
-| **[Common tasks](#common-tasks)**
--->
-
-**[Newcomer FAQ](https://wiki.plaintextaccounting.org/Newcomer-FAQ)**
+Overview:
+\
+<small>
+*2022-06: FAQs and Common Tasks links have moved to the wiki.*
+</small>
+\
+**What is this ?**
+... [Newcomer FAQ](https://wiki.plaintextaccounting.org/Newcomer-FAQ)
 ... [Objections and Concerns](https://github.com/plaintextaccounting/plaintextaccounting/wiki/Newcomer-FAQ#objections-and-concerns)
 ... [Getting started](https://wiki.plaintextaccounting.org/Getting-started)
 \
