@@ -113,6 +113,8 @@ Overview:
 ... [More intro docs](#more-intro-docs)
 ... [App comparisons](#app-comparisons)
 ... [Presentations](#presentations)
+... [Wiki/Cookbook](https://wiki.plaintextaccounting.org)
+
 
 **[Videos](#videos)**
 ...
@@ -121,9 +123,6 @@ Overview:
 ...
 \
 **[News & discussion](#news-discussion)**
-...
-
-**[Wiki/cookbook](https://wiki.plaintextaccounting.org)**
 ...
 
 </div>
@@ -469,7 +468,7 @@ other console/curses tools
 
 ### General accounting
 
-- [hledger: Accounting](https://github.com/simonmichael/hledger/wiki/More%20docs#accounting)
+- [hledger: Accounting concepts](https://hledger.org/accounting.html)
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 - [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
 - [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
@@ -513,6 +512,10 @@ other console/curses tools
 - [Ledger CLI Accounting for Geeks](http://blog.loadingdata.nl/accounting-for-geeks/) 2014
 - [Hacking Your Finances for Fun and Profit](http://matthewturland.com/slides/ledger-stats/) 2013
 - [Ledger and Text based Accounting](http://www.adamsinfoserv.com/AISTWiki/pub/AIS/Presentations/Ledger.pdf) 2009
+
+### Wiki/Cookbook
+
+- [Wiki/Cookbook](https://wiki.plaintextaccounting.org)
 
 ## Videos
 
