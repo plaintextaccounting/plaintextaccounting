@@ -109,10 +109,8 @@ Overview:
 ... [API](#api)
 
 **[Docs](#docs)**
-... [General accounting](#general-accounting)
-... [Plain text accounting, official docs](#plain-text-accounting-official-docs)
-... [More intro docs](#more-intro-docs)
-... [App comparisons](#app-comparisons)
+... [Accounting](#accounting)
+... [Plain Text Accounting](#plain-text-accounting-1)
 ... [Presentations](#presentations)
 ... [Wiki/Cookbook](https://wiki.plaintextaccounting.org)
 
@@ -467,43 +465,50 @@ other console/curses tools
 
 ## Docs
 
-### General accounting
+### Accounting
 
 - [hledger: Accounting concepts](https://hledger.org/accounting.html)
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 - [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
 - [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
 
-### Plain text accounting, official docs
+### Plain Text Accounting
 
-- [Ledger](https://www.ledger-cli.org/docs.html)
+PTA app official docs:
+
+  [Ledger](https://www.ledger-cli.org/docs.html)
 | [hledger](https://hledger.org/)
 | [Beancount](https://beancount.github.io/docs/)
 | [Ledger in Go](https://howeyc.github.io/ledger/)
 | [Tackler](https://tackler.e257.fi/docs/)
 | [pta](https://mandoc.bsd.lv/pta/)
 
-### More intro docs
+PTA app comparisons:
 
-- [Syntax Quick Reference for the Ledger-Likes](quickref/)
-- [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
-- [Ledger CLI cheatsheet](https://devhints.io/ledger)
-- [Ledger wiki](https://github.com/ledger/ledger/wiki)
-- [hledger Getting Started Guide](https://hledger.org/start.html)
-- [Tackler Quickstart](https://tackler.e257.fi/docs/quickstart/)
-- [Don’t Sink Your First Attempts at Plaintext Accounting](https://wiki.plaintextaccounting.org/Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting)
-- [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
-- [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
-
-### App comparisons
-
-- [hledger FAQ > hledger and other things](https://hledger.org/faq.html#hledger-and-other-things) 2014, 2019, 2022
+- [hledger: hledger and other things](https://hledger.org/faq.html#hledger-and-other-things) 2014, 2019, 2022
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
-- [Another Ledger user's perspective](https://groups.google.com/d/msg/beancount/QV4qgpFbtJ8/9fSgMw-XGC8J) 2015
+- [beancount list: Another Ledger user's perspective](https://groups.google.com/d/msg/beancount/QV4qgpFbtJ8/9fSgMw-XGC8J) 2015
 - [Beancount: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg) 2014
-- [ledger vs hledger vs beancount or how to choose the right cli client](https://groups.google.com/d/topic/ledger-cli/__yuMVjrOH0/discussion) 2014
+- [ledger list: ledger vs hledger vs beancount or how to choose the right cli client](https://groups.google.com/d/topic/ledger-cli/__yuMVjrOH0/discussion) 2014
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
 <!-- - [Fabrice Niessen: Why Ledger?](gone) 2010 -->
+
+Cheatsheets:
+
+- [Ledger CLI cheatsheet](https://devhints.io/ledger)
+- [Beancount Syntax Cheat Sheet](https://beancount.github.io/docs/beancount_cheat_sheet.html)
+- [Syntax Quick Reference for the Ledger-Likes](quickref/)
+
+Introductory docs:
+
+- [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
+- [hledger Getting Started Guide](https://hledger.org/start.html)
+- [Getting Started with Beancount](https://beancount.github.io/docs/getting_started_with_beancount.html)
+- [Tackler Quickstart](https://tackler.e257.fi/docs/quickstart/)
+- [Don’t Sink Your First Attempts at Plaintext Accounting](https://wiki.plaintextaccounting.org/Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting) syntax tips for beginners
+- [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
+- [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
+- [wiki: Getting started](https://github.com/plaintextaccounting/plaintextaccounting/wiki#getting-started)
 
 ### Presentations
 
@@ -516,7 +521,7 @@ other console/curses tools
 
 ### Wiki/Cookbook
 
-- [Wiki/Cookbook](https://wiki.plaintextaccounting.org)
+- [Wiki/Cookbook](https://wiki.plaintextaccounting.org) FAQs, howtos, more links
 
 ## Videos
 
