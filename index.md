@@ -31,6 +31,7 @@ h1 {
     text-align:center; 
     margin-top:10%;
     margin-bottom:5%;
+    text-shadow: 2px 2px 2px white;
 }
 h2 {
 }
