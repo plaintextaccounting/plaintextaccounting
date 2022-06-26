@@ -163,6 +163,7 @@ Generally it's relatively easy to migrate data from one to another.
 | [pta]                | 2020   | 2020-09      | perl                              |          1 |       |                                  |                                                                                                               |
 | [Prudent]            | 2018   |              | js (closed); [addons][prudent-gh] |          1 |       |                                  | [\@PrudentLedger][prudent-chat]                                                                               |
 | knut                 | 2020   |              | [go][knut-gh]                     |          3 |    39 |                                  |                                                                                                               |
+| awk-pta              | 2022   |              | [awk][awk-pta-gh]                 |          1 |       |                                  |                                                                                                               |
 |                      | &nbsp; |              |                                   |            |       |                                  |                                                                                                               |
 | **Inactive**         |        |              |                                   |            |       |                                  |                                                                                                               |
 | bankroll             | 2020   | 2020-08      | [rust][bankroll-gl]               |          1 |     1 |                                  |                                                                                                               |
@@ -187,6 +188,7 @@ Generally it's relatively easy to migrate data from one to another.
 [#hrj_abandon:gitter.im]: https://matrix.to/#/#hrj_abandon:gitter.im
 
 [acc-gh]: https://github.com/rudolfschmidt/acc
+[awk-pta-gh]: https://github.com/filiphanes/awk-pta
 
 [Beancount]: https://github.com/beancount/
 [Beancount2]: https://beancount.github.io
