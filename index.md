@@ -88,18 +88,18 @@ Overview:
 *2022-06: FAQs and Common Tasks links have moved to the wiki.*
 </small>
 
-**What is this ?**
+**About**
 ... [Newcomer FAQ](https://wiki.plaintextaccounting.org/Newcomer-FAQ)
 ... [Objections and Concerns](https://github.com/plaintextaccounting/plaintextaccounting/wiki/Newcomer-FAQ#objections-and-concerns)
 ... [Getting started FAQ](https://wiki.plaintextaccounting.org/Getting-started-FAQ)
-
+\
 **[Tools](#tools)**
 ... [PTA apps](#pta-apps)
 ... [Editor support](#editor-support)
 ... [Data import/conversion](#data-importconversion)
 ... [Price fetching](#price-fetching)
 ... [Data generation](#data-generation)
-... [Reports](#reports)
+... [Reporting](#reporting)
 ... [Time logging](#time-logging)
 ... [UI, console](#ui-console)
 ... [UI, curses](#ui-curses)
@@ -107,14 +107,12 @@ Overview:
 ... [UI, web](#ui-web)
 ... [UI, mobile](#ui-mobile)
 ... [API](#api)
-
+\
 **[Docs](#docs)**
 ... [Accounting](#accounting)
 ... [Plain Text Accounting](#plain-text-accounting-1)
-... [Presentations](#presentations)
 ... [Wiki/Cookbook](https://wiki.plaintextaccounting.org)
-
-
+\
 **[Videos](#videos)**
 ...
 \
@@ -378,7 +376,7 @@ Additional helper tools complementing the PTA apps, by category.
 - [reorder-journal.sh](https://github.com/amitaibu/hledger-example/blob/master/reorder-journal.sh) sort hledger entries, preserving directives/comments at top of file (bash)
 - [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
 
-### Reports
+### Reporting
 
 - [budget_report](https://github.com/sulemankm/budget_report) budget reporting with beancount (python)
 - [hledger-diff](http://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals (haskell)
@@ -469,14 +467,15 @@ other console/curses tools
 
 ### Accounting
 
+- [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
+- [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
+- [hledger: Accounting links](https://hledger.org/accounting.html#accounting-links)
 - [hledger: Accounting concepts](https://hledger.org/accounting.html)
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
-- [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
-- [Accounting for Dragons](http://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
 
 ### Plain Text Accounting
 
-PTA app official docs:
+#### PTA app official docs
 
   [Ledger](https://www.ledger-cli.org/docs.html)
 | [hledger](https://hledger.org/)
@@ -485,7 +484,7 @@ PTA app official docs:
 | [Tackler](https://tackler.e257.fi/docs/)
 | [pta](https://mandoc.bsd.lv/pta/)
 
-PTA app comparisons:
+#### PTA app comparisons
 
 - [hledger: hledger and other things](https://hledger.org/faq.html#hledger-and-other-things) 2014, 2019, 2022
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
@@ -495,13 +494,13 @@ PTA app comparisons:
 - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013
 <!-- - [Fabrice Niessen: Why Ledger?](gone) 2010 -->
 
-Cheatsheets:
+#### Cheatsheets
 
 - [Ledger CLI cheatsheet](https://devhints.io/ledger)
 - [Beancount Syntax Cheat Sheet](https://beancount.github.io/docs/beancount_cheat_sheet.html)
 - [Syntax Quick Reference for the Ledger-Likes](quickref/)
 
-Introductory docs:
+#### Introductory docs
 
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
 - [hledger Getting Started Guide](https://hledger.org/start.html)
@@ -512,7 +511,7 @@ Introductory docs:
 - [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
 - [wiki: Getting started](https://github.com/plaintextaccounting/plaintextaccounting/wiki#getting-started)
 
-### Presentations
+#### Presentations
 
 - [Simon Michael: Inside hledger: an architectural tour and how-to](https://rawcdn.githack.com/simonmichael/hledger/4013a81af8dd2804c73ecac18fb3e7e4745a4275/doc/haskellerz/haskellerz.slidy.html) 2021
 - [Michael Lynch](https://decks.mtlynch.io/plaintext-acccounting/) 2021
@@ -523,12 +522,12 @@ Introductory docs:
 
 ### Wiki/Cookbook
 
-- [Wiki/Cookbook](https://wiki.plaintextaccounting.org) FAQs, howtos, more links
+- [Wiki/Cookbook](https://wiki.plaintextaccounting.org) more docs: FAQs, examples, how-tos
 
 ## Videos
 
 - [Simon Michael: Inside hledger: an architectural tour and how-to](https://www.youtube.com/watch?v=6PKmZSHxu0c) 2021
-- [hledger fan youtube channel](https://www.youtube.com/channel/UCZLxXTjOqLzq4z5Jy0AyWSQ) (short lessons) 2019
+- [hledger fan youtube channel](https://www.youtube.com/channel/UCZLxXTjOqLzq4z5Jy0AyWSQ) short beginner lessons, 2019-
 - [Quiliro Ordóñez: ledger-mode lightning talk](https://archive.org/details/ledger-mode_EmacsConf2019) 2019
 - [Colin Dean: Plaintext Accounting with the ledger ecosystem](https://www.youtube.com/watch?v=FJtaM43PgXQ) 2017
 - [Colin Dean: Plain Text Accounting](https://www.youtube.com/watch?v=8r5Cp66k4PA) 2017
