@@ -38,7 +38,7 @@ Contents:
 
 Things in square brackets are  optional. Some notes in the Ledger column are common to all.
 
-<!-- table exported from google sheet -->
+<!-- table exported from google sheet years ago and hand-edited since -->
 <table id="quickref3">
   <tbody>
     <tr class="c11">
