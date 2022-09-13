@@ -312,6 +312,7 @@ Additional helper tools complementing the PTA apps, by category.
 - [beancount-ynab](https://github.com/hoostus/beancount-ynab) Import YNAB4 (legacy desktop-based version) into beancount
 - [beancount-ynab5](https://github.com/hoostus/beancount-ynab5) Import YNAB5 (cloud-based version) transactions into beancount 
 - [buchhaltung](http://hackage.haskell.org/package/buchhaltung) CSV/FinTS/HBCI/OFX to *ledger conversion/deduplication (haskell)
+- [Costflow](https://docs.costflow.io) convert one line message to beancount/*ledger format
 - [csv2beancount](https://github.com/PaNaVTEC/csv2beancount) CSV to beancount converter (clojure)
 - [CSV2Ledger](https://launchpad.net/csv2ledger) CSV to *ledger converter (perl)
 - [fints2ledger](https://github.com/MoritzR/fints2ledger) FinTS/HBCI to csv to *ledger or beancount journals (python)
@@ -325,6 +326,7 @@ Additional helper tools complementing the PTA apps, by category.
 - [homebank2ledger](https://github.com/chazmcgarvey/homebank2ledger) HomeBank to ledger and beancount converter (perl)
 - [icsvledger](https://github.com/quentinsf/icsv2ledger) interactive CSV to *ledger converter (python)
 - [into-ledger](https://github.com/manishrjain/into-ledger) CSV to *ledger converter
+- [invoice2data](https://github.com/invoice-x/invoice2data) extract data from PDF invoices (python)
 - [jali](https://git.darmstadt.ccc.de/jali/jali) downloader/importer to *ledger (python)
 - [kmymoney2hledger](https://github.com/maridonkers/kmymoney2hledger) KMyMoney to *ledger converter (clojure)
 - [kmymoney2ledgers](https://github.com/isabekov/kmymoney2ledgers) KMyMoney to *ledger/beancount converter (python)
