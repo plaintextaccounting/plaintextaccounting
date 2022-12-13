@@ -686,7 +686,7 @@ other console/curses tools
 <span style="white-space:nowrap;">[app-specific chats](#plain-text-accounting-apps)</span>
 \
 **Mail lists**
-<span style="white-space:nowrap;">[app-specific mail lists](#plain-text-accounting-apps)</span>
+<span style="white-space:nowrap;">[app-specific mail lists](#pta-apps)</span>
 \
 **Twitter**
 [#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting?f=live),
