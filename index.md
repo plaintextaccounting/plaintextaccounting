@@ -158,7 +158,7 @@ Generally it's relatively easy to migrate data from one to another.
 | .Net Ledger          | 2017   | 2018-08      | [C#][nledger-gh]                  |          1 |   134 |                                  | [gitter][nledger-gitter]/[matrix][#nledger_Lobby:gitter.im]                                                   |
 | Goledger             | 2019   | 2020-08      | [go][goledger-mescanne-gh]        |          1 |    24 |                                  |                                                                                                               |
 | blossom              | 2020   |              | [F#][blossom-gh]                  |          1 |    20 |                                  |                                                                                                               |
-| [Tackler]            | 2017   | 2021-01      | [scala][tackler-gl]               |          1 |     8 |                                  | [gitter][tackler-gitter]/[matrix][#E257-FI_tackler:gitter.im]                                                 |
+| [Tackler]            | 2017   | 2021-01      | [scala][tackler-gl]               |          1 |     8 |                                  | [matrix][#tackler:matrix.org]                                                 |
 | [ledg]               | 2021   | 2021-04      | [javascript][ledg]                |          1 |    30 |                                  |                                                                                                               |
 | [pta]                | 2020   | 2020-09      | perl                              |          1 |       |                                  |                                                                                                               |
 | [Prudent]            | 2018   |              | js (closed); [addons][prudent-gh] |          1 |       |                                  | [\@PrudentLedger][prudent-chat]                                                                               |
@@ -252,8 +252,7 @@ Generally it's relatively easy to migrate data from one to another.
 
 [Tackler]: https://tackler.e257.fi
 [tackler-gl]: https://gitlab.com/e257/accounting/tackler
-[tackler-gitter]: https://gitter.im/E257-FI/tackler
-[#E257-FI_tackler:gitter.im]: https://matrix.to/#/#E257-FI_tackler:gitter.im
+[#tackler:matrix.org]: https://matrix.to/#/#tackler:matrix.org
 
 [transity-gh]: https://github.com/feramhq/transity
 [transity-gitter]: https://gitter.im/feramhq/transity
