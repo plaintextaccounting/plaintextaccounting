@@ -156,10 +156,11 @@ Generally it's relatively easy to migrate data from one to another.
 | knut                 | 2020   | 2022-09      | [go][knut-gh]                     |          3 |    41 |                                  |                                                                                                               |
 | Go Ledger            | 2016   |              | [go][go-ledger-abourget-gh]       |          3 |    37 |                                  |                                                                                                               |
 | .Net Ledger          | 2017   | 2018-08      | [C#][nledger-gh]                  |          1 |   134 |                                  | [gitter][nledger-gitter]/[matrix][#nledger_Lobby:gitter.im]                                                   |
+| pacioli              | 2013   |              | [python][pacioli-gh]              |          1 |    31 |                                  |                                                                                                               |
+| [ledg]               | 2021   | 2021-04      | [javascript][ledg]                |          1 |    30 |                                  |                                                                                                               |
 | Goledger             | 2019   | 2020-08      | [go][goledger-mescanne-gh]        |          1 |    24 |                                  |                                                                                                               |
 | blossom              | 2020   |              | [F#][blossom-gh]                  |          1 |    20 |                                  |                                                                                                               |
 | [Tackler]            | 2017   | 2022-12      | [scala][tackler-gl]               |          1 |     8 |                                  | [matrix][#tackler:matrix.org]                                                 |
-| [ledg]               | 2021   | 2021-04      | [javascript][ledg]                |          1 |    30 |                                  |                                                                                                               |
 | [pta]                | 2020   | 2020-09      | perl                              |          1 |       |                                  |                                                                                                               |
 | [Prudent]            | 2018   |              | js (closed); [addons][prudent-gh] |          1 |       |                                  | [\@PrudentLedger][prudent-chat]                                                                               |
 | awk-pta              | 2022   |              | [awk][awk-pta-gh]                 |          1 |       |                                  |                                                                                                               |
@@ -167,12 +168,11 @@ Generally it's relatively easy to migrate data from one to another.
 | **Inactive**         |        |              |                                   |            |       |                                  |                                                                                                               |
 | bankroll             | 2020   | 2020-08      | [rust][bankroll-gl]               |          1 |     1 |                                  |                                                                                                               |
 | acc                  | 2020   |              | [rust][acc-gh]                    |          1 |     1 |                                  |                                                                                                               |
-| [beans]              | 2019   | 2019         | [haskell][beans-gh]               |            |       |                                  |                                                                                                               |
+| [beans]              | 2019   | 2019         | [haskell][beans-gh]               |          2 |    24 |                                  |                                                                                                               |
 | [monescript]         | 2017   | 2018-01      | [javascript][monescript-gh]       |          1 |    12 |                                  |                                                                                                               |
-| uledger              | 2015   |              | [python][uledger-gh]              |            |       |                                  |                                                                                                               |
-| pacioli              | 2013   |              | [python][pacioli-gh]              |            |       |                                  |                                                                                                               |
-| ledger.pl            | 2013   |              | [perl][ledger.pl-gh]              |            |       |                                  |                                                                                                               |
-| Penny                | 2012   | 2014         | [haskell][penny-gh]               |            |       |                                  |                                                                                                               |
+| uledger              | 2015   |              | [python][uledger-gh]              |          1 |    17 |                                  |                                                                                                               |
+| ledger.pl            | 2013   |              | [perl][ledger.pl-gh]              |          1 |     6 |                                  |                                                                                                               |
+| Penny                | 2012   | 2014         | haskell                           |            |       |                                  |                                                                                                               |
 | UMM                  | 2009   | 2010         | [haskell][UMM-hackage]            |            |       |                                  |                                                                                                               |
 | sm-Ledger            | 2007   |              | [squeak smalltalk][smalltalk-gh]  |            |       |                                  |                                                                                                               |
 | cl-ledger            | 2007   |              | [common lisp][cl-ledger-gh]       |          4 |    66 |                                  |                                                                                                               |
@@ -235,8 +235,6 @@ Generally it's relatively easy to migrate data from one to another.
 [#nledger_Lobby:gitter.im]: https://matrix.to/#/#nledger_Lobby:gitter.im
 
 [pacioli-gh]: https://github.com/mdipierro/pacioli
-
-[penny-gh]: https://github.com/massysett/penny
 
 [pta]: https://mandoc.bsd.lv/pta
 
