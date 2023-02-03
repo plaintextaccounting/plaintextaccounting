@@ -626,7 +626,7 @@ other console/curses tools
   ([Ledger Practices series](https://felixcrux.com/blog/ledger-practices))
 - [Marcin Borkowski: Ledger – virtual postings aka envelopes](http://mbork.pl/2016-07-18_Ledger_–_virtual_postings_aka_envelopes) <!-- 2016/7/18 -->
 - [Karan Ahuja: Hledger Improvements Wishlist.](http://www.karanahuja.in/2016-05-17-Hledger-Improvements-Wishlist/) <!-- 2016/5/17 -->
-- [Alex Johnstone: Managing my personal finances with beancount](https://alexjj.com/blog/2016/managing-my-personal-finances-with-beancount/) <!-- 2016/2/27 -->
+- [Alex Johnstone: Managing my personal finances with beancount](https://alexjj.com/posts/2016/managing-my-personal-finances-with-beancount/) <!-- 2016/2/27 -->
 
 ### In 2015
 
