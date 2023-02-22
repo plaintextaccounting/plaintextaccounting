@@ -95,7 +95,7 @@ Overview:
 \
 **[Tools](#tools)**
 ... [PTA apps](#pta-apps)
-... [Editor support](#editor-support)
+... [Editor plugins](#editor-plugins)
 ... [Data import/conversion](#data-importconversion)
 ... [Price fetching](#price-fetching)
 ... [Data generation](#data-generation)
