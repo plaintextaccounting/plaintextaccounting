@@ -294,7 +294,8 @@ These often also work well for PTA apps other than the one they are named for.
 **VIM**
 [vim-ledger](https://github.com/ledger/vim-ledger),
 [vim-beancount](https://github.com/nathangrigg/vim-beancount),
-[hledger-vim](https://github.com/anekos/hledger-vim)
+[hledger-vim](https://github.com/anekos/hledger-vim),
+[cmp-beancount](https://github.com/crispgm/cmp-beancount)
 \
 **VS Code**
 [hledger-vscode](https://github.com/mhansen/hledger-vscode),
