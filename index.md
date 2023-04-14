@@ -492,7 +492,7 @@ other console/curses tools
 
 #### PTA app comparisons
 
-- [hledger: hledger and other things](https://hledger.org/faq.html#hledger-and-other-things) 2014, 2019, 2022
+- [hledger: Cookbook > Other software](https://hledger.org/cookbook.html#other-software) 2014, 2019, 2022
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
 - [beancount list: Another Ledger user's perspective](https://groups.google.com/d/msg/beancount/QV4qgpFbtJ8/9fSgMw-XGC8J) 2015
 - [Beancount: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg) 2014
