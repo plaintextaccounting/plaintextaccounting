@@ -90,7 +90,7 @@ Overview:
 
 **About**
 ... [Newcomer FAQ](https://wiki.plaintextaccounting.org/Newcomer-FAQ)
-... [Objections and Concerns](https://github.com/plaintextaccounting/plaintextaccounting/wiki/Newcomer-FAQ#objections-and-concerns)
+... [Objections and Concerns](https://wiki.plaintextaccounting.org/Newcomer-FAQ#objections-and-concerns)
 ... [Getting started FAQ](https://wiki.plaintextaccounting.org/Getting-started-FAQ)
 \
 **[Tools](#tools)**

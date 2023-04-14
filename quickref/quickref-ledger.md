@@ -9,7 +9,7 @@
 
 Last tested: 2016.
 See also:
-https://www.ledger-cli.org/3.0/doc/ledger3.html#Journal-Format,
+https://www.ledger-cli.org/doc/ledger3.html#Journal-Format,
 https://ricostacruz.com/cheatsheets/ledger.html.
 
 ## Basic example
