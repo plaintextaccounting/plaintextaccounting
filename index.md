@@ -342,6 +342,7 @@ Additional helper tools complementing the PTA apps, by category.
 - [ledger-tutorials](https://github.com/tlvince/ledger-tutorials) convert Pete Keen's tutorials to ebook format
 - [ledger2beancount.py](https://gist.github.com/travisdahlke/71152286b0a8826249fe) *ledger to beancount converter
 - [ledger2beancount](https://github.com/beancount/ledger2beancount)/[beancount2ledger](https://github.com/beancount/beancount2ledger) the best converter between h/ledger and beancount formats (perl).
+- [moneymoney-ledger](https://github.com/lukasbestle/moneymoney-ledger) MoneyMoney export extension for *ledger
 - [outofit](https://github.com/rcaputo/outofit) QuickBooks to *ledger converter
 - [piecash](https://github.com/sdementen/piecash) GNUCash SQL to *ledger converter (python)
 - [plaid2qif](https://github.com/ebridges/plaid2qif) Download transactions from plaid as QIF or CSV files
