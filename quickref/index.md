@@ -214,7 +214,7 @@ Things in square brackets are  optional. Some notes in the Ledger column are co
             <br>
           </span>
           <span class="c10 c8">
-            Same</span>
+            Same, except DESCRIPTION can optionally be split by | into PAYEE and NOTE fields</span>
         </p>
         <p class="c12 c25">
           <span class="c10 c8">
