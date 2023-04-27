@@ -193,7 +193,7 @@ Things in square brackets are  optional. Some notes in the Ledger column are co
       <td class="c4" colspan="1" rowspan="1">
         <p class="c12">
           <span class="c2">
-            DATE [[PAYEE | ] DESCRIPTION]<br>
+            DATE [DESCRIPTION]<br>
             &nbsp; &nbsp;ACCOUNT &nbsp; &nbsp;AMOUNT<br>
             &nbsp; &nbsp;ACCOUNT &nbsp; &nbsp;[AMOUNT]<br>
             <br>
@@ -208,7 +208,7 @@ Things in square brackets are  optional. Some notes in the Ledger column are co
       <td class="c15" colspan="1" rowspan="1">
         <p class="c12">
           <span class="c2">
-            DATE [DESCRIPTION]<br>
+            DATE [[PAYEE | ]NOTE]<br>
             &nbsp; &nbsp;ACCOUNT &nbsp; &nbsp;AMOUNT<br>
             &nbsp; &nbsp;ACCOUNT &nbsp; &nbsp;[AMOUNT]<br>
             <br>
