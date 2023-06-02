@@ -135,7 +135,11 @@ Things in square brackets are  optional. Some notes in the Ledger column are co
             <br>
           </span>
           <span class="c8">
-            All referenced accounts must have an open directive</span>
+            All referenced accounts must have an open directive.<br>
+			Account names must begin with Assets, Liabilities, Equity, Income or Expenses
+			(or other top-level names you have configured);
+			all parts must be capitalised; spaces are not allowed.
+		  </span>
         </p>
       </td>
     </tr>
@@ -214,7 +218,7 @@ Things in square brackets are  optional. Some notes in the Ledger column are co
             <br>
           </span>
           <span class="c10 c8">
-            Same, except DESCRIPTION can optionally be split by | into PAYEE and NOTE fields</span>
+            Same, except DESCRIPTION can optionally be split by <tt>|</tt> into PAYEE and NOTE fields</span>
         </p>
         <p class="c12 c25">
           <span class="c10 c8">
@@ -230,7 +234,7 @@ Things in square brackets are  optional. Some notes in the Ledger column are co
             <br>
           </span>
           <span class="c10 c8">
-            DESCRIPTION must be in double quotes, can be multiline<br>
+            PAYEE and DESCRIPTION must be in double quotes, can be multiline<br>
             No need for two spaces between account and amount</span>
         </p>
       </td>
