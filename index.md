@@ -146,16 +146,16 @@ Generally it's relatively easy to migrate data from one to another.
 | **Popular**          |        |              |                                   |            |       |                                  |                                                                                                               |
 | [Ledger]             | 2003   | 2023-03      | [C++][ledger-gh]                  |        189 |  4.6k | [ledger][ledger-mail] ~900       | [irc][#ledger:libera.chat] 60                                                                                 |
 | [hledger]            | 2007   | 2023-06      | [haskell][hledger-gh]             |        162 |  2.4k | [hledger][hledger-mail] ~200     | [matrix][#hledger:matrix.org]/[irc][#hledger:libera.chat] 100                                                 |
-| [Beancount]          | 2008   | 2022-02      | [python][beancount-gh]            |         64 |    2k | [beancount][beancount-mail] ~600 | [irc][#beancount:libera.chat] 20, [fava gitter][beancount-fava-gitter]/[matrix][#beancount_fava:gitter.im] 40 |
+| [Beancount]          | 2008   | 2022-02      | [python][beancount-gh]            |         64 |    2k | [beancount][beancount-mail] ~600 | [irc][#beancount:libera.chat] 20, [matrix][fava-matrix] 40, [matrix][beancount-matrix] 7                      |
 |                      | &nbsp; |              |                                   |            |       |                                  |                                                                                                               |
 | **Smaller userbase** |        |              |                                   |            |       |                                  |                                                                                                               |
-| Abandon              | 2013   | 2019-09      | [scala][abandon-gh]               |         11 |   162 |                                  | [gitter][abandon-gitter]/[matrix][#hrj_abandon:gitter.im]                                                     |
-| Transity             | 2018   | 2019-05      | [purescript][transity-gh]         |          8 |   571 |                                  | [gitter][transity-gitter]/[matrix][#feramhq_transity:gitter.im]                                               |
+| Abandon              | 2013   | 2019-09      | [scala][abandon-gh]               |         11 |   162 |                                  | [matrix][abandon-matrix]                                                     |
+| Transity             | 2018   | 2019-05      | [purescript][transity-gh]         |          8 |   571 |                                  | [matrix][transity-matrix]                                               |
 | Ledger in Go         | 2013   | 2022-07      | [go][ledger-in-go-gh]             |          8 |   333 |                                  |                                                                                                               |
 | rust\_ledger         | 2019   | 2020-09      | [rust][rust_ledger-gh]            |          4 |    90 |                                  |                                                                                                               |
 | knut                 | 2020   | 2022-09      | [go][knut-gh]                     |          3 |    41 |                                  |                                                                                                               |
 | Go Ledger            | 2016   |              | [go][go-ledger-abourget-gh]       |          3 |    37 |                                  |                                                                                                               |
-| .Net Ledger          | 2017   | 2018-08      | [C#][nledger-gh]                  |          1 |   134 |                                  | [gitter][nledger-gitter]/[matrix][#nledger_Lobby:gitter.im]                                                   |
+| .Net Ledger          | 2017   | 2018-08      | [C#][nledger-gh]                  |          1 |   134 |                                  | [matrix][nledger-matrix]                                                   |
 | pacioli              | 2013   |              | [python][pacioli-gh]              |          1 |    31 |                                  |                                                                                                               |
 | [ledg]               | 2021   | 2021-04      | [javascript][ledg]                |          1 |    30 |                                  |                                                                                                               |
 | Goledger             | 2019   | 2020-08      | [go][goledger-mescanne-gh]        |          1 |    24 |                                  |                                                                                                               |
@@ -183,8 +183,7 @@ Generally it's relatively easy to migrate data from one to another.
 [#plaintextaccounting:matrix.org]: https://matrix.to/#/#plaintextaccounting:matrix.org
 
 [abandon-gh]: https://github.com/hrj/abandon
-[abandon-gitter]: https://gitter.im/hrj/abandon
-[#hrj_abandon:gitter.im]: https://matrix.to/#/#hrj_abandon:gitter.im
+[abandon-matrix]: https://matrix.to/#/#hrj_abandon:gitter.im
 
 [acc-gh]: https://github.com/rudolfschmidt/acc
 [awk-pta-gh]: https://github.com/filiphanes/awk-pta
@@ -194,9 +193,8 @@ Generally it's relatively easy to migrate data from one to another.
 [beancount-gh]: https://github.com/beancount/beancount/
 [beancount-mail]: https://groups.google.com/forum/#!forum/beancount
 [#beancount:libera.chat]: https://web.libera.chat/#beancount
-
-[beancount-fava-gitter]: https://gitter.im/beancount/fava
-[#beancount_fava:gitter.im]: https://gitter.im/beancount/fava
+[beancount-matrix]: https://matrix.to/#/#beancount:matrix.org
+[fava-matrix]: https://matrix.to/#/#beancount_fava:gitter.im
 
 [beans]: https://sboehler.github.io/beans
 [beans-gh]: https://github.com/sboehler/beans
@@ -231,8 +229,7 @@ Generally it's relatively easy to migrate data from one to another.
 [monescript-gh]: https://github.com/monescript/monescript
 
 [nledger-gh]: https://github.com/dmitry-merzlyakov/nledger
-[nledger-gitter]: https://gitter.im/nledger/lobby
-[#nledger_Lobby:gitter.im]: https://matrix.to/#/#nledger_Lobby:gitter.im
+[nledger-matrix]: https://matrix.to/#/#nledger_Lobby:gitter.im
 
 [pacioli-gh]: https://github.com/mdipierro/pacioli
 
@@ -253,9 +250,8 @@ Generally it's relatively easy to migrate data from one to another.
 [#tackler:matrix.org]: https://matrix.to/#/#tackler:matrix.org
 
 [transity-gh]: https://github.com/feramhq/transity
-[transity-gitter]: https://gitter.im/feramhq/transity
 [transity-demo]: https://www.feram.io/transity
-[#feramhq_transity:gitter.im]: https://matrix.to/#/#feramhq_transity:gitter.im
+[transity-matrix]: https://matrix.to/#/#feramhq_transity:gitter.im
 
 [uledger-gh]: https://github.com/danpat/uledger
 
