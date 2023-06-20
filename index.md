@@ -685,6 +685,9 @@ see also <span style="white-space:nowrap;">[#plaintextaccounting-space:matrix.or
 **Mail lists**
 <span style="white-space:nowrap;">[app-specific mail lists](#pta-apps)</span>
 \
+**Mastodon**
+[#plaintextaccounting](https://fosstodon.org/tags/plaintextaccounting) (as seen from Fosstodon instance at least)
+\
 **Twitter**
 [#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting?f=live),
 [#ledgercli](https://twitter.com/hashtag/ledgercli?f=live),
