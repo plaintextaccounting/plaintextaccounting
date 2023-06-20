@@ -680,8 +680,9 @@ other console/curses tools
 
 **Chat**
 <a style="white-space:nowrap;" href="https://matrix.to/#/#plaintextaccounting:matrix.org">Matrix</a> or
-<a style="white-space:nowrap;" href="https://web.libera.chat/#plaintextaccounting">IRC</a> (bridged),
-see also <span style="white-space:nowrap;">[#plaintextaccounting-space:matrix.org](http://matrix.to/#/#plaintextaccounting-space:matrix.org)</span>
+<a style="white-space:nowrap;" href="https://web.libera.chat/#plaintextaccounting">IRC</a> (bridged together),
+<span style="white-space:nowrap;">[chat log](https://archive.matrix.org/r/plaintextaccounting:matrix.org)</span>,
+<span style="white-space:nowrap;">[#plaintextaccounting-space:matrix.org](http://matrix.to/#/#plaintextaccounting-space:matrix.org)</span>
 \
 **Mail lists**
 <span style="white-space:nowrap;">[app-specific mail lists](#pta-apps)</span>
