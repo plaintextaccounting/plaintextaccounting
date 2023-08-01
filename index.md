@@ -438,6 +438,7 @@ Additional helper tools complementing the PTA apps, by category.
 - [ledgible](https://github.com/lipidity/ledgible) web UI for ledger browsing, data entry (python)
 - [node-ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for ledger browsing (javascript)
 - [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for ledger browsing, price fetching (F#)
+- [BeanHub](https://beanhub.io) web UI for beancount browsing, data entry and Git storage (SaaS)
 
 ### UI, mobile
 
