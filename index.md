@@ -447,7 +447,7 @@ Additional helper tools complementing the PTA apps, by category.
 - [cashier](https://gitlab.com/alensiljak/cashier) mobile or desktop client for ledger and hledger-web (Android/Desktop, javascript, [app](https://cashier.alensiljak.eu.org/))
 - [cone](https://f-droid.org/en/packages/info.tangential.cone/) data entry app for the h/ledger format (Android, [dart](https://github.com/bradyt/cone))
 - [MoLe](https://fossdroid.com/a/mole.html) mobile client for hledger-web (Android, [java](https://git.ktnx.net/?p=mobile-ledger.git))
-- [hledger.org: Mobile apps](https://hledger.org/mobile-apps.html)
+- [hledger.org: Mobile apps](https://hledger.org/mobile.html)
 
 ### API
 
