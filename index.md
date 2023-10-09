@@ -458,10 +458,11 @@ Additional helper tools complementing the PTA apps, by category.
 
 - [beancount-parser](https://github.com/LaunchPlatform/beancount-parser) standalone Lark based beancount syntax parser (not relying on the beancount library)
 - [beancount-forms](https://github.com/LaunchPlatform/beanhub-forms) core library for the data types and processor of [BeanHub Forms](https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/)
+- [beanhub-web-react](https://github.com/LaunchPlatform/beanhub-web-react) react components for beancount entry input forms and [BeanHub Forms](https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/)
 
 ### Utilities
 
-- [beanhub-cli](https://github.com/LaunchPlatform/beanhub-cli) command line tools comes with features like formatter and [BeanHub Forms](https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/) web app
+- [beanhub-cli](https://github.com/LaunchPlatform/beanhub-cli) beancount command line tools comes with features like formatter and a [BeanHub Forms](https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/) web app
 
 ### API
 
