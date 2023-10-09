@@ -377,6 +377,10 @@ Additional helper tools complementing the PTA apps, by category.
 - [reorder-journal.sh](https://github.com/amitaibu/hledger-example/blob/master/reorder-journal.sh) sort hledger entries, preserving directives/comments at top of file (bash)
 - [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
 
+### Formatting
+
+- [beancount-black](https://github.com/LaunchPlatform/beancount-black) opinionated beancount file formatter
+
 ### Reporting
 
 - [budget_report](https://github.com/sulemankm/budget_report) budget reporting with beancount (python)
@@ -448,6 +452,10 @@ Additional helper tools complementing the PTA apps, by category.
 - [cone](https://f-droid.org/en/packages/info.tangential.cone/) data entry app for the h/ledger format (Android, [dart](https://github.com/bradyt/cone))
 - [MoLe](https://fossdroid.com/a/mole.html) mobile client for hledger-web (Android, [java](https://git.ktnx.net/?p=mobile-ledger.git))
 - [hledger.org: Mobile apps](https://hledger.org/mobile.html)
+
+### Library
+
+- [beancount-parser](https://github.com/LaunchPlatform/beancount-parser) standalone Lark based beancount syntax parser (not relying on the beancount library)
 
 ### API
 
