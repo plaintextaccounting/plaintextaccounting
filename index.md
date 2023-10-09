@@ -457,6 +457,9 @@ Additional helper tools complementing the PTA apps, by category.
 
 - [beancount-parser](https://github.com/LaunchPlatform/beancount-parser) standalone Lark based beancount syntax parser (not relying on the beancount library)
 
+### Utilities
+- [beanhub-cli](https://github.com/LaunchPlatform/beanhub-cli) Command line tools for BeanHub users but also comes with features like a [custom form](https://beanhub.io/blog/2023/07/31/automating-beancount-data-input-with-beanhub-custom-forms/) web app for non-BeanHub users
+
 ### API
 
 - [gledger](https://github.com/gledger/gledger) Go package to interface with Ledger (go)
