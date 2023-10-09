@@ -380,7 +380,7 @@ Additional helper tools complementing the PTA apps, by category.
 ### Formatting
 
 - [beancount-black](https://github.com/LaunchPlatform/beancount-black) opinionated beancount file formatter
-- [beancount-black web app](https://app.beanhub.io/tools/beancount-formatter) opinionated beancount file formatter but as a web based app
+- [beancount-black web app](https://app.beanhub.io/tools/beancount-formatter) opinionated beancount file formatter as a web-based app
 
 ### Reporting
 
