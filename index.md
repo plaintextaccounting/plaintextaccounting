@@ -457,7 +457,7 @@ Additional helper tools complementing the PTA apps, by category.
 ### Library
 
 - [beancount-parser](https://github.com/LaunchPlatform/beancount-parser) standalone Lark based beancount syntax parser (not relying on the beancount library)
-- [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) core library for the data types and processor of [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
+- [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) core library provides data types and processors of custom forms for inputing repeating similar entries easily
 - [beanhub-web-react](https://github.com/LaunchPlatform/beanhub-web-react) react components for beancount entry input forms and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
 
 ### Utilities
@@ -471,7 +471,7 @@ Additional helper tools complementing the PTA apps, by category.
 - [hledger-web](https://github.com/simonmichael/hledger/tree/master/hledger-web) the web app includes a JSON API server for *ledger files (haskell)
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) extends Ledger's python library (python)
 - [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API for *ledger files (javascript)
-- [BeanHub API](https://api.beanhub.io/redoc) proprietary SaaS API for operating hosted beancount and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
+- [BeanHub API](https://api.beanhub.io/redoc) proprietary SaaS API for operating on hosted beancount repositories and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
 
 <!--
 other console/curses tools
