@@ -462,7 +462,7 @@ Additional helper tools complementing the PTA apps, by category.
 
 ### Utilities
 
-- [beanhub-cli](https://github.com/LaunchPlatform/beanhub-cli) beancount command line tools comes with features like formatter and a [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) web app
+- [beanhub-cli](https://github.com/LaunchPlatform/beanhub-cli) beancount command line tools come with features like formatter and a [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) web app
 
 ### API
 
@@ -471,7 +471,7 @@ Additional helper tools complementing the PTA apps, by category.
 - [hledger-web](https://github.com/simonmichael/hledger/tree/master/hledger-web) the web app includes a JSON API server for *ledger files (haskell)
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) extends Ledger's python library (python)
 - [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API for *ledger files (javascript)
-- [BeanHub API](https://api.beanhub.io/redoc) proprietary SaaS API for operating beancount and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
+- [BeanHub API](https://api.beanhub.io/redoc) proprietary SaaS API for operating hosted beancount and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
 
 <!--
 other console/curses tools
