@@ -456,8 +456,8 @@ Additional helper tools complementing the PTA apps, by category.
 
 ### Library
 
-- [beancount-parser](https://github.com/LaunchPlatform/beancount-parser) standalone Lark based beancount syntax parser (not relying on the beancount library)
-- [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) core library provides data types and processors of custom forms for inputing repeating similar entries easily
+- [beancount-parser](https://github.com/LaunchPlatform/beancount-parser) standalone [Lark-based](https://github.com/lark-parser/lark) beancount syntax parser (not relying on the beancount library)
+- [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) a library provides data types and processors of custom beancount forms for inputting repeating similar entries easily
 - [beanhub-web-react](https://github.com/LaunchPlatform/beanhub-web-react) react components for beancount entry input forms and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
 
 ### Utilities
