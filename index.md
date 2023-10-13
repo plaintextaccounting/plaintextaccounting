@@ -164,6 +164,7 @@ Generally it's relatively easy to migrate data from one to another.
 | [pta]                | 2020   | 2020-09      | perl                              |          1 |       |                                  |                                                                                                               |
 | [Prudent]            | 2018   |              | js (closed); [addons][prudent-gh] |          1 |       |                                  | [\@PrudentLedger][prudent-chat]                                                                               |
 | awk-pta              | 2022   |              | [awk][awk-pta-gh]                 |          1 |       |                                  |                                                                                                               |
+| n4s - danish ERP     | 2020   | 2023-10      | [php][n4s-gratis-regnskab]        |          1 |       |                                  |
 |                      | &nbsp; |              |                                   |            |       |                                  |                                                                                                               |
 | **Inactive**         |        |              |                                   |            |       |                                  |                                                                                                               |
 | bankroll             | 2020   | 2020-08      | [rust][bankroll-gl]               |          1 |     1 |                                  |                                                                                                               |
@@ -187,6 +188,7 @@ Generally it's relatively easy to migrate data from one to another.
 
 [acc-gh]: https://github.com/rudolfschmidt/acc
 [awk-pta-gh]: https://github.com/filiphanes/awk-pta
+[n4s-gratis-gregnskab]: https://github.com/n4s-linux/n4s-gratis-regnskab/
 
 [Beancount]: https://github.com/beancount/
 [Beancount2]: https://beancount.github.io
