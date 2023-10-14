@@ -164,7 +164,6 @@ Generally it's relatively easy to migrate data from one to another.
 | [pta]                | 2020   | 2020-09      | perl                              |          1 |       |                                  |                                                                                                               |
 | [Prudent]            | 2018   |              | js (closed); [addons][prudent-gh] |          1 |       |                                  | [\@PrudentLedger][prudent-chat]                                                                               |
 | awk-pta              | 2022   |              | [awk][awk-pta-gh]                 |          1 |       |                                  |                                                                                                               |
-| n4s - danish ERP     | 2020   | 2023-10      | [php][n4s-gratis-regnskab]        |          1 |       |                                  |
 |                      | &nbsp; |              |                                   |            |       |                                  |                                                                                                               |
 | **Inactive**         |        |              |                                   |            |       |                                  |                                                                                                               |
 | bankroll             | 2020   | 2020-08      | [rust][bankroll-gl]               |          1 |     1 |                                  |                                                                                                               |
@@ -188,7 +187,6 @@ Generally it's relatively easy to migrate data from one to another.
 
 [acc-gh]: https://github.com/rudolfschmidt/acc
 [awk-pta-gh]: https://github.com/filiphanes/awk-pta
-[n4s-gratis-gregnskab]: https://github.com/n4s-linux/n4s-gratis-regnskab/
 
 [Beancount]: https://github.com/beancount/
 [Beancount2]: https://beancount.github.io
@@ -443,6 +441,7 @@ Additional helper tools complementing the PTA apps, by category.
 - [ledger-pyreport](https://yingtongli.me/git/ledger-pyreport/about/) web UI for standard accounting statements and unrealised gains (python)
 - [ledgeraccounting](https://github.com/thecount2a/ledgeraccounting) web UI for hledger: data entry, basic reports and budgets (javascript)
 - [ledgible](https://github.com/lipidity/ledgible) web UI for ledger browsing, data entry (python)
+- [n4s](https://github.com/n4s-linux/n4s-gratis-regnskab/) danish-language ERP system (php)
 - [node-ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for ledger browsing (javascript)
 - [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for ledger browsing, price fetching (F#)
 - [BeanHub](https://beanhub.io) web UI for beancount browsing, data entry with a Git repository (proprietary SaaS; some components open source)
