@@ -99,6 +99,7 @@ Overview:
 ... [Data import/conversion](#data-importconversion)
 ... [Price fetching](#price-fetching)
 ... [Data generation](#data-generation)
+... [Formatting](#formatting)
 ... [Reporting](#reporting)
 ... [Time logging](#time-logging)
 ... [UI, console](#ui-console)
@@ -106,6 +107,8 @@ Overview:
 ... [UI, GUI](#ui-gui)
 ... [UI, web](#ui-web)
 ... [UI, mobile](#ui-mobile)
+... [Library](#library)
+... [Utilities](#utilities)
 ... [API](#api)
 \
 **[Docs](#docs)**
