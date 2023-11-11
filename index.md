@@ -74,13 +74,13 @@ with plain text files and scriptable, command-line-friendly software, such as
 Ledger, hledger, or Beancount.
 
 Welcome!
-This site, complemented by the PTA wiki
-(short url: [wiki.plaintextaccounting.org](https://wiki.plaintextaccounting.org)),
-is an entry point to the PTA community's tools, docs and practices. 
+This site, together with the PTA wiki
+([wiki.plaintextaccounting.org](https://wiki.plaintextaccounting.org)),
+collects the PTA community's tools, docs and practices. 
 It is maintained by
-Simon&nbsp;Michael (hledger project leader, Ledger contributor, PTA fan)
+Simon&nbsp;Michael (hledger project leader, PTA fan)
 and contributors like you. 
-Updates are welcome; join the [chat](#news-discussion)
+Join the [chat](#news-discussion),
 or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edit/master/index.md)
 (here's the [contributors' README](README.html)).
 [![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting)
