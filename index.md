@@ -686,6 +686,7 @@ Additional helper tools complementing the PTA apps, by category.
   (haskell, 
    [demo](https://demo.hledger.org), 
    [Sandstorm app](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90))
+- [Paisa](https://paisa.fyi) web UI or desktop app for ledger, hledger and beancount (golang, javascript, [demo](https://demo.paisa.fyi))
 - [Ledger in Go](https://github.com/howeyc/ledger) web UI for browsing ledger transactions, reports, and porfolios
 - [Ledger Web](https://github.com/peterkeen/Ledger-Web) ledger HTML reporting system (ruby, postgres)
 - [Ledger Web](https://vifon.github.io/ledger-web) web UI/API for ledger browsing, data entry (python)
