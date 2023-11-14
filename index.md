@@ -416,6 +416,7 @@ Generally it's relatively easy to migrate data from one to another.
 | [pta]                | 2020   | 2020-09      | perl                               |          1 |       |                                  |                                                                                          |
 | [Prudent]            | 2018   |              | js (closed); [addons][prudent-src] |          1 |       |                                  | [\@PrudentLedger][prudent-chat]                                                          |
 | awk-pta              | 2022   |              | [awk][awk-pta-src]                 |          1 |       |                                  |                                                                                          |
+| mynt                 | 2023   |              | [mynt][mynt-src]                   |          1 |       |                                  |                                                                                          |
 |                      | &nbsp; |              |                                    |            |       |                                  |                                                                                          |
 | **Inactive**         |        |              |                                    |            |       |                                  |                                                                                          |
 | bankroll             | 2020   | 2020-08      | [rust][bankroll-src]               |          1 |     1 |                                  |                                                                                          |
@@ -439,6 +440,7 @@ Generally it's relatively easy to migrate data from one to another.
 
 [acc-src]: https://github.com/rudolfschmidt/acc
 [awk-pta-src]: https://github.com/filiphanes/awk-pta
+[mynt-src]: https://git.sr.ht/~kmaasrud/mynt
 
 [Beancount]: https://github.com/beancount/
 [Beancount2]: https://beancount.github.io
