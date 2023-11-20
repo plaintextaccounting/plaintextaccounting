@@ -197,10 +197,10 @@ Contents:\
 - [Jonathan Dowland: HLedger, regex matches and field assignments](https://jmtd.net/log/hledger/matchers/) <!-- 2023-11-17 -->
 - [Jonathan Dowland: Separate hledgers](https://jmtd.net/log/hledger/separate/) <!-- 2023-04-24 -->
 - [Jonathan Dowland: date warping in HLedger](https://jmtd.net/log/date_warping/) <!-- 2023-03-06 -->
+- [Jonathan Dowland: HLedger, 1 year on](https://jmtd.net/log/hledger_1yr/) <!-- 2023-02-10 -->
 
 2022
 
-- [Jonathan Dowland: HLedger, 1 year on](https://jmtd.net/log/hledger_1yr/) <!-- 2023-02-10 -->
 - [Jonathan Dowland: eventual consistency](https://jmtd.net/log/eventual_consistency/) <!-- 2022-11-22 -->
 - [Jonathan Dowland: dues (or blues)](https://jmtd.net/log/hledger/dues/) <!-- 2022-08-17 -->
 - [Jonathan Dowland: hledger](https://jmtd.net/log/hledger/) <!-- 2022-04-14 -->
@@ -210,7 +210,7 @@ Contents:\
 - [Jonathan Dowland: hledger footguns](https://jmtd.net/log/hledger_footguns/) <!-- 2021-11-20 -->
 - [Arsen Arsenović: Keeping track of finances from many places](https://www.aarsen.me/posts/2021-08-13-personal-finances-with-hledger.html) <!-- 2021-08-15 -->
 - [Zoran Zaric: Budgeting for annual expenses with Hledger](http://rantsideasstuff.com/posts/2021/01/31-budgeting-for-annual-expenses-with-hledger/) <!-- 2021/01/31 -->
-- [Samuel Walladge: Tracking capital gains with hledger](https://www.swalladge.net/archives/2021/01/30/hledger-tracking-capital-gains/) <!-- 2021/01/30 -->
+<!-- - [Samuel Walladge: Tracking capital gains with hledger](https://www.swalladge.net/archives/2021/01/30/hledger-tracking-capital-gains/) <\!-- 2021/01/30 -\-> -->
 - [Duarte O.Carmo: Hacking on my finances (Part 2: Beancount on Beanstalk)](https://duarteocarmo.com/blog/hacking-on-my-finances-part-2-beancount-on-beanstalk.html) <!-- 2021/01/15 -->
 
 2020
