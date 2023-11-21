@@ -194,6 +194,7 @@ Contents:\
 2023
 
 - [Jonathan Dowland: HLedger, regex matches and field assignments](https://jmtd.net/log/hledger/matchers/) <!-- 2023-11-17 -->
+- [Knut Magnus Aasrud: You should track your finances in TOML](https://kmaasrud.com/blog/track-finances-in-toml.html) <!-- 2023-11-13 -->
 - [Beancount.io: Tracking real estate in Beancount](https://beancount.io/page/2023-06-09-tracking-real-estate) <!-- 2023-06-09 -->
 - [Jonathan Dowland: Separate hledgers](https://jmtd.net/log/hledger/separate/) <!-- 2023-04-24 -->
 - [Jonathan Dowland: date warping in HLedger](https://jmtd.net/log/date_warping/) <!-- 2023-03-06 -->
