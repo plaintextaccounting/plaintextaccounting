@@ -193,8 +193,31 @@ Contents:\
 
 2023
 
+- [Robert Nielsen: Using hledger for thanksgiving](https://hledgerfan.com/using-hledger-for-thanksgiving/)  2023-11-23
 - [Jonathan Dowland: HLedger, regex matches and field assignments](https://jmtd.net/log/hledger/matchers/) <!-- 2023-11-17 -->
+- [Robert Nielsen: Zooming out and in](https://hledgerfan.com/zooming-out-and-in/) 2023-11-16
 - [Knut Magnus Aasrud: You should track your finances in TOML](https://kmaasrud.com/blog/track-finances-in-toml.html) <!-- 2023-11-13 -->
+- [Robert Nielsen: (Almost) everything you wanted to know about hledger transactions](https://hledgerfan.com/almost-everything-you-wanted-to-know-about-hledger-transactions/) 2023-11-09
+- [Robert Nielsen: Beginners corner: a basic hledger transaction](https://hledgerfan.com/beginners-corner-a-basic-hledger-transaction/) 2023-11-02
+- [Robert Nielsen: Why i created the hledger fan youtube channel](https://hledgerfan.com/why-i-created-the-hledger-fan-youtube-channel/) 2023-10-26
+- [Robert Nielsen: A not so capital idea for saving time](https://hledgerfan.com/a-not-so-capital-idea-for-saving-time/) 2023-10-19
+- [Robert Nielsen: The richest hledger user in Babylon (part 3)](https://hledgerfan.com/the-richest-hledger-user-in-babylon-part-3/) 2023-10-12
+- [Robert Nielsen: The richest hledger user in Babylon (part 2)](https://hledgerfan.com/the-richest-hledger-user-in-babylon-part-2/) 2023-10-05
+- [Robert Nielsen: The richest hledger user in Babylon](https://hledgerfan.com/the-richest-hledger-user-in-babylon/) 2023-09-28
+- [Robert Nielsen: Accounting before hledger](https://hledgerfan.com/accounting-before-hledger/) 2023-09-21
+- [Robert Nielsen: Atomic hledger habits](https://hledgerfan.com/atomic-hledger-habits/) 2023-09-14
+- [Robert Nielsen: Hledger 1.31 now available, using “not,” awk part 2, podcast of the week](https://hledgerfan.com/hledger-1-31-now-available-using-not-awk-part-2-podcast-of-the-week/) 2023-09-07
+- [Robert Nielsen: Trying my wings with awk](https://hledgerfan.com/trying-my-wings-with-awk/) 2023-08-31
+- [Robert Nielsen: Making changes with and without sed](https://hledgerfan.com/making-changes-with-and-without-sed/) 2023-08-24
+- [Robert Nielsen: Three ways to make changes to an hledger data file](https://hledgerfan.com/three-ways-to-make-changes-to-an-hledger-data-file/) 2023-08-17
+- [Robert Nielsen: Good intentions or good results?](https://hledgerfan.com/good-intentions-or-good-results/) 2023-08-10
+- [Robert Nielsen: Why use hledger?](https://hledgerfan.com/why-use-hledger/) 2023-08-03
+- [Robert Nielsen: hledger book of the month](https://hledgerfan.com/hledger-book-of-the-month/) 2023-07-27
+- [Robert Nielsen: Moving forward by going backward](https://hledgerfan.com/moving-forward-by-going-backward/) 2023-07-20
+- [Robert Nielsen: Invisible windows](https://hledgerfan.com/invisible-windows/) 2023-07-19
+- [Robert Nielsen: Really review, really](https://hledgerfan.com/really-review-really/) 2023-07-06
+- [Robert Nielsen: Helping others see how useful hledger can be](https://hledgerfan.com/helping-others-see-how-useful-hledger-can-be/) 2023-06-29
+- [Robert Nielsen: Blog entries prior to june 2023 site update](https://hledgerfan.com/hello-world/) 2023-06-26
 - [Beancount.io: Tracking real estate in Beancount](https://beancount.io/page/2023-06-09-tracking-real-estate) <!-- 2023-06-09 -->
 - [Jonathan Dowland: Separate hledgers](https://jmtd.net/log/hledger/separate/) <!-- 2023-04-24 -->
 - [Jonathan Dowland: date warping in HLedger](https://jmtd.net/log/date_warping/) <!-- 2023-03-06 -->
