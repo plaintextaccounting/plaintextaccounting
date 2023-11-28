@@ -6,7 +6,7 @@ pandoc:
 	pandoc --version || \
 		wget https://github.com/jgm/pandoc/releases/download/3.1.9/pandoc-3.1.9-linux-amd64.tar.gz && \
 		tar xzf pandoc-3.1.9-linux-amd64.tar.gz && \
-		rm pandoc-3.1.9-linux-amd.tar.gz
+		rm pandoc-3.1.9-linux-amd64.tar.gz
 
 #PANDOC=pandoc
 PANDOC=pandoc-3.1.9/bin/pandoc \
