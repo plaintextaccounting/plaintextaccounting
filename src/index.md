@@ -79,32 +79,25 @@ It is maintained by Simon&nbsp;Michael (hledger project leader, PTA fan)
 and contributors like you. 
 Join the [chat](#news-discussion),
 or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edit/master/index.md)
-(here's the [contributors' README](README.html)).
+(here's the [contributors' README](https://github.com/plaintextaccounting/plaintextaccounting#readme)).
 [![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting)
 
 <!-- TOC -->
-Contents:\
-**[News & discussion](#news-discussion)**
-- **[Videos](#videos)**
-- **[Articles & blog posts](#articles-blog-posts)**
+On this page:\
+**[News & discussion](#news-discussion)**\
+**[Videos](#videos)**\
+**[Articles & blog posts](#articles-blog-posts)**
 \
-**[Docs](#docs)**
-- [Accounting](#accounting)
+**[Docs](#docs)**:
+  [Accounting](#accounting)
 - [PTA app official docs](#pta-app-official-docs)
 - [PTA app comparisons](#pta-app-comparisons)
 - [Cheatsheets](#cheatsheets)
 - [Introductory docs](#introductory-docs)
 - [Presentations](#presentations)
 \
-**[PTA Cookbook](Cookbook.html)**
-- [Newcomer FAQ](Newcomer-FAQ.html)
-- [Objections and concerns](Newcomer-FAQ.html#objections-and-concerns)
-- [Getting started](Cookbook.html#getting-started)
-- [General usage](Cookbook.html#general-usage)
-- [Accounting situations](Cookbook.html#accounting-situations)
-\
-**[Software](#software)**
-- [PTA apps](#pta-apps)
+**[Software](#software)**:
+  [PTA apps](#pta-apps)
 - [Editor plugins](#editor-plugins)
 - [Data import/conversion](#data-importconversion)
 - [Price fetching](#price-fetching)
@@ -120,6 +113,16 @@ Contents:\
 - [Library](#library)
 - [Utilities](#utilities)
 - [API](#api)
+
+Also on this site:\
+**[[Cookbook]]**:
+  [[Newcomer FAQ]]
+- [[Newcomer-FAQ#objections-and-concerns|Objections and concerns]]
+- [[Cookbook#getting-started|Getting Started]]
+- [[Cookbook#general-usage|General usage]]
+- [[Cookbook#accounting-situations|Accounting situations]]
+\
+
 
 </div>
 \
@@ -153,14 +156,14 @@ Contents:\
 [comments](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=comment)
 \
 **Stack Exchange**
-[[ledger-cli]](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest),
+[\[ledger-cli]](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest),
 ["ledger-cli"](https://money.stackexchange.com/search?tab=newest&q=ledger-cli),
-[[hledger]](https://money.stackexchange.com/questions/tagged/hledger?tab=newest),
+[\[hledger]](https://money.stackexchange.com/questions/tagged/hledger?tab=newest),
 ["hledger"](https://money.stackexchange.com/search?tab=newest&q=hledger)
 <!-- [beancount](https://money.stackexchange.com/search?tab=newest&q=beancount) -->
 \
-**This Week In Hledger**
-<https://hledger.org/news.html>
+**Other**
+[This Week In Hledger](https://hledger.org/news.html)
 
 ## Videos
 
@@ -392,10 +395,10 @@ Contents:\
 - [hledger Getting Started Guide](https://hledger.org/start.html)
 - [Getting Started with Beancount](https://beancount.github.io/docs/getting_started_with_beancount.html)
 - [Tackler Quickstart](https://tackler.e257.fi/docs/quickstart/)
-- [Don’t Sink Your First Attempts at Plaintext Accounting](Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting.html) syntax tips for beginners
+- [Don't Sink Your First Attempts at Plaintext Accounting](Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting.html) syntax tips for beginners
 - [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
 - [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
-- [Getting started](Cookbook.html#getting-started)
+- [[Cookbook.html#getting-started|Getting started]]
 
 ### Presentations
 
@@ -406,9 +409,9 @@ Contents:\
 - [Hacking Your Finances for Fun and Profit](https://matthewturland.com/slides/ledger-stats/) 2013
 <!-- gone - [Ledger and Text based Accounting](http://www.adamsinfoserv.com/AISTWiki/pub/AIS/Presentations/Ledger.pdf) 2009 -->
 
-### PTA Cookbook
+### Cookbook
 
-- [PTA Cookbook](Cookbook.html) more docs: FAQs, examples, how-tos
+- [[Cookbook]] more docs: FAQs, examples, how-tos
 
 ## Software
 
