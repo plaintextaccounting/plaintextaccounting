@@ -4,7 +4,9 @@ all: html
 # (including README, maybe useful for local preview. $(filter-out README.md, ...) to exclude).
 html: $(patsubst src/%,out/%,$(patsubst %.md,%.html,$(wildcard src/*.md src/quickref/*.md))) Makefile
 
-PANDOC=pandoc -f markdown-smart-tex_math_dollars+autolink_bare_uris
+PANDOC=pandoc \
+	-f markdown-smart-tex_math_dollars+autolink_bare_uris+wikilinks_title_after_pipe \
+	--lua-filter=fixwikilinks.lua
 
 # generate html from a md file
 out/%.html: src/%.md page.tmpl
