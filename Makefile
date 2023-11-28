@@ -4,7 +4,7 @@ all: pandoc html
 pandoc:
 #	pandoc --version || sudo apt install -y pandoc
 	pandoc --version || \
-		curl -O https://github.com/jgm/pandoc/releases/download/3.1.9/pandoc-3.1.9-linux-amd64.tar.gz && \
+		wget https://github.com/jgm/pandoc/releases/download/3.1.9/pandoc-3.1.9-linux-amd64.tar.gz && \
 		tar xzf pandoc-3.1.9-linux-amd64.tar.gz
 
 #PANDOC=pandoc
