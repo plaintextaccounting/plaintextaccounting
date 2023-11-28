@@ -1,12 +1,15 @@
-all: pandoc html
+all: pandoc html pandoc-remove
 
 # XXX temporary workaround for pandoc not being present in Cloudflare Pages platform V2
 # pandoc --version || sudo apt install -y pandoc
 pandoc:
 	pandoc --version || \
 		wget https://github.com/jgm/pandoc/releases/download/3.1.9/pandoc-3.1.9-linux-amd64.tar.gz && \
-		tar xzf pandoc-3.1.9-linux-amd64.tar.gz && \
-		rm -rf pandoc-3.1.9*
+		tar xzf pandoc-3.1.9-linux-amd64.tar.gz
+
+# Too large, cloudflare won't deploy
+pandoc-remove:
+	rm -rf pandoc-3.1.9*
 
 #PANDOC=pandoc
 PANDOC=pandoc-3.1.9/bin/pandoc \
