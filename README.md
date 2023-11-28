@@ -1,47 +1,27 @@
 # The plaintextaccounting.org website
 
-This is the source for [plaintextaccounting.org](http://plaintextaccounting.org),
-an information portal/overview site for Plain Text Accounting and
+This is the source for [plaintextaccounting.org](https://plaintextaccounting.org),
+an information portal and community hub for Plain Text Accounting and
 related tools: Ledger, hledger, beancount, etc. 
 
-Since 2023-11, source files are in the src/ folder and output files
-and assets are the out/ folder, and content formerly in the github wiki
-has been merged into the static site.
+The site's repo is https://github.com/plaintextaccounting/plaintextaccounting.
+The site is markdown pages with double-bracket wiki links, rendered by [Pandoc].
+Source files are in the src/ folder, output files and assets are the out/ folder.
+The source files are intended to be somewhat compatible with Obsidian,
+for efficient local editing and viewing.
 
-The src/ folder is intended to be somewhat compatible with Obsidian,
-for efficient/rich local editing and viewing; this is driving the
-current file names/"slugs", eg.
-
-## Old
-
-*2023-11 Old, needs update:*
-
-Since 2022-01, there is also a companion wiki: https://wiki.plaintextaccounting.org.
-(The wiki is hosted on Github and its urls are not finalised, but
-`https://wiki.plaintextaccounting.org[/PAGE]` will always redirect to the right place.)
+The site is rendered by Cloudflare Pages.
+Changes merged in the master branch will appear at plaintextaccounting.org within 2-3 minutes.
 
 ## Contributing
 
-### Construction and rendering
+Maintenance is led by Simon Michael; all help is welcome! You can:
 
-The site is mainly one big markdown page, plus a few more.
-These are rendered by [Pandoc]
-(chosen originally for its power and dependability, 
-to minimise layout troubleshooting time).
-
-### Hosting and deployment
-
-The site's repo is https://github.com/plaintextaccounting/plaintextaccounting.
-Since 2022-01, the site is rendered by Cloudflare Pages.
-Changes merged in the master branch appear at plaintextaccounting.org within 2-3 minutes.
-
-### Where to discuss / give feedback
-
-The site is managed via 
-
-- the Github issue tracker
-- and the `#plaintextaccounting:matrix.org` room on Matrix, or the bridged `#plaintextaccounting` channel on Libera.chat.
-Site-related questions or discussion are welcome here.
+- drop in to the [#plaintextaccounting chat room](https://plaintextaccounting.org/#newsdiscussion) on Matrix.org and suggest changes
+  (there is also an older `#plaintextaccounting` IRC channel on Libera.chat)
+- or log in with a Github account, then use the Edit / New Page buttons at top right
+- or `git clone https://github.com/plaintextaccounting/plaintextaccounting.wiki.git`, make changes, and send a PR or push
+- or discuss issues in the [Github issue tracker](https://github.com/plaintextaccounting/plaintextaccounting/issues).
 
 ### How to make a change through the web
 
@@ -53,36 +33,95 @@ Site-related questions or discussion are welcome here.
 
 This will be applied immediately if you have commit access, otherwise a fork and pull request will be created, which we will review soon.
 
-### How to make a change on your machine
+### How to make a change on your local machine
 
 1. Log in to Github, fork this repo, and clone the fork to your machine.
+    <!-- git clone https://github.com/plaintextaccounting/plaintextaccounting.wiki.git -->
 2. Make your changes to `index.md` (and/or `README.md`, `css/*`, `images/*`).
 3. To preview, run `make` (requires [GNU Make] and [pandoc] 2.5+) and view `index.html` in your web browser.
 4. When everything looks right, commit with a descriptive message.
 5. `git push` to your fork.
 6. Submit a pull request.
 
-[pandoc]: http://pandoc.org/installing.html
+[pandoc]: https://pandoc.org/installing.html
 [GNU Make]: https://www.gnu.org/software/make/
 [open an issue]: https://github.com/plaintextaccounting/plaintextaccounting/issues/new
 <!-- ?title=Contributor+requesting+commit+bit&body=Request+for+commit+access -->
 
-### How to see a live preview on your machine
+### How to see a live preview on your local machine
 
-Quick and dirty ways:
+Here are two quick and dirty ways:
 
 - Use VS Code's preview pane (eg on mac: Cmd k Cmd v while editing index.md)
 - Use Obsidian's preview mode (edit index.md, `|` to split the window, switch one into preview mode)
 
-For accurate rendering:
+For the most accurate rendering, use Pandoc:
 
-- Install [entr] and [livereloadx], run `make html-watch` for a live-reloading view at http://localhost:8100
+- Install `pandoc`, run `make`, and browse `out/index.html`.
 
-[entr]:        http://eradman.com/entrproject/
+For live-updating Pandoc rendering:
+
+- Install `watchexec` and [livereloadx], run `make watch`, browse http://localhost:8100
+
 [livereloadx]: https://nitoyon.github.io/livereloadx
 
 ### How to get commit access
 
 If you're a recurring contributor and haven't yet been granted commit access, 
 please request it in the #plaintextaccounting chat.
+
+
+<!--
+The wiki was announced in 2022-02 at
+[ledger](https://groups.google.com/g/ledger-cli/c/-ylWBNTUC9Q), 
+[beancount](https://groups.google.com/g/beancount/c/_xtg1XVbbCk),
+[hledger](https://groups.google.com/g/hledger/c/bLxVpYEklk4)
+-->
+
+### How to write hyperlinks
+
+In addition to HTML `<a href="hyper.html">Links</a>` and `[Markdown](links.html)`,
+double-bracketed `[[Wiki Links]]` (or `[[Wiki#section]]` or `[[Wiki|Links]]` or `[[Wiki#section|Links]]`) are supported
+(note that `|alternate link text` comes last).
+If you are working in Obsidian, note that it expects words in file names and wiki links to be space-separated,
+but the currently the site requires file names to be hyphen-separated, 
+and it will translate spaced wiki links to the hyphenated link targets automatically.
+
+### How to manage examples
+
+Some old notes from 2022:
+
+Goals:
+- a page for each common transaction or situation
+- showing example journal entries, variations and alternative techniques
+- ready to use with one or more of the [PTA tools](https://plaintextaccounting.org/#plain-text-accounting-apps). Showing multiple tool-specific versions is welcome but not required. Translation/porting tips are also welcome.
+- automatically tested against tools' current release (some day)
+- crowd-sourced, human-organised, kept clean
+- relatively stable urls/ids, easily referenceable from chat rooms, docs and software
+- where helpful, consolidate work from/sync with [tool](https://github.com/ledger/ledger/wiki)-[specific](https://hledger.org/cookbook.html#accounting-tasks) [sites](https://beancount.github.io/docs/command_line_accounting_cookbook.html) to reduce duplicated effort and increase traction
+
+One goal for this site is to collect concise useful example journal entries for all common accounting situations.
+These are organized into topic pages which get linked on [[Cookbook]].
+Try to make examples reasonably reproducible.
+
+In literal blocks, consider writing a file type after the opening triple backticks. 
+Although PTA file types are not yet well supported by Github, they might be in future,
+and it can also help with automation. 
+Some suggested types:
+
+- `journal` - a generic journal file (likely compatible with ledger, hledger, and compatibles)
+- `ledger` - a ledger-specific journal file (optional)
+- `hledger` - a hledger-specific journal file (optional)
+- `beancount` - a beancount journal file
+- `timeclock` - a timeclock file
+- `timedot` - a timedot file
+- `csv`, `ssv`, `tsv` - comma, semicolon, or tab-separated values
+- `rules` - a hledger CSV rules file, ...
+- `abandon`, `tackler`, `nledger`, ... - files specific to other PTA apps
+
+In example files, consider writing the filename as a comment on the first line, 
+and using each filename only once within a page. 
+This gives example commands something to reference,
+and can help users trying out the variations,
+or automated tests.
 
