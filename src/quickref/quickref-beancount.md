@@ -1,6 +1,8 @@
-<link href="quickref.css" rel="stylesheet">
+% Syntax quick reference: Beancount
 
 # Syntax quick reference: Beancount
+
+<link href="quickref.css" rel="stylesheet">
 
   [Big 3](index.html)
 | [Ledger](quickref-ledger.html)

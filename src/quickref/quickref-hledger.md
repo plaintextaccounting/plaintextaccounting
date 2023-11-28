@@ -1,6 +1,8 @@
-<link href="quickref.css" rel="stylesheet">
+% Syntax quick reference: hledger
 
 # Syntax quick reference: hledger
+
+<link href="quickref.css" rel="stylesheet">
 
   [Big 3](index.html)
 | [Ledger](quickref-ledger.html)

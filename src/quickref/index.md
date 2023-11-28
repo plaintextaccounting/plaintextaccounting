@@ -1,3 +1,5 @@
+% Syntax Quick Reference for the Ledger-Likes
+
 <link href="quickref.css" rel="stylesheet">
 
 <a href="https://en.wikipedia.org/wiki/Rosetta_Stone" style="float:right; margin:0 2em;"><img width=100 src="images/image00.jpg"></a>

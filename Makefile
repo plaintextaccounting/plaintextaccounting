@@ -1,18 +1,18 @@
 all: html
 
-# Generate html from all md files
+# Generate html from all md files in src/, in out/
 # (including README, maybe useful for local preview. $(filter-out README.md, ...) to exclude).
-html: $(patsubst %.md,%.html,$(wildcard *.md quickref/*.md)) Makefile
+html: $(patsubst src/%,out/%,$(patsubst %.md,%.html,$(wildcard src/*.md src/quickref/*.md))) Makefile
 
 PANDOC=pandoc -f markdown-smart-tex_math_dollars+autolink_bare_uris
 
 # generate html from a md file
-%.html: %.md index.tmpl
-	$(PANDOC) --template index.tmpl $< -o $@
+out/%.html: src/%.md page.tmpl
+	$(PANDOC) --template page.tmpl $< -o $@
 
 # regenerate html whenever an md file changes
 html-auto auto:
-	ls *.md quickref/*.md | entr make html
+	watchexec -- make html
 
 BROWSE=open
 LIVERELOADPORT=8100
@@ -25,7 +25,7 @@ LIVERELOAD=livereloadx -p $(LIVERELOADPORT) -s
 html-watch watch:
 	make html-auto &
 	(sleep 1; $(BROWSE) http://localhost:$(LIVERELOADPORT)/) &
-	$(LIVERELOAD) .
+	$(LIVERELOAD) out
 
 # regenerate syntax quick reference html from google docs html export
 # (it has been manually edited, let's not do this again)
