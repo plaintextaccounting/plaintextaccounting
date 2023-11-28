@@ -1,5 +1,4 @@
-% PTA Cookbook
-# PTA Cookbook
+% Cookbook
 
 This is the Plain Text Accounting Cookbook page
 (formerly the wiki home page, now a sort of site map for plaintextaccounting.org.
@@ -25,14 +24,14 @@ Or log in to Github, click Edit / New page, and add it yourself.
 - [[Customising]]
 - [[API access]]
 - [[Recording dates]]
-- [[Starting a new file]]
+- Starting a new file
 
 ### Accounting situations
 
 - [[Borrowing and Lending]]
 - [[Budgeting]]
 - [[Cash or accrual]]
-- [[Depreciation]]
+- Depreciation
 - [[Eco accounting]]
 - [[Forecasting]]
 - [[Inventory]]

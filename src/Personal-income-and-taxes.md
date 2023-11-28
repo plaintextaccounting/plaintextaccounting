@@ -1,3 +1,5 @@
+% Personal income and taxes
+
 Some increasingly complex/increasingly "correct" examples of managing
 your income and personal taxes.
 

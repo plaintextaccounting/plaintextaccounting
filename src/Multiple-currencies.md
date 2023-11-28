@@ -1,3 +1,5 @@
+% Multiple currencies
+
 ## Paypal conversions, reimbursements
 
 A complicated real-life example (try to avoid this). 

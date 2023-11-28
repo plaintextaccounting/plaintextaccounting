@@ -1,3 +1,5 @@
+% Splitting rent and utilities
+
 Rent and Utilities can be split in different ways, in this case you
 pay all the bills and 2 roommates pay their share to a specific bank
 account. Furthermore, the roommates pay their share for the following

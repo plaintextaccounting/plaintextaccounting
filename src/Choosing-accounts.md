@@ -1,3 +1,5 @@
+% Choosing accounts
+
 - [sample chart of accounts for a freelancer](https://gist.github.com/simonmichael/9936299)
 - [Beancount Cookbook: Account Naming Conventions](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk/view#heading=h.tu0f1kydrpgn)
 - [Mint: Ways to Categorize Your Spending](https://www.mint.com/mint-categories)

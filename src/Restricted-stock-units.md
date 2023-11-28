@@ -1,3 +1,5 @@
+% Restricted stock units
+
 > The term restricted stock unit (RSU) refers to a form of compensation issued by an employer to an employee in the form of company shares
 >
 > -- Investopedia

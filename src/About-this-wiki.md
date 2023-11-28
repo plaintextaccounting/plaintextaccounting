@@ -1,3 +1,5 @@
+% About this wiki
+
 This wiki complements the [plaintextaccounting.org](https://plaintextaccounting.org) static site. 
 It was announced in 2022-02 on the [ledger](https://groups.google.com/g/ledger-cli/c/-ylWBNTUC9Q), [beancount](https://groups.google.com/g/beancount/c/_xtg1XVbbCk), and [hledger](https://groups.google.com/g/hledger/c/bLxVpYEklk4) mail lists.
 Maintenance is led by Simon Michael; all help is welcome! You can:

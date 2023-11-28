@@ -1,3 +1,5 @@
+% Budgeting
+
 *The purpose of a budget is to help thy purse to fatten.
 It is to assist thee to have thy necessities, and insofar as attainable, thy other desires.
 It is to enable thee to realise thy most cherished desires, by defending them from thy casual wishes.

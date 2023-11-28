@@ -1,3 +1,5 @@
+% Invoicing
+
 Businesses send invoices to clients to request payment. You may want to track, eg:
 
 - how much is due to be invoiced

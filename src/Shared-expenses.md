@@ -1,3 +1,5 @@
+% Shared expenses
+
 - [Beancount: Sharing Expenses in Beancount](https://beancount.github.io/docs/sharing_expenses_with_beancount.html)
 - [Keeping (financial) score with Ledger](http://sachachua.com/blog/2014/11/keeping-financial-score-ledger/)
 - [Program Your Finances: Automated Transactions](https://www.petekeen.net/program-your-finances-automated-transactions)

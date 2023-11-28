@@ -1,3 +1,5 @@
+% Entering data
+
 - [hledger Basics tutorial: Record a transaction with “hledger add”](https://hledger.org/basics-tutorial.html#record-a-transaction-with-hledger-add)
 - ledger-mode:\
   `C-c C-a` add a transaction,\

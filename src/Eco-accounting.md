@@ -1,3 +1,5 @@
+% Eco accounting
+
 Eco accounting means taking account of all impacts on surrounding ecologies - particularly environment and society.
 Let's make this a no-brainer everywhere - please help.
 

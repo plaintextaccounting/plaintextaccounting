@@ -1,3 +1,5 @@
+% Recording dates
+
 Here are notes on recurring questions about dates. See the [summary](#summary) for the short version.
 
 ## When does a transaction really happen ?

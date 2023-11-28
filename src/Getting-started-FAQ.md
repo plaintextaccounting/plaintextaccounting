@@ -1,4 +1,4 @@
-## Getting started
+% Getting started FAQ
 
 ### Ledger, hledger, beancount, etc. - which should I choose ?
 

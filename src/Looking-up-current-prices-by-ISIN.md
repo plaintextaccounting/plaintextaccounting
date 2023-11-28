@@ -1,3 +1,5 @@
+% Looking up current prices by ISIN
+
 Copied from a [post on beancount mailing list](https://groups.google.com/g/beancount/c/zSqZOM0a7Jk), addressing the question: Can the ISIN be used as the commodity symbol for all mutual funds, ETFs, stocks, and bonds, and to automate downloading of prices via an API?
 
 It's not that simple (though there is a script for this, that is linked to at the end).  

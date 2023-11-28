@@ -1,3 +1,5 @@
+% Don't Sink Your First Attempts at Plaintext Accounting
+
 *I wrote the article below to help newcomers to plaintext accounting. ... Enjoy! --Robert Nielsen, 2017/04/19*
 
 Plain text accounting programs such as Ledger and Hledger are powerful, helpful tools, but your own user errors can take the wind out of your sails when you would rather be breezing through your accounting. Here, then, are several mistakes—ones that I have personally tested—that you will want to avoid in order to enjoy the benefits of plaintext accounting without unnecessary pain. 

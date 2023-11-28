@@ -1,3 +1,5 @@
+% Inventory
+
 Tracking real-world objects.
 
 - [Accounting Savvy for Business Owners ch. 8](http://www.amazon.com/Accounting-Savvy-Business-Owners-Essentials/dp/193292518X)

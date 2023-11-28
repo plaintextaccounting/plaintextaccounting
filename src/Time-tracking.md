@@ -1,3 +1,5 @@
+% Time tracking
+
 You can track time in the usual journal format. Eg with h/ledger, using non-balanced postings for convenience:
 
 ```journal

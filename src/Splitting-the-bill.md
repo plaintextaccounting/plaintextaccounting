@@ -1,3 +1,5 @@
+% Splitting the bill
+
 You went to dinner with a few friends, and the restaurant owner prefers
 a single bill for the table. Either you or one of your friends pays. Or
 you're all throwing cash on a pile and use that.

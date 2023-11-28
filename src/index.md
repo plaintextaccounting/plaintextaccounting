@@ -1,4 +1,4 @@
-% Plain Text Accounting portal
+% Plain Text Accounting (PTA)
 
 <!--
 Editing tips:
@@ -65,11 +65,9 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 <img src="images/pta-avatar.jpg" width=250 style="border-radius:50%;">
 </div>
 
-# plain text accounting
-
 <div id="intro">
 
-***Plain text accounting*** (PTA) is a way of doing bookkeeping and accounting 
+***Plain text accounting*** is a way of doing bookkeeping and accounting 
 with plain text files and scriptable, command-line-friendly software, such as
 Ledger, hledger, or Beancount.
 
