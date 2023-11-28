@@ -82,7 +82,6 @@ or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edi
 (here's the [contributors' README](https://github.com/plaintextaccounting/plaintextaccounting#readme)).
 [![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting)
 
-<!-- TOC -->
 On this page:\
 **[News & discussion](#news-discussion)**\
 **[Videos](#videos)**\
@@ -114,25 +113,23 @@ On this page:\
 - [Utilities](#utilities)
 - [API](#api)
 
-Also on this site:\
+Elsewhere:\
+**[[Newcomer FAQ]]**:
+  [[Newcomer FAQ#what-is-this|What is this]]
+- [[Newcomer FAQ#objections-and-concerns|Objections and concerns]]\
 **[[Cookbook]]**:
-  [[Newcomer FAQ]]
-- [[Newcomer-FAQ#objections-and-concerns|Objections and concerns]]
-- [[Cookbook#getting-started|Getting Started]]
+  [[Cookbook#getting-started|Getting Started]]
 - [[Cookbook#general-usage|General usage]]
 - [[Cookbook#accounting-situations|Accounting situations]]
-\
-
 
 </div>
-\
+
 
 ## News & discussion
 
 **Chat**
-<a style="white-space:nowrap;" href="https://matrix.to/#/#plaintextaccounting:matrix.org">Matrix</a> ~100,
-<a style="white-space:nowrap;" href="https://web.libera.chat/#plaintextaccounting">IRC</a> ~50,
-<!-- <span style="white-space:nowrap;">[chat log](https://archive.matrix.org/r/plaintextaccounting:matrix.org)</span>, -->
+[Matrix](https://matrix.to/#/#plaintextaccounting:matrix.org) ~100,
+[IRC](https://web.libera.chat/#plaintextaccounting) ~50,
 <span style="white-space:nowrap;">[Plain Text Accounting space on Matrix](https://matrix.to/#/#plaintextaccounting-space:matrix.org)</span>
 \
 **Mail lists**
@@ -156,14 +153,17 @@ Also on this site:\
 [comments](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=comment)
 \
 **Stack Exchange**
-[\[ledger-cli]](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest),
-["ledger-cli"](https://money.stackexchange.com/search?tab=newest&q=ledger-cli),
-[\[hledger]](https://money.stackexchange.com/questions/tagged/hledger?tab=newest),
-["hledger"](https://money.stackexchange.com/search?tab=newest&q=hledger)
+[ledger-cli tag](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest),
+[ledger-cli search](https://money.stackexchange.com/search?tab=newest&q=ledger-cli),
+[hledger tag](https://money.stackexchange.com/questions/tagged/hledger?tab=newest),
+[hledger search](https://money.stackexchange.com/search?tab=newest&q=hledger)
 <!-- [beancount](https://money.stackexchange.com/search?tab=newest&q=beancount) -->
 \
 **Other**
-[This Week In Hledger](https://hledger.org/news.html)
+[This Week In Hledger](https://hledger.org/news.html),
+[plaintextaccounting.org issues](https://github.com/plaintextaccounting/plaintextaccounting/issues?q=is%3Aissue+),
+[plaintextaccounting.org changes](https://github.com/plaintextaccounting/plaintextaccounting/commits/master)
+
 
 ## Videos
 

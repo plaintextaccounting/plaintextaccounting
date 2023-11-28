@@ -1,4 +1,4 @@
-## What is...
+## What is this
 
 ### What is accounting, and what can it do for me?
 
@@ -161,7 +161,7 @@ In addition to the advantages above, being Free or Open Source software helps en
 - Articles linked below...
 - ...
 
-## Objections and Concerns
+## Objections and concerns
 
 ### Isn't personal accounting a waste of time?
 
