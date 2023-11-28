@@ -1,15 +1,19 @@
 all: pandoc html
 
-# workaround for pandoc not being present in Cloudflare Pages platform V2
+# XXX temporary workaround for pandoc not being present in Cloudflare Pages platform V2
 pandoc:
-	pandoc --version || sudo apt install -y pandoc
+#	pandoc --version || sudo apt install -y pandoc
+	pandoc --version || \
+		curl -O https://github.com/jgm/pandoc/releases/download/3.1.9/pandoc-3.1.9-linux-amd64.tar.gz && \
+		tar xzf pandoc-3.1.9-linux-amd64.tar.gz
+
+#PANDOC=pandoc
+PANDOC=pandoc-3.1.9/bin/pandoc \
+	-f markdown-smart-tex_math_dollars+autolink_bare_uris+wikilinks_title_after_pipe \
+	--lua-filter=fixwikilinks.lua
 
 # Generate html from all md files in src/, in out/
 html: $(patsubst src/%,out/%,$(patsubst %.md,%.html,$(wildcard src/*.md src/quickref/*.md))) Makefile
-
-PANDOC=pandoc \
-	-f markdown-smart-tex_math_dollars+autolink_bare_uris+wikilinks_title_after_pipe \
-	--lua-filter=fixwikilinks.lua
 
 # generate html from a md file
 out/%.html: src/%.md page.tmpl
