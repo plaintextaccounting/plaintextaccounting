@@ -52,7 +52,7 @@ Or log in to Github, click Edit / New page, and add it yourself.
 ### Miscellaneous
 
 - [plaintextaccounting.org README](https://github.com/plaintextaccounting/plaintextaccounting#readme)
-- [[About this wiki]]
+<!-- - [[About this wiki]] -->
 
 ### See also
 

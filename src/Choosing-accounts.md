@@ -9,7 +9,7 @@
 - https://www.reddit.com/r/plaintextaccounting/comments/ws0b5f/how_to_choose_chart_of_accounts/
 - [very detailed chart of accounts for personal accounting](https://gist.github.com/the-solipsist/c67e956c95af8f798e5631de896ff514)
 
-# Commercial Packages
+## Commercial Packages
 Categories used in some commercial packages.
 
 - [Mint](https://mint.intuit.com/mint-categories)

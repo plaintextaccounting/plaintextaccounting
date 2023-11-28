@@ -4,11 +4,9 @@ This is the source for [plaintextaccounting.org](http://plaintextaccounting.org)
 an information portal/overview site for Plain Text Accounting and
 related tools: Ledger, hledger, beancount, etc. 
 
-## New
-
-In 2023-11, source files have been moved to the src/ folder and HTML
-files are now generated in the out/ folder. And, the github wiki
-content has been moved to the static site.
+Since 2023-11, source files are in the src/ folder and output files
+and assets are the out/ folder, and content formerly in the github wiki
+has been merged into the static site.
 
 The src/ folder is intended to be somewhat compatible with Obsidian,
 for efficient/rich local editing and viewing; this is driving the
@@ -16,7 +14,7 @@ current file names/"slugs", eg.
 
 ## Old
 
-*Needs update:*
+*2023-11 Old, needs update:*
 
 Since 2022-01, there is also a companion wiki: https://wiki.plaintextaccounting.org.
 (The wiki is hosted on Github and its urls are not finalised, but

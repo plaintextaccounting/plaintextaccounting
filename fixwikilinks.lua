@@ -1,10 +1,10 @@
 -- Pandoc's wikilinks_title_after_pipe extension makes a start at linking
--- [[bracketed wiki links]]. This lua filter finishes the job and tries to
--- mimic Obsidian's wiki linking, by
--- - hyphen-replacing or dropping problem characters in the uri
--- - adding ".html" to the uri path
--- - preserving the uri fragment if any
--- - lower-casing the uri fragment
+-- [[bracketed wiki links]]. This lua filter does the rest, mimicking
+-- Obsidian's wiki linking where possible. It
+-- - hyphen-replaces problem characters in the uri
+-- - adds ".html" to the uri path
+-- - preserves the uri fragment if any
+-- - lower-cases the uri fragment
 
 function Link(elem)
    if elem.title == "wikilink" then
