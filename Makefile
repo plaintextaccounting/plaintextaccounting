@@ -1,4 +1,8 @@
-all: html
+all: pandoc html
+
+# workaround for pandoc not being present in Cloudflare Pages platform V2
+pandoc:
+	pandoc --version || apt install pandoc
 
 # Generate html from all md files in src/, in out/
 html: $(patsubst src/%,out/%,$(patsubst %.md,%.html,$(wildcard src/*.md src/quickref/*.md))) Makefile
