@@ -1,0 +1,13 @@
+# a.timedot
+
+2016/2/1
+fos:haskell   ....
+biz:research  .
+inc:client1   .... .... .... .... .... ....
+
+2016-02-01
+biz:research  .... ..
+fos:hledger   .... .... ....
+fos:ledger    0.25
+fos:haskell   .5
+inc:client1   2

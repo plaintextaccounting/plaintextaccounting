@@ -1,0 +1,12 @@
+2022-01-01 open Assets:Checking
+2022-01-01 open Liabilities:Doctor
+2022-01-01 open Expenses:Health
+
+2022-01-01 * "doctor" "payment made"
+    Liabilities:Doctor    -50 USD
+    Expenses:Health        50 USD
+
+2022-01-08 * "doctor" "payment cleared"
+    Assets:Checking       -50 USD
+    Liabilities:Doctor     50 USD
+

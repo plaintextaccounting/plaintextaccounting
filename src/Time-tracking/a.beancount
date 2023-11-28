@@ -1,0 +1,11 @@
+# a.beancount
+2000-01-01 open Equity:Time
+2000-01-01 open Expenses:Time:Work
+2000-01-01 open Expenses:Time:Rest
+2000-01-01 open Expenses:Time:Play
+
+2022-01-01 txn
+   Expenses:Time:Work   2 HRS
+   Expenses:Time:Rest   1.5 HRS
+   Expenses:Time:Play   2.5 HRS
+   Equity:Time

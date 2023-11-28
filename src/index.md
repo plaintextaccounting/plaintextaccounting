@@ -74,11 +74,8 @@ with plain text files and scriptable, command-line-friendly software, such as
 Ledger, hledger, or Beancount.
 
 Welcome!
-This site, together with the PTA wiki
-([wiki.plaintextaccounting.org](https://wiki.plaintextaccounting.org)),
-collects the PTA community's tools, docs and practices. 
-It is maintained by
-Simon&nbsp;Michael (hledger project leader, PTA fan)
+This site collects the PTA community's tools, docs and practices. 
+It is maintained by Simon&nbsp;Michael (hledger project leader, PTA fan)
 and contributors like you. 
 Join the [chat](#news-discussion),
 or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edit/master/index.md)
@@ -99,12 +96,12 @@ Contents:\
 - [Introductory docs](#introductory-docs)
 - [Presentations](#presentations)
 \
-**[PTA Wiki/Cookbook](https://wiki.plaintextaccounting.org)**
-- [Newcomer FAQ](https://wiki.plaintextaccounting.org/Newcomer-FAQ)
-- [Objections and concerns](https://wiki.plaintextaccounting.org/Newcomer-FAQ#objections-and-concerns)
-- [Getting started](https://github.com/plaintextaccounting/plaintextaccounting/wiki#getting-started)
-- [General usage](https://github.com/plaintextaccounting/plaintextaccounting/wiki#general-usage)
-- [Accounting situations](https://github.com/plaintextaccounting/plaintextaccounting/wiki#accounting-situations)
+**[PTA Cookbook](Cookbook.html)**
+- [Newcomer FAQ](Newcomer-FAQ.html)
+- [Objections and concerns](Newcomer-FAQ.html#objections-and-concerns)
+- [Getting started](Cookbook.html#getting-started)
+- [General usage](Cookbook.html#general-usage)
+- [Accounting situations](Cookbook.html#accounting-situations)
 \
 **[Software](#software)**
 - [PTA apps](#pta-apps)
@@ -395,10 +392,10 @@ Contents:\
 - [hledger Getting Started Guide](https://hledger.org/start.html)
 - [Getting Started with Beancount](https://beancount.github.io/docs/getting_started_with_beancount.html)
 - [Tackler Quickstart](https://tackler.e257.fi/docs/quickstart/)
-- [Wiki: Don’t Sink Your First Attempts at Plaintext Accounting](https://wiki.plaintextaccounting.org/Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting) syntax tips for beginners
+- [Don’t Sink Your First Attempts at Plaintext Accounting](Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting.html) syntax tips for beginners
 - [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
 - [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
-- [wiki: Getting started](https://github.com/plaintextaccounting/plaintextaccounting/wiki#getting-started)
+- [Getting started](Cookbook.html#getting-started)
 
 ### Presentations
 
@@ -409,9 +406,9 @@ Contents:\
 - [Hacking Your Finances for Fun and Profit](https://matthewturland.com/slides/ledger-stats/) 2013
 <!-- gone - [Ledger and Text based Accounting](http://www.adamsinfoserv.com/AISTWiki/pub/AIS/Presentations/Ledger.pdf) 2009 -->
 
-### PTA Wiki/Cookbook
+### PTA Cookbook
 
-- [PTA Wiki/Cookbook](https://wiki.plaintextaccounting.org) more docs: FAQs, examples, how-tos
+- [PTA Cookbook](Cookbook.html) more docs: FAQs, examples, how-tos
 
 ## Software
 

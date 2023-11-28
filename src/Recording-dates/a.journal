@@ -1,0 +1,8 @@
+2022-01-01
+    liabilities:doctor    -50 = -50
+    expenses:health        50
+
+2022-01-08
+    assets:checking       -50
+    liabilities:doctor     50 = 0
+

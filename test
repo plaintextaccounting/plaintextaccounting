@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# Old, needs updating after move from wiki/
+# Run the commands in pages' examples and see if they succeed.
+# Usage:
+# 1. extract a page's example files to a subdirectory named like the page (without the .md)
+# 2. run this script with zero or more page arguments (with or without the .md).
+# Eg: ./test   # runs all tests found
+# Note current limitations:
+# - all and only lines in pages beginning with "$ " are considered commands
+# - only extracted files are tested, not what's actually in the pages
+# - only commands' exit status is tested, not their output
+
+echo "Testing exit status (not output) and extracted files (not page content)"
+PAGES="${*:-*.md}"
+for PAGE in $PAGES; do
+    DIR=$(basename "$PAGE" .md)
+    PAGE=$DIR.md
+    echo "$PAGE:"
+    cd "$DIR" 2>/dev/null || continue && \
+	grep '^\$' ../"$PAGE" | cut -c3- | \
+	    while IFS= read -r c; do
+		printf " %-50s    \t" "$c"
+		$c >/dev/null 2>&1 && printf "\e[32m[command succeeded]\e[0m\n" || printf "\e[31m[command ERRORED]\e[0m\n"
+	    done
+done

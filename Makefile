@@ -8,7 +8,7 @@ PANDOC=pandoc -f markdown-smart-tex_math_dollars+autolink_bare_uris
 
 # generate html from a md file
 out/%.html: src/%.md page.tmpl
-	$(PANDOC) --template page.tmpl $< -o $@
+	$(PANDOC) --template page.tmpl "$<" -o "$@"
 
 # regenerate html whenever an md file changes
 html-auto auto:

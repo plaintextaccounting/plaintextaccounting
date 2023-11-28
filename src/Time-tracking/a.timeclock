@@ -1,0 +1,7 @@
+# a.timeclock (hledger), or can be inlined in your main journal (ledger)
+i 2009/03/27 09:00:00 projects:a
+o 2009/03/27 17:00:34
+i 2009/03/31 22:21:45 personal:reading:online
+o 2009/04/01 02:00:34
+i 2009/04/02 09:00:00 projects:b
+o 2009/04/02 17:00:34

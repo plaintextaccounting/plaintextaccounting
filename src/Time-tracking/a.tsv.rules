@@ -1,0 +1,13 @@
+# a.tsv.rules
+skip 1
+#date     %1
+#amount1  %2 h
+#amount2  %3 h
+#amount3  %4 h
+fields date, work, rest, play
+amount1  %work h
+amount2  %rest h
+amount3  %play h
+account1 (time:work)
+account2 (time:rest)
+account3 (time:play)
