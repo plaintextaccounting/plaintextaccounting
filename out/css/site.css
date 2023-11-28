@@ -1,5 +1,7 @@
 body {
     background-color:white;
+    padding-top:2em;
+    font-size:large;
 }
 
 h1, h2, h3 {

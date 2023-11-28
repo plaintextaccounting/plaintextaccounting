@@ -51,7 +51,7 @@ li {
     margin-bottom:0;
 }
 #intro {
-  font-size:1.2em;
+  font-size:larger;
 }
 #sitemapheading {
   font-size:2rem;
@@ -80,6 +80,9 @@ or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edi
 (here's the [contributors' README](https://github.com/plaintextaccounting/plaintextaccounting#readme)).
 [![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting)
 
+</div>
+
+<em>
 On this page:\
 **[News & discussion](#news-discussion)**\
 **[Videos](#videos)**\
@@ -119,9 +122,7 @@ Elsewhere:\
   [[Cookbook#getting-started|Getting Started]]
 - [[Cookbook#general-usage|General usage]]
 - [[Cookbook#accounting-situations|Accounting situations]]
-
-</div>
-
+</em>
 
 ## News & discussion
 
