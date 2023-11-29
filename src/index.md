@@ -3,17 +3,16 @@
 <!--
 Editing tips:
 
-This is whatever markdown Cloudflare Sites renders.
-index.tmpl defines the page layout, using normalize, skeleton and local css.
-(http://getskeleton.com)
+This is pandoc markdown with [[double-bracket wiki links]] added.
+See Makefile and README for more details.
 
 If editing via github web UI:
 - you can see an approximate preview with the Preview tab
 
 If editing in a local clone:
-- you can use make html-watch to see an accurate preview
+- you can use make watch to see an accurate preview
 
-If using emacs markdown-mode:
+If editing with emacs markdown-mode:
 - S-TAB cycles heading/content visibility
 - TAB on a heading cycles visibility of that section
 - C-x n s/C-x n w on a heading narrows to/widens from that section
