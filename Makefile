@@ -8,7 +8,7 @@ PANDOC?=pandoc
 # temporary workaround for cloudflare pages (pandoc is too old in V1, missing in V2)
 html-cfp:
 	pandoc --version || ( \
-		wget https://github.com/jgm/pandoc/releases/download/3.1.9/pandoc-3.1.9-linux-amd64.tar.gz && \
+		/usr/bin/env time wget -nv https://github.com/jgm/pandoc/releases/download/3.1.9/pandoc-3.1.9-linux-amd64.tar.gz && \
 		tar xzf pandoc-3.1.9-linux-amd64.tar.gz )
 	make html PANDOC=pandoc-3.1.9/bin/pandoc
 	rm -rf pandoc-3.1.9*
