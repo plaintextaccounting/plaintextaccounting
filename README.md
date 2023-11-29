@@ -10,6 +10,9 @@ Source files are in the src/ folder, output files and assets are the out/ folder
 The source files are intended to be somewhat compatible with Obsidian,
 for efficient local editing and viewing.
 
+`page.tmpl` defines the page layout, using normalize,
+[skeleton](http://getskeleton.com) and our `site.css`.
+
 The site is rendered by Cloudflare Pages.
 Changes merged in the master branch will appear at plaintextaccounting.org within 2-3 minutes.
 
