@@ -14,7 +14,8 @@ for efficient local editing and viewing.
 [skeleton](http://getskeleton.com) and our `site.css`.
 
 The site is rendered by Cloudflare Pages.
-Changes merged in the master branch will appear at plaintextaccounting.org within 2-3 minutes.
+Changes merged in the master branch should appear at plaintextaccounting.org within a minute or so.
+(If not, check <https://www.cloudflarestatus.com> and <https://www.githubstatus.com>)
 
 ## Contributing
 
