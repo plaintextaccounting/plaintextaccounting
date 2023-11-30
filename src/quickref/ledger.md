@@ -1,18 +1,18 @@
 % Syntax quick reference: Ledger
 
-# Syntax quick reference: Ledger
-
 <link href="quickref.css" rel="stylesheet">
 
   [Big 3](index.html)
-| [Ledger](quickref-ledger.html)
-| [hledger](quickref-hledger.html)
-| [Beancount](quickref-beancount.html)
+| **[Ledger](ledger.html)**
+| [hledger](hledger.html)
+| [Beancount](beancount.html)
 
 Last tested: 2016.
 See also:
 https://www.ledger-cli.org/doc/ledger3.html#Journal-Format,
 https://ricostacruz.com/cheatsheets/ledger.html.
+
+----
 
 ## Basic example
 

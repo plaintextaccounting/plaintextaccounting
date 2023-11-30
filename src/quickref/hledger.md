@@ -1,17 +1,17 @@
 % Syntax quick reference: hledger
 
-# Syntax quick reference: hledger
-
 <link href="quickref.css" rel="stylesheet">
 
   [Big 3](index.html)
-| [Ledger](quickref-ledger.html)
-| [hledger](quickref-hledger.html)
-| [Beancount](quickref-beancount.html)
+| [Ledger](ledger.html)
+| **[hledger](hledger.html)**
+| [Beancount](beancount.html)
 
 Last tested: 2016.
 See also:
 https://hledger.org/hledger.html#journal-format.
+
+----
 
 ## Basic example
 
