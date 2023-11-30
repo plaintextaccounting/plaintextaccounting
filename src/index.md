@@ -16,9 +16,9 @@ Welcome!
 This site collects the PTA community's tools, docs and practices. 
 It is maintained by Simon&nbsp;Michael (hledger project leader, PTA fan)
 and contributors like you. 
-Join the [chat](#news-discussion),
-or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edit/master/index.md)
-(here's the [[README]] and the [github repo](https://github.com/plaintextaccounting/plaintextaccounting)).
+We invite you to join the [chat](#news-discussion),
+or make edits to the [github repo](https://github.com/plaintextaccounting/plaintextaccounting).
+<!-- Here's the [[README|contributor README]]. -->
 <!-- [![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting) -->
 
 </div>
@@ -77,44 +77,46 @@ Elsewhere:\
 
 ## News & discussion
 
-**Site news** *2023-11: wiki [merged](https://github.com/plaintextaccounting/plaintextaccounting/issues/129) into the website*
+**Site news**
+- *2023-11 wiki [merged](https://github.com/plaintextaccounting/plaintextaccounting/issues/129) into the website*
+- [commits](https://github.com/plaintextaccounting/plaintextaccounting/commits/master)
+- [contributors](https://github.com/plaintextaccounting/plaintextaccounting/graphs/contributors)
+- [issues](https://github.com/plaintextaccounting/plaintextaccounting/issues?q=is%3Aissue+)
 \
 **Chat**
-[Matrix](https://matrix.to/#/#plaintextaccounting:matrix.org) ~100,
-[IRC](https://web.libera.chat/#plaintextaccounting) ~50,
-<span style="white-space:nowrap;">[Plain Text Accounting space on Matrix](https://matrix.to/#/#plaintextaccounting-space:matrix.org)</span>
+- [Matrix](https://matrix.to/#/#plaintextaccounting:matrix.org) ~100
+- [IRC](https://web.libera.chat/#plaintextaccounting) ~50
+- <span style="white-space:nowrap;">[Plain Text Accounting space on Matrix](https://matrix.to/#/#plaintextaccounting-space:matrix.org)</span>
 \
 **Mail lists**
-<span style="white-space:nowrap;">[app-specific mail lists](#pta-apps)</span>
-\
-**Mastodon**
-[#plaintextaccounting](https://fosstodon.org/tags/plaintextaccounting)
-\
-**Twitter**
-[#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting?f=live),
-[#ledgercli](https://twitter.com/hashtag/ledgercli?f=live),
-[#hledger](https://twitter.com/hashtag/hledger?f=live),
-[#beancount](https://twitter.com/hashtag/beancount?f=live),
-[\@LedgerTips](https://twitter.com/LedgerTips)
+- <span style="white-space:nowrap;">[app-specific mail lists](#pta-apps)</span>
 \
 **Reddit**
-[/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/)
+- [/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/)
 \
 **Hacker News**
-[stories](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=story),
-[comments](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=comment)
+- [stories](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=story)
+- [comments](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=comment)
+\
+**Mastodon**
+- [#plaintextaccounting](https://fosstodon.org/tags/plaintextaccounting)
+\
+**Twitter**
+- [#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting?f=live)
+- [#ledgercli](https://twitter.com/hashtag/ledgercli?f=live)
+- [#hledger](https://twitter.com/hashtag/hledger?f=live)
+- [#beancount](https://twitter.com/hashtag/beancount?f=live)
+- [\@LedgerTips](https://twitter.com/LedgerTips)
 \
 **Stack Exchange**
-[ledger-cli tag](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest),
-[ledger-cli search](https://money.stackexchange.com/search?tab=newest&q=ledger-cli),
-[hledger tag](https://money.stackexchange.com/questions/tagged/hledger?tab=newest),
-[hledger search](https://money.stackexchange.com/search?tab=newest&q=hledger)
-<!-- [beancount](https://money.stackexchange.com/search?tab=newest&q=beancount) -->
+- [ledger-cli tag](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest)
+- [ledger-cli search](https://money.stackexchange.com/search?tab=newest&q=ledger-cli)
+- [hledger tag](https://money.stackexchange.com/questions/tagged/hledger?tab=newest)
+- [hledger search](https://money.stackexchange.com/search?tab=newest&q=hledger)
+<!-- - [beancount](https://money.stackexchange.com/search?tab=newest&q=beancount) -->
 \
 **Other**
-[This Week In Hledger](https://hledger.org/news.html),
-[plaintextaccounting.org issues](https://github.com/plaintextaccounting/plaintextaccounting/issues?q=is%3Aissue+),
-[plaintextaccounting.org changes](https://github.com/plaintextaccounting/plaintextaccounting/commits/master)
+- [This Week In Hledger](https://hledger.org/news.html)
 
 
 ## Videos

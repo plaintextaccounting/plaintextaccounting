@@ -2,8 +2,9 @@
 
 This is the Plain Text Accounting Cookbook page
 (formerly the wiki home page, now a sort of site map for plaintextaccounting.org.
-If you don't see what you need, ask for it in the [chat](index.html#news-discussion) and we'll add it. 
-Or log in to Github, click Edit / New page, and add it yourself.
+If you don't see what you need, ask for it in the 
+[[index#news-discussion|chat]] and we'll add it, or you can
+[add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/blob/master/src/Cookbook.md).
 
 ### Getting started
 
