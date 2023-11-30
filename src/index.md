@@ -1,70 +1,12 @@
 % Plain Text Accounting (PTA)
 
-<!--
-Editing tips:
+<!-- For editing tips, see ../README.md -->
 
-This is pandoc markdown with [[double-bracket wiki links]] added.
-See Makefile and README for more details.
-
-If editing via github web UI:
-- you can see an approximate preview with the Preview tab
-
-If editing in a local clone:
-- you can use make watch to see an accurate preview
-
-If editing with emacs markdown-mode:
-- S-TAB cycles heading/content visibility
-- TAB on a heading cycles visibility of that section
-- C-x n s/C-x n w on a heading narrows to/widens from that section
-
--->
-
-<style>
-body {
-}
-.columns {
-    margin-left:0 !important;
-    margin-right:4%;
-}
-h1 {
-    text-align:center; 
-    margin-top:10%;
-    margin-bottom:5%;
-    text-shadow: 2px 2px 2px white;
-}
-h2 {
-}
-h3 {
-    font-weight:normal;
-}
-h4 {
-}
-h5 {
-    font-size:1.2em;
-}
-li {
-    margin:revert;
-}
-.faq h5 { /* questions */
-    font-weight:bold;
-    margin-bottom:0;
-}
-#intro {
-  font-size:larger;
-}
-#sitemapheading {
-  font-size:2rem;
-  font-weight:bold;
-}
-
-th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; white-space:nowrap; }
-</style>
-
-<div style="float:right; width:30%; margin:0 0 4em 3em;">
+<div style="float:right; width:30%; margin:0 1em; position:relative; top:-4em; z-index:-1;">
 <img src="images/pta-avatar.jpg" width=250 style="border-radius:50%;">
 </div>
 
-<div id="intro">
+<div id="intro" style="font-size:larger;">
 
 ***Plain text accounting*** is a way of doing bookkeeping and accounting 
 with plain text files and scriptable, command-line-friendly software, such as
@@ -383,9 +325,9 @@ Elsewhere:\
 
 ### Cheatsheets
 
+- [Syntax Quick Reference](quickref/)
 - [Ledger CLI cheatsheet](https://devhints.io/ledger)
 - [Beancount Syntax Cheat Sheet](https://beancount.github.io/docs/beancount_cheat_sheet.html)
-- [Syntax Quick Reference for the Ledger-Likes](quickref/)
 
 ### Introductory docs
 
@@ -424,6 +366,10 @@ Generally it's relatively easy to migrate data from one to another.
 <!-- Syntax: https://pandoc.org/README.html#tables -->
 <!-- Active projects are sorted by committers+other community size/activity signals; inactives are sorted by start date. -->
 <!-- Committers count can be eg the "Contributors" count on github. -->
+
+<style>
+th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; white-space:nowrap; }
+</style>
 
 | Project              | Start  | Last release | Code                               | Committers | Stars | Mail list, size                  | Chat, size                                                                                           |
 |----------------------|--------|:------------:|------------------------------------|-----------:|------:|----------------------------------|------------------------------------------------------------------------------------------------------|

@@ -1,8 +1,9 @@
 # The plaintextaccounting.org website
 
 This is the source for [plaintextaccounting.org](https://plaintextaccounting.org),
-an information portal and community hub for Plain Text Accounting and
-related tools: Ledger, hledger, beancount, etc. 
+an information portal and community hub for Plain Text Accounting.
+It is maintained by Simon Michael and fellow PTA fans like you.
+All help welcome!
 
 The site's repo is https://github.com/plaintextaccounting/plaintextaccounting.
 The site is markdown pages with double-bracket wiki links, rendered by [Pandoc].
@@ -19,13 +20,32 @@ Changes merged in the master branch should appear at plaintextaccounting.org wit
 
 ## Contributing
 
-Maintenance is led by Simon Michael; all help is welcome! You can:
-
 - drop in to the [#plaintextaccounting chat room](https://plaintextaccounting.org/#newsdiscussion) on Matrix.org and suggest changes
   (there is also an older `#plaintextaccounting` IRC channel on Libera.chat)
 - or log in with a Github account, then use the Edit / New Page buttons at top right
 - or `git clone https://github.com/plaintextaccounting/plaintextaccounting.wiki.git`, make changes, and send a PR or push
 - or discuss issues in the [Github issue tracker](https://github.com/plaintextaccounting/plaintextaccounting/issues).
+
+### Editing tips
+
+The markup is Pandoc markdown
+(specifically `markdown-smart-tex_math_dollars+autolink_bare_uris+wikilinks_title_after_pipe`,
+or whatever is in Makefile),
+plus [[double-bracket wiki links]] similar to Obsidian's.
+
+To see an accurate preview while editing, clone locally and run `make watch` 
+(requires pandoc and livereloadx).
+Or, here are some ways to see an approximate preview:
+
+- Use Obsidian's editing or reading modes
+- Use VS Code's Markdown Preview Enhanced extension
+- Use Github's Preview tab (at github.com)
+
+If you edit with Emacs markdown-mode:
+
+- S-TAB cycles heading/content visibility
+- TAB on a heading cycles visibility of that section
+- C-x n s/C-x n w on a heading narrows to/widens from that section
 
 ### How to make a change through the web
 

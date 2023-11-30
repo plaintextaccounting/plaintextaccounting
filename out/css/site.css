@@ -4,24 +4,12 @@ body {
     font-size:large;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     font-weight:bold;
     white-space:nowrap;
+    text-shadow: 1px 1px 2px white;
 }
-
-/*
-p > strong > a, p > strong > a:hover {
-    text-decoration:none;
-    color:black;
-}
-*/
 
 .tight p {
     margin:0;
 }
-
-/*
-li {
-    margin-bottom:0;
-}
-*/
