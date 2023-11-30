@@ -18,27 +18,30 @@ It is maintained by Simon&nbsp;Michael (hledger project leader, PTA fan)
 and contributors like you. 
 Join the [chat](#news-discussion),
 or [send an edit](https://github.com/plaintextaccounting/plaintextaccounting/edit/master/index.md)
-(here's the [contributors' README](https://github.com/plaintextaccounting/plaintextaccounting#readme)).
-[![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting)
+(here's the [[README]] and the [github repo](https://github.com/plaintextaccounting/plaintextaccounting)).
+<!-- [![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting) -->
 
 </div>
 
 <em>
-On this page:\
-**[News & discussion](#news-discussion)**\
-**[Videos](#videos)**\
+On this page:
+\
+**[News & discussion](#news-discussion)**
+\
+**[Videos](#videos)**
+\
 **[Articles & blog posts](#articles-blog-posts)**
 \
-**[Docs](#docs)**:
-  [Accounting](#accounting)
+**[Docs](#docs)**
+- [Accounting](#accounting)
 - [PTA app official docs](#pta-app-official-docs)
 - [PTA app comparisons](#pta-app-comparisons)
 - [Cheatsheets](#cheatsheets)
 - [Introductory docs](#introductory-docs)
 - [Presentations](#presentations)
 \
-**[Software](#software)**:
-  [PTA apps](#pta-apps)
+**[Software](#software)**
+- [PTA apps](#pta-apps)
 - [Editor plugins](#editor-plugins)
 - [Data import/conversion](#data-importconversion)
 - [Price fetching](#price-fetching)
@@ -56,17 +59,26 @@ On this page:\
 - [API](#api)
 
 Elsewhere:\
-**[[Newcomer FAQ]]**:
-  [[Newcomer FAQ#what-is-this|What is this]]
-- [[Newcomer FAQ#objections-and-concerns|Objections and concerns]]\
-**[[Cookbook]]**:
-  [[Cookbook#getting-started|Getting Started]]
+**[[Newcomer FAQ]]**
+- [[Newcomer FAQ#what-is-this|What is this]]
+- [[Newcomer FAQ#objections-and-concerns|Objections and concerns]]
+\
+**[[Cookbook]]**
+- [[Cookbook#getting-started|Getting Started]]
 - [[Cookbook#general-usage|General usage]]
 - [[Cookbook#accounting-situations|Accounting situations]]
+\
+**[[quickref/|Syntax quick reference]]**
+- [[quickref/ledger|Ledger]]
+- [[quickref/hledger|hledger]]
+- [[quickref/beancount|Beancount]]
+
 </em>
 
 ## News & discussion
 
+**Site news** *2023-11: wiki [merged](https://github.com/plaintextaccounting/plaintextaccounting/issues/129) into the website*
+\
 **Chat**
 [Matrix](https://matrix.to/#/#plaintextaccounting:matrix.org) ~100,
 [IRC](https://web.libera.chat/#plaintextaccounting) ~50,
