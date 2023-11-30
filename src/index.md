@@ -84,12 +84,12 @@ Elsewhere:\
 - [issues](https://github.com/plaintextaccounting/plaintextaccounting/issues?q=is%3Aissue+)
 \
 **Chat**
-- [Matrix](https://matrix.to/#/#plaintextaccounting:matrix.org) ~100
-- [IRC](https://web.libera.chat/#plaintextaccounting) ~50
-- <span style="white-space:nowrap;">[Plain Text Accounting space on Matrix](https://matrix.to/#/#plaintextaccounting-space:matrix.org)</span>
+- [Matrix](https://matrix.to/#/#plaintextaccounting:matrix.org) (~100)
+- [all matrix rooms](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
+- [IRC](https://web.libera.chat/#plaintextaccounting) (~50)
 \
 **Mail lists**
-- <span style="white-space:nowrap;">[app-specific mail lists](#pta-apps)</span>
+- [PTA apps' mail lists](#pta-apps)
 \
 **Reddit**
 - [/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/)
