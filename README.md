@@ -1,3 +1,4 @@
+% README
 # The plaintextaccounting.org website
 
 This is the source for [plaintextaccounting.org](https://plaintextaccounting.org),
