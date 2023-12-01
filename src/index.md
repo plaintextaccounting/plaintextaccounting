@@ -58,7 +58,8 @@ Page contents:
 - [Utilities](#utilities)
 - [API](#api)
 
-See also:\
+See also:
+\
 **[[Newcomer FAQ]]**
 - [[Newcomer FAQ#what-is-this|What is this]]
 - [[Newcomer FAQ#objections-and-concerns|Objections and concerns]]
@@ -92,7 +93,7 @@ See also:\
 - [PTA apps' mail lists](#pta-apps)
 \
 **Reddit**
-- [/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/)
+- [/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
 \
 **Hacker News**
 - [stories](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=story)
@@ -332,7 +333,9 @@ See also:\
 
 ### PTA app comparisons
 
-- [hledger: Cookbook > Other software](https://hledger.org/cookbook.html#other-software) 2014, 2019, 2022
+- [hledger and Ledger](https://hledger.org/ledger.html),
+  [hledger and Beancount](https://hledger.org/beancount.html),
+  [hledger and other software](https://hledger.org/cookbook.html#other-software) 2014, 2019, 2022, 2023..
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
 - [beancount list: Another Ledger user's perspective](https://groups.google.com/d/msg/beancount/QV4qgpFbtJ8/9fSgMw-XGC8J) 2015
 - [Beancount: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg) 2014
@@ -358,8 +361,8 @@ See also:\
 - [Beancount Syntax Cheat Sheet](https://beancount.github.io/docs/beancount_cheat_sheet.html)
 - [Beginners corner: a basic hledger transaction](https://hledgerfan.com/beginners-corner-a-basic-hledger-transaction/)
 - [(Almost) everything you wanted to know about hledger transactions](https://hledgerfan.com/almost-everything-you-wanted-to-know-about-hledger-transactions/)
-- [hledger > Journal cheatsheet](https://hledger.org/hledger.html#journal-cheatsheet)
-- [hledger > CSV rules cheatsheet](https://hledger.org/hledger.html#csv-rules-cheatsheet)
+- [hledger: Journal cheatsheet](https://hledger.org/hledger.html#journal-cheatsheet)
+- [hledger: CSV rules cheatsheet](https://hledger.org/hledger.html#csv-rules-cheatsheet)
 
 ### Presentations
 
@@ -381,8 +384,8 @@ See also:\
 
 ### PTA apps
 
-To do Plain Text Accounting, choose one of the apps below.
-Generally it's possible to migrate data from one to another.
+To do Plain Text Accounting, try one (or more) of the apps below.
+Generally it's possible to migrate data between them.
 
 <!-- Syntax: https://pandoc.org/README.html#tables -->
 <!-- Active projects are sorted by committers+other community size/activity signals; inactives are sorted by start date. -->

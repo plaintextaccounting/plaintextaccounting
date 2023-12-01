@@ -1,19 +1,10 @@
 % Getting started FAQ
 
-### Ledger, hledger, beancount, etc. - which should I choose ?
+### Ledger, hledger, Beancount, etc. - which should I choose ?
 
-Here are some [PTA app comparisons](https://plaintextaccounting.org#pta-app-comparisons).
-Also:
+Here are some [PTA app comparisons](https://plaintextaccounting.org#pta-app-comparisons). See also:
 
-- [SM opinions on hledger for new users](https://fosstodon.org/@ellane@pkm.social/110120845522951139)
-  (2023)
-- [hledger and Ledger](https://hledger.org/ledger.html) &
-  [hledger and other software](https://hledger.org/cookbook.html#other-software)
-  (2023)
-- [A Comparison of Beancount and Ledger](https://beancount.github.io/docs/a_comparison_of_beancount_and_ledger_hledger.html)
-  (2014)
-
-We all have opinions - ask for them in chat or search the reddit / mail lists / web.
+SM (2022): We all have opinions - ask for them in chat or search the reddit / mail lists / web.
 Circa 2022 I hope it's fair to say, without my bias showing:
 
 - Ledger, hledger and Beancount are the big three apps, with many users.
@@ -23,13 +14,13 @@ Circa 2022 I hope it's fair to say, without my bias showing:
   the most actively maintained, and the most user-friendly.
 - Beancount has the most features for investing and trading, 
   and the most support (and need) for customisation, via Python.
-- Ledger and hledger parse files flexibly and forgivingly by default, with strictness as an option.
-  Beancount's file format is more restricted and always strictly enforced.
+- Ledger and hledger parse files flexibly and forgivingly by default, with optional strictness.
+  Beancount's file format is more restricted and always strict.
 - It's generally relatively easy to migrate data from one to another, 
   eg using [data conversion tools](https://plaintextaccounting.org#data-importconversion)
   like ledger2beancount and beancount2ledger.
 
---Simon M.
+SM on new user experience (2023): https://fosstodon.org/@simonmic/110120922501551538
 
 ### How to organise files ? Should I split the journal into many files ?
 

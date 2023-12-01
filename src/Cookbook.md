@@ -1,10 +1,18 @@
 % Cookbook
 
-This is the Plain Text Accounting Cookbook page
-(formerly the wiki home page, now a sort of site map for plaintextaccounting.org.
+This is the Plain Text Accounting Cookbook,
+a sort of site map for plaintextaccounting.org.
 If you don't see what you need, ask for it in the 
 [[index#news-discussion|chat]] and we'll add it, or you can
 [add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/blob/master/src/Cookbook.md).
+
+### See also
+
+- [[index|plaintextaccounting.org home page]]
+- [Beancount cookbook](https://beancount.github.io/docs/command_line_accounting_cookbook.html)
+- [hledger cookbook](https://hledger.org/cookbook.html)
+- [Ledger wiki](https://github.com/ledger/ledger/wiki)
+- [Reddit: plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
 
 ### Getting started
 
@@ -14,7 +22,7 @@ If you don't see what you need, ask for it in the
 - [[Choosing accounts]]
 - [[Entering data]]
 - [[Don't Sink Your First Attempts at Plaintext Accounting]] h/ledger beginner syntax tips
-- [Syntax Quick Reference for the Ledger-Likes](https://plaintextaccounting.org/quickref/)
+- [[quickref/index|Syntax quick reference]]
 
 ### General usage
 
@@ -50,13 +58,7 @@ If you don't see what you need, ask for it in the
 - [[Time tracking]]
 - [[Trip expenses]]
 
-### Miscellaneous
+### About this site
 
-- [plaintextaccounting.org README](https://github.com/plaintextaccounting/plaintextaccounting#readme)
-<!-- - [[About this wiki]] -->
+- [[README|plaintextaccounting.org README]] (or [on github](https://github.com/plaintextaccounting/plaintextaccounting#readme))
 
-### See also
-
-- [Beancount cookbook](https://beancount.github.io/docs/command_line_accounting_cookbook.html)
-- [hledger cookbook](https://hledger.org/cookbook.html)
-- [Ledger wiki](https://github.com/ledger/ledger/wiki)
