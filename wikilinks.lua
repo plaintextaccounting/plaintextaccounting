@@ -9,9 +9,9 @@
 -- - these do not find files across folders - correct path is required
 -- - these are not aware of file existence - targets should exist
 
-function Link(elem)
-   if elem.title == "wikilink" then
-      t = elem.target .. "#"
+function Link(el)
+   if el.title == "wikilink" then
+      t = el.target .. "#"
       t = t:gsub(" ", "-")
       -- t = t:gsub(t, "'", "")
       path, frag = t:match("([^#]*)#([^#]*)")
@@ -27,7 +27,7 @@ function Link(elem)
          frag = pandoc.text.lower(frag)
          t = t .. "#" .. frag
       end
-      elem.target = t
+      el.target = t
    end
-   return elem
+   return el
 end
