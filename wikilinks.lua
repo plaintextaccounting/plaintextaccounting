@@ -16,14 +16,15 @@ function Link(el)
       -- t = t:gsub(t, "'", "")
       path, frag = t:match("([^#]*)#([^#]*)")
       t = path
-      if path:len() > 0 and not (
+      if not (
+         path:len() == 0 or
          path:match('%.html$') or
          path:match('%.%.$') or
          path:match('/$')
       ) then
          t = t .. ".html"
       end
-      if string.len(frag) > 0 then
+      if frag:len() > 0 then
          frag = pandoc.text.lower(frag)
          t = t .. "#" .. frag
       end
