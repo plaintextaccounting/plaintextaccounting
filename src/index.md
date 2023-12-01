@@ -396,51 +396,76 @@ PTA apps and additional helper tools, by category:
 To do Plain Text Accounting, try one (or more) of the apps below.
 Generally it's possible to migrate data between them.
 
-<!-- Syntax: https://pandoc.org/README.html#tables -->
-<!-- Active projects are sorted by committers+other community size/activity signals; inactives are sorted by start date. -->
-<!-- Committers count can be eg the "Contributors" count on github. -->
-
 <style>
 th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; white-space:nowrap; }
 </style>
+<!--
+Table syntax: https://pandoc.org/README.html#tables
+Active projects are sorted by committers, inactive projects are sorted by start date then last release date.
+
+Commit activity (from https://hledger.org/reporting-version-control-stats.html)
+
+           || 2003  2004  2005  2006  2007  2008  2009  2010  2011  2012  2013  2014  2015  2016  2017  2018  2019  2020  2021  2022  2023    Total 
+===========++=======================================================================================================================================
+ ledger    ||   50   327     0     0     0  1248  1462   437   153   706   708   578   367   115    55    78   130    90    42    55   162     6763 
+ hledger   ||    0     0     0     0   150   407   610   606   529   350   365   567   542   732   892  1155  1089  1313  1131   832   773    12043 
+ beancount ||    0     0     0     0     0   190    86    15    25    18   433  1484  1160   686   240   393   189   773   299   112    57     6160 
+-----------++---------------------------------------------------------------------------------------------------------------------------------------
+           ||   50   327     0     0   150  1845  2158  1058   707  1074  1506  2629  2069  1533  1187  1626  1408  2176  1472   999   992    24966 
+
+| Project   | Commits/day (2000s) | Commits/day (2010s) | Commits/day (2020s) |
+|-----------|---------------------|---------------------|---------------------|
+| Ledger    | 1.4                 | 0.9                 | 0.2                 |
+| hledger   | 1.1                 | 1.9                 | 2.8                 |
+| Beancount | 0.5                 | 1.3                 | 0.9                 |
+
+| Project   | Commits/mo (2000s)  | Commits/mo (2010s)  | Commits/mo (2020s)  |
+|-----------|---------------------|---------------------|---------------------|
+| Ledger    | 41                  | 28                  |  7                  |
+| hledger   | 32                  | 57                  | 84                  |
+| Beancount | 13                  | 40                  | 27                  |
+
+-->
+
+
 
 | Project            | Start  | Last release | Code                         | Committers | Stars | Mail list, size                  | Chat, size                                                                                           | Issues, % open               |
 |--------------------|--------|:------------:|------------------------------|-----------:|------:|----------------------------------|------------------------------------------------------------------------------------------------------|------------------------------|
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Popular**        |        |              |                              |            |       |                                  |                                                                                                      |                              |
-| [Ledger]           | 2003   | 2023         | [C++][ledger-src]            |        189 |  4.9k | [ledger][ledger-mail] ~900       | [IRC][#ledger:libera.chat] ~60                                                                       | [1.5k][ledger-issues]    47% |
+| [Ledger]           | 2003   | 2023         | [C++][ledger-src]            |        226 |  4.9k | [ledger][ledger-mail] ~900       | [IRC][#ledger:libera.chat] ~60                                                                       | [1.5k][ledger-issues]    47% |
 | [hledger]          | 2007   | 2023         | [haskell][hledger-src]       |        167 |  2.6k | [hledger][hledger-mail] ~200     | [matrix][#hledger:matrix.org] ~150, [IRC][#hledger:libera.chat] ~70                                  | [1.3k][hledger-issues]   31% |
-| [Beancount]        | 2008   | 2023         | [python][beancount-src]      |         64 |    3k | [beancount][beancount-mail] ~700 | [matrix][beancount-matrix] ~10, [matrix (fava)][fava-matrix] ~180, [IRC][#beancount:libera.chat] ~30 | [0.5k][beancount-issues] 63% |
+| [Beancount]        | 2008   | 2023         | [python][beancount-src]      |         84 |  3.1k | [beancount][beancount-mail] ~700 | [matrix][beancount-matrix] ~10, [matrix (fava)][fava-matrix] ~180, [IRC][#beancount:libera.chat] ~30 | [0.5k][beancount-issues] 63% |
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Small userbase** |        |              |                              |            |       |                                  |                                                                                                      |                              |
-| Abandon            | 2013   | 2019         | [scala][abandon-src]         |         11 |   162 |                                  | [matrix][abandon-matrix]                                                                             |                              |
-| Transity           | 2018   | 2019         | [purescript][transity-src]   |          8 |   571 |                                  | [matrix][transity-matrix]                                                                            |                              |
-| Ledger in Go       | 2013   | 2022         | [go][ledger-in-go-src]       |          8 |   333 |                                  |                                                                                                      |                              |
-| rust\_ledger       | 2019   | 2020         | [rust][rust_ledger-src]      |          4 |    90 |                                  |                                                                                                      |                              |
-| knut               | 2020   | 2022         | [go][knut-src]               |          3 |    41 |                                  |                                                                                                      |                              |
-| Go Ledger          | 2016   |              | [go][go-ledger-abourget-src] |          3 |    37 |                                  |                                                                                                      |                              |
-| .Net Ledger        | 2017   | 2018         | [C#][nledger-src]            |          1 |   134 |                                  | [matrix][nledger-matrix]                                                                             |                              |
-| pacioli            | 2013   |              | [python][pacioli-src]        |          1 |    31 |                                  |                                                                                                      |                              |
-| [ledg]             | 2021   | 2021         | [javascript][ledg]           |          1 |    30 |                                  |                                                                                                      |                              |
-| Goledger           | 2019   | 2020         | [go][goledger-mescanne-src]  |          1 |    24 |                                  |                                                                                                      |                              |
-| blossom            | 2020   |              | [F#][blossom-src]            |          1 |    20 |                                  |                                                                                                      |                              |
-| [Tackler]          | 2017   | 2022         | [scala][tackler-src]         |          1 |     8 |                                  | [matrix][#tackler:matrix.org]                                                                        |                              |
-| [pta]              | 2020   | 2020         | perl                         |          1 |       |                                  |                                                                                                      |                              |
-| [Prudent]          | 2018   |              | js, [addons][prudent-src]    |          1 |       |                                  | [\@PrudentLedger][prudent-chat]                                                                      |                              |
+| [Ledger (Go)]      | 2013   | 2023         | [go][ledger-go-src]          |         11 |   409 |                                  |                                                                                                      |                              |
+| Abandon            | 2013   | 2020         | [scala][abandon-src]         |         11 |   178 |                                  | [matrix][abandon-matrix]                                                                             |                              |
+| knut               | 2020   | 2022         | [go][knut-src]               |          3 |    49 |                                  |                                                                                                      |                              |
+| [ledg]             | 2021   | 2021         | [javascript][ledg]           |          1 |    37 |                                  |                                                                                                      |                              |
+| Goledger           | 2019   | 2020         | [go][goledger-mescanne-src]  |          1 |    25 |                                  |                                                                                                      |                              |
+| blossom            | 2020   |              | [F#][blossom-src]            |          1 |    25 |                                  |                                                                                                      |                              |
+| [Tackler]          | 2017   | 2022         | [scala][tackler-src]         |          1 |     9 |                                  | [matrix][#tackler:matrix.org]                                                                        |                              |
 | awk-pta            | 2022   |              | [awk][awk-pta-src]           |          1 |       |                                  |                                                                                                      |                              |
 | mynt               | 2023   |              | [mynt][mynt-src]             |          1 |       |                                  |                                                                                                      |                              |
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Inactive**       |        |              |                              |            |       |                                  |                                                                                                      |                              |
 | bankroll           | 2020   | 2020         | [rust][bankroll-src]         |          1 |     1 |                                  |                                                                                                      |                              |
+| [pta]              | 2020   | 2020         | [perl][pta-src]              |          1 |       |                                  |                                                                                                      |                              |
 | acc                | 2020   |              | [rust][acc-src]              |          1 |     1 |                                  |                                                                                                      |                              |
+| rust\_ledger       | 2019   | 2021         | [rust][rust_ledger-src]      |          4 |    90 |                                  |                                                                                                      |                              |
 | [beans]            | 2019   | 2019         | [haskell][beans-src]         |          2 |    24 |                                  |                                                                                                      |                              |
+| Transity           | 2018   | 2020         | [purescript][transity-src]   |          8 |   571 |                                  | [matrix][transity-matrix]                                                                            |                              |
+| [Prudent]          | 2018   |              | js, [addons][prudent-src]    |          1 |       |                                  | [\@PrudentLedger][prudent-chat]                                                                      |                              |
+| .Net Ledger        | 2017   | 2021         | [C#][nledger-src]            |          1 |   164 |                                  | [matrix][nledger-matrix]                                                                             |                              |
 | [monescript]       | 2017   | 2018         | [javascript][monescript-src] |          1 |    12 |                                  |                                                                                                      |                              |
+| Go Ledger          | 2016   |              | [go][go-ledger-abourget-src] |          3 |    37 |                                  |                                                                                                      |                              |
 | uledger            | 2015   |              | [python][uledger-src]        |          1 |    17 |                                  |                                                                                                      |                              |
+| pacioli            | 2013   |              | [python][pacioli-src]        |          1 |    31 |                                  |                                                                                                      |                              |
 | ledger.pl          | 2013   |              | [perl][ledger.pl-src]        |          1 |     6 |                                  |                                                                                                      |                              |
 | Penny              | 2012   | 2014         | haskell                      |            |       |                                  |                                                                                                      |                              |
 | UMM                | 2009   | 2010         | [haskell][UMM-hackage]       |            |       |                                  |                                                                                                      |                              |
 | sm-Ledger          | 2007   |              | [squeak][smalltalk-src]      |            |       |                                  |                                                                                                      |                              |
-| cl-ledger          | 2007   |              | [lisp][cl-ledger-src] |          4 |    66 |                                  |                                                                                                      |                              |
+| cl-ledger          | 2007   |              | [lisp][cl-ledger-src]        |          4 |    66 |                                  |                                                                                                      |                              |
 
 [plaintextaccounting.org]: https://plaintextaccounting.org
 [/r/plaintextaccounting]: https://www.reddit.com/r/plaintextaccounting
@@ -470,7 +495,8 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 
 [cl-ledger-src]: https://github.com/ledger/cl-ledger
 
-[ledger-in-go-src]: https://github.com/howeyc/ledger
+[Ledger (Go)]: https://howeyc.github.io/ledger/
+[ledger-go-src]: https://github.com/howeyc/ledger
 
 [goledger-mescanne-src]: https://github.com/mescanne/goledger
 
@@ -503,6 +529,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 [pacioli-src]: https://github.com/mdipierro/pacioli
 
 [pta]: https://mandoc.bsd.lv/pta
+[pta-src]: https://cvsweb.bsd.lv/pta/
 
 [prudent]: https://prudent.me
 [prudent-src]: https://github.com/PrudentMe
