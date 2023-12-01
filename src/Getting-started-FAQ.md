@@ -4,7 +4,9 @@
 
 Here are some (mostly old) [comparisons](https://plaintextaccounting.org#comparisons)
 Check out the projects' stats, and perhaps their chat rooms / mail lists.
-Here are a few more opinions:
+Developer opinions are hard to find, but here are a few:
+
+SM on why hledger over Ledger (2019): https://news.ycombinator.com/item?id=20022346
 
 SM (2022): We all have opinions - ask for them in chat or search the reddit / mail lists / web.
 Circa 2022 I hope it's fair to say, without my bias showing:

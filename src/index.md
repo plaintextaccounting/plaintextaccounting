@@ -385,6 +385,8 @@ See also:
 
 ## Software
 
+PTA apps and additional helper tools, by category:
+
 <a name="ledger-likes"></a>
 <a name="tools"></a>
 
@@ -529,44 +531,41 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 
 ### Editor plugins
 
-Helpers which make your text editor or IDE more aware of PTA apps and file formats.
-These often also work well for PTA apps other than the one they are named for.
-
 **Atom**
-[language-ledger](https://atom.io/packages/language-ledger),
-[ledger](https://atom.io/packages/ledger)
+- [language-ledger](https://atom.io/packages/language-ledger)
+- [ledger](https://atom.io/packages/ledger)
 \
 **Emacs**
-[beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default),
-[hledger-mode](https://github.com/narendraj9/hledger-mode),
-[ledger-mode](https://www.ledger-cli.org/3.0/doc/ledger-mode.html)
+- [beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default)
+- [hledger-mode](https://github.com/narendraj9/hledger-mode)
+- [ledger-mode](https://www.ledger-cli.org/3.0/doc/ledger-mode.html) (good for hledger also)
 \
 **IntelliJ**
-[Ledger Plugin](https://plugins.jetbrains.com/plugin/15405-ledger-cli)
+- [Ledger CLI](https://plugins.jetbrains.com/plugin/15405-ledger-cli)
 \
 **Nano**
-[scopatz/nanorc](https://github.com/scopatz/nanorc/blob/master/ledger.nanorc)
+- [scopatz/nanorc](https://github.com/scopatz/nanorc/blob/master/ledger.nanorc)
 \
 **Sublime**
-[sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax)
+- [sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax)
 \
 **TextMate**
-[Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle)
+- [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle)
 \
 **VIM**
-[vim-ledger](https://github.com/ledger/vim-ledger),
-[vim-beancount](https://github.com/nathangrigg/vim-beancount),
-[hledger-vim](https://github.com/anekos/hledger-vim),
-[cmp-beancount](https://github.com/crispgm/cmp-beancount)
+- [vim-ledger](https://github.com/ledger/vim-ledger)
+- [vim-beancount](https://github.com/nathangrigg/vim-beancount)
+- [hledger-vim](https://github.com/anekos/hledger-vim)
+- [cmp-beancount](https://github.com/crispgm/cmp-beancount)
 \
 **VS Code**
-[hledger-vscode](https://github.com/mhansen/hledger-vscode),
-[ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger),
-[vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
+- [hledger-vscode](https://github.com/mhansen/hledger-vscode)
+- [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger)
+- [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
+
+- [hledger: Editor configuration](https://hledger.org/editors.html)
 
 ### Data import/conversion
-
-Additional helper tools complementing the PTA apps, by category.
 
 - [Ledger](https://www.ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](https://hledger.org/csv.html) have CSV conversion built in. Also:
 - bean-identify, bean-extract, bean-file - Beancount built-in tools
