@@ -428,7 +428,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | Penny              | 2012   | 2014         | haskell                      |            |       |                                  |                                                                                                      |                              |
 | UMM                | 2009   | 2010         | [haskell][UMM-hackage]       |            |       |                                  |                                                                                                      |                              |
 | sm-Ledger          | 2007   |              | [squeak][smalltalk-src]      |            |       |                                  |                                                                                                      |                              |
-| cl-ledger          | 2007   |              | [common lisp][cl-ledger-src] |          4 |    66 |                                  |                                                                                                      |                              |
+| cl-ledger          | 2007   |              | [lisp][cl-ledger-src] |          4 |    66 |                                  |                                                                                                      |                              |
 
 [plaintextaccounting.org]: https://plaintextaccounting.org
 [/r/plaintextaccounting]: https://www.reddit.com/r/plaintextaccounting
