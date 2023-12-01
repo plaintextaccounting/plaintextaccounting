@@ -15,10 +15,11 @@ html-cfp:
 
 MD2HTML=$(PANDOC) \
 	-f markdown-smart-tex_math_dollars+autolink_bare_uris+wikilinks_title_after_pipe \
-	--lua-filter=wikilinks.lua
+	--lua-filter=wikilinks.lua \
+	--lua-filter=headings.lua \
 
 # generate html from a md file
-out/%.html: src/%.md page.tmpl
+out/%.html: src/%.md #page.tmpl wikilinks.lua headings.lua
 	$(MD2HTML) --template page.tmpl "$<" -o "$@"
 
 # regenerate html whenever an md file changes

@@ -10,6 +10,12 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: 1px 1px 2px white;
 }
 
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    text-decoration:none;
+    color:inherit;
+}
+
 .tight p {
     margin:0;
 }
