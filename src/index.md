@@ -27,10 +27,9 @@ or make edits to the [github repo](https://github.com/plaintextaccounting/plaint
 Page contents:
 \
 **[News & discussion](#news-discussion)**
-\
-**[Videos](#videos)**
-\
-**[Articles & blog posts](#articles-blog-posts)**
+- [Articles & blog posts](#articles-blog-posts)
+- [Videos](#videos)
+- [Slideshows](#slideshows)
 \
 **[Docs](#docs)**
 - [Accounting](#accounting)
@@ -38,7 +37,7 @@ Page contents:
 - [Comparisons](#comparisons)
 - [Intros](#intros)
 - [Cheatsheets](#cheatsheets)
-- [Presentations](#presentations)
+- [Cookbooks](#cookbooks)
 \
 **[Software](#software)**
 - [PTA apps](#pta-apps)
@@ -123,29 +122,7 @@ See also:
 - [This Week In Hledger](https://hledger.org/news.html)
 
 
-## Videos
-
-- [Glenn Ramsey: Plain text accounting for fun and profit](https://youtube.com/watch?v=lazZwTmAEHs) 2022
-- [Simon Michael: Inside hledger: an architectural tour and how-to](https://www.youtube.com/watch?v=6PKmZSHxu0c) 2021
-- [hledger fan youtube channel](https://www.youtube.com/channel/UCZLxXTjOqLzq4z5Jy0AyWSQ) short beginner lessons, 2019-
-- [Quiliro Ordóñez: ledger-mode lightning talk](https://archive.org/details/ledger-mode_EmacsConf2019) 2019
-- [Colin Dean: Plaintext Accounting with the ledger ecosystem](https://www.youtube.com/watch?v=FJtaM43PgXQ) 2017
-- [Colin Dean: Plain Text Accounting](https://www.youtube.com/watch?v=8r5Cp66k4PA) 2017
-- [Simon Michael: Hands-on with hledger](https://www.youtube.com/watch?v=H_CdGzLbc7A) 2016
-- [Austin Walker: Conquering Your Finances with Emacs and Ledger](https://www.youtube.com/watch?v=cjoCNRpLanY) 2016
-- [FLOSS Weekly 375: hledger](https://twit.tv/shows/floss-weekly/episodes/375)
-  ([youtube](https://www.youtube.com/watch?v=Xjl-wVJcYpE),
-  [3m overview](https://www.youtube.com/watch?v=qS2UcDV_lbs))
-  2016
-- [Evolution of ledger](https://www.youtube.com/watch?v=MGu1Bw2USQo) 2015
-- [Evolution of hledger](https://www.youtube.com/watch?v=dEADGr9dqow) 2015
-- [FLOSS Weekly 150: Ledger](https://twit.tv/shows/floss-weekly/episodes/150)
-  ([youtube](https://www.youtube.com/watch?v=TDqrrH-gTt0)) 2011
-- [Accounting course by Prof. Krug](https://www.youtube.com/playlist?list=PL259DBFA47F3B4761) 2011
-- [Khan Academy: Accounting and financial statements](https://www.khanacademy.org/economics-finance-domain/core-finance/accounting-and-financial-stateme)
-- [David Mitchell: Personal Debts](https://www.youtube.com/watch?v=9zyp8RF-Fyw)
-
-## Articles & blog posts
+### Articles & blog posts
 
 *A partial list, contributions welcome*
 
@@ -312,24 +289,55 @@ See also:
 - [Joe Barr: Ledger, the bran muffin of accounting tools](https://www.linux.com/news/ledger-bran-muffin-accounting-tools) <!-- 2006/11/10 -->
 
 
+### Videos
+
+- [Glenn Ramsey: Plain text accounting for fun and profit](https://youtube.com/watch?v=lazZwTmAEHs) 2022
+- [Simon Michael: Inside hledger: an architectural tour and how-to](https://www.youtube.com/watch?v=6PKmZSHxu0c) 2021
+- [hledger fan youtube channel](https://www.youtube.com/channel/UCZLxXTjOqLzq4z5Jy0AyWSQ) short beginner lessons, 2019-
+- [Quiliro Ordóñez: ledger-mode lightning talk](https://archive.org/details/ledger-mode_EmacsConf2019) 2019
+- [Colin Dean: Plaintext Accounting with the ledger ecosystem](https://www.youtube.com/watch?v=FJtaM43PgXQ) 2017
+- [Colin Dean: Plain Text Accounting](https://www.youtube.com/watch?v=8r5Cp66k4PA) 2017
+- [Simon Michael: Hands-on with hledger](https://www.youtube.com/watch?v=H_CdGzLbc7A) 2016
+- [Austin Walker: Conquering Your Finances with Emacs and Ledger](https://www.youtube.com/watch?v=cjoCNRpLanY) 2016
+- [FLOSS Weekly 375: hledger](https://twit.tv/shows/floss-weekly/episodes/375)
+  ([youtube](https://www.youtube.com/watch?v=Xjl-wVJcYpE),
+  [3m overview](https://www.youtube.com/watch?v=qS2UcDV_lbs))
+  2016
+- [Evolution of ledger](https://www.youtube.com/watch?v=MGu1Bw2USQo) 2015
+- [Evolution of hledger](https://www.youtube.com/watch?v=dEADGr9dqow) 2015
+- [FLOSS Weekly 150: Ledger](https://twit.tv/shows/floss-weekly/episodes/150)
+  ([youtube](https://www.youtube.com/watch?v=TDqrrH-gTt0)) 2011
+- [Accounting course by Prof. Krug](https://www.youtube.com/playlist?list=PL259DBFA47F3B4761) 2011
+- [Khan Academy: Accounting and financial statements](https://www.khanacademy.org/economics-finance-domain/core-finance/accounting-and-financial-stateme)
+- [David Mitchell: Personal Debts](https://www.youtube.com/watch?v=9zyp8RF-Fyw)
+
+### Slideshows
+
+- [Simon Michael: Inside hledger: an architectural tour and how-to](https://rawcdn.githack.com/simonmichael/hledger/4013a81af8dd2804c73ecac18fb3e7e4745a4275/doc/haskellerz/haskellerz.slidy.html) 2021
+- [Michael Lynch](https://decks.mtlynch.io/plaintext-acccounting/) 2021
+- [Andreas Pauley: Purely Functional Personal Finance](https://pauley.org.za/functional-finance-hledger/) 2018
+<!-- gone - [Ledger CLI Accounting for Geeks](http://blog.loadingdata.nl/accounting-for-geeks/) 2014 -->
+- [Hacking Your Finances for Fun and Profit](https://matthewturland.com/slides/ledger-stats/) 2013
+<!-- gone - [Ledger and Text based Accounting](http://www.adamsinfoserv.com/AISTWiki/pub/AIS/Presentations/Ledger.pdf) 2009 -->
+
 ## Docs
 
 ### Accounting
 
-- [Accounting for Dragons](https://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
-- [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
+- [hledger: Accounting basics and further study](https://hledger.org/accounting.html)
 - [hledger: Accounting links](https://hledger.org/accounting.html#accounting-links)
-- [hledger: Accounting concepts](https://hledger.org/accounting.html)
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
+- [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
+- [Accounting for Dragons](https://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
 
 ### PTA app docs
 
-  [Ledger](https://www.ledger-cli.org/docs.html)
-| [hledger](https://hledger.org/)
-| [Beancount](https://beancount.github.io/docs/)
-| [Ledger in Go](https://howeyc.github.io/ledger/)
-| [Tackler](https://tackler.e257.fi/docs/)
-| [pta](https://mandoc.bsd.lv/pta/)
+- [Ledger](https://www.ledger-cli.org/docs.html)
+- [hledger](https://hledger.org/)
+- [Beancount](https://beancount.github.io/docs/)
+- [Ledger in Go](https://howeyc.github.io/ledger/)
+- [Tackler](https://tackler.e257.fi/docs/)
+- [pta](https://mandoc.bsd.lv/pta/)
 
 ### Comparisons
 
@@ -339,7 +347,7 @@ See also:
   [hledger and Beancount](https://hledger.org/beancount.html),
   [hledger and other software](https://hledger.org/cookbook.html#other-software) 2014, 2019, 2022, 2023..
 - [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
-- [beancount list: Another Ledger user's perspective](https://groups.google.com/d/msg/beancount/QV4qgpFbtJ8/9fSgMw-XGC8J) 2015
+- [beancount mail list: Another Ledger user's perspective](https://groups.google.com/d/msg/beancount/QV4qgpFbtJ8/9fSgMw-XGC8J) 2015
 - [Beancount: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg) 2014
 - [ledger list: ledger vs hledger vs beancount or how to choose the right cli client](https://groups.google.com/d/topic/ledger-cli/__yuMVjrOH0/discussion) 2014
 <!-- gone - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013 -->
@@ -347,14 +355,15 @@ See also:
 
 ### Intros
 
+- [[Newcomer FAQ]]
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
-- [hledger Getting Started Guide](https://hledger.org/start.html)
+- [hledger: Get Started](https://hledger.org/start.html)
 - [Getting Started with Beancount](https://beancount.github.io/docs/getting_started_with_beancount.html)
-- [Tackler Quickstart](https://tackler.e257.fi/docs/quickstart/)
-- [Don't Sink Your First Attempts at Plaintext Accounting](Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting.html) syntax tips for beginners
+- [Tackler: Quickstart](https://tackler.e257.fi/docs/quickstart/)
+- [Don't Sink Your First Attempts at Plaintext Accounting](Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting.html) h/ledger syntax tips for beginners
 - [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
 - [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
-- [[Cookbook.html#getting-started|Getting started]]
+- [[Cookbook.html#getting-started|Cookbook: Getting started]]
 
 ### Cheatsheets
 
@@ -366,18 +375,13 @@ See also:
 - [hledger: Journal cheatsheet](https://hledger.org/hledger.html#journal-cheatsheet)
 - [hledger: CSV rules cheatsheet](https://hledger.org/hledger.html#csv-rules-cheatsheet)
 
-### Presentations
+### Cookbooks
 
-- [Simon Michael: Inside hledger: an architectural tour and how-to](https://rawcdn.githack.com/simonmichael/hledger/4013a81af8dd2804c73ecac18fb3e7e4745a4275/doc/haskellerz/haskellerz.slidy.html) 2021
-- [Michael Lynch](https://decks.mtlynch.io/plaintext-acccounting/) 2021
-- [Andreas Pauley: Purely Functional Personal Finance](https://pauley.org.za/functional-finance-hledger/) 2018
-<!-- gone - [Ledger CLI Accounting for Geeks](http://blog.loadingdata.nl/accounting-for-geeks/) 2014 -->
-- [Hacking Your Finances for Fun and Profit](https://matthewturland.com/slides/ledger-stats/) 2013
-<!-- gone - [Ledger and Text based Accounting](http://www.adamsinfoserv.com/AISTWiki/pub/AIS/Presentations/Ledger.pdf) 2009 -->
-
-### Cookbook
-
-- [[Cookbook]] more docs: FAQs, examples, how-tos
+- [[Cookbook]] the Plain Text Accounting Cookbook; more docs, FAQs, examples...
+- [Beancount cookbook](https://beancount.github.io/docs/command_line_accounting_cookbook.html)
+- [hledger cookbook](https://hledger.org/cookbook.html)
+- [Ledger wiki](https://github.com/ledger/ledger/wiki)
+- [Reddit: plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
 
 ## Software
 

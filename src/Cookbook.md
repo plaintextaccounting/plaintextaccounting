@@ -1,18 +1,15 @@
 % Cookbook
 
 This is the Plain Text Accounting Cookbook,
-a sort of site map for plaintextaccounting.org.
+a place to collect additional practical-minded PTA docs aimed at getting useful things done,
+often not app-specific.
 If you don't see what you need, ask for it in the 
 [[index#news-discussion|chat]] and we'll add it, or you can
 [add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/blob/master/src/Cookbook.md).
 
 ### See also
 
-- [[index|plaintextaccounting.org home page]]
-- [Beancount cookbook](https://beancount.github.io/docs/command_line_accounting_cookbook.html)
-- [hledger cookbook](https://hledger.org/cookbook.html)
-- [Ledger wiki](https://github.com/ledger/ledger/wiki)
-- [Reddit: plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
+- Other PTA [[index#cookbooks|cookbooks]] and [[index#docs|docs]]
 
 ### Getting started
 
