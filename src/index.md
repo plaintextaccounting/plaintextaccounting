@@ -128,6 +128,7 @@ See also:
 
 2023
 
+- [Robert Nielsen: Fewer errors in reconciling](https://hledgerfan.com/fewer-errors-in-reconciling/)  2023-11-30
 - [Robert Nielsen: Using hledger for thanksgiving](https://hledgerfan.com/using-hledger-for-thanksgiving/)  2023-11-23
 - [Jonathan Dowland: HLedger, regex matches and field assignments](https://jmtd.net/log/hledger/matchers/) <!-- 2023-11-17 -->
 - [Robert Nielsen: Zooming out and in](https://hledgerfan.com/zooming-out-and-in/) 2023-11-16
