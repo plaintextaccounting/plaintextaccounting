@@ -34,7 +34,7 @@ Page contents:
 \
 **[Docs](#docs)**
 - [Accounting](#accounting)
-- [PTA app official docs](#pta-app-official-docs)
+- [PTA app docs](#pta-app-docs)
 - [PTA app comparisons](#pta-app-comparisons)
 - [Intros](#intros)
 - [Cheatsheets](#cheatsheets)
@@ -321,7 +321,7 @@ See also:\
 - [hledger: Accounting concepts](https://hledger.org/accounting.html)
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 
-### PTA app official docs
+### PTA app docs
 
   [Ledger](https://www.ledger-cli.org/docs.html)
 | [hledger](https://hledger.org/)
@@ -382,7 +382,7 @@ See also:\
 ### PTA apps
 
 To do Plain Text Accounting, choose one of the apps below.
-Generally it's relatively easy to migrate data from one to another.
+Generally it's possible to migrate data from one to another.
 
 <!-- Syntax: https://pandoc.org/README.html#tables -->
 <!-- Active projects are sorted by committers+other community size/activity signals; inactives are sorted by start date. -->
@@ -400,7 +400,7 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 | [hledger]            | 2007   | 2023-09      | [haskell][hledger-src]             |        167 |  2.6k | [hledger][hledger-mail] ~200     | [matrix][#hledger:matrix.org] ~150, [IRC][#hledger:libera.chat] ~70                                  |
 | [Beancount]          | 2008   | 2023-10      | [python][beancount-src]            |         64 |    3k | [beancount][beancount-mail] ~700 | [matrix][beancount-matrix] ~10, [matrix (fava)][fava-matrix] ~180, [IRC][#beancount:libera.chat] ~30 |
 |                      | &nbsp; |              |                                    |            |       |                                  |                                                                                                      |
-| **Smaller userbase** |        |              |                                    |            |       |                                  |                                                                                                      |
+| **Small userbase**   |        |              |                                    |            |       |                                  |                                                                                                      |
 | Abandon              | 2013   | 2019-09      | [scala][abandon-src]               |         11 |   162 |                                  | [matrix][abandon-matrix]                                                                             |
 | Transity             | 2018   | 2019-05      | [purescript][transity-src]         |          8 |   571 |                                  | [matrix][transity-matrix]                                                                            |
 | Ledger in Go         | 2013   | 2022-07      | [go][ledger-in-go-src]             |          8 |   333 |                                  |                                                                                                      |
