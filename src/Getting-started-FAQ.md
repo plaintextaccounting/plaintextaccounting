@@ -1,8 +1,11 @@
 % Getting started FAQ
 
-### Ledger, hledger, Beancount, etc. - which should I choose ?
+### Which PTA app should I choose ?
 
-Here are some [PTA app comparisons](https://plaintextaccounting.org#pta-app-comparisons). See also:
+Here are some [PTA app comparisons](https://plaintextaccounting.org#pta-app-comparisons)
+(though most are fairly old).
+Check out the projects' stats, and perhaps their chat rooms / mail lists.
+Here are a few more opinions:
 
 SM (2022): We all have opinions - ask for them in chat or search the reddit / mail lists / web.
 Circa 2022 I hope it's fair to say, without my bias showing:
