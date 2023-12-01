@@ -35,7 +35,7 @@ Page contents:
 **[Docs](#docs)**
 - [Accounting](#accounting)
 - [PTA app docs](#pta-app-docs)
-- [PTA app comparisons](#pta-app-comparisons)
+- [Comparisons](#comparisons)
 - [Intros](#intros)
 - [Cheatsheets](#cheatsheets)
 - [Presentations](#presentations)
@@ -331,7 +331,7 @@ See also:
 | [Tackler](https://tackler.e257.fi/docs/)
 | [pta](https://mandoc.bsd.lv/pta/)
 
-### PTA app comparisons
+### Comparisons
 
 - [PTA apps](#pta-apps) project stats
 - [[Getting-started-FAQ#which-pta-app-should-i-choose|Getting started FAQ: Which PTA app should I choose ?]]

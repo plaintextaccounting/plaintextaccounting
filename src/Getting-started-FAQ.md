@@ -2,8 +2,7 @@
 
 ### Which PTA app should I choose ?
 
-Here are some [PTA app comparisons](https://plaintextaccounting.org#pta-app-comparisons)
-(though most are fairly old).
+Here are some (mostly old) [comparisons](https://plaintextaccounting.org#comparisons)
 Check out the projects' stats, and perhaps their chat rooms / mail lists.
 Here are a few more opinions:
 
@@ -17,8 +16,8 @@ Circa 2022 I hope it's fair to say, without my bias showing:
   the most actively maintained, and the most user-friendly.
 - Beancount has the most features for investing and trading, 
   and the most support (and need) for customisation, via Python.
-- Ledger and hledger parse files flexibly and forgivingly by default, with optional strictness.
-  Beancount's file format is more restricted and always strict.
+- Ledger and hledger have flexible file formats and parse forgivingly by default, with optional strictness.
+  Beancount has a more restricted file format and always parses strictly.
 - It's generally relatively easy to migrate data from one to another, 
   eg using [data conversion tools](https://plaintextaccounting.org#data-importconversion)
   like ledger2beancount and beancount2ledger.
