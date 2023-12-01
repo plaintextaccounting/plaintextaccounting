@@ -7,6 +7,7 @@
 | [hledger](hledger.html)
 | [Beancount](beancount.html)
 
+Brief (incomplete) syntax overview for Ledger's journal file format.
 Last tested: 2016.
 See also:
 https://www.ledger-cli.org/doc/ledger3.html#Journal-Format,

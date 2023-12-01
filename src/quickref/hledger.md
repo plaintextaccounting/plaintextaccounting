@@ -7,6 +7,7 @@
 | **[hledger](hledger.html)**
 | [Beancount](beancount.html)
 
+Brief (incomplete) syntax overview for hledger's journal file format.
 Last tested: 2016.
 See also:
 https://hledger.org/hledger.html#journal-format.
