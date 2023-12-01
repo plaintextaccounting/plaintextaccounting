@@ -24,7 +24,7 @@ or make edits to the [github repo](https://github.com/plaintextaccounting/plaint
 </div>
 
 <em>
-On this page:
+Page contents:
 \
 **[News & discussion](#news-discussion)**
 \
@@ -58,7 +58,7 @@ On this page:
 - [Utilities](#utilities)
 - [API](#api)
 
-Elsewhere:\
+See also:\
 **[[Newcomer FAQ]]**
 - [[Newcomer FAQ#what-is-this|What is this]]
 - [[Newcomer FAQ#objections-and-concerns|Objections and concerns]]
