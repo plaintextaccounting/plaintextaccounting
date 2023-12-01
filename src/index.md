@@ -100,6 +100,9 @@ See also:\
 \
 **Mastodon**
 - [#plaintextaccounting](https://fosstodon.org/tags/plaintextaccounting)
+- [#ledgercli](https://fosstodon.org/tags/ledgercli)
+- [#hledger](https://fosstodon.org/tags/hledger)
+- [#beancount](https://fosstodon.org/tags/beancount)
 \
 **Twitter**
 - [#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting?f=live)
