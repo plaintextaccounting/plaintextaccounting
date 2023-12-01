@@ -10,8 +10,8 @@
 Brief (incomplete) syntax overview for Beancount's journal file format.
 Last tested: 2016.
 See also:
-https://beancount.github.io/docs/beancount_language_syntax.html,
-https://beancount.github.io/docs/beancount_cheat_sheet.html.
+[Beancount manual](https://beancount.github.io/docs/beancount_language_syntax.html),
+[[../index#cheatsheets|Cheatsheets]]
 
 ----
 

@@ -56,21 +56,24 @@ Things in square brackets are  optional. Some notes in the Ledger column are co
       <td class="c4" colspan="1" rowspan="1">
         <p class="c13">
           Ledger<br>
-          <a href="https://www.ledger-cli.org/3.0/doc/ledger3.html#Journal-Format">https://www.ledger-cli.org/3.0/doc/ledger3.html#Journal-Format</a><br>
-          <a href="https://ricostacruz.com/cheatsheets/ledger.html">https://ricostacruz.com/cheatsheets/ledger.html</a>
+          <a href="https://www.ledger-cli.org/3.0/doc/ledger3.html#Journal-Format">Ledger manual</a><br>
+          <a href="https://ricostacruz.com/cheatsheets/ledger.html">Ledger CLI cheatsheet</a><br>
         </p>
       </td>
       <td class="c15" colspan="1" rowspan="1">
         <p class="c13">
           hledger<br>
-          <a href="https://hledger.org/hledger.html#journal-format">https://hledger.org/hledger.html#journal-format</a>
+          <a href="https://hledger.org/hledger.html#journal">hledger manual</a><br>
+          <a href="https://hledgerfan.com/beginners-corner-a-basic-hledger-transaction">Beginners corner: a basic hledger transaction</a><br>
+          <a href="https://hledgerfan.com/almost-everything-you-wanted-to-know-about-hledger-transactions">(Almost) everything you wanted to know about hledger transactions</a><br>
+          <a href="https://hledger.org/cost-notation.html">Cost notation</a><br>
         </p>
       </td>
       <td class="c7" colspan="1" rowspan="1">
         <p class="c13">
           Beancount<br>
-          <a href="https://beancount.github.io/docs/beancount_language_syntax.html">https://beancount.github.io/docs/beancount_language_syntax.html</a><br>
-          <a href="https://beancount.github.io/docs/beancount_cheat_sheet.html">https://beancount.github.io/docs/beancount_cheat_sheet.html</a>
+          <a href="https://beancount.github.io/docs/beancount_language_syntax.html">Beancount manual</a><br>
+          <a href="https://beancount.github.io/docs/beancount_cheat_sheet.html">Beancount Syntax Cheat Sheet</a><br>
         </p>
         <p class="c13 c25">
           <span class="c10 c30">

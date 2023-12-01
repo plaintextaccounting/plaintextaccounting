@@ -36,8 +36,8 @@ Page contents:
 - [Accounting](#accounting)
 - [PTA app official docs](#pta-app-official-docs)
 - [PTA app comparisons](#pta-app-comparisons)
+- [Intros](#intros)
 - [Cheatsheets](#cheatsheets)
-- [Introductory docs](#introductory-docs)
 - [Presentations](#presentations)
 \
 **[Software](#software)**
@@ -337,13 +337,7 @@ See also:\
 <!-- gone - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013 -->
 <!-- gone - [Fabrice Niessen: Why Ledger?] 2010 -->
 
-### Cheatsheets
-
-- [Syntax Quick Reference](quickref/)
-- [Ledger CLI cheatsheet](https://devhints.io/ledger)
-- [Beancount Syntax Cheat Sheet](https://beancount.github.io/docs/beancount_cheat_sheet.html)
-
-### Introductory docs
+### Intros
 
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
 - [hledger Getting Started Guide](https://hledger.org/start.html)
@@ -353,6 +347,16 @@ See also:\
 - [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
 - [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
 - [[Cookbook.html#getting-started|Getting started]]
+
+### Cheatsheets
+
+- [Syntax Quick Reference](quickref/)
+- [Ledger CLI cheatsheet](https://devhints.io/ledger)
+- [Beancount Syntax Cheat Sheet](https://beancount.github.io/docs/beancount_cheat_sheet.html)
+- [Beginners corner: a basic hledger transaction](https://hledgerfan.com/beginners-corner-a-basic-hledger-transaction/)
+- [(Almost) everything you wanted to know about hledger transactions](https://hledgerfan.com/almost-everything-you-wanted-to-know-about-hledger-transactions/)
+- [hledger > Journal cheatsheet](https://hledger.org/hledger.html#journal-cheatsheet)
+- [hledger > CSV rules cheatsheet](https://hledger.org/hledger.html#csv-rules-cheatsheet)
 
 ### Presentations
 

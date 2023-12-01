@@ -10,7 +10,8 @@
 Brief (incomplete) syntax overview for hledger's journal file format.
 Last tested: 2016.
 See also:
-https://hledger.org/hledger.html#journal-format.
+[hledger manual](https://hledger.org/hledger.html#journal),
+[[../index#cheatsheets|Cheatsheets]]
 
 ----
 

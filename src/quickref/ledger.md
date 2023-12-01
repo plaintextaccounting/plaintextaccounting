@@ -10,8 +10,8 @@
 Brief (incomplete) syntax overview for Ledger's journal file format.
 Last tested: 2016.
 See also:
-https://www.ledger-cli.org/doc/ledger3.html#Journal-Format,
-https://ricostacruz.com/cheatsheets/ledger.html.
+[Ledger manual](https://www.ledger-cli.org/doc/ledger3.html#Journal-Format),
+[[../index#cheatsheets|Cheatsheets]]
 
 ----
 
