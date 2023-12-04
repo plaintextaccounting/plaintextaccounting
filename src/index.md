@@ -128,6 +128,7 @@ See also:
 
 2023
 
+- [Knut Magnus Aasrud: You should track your finances in TOML](https://kmaasrud.com/blog/track-finances-in-toml.html) 2023-11-23
 - [Ian Cross: Hacking on a Ledger](https://galagic.com/post/20231201155114/hacking-on-a-ledger/) 2023-12-01
 - [Robert Nielsen: Fewer errors in reconciling](https://hledgerfan.com/fewer-errors-in-reconciling/)  2023-11-30
 - [Robert Nielsen: Using hledger for thanksgiving](https://hledgerfan.com/using-hledger-for-thanksgiving/)  2023-11-23
