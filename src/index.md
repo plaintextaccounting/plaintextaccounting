@@ -128,6 +128,7 @@ See also:
 
 2023
 
+- [Upgrading to hledger 1.32, a book on graphic design, and ledger-mode-clean-buffer](https://hledgerfan.com/upgrading-to-hledger-1-32-a-book-on-graphic-design-and-ledger-mode-clean-buffer/) 2023-12-07
 - [Knut Magnus Aasrud: You should track your finances in TOML](https://kmaasrud.com/blog/track-finances-in-toml.html) 2023-11-23
 - [Ian Cross: Hacking on a Ledger](https://galagic.com/post/20231201155114/hacking-on-a-ledger/) 2023-12-01
 - [Robert Nielsen: Fewer errors in reconciling](https://hledgerfan.com/fewer-errors-in-reconciling/)  2023-11-30
