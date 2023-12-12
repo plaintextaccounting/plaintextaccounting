@@ -450,6 +450,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 | [Tackler]          | 2017   | 2022         | [scala][tackler-src]         |          1 |     9 |                                  | [matrix][#tackler:matrix.org]                                                                        |                              |
 | awk-pta            | 2022   |              | [awk][awk-pta-src]           |          1 |       |                                  |                                                                                                      |                              |
 | mynt               | 2023   |              | [mynt][mynt-src]             |          1 |       |                                  |                                                                                                      |                              |
+| coin               | 2019   |              | [coin][coin-src]             |          1 |     7 |                                  |                                                                                                      |                              |
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Inactive**       |        |              |                              |            |       |                                  |                                                                                                      |                              |
 | bankroll           | 2020   | 2020         | [rust][bankroll-src]         |          1 |     1 |                                  |                                                                                                      |                              |
@@ -497,6 +498,8 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 [blossom-src]: https://github.com/blossom-hub/blossom
 
 [cl-ledger-src]: https://github.com/ledger/cl-ledger
+
+[coin-src]: https://github.com/mkobetic/coin
 
 [Ledger (Go)]: https://howeyc.github.io/ledger/
 [ledger-go-src]: https://github.com/howeyc/ledger
