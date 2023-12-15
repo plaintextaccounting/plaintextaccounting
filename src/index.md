@@ -158,8 +158,8 @@ See also:
 - [Robert Nielsen: Helping others see how useful hledger can be](https://hledgerfan.com/helping-others-see-how-useful-hledger-can-be/) 2023-06-29
 - [Robert Nielsen: Blog entries prior to june 2023 site update](https://hledgerfan.com/hello-world/) 2023-06-26
 - [Beancount.io: Tracking real estate in Beancount](https://beancount.io/page/2023-06-09-tracking-real-estate) <!-- 2023-06-09 -->
-- [Scratching an Itch: Command Line Budgeting](https://www.joshcanhelp.com/budget-cli/) <!-- 2023-05-22 -->
 - [Jonathan Dowland: Separate hledgers](https://jmtd.net/log/hledger/separate/) <!-- 2023-04-24 -->
+- [Josh Cunningham: Scratching an Itch: Command Line Budgeting](https://www.joshcanhelp.com/budget-cli/) <!-- 2023-03-22 -->
 - [Jonathan Dowland: date warping in HLedger](https://jmtd.net/log/date_warping/) <!-- 2023-03-06 -->
 - [Jonathan Dowland: HLedger, 1 year on](https://jmtd.net/log/hledger_1yr/) <!-- 2023-02-10 -->
 
