@@ -158,6 +158,7 @@ See also:
 - [Robert Nielsen: Helping others see how useful hledger can be](https://hledgerfan.com/helping-others-see-how-useful-hledger-can-be/) 2023-06-29
 - [Robert Nielsen: Blog entries prior to june 2023 site update](https://hledgerfan.com/hello-world/) 2023-06-26
 - [Beancount.io: Tracking real estate in Beancount](https://beancount.io/page/2023-06-09-tracking-real-estate) <!-- 2023-06-09 -->
+- [Scratching an Itch: Command Line Budgeting](https://www.joshcanhelp.com/budget-cli/) <!-- 2023-05-22 -->
 - [Jonathan Dowland: Separate hledgers](https://jmtd.net/log/hledger/separate/) <!-- 2023-04-24 -->
 - [Jonathan Dowland: date warping in HLedger](https://jmtd.net/log/date_warping/) <!-- 2023-03-06 -->
 - [Jonathan Dowland: HLedger, 1 year on](https://jmtd.net/log/hledger_1yr/) <!-- 2023-02-10 -->
@@ -445,6 +446,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 | Abandon            | 2013   | 2020         | [scala][abandon-src]         |         11 |   178 |                                  | [matrix][abandon-matrix]                                                                             |                              |
 | knut               | 2020   | 2022         | [go][knut-src]               |          3 |    49 |                                  |                                                                                                      |                              |
 | [ledg]             | 2021   | 2021         | [javascript][ledg]           |          1 |    37 |                                  |                                                                                                      |                              |
+| [budget-cli]   | 2023   | 2023             | [typescript][budget-cli]     |          1 |       |                                  |                                                                                                      |                              |
 | Goledger           | 2019   | 2020         | [go][goledger-mescanne-src]  |          1 |    25 |                                  |                                                                                                      |                              |
 | blossom            | 2020   |              | [F#][blossom-src]            |          1 |    25 |                                  |                                                                                                      |                              |
 | awk-pta            | 2022   |              | [awk][awk-pta-src]           |          1 |    15 |                                  |                                                                                                      |                              |
@@ -496,6 +498,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 [beans-src]: https://github.com/sboehler/beans
 
 [blossom-src]: https://github.com/blossom-hub/blossom
+[budget-cli]: https://github.com/joshcanhelp/budget-cli
 
 [cl-ledger-src]: https://github.com/ledger/cl-ledger
 
