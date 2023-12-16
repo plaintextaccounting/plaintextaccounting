@@ -405,7 +405,8 @@ th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid 
 </style>
 <!--
 Table syntax: https://pandoc.org/README.html#tables
-Active projects are sorted by committers, inactive projects are sorted by start date then last release date.
+Active projects are sorted by committers then stars/activity,
+inactive projects are sorted by start date then last release date.
 
 Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 
@@ -438,7 +439,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Popular**        |        |              |                              |            |       |                                  |                                                                                                      |                              |
 | [Ledger]           | 2003   | 2023         | [C++][ledger-src]            |        226 |  4.9k | [ledger][ledger-mail] ~900       | [IRC][#ledger:libera.chat] ~60                                                                       | [1.5k][ledger-issues]    47% |
-| [hledger]          | 2007   | 2023         | [haskell][hledger-src]       |        167 |  2.6k | [hledger][hledger-mail] ~200     | [matrix][#hledger:matrix.org] ~90, [IRC][#hledger:libera.chat] ~70                                  | [1.3k][hledger-issues]   31% |
+| [hledger]          | 2007   | 2023         | [haskell][hledger-src]       |        167 |  2.6k | [hledger][hledger-mail] ~200     | [matrix][#hledger:matrix.org] ~90, [IRC][#hledger:libera.chat] ~70                                   | [1.3k][hledger-issues]   31% |
 | [Beancount]        | 2008   | 2023         | [python][beancount-src]      |         84 |  3.1k | [beancount][beancount-mail] ~700 | [matrix][beancount-matrix] ~10, [matrix (fava)][fava-matrix] ~180, [IRC][#beancount:libera.chat] ~30 | [0.5k][beancount-issues] 63% |
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Small userbase** |        |              |                              |            |       |                                  |                                                                                                      |                              |
@@ -446,12 +447,12 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 | Abandon            | 2013   | 2020         | [scala][abandon-src]         |         11 |   178 |                                  | [matrix][abandon-matrix]                                                                             |                              |
 | knut               | 2020   | 2022         | [go][knut-src]               |          3 |    49 |                                  |                                                                                                      |                              |
 | [ledg]             | 2021   | 2021         | [javascript][ledg]           |          1 |    37 |                                  |                                                                                                      |                              |
-| [budget-cli]   | 2023   | 2023             | [typescript][budget-cli]     |          1 |       |                                  |                                                                                                      |                              |
 | Goledger           | 2019   | 2020         | [go][goledger-mescanne-src]  |          1 |    25 |                                  |                                                                                                      |                              |
 | blossom            | 2020   |              | [F#][blossom-src]            |          1 |    25 |                                  |                                                                                                      |                              |
 | awk-pta            | 2022   |              | [awk][awk-pta-src]           |          1 |    15 |                                  |                                                                                                      |                              |
 | [Tackler]          | 2017   | 2022         | [scala][tackler-src]         |          1 |     9 |                                  | [matrix][#tackler:matrix.org]                                                                        |                              |
 | coin               | 2019   |              | [go][coin-src]               |          1 |     7 |                                  |                                                                                                      |                              |
+| budget-cli         | 2023   | 2023         | [typescript][budget-cli]     |          1 |     2 |                                  |                                                                                                      |                              |
 | mynt               | 2023   |              | [rust][mynt-src]             |          1 |       |                                  |                                                                                                      |                              |
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Inactive**       |        |              |                              |            |       |                                  |                                                                                                      |                              |
