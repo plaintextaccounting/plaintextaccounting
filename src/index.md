@@ -456,6 +456,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 | [Ledger (Go)]      | 2013   | 2023         | [go][ledger-go-src]          |         11 |   409 |                                  |                                                                                                      |                              |
 | Abandon            | 2013   | 2020         | [scala][abandon-src]         |         11 |   178 |                                  | [matrix][abandon-matrix]                                                                             |                              |
 | knut               | 2020   | 2022         | [go][knut-src]               |          3 |    49 |                                  |                                                                                                      |                              |
+| [zhang]            | 2023   | 2023         | [rust/ts][zhang-src]         |          1 |   105 |                                  |                                                                                                      |                              |
 | [ledg]             | 2021   | 2021         | [javascript][ledg]           |          1 |    37 |                                  |                                                                                                      |                              |
 | Goledger           | 2019   | 2020         | [go][goledger-mescanne-src]  |          1 |    25 |                                  |                                                                                                      |                              |
 | blossom            | 2020   |              | [F#][blossom-src]            |          1 |    25 |                                  |                                                                                                      |                              |
@@ -574,6 +575,9 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 [UMM-hackage]: https://hackage.haskell.org/package/UMM
 
 [ledg]: https://github.com/SitanHuang/ledg
+
+[zhang-src]: https://github.com/zhang-accounting/zhang
+[zhang]: https://zhang-accounting.github.io/zhang
 
 <!-- [compare at openhub](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
 
