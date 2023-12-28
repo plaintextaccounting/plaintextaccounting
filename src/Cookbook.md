@@ -55,7 +55,3 @@ If you don't see what you need, ask for it in the
 - [[Time tracking]]
 - [[Trip expenses]]
 
-### About this site
-
-- [[README|plaintextaccounting.org README]] (or [on github](https://github.com/plaintextaccounting/plaintextaccounting#readme))
-

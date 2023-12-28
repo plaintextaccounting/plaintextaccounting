@@ -18,8 +18,6 @@ It is maintained by Simon&nbsp;Michael (hledger project leader, PTA fan)
 and contributors like you. 
 We invite you to join the [chat](#news-discussion)
 or improve the [content](https://github.com/plaintextaccounting/plaintextaccounting).
-<!-- Here's the [[README|contributor README]]. -->
-<!-- [![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting) -->
 
 </div>
 
