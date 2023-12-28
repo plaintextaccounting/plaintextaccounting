@@ -16,81 +16,65 @@ Welcome!
 This site collects the PTA community's tools, docs and practices. 
 It is maintained by Simon&nbsp;Michael (hledger project leader, PTA fan)
 and contributors like you. 
-We invite you to join the [chat](#news-discussion),
-or make edits to the [github repo](https://github.com/plaintextaccounting/plaintextaccounting).
+We invite you to join the [chat](#news-discussion)
+or improve the [content](https://github.com/plaintextaccounting/plaintextaccounting).
 <!-- Here's the [[README|contributor README]]. -->
 <!-- [![github](https://img.shields.io/github/stars/plaintextaccounting/plaintextaccounting.svg?style=social&label=Github){title="send pull requests, bug reports, blog posts, star us, tweet with #plaintextaccounting tag"}](https://github.com/plaintextaccounting/plaintextaccounting) -->
 
 </div>
 
-<em>
-Page contents:
-\
-**[News & discussion](#news-discussion)**
-- [Articles & blog posts](#articles-blog-posts)
-- [Videos](#videos)
-- [Slideshows](#slideshows)
-\
+**Site map:**\
+**[[Newcomer FAQ]]**\
+**[News & discussion](#news-discussion)**\
+**[Blogs & articles](#blogs-articles)**\
+**[Videos](#videos)**\
+**[Slides](#slides)**\
 **[Docs](#docs)**
 - [Accounting](#accounting)
-- [PTA app docs](#pta-app-docs)
-- [Comparisons](#comparisons)
-- [Intros](#intros)
-- [Cheatsheets](#cheatsheets)
-- [Cookbooks](#cookbooks)
+, [PTA app docs](#pta-app-docs)
+, [comparisons](#comparisons)
+, [intros](#intros)
+, [cheatsheets](#cheatsheets)
+, [cookbooks](#cookbooks)
+\
+**[[Cookbook|PTA Cookbook]]**
+- [[Cookbook#getting-started|Getting started]]
+, [[Cookbook#general-usage|General usage]]
+, [[Cookbook#accounting-situations|Accounting situations]]
 \
 **[Software](#software)**
 - [PTA apps](#pta-apps)
-- [Editor plugins](#editor-plugins)
-- [Data import/conversion](#data-importconversion)
-- [Price fetching](#price-fetching)
-- [Data generation](#data-generation)
-- [Formatting](#formatting)
-- [Reporting](#reporting)
-- [Time logging](#time-logging)
-- [UI, console](#ui-console)
-- [UI, curses](#ui-curses)
-- [UI, GUI](#ui-gui)
-- [UI, web](#ui-web)
-- [UI, mobile](#ui-mobile)
-- [Library](#library)
-- [Utilities](#utilities)
-- [API](#api)
-
-See also:
-\
-**[[Newcomer FAQ]]**
-- [[Newcomer FAQ#what-is-this|What is this]]
-- [[Newcomer FAQ#objections-and-concerns|Objections and concerns]]
-\
-**[[Cookbook]]**
-- [[Cookbook#getting-started|Getting Started]]
-- [[Cookbook#general-usage|General usage]]
-- [[Cookbook#accounting-situations|Accounting situations]]
-\
-**[[quickref/|Syntax quick reference]]**
-- [[quickref/ledger|Ledger]]
-- [[quickref/hledger|hledger]]
-- [[quickref/beancount|Beancount]]
-
-</em>
+, [Editor plugins](#editor-plugins)
+, [Data import/conversion](#data-importconversion)
+, [Price fetching](#price-fetching)
+, [Data generation](#data-generation)
+, [Formatting](#formatting)
+, [Reporting](#reporting)
+, [Time logging](#time-logging)
+, [UI, console](#ui-console)
+, [UI, curses](#ui-curses)
+, [UI, GUI](#ui-gui)
+, [UI, web](#ui-web)
+, [UI, mobile](#ui-mobile)
+, [Library](#library)
+, [Utilities](#utilities)
+, [API](#api)
 
 ## News & discussion
 
 **Site news**
-- *2023-11 wiki [merged](https://github.com/plaintextaccounting/plaintextaccounting/issues/129) into the website*
 - [commits](https://github.com/plaintextaccounting/plaintextaccounting/commits/master)
 - [contributors](https://github.com/plaintextaccounting/plaintextaccounting/graphs/contributors)
 - [issues](https://github.com/plaintextaccounting/plaintextaccounting/issues?q=is%3Aissue+)
 \
 **Chat**
-- [Matrix](https://matrix.to/#/#plaintextaccounting:matrix.org) (~100)
-- [all matrix rooms](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
 - [IRC](https://web.libera.chat/#plaintextaccounting) (~50)
-- [PTA app chats](#pta-apps)
+- [matrix](https://matrix.to/#/#plaintextaccounting:matrix.org) (~100)
+- [matrix space (room list)](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
+- [app-specific chats](#pta-apps)
 \
 **Mail lists**
-- [PTA apps' mail lists](#pta-apps)
+- [app-specific mail lists](#pta-apps)
 \
 **Reddit**
 - [/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
@@ -123,11 +107,11 @@ See also:
 - [This Week In Hledger](https://hledger.org/news.html)
 
 
-### Articles & blog posts
+## Blogs & articles
 
 *A partial list, contributions welcome*
 
-2023
+### 2023
 
 - [Robert Nielsen: Fixing my mistake after accidentally adding pending transactions](https://hledgerfan.com/fixing-my-mistake-after-accidentally-adding-pending-transactions/) 2023-12-28
 - [Robert Nielsen: A better desc(ription)](https://hledgerfan.com/a-better-description/) 2023-12-21
@@ -166,13 +150,13 @@ See also:
 - [Jonathan Dowland: date warping in HLedger](https://jmtd.net/log/date_warping/) <!-- 2023-03-06 -->
 - [Jonathan Dowland: HLedger, 1 year on](https://jmtd.net/log/hledger_1yr/) <!-- 2023-02-10 -->
 
-2022
+### 2022
 
 - [Jonathan Dowland: eventual consistency](https://jmtd.net/log/eventual_consistency/) <!-- 2022-11-22 -->
 - [Jonathan Dowland: dues (or blues)](https://jmtd.net/log/hledger/dues/) <!-- 2022-08-17 -->
 - [Jonathan Dowland: hledger](https://jmtd.net/log/hledger/) <!-- 2022-04-14 -->
 
-2021
+### 2021
 
 - [Jonathan Dowland: hledger footguns](https://jmtd.net/log/hledger_footguns/) <!-- 2021-11-20 -->
 - [Arsen Arsenović: Keeping track of finances from many places](https://www.aarsen.me/posts/2021-08-13-personal-finances-with-hledger.html) <!-- 2021-08-15 -->
@@ -180,7 +164,7 @@ See also:
 <!-- - [Samuel Walladge: Tracking capital gains with hledger](https://www.swalladge.net/archives/2021/01/30/hledger-tracking-capital-gains/) <\!-- 2021/01/30 -\-> -->
 - [Duarte O.Carmo: Hacking on my finances (Part 2: Beancount on Beanstalk)](https://duarteocarmo.com/blog/hacking-on-my-finances-part-2-beancount-on-beanstalk.html) <!-- 2021/01/15 -->
 
-2020
+### 2020
 
 - [Duarte O.Carmo: Hacking on my finances](https://duarteocarmo.com/blog/hacking-on-my-finances.html) <!-- 2020/10/19 -->
 - [Conversations in Code: Episode 3 / Introduction to Plain Text Accounting](https://www.reddit.com/r/plaintextaccounting/comments/ivrbdu/announcing_a_new_podcast_fossopensource_related/) <!-- 2020/9/19 --> [podcast]
@@ -196,7 +180,7 @@ See also:
 - [Lee Yingtong Li: Incorrect accounting of unrealised gains in ledger-cli](https://yingtongli.me/blog/2020/03/31/ledger-gains.html) <!-- 2020/3/31 -->
 - [Christian Egli: Quick and dirty PDF reports for Plain Text Accounting](https://egli.dev/posts/quick-and-dirty-pdf-reports-for-plain-text-accounting/) <!-- 2020/2/13 -->
 
-2019
+### 2019
 
 - [Lee Yingtong Li: FIFO inventory with ledger-cli](https://yingtongli.me/blog/2019/12/11/ledger-fifo.html) <!-- 2019/12/11 -->
 - [Justin Kaipada: Managing Ledger for Humans](https://www.kaipada.com/post/managing-ledger-for-humans/) <!-- 2019/11/25 -->
@@ -213,7 +197,7 @@ See also:
 <!-- - <s>S.M. Oliva: Accounting in Plain Text, Part 1.5</s>[](https://cvillefoss.blog/2019/02/19/accounting-in-plain-text-part-1-5) 2019 <\!-- 2/19 -\-> -->
 <!-- - <s>S.M. Oliva: Accounting in Plain Text, Part 1</s>[](https://cvillefoss.blog/2019/02/12/accounting-in-plain-text-part-1) 2019 <\!-- 2/12 -\-> -->
 
-2018
+### 2018
 
 - [Felix Crux: Tracking Accounts Jointly and Separately](https://felixcrux.com/blog/ledger-practices-tracking-accounts-jointly-and-separately) <!-- 2018-10-29) -->
 - [Pepijn Looije: Real World Ledger part 1: Weighing Eggs in Baskets](https://p.epij.nl/ledger-cli/accounting/2018/08/23/real-world-ledger-part-1/) <!-- 2018/8/23 -->
@@ -224,7 +208,7 @@ See also:
 - [Michael Walker: Personal Finance](https://memo.barrucadu.co.uk/personal-finance.html) <!-- 2018/1/7 -->
 - [Siddhant Goel: Managing Personal Finances using Python](https://sgoel.dev/posts/managing-personal-finances-using-python/) <!-- 2018/9/16 -->
 
-2017
+### 2017
 
 - [Michael Walker: I Need A Budget](https://www.barrucadu.co.uk/posts/etc/2017-12-16-i-need-a-budget.html) <!-- 2017/12/16 -->
 - [Accounting for the simple minds with plain text accounting](https://dustri.org/b/accounting-for-the-simple-minds-with-plain-text-accounting.html) <!-- 2017/12/1 -->
@@ -236,7 +220,7 @@ See also:
 - [Michael Walker: Visualise your finances with hledger, InfluxDB, and Grafana](https://www.barrucadu.co.uk/posts/etc/2017-05-18-visualise-your-finances-with-hledger-influxdb-grafana.html) <!-- 2017/5/18 -->
 - [Brady Trainor: Hledger web](https://bradyt.com/2017/04/28/Hledger-web/) <!-- 2017/4/28 -->
 
-2016
+### 2016
 
 - [Felix Crux: Accrual vs. Cash Basis Accounting](https://felixcrux.com/blog/ledger-practices-accrual-vs-cash-basis-accounting) <!-- 2016-11-30 -->
 - [bsilvereagle: Envelope Budgeting with ledger](https://frdmtoplay.com/envelope-budgeting-with-ledger) <!-- 2016/10/28 -->
@@ -249,30 +233,30 @@ See also:
 <!-- gone - [Karan Ahuja: Hledger Improvements Wishlist.](http://www.karanahuja.in/2016-05-17-Hledger-Improvements-Wishlist/) <\!-- 2016/5/17 -\-> -->
 - [Alex Johnstone: Managing my personal finances with beancount](https://alexjj.com/posts/2016/managing-my-personal-finances-with-beancount/) <!-- 2016/2/27 -->
 
-2015
+### 2015
 
 - [Pete Keen: Program Your Finances: Algorithmic Savings](https://www.petekeen.net/program-your-finances-algorithmic-savings) <!-- 2015/6/16 -->
 - [Pete Keen: Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting) <!-- 2015/4/7 -->
 - [Stefano Rodighiero: hledger-dupes](https://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html) <!-- 2015/1/4 -->
 
-2014
+### 2014
 
 - [Matthew Turland: Ledger basics and habits](http://matthewturland.com/2014/03/29/ledger-basics-and-habits/) <!-- 2014/3/29 -->
 
-2013
+### 2013
 
 - [Simon Michael: What is hledger?](http://joyful.com/blog/2013-10-20-what-is-hledger.html) <!-- 2013/10/20 -->
 - [Simon Michael: More on ledger](http://joyful.com/blog/2013-10-19-more-on-ledger.html) <!-- 2013/10/19 -->
 - [Simon Michael: Introducing hledger!](http://joyful.com/blog/2013-10-18-introducing-hledger.html) <!-- 2013/10/18 -->
 
-2012
+### 2012
 
 - [Joey Hess: hledger](http://joeyh.name/blog/entry/hledger) <!-- 2012/12/3 -->
 - [Gene Goykhman: An Alternative to QuickBooks](http://goykhman.ca/gene/blog/2012/2012-09-23-an-alternative-to-quickbooks.html) <!-- 2012/9/23 -->
 - [LWN: The accounting quest: Ledger](http://lwn.net/Articles/501681/) <!-- 2012/6/13 -->
 - [Pete Keen: A Robust Reporting System for Ledger](https://www.petekeen.net/a-robust-reporting-system-for-ledger) <!-- 2012/1/1 -->
 
-2011
+### 2011
 
 - [Pete Keen: Program your Finances: Automated Transactions](https://www.petekeen.net/program-your-finances-automated-transactions) <!-- 2011/12/18 -->
 - [Sascha Welter: Doing my own accounting](http://betabug.ch/blogs/ch-athens/1221) <!-- 2011/12/5 -->
@@ -280,7 +264,7 @@ See also:
 - [Pete Keen: Program your Finances: Vacation Tracking](https://www.petekeen.net/program-your-finances-vacation-tracking) <!-- 2011/8/4 -->
 - [Pete Keen: Program your Finances: Reporting for Fun and Profit](https://www.petekeen.net/program-your-finances-reporting-for-fun-and-profit) <!-- 2011/7/9 -->
 
-2010
+### 2010
 
 - [Pete Keen: Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger) <!-- 2010/12/31 estimate -->
 - [Christine Spang: [h]ledger rocks my world](http://blog.spang.cc/posts/hledger_rocks_my_world/) <!-- 2010/7/5 -->
@@ -288,16 +272,16 @@ See also:
 <!-- - [Roman Cheplyaka: hledger](http://ro-che.blogspot.com/2010/02/hledger.html) 2010 -->
 <!-- - [Fabrice Niessen on Ledger, hledger, beancount, CSV2Ledger](http://www.mygooglest.com/fni/ledger.html) 2010 -->
 
-2009
+### 2009
 
 - [советы: Ledger — бухучёт в командной строке](http://s.arboreus.com/2009/05/personal-accounting-in-command-line.html) ([english](http://translate.google.com/translate?hl=en&sl=ru&u=http://s.arboreus.com/2009/05/personal-accounting-in-command-line.html)) <!-- 2009/5/15 -->
 
-2006
+### 2006
 
 - [Joe Barr: Ledger, the bran muffin of accounting tools](https://www.linux.com/news/ledger-bran-muffin-accounting-tools) <!-- 2006/11/10 -->
 
 
-### Videos
+## Videos
 
 - [Glenn Ramsey: Plain text accounting for fun and profit](https://youtube.com/watch?v=lazZwTmAEHs) 2022
 - [Simon Michael: Inside hledger: an architectural tour and how-to](https://www.youtube.com/watch?v=6PKmZSHxu0c) 2021
@@ -319,7 +303,7 @@ See also:
 - [Khan Academy: Accounting and financial statements](https://www.khanacademy.org/economics-finance-domain/core-finance/accounting-and-financial-stateme)
 - [David Mitchell: Personal Debts](https://www.youtube.com/watch?v=9zyp8RF-Fyw)
 
-### Slideshows
+## Slides
 
 - [Simon Michael: Inside hledger: an architectural tour and how-to](https://rawcdn.githack.com/simonmichael/hledger/4013a81af8dd2804c73ecac18fb3e7e4745a4275/doc/haskellerz/haskellerz.slidy.html) 2021
 - [Michael Lynch](https://decks.mtlynch.io/plaintext-acccounting/) 2021
@@ -330,10 +314,18 @@ See also:
 
 ## Docs
 
+**[Accounting](#accounting)
+, [PTA app docs](#pta-app-docs)
+, [Comparisons](#comparisons)
+, [Intros](#intros)
+, [Cheatsheets](#cheatsheets)
+, [Cookbooks](#cookbooks)
+**
+
 ### Accounting
 
-- [hledger: Accounting basics and further study](https://hledger.org/accounting.html)
 - [hledger: Accounting links](https://hledger.org/accounting.html#accounting-links)
+- [hledger: Accounting basics](https://hledger.org/accounting.html)
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 - [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
 - [Accounting for Dragons](https://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
@@ -393,7 +385,23 @@ See also:
 
 ## Software
 
-PTA apps and additional helper tools, by category:
+**[PTA apps](#pta-apps)
+, [Editor plugins](#editor-plugins)
+, [Data import/conversion](#data-importconversion)
+, [Price fetching](#price-fetching)
+, [Data generation](#data-generation)
+, [Formatting](#formatting)
+, [Reporting](#reporting)
+, [Time logging](#time-logging)
+, [UI, console](#ui-console)
+, [UI, curses](#ui-curses)
+, [UI, GUI](#ui-gui)
+, [UI, web](#ui-web)
+, [UI, mobile](#ui-mobile)
+, [Library](#library)
+, [Utilities](#utilities)
+, [API](#api)
+**
 
 <a name="ledger-likes"></a>
 <a name="tools"></a>
