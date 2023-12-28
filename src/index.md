@@ -67,7 +67,7 @@ or improve the [content](https://github.com/plaintextaccounting/plaintextaccount
 \
 **Chat**
 - [IRC](https://web.libera.chat/#plaintextaccounting) (~50)
-- [matrix](https://matrix.to/#/#plaintextaccounting:matrix.org) (~100)
+- [matrix](https://matrix.to/#/#plaintextaccounting:matrix.org) (~60)
 - [matrix space (room list)](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
 - [app-specific chats](#pta-apps)
 \
@@ -449,8 +449,8 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Popular**        |        |              |                              |            |       |                                  |                                                                                                      |                              |
 | [Ledger]           | 2003   | 2023         | [C++][ledger-src]            |        226 |  4.9k | [ledger][ledger-mail] ~900       | [IRC][#ledger:libera.chat] ~60                                                                       | [1.5k][ledger-issues]    47% |
-| [hledger]          | 2007   | 2023         | [haskell][hledger-src]       |        167 |  2.6k | [hledger][hledger-mail] ~200     | [matrix][#hledger:matrix.org] ~90, [IRC][#hledger:libera.chat] ~70                                   | [1.3k][hledger-issues]   31% |
-| [Beancount]        | 2008   | 2023         | [python][beancount-src]      |         84 |  3.1k | [beancount][beancount-mail] ~700 | [matrix][beancount-matrix] ~10, [matrix (fava)][fava-matrix] ~180, [IRC][#beancount:libera.chat] ~30 | [0.5k][beancount-issues] 63% |
+| [hledger]          | 2007   | 2023         | [haskell][hledger-src]       |        167 |  2.6k | [hledger][hledger-mail] ~200     | [matrix][#hledger:matrix.org] ~100, [IRC][#hledger:libera.chat] ~70                                  | [1.3k][hledger-issues]   31% |
+| [Beancount]        | 2008   | 2023         | [python][beancount-src]      |         84 |  3.1k | [beancount][beancount-mail] ~700 | [matrix][beancount-matrix] ~10, [matrix (fava)][fava-matrix] ~190, [IRC][#beancount:libera.chat] ~30 | [0.5k][beancount-issues] 63% |
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Small userbase** |        |              |                              |            |       |                                  |                                                                                                      |                              |
 | [Ledger (Go)]      | 2013   | 2023         | [go][ledger-go-src]          |         11 |   409 |                                  |                                                                                                      |                              |
