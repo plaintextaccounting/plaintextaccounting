@@ -3,13 +3,15 @@
 This is the Plain Text Accounting Cookbook,
 a place to collect additional practical-minded PTA docs aimed at getting useful things done,
 often not app-specific.
-If you don't see what you need, ask for it in the 
-[[index#news-discussion|chat]] and we'll add it, or you can
+(See also: other [[index#cookbooks|cookbooks]] and [[index#docs|docs]].)
+If you don't see what you need here, ask for it in the [[index#news-discussion|chat]]
+and we'll add it, or you can
 [add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/blob/master/src/Cookbook.md).
 
-### See also
 
-- Other PTA [[index#cookbooks|cookbooks]] and [[index#docs|docs]]
+**[Getting started](#getting-started)**\
+**[General usage](#general-usage)**\
+**[Accounting situations](#accounting-situations)**\
 
 ### Getting started
 
