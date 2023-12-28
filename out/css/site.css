@@ -4,6 +4,10 @@ body {
     font-size:large;
 }
 
+h1 { font-size: 5rem; }
+h2 { font-size: 4rem; }
+h3 { font-size: 3rem; }
+
 h1, h2, h3, h4, h5, h6 {
     font-weight:bold;
     white-space:nowrap;

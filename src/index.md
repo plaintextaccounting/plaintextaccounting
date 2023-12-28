@@ -2,8 +2,8 @@
 
 <!-- For editing tips, see ../README.md -->
 
-<div style="float:right; width:30%; margin:0 1em; position:relative; top:-4em; z-index:-1;">
-<img src="images/pta-avatar.jpg" width=250 style="border-radius:50%;">
+<div style="float:right; width:30%; margin:0 1em; z-index:-1;">
+<img src="images/pta-avatar.jpg" width=200 style="border-radius:50%;">
 </div>
 
 <div id="intro" style="font-size:larger;">
@@ -405,6 +405,7 @@ Generally it's possible to migrate data between them.
 
 <style>
 th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; white-space:nowrap; }
+a { white-space:nowrap; }
 </style>
 <!--
 Table syntax: https://pandoc.org/README.html#tables
