@@ -128,6 +128,7 @@ See also:
 
 2023
 
+- [Robert Nielsen: Fixing my mistake after accidentally adding pending transactions](https://hledgerfan.com/fixing-my-mistake-after-accidentally-adding-pending-transactions/) 2023-12-28
 - [Robert Nielsen: A better desc(ription)](https://hledgerfan.com/a-better-description/) 2023-12-21
 - [Robert Nielsen: Upgrading to hledger 1.32, a book on graphic design, and ledger-mode-clean-buffer](https://hledgerfan.com/upgrading-to-hledger-1-32-a-book-on-graphic-design-and-ledger-mode-clean-buffer/) 2023-12-07
 - [Knut Magnus Aasrud: You should track your finances in TOML](https://kmaasrud.com/blog/track-finances-in-toml.html) 2023-11-23
