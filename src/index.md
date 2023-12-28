@@ -39,7 +39,7 @@ or improve the [content](https://github.com/plaintextaccounting/plaintextaccount
 - [[Cookbook#getting-started|Getting started]]
 , [[Cookbook#general-usage|General usage]]
 , [[Cookbook#accounting-situations|Accounting situations]]
-\
+
 **[Software](#software)**
 - [PTA apps](#pta-apps)
 , [Editor plugins](#editor-plugins)
