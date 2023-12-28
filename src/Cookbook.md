@@ -1,4 +1,4 @@
-% Cookbook
+% PTA Cookbook
 
 This is the Plain Text Accounting Cookbook,
 a place to collect additional practical-minded PTA docs aimed at getting useful things done,

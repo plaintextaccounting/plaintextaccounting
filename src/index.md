@@ -385,7 +385,7 @@ See also:
 
 ### Cookbooks
 
-- [[Cookbook]] the Plain Text Accounting Cookbook; more docs, FAQs, examples...
+- [[Cookbook|PTA Cookbook]] the Plain Text Accounting Cookbook; more docs, FAQs, examples...
 - [Beancount cookbook](https://beancount.github.io/docs/command_line_accounting_cookbook.html)
 - [hledger cookbook](https://hledger.org/cookbook.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
