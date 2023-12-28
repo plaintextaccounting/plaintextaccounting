@@ -87,6 +87,7 @@ See also:
 - [Matrix](https://matrix.to/#/#plaintextaccounting:matrix.org) (~100)
 - [all matrix rooms](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
 - [IRC](https://web.libera.chat/#plaintextaccounting) (~50)
+- [PTA app chats](#pta-apps)
 \
 **Mail lists**
 - [PTA apps' mail lists](#pta-apps)
