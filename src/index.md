@@ -17,7 +17,7 @@ This site collects the PTA community's tools, docs and practices.
 It is maintained by Simon&nbsp;Michael (hledger project leader, PTA fan)
 and contributors like you. 
 We invite you to join the [chat](#news-discussion)
-or improve the [content](https://github.com/plaintextaccounting/plaintextaccounting).
+or help improve the [content](https://github.com/plaintextaccounting/plaintextaccounting).
 
 </div>
 
