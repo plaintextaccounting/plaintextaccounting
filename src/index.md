@@ -111,6 +111,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 
 ### 2023
 
+- [Serge Wroclawski: I use Profit First, the Theory of Constraints, and Plain Text Accounting to help my small business](https://blog.emacsen.net/profit-first-constraints-plain-text-accounting.html) 2024-01-02
 - [Robert Nielsen: Fixing my mistake after accidentally adding pending transactions](https://hledgerfan.com/fixing-my-mistake-after-accidentally-adding-pending-transactions/) 2023-12-28
 - [Robert Nielsen: A better desc(ription)](https://hledgerfan.com/a-better-description/) 2023-12-21
 - [Robert Nielsen: Upgrading to hledger 1.32, a book on graphic design, and ledger-mode-clean-buffer](https://hledgerfan.com/upgrading-to-hledger-1-32-a-book-on-graphic-design-and-ledger-mode-clean-buffer/) 2023-12-07
