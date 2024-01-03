@@ -51,7 +51,7 @@ If you edit with Emacs markdown-mode:
 ### How to make a change through the web
 
 1. Log in to Github and click the pencil at
-   [index.md](https://github.com/plaintextaccounting/plaintextaccounting/blob/master/index.md).
+   [index.md](https://github.com/plaintextaccounting/plaintextaccounting/blob/master/src/index.md).
 2. Make your changes to the markdown source.
 3. Use the Preview tab to check the result.
 4. When everything looks right, commit with a descriptive message.
