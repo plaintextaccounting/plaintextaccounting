@@ -415,7 +415,6 @@ Generally it's possible to migrate data between them.
 
 <style>
 th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; white-space:nowrap; }
-a { white-space:nowrap; }
 </style>
 <!--
 Table syntax: https://pandoc.org/README.html#tables
