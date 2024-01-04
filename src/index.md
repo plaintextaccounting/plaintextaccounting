@@ -109,11 +109,11 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 
 *A partial list, contributions welcome*
 
-### 2024
+### 2024 {#2024}
 
 - [Serge Wroclawski: I use Profit First, the Theory of Constraints, and Plain Text Accounting to help my small business](https://blog.emacsen.net/profit-first-constraints-plain-text-accounting.html) 2024-01-02
 
-### 2023
+### 2023 {#2023}
 
 - [Robert Nielsen: Fixing my mistake after accidentally adding pending transactions](https://hledgerfan.com/fixing-my-mistake-after-accidentally-adding-pending-transactions/) 2023-12-28
 - [Robert Nielsen: A better desc(ription)](https://hledgerfan.com/a-better-description/) 2023-12-21
@@ -152,13 +152,13 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [Jonathan Dowland: date warping in HLedger](https://jmtd.net/log/date_warping/) <!-- 2023-03-06 -->
 - [Jonathan Dowland: HLedger, 1 year on](https://jmtd.net/log/hledger_1yr/) <!-- 2023-02-10 -->
 
-### 2022
+### 2022 {#2022}
 
 - [Jonathan Dowland: eventual consistency](https://jmtd.net/log/eventual_consistency/) <!-- 2022-11-22 -->
 - [Jonathan Dowland: dues (or blues)](https://jmtd.net/log/hledger/dues/) <!-- 2022-08-17 -->
 - [Jonathan Dowland: hledger](https://jmtd.net/log/hledger/) <!-- 2022-04-14 -->
 
-### 2021
+### 2021 {#2021}
 
 - [Jonathan Dowland: hledger footguns](https://jmtd.net/log/hledger_footguns/) <!-- 2021-11-20 -->
 - [Arsen Arsenović: Keeping track of finances from many places](https://www.aarsen.me/posts/2021-08-13-personal-finances-with-hledger.html) <!-- 2021-08-15 -->
@@ -166,7 +166,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 <!-- - [Samuel Walladge: Tracking capital gains with hledger](https://www.swalladge.net/archives/2021/01/30/hledger-tracking-capital-gains/) <\!-- 2021/01/30 -\-> -->
 - [Duarte O.Carmo: Hacking on my finances (Part 2: Beancount on Beanstalk)](https://duarteocarmo.com/blog/hacking-on-my-finances-part-2-beancount-on-beanstalk.html) <!-- 2021/01/15 -->
 
-### 2020
+### 2020 {#2020}
 
 - [Duarte O.Carmo: Hacking on my finances](https://duarteocarmo.com/blog/hacking-on-my-finances.html) <!-- 2020/10/19 -->
 - [Conversations in Code: Episode 3 / Introduction to Plain Text Accounting](https://www.reddit.com/r/plaintextaccounting/comments/ivrbdu/announcing_a_new_podcast_fossopensource_related/) <!-- 2020/9/19 --> [podcast]
@@ -182,7 +182,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [Lee Yingtong Li: Incorrect accounting of unrealised gains in ledger-cli](https://yingtongli.me/blog/2020/03/31/ledger-gains.html) <!-- 2020/3/31 -->
 - [Christian Egli: Quick and dirty PDF reports for Plain Text Accounting](https://egli.dev/posts/quick-and-dirty-pdf-reports-for-plain-text-accounting/) <!-- 2020/2/13 -->
 
-### 2019
+### 2019 {#2019}
 
 - [Lee Yingtong Li: FIFO inventory with ledger-cli](https://yingtongli.me/blog/2019/12/11/ledger-fifo.html) <!-- 2019/12/11 -->
 - [Justin Kaipada: Managing Ledger for Humans](https://www.kaipada.com/post/managing-ledger-for-humans/) <!-- 2019/11/25 -->
@@ -199,7 +199,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 <!-- - <s>S.M. Oliva: Accounting in Plain Text, Part 1.5</s>[](https://cvillefoss.blog/2019/02/19/accounting-in-plain-text-part-1-5) 2019 <\!-- 2/19 -\-> -->
 <!-- - <s>S.M. Oliva: Accounting in Plain Text, Part 1</s>[](https://cvillefoss.blog/2019/02/12/accounting-in-plain-text-part-1) 2019 <\!-- 2/12 -\-> -->
 
-### 2018
+### 2018 {#2018}
 
 - [Felix Crux: Tracking Accounts Jointly and Separately](https://felixcrux.com/blog/ledger-practices-tracking-accounts-jointly-and-separately) <!-- 2018-10-29) -->
 - [Pepijn Looije: Real World Ledger part 1: Weighing Eggs in Baskets](https://p.epij.nl/ledger-cli/accounting/2018/08/23/real-world-ledger-part-1/) <!-- 2018/8/23 -->
@@ -210,7 +210,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [Michael Walker: Personal Finance](https://memo.barrucadu.co.uk/personal-finance.html) <!-- 2018/1/7 -->
 - [Siddhant Goel: Managing Personal Finances using Python](https://sgoel.dev/posts/managing-personal-finances-using-python/) <!-- 2018/9/16 -->
 
-### 2017
+### 2017 {#2017}
 
 - [Michael Walker: I Need A Budget](https://www.barrucadu.co.uk/posts/etc/2017-12-16-i-need-a-budget.html) <!-- 2017/12/16 -->
 - [Accounting for the simple minds with plain text accounting](https://dustri.org/b/accounting-for-the-simple-minds-with-plain-text-accounting.html) <!-- 2017/12/1 -->
@@ -222,7 +222,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [Michael Walker: Visualise your finances with hledger, InfluxDB, and Grafana](https://www.barrucadu.co.uk/posts/etc/2017-05-18-visualise-your-finances-with-hledger-influxdb-grafana.html) <!-- 2017/5/18 -->
 - [Brady Trainor: Hledger web](https://bradyt.com/2017/04/28/Hledger-web/) <!-- 2017/4/28 -->
 
-### 2016
+### 2016 {#2016}
 
 - [Felix Crux: Accrual vs. Cash Basis Accounting](https://felixcrux.com/blog/ledger-practices-accrual-vs-cash-basis-accounting) <!-- 2016-11-30 -->
 - [bsilvereagle: Envelope Budgeting with ledger](https://frdmtoplay.com/envelope-budgeting-with-ledger) <!-- 2016/10/28 -->
@@ -235,30 +235,30 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 <!-- gone - [Karan Ahuja: Hledger Improvements Wishlist.](http://www.karanahuja.in/2016-05-17-Hledger-Improvements-Wishlist/) <\!-- 2016/5/17 -\-> -->
 - [Alex Johnstone: Managing my personal finances with beancount](https://alexjj.com/posts/2016/managing-my-personal-finances-with-beancount/) <!-- 2016/2/27 -->
 
-### 2015
+### 2015 {#2015}
 
 - [Pete Keen: Program Your Finances: Algorithmic Savings](https://www.petekeen.net/program-your-finances-algorithmic-savings) <!-- 2015/6/16 -->
 - [Pete Keen: Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting) <!-- 2015/4/7 -->
 - [Stefano Rodighiero: hledger-dupes](https://stefanorodighiero.net/posts/2015-01-04-hledger-find-duplicate-accounts.html) <!-- 2015/1/4 -->
 
-### 2014
+### 2014 {#2014}
 
 - [Matthew Turland: Ledger basics and habits](http://matthewturland.com/2014/03/29/ledger-basics-and-habits/) <!-- 2014/3/29 -->
 
-### 2013
+### 2013 {#2013}
 
 - [Simon Michael: What is hledger?](http://joyful.com/blog/2013-10-20-what-is-hledger.html) <!-- 2013/10/20 -->
 - [Simon Michael: More on ledger](http://joyful.com/blog/2013-10-19-more-on-ledger.html) <!-- 2013/10/19 -->
 - [Simon Michael: Introducing hledger!](http://joyful.com/blog/2013-10-18-introducing-hledger.html) <!-- 2013/10/18 -->
 
-### 2012
+### 2012 {#2012}
 
 - [Joey Hess: hledger](http://joeyh.name/blog/entry/hledger) <!-- 2012/12/3 -->
 - [Gene Goykhman: An Alternative to QuickBooks](http://goykhman.ca/gene/blog/2012/2012-09-23-an-alternative-to-quickbooks.html) <!-- 2012/9/23 -->
 - [LWN: The accounting quest: Ledger](http://lwn.net/Articles/501681/) <!-- 2012/6/13 -->
 - [Pete Keen: A Robust Reporting System for Ledger](https://www.petekeen.net/a-robust-reporting-system-for-ledger) <!-- 2012/1/1 -->
 
-### 2011
+### 2011 {#2011}
 
 - [Pete Keen: Program your Finances: Automated Transactions](https://www.petekeen.net/program-your-finances-automated-transactions) <!-- 2011/12/18 -->
 - [Sascha Welter: Doing my own accounting](http://betabug.ch/blogs/ch-athens/1221) <!-- 2011/12/5 -->
@@ -266,7 +266,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [Pete Keen: Program your Finances: Vacation Tracking](https://www.petekeen.net/program-your-finances-vacation-tracking) <!-- 2011/8/4 -->
 - [Pete Keen: Program your Finances: Reporting for Fun and Profit](https://www.petekeen.net/program-your-finances-reporting-for-fun-and-profit) <!-- 2011/7/9 -->
 
-### 2010
+### 2010 {#2010}
 
 - [Pete Keen: Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger) <!-- 2010/12/31 estimate -->
 - [Christine Spang: [h]ledger rocks my world](http://blog.spang.cc/posts/hledger_rocks_my_world/) <!-- 2010/7/5 -->
@@ -274,11 +274,11 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 <!-- - [Roman Cheplyaka: hledger](http://ro-che.blogspot.com/2010/02/hledger.html) 2010 -->
 <!-- - [Fabrice Niessen on Ledger, hledger, beancount, CSV2Ledger](http://www.mygooglest.com/fni/ledger.html) 2010 -->
 
-### 2009
+### 2009 {#2009}
 
 - [советы: Ledger — бухучёт в командной строке](http://s.arboreus.com/2009/05/personal-accounting-in-command-line.html) ([english](http://translate.google.com/translate?hl=en&sl=ru&u=http://s.arboreus.com/2009/05/personal-accounting-in-command-line.html)) <!-- 2009/5/15 -->
 
-### 2006
+### 2006 {#2006}
 
 - [Joe Barr: Ledger, the bran muffin of accounting tools](https://www.linux.com/news/ledger-bran-muffin-accounting-tools) <!-- 2006/11/10 -->
 
