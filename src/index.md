@@ -112,6 +112,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 ### 2024 {#2024}
 
 - [Robert Nielsen: Better Emacs = better hledger](https://hledgerfan.com/better-emacs-better-hledger)  2024-01-04
+- [Serge Wroclawski: Implementing Profit First with Plain Text Accounting](https://blog.emacsen.net/profit-first-plain-text-accounting.html) 2024-01-04
 - [Serge Wroclawski: I use Profit First, the Theory of Constraints, and Plain Text Accounting to help my small business](https://blog.emacsen.net/profit-first-constraints-plain-text-accounting.html) 2024-01-02
 
 ### 2023 {#2023}
