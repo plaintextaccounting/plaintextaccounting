@@ -288,28 +288,21 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 ## Videos
 
 - [Edwin Espinoza: Ledger CLI, Personal finance in the command line](https://www.youtube.com/watch?v=EWjoblLoD3k) 2023 <!-- 04-23 -->
-
 - [Prakash Joshi Pax: How to Use Obsidian to Track Your Expenses](https://www.youtube.com/watch?v=UPyy52MfC3Q) 2022 <!-- 12-23 -->
 - [Peter Berger: Plain Text Accounting: An Opinionated View](https://www.youtube.com/watch?v=ZDF7xVtKLu0&t=1s) 2022 <!-- 09-02 -->
 - [Glenn Ramsey: Plain text accounting for fun and profit](https://youtube.com/watch?v=lazZwTmAEHs) 2022  <!-- 08-26 -->
-
 - [季路LJ: Beancount |简略记账说明](https://www.youtube.com/watch?v=tmkR6umON4A) 2021 <!-- 06-17 -->
 - [Simon Michael: Inside hledger: an architectural tour and how-to](https://www.youtube.com/watch?v=6PKmZSHxu0c) 2021 <!-- 05-01 -->
-
 - [Brian Ryall: Managing Your Finances Using Python](https://www.youtube.com/watch?v=mFzctYkktXQ) 2020 <!-- 07-25 -->
-
 - [Robert Nielsen: hledger fan channel](https://www.youtube.com/channel/UCZLxXTjOqLzq4z5Jy0AyWSQ) short hledger beginner lessons, 2019..
 - [Steve Anderson: Plain Text Accounting: How to do Signed Number Accounting](https://www.youtube.com/watch?v=FLbe3X3FiT8) 2019 <!-- 12-21 -->
 - [Quiliro Ordóñez: ledger-mode lightning talk](https://archive.org/details/ledger-mode_EmacsConf2019) 2019 <!-- 11-02 -->
 - [Dickson S. Guedes: Cuide de suas FINANÇAS pessoais ou profissionais usando TEXTO](https://www.youtube.com/watch?v=HmbZh8lWnmE&list=PLqkknzu_rt6mxltdQ4XBS9AEuL8c-JLUH) 2019 <!-- 10-02 -->
 - [John Nduli: Plain Text Accounting](https://www.youtube.com/watch?v=GpcD1iH-ZJg) 2019 <!-- 09-22 -->
 - [Jean Louis: GNU Emacs database accounting and rant on text ledgers](https://www.youtube.com/watch?v=ixbUQ2wikM0) 2019 <!-- 08-09 -->
-
 - [Cindy Zimmerman: Triple Entry Accounting, Ledger-cli, The blocktree hash tree - Guld Ledger File Format](https://www.youtube.com/watch?v=C0ie2v_FiNU) 2018 <!-- 04-26 -->
-
 - [Colin Dean: Plaintext Accounting with the ledger ecosystem](https://www.youtube.com/watch?v=FJtaM43PgXQ) 2017 <!-- 10-01 --> <!-- *one of the best PTA intro videos (note that "debit" and "credit" might be flipped)* -->
 - [Colin Dean: Plain Text Accounting](https://www.youtube.com/watch?v=8r5Cp66k4PA) 2017 <!-- 07-12 -->
-
 - [Simon Michael: Hands-on with hledger](https://www.youtube.com/watch?v=H_CdGzLbc7A) 2016 <!-- 09-02 -->
 - [Chris Vollick: hledger, an open source accounting tool](https://www.youtube.com/watch?v=-WahFvxhCRc) 2016 <!-- 04-28 -->
 - [Austin Walker: Conquering Your Finances with Emacs and Ledger](https://www.youtube.com/watch?v=cjoCNRpLanY) 2016 <!-- 02-18 -->
@@ -317,7 +310,6 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
   ([3m overview](https://www.youtube.com/watch?v=qS2UcDV_lbs),
   [show notes](https://twit.tv/shows/floss-weekly/episodes/375))
    2016 <!-- 02-16 -->
-
 - [John Wiegley, Randal Schwartz, Aaron Newcomb: FLOSS Weekly 150: Ledger](https://www.youtube.com/watch?v=TDqrrH-gTt0)
   ([show notes](https://twit.tv/shows/floss-weekly/episodes/150))
   2011
