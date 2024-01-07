@@ -301,7 +301,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [John Nduli: Plain Text Accounting](https://www.youtube.com/watch?v=GpcD1iH-ZJg) 2019 <!-- 09-22 -->
 - [Jean Louis: GNU Emacs database accounting and rant on text ledgers](https://www.youtube.com/watch?v=ixbUQ2wikM0) 2019 <!-- 08-09 -->
 - [Cindy Zimmerman: Triple Entry Accounting, Ledger-cli, The blocktree hash tree - Guld Ledger File Format](https://www.youtube.com/watch?v=C0ie2v_FiNU) 2018 <!-- 04-26 -->
-- [Colin Dean: Plaintext Accounting with the ledger ecosystem](https://www.youtube.com/watch?v=FJtaM43PgXQ) 2017 <!-- 10-01 --> <!-- *one of the best PTA intro videos (note that "debit" and "credit" might be flipped)* -->
+- [Colin Dean: Plaintext Accounting with the ledger ecosystem](https://www.youtube.com/watch?v=FJtaM43PgXQ) 2017 <!-- 10-01 --> *good first intro video. ("debit" and "credit" might be flipped ?)* -->
 - [Colin Dean: Plain Text Accounting](https://www.youtube.com/watch?v=8r5Cp66k4PA) 2017 <!-- 07-12 -->
 - [Simon Michael: Hands-on with hledger](https://www.youtube.com/watch?v=H_CdGzLbc7A) 2016 <!-- 09-02 -->
 - [Chris Vollick: hledger, an open source accounting tool](https://www.youtube.com/watch?v=-WahFvxhCRc) 2016 <!-- 04-28 -->
