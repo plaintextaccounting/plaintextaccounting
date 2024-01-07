@@ -292,9 +292,9 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [Peter Berger: Plain Text Accounting: An Opinionated View](https://www.youtube.com/watch?v=ZDF7xVtKLu0&t=1s) 2022 <!-- 09-02 -->
 - [Glenn Ramsey: Plain text accounting for fun and profit](https://youtube.com/watch?v=lazZwTmAEHs) 2022  <!-- 08-26 -->
 - [季路LJ: Beancount |简略记账说明](https://www.youtube.com/watch?v=tmkR6umON4A) 2021 <!-- 06-17 -->
+- [Robert Nielsen: hledger fan channel](https://www.youtube.com/channel/UCZLxXTjOqLzq4z5Jy0AyWSQ) short hledger beginner lessons, 2019-2021 <!-- 2019-05-27..2021-04-03
 - [Simon Michael: Inside hledger: an architectural tour and how-to](https://www.youtube.com/watch?v=6PKmZSHxu0c) 2021 <!-- 05-01 -->
 - [Brian Ryall: Managing Your Finances Using Python](https://www.youtube.com/watch?v=mFzctYkktXQ) 2020 <!-- 07-25 -->
-- [Robert Nielsen: hledger fan channel](https://www.youtube.com/channel/UCZLxXTjOqLzq4z5Jy0AyWSQ) short hledger beginner lessons, 2019..
 - [Steve Anderson: Plain Text Accounting: How to do Signed Number Accounting](https://www.youtube.com/watch?v=FLbe3X3FiT8) 2019 <!-- 12-21 -->
 - [Quiliro Ordóñez: ledger-mode lightning talk](https://archive.org/details/ledger-mode_EmacsConf2019) 2019 <!-- 11-02 -->
 - [Dickson S. Guedes: Cuide de suas FINANÇAS pessoais ou profissionais usando TEXTO](https://www.youtube.com/watch?v=HmbZh8lWnmE&list=PLqkknzu_rt6mxltdQ4XBS9AEuL8c-JLUH) 2019 <!-- 10-02 -->
