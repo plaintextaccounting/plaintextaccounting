@@ -722,7 +722,6 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 - [hreports](https://pypi.org/project/hreports) customise hledger reports with templates and PDF output (python)
 - [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive tool for making GNUplot charts from Ledger (python)
 - [ledger-plots](https://github.com/esovetkin/ledger-plots) R package & script to make charts from Ledger (R)
-- [ludget](https://pypi.org/project/ludget) generate charts from Ledger (python)
 - [r-ledger](https://github.com/trevorld/r-ledger) an R package for reading and reporting on ledger/hledger/beancount files (R)
 - [TaxingLots](https://framagit.org/jkepler/TaxingLots) calculates capital gains for a ledger journal (python)
 
