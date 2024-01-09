@@ -177,7 +177,7 @@ In [The Millionaire Next Door](https://en.wikipedia.org/wiki/The_Millionaire_Nex
 
 Not entirely!
 "Plain Text Accounting" is a broad description, referring mainly to the data format.
-We welcome optional [GUIs](#ui-console), and they are [coming](#ui-console).
+We welcome optional [GUIs](index.md#ui-console), and they are coming.
 
 ### Do you really enter every little transaction?
 
