@@ -44,7 +44,6 @@ and we'll add it, or you can
 - [[Forecasting]]
 - [[Inventory]]
 - [[Investing and trading]]
-  - [[Restricted Stock Units]]
 - [[Invoicing]]
 - [[Mortgages]]
 - [[Multiple currencies]]
