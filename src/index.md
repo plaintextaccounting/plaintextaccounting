@@ -602,7 +602,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 **Emacs**
 - [beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default)
 - [hledger-mode](https://github.com/narendraj9/hledger-mode)
-- [ledger-mode](https://www.ledger-cli.org/3.0/doc/ledger-mode.html) (good for hledger also)
+- [ledger-mode](https://ledger-cli.org/doc/ledger-mode.html) (good for hledger also)
 \
 **IntelliJ**
 - [Ledger CLI](https://plugins.jetbrains.com/plugin/15405-ledger-cli)
