@@ -5,9 +5,10 @@
 -- - lower-cases the fragment
 -- - adds ".html" to the path when appropriate (preserving any fragment).
 --   This is not needed on hledger.org, but makes links work when rendered locally.
--- Limitations: unlike Obsidian wikilinks,
+-- Current limitations: unlike Obsidian wikilinks,
 -- - these do not find files across folders - correct path is required
 -- - these are not aware of file existence - targets should exist
+-- - these are not case insensitive - link and filename case must match exactly
 
 function Link(el)
    if el.title == "wikilink" then
