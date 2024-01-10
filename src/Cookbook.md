@@ -49,7 +49,7 @@ and we'll add it, or you can
 - [[Multiple currencies]]
 - [[Non-profit accounting]]
 - [[Shared expenses]]
-  - [[Splitting Rent and Utilities]]
+  - [[Splitting rent and utilities]]
   - [[Splitting the bill]]
 - [[Taxes]]
   - [[Personal income and taxes]]
