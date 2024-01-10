@@ -600,7 +600,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 - [ledger](https://atom.io/packages/ledger)
 \
 **Emacs**
-- [beancount-mode](https://bitbucket.org/blais/beancount/src/1e21b27c0b0ecf2bf2e1a2cd5c3da3b1befc8152/src/elisp/beancount.el?at=default&fileviewer=file-view-default)
+- [beancount-mode](https://github.com/beancount/beancount-mode)
 - [hledger-mode](https://github.com/narendraj9/hledger-mode)
 - [ledger-mode](https://ledger-cli.org/doc/ledger-mode.html) (good for hledger also)
 \
