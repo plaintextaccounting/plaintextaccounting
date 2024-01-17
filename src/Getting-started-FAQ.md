@@ -53,7 +53,7 @@ As data grows, at some point you may want to split the journal into multiple fil
 
 Perhaps the easiest and first thing to split out is `P` price records.
 You could put them all in a single prices file, but one file per currency/commodity is quite convenient.
-Eg `eur.journal`, `jpy.journal`, `aapl.journal` etc.
+Eg `eur.journal`, `jpy.journal`, `msft.journal` etc.
 
 You might want to organise other directives, such as account or commodity declarations or account aliases, in their own files.
 You'll need to check your PTA app's rules about how these directives affect other files, and how their sequence matters.
@@ -68,7 +68,8 @@ and there is no reduction in data size or run time. For that, you must split by 
 This adds some complications, and isn't necessary for everyone, so we don't recommend it from the start.
 
 But, most PTA users sooner or later will split files by time, and most of them will split by year.
-This allows you process just one year or a subset of years when running reports, which is more efficient.
+You might have an `all.journal` including all of the years, but also you can now choose
+to read just one year or a subset of years when running reports, which is more efficient.
 The new complication is how to arrange for correct account balances no matter which year file(s) you are processing.
 You can read more about that in the links below, particularly hledger's `close` doc.
 
@@ -79,9 +80,10 @@ with all files in the same directory for easy access:
 2022.journal
 2023.journal
 2024.journal
-aapl.journal
+all.journal
 eur.journal
 jpy.journal
+msft.journal
 ...
 ```
 
@@ -90,7 +92,7 @@ including per-year declarations (allowing for an evolving chart of accounts, eg)
 organised in per-year subdirectories:
 
 ```
-2023/
+2022/
  2022.journal
  2022-accounts.journal
  2022-commodities.journal
@@ -108,9 +110,10 @@ organised in per-year subdirectories:
  2024-commodities.journal
  2024-payees.journal
  2024-tags.journal
-aapl.journal
+all.journal
 eur.journal
 jpy.journal
+msft.journal
 ...
 ```
 
