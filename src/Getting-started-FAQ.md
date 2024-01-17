@@ -26,7 +26,7 @@ Circa 2022 I hope it's fair to say, without my bias showing:
 
 SM on new user experience (2023): https://fosstodon.org/@simonmic/110120922501551538
 
-### How to organise the journal file(s) ?
+### How to organise files ?
 
 Most PTA apps support reading from multiple files at once,
 by specifying them all on the command line or by having
@@ -120,7 +120,6 @@ See also:
 - https://hledger.org/dev/hledger.html#close
 - https://www.reddit.com/r/plaintextaccounting/comments/d69slp/how_do_you_manage_multiple_accounts_in/ (2019)
 - https://www.reddit.com/r/plaintextaccounting/comments/ay8ec0/limits_on_ledger_cli_file_size/ (2019)
-- https://www.reddit.com/r/plaintextaccounting/comments/dbjizl/how_big_is_your_ledgerjournal_file/ (2019)
 - https://www.reddit.com/r/plaintextaccounting/comments/fcx8ls/multifile_ledger_setup/ (2020)
 - https://www.reddit.com/r/plaintextaccounting/comments/lhdy5c/how_to_handle_yearly_journals/ (2021)
 - https://www.reddit.com/r/plaintextaccounting/comments/ukfxqo/double_entry_balances_between_years_in_ledgercli/ (2022)
