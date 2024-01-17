@@ -70,7 +70,7 @@ This adds some complications, and isn't necessary for everyone, so we don't reco
 But, most PTA users sooner or later will split files by time, and most of them will split by year.
 This allows you process just one year or a subset of years when running reports, which is more efficient.
 The new complication is how to arrange for correct account balances no matter which year file(s) you are processing.
-You can read more about that in the links below.
+You can read more about that in the links below, particularly hledger's `close` doc.
 
 So, putting these things together, here is a common and relatively simple multi-file layout, 
 with all files in the same directory for easy access:
