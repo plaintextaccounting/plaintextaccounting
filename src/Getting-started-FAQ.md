@@ -67,7 +67,7 @@ In the above cases, all of the files are still read together as a single file se
 and there is no reduction in data size or run time. For that, you must split by time.
 This adds some complications, and isn't necessary for everyone, so we don't recommend it from the start.
 
-But, most PTA users sooner or later will split files by time, and most of them will split by year.
+But, most PTA users sooner or later will split files by time, and usually by year.
 You might have an `all.journal` including all of the years, but also you can now choose
 to read just one year or a subset of years when running reports, which is more efficient.
 The new complication is how to arrange for correct account balances no matter which year file(s) you are processing.
@@ -116,6 +116,10 @@ jpy.journal
 msft.journal
 ...
 ```
+
+If you use a lot of CSV files or hledger CSV rules, you might want `csv/` or `rules/` subdirectories.
+
+Or you might be using one of the third-party setups like hledger-flow, which define their own file layouts.
 
 See also:
 
