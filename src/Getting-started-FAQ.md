@@ -124,7 +124,7 @@ Or you might be using one of the third-party setups like hledger-flow, which def
 See also:
 
 - https://ledger-cli.org/doc/ledger3.html#Archiving-Previous-Years
-- https://hledger.org/dev/hledger.html#close
+- https://hledger.org/hledger.html#close
 - https://www.reddit.com/r/plaintextaccounting/comments/d69slp/how_do_you_manage_multiple_accounts_in/ (2019)
 - https://www.reddit.com/r/plaintextaccounting/comments/fcx8ls/multifile_ledger_setup/ (2020)
 - https://www.reddit.com/r/plaintextaccounting/comments/lhdy5c/how_to_handle_yearly_journals/ (2021)
