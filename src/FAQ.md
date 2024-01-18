@@ -1,6 +1,10 @@
-% PTA FAQ
+% Plain Text Accounting FAQ
 
 ## Getting started
+
+### What's Plain Text Accounting ?
+
+See [[What is Plain Text Accounting ?]].
 
 ### Which PTA app should I choose ?
 

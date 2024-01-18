@@ -1,7 +1,6 @@
-% PTA Cookbook
+% Plain Text Accounting Cookbook
 
-This is the Plain Text Accounting Cookbook,
-a place to collect additional practical-minded PTA docs aimed at getting useful things done,
+This is a place to collect additional practical-minded PTA docs aimed at getting useful things done,
 often not app-specific.
 (See also: other [[index#cookbooks|cookbooks]] and [[index#docs|docs]].)
 If you don't see what you need here, ask for it in the [[index#news-discussion|chat]]

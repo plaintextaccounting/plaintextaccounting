@@ -37,7 +37,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 **[[Cookbook]]**
 \
 **[Docs](#docs):**
-  [Accounting](#accounting)
+  [Accounting basics](#accounting-basics)
 , [PTA app docs](#pta-app-docs)
 , [comparisons](#comparisons)
 , [intros](#intros)
@@ -328,7 +328,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 
 ## Docs
 
-**[Accounting](#accounting)
+**[Accounting basics](#accounting-basics)
 , [PTA app docs](#pta-app-docs)
 , [Comparisons](#comparisons)
 , [Intros](#intros)
@@ -336,10 +336,10 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 , [Cookbooks](#cookbooks)
 **
 
-### Accounting
+### Accounting basics
 
-- [hledger: Accounting links](https://hledger.org/accounting.html#accounting-links)
 - [hledger: Accounting basics](https://hledger.org/accounting.html)
+- [hledger: Accounting links](https://hledger.org/accounting.html#accounting-links)
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 - [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
 - [Accounting for Dragons](https://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)

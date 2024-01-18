@@ -1,7 +1,7 @@
 % Reporting
 
 - [example queries for Beancount](http://aumayr.github.io/beancount-sql-queries/)
-- [hledger Cookbook: Rewrite account names](https://github.com/simonmichael/hledger/wiki/Rewrite-account-names)
+- [hledger Cookbook: Rewrite account names](https://hledger.org/rewrite-account-names.html)
 - [Report Scripts for Ledger CLI with Gnuplot](https://www.sundialdreams.com/report-scripts-for-ledger-cli-with-gnuplot/)
 - [Full-fledged hledger tutorial](https://github.com/adept/full-fledged-hledger)
 - [Ledger Practices: Reporting Special Events Separately From Regular Spending](https://felixcrux.com/blog/ledger-practices-reporting-special-events-separately)
