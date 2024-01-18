@@ -1,7 +1,12 @@
 all: html
 
 # Generate html from all md files in src/, in out/
-html: $(patsubst src/%,out/%,$(patsubst %.md,%.html,$(wildcard src/*.md src/quickref/*.md))) Makefile
+html: Makefile $(patsubst src/%,out/%,$(patsubst %.md,%.html,$(wildcard src/*.md src/quickref/*.md)))
+
+# keep synced with above
+# keep src/*.md filenames clean (no apostrophes..) or this will break
+clean:
+	rm -f  $(patsubst src/%,out/%,$(patsubst %.md,%.html,$(wildcard src/*.md src/quickref/*.md)))
 
 PANDOC?=pandoc
 
@@ -41,7 +46,4 @@ html-watch watch:
 	make html-auto &
 	(sleep 1; $(BROWSE) http://localhost:$(LIVERELOADPORT)/) &
 	$(LIVERELOAD) out
-
-clean:
-	rm -f $(patsubst %.md,%.html,$(wildcard *.md))
 
