@@ -26,27 +26,26 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 
 </div>
 
-**Site map:**\
+<div id="sitemap">
+**Site map**\
 **[[What is Plain Text Accounting ?]]**\
 **[News & discussion](#news-discussion)**\
 **[Blogs & articles](#blogs-articles)**\
 **[Videos](#videos)**\
 **[Slides](#slides)**\
-**[Docs](#docs)**
-- [Accounting](#accounting)
+**[[FAQ]]**\
+**[[Cookbook]]**
+\
+**[Docs](#docs):**
+  [Accounting](#accounting)
 , [PTA app docs](#pta-app-docs)
 , [comparisons](#comparisons)
 , [intros](#intros)
 , [cheatsheets](#cheatsheets)
 , [cookbooks](#cookbooks)
 \
-**[[Cookbook|PTA Cookbook]]**
-- [[Cookbook#getting-started|Getting started]]
-, [[Cookbook#general-usage|General usage]]
-, [[Cookbook#accounting-situations|Accounting situations]]
-\
-**[Software](#software)**
-- [PTA apps](#pta-apps)
+**[Software](#software):**
+  [PTA apps](#pta-apps)
 , [Editor plugins](#editor-plugins)
 , [Data import/conversion](#data-importconversion)
 , [Price fetching](#price-fetching)
@@ -62,6 +61,8 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 , [Library](#library)
 , [Utilities](#utilities)
 , [API](#api)
+</div>
+
 
 ## News & discussion
 
@@ -390,7 +391,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 
 ### Cookbooks
 
-- [[Cookbook|PTA Cookbook]] the Plain Text Accounting Cookbook; more docs, FAQs, examples...
+- [[Cookbook]] the Plain Text Accounting Cookbook; more docs, FAQs, examples...
 - [Beancount cookbook](https://beancount.github.io/docs/command_line_accounting_cookbook.html)
 - [hledger cookbook](https://hledger.org/cookbook.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)

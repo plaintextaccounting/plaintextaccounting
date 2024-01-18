@@ -28,7 +28,7 @@ li {
     margin-bottom:0;
 }
 
-#TOC {
+#TOC, #sitemap {
     border-top:    thin solid black;
     padding-top:    1em;
     border-bottom: thin solid black;

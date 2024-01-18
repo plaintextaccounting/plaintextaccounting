@@ -12,8 +12,8 @@ and we'll add it, or you can
 ## Getting started
 
 - [[index|Home]] - links to news, videos, articles, docs and software.
-- [[FAQ]]
 - [[What is Plain Text Accounting ?]]
+- [[FAQ]]
 - [[Choosing accounts]]
 - [[Entering data]]
 - [[Don't Sink Your First Attempts at Plaintext Accounting]] h/ledger beginner syntax tips
