@@ -1,5 +1,2 @@
-.idea/
-.vendor/
-*.html
 .*
-_*
+/out/**/*.html
