@@ -43,6 +43,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 , [intros](#intros)
 , [cheatsheets](#cheatsheets)
 , [cookbooks](#cookbooks)
+, [FAQs](#faqs)
 \
 **[Software](#software):**
   [PTA apps](#pta-apps)
@@ -334,6 +335,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 , [Intros](#intros)
 , [Cheatsheets](#cheatsheets)
 , [Cookbooks](#cookbooks)
+, [FAQs](#faqs)
 **
 
 ### Accounting basics
@@ -396,6 +398,12 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [hledger cookbook](https://hledger.org/cookbook.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
 - [Reddit: plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
+
+### FAQs
+
+- [[FAQ]] the Plain Text Accounting FAQ
+- [hledger FAQ](https://hledger.org/faq.html)
+- [Ledger FAQ](https://github.com/ledger/ledger/wiki/FAQ)
 
 ## Software
 

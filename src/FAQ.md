@@ -1,6 +1,6 @@
 % Plain Text Accounting FAQ
 
-See also the [[Cookbook]] and [[index#docs|Docs]].
+See also the [[Cookbook]], [[index#docs|Docs]], and [[index#faqs|app-specific FAQs]].
 If you don't see what you need, ask for it in the [[index#news-discussion|chat]],
 or [add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/blob/master/src/FAQ.md).
 
