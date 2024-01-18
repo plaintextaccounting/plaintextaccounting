@@ -12,7 +12,7 @@ and we'll add it, or you can
 ## Getting started
 
 - [[index|Home]] - links to news, videos, articles, docs and software.
-- [[Newcomer FAQ]]
+- [[What is Plain Text Accounting]]
 - [[Getting started FAQ]]
 - [[Choosing accounts]]
 - [[Entering data]]

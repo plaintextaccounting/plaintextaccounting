@@ -1,4 +1,4 @@
-% Newcomer FAQ
+% What is Plain Text Accounting
 
 ## What is this
 
