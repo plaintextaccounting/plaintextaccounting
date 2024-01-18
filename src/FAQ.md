@@ -1,5 +1,9 @@
 % Plain Text Accounting FAQ
 
+See also the [[Cookbook]] and [[index#docs|Docs]].
+If you don't see what you need, ask for it in the [[index#news-discussion|chat]],
+or [add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/blob/master/src/FAQ.md).
+
 ## Getting started
 
 ### What's Plain Text Accounting ?
@@ -135,10 +139,13 @@ See also:
 - https://www.reddit.com/r/plaintextaccounting/comments/fcx8ls/multifile_ledger_setup/ (2020)
 - https://www.reddit.com/r/plaintextaccounting/comments/lhdy5c/how_to_handle_yearly_journals/ (2021)
 - https://www.reddit.com/r/plaintextaccounting/comments/184fz8r/is_it_possible_to_get_balance_from_multiple/ (2023)
-- https://www.reddit.com/r/plaintextaccounting/comments/18zxlbn/hledger_year_closing/ (2024)
 - https://groups.google.com/g/hledger/c/G0LLoV4PnBM/m/A2_5fXZQAgAJ (2023)
+- https://www.reddit.com/r/plaintextaccounting/comments/18zxlbn/hledger_year_closing/ (2024)
 - https://github.com/simonmichael/hledger/issues/2151
 
+
+
+## General usage
 
 ### How big is your ledger/journal file ?
 
@@ -146,3 +153,6 @@ For individual accounting, somewhere between 500-1500 transactions and 100-400 K
 
 - https://www.reddit.com/r/plaintextaccounting/comments/ay8ec0/limits_on_ledger_cli_file_size/ (2019)
 - https://www.reddit.com/r/plaintextaccounting/comments/dbjizl/how_big_is_your_ledgerjournal_file/ (2019)
+
+## Accounting situations
+

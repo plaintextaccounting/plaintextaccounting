@@ -391,7 +391,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 
 ### Cookbooks
 
-- [[Cookbook]] the Plain Text Accounting Cookbook; more docs, FAQs, examples...
+- [[Cookbook]] the Plain Text Accounting Cookbook; more docs, examples...
 - [Beancount cookbook](https://beancount.github.io/docs/command_line_accounting_cookbook.html)
 - [hledger cookbook](https://hledger.org/cookbook.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)

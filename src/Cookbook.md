@@ -2,11 +2,9 @@
 
 This is a place to collect additional practical-minded PTA docs aimed at getting useful things done,
 often not app-specific.
-(See also: other [[index#cookbooks|cookbooks]] and [[index#docs|docs]].)
-If you don't see what you need here, ask for it in the [[index#news-discussion|chat]]
-and we'll add it, or you can
-[add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/blob/master/src/Cookbook.md).
-
+See also the [[FAQ]], [[index#docs|Docs]], and [[index#cookbooks|app-specific cookbooks]].
+If you don't see what you need, ask for it in the [[index#news-discussion|chat]],
+or [add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/blob/master/src/Cookbook.md).
 
 ## Getting started
 
