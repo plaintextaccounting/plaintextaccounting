@@ -373,7 +373,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [hledger: Get Started](https://hledger.org/start.html)
 - [Getting Started with Beancount](https://beancount.github.io/docs/getting_started_with_beancount.html)
 - [Tackler: Quickstart](https://tackler.e257.fi/docs/quickstart/)
-- [Don't Sink Your First Attempts at Plaintext Accounting](Don't-Sink-Your-First-Attempts-at-Plaintext-Accounting.html) h/ledger syntax tips for beginners
+- [[Don't Sink Your First Attempts at Plaintext Accounting]]
 - [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
 - [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
 - [[Cookbook.html#getting-started|Cookbook: Getting started]]

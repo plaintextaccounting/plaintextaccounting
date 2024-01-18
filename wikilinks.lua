@@ -14,7 +14,7 @@ function Link(el)
    if el.title == "wikilink" then
       t = el.target .. "#"
       t = t:gsub(" ", "-")
-      -- t = t:gsub(t, "'", "")
+      t = t:gsub("'", "")
       path, frag = t:match("([^#]*)#([^#]*)")
       t = path
       if not (
