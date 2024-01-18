@@ -1,5 +1,10 @@
 % Plain Text Accounting (PTA)
 
+---
+toc: false
+...
+
+
 <!-- For editing tips, see ../README.md -->
 
 <div style="float:right; width:30%; margin:0 1em; z-index:-1;">

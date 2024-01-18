@@ -9,11 +9,7 @@ and we'll add it, or you can
 [add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/blob/master/src/Cookbook.md).
 
 
-**[Getting started](#getting-started)**\
-**[General usage](#general-usage)**\
-**[Accounting situations](#accounting-situations)**\
-
-### Getting started
+## Getting started
 
 - [[index|Home]] - links to news, videos, articles, docs and software.
 - [[Newcomer FAQ]]
@@ -23,7 +19,7 @@ and we'll add it, or you can
 - [[Don't Sink Your First Attempts at Plaintext Accounting]] h/ledger beginner syntax tips
 - [[quickref/index|Syntax quick reference]]
 
-### General usage
+## General usage
 
 - [[Importing data]]
 - [[Reconciling]]
@@ -34,7 +30,7 @@ and we'll add it, or you can
 - [[Recording dates]]
 - Starting a new file
 
-### Accounting situations
+## Accounting situations
 
 - [[Borrowing and Lending]]
 - [[Budgeting]]

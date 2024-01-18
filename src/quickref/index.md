@@ -1,5 +1,9 @@
 % Syntax quick reference
 
+---
+toc: false
+...
+
 <link href="quickref.css" rel="stylesheet">
 
   **[Big 3](index.html)**

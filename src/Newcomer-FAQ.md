@@ -1,8 +1,5 @@
 % Newcomer FAQ
 
-**[What is this](#what-is-this)**\
-**[Objections and concerns](#objections-and-concerns)**\
-
 ## What is this
 
 ### What is accounting, and what can it do for me?

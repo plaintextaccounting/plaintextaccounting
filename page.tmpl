@@ -37,6 +37,16 @@
 <p><a href="/">plaintextaccounting.org</a></p>
 <h1><a href="">$title$</a></h1>
 
+$if(toc)$
+<nav id="$idprefix$TOC" role="doc-toc">
+$if(toc-title)$
+<h2 id="$idprefix$toc-title">$toc-title$</h2>
+$endif$
+<b>Contents</b><br>
+$table-of-contents$
+</nav>
+$endif$
+
 $body$
 
 <hr>

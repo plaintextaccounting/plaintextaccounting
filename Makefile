@@ -15,6 +15,7 @@ html-cfp:
 
 MD2HTML=$(PANDOC) \
 	-f markdown-smart-tex_math_dollars+autolink_bare_uris+wikilinks_title_after_pipe \
+	--toc \
 	--lua-filter=wikilinks.lua \
 	--lua-filter=headings.lua \
 

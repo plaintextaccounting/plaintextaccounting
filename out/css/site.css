@@ -27,3 +27,10 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 li {
     margin-bottom:0;
 }
+
+#TOC {
+    border-top:    thin solid black;
+    padding-top:    1em;
+    border-bottom: thin solid black;
+    margin-bottom: 2em;
+}
