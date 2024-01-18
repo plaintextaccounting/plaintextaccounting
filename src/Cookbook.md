@@ -13,7 +13,7 @@ and we'll add it, or you can
 
 - [[index|Home]] - links to news, videos, articles, docs and software.
 - [[What is Plain Text Accounting]]
-- [[Getting started FAQ]]
+- [[FAQ]]
 - [[Choosing accounts]]
 - [[Entering data]]
 - [[Don't Sink Your First Attempts at Plaintext Accounting]] h/ledger beginner syntax tips

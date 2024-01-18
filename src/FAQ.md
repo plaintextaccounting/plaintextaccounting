@@ -1,4 +1,6 @@
-% Getting started FAQ
+% PTA FAQ
+
+## Getting started
 
 ### Which PTA app should I choose ?
 

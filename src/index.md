@@ -355,7 +355,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 ### Comparisons
 
 - [PTA apps](#pta-apps) project stats
-- [[Getting-started-FAQ#which-pta-app-should-i-choose|Getting started FAQ: Which PTA app should I choose ?]]
+- [[FAQ#which-pta-app-should-i-choose|FAQ: Which PTA app should I choose ?]]
 - [hledger and Ledger](https://hledger.org/ledger.html),
   [hledger and Beancount](https://hledger.org/beancount.html),
   [hledger and other software](https://hledger.org/cookbook.html#other-software) 2014, 2019, 2022, 2023..
