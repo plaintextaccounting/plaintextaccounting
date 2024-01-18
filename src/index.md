@@ -27,7 +27,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 </div>
 
 **Site map:**\
-**[[What is Plain Text Accounting]]**\
+**[[What is Plain Text Accounting ?]]**\
 **[News & discussion](#news-discussion)**\
 **[Blogs & articles](#blogs-articles)**\
 **[Videos](#videos)**\
@@ -368,7 +368,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 
 ### Intros
 
-- [[What is Plain Text Accounting]]
+- [[What is Plain Text Accounting?]]
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
 - [hledger: Get Started](https://hledger.org/start.html)
 - [Getting Started with Beancount](https://beancount.github.io/docs/getting_started_with_beancount.html)

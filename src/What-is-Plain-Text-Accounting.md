@@ -1,4 +1,4 @@
-% What is Plain Text Accounting
+% What is Plain Text Accounting ?
 
 ## What is this
 
