@@ -724,6 +724,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 ### Reporting
 
 - [budget_report](https://github.com/sulemankm/budget_report) budget reporting with beancount (python)
+- [gainstrack](https://github.com/glorat/gainstrack) personal wealth analysis app with beancount export (scala/typescript)
 - [hledger-diff](https://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals (haskell)
 - [hledger-irr](https://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](https://hledger.org/hledger.html#roi)) (haskell)
 - [hledger-sankey](https://github.com/adept/hledger-sankey) Script + HTML files to plot income next to expense money flows from an hledger ledger file (shell + javascript)
