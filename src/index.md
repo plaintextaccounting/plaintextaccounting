@@ -118,7 +118,9 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 
 ### 2024 {#2024}
 
-- [Robert Nielsen: Getting ledger-mode to work again!](https://hledgerfan.com/why-i-installed-ledger/)  <!-- 2024-01-11 -->
+- [Robert Nielsen: Creating phony hledger transactions](https://hledgerfan.com/creating-phony-hledger-transactions/)  <!-- 2024-01-25 -->
+- [Robert Nielsen: First step in closing out 2023](https://hledgerfan.com/first-step-in-closing-out-2023/)  <!-- 2024-01-18 -->
+- [Robert Nielsen: Why I installed Ledger](https://hledgerfan.com/why-i-installed-ledger/)  <!-- 2024-01-11 -->
 - [Robert Nielsen: Better Emacs = better hledger](https://hledgerfan.com/better-emacs-better-hledger)  <!-- 2024-01-04 -->
 - [Serge Wroclawski: Implementing Profit First with Plain Text Accounting](https://blog.emacsen.net/profit-first-plain-text-accounting.html) <!-- 2024-01-04 -->
 - [Serge Wroclawski: I use Profit First, the Theory of Constraints, and Plain Text Accounting to help my small business](https://blog.emacsen.net/profit-first-constraints-plain-text-accounting.html) <!-- 2024-01-02 -->
