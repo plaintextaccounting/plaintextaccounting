@@ -143,7 +143,23 @@ See also:
 - https://www.reddit.com/r/plaintextaccounting/comments/18zxlbn/hledger_year_closing/ (2024)
 - https://github.com/simonmichael/hledger/issues/2151
 
+### Where are debits and credits ? Why are some balances negative ?
 
+Many plain text accounting tools use negative and positive numbers in place of the traditional *credit* and *debit* terminology.
+Of course the credits and debits are still there; in this system, whenever you see a negative amount being posted in an account, it is a credit, and when you see a positive amount posted, it is a debit.
+This is just a different surface presentation, which most newcomers find more intuitive and easier to learn.
+
+Because of this, PTA tools often show liability, equity, and revenue account balances as negative numbers.
+So eg when a liability becomes larger (more debt!), the balance becomes a larger negative number (more negative).
+
+Similarly, when equity or revenues increase, their numbers get more negative.
+You'll get used to reading these kind of reports in a day or two.
+Some PTA tools also give the option of flipping these negative signs, or showing traditional credit and debit terminology.
+
+More discussion:
+
+- [reddit: Is there any plain text accounting software which uses standard debits and credits?](https://www.reddit.com/r/plaintextaccounting/comments/18sbmsx/is_there_any_plain_text_accounting_software_which/)
+- [hledger FAQ: Why are my revenue (income), liability, and equity balances negative ?](https://hledger.org/faq.html#why-are-my-revenue-income-liability-and-equity-balances-negative-)
 
 ## General usage
 
