@@ -118,6 +118,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 
 ### 2024 {#2024}
 
+- [Robert Nielsen: Working program to generate fake hledger transactions](https://hledgerfan.com/working-program-to-generate-fake-hledger-transactions/) <!-- 2024-02-01 -->
 - [Robert Nielsen: Creating phony hledger transactions](https://hledgerfan.com/creating-phony-hledger-transactions/)  <!-- 2024-01-25 -->
 - [Robert Nielsen: First step in closing out 2023](https://hledgerfan.com/first-step-in-closing-out-2023/)  <!-- 2024-01-18 -->
 - [Robert Nielsen: Why I installed Ledger](https://hledgerfan.com/why-i-installed-ledger/)  <!-- 2024-01-11 -->
