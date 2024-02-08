@@ -117,7 +117,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 *A partial list, contributions welcome*
 
 ### 2024 {#2024}
-
+- [Robert Nielsen: The code to generate random hledger transactions](https://hledgerfan.com/the-code-to-generate-random-hledger-transactions/)  <!-- 2024-02-08 -->
 - [Robert Nielsen: Working program to generate fake hledger transactions](https://hledgerfan.com/working-program-to-generate-fake-hledger-transactions/) <!-- 2024-02-01 -->
 - [Robert Nielsen: Creating phony hledger transactions](https://hledgerfan.com/creating-phony-hledger-transactions/)  <!-- 2024-01-25 -->
 - [Robert Nielsen: First step in closing out 2023](https://hledgerfan.com/first-step-in-closing-out-2023/)  <!-- 2024-01-18 -->
