@@ -3,14 +3,23 @@
 Some rules of thumb:
 
 - It helps to use the standard five top level accounts (assets, liabilities, equity, revenues, expenses, in your preferred language).
+
 - Add subaccounts as driven by your reporting needs. Otherwise keep account names simple.
+
 - Expect your chart of accounts to evolve as needs change; keep tending it.
+
 - If using english names: should it be revenues or income ? Whichever you prefer (revenues is slightly more technically correct).
-- Spaces, no spaces, or hyphens for multi-word names ? Spaces look a little nicer but require extra quoting eg at the command line.
-- Lower case or capitalised ? As you prefer. All lower case reduces typing/spelling effort.
+
+- Lower case or capitalised ? 
+  As you prefer. All lower case reduces typing/spelling effort.
+
+- Spaces, no spaces, or hyphens for multi-word names ?
+  Spaces look a little nicer but require extra quoting. (Seriously consider avoiding spaces in account names, you may be glad of it later.)
+
 - Accounts, tags, or other fields for categorising ? Use accounts for your primary categorising as they are best supported.
   Consider using tags if you have cross-cutting categorising schemes.
   For adhoc/infrequent categorising, some matchable text in the description might be enough.
+
 - Shallow or deep account hierarchy ? 
   If your tools are good at summarising deep hierarchies, don't be afraid of deep/detailed subaccounts.
   On the other hand don't add more detail than you really need.
