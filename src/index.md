@@ -84,6 +84,9 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 **Reddit**
 - [/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
 \
+**Lemmy**
+- [lemmy.world/c/plaintextaccounting](https://lemmy.world/c/plaintextaccounting?sort=New)
+\
 **Hacker News**
 - [stories](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=story)
 - [comments](https://hn.algolia.com/?query=plain%20text%20accounting&sort=byDate&prefix=false&page=0&dateRange=all&type=comment)
