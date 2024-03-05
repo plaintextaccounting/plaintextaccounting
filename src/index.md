@@ -81,6 +81,9 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 **Mail lists**
 - [app-specific mail lists](#pta-apps)
 \
+**Discourse**
+- [forum.plaintextaccounting.org](https://forum.plaintextaccounting.org)
+\
 **Reddit**
 - [/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
 \
