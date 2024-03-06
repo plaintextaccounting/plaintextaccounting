@@ -73,8 +73,8 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [issues](https://github.com/plaintextaccounting/plaintextaccounting/issues?q=is%3Aissue+)
 \
 **Chat**
-- [IRC](https://web.libera.chat/#plaintextaccounting) (~50)
-- [matrix](https://matrix.to/#/#plaintextaccounting:matrix.org) (~60)
+- [IRC](https://web.libera.chat/#plaintextaccounting)
+- [matrix](https://matrix.to/#/#plaintextaccounting:matrix.org)
 - [matrix space (room list)](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
 - [app-specific chats](#pta-apps)
 \
