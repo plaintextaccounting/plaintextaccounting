@@ -67,22 +67,19 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 
 ## News & discussion
 
-**Site news**
+**Site updates**
 - [commits](https://github.com/plaintextaccounting/plaintextaccounting/commits/master)
 - [contributors](https://github.com/plaintextaccounting/plaintextaccounting/graphs/contributors)
 - [issues](https://github.com/plaintextaccounting/plaintextaccounting/issues?q=is%3Aissue+)
+\
+**Plain Text Accounting forum**
+- [forum.plaintextaccounting.org](https://forum.plaintextaccounting.org)
 \
 **Chat**
 - [IRC](https://web.libera.chat/#plaintextaccounting)
 - [matrix](https://matrix.to/#/#plaintextaccounting:matrix.org)
 - [matrix space (room list)](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
 - [app-specific chats](#pta-apps)
-\
-**Mail lists**
-- [app-specific mail lists](#pta-apps)
-\
-**Discourse**
-- [forum.plaintextaccounting.org](https://forum.plaintextaccounting.org)
 \
 **Reddit**
 - [/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
@@ -114,7 +111,8 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [hledger search](https://money.stackexchange.com/search?tab=newest&q=hledger)
 <!-- - [beancount](https://money.stackexchange.com/search?tab=newest&q=beancount) -->
 \
-**Other**
+**Project-specific**
+- [Project mail lists](#pta-apps)
 - [This Week In Hledger](https://hledger.org/news.html)
 
 
