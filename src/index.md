@@ -79,7 +79,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [#plaintextaccounting on matrix](https://matrix.to/#/#plaintextaccounting:matrix.org)
 - [matrix space](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
 - [#plaintextaccounting on IRC](https://web.libera.chat/#plaintextaccounting)
-- [app-specific chats](#pta-apps)
+- [project chats](#pta-apps)
 \
 **Reddit**
 - [/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
@@ -111,7 +111,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [hledger search](https://money.stackexchange.com/search?tab=newest&q=hledger)
 <!-- - [beancount](https://money.stackexchange.com/search?tab=newest&q=beancount) -->
 \
-**Project-specific**
+**Project specific**
 - [Project mail lists](#pta-apps)
 - [This Week In Hledger](https://hledger.org/news.html)
 
