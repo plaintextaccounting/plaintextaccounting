@@ -76,9 +76,9 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [forum.plaintextaccounting.org](https://forum.plaintextaccounting.org)
 \
 **Chat**
-- [IRC](https://web.libera.chat/#plaintextaccounting)
-- [matrix](https://matrix.to/#/#plaintextaccounting:matrix.org)
-- [matrix space (room list)](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
+- [#plaintextaccounting on matrix](https://matrix.to/#/#plaintextaccounting:matrix.org)
+- [matrix space](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
+- [#plaintextaccounting on IRC](https://web.libera.chat/#plaintextaccounting)
 - [app-specific chats](#pta-apps)
 \
 **Reddit**
