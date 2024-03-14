@@ -729,6 +729,12 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 - [reorder-journal.sh](https://github.com/amitaibu/hledger-example/blob/master/reorder-journal.sh) sort hledger entries, preserving directives/comments at top of file (bash)
 - [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
 
+### Workflows
+
+- [Full-fledged hledger](https://github.com/adept/full-fledged-hledger) scripts and detailed tutorial for generating hledger journals from CSV files (haskell, shell)
+- [hledger-flow](https://github.com/apauley/hledger-flow) command-line tool to generate hledger (or Ledger) journals from CSV files (haskell)
+- [rtrledger](https://github.com/rotorkunstkultur/rtrledger) another hledger journals from CSV files system, designed for chaotic German freelancers (shell etc.)
+
 ### Formatting
 
 - [beancount-black](https://github.com/LaunchPlatform/beancount-black) opinionated beancount file formatter
