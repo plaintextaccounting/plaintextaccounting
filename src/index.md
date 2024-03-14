@@ -121,6 +121,11 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 *A partial list, contributions welcome*
 
 ### 2024 {#2024}
+
+- [Robert Nielsen: Don't make this planning mistake with hledger](https://hledgerfan.com/dont-make-this-planning-mistake-with-hledger/)  <!-- 2024-03-07 -->
+- [Robert Nielsen: Needs, strategies and spending](https://hledgerfan.com/needs-strategies-and-spending/)  <!-- 2024-02-29 -->
+- [Robert Nielsen: Creating a positive impact](https://hledgerfan.com/creating-a-positive-impact/)  <!-- 2024-02-22 -->
+- [Robert Nielsen: Include was the key](https://hledgerfan.com/include-was-the-key/)  <!-- 2024-02-15 -->
 - [Robert Nielsen: The code to generate random hledger transactions](https://hledgerfan.com/the-code-to-generate-random-hledger-transactions/)  <!-- 2024-02-08 -->
 - [Robert Nielsen: Working program to generate fake hledger transactions](https://hledgerfan.com/working-program-to-generate-fake-hledger-transactions/) <!-- 2024-02-01 -->
 - [Robert Nielsen: Creating phony hledger transactions](https://hledgerfan.com/creating-phony-hledger-transactions/)  <!-- 2024-01-25 -->
@@ -132,6 +137,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 
 ### 2023 {#2023}
 
+- [Tavis Ormandy: Ledger](https://lock.cmpxchg8b.com/ledger.html)  <!-- 2023-12-?? -->
 - [Robert Nielsen: Fixing my mistake after accidentally adding pending transactions](https://hledgerfan.com/fixing-my-mistake-after-accidentally-adding-pending-transactions/) <!-- 2023-12-28 -->
 - [Robert Nielsen: A better desc(ription)](https://hledgerfan.com/a-better-description/) <!-- 2023-12-21 -->
 - [Robert Nielsen: Upgrading to hledger 1.32, a book on graphic design, and ledger-mode-clean-buffer](https://hledgerfan.com/upgrading-to-hledger-1-32-a-book-on-graphic-design-and-ledger-mode-clean-buffer/) <!-- 2023-12-07 -->
