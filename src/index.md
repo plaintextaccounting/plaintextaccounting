@@ -188,6 +188,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [Zoran Zaric: Budgeting for annual expenses with Hledger](http://rantsideasstuff.com/posts/2021/01/31-budgeting-for-annual-expenses-with-hledger/) <!-- 2021/01/31 -->
 <!-- - [Samuel Walladge: Tracking capital gains with hledger](https://www.swalladge.net/archives/2021/01/30/hledger-tracking-capital-gains/) <\!-- 2021/01/30 -\-> -->
 - [Duarte O.Carmo: Hacking on my finances (Part 2: Beancount on Beanstalk)](https://duarteocarmo.com/blog/hacking-on-my-finances-part-2-beancount-on-beanstalk.html) <!-- 2021/01/15 -->
+- [Red S: The Five-Minute Ledger Update](https://reds-rants.netlify.app/personal-finance/the-five-minute-ledger-update/)
 
 ### 2020 {#2020}
 
