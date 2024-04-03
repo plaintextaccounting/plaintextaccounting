@@ -22,16 +22,16 @@ The current setup is this:
 
 - To help cover project expenses like hosting, donate here; these are tracked (anonymised) in the public ledger below.
   Any surplus will be used as judged best by the CFO, eg to build up a future-proofing reserve and to fund PTA-related work in future.
-  - [![Github](https://img.shields.io/badge/Support_PTA_via-Github-limegreen "Support PTA via Github")](https://github.com/sponsors/plaintextaccounting)
-  - <div id="paypal-pta-button">Support PTA via Paypal</div>
+  - Support PTA via Github: [![Github sponsor PTA](https://img.shields.io/badge/Github_sponsor-PTA-limegreen "Github sponsor PTA")](https://github.com/sponsors/plaintextaccounting)
+  - <div id="paypal-pta-button">Support PTA via Paypal:</div>
 
 <!-- [![Paypal](https://img.shields.io/badge/Support_PTA_via-Paypal-limegreen "Support PTA via Paypal")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5J33NLXYXCYAY) -->
 
 - To support the core workers, donate privately here:\
-  - [![Github](https://img.shields.io/badge/Support_Simon_via-Github-limegreen "Support Simon via Github")](https://github.com/sponsors/simonmichael)
+  - Support PTA via Github: [![Github sponsor Simon](https://img.shields.io/badge/Github_sponsor-Simon-limegreen "Github sponsor Simon")](https://github.com/sponsors/simonmichael)
       (I won't know this is for PTA work specifically, feel free to [let me know](index.html#news-discussion))
     <!-- [![Paypal](https://img.shields.io/badge/Support_Simon_via-Paypal-limegreen "Support Simon via Paypal")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5J33NLXYXCYAY) -->
-  - <div id="paypal-sm-button">Support Simon via Paypal</div>
+  - <div id="paypal-sm-button">Support Simon via Paypal:</div>
   - Support moderators: later when they have something to do
 
 Github charges 0% fees for personal accounts, [3-6% fees](https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/about-github-sponsors-for-open-source-contributors#sponsorship-payouts) for organization accounts.\
