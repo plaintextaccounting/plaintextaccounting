@@ -10,7 +10,7 @@ clean:
 
 PANDOC?=pandoc
 
-# help update finance.md from finance/* (manual edits needed)
+# regenerate finance.md from finance/*
 finance-md:
 	( \
 	echo 'Finances of the Plain Text Accounting org.'; \
@@ -20,6 +20,7 @@ finance-md:
 	echo ; \
 	hledger -f finance/pta.journal is -O html; \
 	echo ; \
+	echo '## General Journal'; \
 	echo '```hledger'; hledger -f finance/pta.journal print -x; echo '```'; \
 	) >src/finance.md
 
