@@ -22,6 +22,7 @@ finance-md:
 	echo ; \
 	echo ; \
 	echo '## General Journal'; \
+	echo '(<a href="https://github.com/plaintextaccounting/plaintextaccounting/blob/master/finance/pta.journal">source</a>)'; \
 	echo '```hledger'; hledger -f finance/pta.journal print -x; echo '```'; \
 	) >>src/finance.md.tmp
 	mv src/finance.md.tmp src/finance.md

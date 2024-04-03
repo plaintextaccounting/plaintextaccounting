@@ -71,6 +71,7 @@ tr:nth-child(even) td { background-color:#eee; }
 </style><link rel="stylesheet" href="hledger.css"><table><tr><th colspan="2" style="text-align:left"><h2>Income Statement 2024-03-30</h2></th></tr><tr><th></th><th>2024-03-30</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th colspan="2" style="text-align:left">Revenues</th></tr><tr><th style="text-align:left">total</th><th class="amount coltotal" style="text-align:right">0</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th colspan="2" style="text-align:left">Expenses</th></tr><tr><td class="account" style="text-align:left">expenses:hosting</td><td class="amount" style="text-align:right">$50</td></tr><tr><th style="text-align:left">total</th><th class="amount coltotal" style="text-align:right">$50</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th style="text-align:left">Net:</th><th class="amount coltotal" style="text-align:right">$-50</th></tr></table>
 
 ## General Journal
+(<a href="https://github.com/plaintextaccounting/plaintextaccounting/blob/master/finance/pta.journal">source</a>)
 ```hledger
 2024-03-30 begin tracking finances of the plaintextaccounting org.
 
