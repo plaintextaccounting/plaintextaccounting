@@ -22,8 +22,8 @@ This site collects the PTA community's tools, docs and practices.
 It is maintained by Simon&nbsp;Michael (hledger project leader, PTA fan)
 and contributors like you. 
 We invite you to join the [chat](#news-discussion),
-contribute [content](https://github.com/plaintextaccounting/plaintextaccounting),
-and if you found the plaintextaccounting.org sites useful, [[finance|help with funding]].
+contribute to the [repo](https://github.com/plaintextaccounting/plaintextaccounting),
+and if you found the plaintextaccounting.org sites useful, help with [[finance]].
 
 </div>
 
@@ -72,9 +72,9 @@ and if you found the plaintextaccounting.org sites useful, [[finance|help with f
 - [forum.plaintextaccounting.org](https://forum.plaintextaccounting.org)
 \
 **Chat**
-- [#plaintextaccounting on matrix](https://matrix.to/#/#plaintextaccounting:matrix.org)
+- [matrix room](https://matrix.to/#/#plaintextaccounting:matrix.org)
 - [matrix space](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
-- [#plaintextaccounting on IRC](https://web.libera.chat/#plaintextaccounting)
+- [IRC channel](https://web.libera.chat/#plaintextaccounting)
 - [project chats](#pta-apps)
 \
 **Blogs & articles**
@@ -115,10 +115,11 @@ and if you found the plaintextaccounting.org sites useful, [[finance|help with f
 - [Project mail lists](#pta-apps)
 - [This Week In Hledger](https://hledger.org/news.html)
 \
-**plaintextaccounting.org site updates**
+**plaintextaccounting.org site**
 - [commits](https://github.com/plaintextaccounting/plaintextaccounting/commits/master)
 - [contributors](https://github.com/plaintextaccounting/plaintextaccounting/graphs/contributors)
 - [issues](https://github.com/plaintextaccounting/plaintextaccounting/issues?q=is%3Aissue+)
+- [email the site admin](mailto:webmaster@plaintextaccounting.org)
 
 ## Videos
 
