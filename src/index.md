@@ -151,10 +151,10 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 ## Slides
 
 - [Simon Michael: Inside hledger: an architectural tour and how-to](https://rawcdn.githack.com/simonmichael/hledger/4013a81af8dd2804c73ecac18fb3e7e4745a4275/doc/haskellerz/haskellerz.slidy.html) 2021
-- [Michael Lynch](https://decks.mtlynch.io/plaintext-acccounting/) 2021
+- [Michael Lynch: An introduction to plaintext accounting](https://decks.mtlynch.io/plaintext-acccounting/) 2021
 - [Andreas Pauley: Purely Functional Personal Finance](https://pauley.org.za/functional-finance-hledger/) 2018
 <!-- gone - [Ledger CLI Accounting for Geeks](http://blog.loadingdata.nl/accounting-for-geeks/) 2014 -->
-- [Hacking Your Finances for Fun and Profit](https://matthewturland.com/slides/ledger-stats/) 2013
+- [Matthew Turland: Hacking Your Finances for Fun and Profit](https://matthewturland.com/slides/ledger-stats/) 2013
 <!-- gone - [Ledger and Text based Accounting](http://www.adamsinfoserv.com/AISTWiki/pub/AIS/Presentations/Ledger.pdf) 2009 -->
 
 ## Docs
