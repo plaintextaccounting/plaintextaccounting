@@ -12,7 +12,7 @@ PANDOC?=pandoc
 
 # regenerate part of finance.md from finance/*
 finance-md:
-	sed '/<!-- Generated/q' <src/finance.md >src/finance.md.tmp
+	sed '/<!-- Everything below is regenerated/q' <src/finance.md >src/finance.md.tmp
 	( \
 	echo ; \
 	hledger -f finance/pta.journal bs -O html; \
