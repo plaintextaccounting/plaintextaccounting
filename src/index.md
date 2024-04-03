@@ -67,18 +67,18 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 
 ## News & discussion
 
-**Plain Text Accounting forum**
+**Forum**
 - [forum.plaintextaccounting.org](https://forum.plaintextaccounting.org)
-\
-**Blog posts & articles**
-- Watch the PTA forum and its [RSS feed](https://forum.plaintextaccounting.org/latest.rss?order=created).
-  See also older [[blogs|Blogs & articles 2006-2024]].
 \
 **Chat**
 - [#plaintextaccounting on matrix](https://matrix.to/#/#plaintextaccounting:matrix.org)
 - [matrix space](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
 - [#plaintextaccounting on IRC](https://web.libera.chat/#plaintextaccounting)
 - [project chats](#pta-apps)
+\
+**Blogs & articles**
+- see the PTA forum and its [RSS feed](https://forum.plaintextaccounting.org/latest.rss?order=created).
+  See also older [[blogs|Blogs & articles 2006-2024]].
 \
 **Reddit**
 - [/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
@@ -101,7 +101,7 @@ or help improve the [content](https://github.com/plaintextaccounting/plaintextac
 - [#ledgercli](https://twitter.com/hashtag/ledgercli?f=live)
 - [#hledger](https://twitter.com/hashtag/hledger?f=live)
 - [#beancount](https://twitter.com/hashtag/beancount?f=live)
-- [\@LedgerTips](https://twitter.com/LedgerTips)
+- [LedgerTips 2014-2018](https://twitter.com/LedgerTips)
 \
 **Stack Exchange**
 - [ledger-cli tag](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest)
