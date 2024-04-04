@@ -123,6 +123,7 @@ and if you found the plaintextaccounting.org sites useful, help with [[finance]]
 
 ## Videos
 
+- [Thanga Ayyanar: Ledger CLI](https://www.youtube.com/watch?v=PQKOiU_spHg) (in Tamil) 2024 <!-- 03-31 -->
 - [Edwin Espinoza: Ledger CLI, Personal finance in the command line](https://www.youtube.com/watch?v=EWjoblLoD3k) 2023 <!-- 04-23 -->
 - [Prakash Joshi Pax: How to Use Obsidian to Track Your Expenses](https://www.youtube.com/watch?v=UPyy52MfC3Q) 2022 <!-- 12-23 -->
 - [Peter Berger: Plain Text Accounting: An Opinionated View](https://www.youtube.com/watch?v=ZDF7xVtKLu0&t=1s) 2022 <!-- 09-02 -->
