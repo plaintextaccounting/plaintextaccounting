@@ -13,15 +13,15 @@ Here are several methods:
    The app has special syntax and support for lots.
    - Beancount: https://docs.google.com/document/d/1F8IJ_7fMHZ75XFPocMokLxVZczAhrBRBVN9uMhQFCZ4/edit#heading=h.katmw1lwm4yh
    - Ledger: https://ledger-cli.org/doc/ledger3.html#Buying-and-Selling-Stock
+   - [docker-finance](https://gitea.com/EvergreenCrypto/docker-finance) 
+     ([discussion](https://forum.plaintextaccounting.org/t/docker-finance-modern-accounting-for-the-power-user/189)) 
+     does many things, some trading related. Runs hledger and hledger-flow.
 
 3. **Lot entry-generating tools**.
    Add-on tools help generate lot-aware entries.
    - [lotter](https://src.d10.dev/lotter/doc/tip/README.md) detects lots from ordinary transactions, adds lot information to buy/sell entries. Runs ledger.
    - [hledger-lots](https://github.com/edkedk99/hledger-lots) detects lots from ordinary transactions, helps make buy/sell entries. Runs hledger.
    - [hledger-move](https://hledger.org/scripts.html#hledger-move) is a lower-level tool to help make trading (sell) entries. Works with hledger journals.
-   - [docker-finance](https://gitea.com/EvergreenCrypto/docker-finance) 
-      ([discussion](https://forum.plaintextaccounting.org/t/docker-finance-modern-accounting-for-the-power-user/189)) 
-      does many things, possibly including making trading entries. Runs hledger-flow.
 
 Sometimes calculating average cost basis is needed, and this another challenge, currently not well supported.
 
