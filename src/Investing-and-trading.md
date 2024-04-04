@@ -23,6 +23,8 @@ Here are several methods:
       ([discussion](https://forum.plaintextaccounting.org/t/docker-finance-modern-accounting-for-the-power-user/189)) 
       does many things, possibly including making trading entries. Runs hledger-flow.
 
+Sometimes calculating average cost basis is needed, and this another challenge, currently not well supported.
+
 More:
 
 - [Beancount: Inventory Booking](https://docs.google.com/document/d/1F8IJ_7fMHZ75XFPocMokLxVZczAhrBRBVN9uMhQFCZ4) (2014), [discussion](https://groups.google.com/forum/#!searchin/ledger-cli/inventory/ledger-cli/aQvbjTZa7HE/x3KNPteJWPsJ)
