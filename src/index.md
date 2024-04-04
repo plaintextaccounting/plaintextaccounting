@@ -78,8 +78,8 @@ and if you found the plaintextaccounting.org sites useful, help with [[finance]]
 - [project chats](#pta-apps)
 \
 **Blogs & articles**
-- see the PTA forum and its [RSS feed](https://forum.plaintextaccounting.org/latest.rss?order=created).
-  See also older [[blogs|Blogs & articles 2006-2024]].
+- see the PTA forum and its [RSS feed](https://forum.plaintextaccounting.org/latest.rss?order=created);
+  also older [[blogs|Blogs & articles 2006-2024]].
 \
 **Reddit**
 - [/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
