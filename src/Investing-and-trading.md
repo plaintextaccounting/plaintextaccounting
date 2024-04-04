@@ -7,7 +7,6 @@ Here are several methods:
 
 1. **Lot subaccounts** (works in all double-entry accounting software). 
    Each lot is given an explicit subaccount, entries are created manually.
-   Flexible.
    - https://forum.plaintextaccounting.org/t/repost-example-calculating-uk-capital-gains-with-ledger/227/2
 
 2. **Lot syntax** (Beancount & Ledger).
