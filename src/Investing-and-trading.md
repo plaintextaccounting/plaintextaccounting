@@ -18,7 +18,9 @@ Here are several methods of accounting for investments and trading in PTA:
    - [lotter](https://src.d10.dev/lotter/doc/tip/README.md) detects lots from ordinary transactions, adds lot information to buy/sell entries. Runs ledger.
    - [hledger-lots](https://github.com/edkedk99/hledger-lots) detects lots from ordinary transactions, helps make buy/sell entries. Runs hledger.
    - [hledger-move](https://hledger.org/scripts.html#hledger-move) is a lower-level tool to help make trading (sell) entries. Works with hledger journals.
-   - [docker-finance](https://gitea.com/EvergreenCrypto/docker-finance) ([discussion](https://forum.plaintextaccounting.org/t/docker-finance-modern-accounting-for-the-power-user/189)) helps with making trading entries (& many other things). Runs hledger-flow.
+   - [docker-finance](https://gitea.com/EvergreenCrypto/docker-finance) 
+      ([discussion](https://forum.plaintextaccounting.org/t/docker-finance-modern-accounting-for-the-power-user/189)) 
+      does many things, possibly including making trading entries. Runs hledger-flow.
 
 More:
 
