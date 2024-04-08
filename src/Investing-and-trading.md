@@ -5,7 +5,7 @@ Stocks, cryptocurrencies, etc.
 The main challenge of accounting for investments and trading in PTA is tracking lots and disposing (selling) them in the right order.
 Here are several methods:
 
-1. **Lot subaccounts** (works with any PTA apps or other double-entry accounting software). 
+1. **Lot subaccounts** (works with any PTA app). 
    Each lot is given an explicit subaccount, entries are created manually.
    - hledger/ledger example: https://forum.plaintextaccounting.org/t/repost-example-calculating-uk-capital-gains-with-ledger/227/2
 
