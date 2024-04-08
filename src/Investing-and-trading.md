@@ -1,6 +1,7 @@
 % Investing and trading
 
-Stocks, cryptocurrencies, etc.
+Stocks, EFTs, cryptocurrencies, etc.
+(The journal entries are much the same for any of these, so feel free to translate examples to different commodities.)
 
 The main challenge of accounting for investments and trading in PTA is tracking lots and disposing (selling) them in the right order.
 Here are several methods:
