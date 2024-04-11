@@ -128,7 +128,7 @@ But with this convention,
 when you see a positive amount being posted in an account, it is a debit,
 and when you see a negative amount posted, it is a credit.
 
-(Or possibly a contra-debit or contra-credit respectively. "Contra" means "opposite to the normal direction".)
+(Or possibly a contra-credit or contra-debit respectively. "Contra" means "opposite to the normal direction".)
 
 (Be warned of the usual pitfall that banks and businesses use "debit" and "credit" from their point of view, ie reversed, when communicating with customers.)
 
