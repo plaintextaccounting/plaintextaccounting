@@ -82,6 +82,22 @@ Equity = Assets - Liabilities
 
 Assets = Liabilities + Equity + Revenue − Expenses
 
+You can check the accounting equation for your accounts by inspecting an ALE balance report
+like [`hledger bse`](https://hledger.org/dev/hledger.html#balancesheetequity).
+(In personal accounting, an imbalance in the accounting equation isn't necessarily a problem, and most people don't bother checking it.)
+
+### What are balanced transactions ?
+
+A transaction where the sum of inflows is equal to the sum of outflows
+(or with the signed number convention described below: where all of the posted amounts sum to zero),
+confirming that no money appeared or disappeared.
+
+PTA apps and other double-entry bookkeeping software enforce balanced transactions to help prevent errors
+(sometimes with [exceptions](https://hledger.org/dev/hledger.html#virtual-postings) for special circumstances).
+
+Note, balanced transactions does not imply a balanced accounting equation.
+Both of these can help detect errors, but balanced transactions is a higher priority.
+
 - [Wikipedia](https://en.wikipedia.org/wiki/Accounting_equation)
 - [Investopedia](https://www.investopedia.com/terms/a/accounting-equation.asp)
 
