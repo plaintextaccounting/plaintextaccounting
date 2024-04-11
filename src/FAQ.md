@@ -53,7 +53,7 @@ See [[Choosing accounts]].
 
 ### Why are some balances negative ?
 
-See [[#where-are-debits-and-credits|Where are debits and credits ?]]
+See [[#where-are-debits-and-credits-why-do-some-balances-look-negative|Where are debits and credits ?]]
 
 ## Accounting
 
