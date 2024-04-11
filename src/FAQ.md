@@ -65,7 +65,7 @@ In english, they are **Assets** (things you own), **Liabilities** (things you ow
 
 In practice, two more top level accounts are used, making five.
 In english: **Assets**, **Liabilities**, **Equity**, **Revenues** (or **Income**), **Expenses**.
-Sometimes abbreviated to single letters; hledger uses A, L, E, R, X.
+Sometimes abbreviated to single letters; hledger uses **A**, **L**, **E**, **R**, **X**.
 
 Revenues and Expenses are essentially inflows and outflows during some period;
 technically they are changes in Equity, reported separately for clarity.
@@ -78,13 +78,13 @@ More: [hledger: Accounting Basics](https://hledger.org/accounting.html#debits-an
 It is a simple  formula that always holds true when bookkeeping is correct. 
 You'll see it written in different ways, eg:
 
-**Equity = Assets - Liabilities**
+Equity = Assets - Liabilities
 
-**Assets + Liabilities + Equity = 0**  (using PTA's sign convention)
+Assets + Liabilities + Equity = 0  (using PTA's sign convention)
 
-**Equity = Assets - Liabilities**
+Equity = Assets - Liabilities
 
-**Assets = Liabilities + Equity + Revenue − Expenses**
+Assets = Liabilities + Equity + Revenue − Expenses
 
 [Wikipedia](https://en.wikipedia.org/wiki/Accounting_equation),
 [Investopedia](https://www.investopedia.com/terms/a/accounting-equation.asp)
@@ -125,11 +125,9 @@ Many plain text accounting tools use **signed numbers** in place of the traditio
 Of course the credits and debits are still there; in this system, whenever you see a negative amount being posted in an account, it is a credit, and when you see a positive amount posted, it is a debit.
 Newcomers to accounting find this much more intuitive and easier to learn. (Some experienced accountants find otherwise.)
 
-As a result of this convention, PTA apps and examples often show equity, liability, and revenue account balances as negative numbers.
+Because of this convention, many PTA apps and examples show equity, liability, and revenue account balances as negative numbers.
 You can get used to reading these signed-number reports in a day or two.
-Just remember this to avoid a common confusion:
-
-- When equity increases (more wealth!) or liability increases (more debt!) or revenue increases (more income!), 
+Just remember: when equity increases (more wealth!) or liability increases (more debt!) or revenue increases (more income!), 
 their balance is shown as a larger negative number (more negative).
 
 Some PTA tools allow flipping the minus signs, or showing traditional debit and credit terminology instead of signed numbers.
