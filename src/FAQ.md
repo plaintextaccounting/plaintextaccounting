@@ -53,7 +53,7 @@ See [[Choosing accounts]].
 
 ### Why are some balances negative ?
 
-See [[#where-are-debits-and-credits-why-do-some-balances-look-negative|Where are debits and credits ?]]
+See [[#why-do-some-balances-look-negative|below]].
 
 ## Accounting
 
@@ -71,7 +71,7 @@ Revenues and Expenses are essentially inflows and outflows during some period;
 technically they are changes in Equity, reported separately for clarity.
 Businesses usually merge Revenues and Expenses into their Equity balance at the end of each accounting period.
 
-More: [hledger: Accounting Basics](https://hledger.org/accounting.html#debits-and-credits)
+- [hledger: Accounting Basics](https://hledger.org/accounting.html#debits-and-credits)
 
 ### What is the accounting equation ?
 
@@ -86,8 +86,8 @@ Equity = Assets - Liabilities
 
 Assets = Liabilities + Equity + Revenue − Expenses
 
-[Wikipedia](https://en.wikipedia.org/wiki/Accounting_equation),
-[Investopedia](https://www.investopedia.com/terms/a/accounting-equation.asp)
+- [Wikipedia](https://en.wikipedia.org/wiki/Accounting_equation)
+- [Investopedia](https://www.investopedia.com/terms/a/accounting-equation.asp)
 
 ### In english, should I call it Revenue or Income ?
 
@@ -125,16 +125,26 @@ Many plain text accounting tools use **signed numbers** in place of the traditio
 
 Of course the debits and credits are still there.
 But with this convention, 
-when you see a positive amount being posted in an account, it is a debit,
-and when you see a negative amount posted, it is a credit.
+when you see a positive amount being posted in an account, it is a debit (inflow),
+and when you see a negative amount posted, it is a credit (outflow).
 
 (Or possibly a contra-credit or contra-debit respectively. "Contra" means "opposite to the normal direction".)
 
 (Be warned of the usual pitfall that banks and businesses use "debit" and "credit" from their point of view, ie reversed, when communicating with customers.)
 
+Here's a mnemonic, should you need it:
+```
+debit  / to   / plus  / left  / short  words
+```
+```
+credit / from / minus / right / longer words
+```
+
 Newcomers to accounting find signed numbers much more intuitive and easier to learn than debit/credit terminology,
 partly because they have less historical and didactic baggage.
 (Some experienced accountants find otherwise.)
+
+- [Hacker News: Double-entry bookkeeping as a directed graph](https://news.ycombinator.com/item?id=39988993)
 
 ### Why do some balances look negative ?
 
@@ -145,11 +155,8 @@ their balance is shown as a larger negative number (more negative).
 
 Some PTA tools allow flipping the minus signs, or showing traditional debit and credit terminology instead of signed numbers.
 
-More:
-
 - [hledger FAQ: Why are my revenue (income), liability, and equity balances negative ?](https://hledger.org/faq.html#why-are-my-revenue-income-liability-and-equity-balances-negative-)
 - [reddit: Is there any plain text accounting software which uses standard debits and credits?](https://www.reddit.com/r/plaintextaccounting/comments/18sbmsx/is_there_any_plain_text_accounting_software_which/)
-- [Hacker News: Double-entry bookkeeping as a directed graph](https://news.ycombinator.com/item?id=39988993)
 
 ### Which kind of account are loans ?
 
@@ -159,4 +166,4 @@ If you are the borrower, in your ledger it's a liability. Eg liabilities:debts:P
 
 If the loan is terminated without being fully repaid, eg by being forgiven, the remaining amount due becomes an expense or revenue.
 
-More: [[Borrowing and Lending]]
+- [[Borrowing and Lending]]
