@@ -168,7 +168,8 @@ You can get used to reading these signed-number reports in a day or two.
 Just remember: when equity increases (more wealth!) or liability increases (more debt!) or revenue increases (more income!), 
 their balance is shown as a larger negative number (more negative).
 
-Some PTA tools allow flipping the minus signs, or showing debit and credit terminology instead of signed numbers.
+Some PTA tools allow [flipping the minus signs](https://hledger.org/dev/hledger.html#incomestatement),
+or showing [debits](https://ledger-cli.org/doc/ledger3.html#index-_002d_002ddc) and [credits](https://mandoc.bsd.lv/pta/man/pta.1.html#b) instead of signed numbers.
 
 - [hledger FAQ: Why are my revenue (income), liability, and equity balances negative ?](https://hledger.org/faq.html#why-are-my-revenue-income-liability-and-equity-balances-negative-)
 - [reddit: Is there any plain text accounting software which uses standard debits and credits?](https://www.reddit.com/r/plaintextaccounting/comments/18sbmsx/is_there_any_plain_text_accounting_software_which/)
