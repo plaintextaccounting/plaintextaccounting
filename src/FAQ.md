@@ -80,7 +80,7 @@ You'll see it written in different ways, eg:
 
 - Equity = Assets - Liabilities
 
-- Assets = Liabilities + Equity + Revenue − Expenses
+- Assets = Liabilities + Equity + Revenue − Expenses  (use this form when R and X haven't been merged into E)
 
 You can check the accounting equation for your accounts by inspecting an ALE balance report
 like [`hledger bse`](https://hledger.org/dev/hledger.html#balancesheetequity).
