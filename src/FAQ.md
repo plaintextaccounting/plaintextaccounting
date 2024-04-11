@@ -119,23 +119,36 @@ Practically speaking, in personal accounting you'll never use equity except
 - when setting up starting balances in a new file
 - when converting between currencies (optional, if you want to be [really correct](https://hledger.org/dev/hledger.html#equity-conversion-postings))
 
-### Where are debits and credits ? Why do some balances look negative ?
+### Where are debits and credits ?
 
 Many plain text accounting tools use **signed numbers** in place of the traditional terms **debit** and **credit**.
-Of course the credits and debits are still there; in this system, whenever you see a negative amount being posted in an account, it is a credit, and when you see a positive amount posted, it is a debit.
-Newcomers to accounting find this much more intuitive and easier to learn. (Some experienced accountants find otherwise.)
 
-Because of this convention, many PTA apps and examples show equity, liability, and revenue account balances as negative numbers.
+Of course the debits and credits are still there.
+But with this convention, 
+when you see a positive amount being posted in an account, it is a debit,
+and when you see a negative amount posted, it is a credit.
+
+(Or possibly a contra-debit or contra-credit respectively. "Contra" means "opposite to the normal direction".)
+
+(Be warned of the usual pitfall that banks and businesses use "debit" and "credit" from their point of view, ie reversed, when communicating with customers.)
+
+Newcomers to accounting find signed numbers much more intuitive and easier to learn than debit/credit terminology,
+partly because they have less historical and didactic baggage.
+(Some experienced accountants find otherwise.)
+
+### Why do some balances look negative ?
+
+Because of the signed number convention, many PTA apps and examples show Equity, Liability, and Revenue account balances as negative numbers.
 You can get used to reading these signed-number reports in a day or two.
 Just remember: when equity increases (more wealth!) or liability increases (more debt!) or revenue increases (more income!), 
 their balance is shown as a larger negative number (more negative).
 
 Some PTA tools allow flipping the minus signs, or showing traditional debit and credit terminology instead of signed numbers.
 
-More discussion:
+More:
 
-- [reddit: Is there any plain text accounting software which uses standard debits and credits?](https://www.reddit.com/r/plaintextaccounting/comments/18sbmsx/is_there_any_plain_text_accounting_software_which/)
 - [hledger FAQ: Why are my revenue (income), liability, and equity balances negative ?](https://hledger.org/faq.html#why-are-my-revenue-income-liability-and-equity-balances-negative-)
+- [reddit: Is there any plain text accounting software which uses standard debits and credits?](https://www.reddit.com/r/plaintextaccounting/comments/18sbmsx/is_there_any_plain_text_accounting_software_which/)
 - [Hacker News: Double-entry bookkeeping as a directed graph](https://news.ycombinator.com/item?id=39988993)
 
 ### Which kind of account are loans ?
