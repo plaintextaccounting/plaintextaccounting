@@ -148,7 +148,7 @@ partly because they have less historical and didactic baggage.
 
 ### Why do some balances look negative ?
 
-Because of the signed number convention, many PTA apps and examples show Equity, Liability, and Revenue account balances as negative numbers.
+Because of the [signed number convention](#where-are-debits-and-credits), many PTA apps and examples show Equity, Liability, and Revenue account balances as negative numbers.
 You can get used to reading these signed-number reports in a day or two.
 Just remember: when equity increases (more wealth!) or liability increases (more debt!) or revenue increases (more income!), 
 their balance is shown as a larger negative number (more negative).
