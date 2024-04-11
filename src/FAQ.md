@@ -167,6 +167,7 @@ If you are the lender, in your ledger it's an asset. Eg assets:loans:PERSON or a
 
 If you are the borrower, in your ledger it's a liability. Eg liabilities:debts:PERSON or liabilities:payable:LENDER.
 
-If the loan is terminated without being fully repaid, eg by being forgiven, the remaining amount due becomes an expense or revenue.
+If the loan is terminated without being fully repaid, eg by being forgiven, 
+in your ledger the remaining amount becomes an expense (if you are the lender) or revenue (if you are the borrower).
 
 - [[Borrowing and Lending]]
