@@ -4,3 +4,7 @@
     expenses:hosting         $50
     liabilities:payable:sm
 
+2024-04-11 one-time donation, used immediately
+    revenues:github         $-25
+    liabilities:payable:sm
+
