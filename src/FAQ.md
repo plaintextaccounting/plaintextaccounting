@@ -175,11 +175,21 @@ Some PTA tools allow flipping the minus signs, or showing debit and credit termi
 
 ### Which account type are loans ?
 
-If you are the lender, in your ledger it's an asset. Eg assets:loans:PERSON or assets:receivable:BORROWER.
+If you are the lender, in your ledger it's an asset. Eg `assets:loans:PERSON` or `assets:receivable:BORROWER`.
 
-If you are the borrower, in your ledger it's a liability. Eg liabilities:debts:PERSON or liabilities:payable:LENDER.
+If you are the borrower, in your ledger it's a liability. Eg `liabilities:debts:PERSON` or `liabilities:payable:LENDER`.
 
 If the loan is terminated without being fully repaid, eg by being forgiven, 
-in your ledger the remaining amount becomes an expense (if you are the lender) or revenue (if you are the borrower).
+in your ledger the remaining amount becomes an expense (if you were the lender) or revenue (if you were the borrower).
 
 - [[Borrowing and Lending]]
+
+### Which account type are pre-paid commuter passes, credits at a business, etc ?
+
+If you would like to track them in detail, record them as pre-paid assets.
+Eg `assets:prepaid:rail-card` or `assets:prepaid:yoga-studio`.
+You can record them either in your base currency, or with a dedicated commodity symbol, like `CLASSES`.
+As you use them, transfer/convert them to expenses.
+
+If you don't need such detail you can record their full amount as an expense on the purchase date, and not track them further.
+
