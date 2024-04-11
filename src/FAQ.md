@@ -71,16 +71,16 @@ Businesses usually merge Revenues and Expenses into their Equity balance at the 
 
 ### What is the accounting equation ?
 
-It is a simple  formula that always holds true when bookkeeping is correct. 
+A simple  formula that always holds true when bookkeeping is correct. 
 You'll see it written in different ways, eg:
 
-Equity = Assets - Liabilities
+- Equity = Assets - Liabilities
 
-Assets + Liabilities + Equity = 0  (using PTA's sign convention)
+- Assets + Liabilities + Equity = 0  (using PTA's sign convention)
 
-Equity = Assets - Liabilities
+- Equity = Assets - Liabilities
 
-Assets = Liabilities + Equity + Revenue − Expenses
+- Assets = Liabilities + Equity + Revenue − Expenses
 
 You can check the accounting equation for your accounts by inspecting an ALE balance report
 like [`hledger bse`](https://hledger.org/dev/hledger.html#balancesheetequity).
