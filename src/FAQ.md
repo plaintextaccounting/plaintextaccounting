@@ -173,7 +173,7 @@ Some PTA tools allow flipping the minus signs, or showing debit and credit termi
 - [hledger FAQ: Why are my revenue (income), liability, and equity balances negative ?](https://hledger.org/faq.html#why-are-my-revenue-income-liability-and-equity-balances-negative-)
 - [reddit: Is there any plain text accounting software which uses standard debits and credits?](https://www.reddit.com/r/plaintextaccounting/comments/18sbmsx/is_there_any_plain_text_accounting_software_which/)
 
-### Which kind of account are loans ?
+### Which account type are loans ?
 
 If you are the lender, in your ledger it's an asset. Eg assets:loans:PERSON or assets:receivable:BORROWER.
 
