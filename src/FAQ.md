@@ -40,30 +40,6 @@ SM on new user experience (2023): https://fosstodon.org/@simonmic/11012092250155
 
 See [[Organising files]].
 
-### How should I choose account names ?
-
-See [[Choosing accounts]].
-
-### Where are debits and credits ? Why are some balances negative ?
-
-Many plain text accounting tools use negative and positive numbers in place of the traditional *credit* and *debit* terminology.
-Of course the credits and debits are still there; in this system, whenever you see a negative amount being posted in an account, it is a credit, and when you see a positive amount posted, it is a debit.
-This is just a different surface presentation, which most newcomers find more intuitive and easier to learn.
-
-Because of this, PTA tools often show liability, equity, and revenue account balances as negative numbers.
-So eg when a liability becomes larger (more debt!), the balance becomes a larger negative number (more negative).
-
-Similarly, when equity or revenues increase, their numbers get more negative.
-You'll get used to reading these kind of reports in a day or two.
-Some PTA tools also give the option of flipping these negative signs, or showing traditional credit and debit terminology.
-
-More discussion:
-
-- [reddit: Is there any plain text accounting software which uses standard debits and credits?](https://www.reddit.com/r/plaintextaccounting/comments/18sbmsx/is_there_any_plain_text_accounting_software_which/)
-- [hledger FAQ: Why are my revenue (income), liability, and equity balances negative ?](https://hledger.org/faq.html#why-are-my-revenue-income-liability-and-equity-balances-negative-)
-
-## General usage
-
 ### How big is your ledger/journal file ?
 
 For individual accounting, somewhere between 500-1500 transactions and 100-400 Kb of journal file per year seems typical.
@@ -71,5 +47,105 @@ For individual accounting, somewhere between 500-1500 transactions and 100-400 K
 - https://www.reddit.com/r/plaintextaccounting/comments/ay8ec0/limits_on_ledger_cli_file_size/ (2019)
 - https://www.reddit.com/r/plaintextaccounting/comments/dbjizl/how_big_is_your_ledgerjournal_file/ (2019)
 
-## Accounting situations
+### How should I choose account names ?
 
+See [[Choosing accounts]].
+
+### Why are some balances negative ?
+
+See [[#where-are-debits-and-credits|Where are debits and credits ?]]
+
+## Accounting
+
+### What are the three top level accounts ?
+
+In english, they are **Assets** (things you own), **Liabilities** (things you owe), **Equity** (your/owners' investment or stake or "overall wealth").
+
+### What are the five top level accounts ?
+
+In practice, two more top level accounts are used, making five.
+In english: **Assets**, **Liabilities**, **Equity**, **Revenues** (or **Income**), **Expenses**.
+Sometimes abbreviated to single letters; hledger uses A, L, E, R, X.
+
+Revenues and Expenses are essentially inflows and outflows during some period;
+technically they are changes in Equity, reported separately for clarity.
+Businesses usually merge Revenues and Expenses into their Equity balance at the end of each accounting period.
+
+More: [hledger: Accounting Basics](https://hledger.org/accounting.html#debits-and-credits)
+
+### What is the accounting equation ?
+
+It is a simple  formula that always holds true when bookkeeping is correct. 
+You'll see it written in different ways, eg:
+
+**Equity = Assets - Liabilities**
+
+**Assets + Liabilities + Equity = 0**  (using PTA's sign convention)
+
+**Equity = Assets - Liabilities**
+
+**Assets = Liabilities + Equity + Revenue − Expenses**
+
+[Wikipedia](https://en.wikipedia.org/wiki/Accounting_equation),
+[Investopedia](https://www.investopedia.com/terms/a/accounting-equation.asp)
+
+### In english, should I call it Revenue or Income ?
+
+"Revenue" is more often used in business, and more precise;
+it implies "gross income", ie total proceeds before taxes and certain costs,
+whereas "Income" implies "net income", ie profit after taxes and costs.
+Eg the report showing profit is called "Income Statement" in the US.
+
+"Income" is very commonly used in personal finance and more familiar to non-accountants.
+
+So, use the one you prefer.
+
+### What is Equity really ?
+
+Equity is more abstract than the other top level accounts, can be described in different ways, and takes a bit longer to feel intuitive.
+It is best understood with repeated exposure. 
+Two useful rules of thumb:
+
+- Equity represents "ownership" in business or "wealth" in personal finance.
+- If something doesn't belong to the other four top level accounts, it's equity.
+
+When multiple owners/investors have contributed funding to set up a business, each of them owns a portion of the business, which is tracked as equity.
+And if the business is dissolved, they would each have their share returned to them (ideally).
+
+In personal accounting, your finances are "the business" and you are the only investor.
+When you start tracking your finances, whatever wealth you have accumulated up to this point is your initial "contribution to the business", ie your equity, which funds your starting balances.
+Practically speaking, in personal accounting you'll never use equity except
+
+- when setting up starting balances in a new file
+- when converting between currencies (optional, if you want to be [really correct](https://hledger.org/dev/hledger.html#equity-conversion-postings))
+
+### Where are debits and credits ? Why do some balances look negative ?
+
+Many plain text accounting tools use **signed numbers** in place of the traditional terms **debit** and **credit**.
+Of course the credits and debits are still there; in this system, whenever you see a negative amount being posted in an account, it is a credit, and when you see a positive amount posted, it is a debit.
+Newcomers to accounting find this much more intuitive and easier to learn. (Some experienced accountants find otherwise.)
+
+As a result of this convention, PTA apps and examples often show equity, liability, and revenue account balances as negative numbers.
+You can get used to reading these signed-number reports in a day or two.
+Just remember this to avoid a common confusion:
+
+- When equity increases (more wealth!) or liability increases (more debt!) or revenue increases (more income!), 
+their balance is shown as a larger negative number (more negative).
+
+Some PTA tools allow flipping the minus signs, or showing traditional debit and credit terminology instead of signed numbers.
+
+More discussion:
+
+- [reddit: Is there any plain text accounting software which uses standard debits and credits?](https://www.reddit.com/r/plaintextaccounting/comments/18sbmsx/is_there_any_plain_text_accounting_software_which/)
+- [hledger FAQ: Why are my revenue (income), liability, and equity balances negative ?](https://hledger.org/faq.html#why-are-my-revenue-income-liability-and-equity-balances-negative-)
+- [Hacker News: Double-entry bookkeeping as a directed graph](https://news.ycombinator.com/item?id=39988993)
+
+### Which kind of account are loans ?
+
+If you are the lender, in your ledger it's an asset. Eg assets:loans:PERSON or assets:receivable:BORROWER.
+
+If you are the borrower, in your ledger it's a liability. Eg liabilities:debts:PERSON or liabilities:payable:LENDER.
+
+If the loan is terminated without being fully repaid, eg by being forgiven, the remaining amount due becomes an expense or revenue.
+
+More: [[Borrowing and Lending]]
