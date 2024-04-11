@@ -132,12 +132,15 @@ and when you see a negative amount posted, it is a credit (outflow).
 
 (Be warned of the usual pitfall that banks and businesses use "debit" and "credit" from their point of view, ie reversed, when communicating with customers.)
 
-Here's a mnemonic, should you need it:
+Here's a mnemonic, if you need one:
+
 ```
-debit  / to   / plus  / left  / short  words
-```
-```
-credit / from / minus / right / longer words
+          debit | credit
+             to | from  
+             in | out   
+           plus | minus 
+           left | right 
+    short words | longer words
 ```
 
 Newcomers to accounting find signed numbers much more intuitive and easier to learn than debit/credit terminology,
