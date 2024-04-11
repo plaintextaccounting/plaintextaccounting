@@ -51,10 +51,6 @@ For individual accounting, somewhere between 500-1500 transactions and 100-400 K
 
 See [[Choosing accounts]].
 
-### Why are some balances negative ?
-
-See [[#why-do-some-balances-look-negative|below]].
-
 ## Accounting
 
 ### What are the three top level accounts ?
@@ -156,7 +152,7 @@ You can get used to reading these signed-number reports in a day or two.
 Just remember: when equity increases (more wealth!) or liability increases (more debt!) or revenue increases (more income!), 
 their balance is shown as a larger negative number (more negative).
 
-Some PTA tools allow flipping the minus signs, or showing traditional debit and credit terminology instead of signed numbers.
+Some PTA tools allow flipping the minus signs, or showing debit and credit terminology instead of signed numbers.
 
 - [hledger FAQ: Why are my revenue (income), liability, and equity balances negative ?](https://hledger.org/faq.html#why-are-my-revenue-income-liability-and-equity-balances-negative-)
 - [reddit: Is there any plain text accounting software which uses standard debits and credits?](https://www.reddit.com/r/plaintextaccounting/comments/18sbmsx/is_there_any_plain_text_accounting_software_which/)
