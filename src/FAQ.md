@@ -84,7 +84,10 @@ You'll see it written in different ways, eg:
 
 You can check the accounting equation for your accounts by inspecting an ALE balance report
 like [`hledger bse`](https://hledger.org/dev/hledger.html#balancesheetequity).
-(In personal accounting, an imbalance in the accounting equation isn't necessarily a problem, and most people don't bother checking it.)
+(In practice a balanced accounting equation isn't essential for personal accounting, and most people don't check it.)
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Accounting_equation)
+- [Investopedia](https://www.investopedia.com/terms/a/accounting-equation.asp)
 
 ### What are balanced transactions ?
 
@@ -97,9 +100,6 @@ PTA apps and other double-entry bookkeeping software enforce balanced transactio
 
 Note, balanced transactions does not imply a balanced accounting equation.
 Both of these can help detect errors, but balanced transactions is a higher priority.
-
-- [Wikipedia](https://en.wikipedia.org/wiki/Accounting_equation)
-- [Investopedia](https://www.investopedia.com/terms/a/accounting-equation.asp)
 
 ### In english, should I call it Revenue or Income ?
 
