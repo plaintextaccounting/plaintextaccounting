@@ -10,13 +10,13 @@ Here are several methods:
 1. **Lot subaccounts**
    Each lot is given an explicit subaccount, entries are created manually.
    Simple and flexible, works in any PTA app.
-   - hledger/ledger example: https://forum.plaintextaccounting.org/t/repost-example-calculating-uk-capital-gains-with-ledger/227/2
+   - [hledger/ledger example](https://forum.plaintextaccounting.org/t/repost-example-calculating-uk-capital-gains-with-ledger/227/2)
 
 2. **Lot syntax**
    The app has special syntax and support for lots.
    Convenient, has restrictions. Available in Beancount and Ledger.
-   - Beancount: https://docs.google.com/document/d/1F8IJ_7fMHZ75XFPocMokLxVZczAhrBRBVN9uMhQFCZ4/edit#heading=h.katmw1lwm4yh
-   - Ledger: https://ledger-cli.org/doc/ledger3.html#Buying-and-Selling-Stock
+   - [Beancount doc](https://docs.google.com/document/d/1F8IJ_7fMHZ75XFPocMokLxVZczAhrBRBVN9uMhQFCZ4/edit#heading=h.katmw1lwm4yh)
+   - [Ledger doc](https://ledger-cli.org/doc/ledger3.html#Buying-and-Selling-Stock)
 
 3. **Lot entry-generating tools**.
    Add-on tools help generate lot-aware entries.
