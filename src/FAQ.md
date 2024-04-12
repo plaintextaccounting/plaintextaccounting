@@ -4,8 +4,6 @@ See also the [[Cookbook]], [[index#docs|Docs]], and [[index#faqs|app-specific FA
 If you don't see what you need, ask for it in the [[index#news-discussion|chat]],
 or [add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/blob/master/src/FAQ.md).
 
-## Getting started
-
 ### What's Plain Text Accounting ?
 
 See [[What is Plain Text Accounting ?]].
@@ -50,8 +48,6 @@ For individual accounting, somewhere between 500-1500 transactions and 100-400 K
 ### How should I choose account names ?
 
 See below and [[Choosing accounts]].
-
-## Accounting
 
 ### What are the three top level accounts ?
 
