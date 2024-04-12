@@ -62,13 +62,13 @@ title:'Support Simon via Paypal',
 td { padding:0 0.5em; }
 td:nth-child(1) { white-space:nowrap; }
 tr:nth-child(even) td { background-color:#eee; }
-</style><link rel="stylesheet" href="hledger.css"><table><tr><th colspan="2" style="text-align:left"><h2>Balance Sheet 2024-04-11</h2></th></tr><tr><th></th><th>2024-04-11</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th colspan="2" style="text-align:left">Assets</th></tr><tr><th style="text-align:left">total</th><th class="amount coltotal" style="text-align:right">0</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th colspan="2" style="text-align:left">Liabilities</th></tr><tr><td class="account" style="text-align:left">liabilities:payable:sm</td><td class="amount" style="text-align:right">$25</td></tr><tr><th style="text-align:left">total</th><th class="amount coltotal" style="text-align:right">$25</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th style="text-align:left">Net:</th><th class="amount coltotal" style="text-align:right">$-25</th></tr></table>
+</style><link rel="stylesheet" href="hledger.css"><table><tr><th colspan="2" style="text-align:left"><h2>Balance Sheet 2024-04-11</h2></th></tr><tr><th></th><th>2024-04-11</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th colspan="2" style="text-align:left">Assets</th></tr><tr><th style="text-align:left">total</th><th class="amount coltotal" style="text-align:right">0</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th colspan="2" style="text-align:left">Liabilities</th></tr><tr><td class="account" style="text-align:left">liabilities:payable:sm</td><td class="amount" style="text-align:right">25 USD</td></tr><tr><th style="text-align:left">total</th><th class="amount coltotal" style="text-align:right">25 USD</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th style="text-align:left">Net:</th><th class="amount coltotal" style="text-align:right">-25 USD</th></tr></table>
 
 <style>
 td { padding:0 0.5em; }
 td:nth-child(1) { white-space:nowrap; }
 tr:nth-child(even) td { background-color:#eee; }
-</style><link rel="stylesheet" href="hledger.css"><table><tr><th colspan="2" style="text-align:left"><h2>Income Statement 2024-03-30..2024-04-11</h2></th></tr><tr><th></th><th>2024-03-30..2024-04-11</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th colspan="2" style="text-align:left">Revenues</th></tr><tr><td class="account" style="text-align:left">revenues:github:sponsor1</td><td class="amount" style="text-align:right">$25</td></tr><tr><th style="text-align:left">total</th><th class="amount coltotal" style="text-align:right">$25</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th colspan="2" style="text-align:left">Expenses</th></tr><tr><td class="account" style="text-align:left">expenses:hosting</td><td class="amount" style="text-align:right">$50</td></tr><tr><th style="text-align:left">total</th><th class="amount coltotal" style="text-align:right">$50</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th style="text-align:left">Net:</th><th class="amount coltotal" style="text-align:right">$-25</th></tr></table>
+</style><link rel="stylesheet" href="hledger.css"><table><tr><th colspan="2" style="text-align:left"><h2>Income Statement 2024-03-30..2024-04-11</h2></th></tr><tr><th></th><th>2024-03-30..2024-04-11</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th colspan="2" style="text-align:left">Revenues</th></tr><tr><td class="account" style="text-align:left">revenues:github</td><td class="amount" style="text-align:right">25 USD</td></tr><tr><th style="text-align:left">total</th><th class="amount coltotal" style="text-align:right">25 USD</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th colspan="2" style="text-align:left">Expenses</th></tr><tr><td class="account" style="text-align:left">expenses:hosting</td><td class="amount" style="text-align:right">50 USD</td></tr><tr><th style="text-align:left">total</th><th class="amount coltotal" style="text-align:right">50 USD</th></tr><tr><td colspan="2">&nbsp;</td></tr><tr><th style="text-align:left">Net:</th><th class="amount coltotal" style="text-align:right">-25 USD</th></tr></table>
 
 ## General Journal
 (<a href="https://github.com/plaintextaccounting/plaintextaccounting/blob/master/finance/pta.journal">source</a>)
@@ -76,11 +76,11 @@ tr:nth-child(even) td { background-color:#eee; }
 2024-03-30 begin tracking finances of the plaintextaccounting org.
 
 2024-03-30 Discourse | begin $50/mo hosting at Discourse, with an advance from SM
-    expenses:hosting                   $50
-    liabilities:payable:sm            $-50
+    expenses:hosting                50 USD
+    liabilities:payable:sm         -50 USD
 
-2024-04-11 one-time donation, used immediately
-    revenues:github:sponsor1            $-25
-    liabilities:payable:sm               $25
+2024-04-11 sponsor1 | one-time donation, used immediately
+    revenues:github                -25 USD
+    liabilities:payable:sm          25 USD
 
 ```
