@@ -176,22 +176,24 @@ or showing [debits](https://ledger-cli.org/doc/ledger3.html#index-_002d_002ddc) 
 
 ### Should I categorise with account, payee, description, tags... ?
 
-PTA apps let you group and filter by account, but often also by other fields like payee/description, code, or tags.
-Accounts are the primary, best supported mechanism, so typically you should use them for most categorising.
-But exactly what to track in each field depends on the level of detail you need, your data entry process, your PTA app, and your preferences.
+Accounts are the most standard, best supported mechanism, so typically you should use them for most categorising.
+But it depends on the level of detail you need, your data entry process, your PTA app, and your preferences.
+Eg:
 
-- If you like economy of concepts and portability across tools, and your app has good depth-limiting support:
+- If you like economy of concepts and portability within/beyond PTA, and your app has good depth-limiting support:
   use accounts primarily, making them as deep and detailed as you need.
-- If you like entering and seeing simple accounts by default, without needing to limit depth:
-  keep the account tree shallow, and add extra details in the payee and/or description field when needed.
+- If you like seeing simple accounts by default, without needing to limit depth:
+  keep the account tree shallow, and note extra details in the payee/description field when needed.
 - If you have multiple categorisation schemes that are independent/cross-cutting - 
   eg you have standard expense categories, but also clients or projects or trips they are associated with:
   use accounts for the primary scheme and tags for the others.
 
-Some apps will let you pivot on tags, payee, or other fields, showing them as alternate account names when needed.
-
 More:
+
 - [Reddit: On ledger-cli, what is the difference between payee and account?](https://www.reddit.com/r/plaintextaccounting/comments/ybwi4a/on_ledgercli_what_is_the_difference_between_payee/)
+        - Some apps let you use tags/other fields as alternate account names:
+  [Ledger: --pivot](https://ledger-cli.org/doc/ledger3.html#index-_002d_002dpivot-TAG-1),
+  [hledger: Pivoting](https://hledger.org/dev/hledger.html#pivoting)
 
 ### Which account type are loans ?
 
