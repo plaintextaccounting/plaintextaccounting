@@ -9,21 +9,30 @@ clean:
 	rm -f  $(patsubst src/%,out/%,$(patsubst %.md,%.html,$(wildcard src/*.md src/quickref/*.md)))
 
 PANDOC?=pandoc
+LEDGER_FILE=finance/pta.journal
+
+# show a balance sheet with retained earnings and inferred conversion equity
+bse:
+	(cat $(LEDGER_FILE); hledger close --retain --close-to=equity:retained-earnings) | hledger -f- bse --infer-equity -t --no-elide
+
+# check the journal
+check:
+	hledger check -s ordereddates && echo ok
 
 # regenerate part of finance.md from finance/*
 finance-md:
 	sed '/<!-- Everything below is regenerated/q' <src/finance.md >src/finance.md.tmp
 	( \
 	echo ; \
-	hledger -f finance/pta.journal bs -O html; \
+	hledger bs -O html; \
 	echo ; \
 	echo ; \
-	hledger -f finance/pta.journal is -O html; \
+	hledger is -O html; \
 	echo ; \
 	echo ; \
 	echo '## General Journal'; \
 	echo '(<a href="https://github.com/plaintextaccounting/plaintextaccounting/blob/master/finance/pta.journal">source</a>)'; \
-	echo '```hledger'; hledger -f finance/pta.journal print -x; echo '```'; \
+	echo '```hledger'; hledger print -x; echo '```'; \
 	) >>src/finance.md.tmp
 	mv src/finance.md.tmp src/finance.md
 
