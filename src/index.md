@@ -33,9 +33,6 @@ and if you found the plaintextaccounting.org sites useful, help with [[finance]]
 **[News & discussion](#news-discussion)**\
 **[Videos](#videos)**\
 **[Slides](#slides)**\
-**[[FAQ]]**\
-**[[Cookbook]]**
-\
 **[Docs](#docs):**
   [Accounting basics](#accounting-basics)
 , [PTA app docs](#pta-app-docs)
@@ -45,6 +42,8 @@ and if you found the plaintextaccounting.org sites useful, help with [[finance]]
 , [cookbooks](#cookbooks)
 , [FAQs](#faqs)
 \
+**[[FAQ]]**\
+**[[Cookbook]]**\
 **[Software](#software):**
   [PTA apps](#pta-apps)
 , [Editor plugins](#editor-plugins)
@@ -230,7 +229,9 @@ and if you found the plaintextaccounting.org sites useful, help with [[finance]]
 - [Beancount cookbook](https://beancount.github.io/docs/command_line_accounting_cookbook.html)
 - [hledger cookbook](https://hledger.org/cookbook.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
+- [PTA Forum](https://forum.plaintextaccounting.org)
 - [Reddit: plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
+
 
 ### FAQs
 
