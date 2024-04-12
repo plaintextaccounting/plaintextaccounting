@@ -215,3 +215,17 @@ You can record them either in your base currency, or with a dedicated commodity 
 As you use them, transfer/convert them to expenses.
 
 If you don't need such detail you can record their full amount as an expense on the purchase date, and not track them further.
+
+### How to track savings goals ?
+
+Some ways:
+
+- Document the goal in the account name so it shows up in reports along with the balance. Simple.
+- Treat it as a budgeting problem and follow one of the many [[budgeting]] guides. h/ledger's --budget goal report is probably more useful than envelope budgeting here.
+- Track it as a (imaginary, self-imposed) liability that you are paying off. Sometimes this adds a bit of noise and confusion.
+- Script/build a custom goals report for yourself.
+
+More:
+
+- https://www.reddit.com/r/plaintextaccounting/comments/1c2bvx2/how_to_track_goals_in_beancount/
+- https://www.reddit.com/r/plaintextaccounting/search?q=goals&restrict_sr=on
