@@ -1,5 +1,5 @@
 account liabilities
-account liabilities:payable:sm
+account liabilities:sm    ; reimbursement owed
 account equity
 account equity:retained-earnings   ; used by make bse
 account revenues
@@ -16,9 +16,9 @@ D         1000. USD        ; use USD by default
 2024-03-30 Discourse | begin $50/mo hosting at Discourse, with an advance from SM
     ; hosting options were discussed here:   https://forum.plaintextaccounting.org/t/-/5
     expenses:hosting         50
-    liabilities:payable:sm
+    liabilities:sm
 
 2024-04-11 sponsor1 | one-time donation, used immediately
     revenues:github         -25
-    liabilities:payable:sm
+    liabilities:sm
 
