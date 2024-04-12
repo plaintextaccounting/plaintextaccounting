@@ -192,7 +192,7 @@ Eg:
 More:
 
 - [Reddit: On ledger-cli, what is the difference between payee and account?](https://www.reddit.com/r/plaintextaccounting/comments/ybwi4a/on_ledgercli_what_is_the_difference_between_payee/)
-        - Some apps let you use tags/other fields as alternate account names:
+- Some apps let you use tags/other fields as alternate account names:
   [Ledger: --pivot](https://ledger-cli.org/doc/ledger3.html#index-_002d_002dpivot-TAG-1),
   [hledger: Pivoting](https://hledger.org/dev/hledger.html#pivoting)
 
