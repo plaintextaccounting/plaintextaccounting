@@ -49,7 +49,7 @@ For individual accounting, somewhere between 500-1500 transactions and 100-400 K
 
 ### How should I choose account names ?
 
-See [[Choosing accounts]].
+See below and [[Choosing accounts]].
 
 ## Accounting
 

@@ -2,7 +2,8 @@
 
 Some rules of thumb:
 
-- It helps to use the standard five top level accounts (assets, liabilities, equity, revenues, expenses, in your preferred language).
+- It helps to use the standard [[FAQ#what-are-the-five-top-level-accounts|five top level accounts]]
+  (assets, liabilities, equity, revenues, expenses, in your preferred language).
 
 - Add subaccounts as driven by your reporting needs. Otherwise keep account names simple.
 
