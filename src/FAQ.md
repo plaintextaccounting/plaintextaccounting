@@ -6,7 +6,7 @@ or [add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/
 
 ### What's Plain Text Accounting ?
 
-See [[What is Plain Text Accounting ?]].
+See [[What is Plain Text Accounting ?]]
 
 ### Which PTA app should I choose ?
 
@@ -217,7 +217,7 @@ If you don't need such detail you can record their full amount as an expense on 
 Some ways:
 
 - Document the goal in the account name so it shows up in reports along with the balance. Simple.
-- Treat it as a budgeting problem and follow one of the many [[budgeting]] guides. h/ledger's --budget goal report is probably more useful than envelope budgeting here.
+- Treat it as a budgeting problem and follow one of the many [[Budgeting]] guides. h/ledger's --budget goal report is probably more useful than envelope budgeting here.
 - Track it as a (imaginary, self-imposed) liability that you are paying off. Sometimes this adds a bit of noise and confusion.
 - Script/build a custom goals report for yourself.
 
