@@ -13,7 +13,7 @@ LEDGER_FILE=finance/pta.journal
 
 # show a balance sheet with retained earnings and inferred conversion equity
 bse:
-	(cat $(LEDGER_FILE); hledger close --retain --close-to=equity:retained-earnings) | hledger -f- bse --infer-equity -t --no-elide
+	(cat $(LEDGER_FILE); hledger close --retain --close-to=equity:retained) | hledger -f- bse --infer-equity -t --no-elide
 
 # check the journal
 check:

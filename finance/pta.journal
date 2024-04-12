@@ -1,7 +1,7 @@
 account liabilities
 account liabilities:sm    ; reimbursement owed
 account equity
-account equity:retained-earnings   ; used by make bse
+account equity:retained   ; used by make bse
 account revenues
 account revenues:github   ; donations via github sponsors
 account revenues:paypal   ; donations via paypal
