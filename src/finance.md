@@ -76,7 +76,7 @@ tr:nth-child(even) td { background-color:#eee; }
 2024-03-30 begin tracking finances of the plaintextaccounting org.
 
 2024-03-30 Discourse | begin $50/mo hosting at Discourse, with an advance from SM
-    ; hosting options were discussed here:   https://forum.plaintextaccounting.org/t/-/5
+    ; discussion: https://forum.plaintextaccounting.org/t/-/5
     expenses:hosting          50 USD
     liabilities:sm           -50 USD
 
