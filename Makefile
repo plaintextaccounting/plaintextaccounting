@@ -30,7 +30,7 @@ finance-md:
 	hledger is -O html; \
 	echo ; \
 	echo ; \
-	echo '## General Journal'; \
+	echo '## Transactions'; \
 	echo '(<a href="https://github.com/plaintextaccounting/plaintextaccounting/blob/master/finance/pta.journal">source</a>)'; \
 	echo '```hledger'; hledger print -x; echo '```'; \
 	) >>src/finance.md.tmp
