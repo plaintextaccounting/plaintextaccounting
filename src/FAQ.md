@@ -182,6 +182,7 @@ Eg:
 
 - If you like economy of concepts and portability within/beyond PTA, and your app has good depth-limiting support:
   use accounts primarily, making them as deep and detailed as you need.
+  Having a dedicated account for every payee might be going too far (or not..)
 - If you like seeing simple accounts by default, without needing to limit depth:
   keep the account tree shallow, and note extra details in the payee/description field when needed.
 - If you have multiple categorisation schemes that are independent/cross-cutting - 
