@@ -12,7 +12,7 @@ See [[What is Plain Text Accounting ?]].
 
 ### Which PTA app should I choose ?
 
-Here are some (mostly old) [comparisons](https://plaintextaccounting.org#comparisons)
+Here are some old and outdated [comparisons](https://plaintextaccounting.org#comparisons)
 Check out the projects' stats, and perhaps their chat rooms / mail lists.
 Developer opinions are hard to find, but here are a few:
 
@@ -174,6 +174,25 @@ or showing [debits](https://ledger-cli.org/doc/ledger3.html#index-_002d_002ddc) 
 - [hledger FAQ: Why are my revenue (income), liability, and equity balances negative ?](https://hledger.org/faq.html#why-are-my-revenue-income-liability-and-equity-balances-negative-)
 - [reddit: Is there any plain text accounting software which uses standard debits and credits?](https://www.reddit.com/r/plaintextaccounting/comments/18sbmsx/is_there_any_plain_text_accounting_software_which/)
 
+### Should I categorise with account, payee, description, tags... ?
+
+PTA apps let you group and filter by account, but often also by other fields like payee/description, code, or tags.
+Accounts are the primary, best supported mechanism, so typically you should use them for most categorising.
+But exactly what to track in each field depends on the level of detail you need, your data entry process, your PTA app, and your preferences.
+
+- If you like economy of concepts and portability across tools, and your app has good depth-limiting support:
+  use accounts primarily, making them as deep and detailed as you need.
+- If you like entering and seeing simple accounts by default, without needing to limit depth:
+  keep the account tree shallow, and add extra details in the payee and/or description field when needed.
+- If you have multiple categorisation schemes that are independent/cross-cutting - 
+  eg you have standard expense categories, but also clients or projects or trips they are associated with:
+  use accounts for the primary scheme and tags for the others.
+
+Some apps will let you pivot on tags, payee, or other fields, showing them as alternate account names when needed.
+
+More:
+- [Reddit: On ledger-cli, what is the difference between payee and account?](https://www.reddit.com/r/plaintextaccounting/comments/ybwi4a/on_ledgercli_what_is_the_difference_between_payee/)
+
 ### Which account type are loans ?
 
 If you are the lender, in your ledger it's an asset. Eg `assets:loans:PERSON` or `assets:receivable:BORROWER`.
@@ -193,20 +212,3 @@ You can record them either in your base currency, or with a dedicated commodity 
 As you use them, transfer/convert them to expenses.
 
 If you don't need such detail you can record their full amount as an expense on the purchase date, and not track them further.
-
-### Should I categorise with account, payee, description, tags... ?
-
-PTA apps let you group and filter by account, but often also by other fields like payee/description, code, or tags.
-Accounts are the primary, best supported mechanism, so typically you should use them for most categorising.
-But how much detail to put in each field is a judgement call, influenced by your data entry process and your PTA app's UX:
-
-- If you like economy of concepts and portability across tools, and your app has good depth-limiting support:
-  you could use accounts primarily, making them as deep and detailed as you need.
-- If you like entering and seeing simple categories by default, without having to limit depth:
-  you could keep the account tree shallow and simple, and add extra details in the payee and/or description field when needed.
-- If you have multiple categorisation schemes that are independent/cross-cutting - eg, standard expense categories, but also clients or projects or trips they are associated with:
-  use accounts for the primary scheme and tags for the others.
-  (Some apps will let you pivot on tags or other fields, showing them as alternate account names when needed.)
-
-More:
-- [Reddit: On ledger-cli, what is the difference between payee and account?](https://www.reddit.com/r/plaintextaccounting/comments/ybwi4a/on_ledgercli_what_is_the_difference_between_payee/)
