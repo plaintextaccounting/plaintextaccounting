@@ -40,7 +40,7 @@ SM on new user experience (2023): https://fosstodon.org/@simonmic/11012092250155
 
 See [[Organising files]].
 
-### How big is your ledger/journal file ?
+### How big do journal files get ?
 
 For individual accounting, somewhere between 500-1500 transactions and 100-400 Kb of journal file per year seems typical.
 
