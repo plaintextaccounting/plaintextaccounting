@@ -194,3 +194,19 @@ As you use them, transfer/convert them to expenses.
 
 If you don't need such detail you can record their full amount as an expense on the purchase date, and not track them further.
 
+### Should I categorise with account, payee, description, tags... ?
+
+PTA apps let you group and filter by account, but often also by other fields like payee/description, code, or tags.
+Accounts are the primary, best supported mechanism, so typically you should use them for most categorising.
+But how much detail to put in each field is a judgement call, influenced by your data entry process and your PTA app's UX:
+
+- If you like economy of concepts and portability across tools, and your app has good depth-limiting support:
+  you could use accounts primarily, making them as deep and detailed as you need.
+- If you like entering and seeing simple categories by default, without having to limit depth:
+  you could keep the account tree shallow and simple, and add extra details in the payee and/or description field when needed.
+- If you have multiple categorisation schemes that are independent/cross-cutting - eg, standard expense categories, but also clients or projects or trips they are associated with:
+  use accounts for the primary scheme and tags for the others.
+  (Some apps will let you pivot on tags or other fields, showing them as alternate account names when needed.)
+
+More:
+- [Reddit: On ledger-cli, what is the difference between payee and account?](https://www.reddit.com/r/plaintextaccounting/comments/ybwi4a/on_ledgercli_what_is_the_difference_between_payee/)
