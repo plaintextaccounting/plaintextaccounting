@@ -216,7 +216,7 @@ If you don't need such detail you can record their full amount as an expense on 
 
 Some ways people have tried:
 
-- Document the goal in the account name so it shows up in reports along with the balance. Simple.
+- Keep imaginary subaccounts in your savings account. Document the goal in the subaccount name so it shows up in reports along with the balance. Simple.
 - Treat it as a [[Budgeting]] problem. h/ledger's --budget goal report is probably the most useful way.
 - Track it as a (imaginary, self-imposed) liability that you are paying off. Could add a bit of noise and confusion.
 - Script/build a custom goals report for yourself.
