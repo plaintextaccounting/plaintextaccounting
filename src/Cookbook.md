@@ -41,7 +41,7 @@ or [add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/
 - [[Mortgages]]
 - [[Multiple currencies]]
 - [[Non-profit accounting]]
-- [[Shared expenses]]
+- [[Shared finances]]
 - [[Taxes]]
 - [[Time tracking]]
 - [[Trip expenses]]
