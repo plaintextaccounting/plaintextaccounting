@@ -555,6 +555,10 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 - [reorder-journal.sh](https://github.com/amitaibu/hledger-example/blob/master/reorder-journal.sh) sort hledger entries, preserving directives/comments at top of file (bash)
 - [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
 
+### Invoicing
+
+- [kairos](https://kairosdotapp.github.io) ([repo](https://github.com/kairosdotapp/kairos)) generate invoices from hledger timedot files (go)
+
 ### Workflows
 
 - [docker-finance](https://gitea.com/EvergreenCrypto/docker-finance) hledger/hledger-flow/docker-based system for tracking and reporting on traditional and cryptocurrency finances

@@ -76,6 +76,7 @@ with additional postings to track and save for tax owed:
 - https://en.wikipedia.org/wiki/Basis_of_accounting
 - https://plaintextaccounting.org/#invoicing
 - https://github.com/simonmichael/hledger/tree/master/examples/invoicing
+- [kairos](https://kairosdotapp.github.io) ([repo](https://github.com/kairosdotapp/kairos))
 
 <!-- mockup for badges that could be added by a lint tool. These would cover all examples on the page. -->
 Examples tested on 2022-01-09 with:
