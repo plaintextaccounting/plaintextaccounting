@@ -548,6 +548,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 - [beancount-extract-price](https://github.com/Mayeu/beancount-scripts) generate prices transactions based on your beancount ledger (python)
 - [DepreciateForLedger](https://github.com/tazzben/DepreciateForLedger) generate *ledger depreciation transactions (python)
 - [hledger-interest](https://hackage.haskell.org/package/hledger-interest) generate *ledger interest entries (haskell)
+- [ledger-ts](https://github.com/hamsterbase/ledger-ts) typescript EDSL for generating beancount journals (typescript)
 - [ledgerbil](https://github.com/scarpent/ledgerbil) schedule recurring txns, interactive reconcile, date sorting
 - [LedgerScheduler](https://github.com/tazzben/LedgerScheduler) move entries from one file to another when they come due (python)
 - [lotter](https://src.d10.dev/lotter) generate postings for capital gain/loss (go)
