@@ -663,7 +663,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 
 ### Utilities
 
-- [beanhub-cli](https://github.com/LaunchPlatform/beanhub-cli) beancount command line tools come with features like formatter and a [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) web app
+- [beanhub-cli](https://github.com/LaunchPlatform/beanhub-cli) beancount command line tools come with features like formatter, [beanhub-import](https://github.com/LaunchPlatform/beancount-import) and a [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) web app
 
 ### API
 
