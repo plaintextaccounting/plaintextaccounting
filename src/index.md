@@ -64,6 +64,11 @@ and if you found the plaintextaccounting.org sites useful, help with [[finance]]
 , [API](#api)
 </div>
 
+## Sponsors
+
+<div id="sponsors-container">
+- [<img src="https://beanhub.io/images/beanhub-sponsor-logo.svg">A modern accounting book app based on Beancount and Git](https://beanhub.io)
+</div>
 
 ## News & discussion
 

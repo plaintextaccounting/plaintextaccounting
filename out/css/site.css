@@ -34,3 +34,18 @@ li {
     border-bottom: thin solid black;
     margin-bottom: 2em;
 }
+
+#sponsors-container > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    max-width: 100%;
+}
+
+#sponsors-container > ul > * {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    font-size: 0.8em;
+}
