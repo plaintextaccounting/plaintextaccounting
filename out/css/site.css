@@ -31,11 +31,13 @@ li {
 #TOC, #sitemap {
     /* border-top:    thin solid black; */
     padding-top:    1em;
-    border-bottom: thin solid black;
     margin-bottom: 2em;
 }
 
 #sponsors-container > ul {
+    border-top: thin solid #e1e1e1;
+    border-bottom: thin solid #e1e1e1;
+    padding: 1em 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

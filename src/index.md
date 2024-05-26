@@ -13,17 +13,13 @@ toc: false
 
 <div id="intro" style="font-size:larger;">
 
+Welcome!
 ***Plain text accounting*** is a way of doing bookkeeping and accounting 
 with plain text files and scriptable, command-line-friendly software, such as
 Ledger, hledger, or Beancount.
-
-Welcome!
 This site collects the PTA community's tools, docs and practices. 
 It is maintained by Simon&nbsp;Michael (hledger project leader, PTA fan)
-and contributors like you. 
-We invite you to join the [chat](#news-discussion),
-contribute to the [repo](https://github.com/plaintextaccounting/plaintextaccounting),
-and if you found the plaintextaccounting.org sites useful, help with [[finance]].
+and contributors like you. See also our [discussion forum and chat rooms](#news-discussion).
 
 </div>
 
@@ -64,7 +60,9 @@ and if you found the plaintextaccounting.org sites useful, help with [[finance]]
 , [API](#api)
 </div>
 
-## Sponsors
+This is a community-supported site; if you find it useful, why not contribute to the [github repo](https://github.com/plaintextaccounting/plaintextaccounting)
+or help with [[finance]].
+Thank you sponsors, including:
 
 <div id="sponsors-container">
 - [<img src="https://beanhub.io/images/beanhub-sponsor-logo.svg">A modern accounting book app based on Beancount and Git](https://beanhub.io)
