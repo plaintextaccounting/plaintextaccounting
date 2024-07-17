@@ -327,6 +327,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 | coin               | 2019   |              | [go][coin-src]               |          1 |     7 |                                  |                                                                                                      |                              |
 | budget-cli         | 2023   | 2023         | [typescript][budget-cli]     |          1 |     2 |                                  |                                                                                                      |                              |
 | mynt               | 2023   |              | [rust][mynt-src]             |          1 |       |                                  |                                                                                                      |                              |
+| [placc]            | 2024   |              | nim                          |          1 |       |                                  |                                                                                                      |                              |
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Inactive**       |        |              |                              |            |       |                                  |                                                                                                      |                              |
 | bankroll           | 2020   | 2020         | [rust][bankroll-src]         |          1 |     1 |                                  |                                                                                                      |                              |
@@ -358,6 +359,8 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 [acc-src]: https://github.com/rudolfschmidt/acc
 [awk-pta-src]: https://github.com/filiphanes/awk-pta
 [mynt-src]: https://git.sr.ht/~kmaasrud/mynt
+
+[placc]: https://dolfi.dev/placc
 
 [Beancount]: https://github.com/beancount/
 [Beancount2]: https://beancount.github.io
