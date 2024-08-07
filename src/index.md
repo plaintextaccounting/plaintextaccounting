@@ -216,6 +216,7 @@ Thank you sponsors, including:
 - [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
 - [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
 - [[Cookbook.html#getting-started|Cookbook: Getting started]]
+- [BeanHub Academy: the definitive guide to learning double-entry accounting with Beancount — the Zen of Balance](https://academy.beanhub.io)
 
 ### Cheatsheets
 
