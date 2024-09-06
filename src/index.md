@@ -217,6 +217,7 @@ Thank you sponsors, including:
 - [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
 - [[Cookbook.html#getting-started|Cookbook: Getting started]]
 - [BeanHub Academy: the definitive guide to learning double-entry accounting with Beancount — the Zen of Balance](https://academy.beanhub.io)
+- [Lazy Beancount: an opinionated guide on Beancount](https://lazy-beancount.xyz/)
 
 ### Cheatsheets
 
@@ -576,6 +577,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 - [Full-fledged hledger](https://github.com/adept/full-fledged-hledger) scripts and detailed tutorial for generating hledger journals from CSV files (haskell, shell)
 - [hledger-flow](https://github.com/apauley/hledger-flow) command-line tool to generate hledger (or Ledger) journals from CSV files (haskell)
 - [rtrledger](https://github.com/rotorkunstkultur/rtrledger) another hledger journals from CSV files system, designed for chaotic German freelancers (shell etc.)
+- [Lazy Beancount](https://github.com/Evernight/lazy-beancount) Beancount packaged in Docker with additional plugins and tools
 
 ### Formatting
 
