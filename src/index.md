@@ -313,7 +313,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Popular**        |        |              |                              |            |       |                                  |                                                                                                      |                              |
 | [Ledger]           | 2003   | 2023         | [C++][ledger-src]            |        226 |  4.9k | [ledger][ledger-mail] ~900       | [IRC][#ledger:libera.chat] ~60                                                                       | [1.5k][ledger-issues]    47% |
-| [hledger]          | 2007   | 2024         | [haskell][hledger-src]       |        169 |  2.8k | [hledger][hledger-mail] ~240     | [matrix][#hledger:matrix.org] ~140, [IRC][#hledger:libera.chat] ~70                                  | [1.4k][hledger-issues]   24% (bugs: 0.7k, 8% open) |
+| [hledger]          | 2007   | 2024         | [haskell][hledger-src]       |        171 |  2.9k | [hledger][hledger-mail] ~250     | [matrix][#hledger:matrix.org] ~190, [IRC][#hledger:libera.chat] ~70                                  | [1.4k][hledger-issues]   24% (bugs: 0.7k, 8% open) |
 | [Beancount]        | 2008   | 2023         | [python][beancount-src]      |         84 |  3.1k | [beancount][beancount-mail] ~700 | [matrix][beancount-matrix] ~10, [matrix (fava)][fava-matrix] ~190, [IRC][#beancount:libera.chat] ~30 | [0.5k][beancount-issues] 63% |
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Small userbase** |        |              |                              |            |       |                                  |                                                                                                      |                              |
@@ -382,7 +382,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 [cl-ledger-src]: https://github.com/ledger/cl-ledger
 
 [coin-src]: https://github.com/mkobetic/coin
-
+``
 [Ledger (Go)]: https://howeyc.github.io/ledger/
 [ledger-go-src]: https://github.com/howeyc/ledger
 
