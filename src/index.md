@@ -70,9 +70,6 @@ Thank you sponsors, including:
 
 ## News & discussion
 
-**Forum**
-- [forum.plaintextaccounting.org](https://forum.plaintextaccounting.org)
-\
 **Chat**
 - [matrix room](https://matrix.to/#/#plaintextaccounting:matrix.org)
 - [matrix space](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
@@ -80,8 +77,11 @@ Thank you sponsors, including:
 - [project chats](#pta-apps)
 \
 **Blogs & articles**
-- see the PTA forum and its [RSS feed](https://forum.plaintextaccounting.org/latest.rss?order=created);
-  also older [[blogs|Blogs & articles 2006-2024]].
+- Newer: see the PTA forum's [News category](https://forum.plaintextaccounting.org/c/news/6) and [RSS feed](https://forum.plaintextaccounting.org/latest.rss?order=created)
+- Older: [[blogs|Blogs & articles 2006-2024]]
+\
+**PTA forum**
+- [forum.plaintextaccounting.org](https://forum.plaintextaccounting.org)
 \
 **Reddit**
 - [/r/plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
@@ -124,6 +124,8 @@ Thank you sponsors, including:
 - [email the site admin](mailto:webmaster@plaintextaccounting.org)
 
 ## Videos
+
+<https://www.youtube.com/results?search_query=plaintextaccounting>
 
 - [Thanga Ayyanar: Ledger CLI](https://www.youtube.com/watch?v=PQKOiU_spHg) (in Tamil) 2024 <!-- 03-31 -->
 - [Edwin Espinoza: Ledger CLI, Personal finance in the command line](https://www.youtube.com/watch?v=EWjoblLoD3k) 2023 <!-- 04-23 -->
