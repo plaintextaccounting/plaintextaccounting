@@ -77,8 +77,8 @@ Thank you sponsors, including:
 - [project chats](#pta-apps)
 \
 **Blogs & articles**
-- Newer: see the PTA forum's [News category](https://forum.plaintextaccounting.org/c/news/6) and [RSS feed](https://forum.plaintextaccounting.org/latest.rss?order=created)
-- Older: [[blogs|Blogs & articles 2006-2024]]
+- See the PTA forum's [News category](https://forum.plaintextaccounting.org/c/news/6) and [RSS feed](https://forum.plaintextaccounting.org/latest.rss?order=created)
+- [[blogs|Older blogs & articles, 2006-2024]]
 \
 **PTA forum**
 - [forum.plaintextaccounting.org](https://forum.plaintextaccounting.org)
