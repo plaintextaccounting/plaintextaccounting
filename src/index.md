@@ -429,7 +429,8 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 
 ### Feature matrix
 
-A rough comparison of the big three PTA apps' features. Improvements welcome ([chat](https://matrix.to/#/#plaintextaccounting:matrix.org)).
+A rough comparison of the big three PTA apps' features.
+This aims to be neutral, corrections and suggestions welcome ([chat](https://matrix.to/#/#plaintextaccounting:matrix.org)).
 Third-party things are parenthesised. Notable complementary tools likely to work with reasonable effort are mentioned.
 
 |                          | Ledger                                                           | hledger                                                                                                                                                                              | Beancount
