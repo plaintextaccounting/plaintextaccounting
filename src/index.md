@@ -279,7 +279,8 @@ To do Plain Text Accounting, try one (or more) of the apps below.
 Generally it's possible to migrate data between them.
 
 <style>
-th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; /*white-space:nowrap;*/ }
+th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; }
+th:first, td:first { white-space:nowrap; }
 </style>
 
 <!--
