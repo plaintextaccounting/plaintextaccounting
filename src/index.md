@@ -42,6 +42,7 @@ and contributors like you. See also our [discussion forum and chat rooms](#news-
 **[[Cookbook]]**\
 **[Software](#software):**
   [PTA apps](#pta-apps)
+, [Feature matrix](#feature-matrix)
 , [Editor plugins](#editor-plugins)
 , [Data import/conversion](#data-importconversion)
 , [Price fetching](#price-fetching)
@@ -196,6 +197,7 @@ Thank you sponsors, including:
 ### Comparisons
 
 - [PTA apps](#pta-apps) project stats
+- [Feature matrix](#feature-matrix)
 - [[FAQ#which-pta-app-should-i-choose|FAQ: Which PTA app should I choose ?]]
 - [hledger and Ledger](https://hledger.org/ledger.html),
   [hledger and Beancount](https://hledger.org/beancount.html),
@@ -449,6 +451,51 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 [zhang]: https://zhang-accounting.github.io/zhang
 
 <!-- [compare at openhub](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
+
+### Feature matrix
+
+A rough comparison of the big three PTA apps' features. Improvements welcome.
+
+|                          | Ledger                                                           | hledger                                                                                                                                                                              | beancount
+|--------------------------|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------
+| CLIs:                    | ledger                                                           | hledger                                                                                                                                                                              | beanquery
+| TUIs:                    | (regdel)                                                         | hledger add, hledger-ui, (hledger-iadd), (puffin)                                                                                                                                    | (bean-add)
+| WUIs:                    | (ledgeraccounting), (paisa), (cashier), (ledgible), (ledger, howeyc), (ledger-web, vifon), (ledger-web, peterkeen), (ledger-pyreport), (ledger-analytics), (node-ledger-web)           | hledger-web, (ledgeraccounting), (paisa), (cashier)            | (fava), (paisa), (BeanHub)
+| GUIs:                    | (Prudent), (ledgerble), (ledgerhelpers: addtrans)                | (gledger)                                                                                                                                                                            | 
+| MUIs (Android):          | (cashier), (NanoLedger)                                          | (cashier), (MoLe), (NanoLedger)                                                                                                                                                      | (Beancount Mobile, stargately), (beancount-mobile, xuhcc)
+| MUIs (IOS):              |                                                                  |                                                                                                                                                                                      | (Beancount Mobile, stargately)
+| CLI help:                | general --help                                                   | general and command-specific --help, auto-paginated                                                                                                                                  | command-specific --help
+| TLDR short help:         | ledger                                                           | hledger and all commands, also built-in as --tldr                                                                                                                                    | 
+| User manual formats:     | web                                                              | web, info, man, built-in info/man/text                                                                                                                                               | web
+| Input formats:           | journal (ledger), timeclock, csv                                 | journal (hledger), timeclock, csv, timedot, tsv, ssv, *sv                                                                                                                            | journal (beancount)
+| Output formats:          | text, csv, xml                                                   | text, html, fods, csv, tsv, ssv, sql                                                                                                                                                 | text, ?
+| Commands:                | cleared, convert, entry, emacs, equity, pricemap, select, source | activity, add, aregister, balancesheet, balancesheetequity, cashflow, check, close, codes, demo, descriptions, diff, files, help, import, incomestatement, notes, rewrite, roi, test | beancount: check, doctor, example, format; beanquery: balances, journal, print, select
+| Add-on commands:         |                                                                  | bar, check-fancyassertions, edit, git, iadd, interest, lots, pijul, plot..                                                                                                           | 
+| Config file:             | general options                                                  | general and command-specific options                                                                                                                                                 | ?
+| Extensibility:           | built-in expression language, embedded python snippets           | add-on commands, haskell library                                                                                                                                                     | data-modifying plugins, python library
+| APIs:                    | C++, python, (HTTP-JSON)                                         | haskell, HTTP-JSON                                                                                                                                                                   | python
+| Data import support:     | built-in (convert command)                                       | built-in (*sv reader, import command)                                                                                                                                                | beangulp framework, (beancount_reds_importers framework), (beancount-import library)
+| Data deduplication:      | checksum-based (requires unique CSV records)                     | date-based (requires date-ordered CSV records)                                                                                                                                       | ?
+| Lot management:          | automated matching syntax, `--lots` report                       | manual                                                                                                                                                                               | automated matching syntax, ?
+| Pivoting:                | on single tag                                                    | on one or more tags/other fields                                                                                                                                                     | ?
+| Price fetching:          | (pricehist)                                                      | (pricehist)                                                                                                                                                                          | beanprice
+| Querying:                | cli options, custom query expressions                            | cli options, custom query expressions                                                                                                                                                | SQL-like beancount query language
+| REPL:                    | built-in                                                         | haskell GHCI                                                                                                                                                                         | beanquery, python
+| Shell completions:       | bash (commands, flags, maybe accounts)                           | bash (commands, flags, flag values, query types, queryable journal data)                                                                                                             | 
+| Validation:              | configurable                                                     | configurable                                                                                                                                                                         | always strict
+| Active support channels: |                                                                  | chat, mail list, forum, reddit                                                                                                                                                       | mail list
+|                          |                                                                  |                                                                                                                                                                                      | 
+| Other:                   | automatic revaluation transactions (`--revalued`)                | account types awareness                                                                                                                                                              | ?
+|                          | ?                                                                | standard financial reports                                                                                                                                                           | 
+|                          |                                                                  | multi-period balance reports                                                                                                                                                         | 
+|                          |                                                                  | customisable account display order                                                                                                                                                   | 
+|                          |                                                                  | international number notations                                                                                                                                                       | 
+|                          |                                                                  | commands summary                                                                                                                                                                     | 
+|                          |                                                                  | built-in asciinema demos                                                                                                                                                             | 
+|                          |                                                                  | regular releases                                                                                                                                                                     | 
+|                          |                                                                  | documentation-first process                                                                                                                                                          | 
+|                          |                                                                  | regression bounties                                                                                                                                                                  | 
+|                          |                                                                  |                                                                                                                                                                                      | 
 
 ### Editor plugins
 
