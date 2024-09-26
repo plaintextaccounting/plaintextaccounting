@@ -429,14 +429,15 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 
 ### Feature matrix
 
-A rough comparison of the big three PTA apps' features. Improvements welcome.
+A rough comparison of the big three PTA apps' features. Improvements welcome ([chat](https://matrix.to/#/#plaintextaccounting:matrix.org)).
+Third-party things are parenthesised. Notable complementary tools likely to work with reasonable effort are mentioned.
 
-|                          | Ledger                                                           | hledger                                                                                                                                                                              | beancount
+|                          | Ledger                                                           | hledger                                                                                                                                                                              | Beancount
 |--------------------------|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------
 | CLIs:                    | ledger                                                           | hledger                                                                                                                                                                              | beanquery
 | TUIs:                    | (regdel)                                                         | hledger add, hledger-ui, (hledger-iadd), (puffin)                                                                                                                                    | (bean-add)
+| GUIs:                    | (Prudent), (ledgerble), (ledgerhelpers: addtrans)                | (fruit-credits)                                                                                                                                                                      | 
 | WUIs:                    | (ledgeraccounting), (paisa), (cashier), (ledgible), (ledger, howeyc), (ledger-web, vifon), (ledger-web, peterkeen), (ledger-pyreport), (ledger-analytics), (node-ledger-web)           | hledger-web, (ledgeraccounting), (paisa), (cashier)            | (fava), (paisa), (BeanHub)
-| GUIs:                    | (Prudent), (ledgerble), (ledgerhelpers: addtrans)                | (gledger)                                                                                                                                                                            | 
 | MUIs (Android):          | (cashier), (NanoLedger)                                          | (cashier), (MoLe), (NanoLedger)                                                                                                                                                      | (Beancount Mobile, stargately), (beancount-mobile, xuhcc)
 | MUIs (IOS):              |                                                                  |                                                                                                                                                                                      | (Beancount Mobile, stargately)
 | CLI help:                | general --help                                                   | general and command-specific --help, auto-paginated                                                                                                                                  | command-specific --help
@@ -650,6 +651,7 @@ A rough comparison of the big three PTA apps' features. Improvements welcome.
 
 ### UI, GUI
 
+- [fruit-credits](https://codeberg.org/dz4k/fruit-credits) data entry/reporting GUI (Vala, GNOME)
 - [ledgerble](https://github.com/sbridges/ledgerble) reporting GUI with charts & adjustable reports (Javascript)
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) misc. GUI tools + helper library (Python, GTK)
 - [Prudent][prudent] integrated journal editing/importing/reporting GUI for Ledger (Javascript, mac only, closed source)
