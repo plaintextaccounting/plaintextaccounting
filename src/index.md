@@ -651,7 +651,7 @@ Third-party things are parenthesised. Notable complementary tools likely to work
 
 ### UI, GUI
 
-- [fruit-credits](https://codeberg.org/dz4k/fruit-credits) data entry/reporting GUI (Vala, GNOME)
+- [fruit-credits](https://codeberg.org/dz4k/fruit-credits) data entry/reporting GUI for hledger (Vala, GNOME)
 - [ledgerble](https://github.com/sbridges/ledgerble) reporting GUI with charts & adjustable reports (Javascript)
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) misc. GUI tools + helper library (Python, GTK)
 - [Prudent][prudent] integrated journal editing/importing/reporting GUI for Ledger (Javascript, mac only, closed source)
