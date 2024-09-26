@@ -384,7 +384,7 @@ Commit activity (from https://hledger.org/reporting-version-control-stats.html)
 [cl-ledger-src]: https://github.com/ledger/cl-ledger
 
 [coin-src]: https://github.com/mkobetic/coin
-``
+
 [Ledger (Go)]: https://howeyc.github.io/ledger/
 [ledger-go-src]: https://github.com/howeyc/ledger
 
