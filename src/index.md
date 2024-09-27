@@ -445,59 +445,284 @@ td:first-child strong a {
 |                                 | Ledger                                                           | hledger                                                                                                                                                                              | Beancount
 |---------------------------------|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------
 | 
-| CLI:                            | ledger                                                           | hledger                                                                                                                                                                              | beanquery
-| TUI:                            | *regdel*                                                         | hledger add, hledger-ui, *hledger-iadd*, *puffin*                                                                                                                                    | *bean-add*
-| GUI:                            | *Prudent*, *ledgerble*, *addtrans&nbsp;(ledgerhelpers)*          | *fruit-credits*                                                                                                                                                                      | 
-| WUI:                            | *ledgeraccounting*, *paisa*, *cashier*, *ledgible*, *ledger&nbsp;(howeyc)*, *ledger-web&nbsp;(vifon)*, *ledger-web&nbsp;(peterkeen)*, *ledger-pyreport*, *ledger-analytics*, *node-ledger-web*  | hledger-web, *ledgeraccounting*, *paisa*, *cashier*   | *fava*, *paisa*, *BeanHub*
-| Android:                        | *cashier*, *NanoLedger*                                          | *cashier*, *MoLe*, *NanoLedger*                                                                                                                                                      | *Beancount&nbsp;Mobile&nbsp;CE*, *beancount-mobile&nbsp;(xuhcc)*
-| IOS:                            |                                                                  |                                                                                                                                                                                      | *Beancount&nbsp;Mobile&nbsp;CE*
 | <br>**<a name="user-interfaces" href="#user-interfaces">User interfaces</a>**
+| [CLI]:                          | [ledger]                                                         | [hledger]                                                                                                                                                                            | [beanquery]
+| [TUI]:                          | *[regdel]*                                                         | [hledger add], [hledger-ui], *[hledger-iadd]*, *[puffin]*                                                                                                                                    | *[bean-add]*
+| [GUI]:                          | *[Prudent]*, *[ledgerble]*, *[addtrans]*          | *[fruit-credits]*                                                                                                                                                                      | 
+| [WUI]:                          | *[ledgeraccounting]*, *[paisa]*, *[cashier]*, *[ledgible]*, *[ledger (howeyc)]*, *[ledger-web (vifon)]*, *[ledger-web (peterkeen)]*, *[ledger-pyreport]*, *[ledger-analytics]*, *[node-ledger-web]*  | [hledger-web], *[ledgeraccounting]*, *[paisa]*, *[cashier]*   | *[fava]*, *[paisa]*, *[BeanHubA]*
+| [Android]:                      | *[cashier]*, *[NanoLedger]*                                          | *[cashier]*, *[MoLe]*, *[NanoLedger]*                                                                                                                                                      | *[Beancount Mobile CE]*, *[beancount-mobile (xuhcc)]*
+| [IOS]:                          |                                                                  |                                                                                                                                                                                      | *[Beancount Mobile CE]*
 | 
-| CLI help:                       | general --help, also available as man page                       | general and command-specific --help, commands summary, built-in asciinema demos                                                                                                      | command-specific --help
-| TLDR short help:                | ledger                                                           | hledger and commands, also built-in                                                                                                                                                  | 
-| User manual formats:            | web                                                              | web, info, man, also built-in info/man/text with jump to topic                                                                                                                       | web
-| Active support channels:        |                                                                  | chat, mail list, forum, reddit                                                                                                                                                       | mail list
-| Easy first setup:               | yes                                                              | yes                                                                                                                                                                                  | no
 | <br>**<a name="help" href="#help">Help</a>**
+| CLI help:                       | general --help, also available as [man page][ledger man]         | general and command-specific --help, [commands summary][hledger commands summary], [built-in asciinema demos][hledger demo]                                                                                                      | command-specific --help
+| [TLDR] short help:              | [ledger][ledger tldr]                                            | [hledger][hledger tldr] and [commands][hledger balance tldr], also built-in                                                                                                                                                  | 
+| User manual formats:            | [web][ledger manual web]                                                              | [web][hledger manual web], info, [man][hledger man], also built-in info/man/text with [jump to topic]                                                                                                                       | [web][beancount manual web]
+| Active support channels:        |                                                                  | [chat][hledger chat], [mail list][hledger mail list], [forum], [reddit]                                                                                                                                                       | mail list
+| Easy install and setup:         | yes                                                              | yes                                                                                                                                                                                  | no
 | 
-| Input formats:                  | journal&nbsp;(ledger), timeclock, csv                            | journal&nbsp;(hledger), timeclock, timedot, csv, tsv, ssv, \*sv                                                                                                                      | journal&nbsp;(beancount)
-| Output formats:                 | text, csv, xml                                                   | text, html, fods, csv, tsv, ssv, sql                                                                                                                                                 | text, ?
 | <br>**<a name="data-formats" href="#data-formats">Data formats</a>**
+| Input formats:                  | [journal (ledger)], [timeclock][timeclock (ledger)], [csv][csv (ledger)]                            | [journal (hledger)], [timeclock][timeclock (hledger)], [timedot], [csv, tsv, ssv, \*sv][csv (hledger)]                                                                                                                      | [journal (beancount)]
+| Output formats:                 | text, [csv, xml, lisp][ledger output format]                     | [text, html, fods, csv, tsv, ssv, json, sql][hledger output format]                                                                                                                                                 | text, ?
 | 
-| Commands:                       | accounts, balance, cleared, commodities, convert, entry, emacs, equity, payees, pricemap, prices, print, register, select, source, stats, tags  | accounts, activity, add, aregister, balance, balancesheet, balancesheetequity, cashflow, check, close, codes, commodities, demo, descriptions, diff, files, help, import, incomestatement, payees, prices, print, notes, register, rewrite, roi, stats, tags, test  | beancount: check, doctor, example, format
-| Add-on commands:                |                                                                  | bar, check-fancyassertions, *edit*, git, *iadd*, *interest*, *lots*, pijul, *plot*..                                                                                                 | beanquery: balances, journal, print, select
 | <br>**<a name="commands" href="#commands">Commands</a>**
+| Commands:                       | [accounts][l  accounts], [balance][l  balance], [cleared][l  cleared], [commodities][l  commodities], [convert][l  convert], [csv][l  csv], [entry][l  entry], [emacs][l  emacs], [equity][l  equity], [lisp][l  lisp], [payees][l  payees], [pricemap][l  pricemap], [pricedb][l  pricedb], [prices][l  prices], [print][l  print], [register][l  register], [select][l  select], [source][l  source], [stats][l  stats], [tags][l  tags]  | [accounts][h accounts], [activity][h activity], [add][h add], [aregister][h aregister], [balance][h balance], [balancesheet][h balancesheet], [balancesheetequity][h balancesheetequity], [cashflow][h cashflow], [check][h check], [close][h close], [codes][h codes], [commodities][h commodities], [demo][h demo], [descriptions][h descriptions], [diff][h diff], [files][h files], [help][h help], [import][h import], [incomestatement][h incomestatement], [payees][h payees], [prices][h prices], [print][h print], [notes][h notes], [register][h register], [rewrite][h rewrite], [roi][h roi], [stats][h stats], [tags][h tags], [test][h test]  | beancount: [check][b check], [doctor][b doctor], [example][b example], [format][b format]
+| Add-on commands:                |                                                                  | [bar][h bar], [check-fancyassertions][h check-fancyassertions], *[edit][h edit]*, [git][h git], *[iadd][h iadd]*, *[interest][h interest]*, *[lots][h lots]*, *[move][h move]*, [pijul][h pijul], *[plot][h plot]*..                                                                                                 | beanquery: [balances][b balances], [journal][b journal], [print][b print], [select][b select]
 | 
 | <br>**<a name="configuration" href="#configuration">Configuration</a>**
-| Config file:                    | general options                                                  | general and command-specific options                                                                                                                                                 | ?
-| Extensibility:                  | built-in expression language, embedded python snippets           | add-on commands, haskell library                                                                                                                                                     | data-modifying plugins, python library
-| APIs:                           | C++, python, *HTTP-JSON*                                         | haskell, HTTP-JSON                                                                                                                                                                   | python
+| Config file:                    | [general options][l config]                                      | [general and command-specific options][h config]                                                                                                                                     | ?
+| Extensibility:                  | [built-in expression language][l expression lang], [embedded python][l python], *[HTTP-JSON][l http api]*           | [add-on commands][h addons], [haskell library][h lib], [HTTP-JSON][h http api]                                                                                                                                                     | [data-modifying plugins][b plugins], [python library][b lib]
 | 
 | <br>**<a name="other-features" href="#other-features">Other features</a>**
-| Budget report:                  | yes                                                              | yes                                                                                                                                                                                  | 
-| Charting tools:                 | *paisa*, etc..                                                   | hledger activity, hledger-bar, hledger-web, *hledger-plot*, *paisa*, etc..                                                                                                           | *paisa*..
-| Data importing:                 | built-in, from CSV                                               | built-in, from any input format                                                                                                                                                      | beangulp framework, *beancount_reds_importers framework*, *beancount-import library*
-| Data deduplication:             | checksum-based (requires unique CSV records)                     | date-based (requires date-ordered CSV records)                                                                                                                                       | ?
-| Generate postings by rule:      | yes                                                              | yes                                                                                                                                                                                  | ?
-| Generate transactions by rule:  | yes                                                              | yes                                                                                                                                                                                  | ?
-| International number notations: | no                                                               | yes                                                                                                                                                                                  | no
-| Lot management:                 | lot matching syntax, lots report, revaluation transactions, *lotter*  | manual, *hledger-lots*, *hledger-move*, *lotter*                                                                                                                                | lot matching syntax, ?
-| Multi-period balance reports:   | no                                                               | yes                                                                                                                                                                                  | no
-| Pivoting:                       | on single tag                                                    | on one or more tags/other fields                                                                                                                                                     | ?
-| Price fetching:                 | *pricehist*                                                      | *pricehist*                                                                                                                                                                          | beanprice, *pricehist*
-| Querying:                       | cli options, custom query expressions                            | cli options, custom query expressions                                                                                                                                                | SQL-like beancount query language
-| REPL:                           | built-in                                                         | haskell GHCI                                                                                                                                                                         | beanquery, python
-| Shell completions:              | bash (commands, flags, maybe accounts)                           | bash (commands, flags, flag values, query types, journal data)                                                                                                                       | 
-| Unrealised gains report:        | yes                                                              | yes                                                                                                                                                                                  | ?
-| Validation:                     | configurable                                                     | configurable                                                                                                                                                                         | always strict
-| Miscellaneous:                  | ?                                                                | account types awareness                                                                                                                                                              | ?
-|                                 |                                                                  | standard financial reports                                                                                                                                                           | 
-|                                 |                                                                  | customisable account display order                                                                                                                                                   | 
-|                                 |                                                                  | customisable amount styles for input and output                                                                                                                                      | 
-|                                 |                                                                  | documentation-first development                                                                                                                                                      | 
-|                                 |                                                                  | regular releases                                                                                                                                                                     | 
-|                                 |                                                                  | regression bounties                                                                                                                                                                  | 
+| Budget report:                  | [yes][l budget]                                                  | [yes][h budget]                                                                                                                                                                                  | 
+| Charting tools:                 | *[paisa]*, etc..                                                 | [activity][h activity], [hledger-bar][h bar], [hledger-web][hledger-web], *[hledger-plot][h plot]*, *[paisa]*, etc..                                                                                                           | *[paisa]*..
+| Data importing:                 | [built-in from CSV][l convert], *[others][import tools]*..      | [built-in from any input format][h import], *[others][import tools]*..                                                                                                                                                      | [beangulp] framework, *[beancount_reds_importers] framework*, *[beancount-import] library*, *[others][import tools]*..
+| Data deduplication:             | [checksum-based (requires unique CSV records)][l convert]        | [date-based (requires date-ordered CSV records)][h dedupe]                                                                                                                                       | ?
+| Generate postings by rule:      | [yes][l gen postings]                                            | [yes][h gen postings]                                                                                                                                                                                  | ?
+| Generate transactions by rule:  | [yes][l gen transactions]                                        | [yes][h gen transactions]                                                                                                                                                                                  | ?
+| International number notations: | no                                                               | [yes][h intl numbers]                                                                                                                                                                                  | no
+| Lot management:                 | [lot matching syntax][l lot matching], [lots report][l lot report], [revaluation transactions][l lot revaluation], *[lotter]*  | [manual][h lot manual], *[hledger-lots][h lots]*, *[hledger-move][h move]*, *[lotter]*                                                                                                                                | [lot matching syntax][b lot matching], ?
+| Multi-period balance reports:   | no                                                               | [yes][h multiperiod bal]                                                                                                                                                                                  | no
+| Pivoting:                       | [on single tag][l pivot]                                         | [on one or more tags/other fields][h pivot]                                                                                                                                                     | ?
+| Price fetching:                 | *[pricehist]*                                                      | *[pricehist][h pricehist]*                                                                                                                                                                          | [beanprice], *[pricehist]*
+| Querying:                       | [cli options][l query opts], [custom query expressions][l query args]  | [cli options][h query opts], [custom query expressions][h query args]                                                                                                                                                | [SQL-like beancount query language][b query]
+| REPL:                           | built-in                                                         | [haskell GHCI][h ghci]                                                                                                                                                                         | [beanquery][beanquery repl], python
+| Shell completions:              | [bash (commands, flags, maybe accounts)][l bash completions]     | [bash (commands, flags, flag values, query types, journal data)][h bash completions]                                                                                                                       | 
+| Unrealised gains report:        | [--unrealized][l ugains]                                         | [--gain][h ugains], [roi][h roi]                                                                                                                                                                                  | ?
+| Validation:                     | [configurable][l validation]                                     | [configurable][h validation]                                                                                                                                                                         | [always strict][b validation]
+| Miscellaneous:                  | ?                                                                | [account types awareness][h account types]                                                                                                                                                              | ?
+|                                 |                                                                  | [standard financial reports][h std financial reports]                                                                                                                                                           | 
+|                                 |                                                                  | [customisable account display order][h account display order]                                                                                                                                                   | 
+|                                 |                                                                  | customisable amount styles for [input][h input amount styles] and [output][h output amount styles]                                                                                                                                      | 
+|                                 |                                                                  | [documentation-first development][h doc-first dev]                                                                                                                                                      | 
+|                                 |                                                                  | [regular releases][h releases]                                                                                                                                                                     | 
+|                                 |                                                                  | [regression bounties][h reg bounties]                                                                                                                                                                  | 
 |                                 |                                                                  |                                                                                                                                                                                      | 
+
+<!-- Link targets used in the above table and elsewhere. Checked 2024-09-27. -->
+
+<!-- user interfaces -->
+
+[CLI]:                      https://en.wikipedia.org/wiki/Command-line_interface
+[TUI]:                      https://en.wikipedia.org/wiki/Text-based_user_interface
+[GUI]:                      https://en.wikipedia.org/wiki/Graphical_user_interface
+[WUI]:                      https://en.wikipedia.org/wiki/Web_application
+[Android]:                  https://en.wikipedia.org/wiki/Android_(operating_system)
+[IOS]:                      https://en.wikipedia.org/wiki/IOS
+[ledger]:                   https://ledger-cli.org/doc/ledger3.html
+[hledger]:                  https://hledger.org/hledger.html
+[beanquery]:                https://github.com/beancount/beanquery
+
+[regdel]:                   https://github.com/guillaumechereau/regdel
+[hledger add]:              https://hledger.org/hledger.html#add
+[hledger-ui]:               https://hledger.org/hledger-ui.html
+[hledger-web]:              https://hledger.org/hledger-web.html
+[hledger-iadd]:             https://github.com/hpdeifel/hledger-iadd
+[puffin]:                   https://github.com/siddhantac/puffin
+[bean-add]:                 https://github.com/simon-v/bean-add
+[Prudent]:                  https://prudent.me
+[ledgerble]:                https://github.com/sbridges/ledgerble
+[addtrans]:                 https://github.com/Rudd-O/ledgerhelpers/blob/master/doc/addtrans.md
+[fruit-credits]:            https://codeberg.org/dz4k/fruit-credits
+[ledgeraccounting]:         https://github.com/thecount2a/ledgeraccounting
+[paisa]:                    https://paisa.fyi
+[cashier]:                  https://gitlab.com/alensiljak/cashier
+[ledgible]:                 https://github.com/lipidity/ledgible
+[ledger (howeyc)]:          https://github.com/howeyc/ledger
+[ledger-web (vifon)]:       https://vifon.github.io/ledger-web
+[ledger-web (peterkeen)]:   https://github.com/peterkeen/Ledger-Web
+[NanoLedger]:               https://f-droid.org/en/packages/be.chvp.nanoledger
+[ledger-pyreport]:          https://yingtongli.me/git/ledger-pyreport/about
+[ledger-analytics]:         https://github.com/kendricktan/ledger-analytics
+[node-ledger-web]:          https://github.com/slashdotdash/node-ledger-web
+[Beancount Mobile CE]:      https://beancount.io
+[beancount-mobile (xuhcc)]: https://github.com/xuhcc/beancount-mobile
+[MoLe]:                     https://fossdroid.com/a/mole.html
+[BeanHub]:                  https://beanhub.io
+[fava]:                     https://github.com/beancount/fava
+
+<!-- help -->
+
+[tldr]:                     https://tldr.sh
+[ledger tldr]:              https://tldr.inbrowser.app/pages/common/ledger
+[hledger tldr]:             https://tldr.inbrowser.app/pages/common/hledger
+[hledger balance tldr]:     https://tldr.inbrowser.app/pages/common/hledger-balance
+[ledger manual web]:        https://ledger-cli.org/doc/ledger3.html
+[hledger manual web]:       https://hledger.org/start.html#manuals
+[beancount manual web]:     https://beancount.github.io/docs/
+[jump to topic]:            https://hledger.org/hledger.html#help
+
+[forum]:                    https://forum.plaintextaccounting.org
+[reddit]:                   https://reddit.com/r/plaintextaccounting
+[hledger chat]:             https://matrix.hledger.org
+[hledger mail list]:        https://list.hledger.org
+[beancount mail list]:      https://groups.google.com/g/beancount
+
+[hledger commands summary]: https://hledger.org/hledger.html#commands
+[hledger demo]:             https://hledger.org/hledger.html#demo
+[hledger quick start]:      https://hledger.org/start.html
+[ledger quick start]:       https://ledger-cli.org/doc/ledger3.html#Start-a-Journal-File
+[ledger install]:           https://ledger-cli.org/download.html
+[hledger install]:          https://hledger.org/install.html
+
+[ledger man]:               https://manned.org/man/ledger
+[hledger man]:              https://manned.org/man/hledger
+[bean-query man]:           https://manned.org/man/bean-query
+[bean-check man]:           https://manned.org/man/bean-check
+
+<!-- data formats -->
+
+[journal (ledger)]:      https://ledger-cli.org/doc/ledger3.html#Journal-Format
+[journal (hledger)]:     https://hledger.org/hledger.html#journal
+[journal (beancount)]:   https://beancount.github.io/docs/beancount_language_syntax.html
+[csv (ledger)]:          https://ledger-cli.org/doc/ledger3.html#The-convert-command
+[csv (hledger)]:         https://hledger.org/hledger.html#csv
+[timeclock (ledger)]:    https://ledger-cli.org/doc/ledger3.html#Time-Keeping
+[timeclock (hledger)]:   https://hledger.org/hledger.html#timeclock
+[timedot]:               https://hledger.org/hledger.html#timedot
+[ledger output format]:  https://ledger-cli.org/doc/ledger3.html#Basic-Reporting-Commands
+[hledger output format]: https://hledger.org/hledger.html#output-format
+
+<!-- commands -->
+
+<!-- ledger command urls as of 2024-09-27. Canonical names are decided by --help of homebrew ledger 3.3.2_6. -->
+[l accounts]:    https://ledger-cli.org/doc/ledger3.html#accounts
+[l balance]:     https://ledger-cli.org/doc/ledger3.html#The-balance-command
+[l cleared]:     https://ledger-cli.org/doc/ledger3.html#Cleared-Report
+[l commodities]: https://ledger-cli.org/doc/ledger3.html#commodities
+[l convert]:     https://ledger-cli.org/doc/ledger3.html#The-convert-command
+[l csv]:         https://ledger-cli.org/doc/ledger3.html#The-csv-command
+[l entry]:       https://ledger-cli.org/doc/ledger3.html#xact
+[l emacs]:       https://ledger-cli.org/doc/ledger3.html#The-lisp-command
+[l equity]:      https://ledger-cli.org/doc/ledger3.html#The-equity-command
+[l lisp]:        https://ledger-cli.org/doc/ledger3.html#The-xml-command
+[l payees]:      https://ledger-cli.org/doc/ledger3.html#payees
+[l pricemap]:    https://ledger-cli.org/doc/ledger3.html#The-pricemap-command
+[l pricedb]:     https://ledger-cli.org/doc/ledger3.html#prices-and-pricedb-commands
+[l prices]:      https://ledger-cli.org/doc/ledger3.html#prices-and-pricedb-commands
+[l print]:       https://ledger-cli.org/doc/ledger3.html#The-print-command
+[l register]:    https://ledger-cli.org/doc/ledger3.html#The-register-command
+[l select]:      https://ledger-cli.org/doc/ledger3.html#select
+[l source]:      https://ledger-cli.org/doc/ledger3.html#source
+[l stats]:       https://ledger-cli.org/doc/ledger3.html#stats
+[l tags]:        https://ledger-cli.org/doc/ledger3.html#tags
+
+<!-- hledger command urls as of 1.40 2024-09-27 -->
+[h accounts]:           https://hledger.org/hledger.html#accounts
+[h activity]:           https://hledger.org/hledger.html#activity
+[h add]:                https://hledger.org/hledger.html#add
+[h aregister]:          https://hledger.org/hledger.html#aregister
+[h balance]:            https://hledger.org/hledger.html#balance
+[h balancesheet]:       https://hledger.org/hledger.html#balancesheet
+[h balancesheetequity]: https://hledger.org/hledger.html#balancesheetequity
+[h cashflow]:           https://hledger.org/hledger.html#cashflow
+[h check]:              https://hledger.org/hledger.html#check
+[h close]:              https://hledger.org/hledger.html#close
+[h codes]:              https://hledger.org/hledger.html#codes
+[h commodities]:        https://hledger.org/hledger.html#commodities
+[h demo]:               https://hledger.org/hledger.html#demo
+[h descriptions]:       https://hledger.org/hledger.html#descriptions
+[h diff]:               https://hledger.org/hledger.html#diff
+[h files]:              https://hledger.org/hledger.html#files
+[h help]:               https://hledger.org/hledger.html#help
+[h import]:             https://hledger.org/hledger.html#import
+[h incomestatement]:    https://hledger.org/hledger.html#incomestatement
+[h payees]:             https://hledger.org/hledger.html#payees
+[h prices]:             https://hledger.org/hledger.html#prices
+[h print]:              https://hledger.org/hledger.html#print
+[h notes]:              https://hledger.org/hledger.html#notes
+[h register]:           https://hledger.org/hledger.html#register
+[h rewrite]:            https://hledger.org/hledger.html#rewrite
+[h roi]:                https://hledger.org/hledger.html#roi
+[h stats]:              https://hledger.org/hledger.html#stats
+[h tags]:               https://hledger.org/hledger.html#tags
+[h test]:               https://hledger.org/hledger.html#test
+
+<!-- hledger main addon command urls as of 2024-09-27 -->
+[h bar]:                   https://hledger.org/scripts.html#hledger-bar
+[h check-fancyassertions]: https://hledger.org/scripts.html#hledger-check-fancyassertions
+[h edit]:                  https://hledger.org/scripts.html#hledger-edit
+[h git]:                   https://hledger.org/scripts.html#hledger-git
+[h iadd]:                  https://hledger.org/scripts.html#hledger-iadd
+[h interest]:              https://hledger.org/scripts.html#hledger-interest
+[h lots]:                  https://hledger.org/scripts.html#hledger-lots
+[h move]:                  https://hledger.org/scripts.html#hledger-move
+[h pijul]:                 https://hledger.org/scripts.html#hledger-pijul
+[h plot]:                  https://hledger.org/scripts.html#hledger-plot
+
+<!-- beancount command urls as of 2024-09-27 -->
+[b check]:   https://beancount.github.io/docs/running_beancount_and_generating_reports.html#bean-check
+[b doctor]:  https://beancount.github.io/docs/running_beancount_and_generating_reports.html#bean-doctor
+[b example]: https://beancount.github.io/docs/running_beancount_and_generating_reports.html#bean-example
+[b format]:  https://beancount.github.io/docs/running_beancount_and_generating_reports.html#bean-format
+
+<!-- beancheck command urls as of 2024-09-27 -->
+[b balances]: https://github.com/beancount/beanquery/blob/7577b6c1b93cfdecd76e9c5f466e0ab96bddd045/beanquery/shell.py#L585
+[b journal]:  https://github.com/beancount/beanquery/blob/7577b6c1b93cfdecd76e9c5f466e0ab96bddd045/beanquery/shell.py#L570
+[b print]:    https://github.com/beancount/beanquery/blob/7577b6c1b93cfdecd76e9c5f466e0ab96bddd045/beanquery/shell.py#L490
+[b select]:   https://github.com/beancount/beanquery/blob/7577b6c1b93cfdecd76e9c5f466e0ab96bddd045/beanquery/shell.py#L512
+
+<!-- configuration -->
+
+[l config]:          https://ledger-cli.org/doc/ledger3.html#Basic-options
+[h config]:          https://hledger.org/hledger.html#config-files
+[l expression lang]: https://ledger-cli.org/doc/ledger3.html#Value-Expressions
+[l python]:          https://ledger-cli.org/doc/ledger3.html#Extending-with-Python
+[l http api]:        https://vifon.github.io/ledger-web/
+[h addons]:          https://hledger.org/dev/hledger.html#add-on-commands
+[h lib]:             https://hledger.org/scripting.html#hledger-lib-scripts
+[h http api]:        https://hledger.org/hledger-web.html#json-api
+[b plugins]:         https://beancount.github.io/docs/external_contributions.html#plugins
+[b lib]:             https://beancount.github.io/docs/api_reference/index.html
+
+<!-- other features -->
+
+[l budget]:                 https://ledger-cli.org/doc/ledger3.html#Budgeting
+[h budget]:                 https://hledger.org/hledger.html#budgeting
+[beangulp]:                 https://beancount.github.io/docs/beangulp.html
+[beancount_reds_importers]: https://github.com/redstreet/beancount_reds_importers
+[beancount-import]:         https://github.com/jbms/beancount-import
+[import tools]:             https://plaintextaccounting.org/#data-importconversion
+[h dedupe]:                 https://hledger.org/hledger.html#date-skipping
+[l gen postings]:           https://ledger-cli.org/doc/ledger3.html#Automated-Transactions
+[h gen postings]:           https://hledger.org/dev/hledger.html#auto-postings
+[l gen transactions]:       https://ledger-cli.org/doc/ledger3.html#Periodic-Transactions
+[h gen transactions]:       https://hledger.org/dev/hledger.html#periodic-transactions
+[h intl numbers]:           https://hledger.org/dev/hledger.html#amounts
+[l lot matching]:           https://ledger-cli.org/doc/ledger3.html#Buying-and-Selling-Stock
+[l lot report]:             https://ledger-cli.org/doc/ledger3.html#Lot-notes
+[l lot revaluation]:        https://ledger-cli.org/doc/ledger3.html#index-_002d_002drevalued
+[h lot manual]:             https://hledger.org/investments.html#what-about-lots-
+[b lot matching]:           https://beancount.github.io/docs/beancount_language_syntax.html#costs-and-prices
+[lotter]:                   https://src.d10.dev/lotter/doc/tip/README.md
+[h multiperiod bal]:        https://hledger.org/hledger.html#report-intervals
+[l pivot]:                  https://ledger-cli.org/doc/ledger3.html#index-_002d_002dpivot-TAG-1
+[h pivot]:                  https://hledger.org/dev/hledger.html#pivoting
+[h pricehist]:              https://hledger.org/scripts.html#pricehist
+[pricehist]:                https://gitlab.com/chrisberkhout/pricehist
+[beanprice]:                https://github.com/beancount/beanprice
+[l query opts]:             https://ledger-cli.org/doc/ledger3.html#Report-Filtering
+[l query args]:             https://ledger-cli.org/doc/ledger3.html#Building-Reports
+[h query opts]:             https://hledger.org/dev/hledger.html#options
+[h query args]:             https://hledger.org/dev/hledger.html#queries
+[b query]:                  https://beancount.github.io/docs/beancount_query_language.html
+[h ghci]:                   https://hledger.org/DEVWORKFLOWS.html#use-ghci
+[beanquery repl]:           https://beancount.github.io/docs/beancount_query_language.html#making-queries
+[l bash completions]:       https://github.com/ledger/ledger/blob/master/contrib/ledger-completion.bash
+[h bash completions]:       https://hledger.org/dev/hledger.html#shell-completions
+[l ugains]:                 https://ledger-cli.org/doc/ledger3.html#index-_002d_002dunrealized
+[h ugains]:                 https://hledger.org/dev/hledger.html#balance-report-types
+[l validation]:             https://ledger-cli.org/doc/ledger3.html#Error-Checking-and-Calculation-Options
+[h validation]:             https://hledger.org/dev/hledger.html#check
+[b validation]:             https://beancount.github.io/docs/getting_started_with_beancount.html#brief-syntax-overview
+[h account types]:          https://hledger.org/dev/hledger.html#account-types
+[h std financial reports]:  https://hledger.org/dev/hledger.html#part-4-commands
+[h account display order]:  https://hledger.org/dev/hledger.html#account-display-order
+[h input amount styles]:    https://hledger.org/dev/hledger.html#amounts
+[h output amount styles]:   https://hledger.org/dev/hledger.html#commodity-display-style
+[h doc-first dev]:          https://hledger.org/PULLREQUESTS.html#documentation-first
+[h releases]:               https://hledger.org/RELEASING.html#release-types
+[h reg bounties]:           https://hledger.org/REGRESSIONS.html
+
 
 ### Editor plugins
 
