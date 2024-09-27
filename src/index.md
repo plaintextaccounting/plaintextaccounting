@@ -280,6 +280,8 @@ Generally it's possible to migrate data between them.
 
 <style>
 th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; vertical-align:top; }
+th { width:30%; }
+th:first-child { width:10%; }
 th:first-child, td:first-child { white-space:nowrap; }
 </style>
 
