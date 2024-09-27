@@ -287,7 +287,7 @@ th:first-child, td:first-child { white-space:nowrap; }
 Markdown table syntax: https://pandoc.org/README.html#tables
 Active projects are sorted by committers then stars/activity. Inactive projects are sorted by start date then last release date.
 -->
-| Project            | Start  | Last release | Code                         | Committers | Stars | Mail list, size                  | Chat, size                                                                                           | Issues, % open               |
+| Project            | Start  | Last release | Code                         | Committers | Stars | Mail list, size                  | Chat, size                                                                                           | Issues                       |
 |--------------------|--------|:------------:|------------------------------|-----------:|------:|----------------------------------|------------------------------------------------------------------------------------------------------|------------------------------|
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Popular**        |        |              |                              |            |       |                                  |                                                                                                      |                              |
