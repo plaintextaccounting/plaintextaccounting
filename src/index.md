@@ -671,7 +671,7 @@ td:first-child strong a {
 [l expression lang]: https://ledger-cli.org/doc/ledger3.html#Value-Expressions
 [l python]:          https://ledger-cli.org/doc/ledger3.html#Extending-with-Python
 [l http api]:        https://vifon.github.io/ledger-web/
-[h addons]:          https://hledger.org/dev/hledger.html#add-on-commands
+[h addons]:          https://hledger.org/hledger.html#add-on-commands
 [h lib]:             https://hledger.org/scripting.html#hledger-lib-scripts
 [h http api]:        https://hledger.org/hledger-web.html#json-api
 [b plugins]:         https://beancount.github.io/docs/external_contributions.html#plugins
@@ -687,10 +687,10 @@ td:first-child strong a {
 [import tools]:             https://plaintextaccounting.org/#data-importconversion
 [h dedupe]:                 https://hledger.org/hledger.html#date-skipping
 [l gen postings]:           https://ledger-cli.org/doc/ledger3.html#Automated-Transactions
-[h gen postings]:           https://hledger.org/dev/hledger.html#auto-postings
+[h gen postings]:           https://hledger.org/hledger.html#auto-postings
 [l gen transactions]:       https://ledger-cli.org/doc/ledger3.html#Periodic-Transactions
-[h gen transactions]:       https://hledger.org/dev/hledger.html#periodic-transactions
-[h intl numbers]:           https://hledger.org/dev/hledger.html#amounts
+[h gen transactions]:       https://hledger.org/hledger.html#periodic-transactions
+[h intl numbers]:           https://hledger.org/hledger.html#amounts
 [l lot matching]:           https://ledger-cli.org/doc/ledger3.html#Buying-and-Selling-Stock
 [l lot report]:             https://ledger-cli.org/doc/ledger3.html#Lot-notes
 [l lot revaluation]:        https://ledger-cli.org/doc/ledger3.html#index-_002d_002drevalued
@@ -699,29 +699,29 @@ td:first-child strong a {
 [lotter]:                   https://src.d10.dev/lotter/doc/tip/README.md
 [h multiperiod bal]:        https://hledger.org/hledger.html#report-intervals
 [l pivot]:                  https://ledger-cli.org/doc/ledger3.html#index-_002d_002dpivot-TAG-1
-[h pivot]:                  https://hledger.org/dev/hledger.html#pivoting
+[h pivot]:                  https://hledger.org/hledger.html#pivoting
 [h pricehist]:              https://hledger.org/scripts.html#pricehist
 [pricehist]:                https://gitlab.com/chrisberkhout/pricehist
 [beanprice]:                https://github.com/beancount/beanprice
 [l query opts]:             https://ledger-cli.org/doc/ledger3.html#Report-Filtering
 [l query args]:             https://ledger-cli.org/doc/ledger3.html#Building-Reports
-[h query opts]:             https://hledger.org/dev/hledger.html#options
-[h query args]:             https://hledger.org/dev/hledger.html#queries
+[h query opts]:             https://hledger.org/hledger.html#options
+[h query args]:             https://hledger.org/hledger.html#queries
 [b query]:                  https://beancount.github.io/docs/beancount_query_language.html
 [h ghci]:                   https://hledger.org/DEVWORKFLOWS.html#use-ghci
 [beanquery repl]:           https://beancount.github.io/docs/beancount_query_language.html#making-queries
 [l bash completions]:       https://github.com/ledger/ledger/blob/master/contrib/ledger-completion.bash
-[h bash completions]:       https://hledger.org/dev/hledger.html#shell-completions
+[h bash completions]:       https://hledger.org/hledger.html#shell-completions
 [l ugains]:                 https://ledger-cli.org/doc/ledger3.html#index-_002d_002dunrealized
-[h ugains]:                 https://hledger.org/dev/hledger.html#balance-report-types
+[h ugains]:                 https://hledger.org/hledger.html#balance-report-types
 [l validation]:             https://ledger-cli.org/doc/ledger3.html#Error-Checking-and-Calculation-Options
-[h validation]:             https://hledger.org/dev/hledger.html#check
+[h validation]:             https://hledger.org/hledger.html#check
 [b validation]:             https://beancount.github.io/docs/getting_started_with_beancount.html#brief-syntax-overview
-[h account types]:          https://hledger.org/dev/hledger.html#account-types
-[h std financial reports]:  https://hledger.org/dev/hledger.html#part-4-commands
-[h account display order]:  https://hledger.org/dev/hledger.html#account-display-order
-[h input amount styles]:    https://hledger.org/dev/hledger.html#amounts
-[h output amount styles]:   https://hledger.org/dev/hledger.html#commodity-display-style
+[h account types]:          https://hledger.org/hledger.html#account-types
+[h std financial reports]:  https://hledger.org/hledger.html#part-4-commands
+[h account display order]:  https://hledger.org/hledger.html#account-display-order
+[h input amount styles]:    https://hledger.org/hledger.html#amounts
+[h output amount styles]:   https://hledger.org/hledger.html#commodity-display-style
 [h doc-first dev]:          https://hledger.org/PULLREQUESTS.html#documentation-first
 [h releases]:               https://hledger.org/RELEASING.html#release-types
 [h reg bounties]:           https://hledger.org/REGRESSIONS.html
