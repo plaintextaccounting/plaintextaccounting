@@ -433,7 +433,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 
 A rough comparison of the big three PTA apps' features. <!-- last updated: 2024-09 -->
 Corrections and suggestions are appreciated ([chat](https://matrix.to/#/#plaintextaccounting:matrix.org)).
-Third-party things are *italic*. Notable likely-to-be-made-to-work complementary tools are mentioned.
+Third-party things are *italic*. <!-- Of these, the notable likely-to-be-made-to-work ones are mentioned. -->
 
 |                          | Ledger                                                           | hledger                                                                                                                                                                              | Beancount
 |--------------------------|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------
