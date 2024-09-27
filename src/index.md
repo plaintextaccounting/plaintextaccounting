@@ -434,6 +434,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 
 A rough comparison of the big three PTA apps' main features, <!-- last updated: 2024-09 -->
 plus some relevant third-party tools in italics. <!-- notable likely-to-be-made-to-work ones -->
+(Plus some geeky technical bits that you may not care about.)
 Corrections and suggestions are appreciated ([chat](https://matrix.to/#/#plaintextaccounting:matrix.org)).
 You can also use this as a kind of overview, quick reference or porting guide.
 (See also [syntax quick reference](quickref/).)
@@ -486,11 +487,14 @@ td:first-child strong a {
 | Lot management:                 | [lot matching syntax][l lot matching], [lots report][l lot report], [revaluation transactions][l lot revaluation], *[lotter]*  | [manual][h lot manual], *[hledger-lots][h lots]*, *[hledger-move][h move]*, *[lotter]*  | [lot matching syntax][b lot matching], ?
 | Multi-period balance reports:   | no                                                               | [yes][h multiperiod bal]                                                                                                    | no
 | Pivoting:                       | [on single tag][l pivot]                                         | [on one or more tags/other fields][h pivot]                                                                                 | ?
+| Precision (journal):            | 254 significant digits                                           | "unlimited" integer + up to 255 decimal digits                                                                              | 28 significant digits
+| Precision (internal):           | [rational, "unlimited"][l internal precision]                    | [decimal, "unlimited" integer + up to 255 decimal digits][h internal precision]                                             | [decimal, up to 28 significant digits][b internal precision]
+| Precision (balancing):          | [max precisions in local entry][l balancing precision]           | [global commodity precisions][h balancing precision]                                                                        | [max precisions in local entry / 2][b balancing precision]
+| Precision (display):            | [commodity precision, or a default max precision of 6][l display precision]  | [commodity precision, or a default max precision of 8][h display precision]                                     | [inferred commodity precision ?][b display precision]
 | Price fetching:                 | *[pricehist]*                                                    | *[pricehist][h pricehist]*                                                                                                  | [beanprice], *[pricehist]*
 | Querying:                       | [cli options][l query opts], [custom query expressions][l query args]  | [cli options][h query opts], [custom query expressions][h query args]                                                 | [SQL-like beancount query language][b query]
 | REPL:                           | built-in                                                         | [haskell GHCI][h ghci]                                                                                                      | [beanquery][beanquery repl], python
 | Shell completions:              | [bash (commands, flags, maybe accounts)][l bash completions]     | [bash (commands, flags, flag values, query types, journal data)][h bash completions]                                        | 
-| Transaction balancing:          | based on precisions in local transaction                         | [based on global commodity display precisions][h txn balancing]                                                             | ?
 | Unrealised gains report:        | [--unrealized][l ugains]                                         | [--gain][h ugains], [roi][h roi]                                                                                            | ?
 | Validation:                     | [configurable][l validation]                                     | [configurable][h validation]                                                                                                | [always strict][b validation]
 | Miscellaneous:                  | ?                                                                | [account types awareness][h account types]                                                                                  | ?
@@ -702,6 +706,19 @@ td:first-child strong a {
 [l pivot]:                  https://ledger-cli.org/doc/ledger3.html#index-_002d_002dpivot-TAG-1
 [h pivot]:                  https://hledger.org/hledger.html#pivoting
 [h pricehist]:              https://hledger.org/scripts.html#pricehist
+
+[l internal precision]:     https://ledger-cli.org/doc/ledger3.html#Integer-Amounts
+[l display precision]:      https://ledger-cli.org/doc/ledger3.html#Integer-Amounts
+[l balancing precision]:    https://hledger.org/ledger.html#balancing-precision
+
+[h internal precision]:     https://hledger.org/1.40/hledger.html#rounding
+[h display precision]:      https://hledger.org/1.40/hledger.html#commodity-display-style
+[h balancing precision]:    https://hledger.org/hledger.html#transaction-balancing
+
+[b internal precision]:     https://beancount.github.io/docs/precision_tolerances.html#representational-issues
+[b display precision]:      https://beancount.github.io/docs/precision_tolerances.html
+[b balancing precision]:    https://beancount.github.io/docs/precision_tolerances.html
+
 [pricehist]:                https://gitlab.com/chrisberkhout/pricehist
 [beanprice]:                https://github.com/beancount/beanprice
 [l query opts]:             https://ledger-cli.org/doc/ledger3.html#Report-Filtering
@@ -713,7 +730,6 @@ td:first-child strong a {
 [beanquery repl]:           https://beancount.github.io/docs/beancount_query_language.html#making-queries
 [l bash completions]:       https://github.com/ledger/ledger/blob/master/contrib/ledger-completion.bash
 [h bash completions]:       https://hledger.org/hledger.html#shell-completions
-[h txn balancing]:          https://hledger.org/hledger.html#transaction-balancing
 [l ugains]:                 https://ledger-cli.org/doc/ledger3.html#index-_002d_002dunrealized
 [h ugains]:                 https://hledger.org/hledger.html#balance-report-types
 [l validation]:             https://ledger-cli.org/doc/ledger3.html#Error-Checking-and-Calculation-Options
