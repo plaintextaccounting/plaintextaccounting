@@ -431,9 +431,10 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 
 ### Feature matrix
 
-A rough comparison of the big three PTA apps' features. <!-- last updated: 2024-09 -->
+A rough comparison of the big three PTA apps' main features, <!-- last updated: 2024-09 -->
+plus some relevant third-party tools in italics. <!-- notable likely-to-be-made-to-work ones -->
 Corrections and suggestions are appreciated ([chat](https://matrix.to/#/#plaintextaccounting:matrix.org)).
-Third-party things are *italic*. <!-- Of these, the notable likely-to-be-made-to-work ones are mentioned. -->
+You can also use this as a kind of overview, quick reference or porting guide.
 
 <style>
 td:first-child strong a {
@@ -449,7 +450,7 @@ td:first-child strong a {
 | [CLI]:                          | [ledger]                                                         | [hledger]                                                                                                                                                                            | [beanquery]
 | [TUI]:                          | *[regdel]*                                                         | [hledger add], [hledger-ui], *[hledger-iadd]*, *[puffin]*                                                                                                                                    | *[bean-add]*
 | [GUI]:                          | *[Prudent]*, *[ledgerble]*, *[addtrans]*          | *[fruit-credits]*                                                                                                                                                                      | 
-| [WUI]:                          | *[ledgeraccounting]*, *[paisa]*, *[cashier]*, *[ledgible]*, *[ledger (howeyc)]*, *[ledger-web (vifon)]*, *[ledger-web (peterkeen)]*, *[ledger-pyreport]*, *[ledger-analytics]*, *[node-ledger-web]*  | [hledger-web], *[ledgeraccounting]*, *[paisa]*, *[cashier]*   | *[fava]*, *[paisa]*, *[BeanHubA]*
+| [WUI]:                          | *[ledgeraccounting]*, *[paisa]*, *[cashier]*, *[ledgible]*, *[ledger (howeyc)]*, *[ledger-web (vifon)]*, *[ledger-web (peterkeen)]*, *[ledger-pyreport]*, *[ledger-analytics]*, *[node-ledger-web]*  | [hledger-web], *[ledgeraccounting]*, *[paisa]*, *[cashier]*   | *[fava]*, *[paisa]*, *[BeanHub]*
 | [Android]:                      | *[cashier]*, *[NanoLedger]*                                          | *[cashier]*, *[MoLe]*, *[NanoLedger]*                                                                                                                                                      | *[Beancount Mobile CE]*, *[beancount-mobile (xuhcc)]*
 | [IOS]:                          |                                                                  |                                                                                                                                                                                      | *[Beancount Mobile CE]*
 | 
@@ -457,7 +458,7 @@ td:first-child strong a {
 | CLI help:                       | general --help, also available as [man page][ledger man]         | general and command-specific --help, [commands summary][hledger commands summary], [built-in asciinema demos][hledger demo]                                                                                                      | command-specific --help
 | [TLDR] short help:              | [ledger][ledger tldr]                                            | [hledger][hledger tldr] and [commands][hledger balance tldr], also built-in                                                                                                                                                  | 
 | User manual formats:            | [web][ledger manual web]                                                              | [web][hledger manual web], info, [man][hledger man], also built-in info/man/text with [jump to topic]                                                                                                                       | [web][beancount manual web]
-| Active support channels:        |                                                                  | [chat][hledger chat], [mail list][hledger mail list], [forum], [reddit]                                                                                                                                                       | mail list
+| Active support channels:        |                                                                  | [chat][hledger chat], [mail list][hledger mail list], [forum], [reddit]                                                                                                                                                       | [mail list][beancount mail list]
 | Easy install and setup:         | yes                                                              | yes                                                                                                                                                                                  | no
 | 
 | <br>**<a name="data-formats" href="#data-formats">Data formats</a>**
@@ -466,7 +467,7 @@ td:first-child strong a {
 | 
 | <br>**<a name="commands" href="#commands">Commands</a>**
 | Commands:                       | [accounts][l  accounts], [balance][l  balance], [cleared][l  cleared], [commodities][l  commodities], [convert][l  convert], [csv][l  csv], [entry][l  entry], [emacs][l  emacs], [equity][l  equity], [lisp][l  lisp], [payees][l  payees], [pricemap][l  pricemap], [pricedb][l  pricedb], [prices][l  prices], [print][l  print], [register][l  register], [select][l  select], [source][l  source], [stats][l  stats], [tags][l  tags]  | [accounts][h accounts], [activity][h activity], [add][h add], [aregister][h aregister], [balance][h balance], [balancesheet][h balancesheet], [balancesheetequity][h balancesheetequity], [cashflow][h cashflow], [check][h check], [close][h close], [codes][h codes], [commodities][h commodities], [demo][h demo], [descriptions][h descriptions], [diff][h diff], [files][h files], [help][h help], [import][h import], [incomestatement][h incomestatement], [payees][h payees], [prices][h prices], [print][h print], [notes][h notes], [register][h register], [rewrite][h rewrite], [roi][h roi], [stats][h stats], [tags][h tags], [test][h test]  | beancount: [check][b check], [doctor][b doctor], [example][b example], [format][b format]
-| Add-on commands:                |                                                                  | [bar][h bar], [check-fancyassertions][h check-fancyassertions], *[edit][h edit]*, [git][h git], *[iadd][h iadd]*, *[interest][h interest]*, *[lots][h lots]*, *[move][h move]*, [pijul][h pijul], *[plot][h plot]*..                                                                                                 | beanquery: [balances][b balances], [journal][b journal], [print][b print], [select][b select]
+| Add-on commands:                |                                                                  | [bar][h bar], [check-fancyassertions][h check-fancyassertions], *[edit][h edit]*, [git][h git], *[iadd][h iadd]*, *[interest][h interest]*, *[lots][h lots]*, [move][h move], [pijul][h pijul], *[plot][h plot]*..                                                                                                 | beanquery: [balances][b balances], [journal][b journal], [print][b print], [select][b select]
 | 
 | <br>**<a name="configuration" href="#configuration">Configuration</a>**
 | Config file:                    | [general options][l config]                                      | [general and command-specific options][h config]                                                                                                                                     | ?
