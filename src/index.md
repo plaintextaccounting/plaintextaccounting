@@ -198,6 +198,7 @@ Thank you sponsors, including:
 
 - [PTA apps](#pta-apps) project stats
 - [Feature matrix](#feature-matrix)
+- [Syntax Quick Reference](quickref/)
 - [[FAQ#which-pta-app-should-i-choose|FAQ: Which PTA app should I choose ?]]
 - [hledger and Ledger](https://hledger.org/ledger.html),
   [hledger and Beancount](https://hledger.org/beancount.html),
@@ -435,6 +436,7 @@ A rough comparison of the big three PTA apps' main features, <!-- last updated: 
 plus some relevant third-party tools in italics. <!-- notable likely-to-be-made-to-work ones -->
 Corrections and suggestions are appreciated ([chat](https://matrix.to/#/#plaintextaccounting:matrix.org)).
 You can also use this as a kind of overview, quick reference or porting guide.
+(See also [syntax quick reference](quickref/).)
 
 <style>
 td:first-child strong a {
