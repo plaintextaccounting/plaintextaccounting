@@ -5,7 +5,7 @@ body {
 }
 
 body > .container {
-    max-width:none;
+    max-width:revert;
 }
 
 h1 { font-size: 5rem; }
