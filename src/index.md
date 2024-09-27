@@ -490,6 +490,7 @@ td:first-child strong a {
 | Querying:                       | [cli options][l query opts], [custom query expressions][l query args]  | [cli options][h query opts], [custom query expressions][h query args]                                                 | [SQL-like beancount query language][b query]
 | REPL:                           | built-in                                                         | [haskell GHCI][h ghci]                                                                                                      | [beanquery][beanquery repl], python
 | Shell completions:              | [bash (commands, flags, maybe accounts)][l bash completions]     | [bash (commands, flags, flag values, query types, journal data)][h bash completions]                                        | 
+| Transaction balancing:          | based on precisions in local transaction                         | [based on global commodity display precisions][h txn balancing]                                                             | ?
 | Unrealised gains report:        | [--unrealized][l ugains]                                         | [--gain][h ugains], [roi][h roi]                                                                                            | ?
 | Validation:                     | [configurable][l validation]                                     | [configurable][h validation]                                                                                                | [always strict][b validation]
 | Miscellaneous:                  | ?                                                                | [account types awareness][h account types]                                                                                  | ?
@@ -712,6 +713,7 @@ td:first-child strong a {
 [beanquery repl]:           https://beancount.github.io/docs/beancount_query_language.html#making-queries
 [l bash completions]:       https://github.com/ledger/ledger/blob/master/contrib/ledger-completion.bash
 [h bash completions]:       https://hledger.org/hledger.html#shell-completions
+[h txn balancing]:          https://hledger.org/hledger.html#transaction-balancing
 [l ugains]:                 https://ledger-cli.org/doc/ledger3.html#index-_002d_002dunrealized
 [h ugains]:                 https://hledger.org/hledger.html#balance-report-types
 [l validation]:             https://ledger-cli.org/doc/ledger3.html#Error-Checking-and-Calculation-Options
