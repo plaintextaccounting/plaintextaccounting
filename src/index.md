@@ -477,7 +477,7 @@ td:first-child strong a {
 | Extensibility:                  | [built-in expression language][l expression lang], [embedded python][l python], *[HTTP-JSON][l http api]*           | [add-on commands][h addons], [haskell library][h lib], [HTTP-JSON][h http api]  | [data-modifying plugins][b plugins], [python library][b lib]
 | 
 | <br>**<a name="other-features" href="#other-features">Other features</a>**
-| Budget report:                  | [yes][l budget]                                                  | [yes][h budget]                                                                                                             | 
+| Budget report:                  | [built-in][l budget]                                             | [built-in][h budget]                                                                                                        | *[fava][b budget]*
 | Charting tools:                 | *[paisa]*, etc..                                                 | [activity][h activity], [hledger-bar][h bar], [hledger-web][hledger-web], *[hledger-plot][h plot]*, *[paisa]*, etc..        | *[paisa]*..
 | Data importing:                 | [built-in from CSV][l convert], *[others][import tools]*..       | [built-in from any input format][h import], *[others][import tools]*..                                                      | [beangulp] framework, *[beancount_reds_importers] framework*, *[beancount-import] library*, *[others][import tools]*..
 | Data deduplication:             | [checksum-based (requires unique CSV records)][l convert]        | [date-based (requires date-ordered CSV records)][h dedupe]                                                                  | ?
@@ -547,7 +547,7 @@ td:first-child strong a {
 [beancount-mobile (xuhcc)]: https://github.com/xuhcc/beancount-mobile
 [MoLe]:                     https://fossdroid.com/a/mole.html
 [BeanHub]:                  https://beanhub.io
-[fava]:                     https://github.com/beancount/fava
+[fava]:                     https://beancount.github.io/fava
 
 <!-- help -->
 
@@ -687,6 +687,7 @@ td:first-child strong a {
 
 [l budget]:                 https://ledger-cli.org/doc/ledger3.html#Budgeting
 [h budget]:                 https://hledger.org/hledger.html#budgeting
+[b budget]:                 https://fava.pythonanywhere.com/example-beancount-file/help/budgets
 [beangulp]:                 https://beancount.github.io/docs/beangulp.html
 [beancount_reds_importers]: https://github.com/redstreet/beancount_reds_importers
 [beancount-import]:         https://github.com/jbms/beancount-import
