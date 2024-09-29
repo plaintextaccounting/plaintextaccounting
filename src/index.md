@@ -477,13 +477,14 @@ td:first-child strong a {
 | Extensibility:                  | [built-in expression language][l expression lang], [embedded python][l python], *[HTTP-JSON][l http api]*           | [add-on commands][h addons], [haskell library][h lib], [HTTP-JSON][h http api]  | [data-modifying plugins][b plugins], [python library][b lib]
 | 
 | <br>**<a name="other-features" href="#other-features">Other features</a>**
+| Account names:                  | [any][l account names]                                           | [any][h account names]                                                                                                      | [capitalised, no spaces, english top level names][b account names]
 | Budget report:                  | [built-in][l budget]                                             | [built-in][h budget]                                                                                                        | *[fava][b budget]*
 | Charting tools:                 | *[paisa]*, etc..                                                 | [activity][h activity], [hledger-bar][h bar], [hledger-web][hledger-web], *[hledger-plot][h plot]*, *[paisa]*, etc..        | *[paisa]*..
 | Data importing:                 | [built-in from CSV][l convert], *[others][import tools]*..       | [built-in from any input format][h import], *[others][import tools]*..                                                      | [beangulp] framework, *[beancount_reds_importers] framework*, *[beancount-import] library*, *[others][import tools]*..
 | Data deduplication:             | [checksum-based (requires unique CSV records)][l convert]        | [date-based (requires date-ordered CSV records)][h dedupe]                                                                  | ?
 | Date range:                     | 1400-01-01 to 9999-12-31                                         | 0000-01-01 onward                                                                                                           | 0001-01-01 to 9999-12-31
-| Generate postings by rule:      | [yes][l gen postings]                                            | [yes][h gen postings]                                                                                                       | ?
-| Generate transactions by rule:  | [yes][l gen transactions]                                        | [yes][h gen transactions]                                                                                                   | ?
+| Generate postings by rule:      | [built-in][l gen postings]                                       | [built-in][h gen postings]                                                                                                  | ?
+| Generate transactions by rule:  | [built-in][l gen transactions]                                   | [built-in][h gen transactions]                                                                                              | *[beancount-repete]*
 | International number notations: | no                                                               | [yes][h intl numbers]                                                                                                       | no
 | Lot management:                 | [lot matching syntax][l lot matching], [lots report][l lot report], [revaluation transactions][l lot revaluation], *[lotter]*  | [manual][h lot manual], *[hledger-lots][h lots]*, *[hledger-move][h move]*, *[lotter]*  | [lot matching syntax][b lot matching], ?
 | Multi-period balance reports:   | no                                                               | [yes][h multiperiod bal]                                                                                                    | no
@@ -548,6 +549,7 @@ td:first-child strong a {
 [MoLe]:                     https://fossdroid.com/a/mole.html
 [BeanHub]:                  https://beanhub.io
 [fava]:                     https://beancount.github.io/fava
+[beancount-repete]:         https://github.com/jpluscplusm/beancount-repete
 
 <!-- help -->
 
@@ -685,6 +687,9 @@ td:first-child strong a {
 
 <!-- other features -->
 
+[l account names]:          https://ledger-cli.org/doc/ledger3.html#Transactions-and-Comments
+[h account names]:          https://hledger.org/hledger.html#account-names
+[b account names]:          https://beancount.github.io/docs/beancount_language_syntax.html#accounts
 [l budget]:                 https://ledger-cli.org/doc/ledger3.html#Budgeting
 [h budget]:                 https://hledger.org/hledger.html#budgeting
 [b budget]:                 https://fava.pythonanywhere.com/example-beancount-file/help/budgets
