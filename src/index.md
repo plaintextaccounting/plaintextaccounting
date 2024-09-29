@@ -687,7 +687,7 @@ td:first-child strong a {
 
 <!-- other features -->
 
-[l account names]:          https://ledger-cli.org/doc/ledger3.html#Transactions-and-Comments
+[l account names]:          https://ledger-cli.org/doc/ledger3.html#Structuring-your-Accounts
 [h account names]:          https://hledger.org/hledger.html#account-names
 [b account names]:          https://beancount.github.io/docs/beancount_language_syntax.html#accounts
 [l budget]:                 https://ledger-cli.org/doc/ledger3.html#Budgeting
