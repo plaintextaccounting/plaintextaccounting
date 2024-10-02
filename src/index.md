@@ -495,7 +495,7 @@ td:first-child strong a {
 | Precision (balancing):          | [max precisions in local entry][l balancing precision]           | [global commodity precisions][h balancing precision]                                                                        | [max precisions in local entry / 2 (configurable)][b balancing precision]
 | Precision (display):            | [inferred commodity precision, or a default max precision of 6][l display precision]  | [inferred / specified commodity precision, or a default max precision of 8][h display precision]       | [inferred commodity precision, or a default max precision of 0 (configurable)][b display precision]
 | Price fetching:                 | *[pricehist]*                                                    | *[pricehist][h pricehist]*                                                                                                  | [beanprice], *[pricehist]*
-| Querying:                       | [cli options][l query opts], [custom query expressions][l query args]  | [cli options][h query opts], [custom query expressions][h query args]                                                 | [SQL-like beancount query language][b query]
+| Querying:                       | [cli options][l query opts], [custom query expressions][l query args]  | [cli options][h query opts], [custom query expressions][h query args], [sql][h sql]                                   | [SQL-like beancount query language][b query]
 | REPL:                           | built-in                                                         | [haskell GHCI][h ghci]                                                                                                      | [beanquery][beanquery repl], python
 | Shell completions:              | [bash (commands, flags, maybe accounts)][l bash completions]     | [bash (commands, flags, flag values, query types, journal data)][h bash completions]                                        | 
 | Unrealised gains report:        | [--unrealized][l ugains]                                         | [--gain][h ugains], [roi][h roi]                                                                                            | *[fava]*
@@ -736,6 +736,7 @@ td:first-child strong a {
 [l query args]:             https://ledger-cli.org/doc/ledger3.html#Building-Reports
 [h query opts]:             https://hledger.org/hledger.html#options
 [h query args]:             https://hledger.org/hledger.html#queries
+[h sql]:                    https://hledger.org/sqlite.html
 [b query]:                  https://beancount.github.io/docs/beancount_query_language.html
 [h ghci]:                   https://hledger.org/DEVWORKFLOWS.html#use-ghci
 [beanquery repl]:           https://beancount.github.io/docs/beancount_query_language.html#making-queries
