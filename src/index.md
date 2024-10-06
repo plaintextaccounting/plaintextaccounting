@@ -678,7 +678,7 @@ td:first-child strong a {
 [l config]:          https://ledger-cli.org/doc/ledger3.html#Basic-options
 [h config]:          https://hledger.org/hledger.html#config-files
 [l expression lang]: https://ledger-cli.org/doc/ledger3.html#Value-Expressions
-[l python]:          https://ledger-cli.org/doc/ledger3.html#Extending-with-Python
+[l python]:          https://ledger-cli.org/doc/ledger3.html#Embedded-Python
 [l http api]:        https://vifon.github.io/ledger-web/
 [h addons]:          https://hledger.org/hledger.html#add-on-commands
 [h lib]:             https://hledger.org/scripting.html#hledger-lib-scripts
