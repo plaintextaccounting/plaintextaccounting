@@ -933,14 +933,13 @@ td:first-child strong a {
 - [puffin](https://github.com/siddhantac/puffin) TUI for hledger browsing (go)
 - [regdel](https://github.com/guillaumechereau/regdel) TUI for browsing Ledger files (python)
 
-### UI, desktop GUI
+### UI, GUI
 
+- [favagtk](https://gitlab.gnome.org/johannesjh/favagtk/) app of Fava web UI for beancount browsing (Python, GTK)
 - [fruit-credits](https://codeberg.org/dz4k/fruit-credits) data entry/reporting GUI for hledger (Vala, GNOME)
 - [ledgerble](https://github.com/sbridges/ledgerble) reporting GUI with charts & adjustable reports (Javascript)
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) misc. GUI tools + helper library (Python, GTK)
 - [Prudent][prudent] integrated journal editing/importing/reporting GUI for Ledger (Javascript, mac only, closed source)
-- [hledger-web-rs](https://gitlab.com/shivjm/hledger-web-rs) reporting GUI (rust)
-- [favagtk](https://gitlab.gnome.org/johannesjh/favagtk/) app of Fava web UI for beancount browsing (Linux, GTK)
 
 ### UI, web
 
@@ -949,6 +948,7 @@ td:first-child strong a {
   (haskell, 
    [demo](https://demo.hledger.org), 
    [Sandstorm app](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90))
+- [hledger-web-rs](https://gitlab.com/shivjm/hledger-web-rs) web UI for hledger reports (rust)
 - [Paisa](https://paisa.fyi) web UI or desktop app for ledger, hledger and beancount (go, javascript, [demo](https://demo.paisa.fyi))
 - [Ledger in Go](https://github.com/howeyc/ledger) web UI for browsing ledger transactions, reports, and porfolios
 - [Ledger Web](https://github.com/peterkeen/Ledger-Web) ledger HTML reporting system (ruby, postgres)
