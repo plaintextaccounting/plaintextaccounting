@@ -307,7 +307,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 | Goledger           | 2019   | 2020         | [go][goledger-mescanne-src]  |          1 |    25 |                                  |                                                                                                      |                              |
 | blossom            | 2020   |              | [F#][blossom-src]            |          1 |    25 |                                  |                                                                                                      |                              |
 | awk-pta            | 2022   |              | [awk][awk-pta-src]           |          1 |    15 |                                  |                                                                                                      |                              |
-| [Tackler]          | 2017   | 2022         | [scala][tackler-src]         |          1 |     9 |                                  | [matrix][#tackler:matrix.org]                                                                        |                              |
+| [Tackler]          | 2017   | 2024         | [rust][tackler-src]          |          1 |     9 |                                  | [matrix][#tackler:matrix.org], [GH][tackler-discussions]        |                              |
 | coin               | 2019   |              | [go][coin-src]               |          1 |     7 |                                  |                                                                                                      |                              |
 | budget-cli         | 2023   | 2023         | [typescript][budget-cli]     |          1 |     2 |                                  |                                                                                                      |                              |
 | mynt               | 2023   |              | [rust][mynt-src]             |          1 |       |                                  |                                                                                                      |                              |
@@ -412,7 +412,8 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 [smalltalk-src]: https://gist.github.com/simonmichael/bb611dba654ccb1573e1
 
 [Tackler]: https://tackler.e257.fi
-[tackler-src]: https://gitlab.com/e257/accounting/tackler
+[tackler-src]: https://github.com/e257-fi/tackler-ng
+[tackler-discussions]: https://github.com/e257-fi/tackler-ng/discussions
 [#tackler:matrix.org]: https://matrix.to/#/#tackler:matrix.org
 
 [transity-src]: https://github.com/feramhq/transity
