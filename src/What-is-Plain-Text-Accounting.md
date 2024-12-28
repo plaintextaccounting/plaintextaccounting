@@ -80,7 +80,7 @@ editing plain text, and perhaps using version control.
 ### What are the alternatives?
 Traditional GUI-centric accounting software:  
 [Free/open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software): GNUCash, Grisbi, KMyMoney..  
-Commercial: Quicken, Quickbooks, You Need A Budget..
+Commercial: Quicken, Quickbooks, You Need A Budget, Actual Budget..
 
 Online/cloud-based accounting software: Xero, FreeAgent..
 
