@@ -946,6 +946,7 @@ td:first-child strong a {
 
 ### UI, web
 
+- [cash](https://github.com/jon49/cash) offline-capable web UI for data entry to CSV (js/html)
 - [fava](https://github.com/beancount/fava) web UI for beancount browsing (python, [demo](https://fava.pythonanywhere.com/))
 - [hledger-web](https://hackage.haskell.org/package/hledger-web) web UI for *ledger browsing, data entry 
   (haskell, 
