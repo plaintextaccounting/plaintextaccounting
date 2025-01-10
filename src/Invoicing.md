@@ -77,6 +77,7 @@ with additional postings to track and save for tax owed:
 - https://plaintextaccounting.org/#invoicing
 - https://github.com/simonmichael/hledger/tree/master/examples/invoicing
 - [kairos](https://kairosdotapp.github.io) ([repo](https://github.com/kairosdotapp/kairos))
+- https://forum.plaintextaccounting.org/t/tx-for-sending-invoice-with-vat/459
 
 <!-- mockup for badges that could be added by a lint tool. These would cover all examples on the page. -->
 Examples tested on 2022-01-09 with:
