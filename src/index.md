@@ -842,13 +842,14 @@ td:first-child strong a {
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
 
 #### GnuCash
-- [piecash/scripts/ledger.py](https://github.com/sdementen/piecash/blob/master/piecash/scripts/ledger.py) (updated 2024) GnuCash xml/sqlite/mysql/postgres to ledger
-- [lodenrogue/gnucash2ledger](https://github.com/lodenrogue/gnucash2ledger) (2023) Gnucash xml to ledger
-- [tfree87/gnucash2ledger](https://github.com/tfree87/gnucash2ledger) (2021) GnuCash xml to *ledger
-- [gnucash-xml-to-ledger-dat](https://github.com/icyflame/gnucash-xml-to-ledger-dat) (2020) GnuCash xml to ledger
-- [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) (2017) GNUCash sqlite to beancount
+- [piecash/scripts/ledger.py](https://github.com/sdementen/piecash/blob/master/piecash/scripts/ledger.py) (updated 2024) gnucash xml/sqlite/mysql/postgres to ledger
+- [lodenrogue/gnucash2ledger](https://github.com/lodenrogue/gnucash2ledger) (2023) gnucash xml to ledger
+- [tfree87/gnucash2ledger](https://github.com/tfree87/gnucash2ledger) (2021) gnucash xml to *ledger
+- [gnucash-xml-to-ledger-dat](https://github.com/icyflame/gnucash-xml-to-ledger-dat) (2020) gnucash xml to ledger
+- [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) (2017) gnucash sqlite to beancount
 - [cookthebooks](https://github.com/colemannugent/cookthebooks) (2017) gnucash xml to ledger
-- [pygnucash/gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) (2014) GNUCash sqlite to ledger
+- [pygnucash/gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) (2014) gnucash sqlite to ledger
+<!-- sync: https://github.com/simonmichael/hledger_site/blob/master/src/gnucash.md -->
 
 #### Intuit
 - [outofit](https://github.com/rcaputo/outofit) QuickBooks to *ledger converter
