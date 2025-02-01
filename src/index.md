@@ -844,6 +844,7 @@ td:first-child strong a {
 - [piecash/scripts/ledger.py](https://github.com/sdementen/piecash/blob/master/piecash/scripts/ledger.py) (updated 2024) GnuCash xml/sqlite/mysql/postgres to ledger
 - [lodenrogue/gnucash2ledger](https://github.com/lodenrogue/gnucash2ledger) (2023) Gnucash xml to ledger (python)
 - [tfree87/gnucash2ledger](https://github.com/tfree87/gnucash2ledger) (2021) GnuCash xml to *ledger (python)
+- [gnucash-xml-to-ledger-dat](https://github.com/icyflame/gnucash-xml-to-ledger-dat) (2020) GnuCash xml to ledger (perl)
 - [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) (2017) GNUCash sqlite to beancount (python)
 - [cookthebooks](https://github.com/colemannugent/cookthebooks) (2017) gnucash xml to ledger (python)
 - [pygnucash/gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) (2014) GNUCash sqlite to ledger (python)
