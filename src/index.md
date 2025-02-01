@@ -802,8 +802,6 @@ td:first-child strong a {
 - [beanborg](https://github.com/luciano-fiandesio/beanborg) Advanced transaction importer with auto-categorization (python)
 - [beancount-import](https://github.com/jbms/beancount-import) web app/framework for converting various formats to beancount (python)
 - [beancount-reds-importers](https://github.com/redstreet/beancount_reds_importers) Simple importers and tools for Beancount. A framework to allow you to easily write your own importers.
-- [beancount-ynab](https://github.com/hoostus/beancount-ynab) Import YNAB4 (legacy desktop-based version) into beancount
-- [beancount-ynab5](https://github.com/hoostus/beancount-ynab5) Import YNAB5 (cloud-based version) transactions into beancount 
 - [beancount2ledger](https://github.com/beancount/beancount2ledger) beancount to h/ledger converter (python)
 - [beanhub-extract](https://github.com/LaunchPlatform/beanhub-extract) Simple Python library for extracting all kinds of bank export CSV files into standardized transaction data objects
 - [beanhub-import](https://github.com/LaunchPlatform/beanhub-import) Declarative idempotent rule-based beancount transaction import engine in Python consumes data extracted by [beanhub-extract](https://github.com/LaunchPlatform/beanhub-extract)
@@ -813,9 +811,6 @@ td:first-child strong a {
 - [CSV2Ledger](https://launchpad.net/csv2ledger) CSV to *ledger converter (perl)
 - [double-entry-generator](https://github.com/deb-sig/double-entry-generator) Rule-based double-entry bookkeeping importer (from Alipay/WeChat/Huobi etc. to Beancount)
 - [fints2ledger](https://github.com/MoritzR/fints2ledger) FinTS/HBCI to csv to *ledger or beancount journals (python)
-- [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) (2017) GNUCash sqlite to beancount converter (python)
-- [gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) (2014) GNUCash sqlite to *ledger converter (part of pygnucash) (python)
-- [gnucash2ledger](https://github.com/tfree87/gnucash2ledger) (2021) GNUCash XML to *ledger converter (python)
 - [grisbi2Ledger](https://github.com/Hawk777/grisbi2ledger) Grisbi to *ledger converter
 - [gsheet-csv.hs](https://github.com/simonmichael/hledger/blob/master/bin/gsheet-csv.hs) a script to download Google sheets (haskell)
 - [hledger-Excel](https://github.com/phobo3s/hledger-Excel) Excel spreadsheet to *ledger journal converter (visual basic for applications)
@@ -827,9 +822,6 @@ td:first-child strong a {
 - [into-ledger](https://github.com/manishrjain/into-ledger) CSV to *ledger converter
 - [invoice2data](https://github.com/invoice-x/invoice2data) extract data from PDF invoices (python)
 - [jali](https://git.darmstadt.ccc.de/jali/jali) downloader/importer to *ledger (python)
-- [kmymoney2hledger](https://github.com/maridonkers/kmymoney2hledger) KMyMoney to *ledger converter (clojure)
-- [kmymoney2ledgers](https://github.com/isabekov/kmymoney2ledgers) KMyMoney to *ledger/beancount converter (python)
-- [kmymoney2ledgers.awk](https://github.com/isabekov/kmymoney2ledgers.awk) KMyMoney to *ledger/beancount converter (Awk)
 - [ldgclip](https://gitlab.com/IanTwenty/ldgclip) import bank transactions via the clipboard with one click (bash/awk)
 - [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to *ledger conversion, deduplication
@@ -841,17 +833,35 @@ td:first-child strong a {
 - [ledger2beancount](https://github.com/beancount/ledger2beancount) h/ledger to beancount converter (perl)
 - [ledger2beancount.py](https://gist.github.com/travisdahlke/71152286b0a8826249fe) *ledger to beancount converter (python)
 - [moneymoney-ledger](https://github.com/lukasbestle/moneymoney-ledger) MoneyMoney export extension for *ledger
-- [outofit](https://github.com/rcaputo/outofit) QuickBooks to *ledger converter
-- [piecash](https://github.com/sdementen/piecash) GNUCash SQL to *ledger converter (python)
-- [plaid2qif](https://github.com/ebridges/plaid2qif) Download transactions from plaid as QIF or CSV files
 - [plaid2text](https://github.com/madhat2r/plaid2text) Plaid API to *ledger/beancount download/conversion
-- [qb2ledger](https://gist.github.com/genegoykhman/3765100) QuickBooks General Journal CSV to *ledger converter
-- [QIFtoLedger](https://github.com/Kolomona/QIFtoLedger) (Bank of America's) QIF to *ledger converter
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
 - [slc](https://github.com/marvinpinto/slc) generates Ledger accounting entries, works with generic CSV files as well as the Stripe API
 - [smart_importer](https://github.com/johannesjh/smart_importer) library for building smarter CSV to beancount/Fava converters
 - [Tiller](https://www.tillerhq.com) service to download from mostly-US banks to google or microsoft spreadsheets (commercial but pretty good)
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
+
+#### GnuCash
+- [piecash/scripts/ledger.py](https://github.com/sdementen/piecash/blob/master/piecash/scripts/ledger.py) (updated 2024) GnuCash xml/sqlite/mysql/postgres to ledger
+- [lodenrogue/gnucash2ledger](https://github.com/lodenrogue/gnucash2ledger) (2023) Gnucash xml to ledger (python)
+- [tfree87/gnucash2ledger](https://github.com/tfree87/gnucash2ledger) (2021) GnuCash xml to *ledger (python)
+- [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) (2017) GNUCash sqlite to beancount (python)
+- [cookthebooks](https://github.com/colemannugent/cookthebooks) (2017) gnucash xml to ledger (python)
+- [pygnucash/gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) (2014) GNUCash sqlite to ledger (python)
+
+#### Intuit
+- [outofit](https://github.com/rcaputo/outofit) QuickBooks to *ledger converter
+- [plaid2qif](https://github.com/ebridges/plaid2qif) Download transactions from plaid as QIF or CSV files
+- [qb2ledger](https://gist.github.com/genegoykhman/3765100) QuickBooks General Journal CSV to *ledger converter
+- [QIFtoLedger](https://github.com/Kolomona/QIFtoLedger) (Bank of America's) QIF to *ledger converter
+
+#### KMyMoney
+- [kmymoney2hledger](https://github.com/maridonkers/kmymoney2hledger) KMyMoney to *ledger converter (clojure)
+- [kmymoney2ledgers](https://github.com/isabekov/kmymoney2ledgers) KMyMoney to *ledger/beancount converter (python)
+- [kmymoney2ledgers.awk](https://github.com/isabekov/kmymoney2ledgers.awk) KMyMoney to *ledger/beancount converter (Awk)
+
+#### YNAB
+- [beancount-ynab](https://github.com/hoostus/beancount-ynab) Import YNAB4 (legacy desktop-based version) into beancount
+- [beancount-ynab5](https://github.com/hoostus/beancount-ynab5) Import YNAB5 (cloud-based version) transactions into beancount 
 - [ynab-to-ledger](https://github.com/vermiceli/ynab-to-ledger) You Need A Budget (YNAB) to *ledger converter. Handles multiple currencies, multiple number formats, reconciliation, memos, transfers, and split transactions
 - [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) You Need A Budget to *ledger converter
 
