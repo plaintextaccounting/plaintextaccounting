@@ -66,7 +66,7 @@ or help with [[finance]].
 Thank you sponsors, including:
 
 <div id="sponsors-container">
-- [<img src="https://beanhub.io/images/beanhub-sponsor-logo.svg">A modern accounting book app based on Beancount and Git](https://beanhub.io)
+- [<img width=300 height=70 src="https://beanhub.io/images/beanhub-sponsor-logo.svg">A modern accounting book app based on Beancount and Git](https://beanhub.io)
 </div>
 
 ## News & discussion
