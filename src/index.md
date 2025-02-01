@@ -813,9 +813,9 @@ td:first-child strong a {
 - [CSV2Ledger](https://launchpad.net/csv2ledger) CSV to *ledger converter (perl)
 - [double-entry-generator](https://github.com/deb-sig/double-entry-generator) Rule-based double-entry bookkeeping importer (from Alipay/WeChat/Huobi etc. to Beancount)
 - [fints2ledger](https://github.com/MoritzR/fints2ledger) FinTS/HBCI to csv to *ledger or beancount journals (python)
-- [gcash2ledger.py](https://gist.github.com/nonducor/ddc97e787810d52d067206a592a35ea7/) GNUCash XML to *ledger converter (python)
-- [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) GNUCash sqlite to beancount converter (python)
-- [gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) GNUCash sqlite to *ledger converter (python)
+- [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) (2017) GNUCash sqlite to beancount converter (python)
+- [pygnucash/gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) (2014) GNUCash sqlite to *ledger converter (python)
+- [gnucash2ledger](https://github.com/tfree87/gnucash2ledger) (2021) GNUCash XML to *ledger converter (python)
 - [grisbi2Ledger](https://github.com/Hawk777/grisbi2ledger) Grisbi to *ledger converter
 - [gsheet-csv.hs](https://github.com/simonmichael/hledger/blob/master/bin/gsheet-csv.hs) a script to download Google sheets (haskell)
 - [hledger-Excel](https://github.com/phobo3s/hledger-Excel) Excel spreadsheet to *ledger journal converter (visual basic for applications)
