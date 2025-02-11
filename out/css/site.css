@@ -17,7 +17,6 @@ h6 { font-size: 1.5rem; }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight:bold;
-    white-space:nowrap;
     text-shadow: 1px 1px 2px white;
 }
 
