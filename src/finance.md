@@ -33,14 +33,7 @@ I won't know these are for PTA work specifically so I might miscategorise - feel
 **To support other PTA maintainers/moderators:**\
 Contact them. As yet they don't have much to do.
 
-**Fees:**
-
-- Github charges no fees if donating from a personal account
-- Github charges 
-  [3-6%](https://docs.github.com/en/sponsors/receiving-sponsorships-through-github-sponsors/about-github-sponsors-for-open-source-contributors#sponsorship-payouts)
-  if donating from an organization account
-- Paypal fees vary, depending on whether you're paying within the same country or whether there's a currency conversion.
-  It might be 0%, or it might be ~3% + 0.30 USD.
+**Fees:** Please see [the fees info at hledger.org](https://hledger.org/sponsor.html#fees).
 
 Thank you, all sponsors!
 
