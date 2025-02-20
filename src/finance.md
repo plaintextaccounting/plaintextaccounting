@@ -7,7 +7,7 @@ toc: false
 Simon Michael operates the "plaintextaccounting" organisation (together with contributors and moderators),
 providing plaintextaccounting.org and forum.plaintextaccounting.org,
 managed matrix rooms/space and IRC channel, support, outreach etc.
-SM also acts as CFO and fiscal host.
+Simon also acts as CFO and fiscal host.
 For more background, see [PTA forum news, 2024-03-18](https://forum.plaintextaccounting.org/t/pta-forum-news-2024-03-18/207)
 and [A trial of Discourse for Plain Text Accounting discussions](https://forum.plaintextaccounting.org/t/a-trial-of-discourse-for-plain-text-accounting-discussions/5).
 
@@ -15,7 +15,7 @@ I want this organisation to be solvent and self-sustaining,
 so if you find this work useful, and you are in a position to help financially, your support is much appreciated!
 
 **To help cover project costs like hosting:**\
-Any surplus will be used as judged best by the CFO, eg to build up a future-proofing reserve or to fund PTA-related work in future.
+Any surplus will be used as judged best by the CFO, eg to reimburse costs, or to fund PTA-related work.
 
 - [![github](https://img.shields.io/badge/Support_PTA_via-Github-limegreen "Sponsor the project leader via Github")](https://github.com/sponsors/plaintextaccounting)
 - <span id="paypal-pta-button"></span>
