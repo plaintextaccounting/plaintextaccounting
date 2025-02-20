@@ -18,17 +18,13 @@ so if you find this work useful, and you are in a position to help financially, 
 Any surplus will be used as judged best by the CFO, eg to build up a future-proofing reserve or to fund PTA-related work in future.
 
 - [![github](https://img.shields.io/badge/Support_PTA_via-Github-limegreen "Sponsor the project leader via Github")](https://github.com/sponsors/plaintextaccounting)
-- <span id="paypal-pta-button">
-    <img src="https://img.shields.io/badge/Support_PTA_via-Paypal-limegreen" title="Sponsor the project leader via Paypal" alt="paypal" />
-  </span>
+- <span id="paypal-pta-button"></span>
 <!-- - [![liberapay](https://img.shields.io/badge/Support_PTA_via-Liberapay-limegreen "Sponsor the project leader via Liberapay")](https://liberapay.com/plaintextaccounting) -->
 
 **To support Simon:**
 
 - [![github](https://img.shields.io/badge/Support_Simon_via-Github-limegreen "Sponsor the project leader via Github")](https://github.com/sponsors/simonmichael)
-- <span id="paypal-sm-button">
-    <img src="https://img.shields.io/badge/Support_Simon_via-Paypal-limegreen" title="Sponsor the project leader via Paypal" alt="paypal" />
-  </span><br>
+- <span id="paypal-sm-button"></span>
 <!-- - [![liberapay](https://img.shields.io/badge/Support_PTA_via-Liberapay-limegreen "Sponsor the project leader via Liberapay")](https://liberapay.com/simonmichael) -->
 
 I won't know these are for PTA work specifically so I might miscategorise - feel free to let me know!
