@@ -24,7 +24,7 @@ Any surplus will be used as judged best by the CFO, eg to build up a future-proo
 **To support Simon:**
 
 - [![github](https://img.shields.io/badge/Support_Simon_via-Github-limegreen "Sponsor the project leader via Github")](https://github.com/sponsors/simonmichael)
-  (I won't know this is for PTA work - feel free to let me know!)
+  (I won't know this is for PTA work - feel free to tell me)
 - <span id="paypal-sm-button"></span>
 <!-- - [![liberapay](https://img.shields.io/badge/Support_PTA_via-Liberapay-limegreen "Sponsor the project leader via Liberapay")](https://liberapay.com/simonmichael) -->
 
