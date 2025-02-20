@@ -31,9 +31,7 @@ Any surplus will be used as judged best by the CFO, eg to build up a future-proo
 **To support other PTA maintainers/moderators:**\
 Contact them. As yet they don't have much to do.
 
-**Fees:** Please see [the fees info at hledger.org](https://hledger.org/sponsor.html#fees).
-
-Thank you, all sponsors!
+**Fees:** See the [fee info at hledger.org](https://hledger.org/sponsor.html#fees).
 
 <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
 <script>
