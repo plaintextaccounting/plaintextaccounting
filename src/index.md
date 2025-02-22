@@ -223,6 +223,7 @@ Thank you sponsors, including:
 - [[Cookbook.html#getting-started|Cookbook: Getting started]]
 - [BeanHub Academy: the definitive guide to learning double-entry accounting with Beancount — the Zen of Balance](https://academy.beanhub.io)
 - [Lazy Beancount: an opinionated guide on Beancount](https://lazy-beancount.xyz/)
+- [Personal accounting in Ledger](https://leanpub.com/personal-accounting-in-ledger) (book)
 
 ### Cheatsheets
 
