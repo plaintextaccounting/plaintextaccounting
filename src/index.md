@@ -879,6 +879,7 @@ td:first-child strong a {
 - [market-prices.hs](https://gist.github.com/maralorn/a288329af50955dff353e5529f377488) small, easy to adapt script to scrape market data from the internet (Haskell)
 - [pricehist](https://gitlab.com/chrisberkhout/pricehist) fetch and format historical price data, with support for multiple sources and output formats (python)
 - [the-solipsist/scripts](https://github.com/the-solipsist/scripts/) download prices for your hledger commodities, including indian commodities (bash)
+- [update-stocks-hledger in .net](https://github.com/oraculum/update-stocks-hledger) fetching stocks market prices and currency exchange rates from Yahoo Finance 
 
 ### Data generation
 
