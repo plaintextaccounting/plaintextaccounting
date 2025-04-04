@@ -64,3 +64,7 @@ We need a way to use that tag as the amount (or an amount modifier. `--amount 'a
 
 - [Waste and recycling tracking](https://www.flypig.co.uk/waste) 
   - [A Year Being Human: Inputs and Outputs](https://www.flypig.co.uk/list?&list_id=830&list=blog), 2023
+
+## Solar energy value
+
+- [Solar Energy Value](https://tackler.e257.fi/docs/examples/solar-energy-value)
