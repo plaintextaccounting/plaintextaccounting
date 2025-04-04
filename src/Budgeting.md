@@ -17,6 +17,7 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [reddit: simple yearly budget example](https://www.reddit.com/r/plaintextaccounting/comments/e5sl1m/advice_on_projectionsforecasts/)
 - [budget_report](https://github.com/sulemankm/budget_report) budget reporting with beancount
 - https://www.reddit.com/r/plaintextaccounting/comments/s7s1tr/weird_budget_behavior/ troubleshooting hledger bal --budget
+- [Simon Michael: hledger/examples/budgeting > forecast-budget-*](https://github.com/simonmichael/hledger/blob/master/examples/budgeting/)
 
 ## Envelope budgeting
 
@@ -26,7 +27,7 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [Jeremy Bush: hledger-envelope-budget](https://github.com/zombor/hledger-envelope-budget) ([discussion](https://www.reddit.com/r/plaintextaccounting/comments/r4ah79/envelope_budgeting_in_hledger_without_virtuals/))
 - [reddit: New blogpost: Budgeting for annual expenses with Hledger](https://www.reddit.com/r/plaintextaccounting/comments/l9aiup/new_blogpost_budgeting_for_annual_expenses_with/)
 - [Michael Walker: Personal Finance](https://memo.barrucadu.co.uk/personal-finance.html)
-- [Simon Michael: envelope budgeting example](https://gist.github.com/simonmichael/a1addcb652da4e78b183)
+- [Simon Michael: hledger/examples/budgeting > envelope-budget-manual-1](https://github.com/simonmichael/hledger/blob/master/examples/budgeting/envelope-budget-manual-1.journal)
 - [hledger: Budgeting and forecasting: Envelope budget](https://hledger.org/budgeting-and-forecasting.html#envelope-budget)
 - [hledger envelope budgeting](<https://github.com/zombor/hledger-envelope-budget>)
 
@@ -38,6 +39,7 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [Marcin Borkowski: Ledger – virtual postings aka envelopes](http://mbork.pl/2016-07-18_Ledger_–_virtual_postings_aka_envelopes) <!-- 2016/7/18 -->
 - [Pete Keen: Program Your Finances: Envelope Budgeting](https://www.petekeen.net/program-your-finances-envelope-budgeting) <!-- 2015/4/7 -->
 - [Sacha Chua: Keeping (financial) score with Ledger](http://sachachua.com/blog/2014/11/keeping-financial-score-ledger/) <!-- 2014/11/27 -->
+- [Simon Michael: hledger/examples/budgeting > envelope-budget-auto-1](https://github.com/simonmichael/hledger/blob/master/examples/budgeting/envelope-budget-auto-1.journal)
 
 ## Envelope budgeting with auto postings, org-mode and babel
 
