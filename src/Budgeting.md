@@ -14,7 +14,7 @@ and enables thee to stop them and control thy expenditures for definite and grat
 - [Ledger: Budgeting](http://www.ledger-cli.org/3.0/doc/ledger3.html#Budgeting)
 - [hledger.org: Budgeting and forecasting (2018) > Goal-based budgeting](https://hledger.org/budgeting-and-forecasting.html#goal-based-budgeting)
 - [hledger manual: Budget report](https://hledger.org/hledger.html#budget-report)
-- [Simon Michael: hledger/examples/budgeting > forecast-budget-*](https://github.com/simonmichael/hledger/blob/master/examples/budgeting/)
+- [Simon Michael: hledger/examples/budgeting > goal-budget-*](https://github.com/simonmichael/hledger/blob/master/examples/budgeting/)
 - [reddit: simple yearly budget example](https://www.reddit.com/r/plaintextaccounting/comments/e5sl1m/advice_on_projectionsforecasts/)
 - [M Suleman Khalid: budget_report](https://github.com/sulemankm/budget_report) budget reporting with beancount
 - [reddit: Weird budget behavior](https://www.reddit.com/r/plaintextaccounting/comments/s7s1tr/weird_budget_behavior/) troubleshooting hledger bal --budget
@@ -46,5 +46,5 @@ and enables thee to stop them and control thy expenditures for definite and grat
 
 ## More
 
-- [hledger examples: budgeting/](https://github.com/simonmichael/hledger/tree/master/examples/budgeting) annotated example budget journals
+- [hledger/examples/budgeting/](https://github.com/simonmichael/hledger/tree/master/examples/budgeting) annotated example budget journals
 - [hledger: Budgeting](https://hledger.org/budgeting.html)
