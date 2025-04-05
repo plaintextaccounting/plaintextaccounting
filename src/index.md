@@ -812,6 +812,7 @@ td:first-child strong a {
 - [csv2beancount](https://github.com/PaNaVTEC/csv2beancount) CSV to beancount converter (clojure)
 - [CSV2Ledger](https://launchpad.net/csv2ledger) CSV to *ledger converter (perl)
 - [double-entry-generator](https://github.com/deb-sig/double-entry-generator) Rule-based double-entry bookkeeping importer (from Alipay/WeChat/Huobi etc. to Beancount)
+- [finfetch](https://github.com/natepmay/finfetch) local web app for downloading csv from your banks via Plaid (categorised, deduplicated, plus edits and deletions)
 - [fints2ledger](https://github.com/MoritzR/fints2ledger) FinTS/HBCI to csv to *ledger or beancount journals (python)
 - [grisbi2Ledger](https://github.com/Hawk777/grisbi2ledger) Grisbi to *ledger converter
 - [gsheet-csv.hs](https://github.com/simonmichael/hledger/blob/master/bin/gsheet-csv.hs) a script to download Google sheets (haskell)
@@ -964,6 +965,7 @@ td:first-child strong a {
 
 - [cash](https://github.com/jon49/cash) offline-capable web UI for data entry to CSV (js/html)
 - [fava](https://github.com/beancount/fava) web UI for beancount browsing (python, [demo](https://fava.pythonanywhere.com/))
+- [finfetch](https://github.com/natepmay/finfetch) local web app for downloading csv from your banks via Plaid (categorised, deduplicated, plus edits and deletions)
 - [hledger-web](https://hackage.haskell.org/package/hledger-web) web UI for *ledger browsing, data entry 
   (haskell, 
    [demo](https://demo.hledger.org), 
