@@ -303,9 +303,9 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 | [Ledger (Go)]      | 2013   | 2024         | [go][ledger-go-src]          |         12 |   470 |                                  |                                                                                                      |                              |
 | Abandon            | 2013   | 2024         | [scala][abandon-src]         |         11 |   180 |                                  | [matrix][abandon-matrix]                                                                             |                              |
 | [zhang]            | 2023   | 2024         | [rust/ts][zhang-src]         |          5 |   180 |                                  |                                                                                                      |                              |
+| [Tackler-NG]       | 2017   | 2025         | [rust][tackler-src]          |          3 |    80 |                                  | [matrix][#tackler:matrix.org], [GH][tackler-discussions]        |                              |
 | knut               | 2020   | 2024         | [go][knut-src]               |          3 |    60 |                                  |                                                                                                      |                              |
 | budget-cli         | 2023   |              | [typescript][budget-cli]     |          3 |    12 |                                  |                                                                                                      |                              |
-| [Tackler-NG]       | 2017   | 2024         | [rust][tackler-src]          |          1 |    50 |                                  | [matrix][#tackler:matrix.org], [GH][tackler-discussions]        |                              |
 | [ledg]             | 2021   | 2024         | [javascript][ledg]           |          1 |    40 |                                  |                                                                                                      |                              |
 | [placc]            | 2024   | 2024         | nim (free closed source)     |          1 |       |                                  |                                                                                                      |                              |
 | awk-pta            | 2022   |              | [awk][awk-pta-src]           |          1 |    20 |                                  |                                                                                                      |                              |
@@ -413,8 +413,8 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 [smalltalk-src]: https://gist.github.com/simonmichael/bb611dba654ccb1573e1
 
 [Tackler-NG]: https://tackler.e257.fi
-[tackler-src]: https://github.com/e257-fi/tackler-ng
-[tackler-discussions]: https://github.com/e257-fi/tackler-ng/discussions
+[tackler-src]: https://github.com/tackler-ng/tackler
+[tackler-discussions]: https://github.com/tackler-ng/tackler/discussions
 [#tackler:matrix.org]: https://matrix.to/#/#tackler:matrix.org
 
 [transity-src]: https://github.com/feramhq/transity
