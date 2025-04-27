@@ -845,13 +845,14 @@ td:first-child strong a {
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
 
 #### GnuCash
-- [piecash/scripts/ledger.py](https://github.com/sdementen/piecash/blob/master/piecash/scripts/ledger.py) (updated 2024) gnucash xml/sqlite/mysql/postgres to ledger
-- [lodenrogue/gnucash2ledger](https://github.com/lodenrogue/gnucash2ledger) (2023) gnucash xml to ledger
-- [tfree87/gnucash2ledger](https://github.com/tfree87/gnucash2ledger) (2021) gnucash xml to *ledger
-- [gnucash-xml-to-ledger-dat](https://github.com/icyflame/gnucash-xml-to-ledger-dat) (2020) gnucash xml to ledger
-- [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) (2017) gnucash sqlite to beancount
-- [cookthebooks](https://github.com/colemannugent/cookthebooks) (2017) gnucash xml to ledger
-- [pygnucash/gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) (2014) gnucash sqlite to ledger
+- [WolfgangFahl/pynomina](https://github.com/WolfgangFahl/pynomina) (updated 2025) interconversion between many formats, including gnucash-xml and beancount
+- [piecash/scripts/ledger.py](https://github.com/sdementen/piecash/blob/master/piecash/scripts/ledger.py) (updated 2024) gnucash-sql to ledger
+- [lodenrogue/gnucash2ledger](https://github.com/lodenrogue/gnucash2ledger) (2023) gnucash-xml to ledger
+- [tfree87/gnucash2ledger](https://github.com/tfree87/gnucash2ledger) (2021) gnucash-xml to *ledger
+- [gnucash-xml-to-ledger-dat](https://github.com/icyflame/gnucash-xml-to-ledger-dat) (2020) gnucash-xml to ledger
+- [gnucash-to-beancount](https://github.com/henriquebastos/gnucash-to-beancount/) (2017) gnucash-sqlite to beancount
+- [cookthebooks](https://github.com/colemannugent/cookthebooks) (2017) gnucash-xml to ledger
+- [pygnucash/gnucash2ledger.py](https://github.com/MatzeB/pygnucash/blob/master/gnucash2ledger.py) (2014) gnucash-sqlite to ledger
 <!-- sync: https://github.com/simonmichael/hledger_site/blob/master/src/gnucash.md -->
 
 #### Intuit
@@ -1002,7 +1003,7 @@ td:first-child strong a {
 - [beancount-parser](https://github.com/LaunchPlatform/beancount-parser) standalone [Lark-based](https://github.com/lark-parser/lark) beancount syntax parser (not relying on the beancount library)
 - [beancount-parser](https://docs.rs/beancount-parser/latest/beancount_parser/) a Beancount parser in Rust using [nom](https://docs.rs/nom/latest/nom/)
 - [beancount-parser-lima](https://docs.rs/beancount-parser-lima/latest/beancount_parser_lima/) another Beancount parser in Rust using [Logos](https://docs.rs/logos/latest/logos/) and [Chumsky](https://docs.rs/chumsky/latest/chumsky/)
-- [beancount-txn-elisp](https://sr.ht/~trs-80/beancount-txn-elisp) a library to read/parse and write/insert individual Beancount transactions, implemented in Emacs Lisp
+- [beancount-txn-elisp](https://sr.ht/~trs-80/beancount-txn-`) a library to read/parse and write/insert individual Beancount transactions, implemented in Emacs Lisp
 - [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) a library provides data types and processors of custom beancount forms for inputting repeating similar entries easily
 - [beanhub-web-react](https://github.com/LaunchPlatform/beanhub-web-react) react components for beancount entry input forms and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
 - [magicbeans](https://github.com/ericaltendorf/magicbeans/) Beancount extensions for cryptocurrency tax tracking and reporting 
