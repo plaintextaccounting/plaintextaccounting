@@ -869,8 +869,9 @@ td:first-child strong a {
 #### YNAB
 - [beancount-ynab](https://github.com/hoostus/beancount-ynab) Import YNAB4 (legacy desktop-based version) into beancount
 - [beancount-ynab5](https://github.com/hoostus/beancount-ynab5) Import YNAB5 (cloud-based version) transactions into beancount 
+- [ynab-to-ledger](https://github.com/jaredtconnor/ynab-to-ledger) YNAB5 (transactions) to *ledger converter (2025)
 - [ynab-to-ledger](https://github.com/vermiceli/ynab-to-ledger) You Need A Budget (YNAB) to *ledger converter. Handles multiple currencies, multiple number formats, reconciliation, memos, transfers, and split transactions
-- [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) You Need A Budget to *ledger converter
+- [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) YNAB to *ledger converter
 
 ### Price fetching
 
