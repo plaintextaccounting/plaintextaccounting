@@ -428,7 +428,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 [ledg]: https://github.com/SitanHuang/ledg
 
 [zhang-src]: https://github.com/zhang-accounting/zhang
-[zhang]: https://zhang-accounting.github.io/zhang
+[zhang]: https://zhang-accounting.kilerd.me/
 
 <!-- [compare at openhub](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
 
