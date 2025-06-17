@@ -1012,6 +1012,7 @@ td:first-child strong a {
 ### Utilities
 
 - [beanhub-cli](https://github.com/LaunchPlatform/beanhub-cli) beancount command line tools come with features like formatter, [beanhub-import](https://github.com/LaunchPlatform/beancount-import) and a [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) web app
+- [bean-sort](https://github.com/tesujimath/bean-sort) naive sorting for Beancount files
 
 ### API
 
