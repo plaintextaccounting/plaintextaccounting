@@ -938,6 +938,7 @@ td:first-child strong a {
 - [tim](https://github.com/MatthiasKauer/tim) time logging/reporting tool using hledger
 - [timekeeping-template](https://github.com/bbarker/timekeeping-template) time logging/reporting examples/how-to using hledger
 - [tito](https://mostlyabsurd.com/files/tito) time logging bash scripts that avoid double clock-in
+- [toggl2timeclock.py](https://codeberg.org/scy/toggl2timeclock) Toggl CSV export to timeclock converter
 
 ### UI, console
 
