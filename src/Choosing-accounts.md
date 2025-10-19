@@ -25,11 +25,19 @@ Some rules of thumb:
   If your tools are good at summarising deep hierarchies, don't be afraid of deep/detailed subaccounts.
   On the other hand don't add more detail than you really need.
 
+- Beancount account names are more restrictive than hledger's/Ledger's.
+  If you might be exporting to Beancount in future (say, to use the Fava web UI), 
+  limiting yourself to Beancount-friendly account names might be worthwhile.
+
 Or, you may want to follow or start from an existing chart of accounts, perhaps legally required in your situation. 
 Here are some ideas:
 
-- [Beancount Cookbook: Account Naming Conventions](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk/view#heading=h.tu0f1kydrpgn)
-- [UN COICOP](https://unstats.un.org/unsd/classifications/unsdclassifications/COICOP_2018_-_pre-edited_white_cover_version_-_2018-12-26.pdf) -> VIII. Broad structure... - expense accounts
+- [Chart of accounts - How does yours look? (forum)](https://forum.plaintextaccounting.org/t/chart-of-accounts-how-does-yours-look/51)
+- [Advice for accounts (reddit)](https://www.reddit.com/r/plaintextaccounting/comments/1oaipdn/advice_for_accounts/)
 - [How fine-grained are your COAs? (reddit)](https://www.reddit.com/r/plaintextaccounting/comments/wk6pjo/how_finegrained_are_your_coas)
+- [Beancount Language Syntax: Accounts](https://beancount.github.io/docs/beancount_language_syntax.html#accounts)
+- [Beancount Cookbook: Account Naming Conventions](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk/view#heading=h.tu0f1kydrpgn)
+- [hledger manual: Beancount output](https://hledger.org/hledger.html#beancount-output) how hledger transforms account names for Beancount
+- [UN COICOP](https://unstats.un.org/unsd/classifications/unsdclassifications/COICOP_2018_-_pre-edited_white_cover_version_-_2018-12-26.pdf) -> VIII. Broad structure... - expense accounts
 - [Chart of Accounts for Personal Accounting (the-solipsist)](https://gist.github.com/the-solipsist/c67e956c95af8f798e5631de896ff514)
 - [Quicken blog: Budget categories](https://www.quicken.com/blog/budget-categories)
