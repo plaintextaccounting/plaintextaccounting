@@ -2,35 +2,55 @@
 
 Some rules of thumb:
 
-- It helps to use the standard [[FAQ#what-are-the-five-top-level-accounts|five top level accounts]]
-  (assets, liabilities, equity, revenues, expenses, in your preferred language).
+- You don't need to try to pick the perfect set of accounts at the start.
+  They can always be changed later with search and replace.
 
-- Add subaccounts as driven by your reporting needs. Otherwise keep account names simple.
+- Your chart of accounts is an important factor in the success of your accounting system.
+  Expect it to change, as your accounting know-how and accounting needs do.
+  It's worth investing time to review and improve it periodically.
 
-- Expect your chart of accounts to evolve as needs change; keep tending it.
+- If you are required to use some legally mandated chart of accounts, start with that.
 
-- If using english names: should it be revenues or income ? Whichever you prefer (revenues is slightly more technically correct).
+- It's convenient to use the standard [[FAQ#what-are-the-five-top-level-accounts|five top level accounts]] -
+  assets, liabilities, equity, revenues, expenses (in your preferred language).
 
-- Lower case or capitalised ? 
+- Under assets and liabilities, add account names representing each real world account that matters to you.
+  Checking, savings, cash, credit card, debts, loans, investments etc.
+
+- Group these under parent accounts to keep them organised, if you like:
+  Eg assets:bank:foo-bank:checking, assets:investments:vanguard:cash-plus, etc.
+
+- For expenses, start simple.
+  These will be somewhat custom for you.
+  Optionally, review some existing charts of accounts / lists of expense categories for inspiration (see below).
+  Add more accounts/subaccounts as driven by your reporting needs.
+  Detailed categories allow more precise reports, simple ones require less mental effort.
+
+- Should you have deep hierarchical account names or shallow ones ?
+  If your accounting app is good at summarising deep hierarchies, feel free to go as deep and detailed as you need.
+  But don't make unnecessary work for yourself.
+  Some hierarchy is natural for accounts and categories, and is used in most PTA examples;
+  but if you prefer a flat list of account names, you can do that too.
+
+- If using english account names, should it be "revenues" or "income" ?
+  It doesn't matter ("revenues" is used more in business and is the more precise term; "income" is more familiar in personal finance).
+
+- Should account name parts be capitalised ?
   As you prefer. All lower case reduces typing/spelling effort.
 
-- Spaces, no spaces, or hyphens for multi-word names ?
-  Spaces look a little nicer but require extra quoting. (Seriously consider avoiding spaces in account names, you may be glad of it later.)
+- Should multi-word account names use spaces, nospaces, hy-phens, CamelCase ?
+  Spaced names look nice to humans, but tend to cause headaches in command lines and scripts, requiring extra work.
 
-- Accounts, tags, or other fields for categorising ? Use accounts for your primary categorising as they are best supported.
+- For categorising, should you use accounts, tags, descriptions, or other fields?
+  Use accounts for your primary categorising as they are best supported.
   Consider using tags if you have cross-cutting categorising schemes.
   For adhoc/infrequent categorising, some matchable text in the description might be enough.
-
-- Shallow or deep account hierarchy ? 
-  If your tools are good at summarising deep hierarchies, don't be afraid of deep/detailed subaccounts.
-  On the other hand don't add more detail than you really need.
 
 - Beancount account names are more restrictive than hledger's/Ledger's.
   If you might be exporting to Beancount in future (say, to use the Fava web UI), 
   limiting yourself to Beancount-friendly account names might be worthwhile.
 
-Or, you may want to follow or start from an existing chart of accounts, perhaps legally required in your situation. 
-Here are some ideas:
+See also:
 
 - [Chart of accounts - How does yours look? (forum)](https://forum.plaintextaccounting.org/t/chart-of-accounts-how-does-yours-look/51)
 - [Advice for accounts (reddit)](https://www.reddit.com/r/plaintextaccounting/comments/1oaipdn/advice_for_accounts/)
