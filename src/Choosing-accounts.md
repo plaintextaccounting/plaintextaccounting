@@ -1,12 +1,12 @@
 % Choosing accounts
 
-Some rules of thumb:
+Your chart of accounts is an important factor in the success of your accounting system.
+Here are some rules of thumb when choosing account names:
 
 - You don't need to try to pick the perfect set of accounts at the start.
-  They can always be changed later with search and replace.
+  This is plain text accounting - account names can always be changed later with search and replace.
 
-- Your chart of accounts is an important factor in the success of your accounting system.
-  Expect it to change, as your accounting know-how and accounting needs do.
+- Expect your chart of accounts to change, as your accounting know-how and accounting needs do.
   It's worth investing time to review and improve it periodically.
 
 - If you are required to use some legally mandated chart of accounts, start with that.
@@ -42,9 +42,10 @@ Some rules of thumb:
   Spaced names look nice to humans, but tend to cause headaches in command lines and scripts, requiring extra work.
 
 - For categorising, should you use accounts, tags, descriptions, or other fields?
-  Use accounts for your primary categorising as they are best supported.
-  Consider using tags if you have cross-cutting categorising schemes.
-  For adhoc/infrequent categorising, some matchable text in the description might be enough.
+  Use accounts primarily, as they are the best supported.
+  For adhoc/infrequent categorising, some matchable text in the description can be enough.
+  If you have cross-cutting categorising schemes, tags can be handy.
+  More on this [in the FAQ](https://plaintextaccounting.org/FAQ#should-i-categorise-with-account-payee-description-tags...).
 
 - Beancount account names are more restrictive than hledger's/Ledger's.
   If you might be exporting to Beancount in future (say, to use the Fava web UI), 
