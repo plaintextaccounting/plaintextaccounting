@@ -56,6 +56,8 @@ See also:
 - [Chart of accounts - How does yours look? (forum)](https://forum.plaintextaccounting.org/t/chart-of-accounts-how-does-yours-look/51)
 - [Advice for accounts (reddit)](https://www.reddit.com/r/plaintextaccounting/comments/1oaipdn/advice_for_accounts/)
 - [How fine-grained are your COAs? (reddit)](https://www.reddit.com/r/plaintextaccounting/comments/wk6pjo/how_finegrained_are_your_coas)
+- [Ledger: Structuring your Accounts](https://ledger-cli.org/doc/ledger3.html#Structuring-your-Accounts)
+- [hledger: Account names](https://hledger.org/hledger.html#account-names)
 - [Beancount Language Syntax: Accounts](https://beancount.github.io/docs/beancount_language_syntax.html#accounts)
 - [Beancount Cookbook: Account Naming Conventions](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk/view#heading=h.tu0f1kydrpgn)
 - [hledger manual: Beancount output](https://hledger.org/hledger.html#beancount-output) how hledger transforms account names for Beancount
