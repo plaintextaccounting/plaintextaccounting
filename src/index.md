@@ -313,6 +313,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Inactive**       |        |              |                              |            |       |                                  |                                                                                                      |                              |
 | mynt               | 2023   |              | [rust][mynt-src]             |          1 |       |                                  |                                                                                                      |                              |
+| ubal               | 2022   |              | [uxntal][ubal-src]           |          1 |       |                                  |                                                                                                      |                              |
 | bankroll           | 2020   | 2020         | [rust][bankroll-src]         |          1 |     1 |                                  |                                                                                                      |                              |
 | [pta]              | 2020   | 2020         | [perl][pta-src]              |          1 |       |                                  |                                                                                                      |                              |
 | blossom            | 2020   |              | [F#][blossom-src]            |          1 |    30 |                                  |                                                                                                      |                              |
@@ -426,6 +427,8 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 [UMM-hackage]: https://hackage.haskell.org/package/UMM
 
 [ledg]: https://github.com/SitanHuang/ledg
+
+[ubal-src]: https://git.sr.ht/~cabrendan/ubal
 
 [zhang-src]: https://github.com/zhang-accounting/zhang
 [zhang]: https://zhang-accounting.kilerd.me/
