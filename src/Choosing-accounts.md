@@ -58,9 +58,9 @@ See also:
 - [How fine-grained are your COAs? (reddit)](https://www.reddit.com/r/plaintextaccounting/comments/wk6pjo/how_finegrained_are_your_coas)
 - [Ledger: Structuring your Accounts](https://ledger-cli.org/doc/ledger3.html#Structuring-your-Accounts)
 - [hledger: Account names](https://hledger.org/hledger.html#account-names)
+- [hledger: Beancount output](https://hledger.org/hledger.html#beancount-output) how hledger transforms account names for Beancount
 - [Beancount Language Syntax: Accounts](https://beancount.github.io/docs/beancount_language_syntax.html#accounts)
 - [Beancount Cookbook: Account Naming Conventions](https://docs.google.com/document/d/1Tss0IEzEyAPuKSGeNsfNgb0BfiW2ZHyP5nCFBW1uWlk/view#heading=h.tu0f1kydrpgn)
-- [hledger manual: Beancount output](https://hledger.org/hledger.html#beancount-output) how hledger transforms account names for Beancount
 - [UN COICOP](https://unstats.un.org/unsd/classifications/unsdclassifications/COICOP_2018_-_pre-edited_white_cover_version_-_2018-12-26.pdf) -> VIII. Broad structure... - expense accounts
 - [Chart of Accounts for Personal Accounting (the-solipsist)](https://gist.github.com/the-solipsist/c67e956c95af8f798e5631de896ff514)
 - [Quicken blog: Budget categories](https://www.quicken.com/blog/budget-categories)
