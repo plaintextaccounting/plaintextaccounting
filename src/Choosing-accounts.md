@@ -64,3 +64,4 @@ See also:
 - [UN COICOP](https://unstats.un.org/unsd/classifications/unsdclassifications/COICOP_2018_-_pre-edited_white_cover_version_-_2018-12-26.pdf) -> VIII. Broad structure... - expense accounts
 - [Chart of Accounts for Personal Accounting (the-solipsist)](https://gist.github.com/the-solipsist/c67e956c95af8f798e5631de896ff514)
 - [Quicken blog: Budget categories](https://www.quicken.com/blog/budget-categories)
+- [French/english chart of accounts](https://www.plancomptable.com/en/french-chart-of-accounts.htm)
