@@ -65,3 +65,4 @@ See also:
 - [Chart of Accounts for Personal Accounting (the-solipsist)](https://gist.github.com/the-solipsist/c67e956c95af8f798e5631de896ff514)
 - [Quicken blog: Budget categories](https://www.quicken.com/blog/budget-categories)
 - [French/english chart of accounts](https://www.plancomptable.com/en/french-chart-of-accounts.htm)
+- [Help needed for a French chart of account (forum)](https://forum.plaintextaccounting.org/t/beginner-question-help-needed-for-a-french-chart-of-account/668)
