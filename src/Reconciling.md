@@ -5,6 +5,8 @@ And learn the troubleshooting techniques (such as viewing the detailed transacti
 It is surprising how quickly small events can slip through the cracks and cause confusion.
 Reconciling often will save you time.*
 
+*Reconciling, ie testing your reports against an external source of truth, is quick and guards against all such things, giving you confidence in your system.*
+
 
 - [hledger: Reconciling](https://hledger.org/hledger.html#reconciling)
 - <https://forum.plaintextaccounting.org/t/to-reconcile-or-not-to-reconcile-reddit/654>
