@@ -63,7 +63,7 @@ Revenues and Expenses are essentially inflows and outflows during some period;
 technically they are changes in Equity, reported separately for clarity.
 Businesses usually merge Revenues and Expenses into their Equity balance at the end of each accounting period.
 
-- [hledger: Accounting Basics](https://hledger.org/accounting.html#debits-and-credits)
+- [hledger: Accounting basics for PTA users](https://hledger.org/accounting-pta.html)
 
 ### What is the accounting equation ?
 
