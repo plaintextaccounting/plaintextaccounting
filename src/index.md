@@ -317,6 +317,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 | bankroll           | 2020   | 2020         | [rust][bankroll-src]         |          1 |     1 |                                  |                                                                                                      |                              |
 | [pta]              | 2020   | 2020         | [perl][pta-src]              |          1 |       |                                  |                                                                                                      |                              |
 | blossom            | 2020   |              | [F#][blossom-src]            |          1 |    30 |                                  |                                                                                                      |                              |
+| ledger.bash        | 2020   |              | [bash/awk][ledger.bash]      |          1 |     6 |                                  |                                                                                                      |                              |
 | acc                | 2020   |              | [rust][acc-src]              |          1 |     1 |                                  |                                                                                                      |                              |
 | rust\_ledger       | 2019   | 2021         | [rust][rust_ledger-src]      |          4 |    90 |                                  |                                                                                                      |                              |
 | Goledger (mescanne)| 2019   | 2020         | [go][goledger-mescanne-src]  |          1 |    30 |                                  |                                                                                                      |                              |
@@ -390,6 +391,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 [#ledger:libera.chat]: https://web.libera.chat/#ledger
 [ledger-mail]: https://list.ledger-cli.org/
 
+[ledger.bash]: https://github.com/benjaminogles/ledger.bash
 [ledger.pl-src]: https://github.com/dimonf/ledger.pl
 
 [monescript]: https://monescript.github.io/
