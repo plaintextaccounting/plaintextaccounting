@@ -9,3 +9,7 @@
 ## Value-added tax
 
 - [[VAT]]
+
+## Capital gains
+
+- [[Capital gains reporting]]
