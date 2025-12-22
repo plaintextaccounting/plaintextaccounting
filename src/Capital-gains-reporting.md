@@ -1,4 +1,6 @@
-Here is quick intro to capital gains and tax reporting for investments, in the context of plain text accounting, as of 2025. Note this information here is unvetted, just my current understanding; so do your own research / use professional advice when appropriate.
+% Capital gains reporting
+
+Here is a quick intro to capital gains and tax reporting for investments, in the context of plain text accounting, as of 2025. Note this information here is unvetted, just my current understanding; so do your own research / use professional advice when appropriate.
 
 If you have traditional investments or cryptocurrencies, you will typically incur
 - revenues (when you receive payments/gifts/airdrops/rewards)
