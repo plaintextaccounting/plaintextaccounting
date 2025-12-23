@@ -39,10 +39,10 @@ There are two kinds:
   Bitcoin.Tax, Cointracker, Coinledger, Koinly, Summ, TokenTax are some of these. While convenient, online calculators add rather serious privacy risk: when they are hacked or infiltrated, potentially your entire past, present and future cryptocurrency activities can be seen and analysed.
 
 - Offline cryptocurrency tax calculators.\
-  These tend to be less featureful but more private, so we focus on them here. Some of them are:
+  These tend to be less featureful but more private. Some of them are:
 
-  - [BittyTax] - UK and US variants (can do wallet-based cost tracking by using multiple configs)
-  - [rotki]    - freemium, featureful, does not support US yet (wallet-based cost tracking, <https://github.com/rotki/rotki/issues/2438>)
+  - [BittyTax] - UK and US variants (can do wallet-based cost tracking needed for US, by using multiple configs)
+  - [rotki]    - freemium, featureful (does not support US yet, <https://github.com/rotki/rotki/issues/2438>)
   - [RP2]      - does not support US yet (<https://github.com/eprbell/rp2/issues/135>)
 
 [bittytax]: https://github.com/BittyTax/BittyTax
@@ -77,7 +77,7 @@ For each PTA account representing a real-world cryptocurrency wallet,
 Here, "wallet" has a broad meaning:
 
 - a self-custodied wallet on a blockchain
-- or the wallet on an exchange
+- or a wallet on an exchange
 - or each individual BIP 32 account within a multi-account wallet
 - or other places where a balance is held, like a liquidity pool or smart contract
 
@@ -86,6 +86,28 @@ Ideally, you could export the double entry data directly to the tax calculator, 
 ### Export from wallets to a cryptocurrency tax calculator
 Like the above, but move the data directly from your real-world wallets to the tax calculator, without involving any accounting app.
 The tax calculator may be able to automate some or all of the exporting/transforming/importing; otherwise it must be done manually.
+
+## Lots
+
+In the PTA world at least, 
+we call an amount and its cost basis (original acquisition date and cost) a "lot".
+
+## Disposal order
+
+Disposal is when you get rid of some quantity of an asset,
+eg by spending it, giving it as a gift, or trading it for something else.
+
+Sometimes lots are required to be disposed of in a certain order, based 
+on their original acquisition date and/or cost. These include:
+
+- FIFO - first in first out
+- LIFO - last in first out
+- HIFO - highest cost first out
+- LOFO - lowest cost first out
+- SpecId - specific identification of lots
+
+Sometimes lots are given the (weighted) average cost of all lots of that asset.
+In this case, tracking disposal order is not needed (as all lots have the same cost).
 
 ## Country notes
 
@@ -97,13 +119,6 @@ In the USA, calculating cryptocurrency gains requires:
 - tracking the acquisition date, cost, and wallet of every purchase/acquisition over your lifetime
 - tracking these across transfers/splits/merges/disposals
 - disposing them in a required order, such as:
-
-  - FIFO - first in first out
-  - LIFO - last in first out
-  - HIFO - highest cost first out
-  - LOFO - lowest cost first out
-  - SpecId - specific identification of lots
-
 - and thereby calculating the capital gains or losses.
 
 Before tax year 2025, disposal order was determined with "universal cost tracking" -
