@@ -1,10 +1,12 @@
 % Capital gains reporting
 
-Here is a quick intro to capital gains and tax reporting for investments, in the context of plain text accounting, as of 2025. Note this information here is unvetted, just my current understanding; so do your own research / use professional advice when appropriate.
+Do you feel confused about capital gains, FIFO and SpecId, and investment taxes ?
+Here is a quick intro, in the context of plain text accounting, as of 2025.
+This information is unvetted, just my current understanding; so do your own research / use professional advice when appropriate.
 
 If you have traditional investments or cryptocurrencies, you will typically incur
 
-- revenues (when you receive payments/gifts/airdrops/rewards)
+- revenues (when you receive payments/gifts/dividends/airdrops/rewards)
 - expenses (when you send payments/gifts/fees)
 - capital gains or losses (when you spend/sell/exchange an asset at a different price than its original cost)
 
@@ -68,11 +70,11 @@ Beancount has the most robust support, and there might be some third-party plugi
 hledger doesn't have this feature built in, but there are some third-party calculators which can use its data.
 (hledger-lots, lotter..)
 
-If you are already using a PTA app (or if you can export to one), this might be more convenient than dealing with another app.
+If you are already using a PTA app, this might be more convenient than dealing with another app.
 However the current PTA gains calculators might be too limited to handle some situations, eg inter-wallet transfers.
 
 ### Export from a PTA app to gains/tax calculator
-For each PTA account representing a real-world investment account or cryptocurrency wallet,
+For each PTA account representing an investment account or cryptocurrency wallet,
 
 - export its lifetime history of transactions as CSV (single entry data)
 - transform this to the CSV format required by the gains/tax calculator, and import it there
@@ -88,7 +90,7 @@ In the case of cryptocurrency, "wallet" has a broad meaning here:
 Ideally, you could export double entry data directly to the gains/tax calculator, which would be more robust.
 
 ### Export from wallets to a cryptocurrency tax calculator
-Like the above, but move the data directly from your cryptocurrency wallets to the tax calculator, without involving any accounting app.
+Like the above, but move the data directly from your cryptocurrency wallets to the tax calculator, without using any other accounting app.
 The tax calculator may be able to automate some or all of the exporting/transforming/importing; otherwise it must be done manually.
 
 ## Lots
