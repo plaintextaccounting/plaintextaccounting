@@ -122,7 +122,7 @@ In the USA, calculating cryptocurrency gains requires:
 
 - tracking the acquisition date, cost, and wallet of every purchase/acquisition over your lifetime
 - tracking these across transfers/splits/merges/disposals
-- disposing them in a required order, such as:
+- moving/spending/trading them in a particular disposal order
 - and thereby calculating the capital gains or losses.
 
 Before tax year 2025, disposal order was determined with "universal cost tracking" -
