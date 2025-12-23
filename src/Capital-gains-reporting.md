@@ -91,6 +91,7 @@ General notes on local rules (again, unvetted best understanding):
 
 ### USA
 In the USA, calculating cryptocurrency gains requires:
+
 - tracking the acquisition date, cost, and wallet of every purchase/acquisition over your lifetime
 - tracking these across transfers/splits/merges/disposals
 - disposing them in a required order, such as:
