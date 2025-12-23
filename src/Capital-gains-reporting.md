@@ -30,10 +30,10 @@ Cryptocurrency tax calculator apps exist to meet this need. They
 
 There are two kinds:
 
-- Online cryptocurrency tax calculators.
+- Online cryptocurrency tax calculators.\
   Bitcoin.Tax, Cointracker, Coinledger, Koinly, Summ, TokenTax are some of these. While convenient, online calculators add rather serious privacy risk: when they are hacked or infiltrated, potentially your entire past, present and future cryptocurrency activities can be seen and analysed.
 
-- Offline cryptocurrency tax calculators.
+- Offline cryptocurrency tax calculators.\
   These tend to be less featureful but more private, so we focus on them here. Some of them are:
 
   - [BittyTax] - UK and US variants (can do wallet-based cost tracking by using multiple configs)
@@ -48,11 +48,13 @@ There are two kinds:
 
 ### Export from wallets to a cryptocurrency tax calculator
 From each real-world cryptocurrency wallet,
+
 - export its lifetime history of transactions as CSV
 - transform this to the CSV format required by the tax calculator, and import it there
 - and add any extra configuration required to help the calculator build a true picture of events
 
 "Wallet" here has a broad meaning:
+
 - a self-custodied wallet on a blockchain
 - or the wallet on an exchange
 - or each individual BIP 32 account within a multi-account wallet
@@ -92,11 +94,13 @@ In the USA, calculating cryptocurrency gains requires:
 - tracking the acquisition date, cost, and wallet of every purchase/acquisition over your lifetime
 - tracking these across transfers/splits/merges/disposals
 - disposing them in a required order, such as:
+
   - FIFO - first in first out
   - LIFO - last in first out
   - HIFO - highest cost first out
   - LOFO - lowest cost first out
   - SpecId - specific identification of lots
+
 - and thereby calculating the capital gains or losses.
 
 Before tax year 2025, disposal order was determined with "universal cost tracking" -
