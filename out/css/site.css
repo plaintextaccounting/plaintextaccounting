@@ -30,12 +30,12 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
     margin:0;
 }
 
-ul {
-    list-style-position: outside;
-}
-
 li {
     margin-bottom:0;
+}
+
+li > p {
+    display: inline;
 }
 
 #TOC, #sitemap {
