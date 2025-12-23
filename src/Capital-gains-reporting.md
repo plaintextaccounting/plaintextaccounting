@@ -19,15 +19,14 @@ For traditional investments, capital gains are calculated by your investment bro
 If you want to check your broker's calculations, or if you want to calculate in a different way,
 you could use one of the PTA app methods below (calculate gains manually, or using builtin/third party gains calculator).
 
-There are probably also dedicated apps for calculating investment gains, like the cryptocurrency calculators mentioned below, 
+Or, these calculations can often be done by tax preparation software, or accounting/portfolio management apps such as Quicken, Personal Capital, Sharesight.
 
 ## Capital gains for cryptocurrencies
 Here the calculations are similar, but the landscape is more complicated.
-If you have only used a centralised exchange, that will often calculate gains for you, similar to an investment broker.
-But if you have used self-custodied wallets, decentralised exchanges, or other defi apps, you will be responsible for calculating gains and taxes owed from these.
+If you have only used a centralised exchange, that will probably calculate gains for you, similar to an investment broker.
+But if you have used self-managed wallets, decentralised exchanges, or other defi apps, you will be responsible for calculating gains and taxes owed from these.
 
-## Cryptocurrency tax calculators
-Cryptocurrency tax calculator apps exist to meet this need. They
+Cryptocurrency tax calculator apps exist to meet this need. These
 
 1. Import all of your cryptocurrency activities, manually or via APIs, to build up the full picture
 2. Calculate the capital gains, according to your country's rules (if supported).
@@ -49,7 +48,12 @@ There are two kinds:
 [rotki]: http://rotki.com
 [rp2]: https://github.com/eprbell/rp2
 
-## Some ways to calculate cryptocurrency gains
+## Some ways to calculate capital gains
+
+### Use reports from your broker/exchange
+This works to an extent, but the results can be limited and suboptimal, eg if you use multiple brokers.
+In particular in the cryptocurrency world people often use self-managed blockchain wallets, decentralised exchanges,
+and other defi apps such as liquidity pools or smart contracts, which typically don't provide gains reports.
 
 ### Use a PTA app to calculate gains manually
 Using subaccounts, you can keep track of each lot and its cost (across acquisitions, transfers, splits, merges and disposals);
@@ -67,24 +71,24 @@ hledger doesn't have this feature built in, but there are some third-party calcu
 If you are already using a PTA app (or if you can export to one), this might be more convenient than dealing with another app.
 However the current PTA gains calculators might be too limited to handle some situations, eg inter-wallet transfers.
 
-### Export from a PTA app to a cryptocurrency tax calculator
-For each PTA account representing a real-world cryptocurrency wallet,
+### Export from a PTA app to gains/tax calculator
+For each PTA account representing a real-world investment account or cryptocurrency wallet,
 
 - export its lifetime history of transactions as CSV (single entry data)
-- transform this to the CSV format required by the tax calculator, and import it there
+- transform this to the CSV format required by the gains/tax calculator, and import it there
 - and add any extra configuration required to help the calculator reconstruct the true picture of events (double entry data).
 
-Here, "wallet" has a broad meaning:
+In the case of cryptocurrency, "wallet" has a broad meaning here:
 
 - a self-custodied wallet on a blockchain
 - or a wallet on an exchange
 - or each individual BIP 32 account within a multi-account wallet
 - or other places where a balance is held, like a liquidity pool or smart contract
 
-Ideally, you could export the double entry data directly to the tax calculator, which would be more robust; but no calculators currently support this.
+Ideally, you could export double entry data directly to the gains/tax calculator, which would be more robust.
 
 ### Export from wallets to a cryptocurrency tax calculator
-Like the above, but move the data directly from your real-world wallets to the tax calculator, without involving any accounting app.
+Like the above, but move the data directly from your cryptocurrency wallets to the tax calculator, without involving any accounting app.
 The tax calculator may be able to automate some or all of the exporting/transforming/importing; otherwise it must be done manually.
 
 ## Lots
@@ -110,8 +114,6 @@ Sometimes lots are given the (weighted) average cost of all lots of that asset.
 In this case, tracking disposal order is not needed (as all lots have the same cost).
 
 ## Country notes
-
-General notes on local rules (again, unvetted best understanding):
 
 ### USA
 In the USA, calculating cryptocurrency gains requires:
