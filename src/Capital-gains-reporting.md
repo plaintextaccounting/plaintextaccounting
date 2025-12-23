@@ -98,6 +98,21 @@ The tax calculator may be able to automate some or all of the exporting/transfor
 In the PTA world at least, 
 we call an amount and its cost basis (original acquisition date and cost) a "lot".
 
+When you transfer a lot to another account that you own, usually that's not a taxable event.
+The cost basis remains an attribute of the lot.
+
+You can split a lot, by transferring part of it to another account that you own.
+Then you have two smaller lots, each with the same cost basis.
+
+Multiple lots with the same cost basis could be merged back into a single lot, if desired.
+But lots with different cost basis can't be merged.
+
+An account can have a balance consisting of multiple lots. 
+
+When you transfer an amount out of a multi-lot account,
+you need to select which lot(s) and/or part of lot is being transferred,
+according to some disposal order.
+
 ## Disposal order
 
 Disposal is when you get rid of some quantity of an asset,
@@ -112,8 +127,11 @@ on their original acquisition date and/or cost. These include:
 - LOFO - lowest cost first out
 - SpecId - specific identification of lots
 
-Sometimes lots are given the (weighted) average cost of all lots of that asset.
-In this case, tracking disposal order is not needed (as all lots have the same cost).
+## Average cost
+
+In some cases, instead of tracking the original cost of every lot, 
+all of an asset's lots are treated as having the same cost: their weighted average cost.
+This simplifies things, and makes disposal order irrelevant.
 
 ## Country notes
 
