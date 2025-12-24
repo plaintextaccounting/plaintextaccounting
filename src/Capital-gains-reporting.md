@@ -162,8 +162,14 @@ You are allowed to freely choose disposal orders within a year or within a walle
 In tax year 2026, this flexibility with choosing disposal order might be reduced.
 
 ### UK
-In the UK, you use each asset's average cost across all wallets.
 
-## See also:
+<https://www.gov.uk/government/publications/shares-and-capital-gains-tax-hs284-self-assessment-helpsheet/hs284-shares-and-capital-gains-tax-2024#how-to-work-out-the-gain-for-shares-in-a-section-104-holding>
+<https://assets.publishing.service.gov.uk/media/65f993439316f5001164c2d7/HS284_Example_3_2024.pdf> example calculation
+
+In the UK, you use each asset's average cost across all wallets.
+"In some aspects this is simpler because there is no FIFO/LIFO, just a common pool that gets revalued.
+OTOH it is more complicated due to the special time based rules that create 3 classes of shares, each with its own matching rules."
+
+## See also
 
 - <https://joyful.com/PTA+lot+tracking>
