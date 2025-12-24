@@ -1,8 +1,9 @@
 % Capital gains reporting
 
 Do you feel confused about capital gains, FIFO and SpecId, and investment taxes ?
-Here is a quick intro, in the context of plain text accounting, as of 2025.
+Here is a quick intro, in the context of plain text accounting.
 This information is unvetted, just my current understanding; so do your own research / use professional advice when appropriate.
+Last updated: 2025-12-24
 
 If you have traditional investments or cryptocurrencies, you will typically incur
 
@@ -162,3 +163,7 @@ In tax year 2026, this flexibility with choosing disposal order might be reduced
 
 ### UK
 In the UK, you use each asset's average cost across all wallets.
+
+## See also:
+
+- <https://joyful.com/PTA+lot+tracking>
