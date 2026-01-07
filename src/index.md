@@ -306,6 +306,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 | [Tackler-NG]       | 2017   | 2026         | [rust][tackler-src]          |          3 |   120 |                                  | [matrix][#tackler:matrix.org], [GH][tackler-discussions]        |                              |
 | knut               | 2020   | 2024         | [go][knut-src]               |          3 |    60 |                                  |                                                                                                      |                              |
 | budget-cli         | 2023   |              | [typescript][budget-cli]     |          3 |    12 |                                  |                                                                                                      |                              |
+| [rustledger]       | 2025   |              | [rust][rustledger-src]       |          2 |     4 |                                  |                                                                                                      |                              |
 | [ledg]             | 2021   | 2025         | [typescript][ledg]           |          1 |    45 |                                  |                                                                                                      |                              |
 | [placc]            | 2024   | 2024         | nim (free closed source)     |          1 |       |                                  |                                                                                                      |                              |
 | awk-pta            | 2022   |              | [awk][awk-pta-src]           |          1 |    20 |                                  |                                                                                                      |                              |
@@ -410,6 +411,9 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 [prudent-chat]: https://twitter.com/PrudentLedger
 
 [rust_ledger-src]: https://github.com/ebcrowder/rust_ledger
+
+[rustledger]: https://rustledger.github.io
+[rustledger-src]: https://github.com/rustledger/rustledger
 
 [bankroll-src]: https://gitlab.com/dantuck/bankroll
 
@@ -926,6 +930,7 @@ td:first-child strong a {
 - [gainstrack](https://github.com/glorat/gainstrack) personal wealth analysis app with beancount export (scala/typescript)
 - [hledger-diff](https://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals (haskell)
 - [hledger-irr](https://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](https://hledger.org/hledger.html#roi)) (haskell)
+- [hledger-lit](https://github.com/adept/hledger-lit) show multiple charts in web browser (python)
 - [hledger-sankey](https://github.com/adept/hledger-sankey) Script + HTML files to plot income next to expense money flows from an hledger ledger file (shell + javascript)
 - [hledger-tools](https://github.com/rmuratov/hledger-tools) generating charts from hledger (typescript)
 - [hledger-vega](https://github.com/xitian9/hledger-vega) makes configurable [vega-lite](https://vega.github.io/vega-lite/) charts from hledger (shell)
