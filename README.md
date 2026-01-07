@@ -61,7 +61,7 @@ This will be applied immediately if you have commit access, otherwise a fork and
 ### How to make a change on your local machine
 
 1. Log in to Github, fork this repo, and clone the fork to your machine.
-    <!-- git clone https://github.com/plaintextaccounting/plaintextaccounting.wiki.git -->
+    <!-- git clone https://github.com/plaintextaccounting/plaintextaccounting -->
 2. Make your changes to `index.md` (and/or `README.md`, `css/*`, `images/*`).
 3. To preview, run `make` (requires [GNU Make] and [pandoc] 2.5+) and view `index.html` in your web browser.
 4. When everything looks right, commit with a descriptive message.
