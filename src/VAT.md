@@ -62,3 +62,8 @@ If VAT was receivable, the business would receive a refund from the tax authorit
     assets:vat:receivable                       -£80 = £0
     assets:bank                                  £80
 ```
+
+### See also
+
+- <https://forum.plaintextaccounting.org/t/tx-for-sending-invoice-with-vat/459>
+- <https://www.reddit.com/r/plaintextaccounting/comments/1prbp5b/should_i_track_vat_for_my_services>
