@@ -38,6 +38,8 @@ Revenue is recorded when money is actually received:
     assets:checking             $1000
 ```
 
+### Plus invoices
+
 In Cash accounting, invoices are not always tracked.
 If you want to track them, you can use equity to balance the transactions, as follows:
 
@@ -48,9 +50,21 @@ If you want to track them, you can use equity to balance the transactions, as fo
 
 2020-02-15 * AB Inc. | receive full payment for 202001ab
     equity:receivable           $1000
-    assets:receivable:ab       $-1000 ;= $0
+    assets:receivable:ab       $-1000 = $0
     revenues:consulting:ab     $-1000
     assets:checking             $1000
+```
+
+Or use unbalanced postings:
+
+```
+2020-02-01 * AB Inc. | invoice for work done in january
+    (invoices:receivable:ab:202001ab)        $1000
+
+2020-02-15 * AB Inc. | receive full payment for 202001ab
+    (invoices:receivable:ab:202001ab)  $-1000 = $0
+    revenues:consulting:ab             $-1000
+    assets:checking                     $1000
 ```
 
 ## Estimated tax
@@ -68,6 +82,28 @@ with additional postings to track and save for tax owed:
     liabilities:tax:us:2020     $-150
     assets:checking:tax:us:2020  $150  ; save that amount (in a virtual subaccount)
     assets:checking              $850
+```
+
+### Cash accounting plus invoices plus estimated tax
+
+Another example:
+```
+2025-12-05 * AB Inc. | invoice
+    equity:unrecognisedrevenue            $-1000
+    assets:receivable:ab:202511ab       $1000
+
+2025-12-12 * AB Inc. | payment for 202511ab invoiced on 2025-12-05
+    ; receive payment
+    assets:receivable:ab:202511ab         $ -1000 = $0
+    assets:bank:wf:bchecking               $ 1000
+    ; recognise revenue
+    revenues:ab                           $ -1000
+    equity:unrecognisedrevenue             $ 1000
+    ; estimate income tax
+    liabilities:tax:2025:us                $ -250
+    expenses:tax:2025:us                    $ 250
+    liabilities:tax:2025:hi                 $ -60
+    expenses:tax:2025:hi                     $ 60
 ```
 
 ## See also
