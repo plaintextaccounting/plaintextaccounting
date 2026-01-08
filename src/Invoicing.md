@@ -84,27 +84,34 @@ with additional postings to track and save for tax owed:
     assets:checking              $850
 ```
 
-<!-- ## Reimbursable expenses -->
-
-### Cash accounting plus invoices plus estimated tax
+## Cash accounting, invoices, reimbursed expenses, and estimated tax
 
 Another example:
 ```
+2025-11-10 * AB Inc. | some expense
+    assets:bank:wf:bchecking                 $-50
+    assets:receivable:ab:202511ab             $50
+
+2025-11-14 * AB Inc. | another expense
+    assets:bank:wf:bchecking                 $-40
+    assets:receivable:ab:202511ab             $40
+
 2025-12-05 * AB Inc. | invoice
-    equity:unrecognisedrevenue            $-1000
-    assets:receivable:ab:202511ab       $1000
+    equity:unrecognisedrevenue             $-1000
+    assets:receivable:ab:202511ab           $1000
+    ; + $90 reimbursements, already recorded
 
 2025-12-12 * AB Inc. | payment for 202511ab invoiced on 2025-12-05
     ; receive payment
-    assets:receivable:ab:202511ab         $ -1000 = $0
-    assets:bank:wf:bchecking               $ 1000
+    assets:receivable:ab:202511ab         $ -1090 = $0
+    assets:bank:wf:bchecking               $ 1090
     ; recognise revenue
     revenues:ab                           $ -1000
-    equity:unrecognisedrevenue             $ 1000
+    equity:unrecognisedrevenue             $ 1000 = $0
     ; estimate income tax
-    liabilities:tax:2025:us                $ -250
+    liabilities:tax:2025:us                $ -250  ; 25% of revenue (eg)
     expenses:tax:2025:us                    $ 250
-    liabilities:tax:2025:hi                 $ -60
+    liabilities:tax:2025:hi                 $ -60  ;  6% of revenue (eg)
     expenses:tax:2025:hi                     $ 60
 ```
 
