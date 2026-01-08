@@ -38,10 +38,10 @@ Revenue is recorded when money is actually received:
     assets:checking             $1000
 ```
 
-### Plus invoices
+## Tracking invoices with cash accounting
 
-In Cash accounting, invoices are not always tracked.
-If you want to track them, you can use equity to balance the transactions, as follows:
+Invoices are strictly speaking not part of cash accounting.
+But if you want to track them, you could use equity to balance the transactions, as follows:
 
 ```journal
 2020-02-01 * (202001ab) AB Inc. | invoice for work done in january
@@ -55,7 +55,7 @@ If you want to track them, you can use equity to balance the transactions, as fo
     assets:checking             $1000
 ```
 
-Or use unbalanced postings:
+Or use unbalanced postings (use a special top level account to avoid unbalancing the accounting equation, if you care about that):
 
 ```
 2020-02-01 * AB Inc. | invoice for work done in january
@@ -83,6 +83,8 @@ with additional postings to track and save for tax owed:
     assets:checking:tax:us:2020  $150  ; save that amount (in a virtual subaccount)
     assets:checking              $850
 ```
+
+<!-- ## Reimbursable expenses -->
 
 ### Cash accounting plus invoices plus estimated tax
 
