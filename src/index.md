@@ -311,6 +311,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 | [placc]            | 2024   | 2024         | nim (free closed source)     |          1 |       |                                  |                                                                                                      |                              |
 | awk-pta            | 2022   |              | [awk][awk-pta-src]           |          1 |    20 |                                  |                                                                                                      |                              |
 | coin               | 2019   | 2025         | [go][coin-src]               |          1 |    13 |                                  |                                                                                                      |                              |
+| limabean           | 2025   | 2026         | [clojure/rust][limabean-src] |          1 |     7 |                                  | [GH][limabean-discussions]                                                                           |                              |
 |                    | &nbsp; |              |                              |            |       |                                  |                                                                                                      |                              |
 | **Inactive**       |        |              |                              |            |       |                                  |                                                                                                      |                              |
 | mynt               | 2023   |              | [rust][mynt-src]             |          1 |       |                                  |                                                                                                      |                              |
@@ -394,6 +395,9 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 
 [ledger.bash]: https://github.com/benjaminogles/ledger.bash
 [ledger.pl-src]: https://github.com/dimonf/ledger.pl
+
+[limabean-src]: https://github.com/tesujimath/limabean
+[limabean-discussions]: https://github.com/tesujimath/limabean/discussions
 
 [monescript]: https://monescript.github.io/
 [monescript-src]: https://github.com/monescript/monescript
