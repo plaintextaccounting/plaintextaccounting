@@ -42,6 +42,7 @@ and contributors like you. See also our [discussion forum and chat rooms](#news-
 **[[Cookbook]]**\
 **[Software](#software):**
   [PTA apps](#pta-apps)
+, [Distros/setups](#setups)
 , [Feature matrix](#feature-matrix)
 , [Editor plugins](#editor-plugins)
 , [Data import/conversion](#data-importconversion)
@@ -221,9 +222,9 @@ Thank you sponsors, including:
 - [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
 - [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
 - [[Cookbook.html#getting-started|Cookbook: Getting started]]
-- [BeanHub Academy: the definitive guide to learning double-entry accounting with Beancount — the Zen of Balance](https://academy.beanhub.io)
-- [Lazy Beancount: an opinionated guide on Beancount](https://lazy-beancount.xyz/)
-- [Personal accounting in Ledger](https://leanpub.com/personal-accounting-in-ledger) (book)
+- [BeanHub Academy](https://academy.beanhub.io)
+- [Lazy Beancount](https://lazy-beancount.xyz/)
+- [Personal Accounting In Ledger](https://leanpub.com/personal-accounting-in-ledger) (book)
 
 ### Cheatsheets
 
@@ -445,6 +446,28 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 [zhang]: https://zhang-accounting.kilerd.me/
 
 <!-- [compare at openhub](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
+
+### Distros/setups
+
+There are also some documented/reproducible setups, integrated docker images etc, based on the above.
+
+| Name                        | Uses       | Start | Last update | ~Stars
+|-----------------------------|------------|-------|:-----------:|--------
+| [Full-fledged hledger][ffh] | hledger    | 2019  | 2025        | 500
+| [hledger-flow][hflow]       | hledger    | 2019  | 2026        | 200
+| [Lazy Beancount][lazyb]     | beancount  | 2024  | 2026        | 100
+| [rtrLEDGER]                 | hledger    | 2020  | 2020        |  20
+| [docker-finance][dfi]       | hledger    | 2024  | 2026        |   2
+
+[ffh]:       https://github.com/adept/full-fledged-hledger
+[hflow]:     https://github.com/apauley/hledger-flow
+[rtrledger]: https://github.com/rotorkunstkultur/rtrledger
+[dfi]:       https://gitea.com/EvergreenCrypto/docker-finance/
+[lazyb]:     https://lazy-beancount.xyz
+
+[beanhub]:   https://beanhub.io
+[beanhub-academy]: https://academy.beanhub.io
+[beanhub-src]: https://github.com/launchplatform
 
 ### Feature matrix
 
