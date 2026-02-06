@@ -1061,3 +1061,4 @@ td:first-child strong a {
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) extends Ledger's python library (python)
 - [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API for *ledger files (javascript)
 - [BeanHub API](https://api.beanhub.io/redoc) proprietary SaaS API for operating on hosted beancount repositories and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
+
