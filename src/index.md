@@ -42,7 +42,7 @@ and contributors like you. See also our [discussion forum and chat rooms](#news-
 **[[Cookbook]]**\
 **[Software](#software):**
   [PTA apps](#pta-apps)
-, [Distros/setups](#setups)
+, [Distros/setups](#distrossetups)
 , [Feature matrix](#feature-matrix)
 , [Editor plugins](#editor-plugins)
 , [Data import/conversion](#data-importconversion)
