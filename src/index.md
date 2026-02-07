@@ -294,13 +294,14 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 -->
 | Project            | Code                         | Start  | Last release | ~Stars | ~Committers | Discussion, ~size
 |--------------------|------------------------------|--------|:------------:|-------:|------------:|-----------------------------------------------------------------------------------------------------
-| **Popular**        |                              |        |              |        |             |
+| <br>**Popular**    |                              |        |              |        |             |
 | [Ledger]           | [C++][ledger-src]            | 2003   | 2025         |   5.8k |         226 | [mail list][ledger-mail]&nbsp;900, [IRC][#ledger:libera.chat]&nbsp;70
 | [hledger]          | [haskell][hledger-src]       | 2007   | 2026         |   3.8k |         178 | [mail list][hledger-mail]&nbsp;250, [matrix][#hledger:matrix.org]&nbsp;250, [IRC][#hledger:libera.chat]&nbsp;70
 | [Beancount]        | [python][beancount-src]      | 2008   | 2023         |   5.2k |          84 | [mail list][beancount-mail]&nbsp;700, [matrix][beancount-matrix]&nbsp;30, [matrix&nbsp;(fava)][fava-matrix]&nbsp;240, [IRC][#beancount:libera.chat]&nbsp;30
-| **Small userbase** |                              |        |              |        |             |
+| <br>**Small userbase** |                          |        |              |        |             |
 | [Ledger (Go)]      | [go][ledger-go-src]          | 2013   | 2025         |    470 |          12 |
 | Abandon            | [scala][abandon-src]         | 2013   | 2024         |    180 |          11 | [matrix][abandon-matrix]
+| Transity           | [purescript][transity-src]   | 2018   | 2020         |    650 |           8 | [matrix][transity-matrix]
 | [zhang]            | [rust/ts][zhang-src]         | 2023   | 2024         |    180 |           5 |
 | [Tackler]          | [rust][tackler-src]          | 2017   | 2026         |    120 |           3 | [matrix][#tackler:matrix.org], [github][tackler-discussions]
 | knut               | [go][knut-src]               | 2020   | 2024         |     60 |           3 |
@@ -308,7 +309,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 | coin               | [go][coin-src]               | 2019   | 2025         |     13 |           1 |
 | [rustledger]       | [rust][rustledger-src]       | 2025   | 2026         |     66 |           1 | [github][rustledger-discussions]
 | limabean           | [clojure/rust][limabean-src] | 2025   | 2026         |      9 |           1 | [github][limabean-discussions]
-| **Past/inactive**  |                              |        |              |        |             |
+| <br>**Past/inactive**  |                          |        |              |        |             |
 | [placc]            | nim (closed source)          | 2024   | 2024         |        |           1 |
 | budget-cli         | [typescript][budget-cli]     | 2023   |              |     12 |           3 |
 | mynt               | [rust][mynt-src]             | 2023   |              |        |           1 |
@@ -322,9 +323,8 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 | rust\_ledger       | [rust][rust_ledger-src]      | 2019   | 2021         |     90 |           4 |
 | Goledger (mescanne)| [go][goledger-mescanne-src]  | 2019   | 2020         |     30 |           1 |
 | [beans]            | [haskell][beans-src]         | 2019   | 2019         |     24 |           2 |
-| Transity           | [purescript][transity-src]   | 2018   | 2020         |    571 |           8 | [matrix][transity-matrix]
 | [Prudent]          | js, [addons][prudent-src]    | 2018   |              |        |           1 | [\@PrudentLedger][prudent-chat]
-| .Net Ledger        | [C#][nledger-src]            | 2017   | 2021         |    164 |           1 | [matrix][nledger-matrix]
+| .Net Ledger        | [C#][nledger-src]            | 2017   | 2023         |    164 |           1 | [matrix][nledger-matrix]
 | [monescript]       | [javascript][monescript-src] | 2017   | 2018         |     12 |           1 |
 | Go Ledger (abourget| [go][go-ledger-abourget-src] ) | 2016 |              |     40 |           3 |
 | uledger            | [python][uledger-src]        | 2015   |              |     17 |           1 |
