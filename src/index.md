@@ -31,7 +31,7 @@ and contributors like you. See also our [discussion forum and chat rooms](#news-
 **[Slides](#slides)**\
 **[Docs](#docs):**
   [Accounting basics](#accounting-basics)
-, [PTA app docs](#pta-app-docs)
+, [app docs](#pta-app-docs)
 , [comparisons](#comparisons)
 , [intros](#intros)
 , [cheatsheets](#cheatsheets)
@@ -41,7 +41,7 @@ and contributors like you. See also our [discussion forum and chat rooms](#news-
 **[[FAQ]]**\
 **[[Cookbook]]**\
 **[Software](#software):**
-  [PTA apps](#pta-apps)
+  [Apps](#apps)
 , [Distros/setups](#distrossetups)
 , [Features](#features)
 , [Editor plugins](#editor-plugins)
@@ -197,7 +197,7 @@ Thank you sponsors, including:
 
 ### Comparisons
 
-- [PTA apps](#pta-apps) project stats
+- [Apps](#apps) project stats
 - [Features](#features)
 - [Syntax Quick Reference](quickref/)
 - [[FAQ#which-pta-app-should-i-choose|FAQ: Which PTA app should I choose ?]]
@@ -254,7 +254,8 @@ Thank you sponsors, including:
 
 ## Software
 
-**[PTA apps](#pta-apps)
+**[Apps](#apps)
+, [Distros/setups](#distrossetups)
 , [Editor plugins](#editor-plugins)
 , [Data import/conversion](#data-importconversion)
 , [Price fetching](#price-fetching)
@@ -274,11 +275,11 @@ Thank you sponsors, including:
 **
 
 <a name="ledger-likes"></a>
-<a name="tools"></a>
+<a name="pta-apps"></a>
 
-### PTA apps
+### Apps
 
-To do Plain Text Accounting, try one (or more) of the apps below.
+To do Plain Text Accounting, try one (or more) of the PTA apps below.
 Generally it's possible to migrate data between them.
 
 <style>
