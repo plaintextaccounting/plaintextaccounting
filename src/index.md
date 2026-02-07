@@ -14,10 +14,10 @@ toc: false
 <div id="intro" style="font-size:larger;">
 
 Welcome!
-***Plain text accounting*** is a way of doing bookkeeping and accounting 
+***Plain text accounting*** is a way of doing bookkeeping and accounting
 with plain text files and scriptable, command-line-friendly software, such as
 Ledger, hledger, or Beancount.
-This site collects the PTA community's tools, docs and practices. 
+This site collects the PTA community's tools, docs and practices.
 It is maintained by Simon&nbsp;Michael (hledger project leader, PTA fan)
 and contributors like you. See also our [discussion forum and chat rooms](#news-discussion).
 
@@ -292,48 +292,48 @@ th:first-child, td:first-child { white-space:nowrap; }
 Markdown table syntax: https://pandoc.org/README.html#tables
 Active projects are sorted by committers then stars/activity. Inactive projects are sorted by start date then last release date.
 -->
-| Project            | Start  | Last release | Code                         | Committers | ~Stars | Mail list, size                  | Chat, size                                                                                           |
-|--------------------|--------|:------------:|------------------------------|-----------:|-------:|----------------------------------|------------------------------------------------------------------------------------------------------|
-| **Popular**        |        |              |                              |            |        |                                  |                                                                                                      |
-| [Ledger]           | 2003   | 2025         | [C++][ledger-src]            |        226 |   5.8k | [ledger][ledger-mail]&nbsp;~900       | [IRC][#ledger:libera.chat]&nbsp;~70                                                             |
-| [hledger]          | 2007   | 2026         | [haskell][hledger-src]       |        178 |   3.8k | [hledger][hledger-mail]&nbsp;~250     | [matrix][#hledger:matrix.org]&nbsp;~250, [IRC][#hledger:libera.chat]&nbsp;~70                   |
-| [Beancount]        | 2008   | 2023         | [python][beancount-src]      |         84 |   5.2k | [beancount][beancount-mail]&nbsp;~700 | [matrix][beancount-matrix]&nbsp;~30, [matrix&nbsp;(fava)][fava-matrix]&nbsp;~240, [IRC][#beancount:libera.chat]&nbsp;~30 |
-| **Small userbase** |        |              |                              |            |        |                                  |                                                                                                      |
-| [Ledger (Go)]      | 2013   | 2025         | [go][ledger-go-src]          |         12 |    470 |                                  |                                                                                                      |
-| Abandon            | 2013   | 2024         | [scala][abandon-src]         |         11 |    180 |                                  | [matrix][abandon-matrix]                                                                             |
-| [zhang]            | 2023   | 2024         | [rust/ts][zhang-src]         |          5 |    180 |                                  |                                                                                                      |
-| [Tackler]          | 2017   | 2026         | [rust][tackler-src]          |          3 |    120 |                                  | [matrix][#tackler:matrix.org], [GH][tackler-discussions]                                             |
-| knut               | 2020   | 2024         | [go][knut-src]               |          3 |     60 |                                  |                                                                                                      |
-| [ledg]             | 2021   | 2025         | [typescript][ledg]           |          1 |     45 |                                  |                                                                                                      |
-| coin               | 2019   | 2025         | [go][coin-src]               |          1 |     13 |                                  |                                                                                                      |
-| [rustledger]       | 2025   | 2026         | [rust][rustledger-src]       |          1 |     66 |                                  | [GH][rustledger-discussions]                                                                         |
-| limabean           | 2025   | 2026         | [clojure/rust][limabean-src] |          1 |      9 |                                  | [GH][limabean-discussions]                                                                           |
-| **Past/inactive**  |        |              |                              |            |        |                                  |                                                                                                      |
-| [placc]            | 2024   | 2024         | nim (closed source)          |          1 |        |                                  |                                                                                                      |
-| budget-cli         | 2023   |              | [typescript][budget-cli]     |          3 |     12 |                                  |                                                                                                      |
-| mynt               | 2023   |              | [rust][mynt-src]             |          1 |        |                                  |                                                                                                      |
-| awk-pta            | 2022   |              | [awk][awk-pta-src]           |          1 |     20 |                                  |                                                                                                      |
-| ubal               | 2022   |              | [uxntal][ubal-src]           |          1 |        |                                  |                                                                                                      |
-| bankroll           | 2020   | 2020         | [rust][bankroll-src]         |          1 |      1 |                                  |                                                                                                      |
-| [pta]              | 2020   | 2020         | [perl][pta-src]              |          1 |        |                                  |                                                                                                      |
-| blossom            | 2020   |              | [F#][blossom-src]            |          1 |     30 |                                  |                                                                                                      |
-| ledger.bash        | 2020   |              | [bash/awk][ledger.bash]      |          1 |      7 |                                  |                                                                                                      |
-| acc                | 2020   |              | [rust][acc-src]              |          1 |      1 |                                  |                                                                                                      |
-| rust\_ledger       | 2019   | 2021         | [rust][rust_ledger-src]      |          4 |     90 |                                  |                                                                                                      |
-| Goledger (mescanne)| 2019   | 2020         | [go][goledger-mescanne-src]  |          1 |     30 |                                  |                                                                                                      |
-| [beans]            | 2019   | 2019         | [haskell][beans-src]         |          2 |     24 |                                  |                                                                                                      |
-| Transity           | 2018   | 2020         | [purescript][transity-src]   |          8 |    571 |                                  | [matrix][transity-matrix]                                                                            |
-| [Prudent]          | 2018   |              | js, [addons][prudent-src]    |          1 |        |                                  | [\@PrudentLedger][prudent-chat]                                                                      |
-| .Net Ledger        | 2017   | 2021         | [C#][nledger-src]            |          1 |    164 |                                  | [matrix][nledger-matrix]                                                                             |
-| [monescript]       | 2017   | 2018         | [javascript][monescript-src] |          1 |     12 |                                  |                                                                                                      |
-| Go Ledger (abourget) | 2016 |              | [go][go-ledger-abourget-src] |          3 |     40 |                                  |                                                                                                      |
-| uledger            | 2015   |              | [python][uledger-src]        |          1 |     17 |                                  |                                                                                                      |
-| pacioli            | 2013   |              | [python][pacioli-src]        |          1 |     31 |                                  |                                                                                                      |
-| ledger.pl          | 2013   |              | [perl][ledger.pl-src]        |          1 |      6 |                                  |                                                                                                      |
-| Penny              | 2012   | 2014         | haskell                      |            |        |                                  |                                                                                                      |
-| UMM                | 2009   | 2010         | [haskell][UMM-hackage]       |            |        |                                  |                                                                                                      |
-| sm-Ledger          | 2007   |              | [squeak][smalltalk-src]      |            |        |                                  |                                                                                                      |
-| cl-ledger          | 2007   |              | [lisp][cl-ledger-src]        |          4 |     66 |                                  |                                                                                                      |
+| Project            | Code                         | Start  | Last release | ~Stars | ~Committers | Discussion, ~size
+|--------------------|------------------------------|--------|:------------:|-------:|------------:|-----------------------------------------------------------------------------------------------------
+| **Popular**        |                              |        |              |        |             |
+| [Ledger]           | [C++][ledger-src]            | 2003   | 2025         |   5.8k |         226 | [mail list][ledger-mail]&nbsp;900, [IRC][#ledger:libera.chat]&nbsp;70
+| [hledger]          | [haskell][hledger-src]       | 2007   | 2026         |   3.8k |         178 | [mail list][hledger-mail]&nbsp;250, [matrix][#hledger:matrix.org]&nbsp;250, [IRC][#hledger:libera.chat]&nbsp;70
+| [Beancount]        | [python][beancount-src]      | 2008   | 2023         |   5.2k |          84 | [mail list][beancount-mail]&nbsp;700, [matrix][beancount-matrix]&nbsp;30, [matrix&nbsp;(fava)][fava-matrix]&nbsp;240, [IRC][#beancount:libera.chat]&nbsp;30
+| **Small userbase** |                              |        |              |        |             |
+| [Ledger (Go)]      | [go][ledger-go-src]          | 2013   | 2025         |    470 |          12 |
+| Abandon            | [scala][abandon-src]         | 2013   | 2024         |    180 |          11 | [matrix][abandon-matrix]
+| [zhang]            | [rust/ts][zhang-src]         | 2023   | 2024         |    180 |           5 |
+| [Tackler]          | [rust][tackler-src]          | 2017   | 2026         |    120 |           3 | [matrix][#tackler:matrix.org], [github][tackler-discussions]
+| knut               | [go][knut-src]               | 2020   | 2024         |     60 |           3 |
+| [ledg]             | [typescript][ledg]           | 2021   | 2025         |     45 |           1 |
+| coin               | [go][coin-src]               | 2019   | 2025         |     13 |           1 |
+| [rustledger]       | [rust][rustledger-src]       | 2025   | 2026         |     66 |           1 | [github][rustledger-discussions]
+| limabean           | [clojure/rust][limabean-src] | 2025   | 2026         |      9 |           1 | [github][limabean-discussions]
+| **Past/inactive**  |                              |        |              |        |             |
+| [placc]            | nim (closed source)          | 2024   | 2024         |        |           1 |
+| budget-cli         | [typescript][budget-cli]     | 2023   |              |     12 |           3 |
+| mynt               | [rust][mynt-src]             | 2023   |              |        |           1 |
+| awk-pta            | [awk][awk-pta-src]           | 2022   |              |     20 |           1 |
+| ubal               | [uxntal][ubal-src]           | 2022   |              |        |           1 |
+| bankroll           | [rust][bankroll-src]         | 2020   | 2020         |      1 |           1 |
+| [pta]              | [perl][pta-src]              | 2020   | 2020         |        |           1 |
+| blossom            | [F#][blossom-src]            | 2020   |              |     30 |           1 |
+| ledger.bash        | [bash/awk][ledger.bash]      | 2020   |              |      7 |           1 |
+| acc                | [rust][acc-src]              | 2020   |              |      1 |           1 |
+| rust\_ledger       | [rust][rust_ledger-src]      | 2019   | 2021         |     90 |           4 |
+| Goledger (mescanne)| [go][goledger-mescanne-src]  | 2019   | 2020         |     30 |           1 |
+| [beans]            | [haskell][beans-src]         | 2019   | 2019         |     24 |           2 |
+| Transity           | [purescript][transity-src]   | 2018   | 2020         |    571 |           8 | [matrix][transity-matrix]
+| [Prudent]          | js, [addons][prudent-src]    | 2018   |              |        |           1 | [\@PrudentLedger][prudent-chat]
+| .Net Ledger        | [C#][nledger-src]            | 2017   | 2021         |    164 |           1 | [matrix][nledger-matrix]
+| [monescript]       | [javascript][monescript-src] | 2017   | 2018         |     12 |           1 |
+| Go Ledger (abourget| [go][go-ledger-abourget-src] ) | 2016 |              |     40 |           3 |
+| uledger            | [python][uledger-src]        | 2015   |              |     17 |           1 |
+| pacioli            | [python][pacioli-src]        | 2013   |              |     31 |           1 |
+| ledger.pl          | [perl][ledger.pl-src]        | 2013   |              |      6 |           1 |
+| Penny              | haskell                      | 2012   | 2014         |        |             |
+| UMM                | [haskell][UMM-hackage]       | 2009   | 2010         |        |             |
+| sm-Ledger          | [squeak][smalltalk-src]      | 2007   |              |        |             |
+| cl-ledger          | [lisp][cl-ledger-src]        | 2007   |              |     66 |           4 |
 
 [plaintextaccounting.org]: https://plaintextaccounting.org
 [/r/plaintextaccounting]: https://www.reddit.com/r/plaintextaccounting
@@ -449,12 +449,12 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 There are also some documented/reproducible setups, integrated docker images etc, based on the above.
 
 | Name                        | Uses       | Start | Last update | ~Stars
-|-----------------------------|------------|-------|:-----------:|--------
-| [Full-fledged hledger][ffh] | hledger    | 2019  | 2025        | 500
-| [hledger-flow][hflow]       | hledger    | 2019  | 2026        | 200
-| [Lazy Beancount][lazyb]     | beancount  | 2024  | 2026        | 100
-| [rtrLEDGER]                 | hledger    | 2020  | 2020        |  20
-| [docker-finance][dfi]       | hledger    | 2024  | 2026        |   2
+|-----------------------------|------------|-------|:-----------:|-------:
+| [Full-fledged hledger][ffh] | hledger    | 2019  |     2025    |    500
+| [hledger-flow][hflow]       | hledger    | 2019  |     2026    |    200
+| [Lazy Beancount][lazyb]     | beancount  | 2024  |     2026    |    100
+| [rtrLEDGER]                 | hledger    | 2020  |     2020    |     20
+| [docker-finance][dfi]       | hledger    | 2024  |     2026    |      2
 
 [ffh]:       https://github.com/adept/full-fledged-hledger
 [hflow]:     https://github.com/apauley/hledger-flow
@@ -484,34 +484,34 @@ td:first-child strong a {
 
 |                                 | Ledger                                                           | hledger                                                                                                                     | Beancount
 |---------------------------------|------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------
-| 
+|
 | <br>**<a name="user-interfaces" href="#user-interfaces">User interfaces</a>**
 | [CLI]:                          | [ledger]                                                         | [hledger]                                                                                                                   | [beanquery]
 | [TUI]:                          | *[regdel]*                                                       | [hledger add], [hledger-ui], *[hledger-iadd]*, *[puffin]*                                                                   | *[bean-add]*
-| [GUI]:                          | *[Prudent]*, *[ledgerble]*, *[addtrans]*                         | *[fruit-credits]*                                                                                                           | 
+| [GUI]:                          | *[Prudent]*, *[ledgerble]*, *[addtrans]*                         | *[fruit-credits]*                                                                                                           |
 | [WUI]:                          | *[ledgeraccounting]*, *[paisa]*, *[cashier]*, *[ledgible]*, *[ledger (howeyc)]*, *[ledger-web (vifon)]*, *[ledger-web (peterkeen)]*, *[ledger-pyreport]*, *[ledger-analytics]*, *[node-ledger-web]*  | [hledger-web], *[ledgeraccounting]*, *[paisa]*, *[cashier]*  | *[fava]*, *[paisa]*, *[BeanHub]*
 | [Android]:                      | *[cashier]*, *[NanoLedger]*                                      | *[cashier]*, *[MoLe]*, *[NanoLedger]*                                                                                       | *[Beancount Mobile CE]*, *[beancount-mobile (xuhcc)]*
 | [IOS]:                          |                                                                  |                                                                                                                             | *[Beancount Mobile CE]*
-| 
+|
 | <br>**<a name="help" href="#help">Help</a>**
 | CLI help:                       | general --help, also available as [man page][ledger man]         | general and command-specific --help, [commands summary][hledger commands summary], [built-in asciinema demos][hledger demo] | command-specific --help
-| [TLDR] short help:              | [ledger][ledger tldr]                                            | [hledger][hledger tldr] and [commands][hledger balance tldr], also built-in                                                 | 
+| [TLDR] short help:              | [ledger][ledger tldr]                                            | [hledger][hledger tldr] and [commands][hledger balance tldr], also built-in                                                 |
 | User manual formats:            | [web][ledger manual web]                                         | [web][hledger manual web], info, [man][hledger man], also built-in info/man/text with [jump to topic]                       | [web][beancount manual web]
 | Active support channels:        |                                                                  | [chat][hledger chat], [mail list][hledger mail list], [forum], [reddit]                                                     | [mail list][beancount mail list]
 | Easy install and setup:         | yes                                                              | yes                                                                                                                         | no
-| 
+|
 | <br>**<a name="data-formats" href="#data-formats">Data formats</a>**
 | Input formats:                  | [journal (ledger)], [timeclock][timeclock (ledger)], [csv][csv (ledger)]  | [journal (hledger)], [timeclock][timeclock (hledger)], [timedot], [csv, tsv, ssv, \*sv][csv (hledger)]             | [journal (beancount)]
 | Output formats:                 | text, [csv, xml, lisp][ledger output format]                     | [text, html, csv, tsv, fods, beancount, sql, json][hledger output format]                                                         | text, ?
-| 
+|
 | <br>**<a name="commands" href="#commands">Commands</a>**
 | Commands:                       | [accounts][l  accounts], [balance][l  balance], [cleared][l  cleared], [commodities][l  commodities], [convert][l  convert], [csv][l  csv], [entry][l  entry], [emacs][l  emacs], [equity][l  equity], [lisp][l  lisp], [payees][l  payees], [pricemap][l  pricemap], [pricedb][l  pricedb], [prices][l  prices], [print][l  print], [register][l  register], [select][l  select], [source][l  source], [stats][l  stats], [tags][l  tags]  | [accounts][h accounts], [activity][h activity], [add][h add], [aregister][h aregister], [balance][h balance], [balancesheet][h balancesheet], [balancesheetequity][h balancesheetequity], [cashflow][h cashflow], [check][h check], [close][h close], [codes][h codes], [commodities][h commodities], [demo][h demo], [descriptions][h descriptions], [diff][h diff], [files][h files], [help][h help], [import][h import], [incomestatement][h incomestatement], [payees][h payees], [prices][h prices], [print][h print], [notes][h notes], [register][h register], [rewrite][h rewrite], [roi][h roi], [stats][h stats], [tags][h tags], [test][h test]  | beancount: [check][b check], [doctor][b doctor], [example][b example], [format][b format]
 | Add-on commands:                |                                                                  | [bar][h bar], [check-fancyassertions][h check-fancyassertions], *[edit][h edit]*, [git][h git], *[iadd][h iadd]*, *[interest][h interest]*, *[lots][h lots]*, [move][h move], [pijul][h pijul], *[plot][h plot]*..  | beanquery: [balances][b balances], [journal][b journal], [print][b print], [select][b select]
-| 
+|
 | <br>**<a name="configuration" href="#configuration">Configuration</a>**
 | Config file:                    | [general options][l config]                                      | [general and command-specific options][h config]                                                                            | ?
 | Extensibility:                  | [built-in expression language][l expression lang], [embedded python][l python], *[HTTP-JSON][l http api]*           | [add-on commands][h addons], [haskell library][h lib], [HTTP-JSON][h http api]  | [data-modifying plugins][b plugins], [python library][b lib]
-| 
+|
 | <br>**<a name="other-features" href="#other-features">Other features</a>**
 | Account names:                  | [any][l account names]                                           | [any][h account names]                                                                                                      | [capitalised, no spaces, english top level names][b account names]
 | Account types awareness:        | no                                                               | [yes][h account types]                                                                                                      | yes
@@ -534,16 +534,16 @@ td:first-child strong a {
 | Price fetching:                 | *[pricehist]*                                                    | *[pricehist][h pricehist]*                                                                                                  | [beanprice], *[pricehist]*
 | Querying:                       | [cli options][l query opts], [custom query expressions][l query args]  | [cli options][h query opts], [custom query expressions][h query args], *[sql][h sql]*                                 | [SQL-like beancount query language][b query]
 | REPL:                           | built-in                                                         | [haskell GHCI][h ghci]                                                                                                      | [beanquery][beanquery repl], python
-| Shell completions:              | [bash (commands, flags, maybe accounts)][l bash completions]     | [bash (commands, flags, flag values, query types, journal data)][h bash completions]                                        | 
+| Shell completions:              | [bash (commands, flags, maybe accounts)][l bash completions]     | [bash (commands, flags, flag values, query types, journal data)][h bash completions]                                        |
 | Unrealised gains report:        | [--unrealized][l ugains]                                         | [--gain][h ugains], [roi][h roi]                                                                                            | *[fava]*
 | Validation:                     | [configurable][l validation]                                     | [configurable][h validation]                                                                                                | [always strict][b validation]
 | Miscellaneous:                  | ?                                                                | [standard financial reports][h std financial reports]                                                                       | ?
-|                                 |                                                                  | [customisable account display order][h account display order]                                                               | 
-|                                 |                                                                  | customisable amount styles for [input][h input amount styles] and [output][h output amount styles]                          | 
-|                                 |                                                                  | [documentation-first development][h doc-first dev]                                                                          | 
-|                                 |                                                                  | [regular releases][h releases]                                                                                              | 
-|                                 |                                                                  | [regression bounties][h reg bounties]                                                                                       | 
-|                                 |                                                                  |                                                                                                                             | 
+|                                 |                                                                  | [customisable account display order][h account display order]                                                               |
+|                                 |                                                                  | customisable amount styles for [input][h input amount styles] and [output][h output amount styles]                          |
+|                                 |                                                                  | [documentation-first development][h doc-first dev]                                                                          |
+|                                 |                                                                  | [regular releases][h releases]                                                                                              |
+|                                 |                                                                  | [regression bounties][h reg bounties]                                                                                       |
+|                                 |                                                                  |                                                                                                                             |
 
 <!-- Link targets used in the above table and elsewhere. Checked 2024-09-27. -->
 
@@ -902,7 +902,7 @@ td:first-child strong a {
 
 #### YNAB
 - [beancount-ynab](https://github.com/hoostus/beancount-ynab) Import YNAB4 (legacy desktop-based version) into beancount
-- [beancount-ynab5](https://github.com/hoostus/beancount-ynab5) Import YNAB5 (cloud-based version) transactions into beancount 
+- [beancount-ynab5](https://github.com/hoostus/beancount-ynab5) Import YNAB5 (cloud-based version) transactions into beancount
 - [ynab-to-ledger](https://github.com/jaredtconnor/ynab-to-ledger) YNAB5 (transactions) to *ledger converter (2025)
 - [ynab-to-ledger](https://github.com/vermiceli/ynab-to-ledger) You Need A Budget (YNAB) to *ledger converter. Handles multiple currencies, multiple number formats, reconciliation, memos, transfers, and split transactions
 - [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) YNAB to *ledger converter
@@ -917,7 +917,7 @@ td:first-child strong a {
 - [market-prices.hs](https://gist.github.com/maralorn/a288329af50955dff353e5529f377488) small, easy to adapt script to scrape market data from the internet (Haskell)
 - [pricehist](https://gitlab.com/chrisberkhout/pricehist) fetch and format historical price data, with support for multiple sources and output formats (python)
 - [the-solipsist/scripts](https://github.com/the-solipsist/scripts/) download prices for your hledger commodities, including indian commodities (bash)
-- [update-stocks-hledger in .net](https://github.com/oraculum/update-stocks-hledger) fetching stocks market prices and currency exchange rates from Yahoo Finance 
+- [update-stocks-hledger in .net](https://github.com/oraculum/update-stocks-hledger) fetching stocks market prices and currency exchange rates from Yahoo Finance
 
 ### Data generation
 
@@ -1005,9 +1005,9 @@ td:first-child strong a {
 - [cash](https://github.com/jon49/cash) offline-capable web UI for data entry to CSV (js/html)
 - [fava](https://github.com/beancount/fava) web UI for beancount browsing (python, [demo](https://fava.pythonanywhere.com/))
 - [finfetch](https://github.com/natepmay/finfetch) local web app for downloading csv from your banks via Plaid (categorised, deduplicated, plus edits and deletions)
-- [hledger-web](https://hackage.haskell.org/package/hledger-web) web UI for *ledger browsing, data entry 
-  (haskell, 
-   [demo](https://demo.hledger.org), 
+- [hledger-web](https://hackage.haskell.org/package/hledger-web) web UI for *ledger browsing, data entry
+  (haskell,
+   [demo](https://demo.hledger.org),
    [Sandstorm app](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90))
 - [hledger-web-rs](https://gitlab.com/shivjm/hledger-web-rs) web UI for hledger reports (rust)
 - [Paisa](https://paisa.fyi) web UI or desktop app for ledger, hledger and beancount (go, javascript, [demo](https://demo.paisa.fyi))
@@ -1043,7 +1043,7 @@ td:first-child strong a {
 - [beancount-txn-elisp](https://sr.ht/~trs-80/beancount-txn-`) a library to read/parse and write/insert individual Beancount transactions, implemented in Emacs Lisp
 - [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) a library provides data types and processors of custom beancount forms for inputting repeating similar entries easily
 - [beanhub-web-react](https://github.com/LaunchPlatform/beanhub-web-react) react components for beancount entry input forms and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
-- [magicbeans](https://github.com/ericaltendorf/magicbeans/) Beancount extensions for cryptocurrency tax tracking and reporting 
+- [magicbeans](https://github.com/ericaltendorf/magicbeans/) Beancount extensions for cryptocurrency tax tracking and reporting
 
 ### Utilities
 
@@ -1058,4 +1058,3 @@ td:first-child strong a {
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) extends Ledger's python library (python)
 - [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API for *ledger files (javascript)
 - [BeanHub API](https://api.beanhub.io/redoc) proprietary SaaS API for operating on hosted beancount repositories and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
-
