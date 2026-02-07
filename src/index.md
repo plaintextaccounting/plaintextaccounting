@@ -450,7 +450,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 
 ### Distros/setups
 
-There are also some documented/reproducible setups, integrated docker images etc, based on the above.
+Documented/reproducible setups, integrated docker images etc, based on the above.
 
 | Name                        | Uses       | Start | Last update | ~Stars
 |-----------------------------|------------|-------|:-----------:|-------:
@@ -472,12 +472,10 @@ There are also some documented/reproducible setups, integrated docker images etc
 
 ### Features
 
-A rough comparison of the big three PTA apps' main features, <!-- last updated: 2024-09 -->
-plus some relevant third-party tools in italics. <!-- notable likely-to-be-made-to-work ones -->
-(Plus some geeky technical bits that you may not care about.)
+Here's a comparison of the big three PTA apps' main features, <!-- last updated: 2024-09 -->
+plus some relevant third-party tools in italics, <!-- notable likely-to-be-usable ones -->
+and some geeky technical specs that you may not care about.
 Corrections and suggestions are appreciated ([chat](https://matrix.to/#/#plaintextaccounting:matrix.org)).
-You can also use this as a kind of overview, quick reference or porting guide.
-(See also [syntax quick reference](quickref/).)
 
 <style>
 td:first-child strong a {
