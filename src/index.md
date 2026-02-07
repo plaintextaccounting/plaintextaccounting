@@ -256,6 +256,7 @@ Thank you sponsors, including:
 
 **[Apps](#apps)
 , [Distros/setups](#distrossetups)
+, [Features](#features)
 , [Editor plugins](#editor-plugins)
 , [Data import/conversion](#data-importconversion)
 , [Price fetching](#price-fetching)
@@ -444,6 +445,8 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 [zhang]: https://zhang-accounting.kilerd.me/
 
 <!-- [compare at openhub](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
+
+<a name="distros"></a>
 
 ### Distros/setups
 
