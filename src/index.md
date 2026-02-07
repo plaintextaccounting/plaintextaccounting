@@ -43,7 +43,7 @@ and contributors like you. See also our [discussion forum and chat rooms](#news-
 **[Software](#software):**
   [PTA apps](#pta-apps)
 , [Distros/setups](#distrossetups)
-, [Feature matrix](#feature-matrix)
+, [Features](#features)
 , [Editor plugins](#editor-plugins)
 , [Data import/conversion](#data-importconversion)
 , [Price fetching](#price-fetching)
@@ -198,7 +198,7 @@ Thank you sponsors, including:
 ### Comparisons
 
 - [PTA apps](#pta-apps) project stats
-- [Feature matrix](#feature-matrix)
+- [Features](#features)
 - [Syntax Quick Reference](quickref/)
 - [[FAQ#which-pta-app-should-i-choose|FAQ: Which PTA app should I choose ?]]
 - [hledger and Ledger](https://hledger.org/ledger.html),
@@ -466,7 +466,7 @@ There are also some documented/reproducible setups, integrated docker images etc
 [beanhub-academy]: https://academy.beanhub.io
 [beanhub-src]: https://github.com/launchplatform
 
-### Feature matrix
+### Features
 
 A rough comparison of the big three PTA apps' main features, <!-- last updated: 2024-09 -->
 plus some relevant third-party tools in italics. <!-- notable likely-to-be-made-to-work ones -->
@@ -493,12 +493,12 @@ td:first-child strong a {
 | [Android]:                      | *[cashier]*, *[NanoLedger]*                                      | *[cashier]*, *[MoLe]*, *[NanoLedger]*                                                                                       | *[Beancount Mobile CE]*, *[beancount-mobile (xuhcc)]*
 | [IOS]:                          |                                                                  |                                                                                                                             | *[Beancount Mobile CE]*
 |
-| <br>**<a name="help" href="#help">Help</a>**
+| <br>**<a name="getting-started" href="#getting-started">Getting-started</a>**
+| Easy install and setup:         | yes                                                              | yes                                                                                                                         | no
 | CLI help:                       | general --help, also available as [man page][ledger man]         | general and command-specific --help, [commands summary][hledger commands summary], [built-in asciinema demos][hledger demo] | command-specific --help
 | [TLDR] short help:              | [ledger][ledger tldr]                                            | [hledger][hledger tldr] and [commands][hledger balance tldr], also built-in                                                 |
 | User manual formats:            | [web][ledger manual web]                                         | [web][hledger manual web], info, [man][hledger man], also built-in info/man/text with [jump to topic]                       | [web][beancount manual web]
 | Active support channels:        |                                                                  | [chat][hledger chat], [mail list][hledger mail list], [forum], [reddit]                                                     | [mail list][beancount mail list]
-| Easy install and setup:         | yes                                                              | yes                                                                                                                         | no
 |
 | <br>**<a name="data-formats" href="#data-formats">Data formats</a>**
 | Input formats:                  | [journal (ledger)], [timeclock][timeclock (ledger)], [csv][csv (ledger)]  | [journal (hledger)], [timeclock][timeclock (hledger)], [timedot], [csv, tsv, ssv, \*sv][csv (hledger)]             | [journal (beancount)]
