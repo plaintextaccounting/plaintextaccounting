@@ -454,7 +454,7 @@ There are also some documented/reproducible setups, integrated docker images etc
 | [hledger-flow][hflow]       | hledger    | 2019  |     2026    |    200
 | [Lazy Beancount][lazyb]     | beancount  | 2024  |     2026    |    100
 | [rtrLEDGER]                 | hledger    | 2020  |     2020    |     20
-| [docker-finance][dfi]       | hledger    | 2024  |     2026    |      2
+| [docker-finance][dfi]       | hledger, hledger-flow | 2024 | 2026 | 2
 
 [ffh]:       https://github.com/adept/full-fledged-hledger
 [hflow]:     https://github.com/apauley/hledger-flow
