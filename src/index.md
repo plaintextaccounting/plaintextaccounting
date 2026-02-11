@@ -452,18 +452,18 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 
 Documented/reproducible setups, integrated docker images etc, based on the above.
 
-| Name                        | Uses       | Start | Last update | ~Stars
-|-----------------------------|------------|-------|:-----------:|-------:
-| [Full-fledged hledger][ffh] | hledger    | 2019  |     2025    |    500
-| [hledger-flow][hflow]       | hledger    | 2019  |     2026    |    200
-| [Lazy Beancount][lazyb]     | beancount  | 2024  |     2026    |    100
-| [rtrLEDGER]                 | hledger    | 2020  |     2020    |     20
-| [docker-finance][dfi]       | hledger, hledger-flow | 2024 | 2026 | 2
+| Name                        | Uses                  | Start | Last update | ~Stars
+|-----------------------------|-----------------------|-------|:-----------:|-------:
+| [Full-fledged hledger][ffh] | hledger               | 2019  |     2025    |    500
+| [hledger-flow][hflow]       | hledger               | 2019  |     2026    |    200
+| [Lazy Beancount][lazyb]     | beancount             | 2024  |     2026    |    100
+| [rtrLEDGER]                 | hledger               | 2020  |     2020    |     20
+| [docker-finance][dfi]       | hledger, hledger-flow | 2021  |     2026    |      -
 
 [ffh]:       https://github.com/adept/full-fledged-hledger
 [hflow]:     https://github.com/apauley/hledger-flow
 [rtrledger]: https://github.com/rotorkunstkultur/rtrledger
-[dfi]:       https://gitea.com/EvergreenCrypto/docker-finance/
+[dfi]:       https://gitea.evergreencrypto.co/EvergreenCrypto/docker-finance
 [lazyb]:     https://lazy-beancount.xyz
 
 [beanhub]:   https://beanhub.io
@@ -940,7 +940,7 @@ td:first-child strong a {
 
 ### Workflows
 
-- [docker-finance](https://gitea.com/EvergreenCrypto/docker-finance) hledger/hledger-flow/docker-based system for tracking and reporting on traditional and cryptocurrency finances
+- [docker-finance][dfi] hledger/hledger-flow/docker-based system for tracking, reporting, and metadata analysis of traditional and cryptocurrency finances
 - [Full-fledged hledger](https://github.com/adept/full-fledged-hledger) scripts and detailed tutorial for generating hledger journals from CSV files (haskell, shell)
 - [hledger-flow](https://github.com/apauley/hledger-flow) command-line tool to generate hledger (or Ledger) journals from CSV files (haskell)
 - [rtrledger](https://github.com/rotorkunstkultur/rtrledger) another hledger journals from CSV files system, designed for chaotic German freelancers (shell etc.)

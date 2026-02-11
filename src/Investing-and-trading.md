@@ -23,7 +23,7 @@ Here are several methods:
    - [lotter](https://src.d10.dev/lotter/doc/tip/README.md) detects lots from ordinary transactions, adds lot information to buy/sell entries. Works with Ledger.
    - [hledger-lots](https://github.com/edkedk99/hledger-lots) detects lots from ordinary transactions, helps make buy/sell entries. Works with hledger.
    - [hledger-move](https://hledger.org/scripts.html#hledger-move) is a lower-level tool to help make trading (sell) entries. Works with hledger-compatible journals.
-   - [docker-finance](https://gitea.com/EvergreenCrypto/docker-finance) 
+   - [docker-finance](https://gitea.evergreencrypto.co/EvergreenCrypto/docker-finance) 
      ([discussion](https://forum.plaintextaccounting.org/t/docker-finance-modern-accounting-for-the-power-user/189)) 
      does many things, some trading related. Runs hledger and hledger-flow.
 
