@@ -310,7 +310,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 | [ledg]             | [typescript][ledg]           | 2021   | 2025         |     45 |           1 |
 | coin               | [go][coin-src]               | 2019   | 2025         |     13 |           1 |
 | [rustledger]       | [rust][rustledger-src]       | 2025   | 2026         |     66 |           1 | [github][rustledger-discussions]
-| limabean           | [clojure/rust][limabean-src] | 2025   | 2026         |      9 |           1 | [github][limabean-discussions]
+| limabean           | [clojure/rust][limabean-src] | 2025   | 2026         |     24 |           1 | [github][limabean-discussions]
 | <br>**Past/inactive**  |                          |        |              |        |             |
 | [placc]            | nim (closed source)          | 2024   | 2024         |        |           1 |
 | budget-cli         | [typescript][budget-cli]     | 2023   |              |     12 |           3 |
@@ -872,6 +872,7 @@ td:first-child strong a {
 - [ledger-tutorials](https://github.com/tlvince/ledger-tutorials) convert Pete Keen's tutorials to ebook format
 - [ledger2beancount](https://github.com/beancount/ledger2beancount) h/ledger to beancount converter (perl)
 - [ledger2beancount.py](https://gist.github.com/travisdahlke/71152286b0a8826249fe) *ledger to beancount converter (python)
+- [limabean-harvest](https://github.com/tesujimath/limabean-harvest) - Beancount importer with transaction pairing across accounts (clojure/rust)
 - [moneymoney-ledger](https://github.com/lukasbestle/moneymoney-ledger) MoneyMoney export extension for *ledger
 - [plaid2text](https://github.com/madhat2r/plaid2text) Plaid API to *ledger/beancount download/conversion
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
