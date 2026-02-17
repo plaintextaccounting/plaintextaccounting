@@ -454,17 +454,19 @@ Documented/reproducible setups, integrated docker images etc, based on the above
 
 | Name                        | Uses                  | Start | Last update | ~Stars
 |-----------------------------|-----------------------|-------|:-----------:|-------:
-| [Full-fledged hledger][ffh] | hledger               | 2019  |     2025    |    500
-| [hledger-flow][hflow]       | hledger               | 2019  |     2026    |    200
-| [Lazy Beancount][lazyb]     | beancount             | 2024  |     2026    |    100
+| [Full-fledged hledger]      | hledger               | 2019  |     2025    |    500
+| [hledger-flow]              | hledger               | 2019  |     2026    |    200
+| [Lazy Beancount]            | beancount             | 2024  |     2026    |    100
+| [hledger-youtube-business]  | hledger               | 2025  |     2025    |     60
 | [rtrLEDGER]                 | hledger               | 2020  |     2020    |     20
-| [docker-finance][dfi]       | hledger, hledger-flow | 2021  |     2026    |      -
+| [docker-finance]            | hledger, hledger-flow | 2021  |     2026    |      -
 
-[ffh]:       https://github.com/adept/full-fledged-hledger
-[hflow]:     https://github.com/apauley/hledger-flow
-[rtrledger]: https://github.com/rotorkunstkultur/rtrledger
-[dfi]:       https://gitea.evergreencrypto.co/EvergreenCrypto/docker-finance
-[lazyb]:     https://lazy-beancount.xyz
+[Full-fledged hledger]:     https://github.com/adept/full-fledged-hledger
+[hledger-flow]:             https://github.com/apauley/hledger-flow
+[Lazy Beancount]:           https://lazy-beancount.xyz
+[hledger-youtube-business]: https://github.com/KayleeBeyene/hledger-youtube-business
+[rtrLEDGER]:                https://github.com/rotorkunstkultur/rtrledger
+[docker-finance]:           https://gitea.evergreencrypto.co/EvergreenCrypto/docker-finance
 
 [beanhub]:   https://beanhub.io
 [beanhub-academy]: https://academy.beanhub.io
