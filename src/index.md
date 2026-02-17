@@ -179,8 +179,8 @@ Thank you sponsors, including:
 
 ### Accounting basics
 
-- [hledger: Accounting basics](https://hledger.org/accounting.html)
-- [hledger: Accounting links](https://hledger.org/accounting.html#accounting-links)
+- [hledger: Accounting basics](https://hledger.org/accounting-pta.html)
+- [hledger: Accounting links](https://hledger.org/accounting.html)
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 - [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
 - [Accounting for Dragons](https://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
@@ -834,8 +834,9 @@ td:first-child strong a {
 ### Data import/conversion
 
 #### Miscellaneous
+<!-- - [acceptarium](https://codeberg.org/plaintextaccounting/acceptarium) brainstorming tooling for scanning data from receipts -->
 - [Ledger](https://www.ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](https://hledger.org/csv.html) have CSV conversion built in. Also:
-- bean-identify, bean-extract, bean-file - Beancount built-in tools
+- bean-identify, bean-extract, bean-file - import tools provided by Beancount v2
 - [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
 - [beanborg](https://github.com/luciano-fiandesio/beanborg) Advanced transaction importer with auto-categorization (python)
 - [beancount-import](https://github.com/jbms/beancount-import) web app/framework for converting various formats to beancount (python)
