@@ -993,6 +993,7 @@ td:first-child strong a {
 
 - [dravik](https://github.com/Yaser-Amiri/dravik) TUI for hledger browsing (python)
 - [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) TUI for *ledger transaction entry (haskell)
+- [hledger-textual](https://github.com/thesmokinator/hledger-textual) TUI for hledger browser, entry, editing (python)
 - [hledger-ui](https://hackage.haskell.org/package/hledger-ui) TUI for *ledger browsing (haskell, [video](https://asciinema.org/a/29665))
 - [ledger-add](https://github.com/Tagirijus/ledger-add) TUI for *ledger transaction entry (python)
 - [puffin](https://github.com/siddhantac/puffin) TUI for hledger browsing (go)
