@@ -308,12 +308,12 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 | [Tackler]          | [rust][tackler-src]          | 2017   | 2026         |           3 |    120 | [matrix][#tackler:matrix.org], [github][tackler-discussions]
 | knut               | [go][knut-src]               | 2020   | 2024         |           3 |     60 |
 | [rustledger]       | [rust][rustledger-src]       | 2025   | 2026         |           1 |     66 | [github][rustledger-discussions]
-| [ledg]             | [typescript][ledg]           | 2021   | 2025         |           1 |     45 |
+| [ledg]             | [ts][ledg]           | 2021   | 2025         |           1 |     45 |
 | limabean           | [clojure/rust][limabean-src] | 2025   | 2026         |           1 |     24 | [github][limabean-discussions]
 | coin               | [go][coin-src]               | 2019   | 2025         |           1 |     13 |
 | <br>**Past/inactive**  |                          |        |              |             |        |
 | [placc]            | nim (closed source)          | 2024   | 2024         |           1 |        |
-| budget-cli         | [typescript][budget-cli]     | 2023   |              |           3 |     12 |
+| budget-cli         | [ts][budget-cli]     | 2023   |              |           3 |     12 |
 | mynt               | [rust][mynt-src]             | 2023   |              |           1 |        |
 | awk-pta            | [awk][awk-pta-src]           | 2022   |              |           1 |     20 |
 | ubal               | [uxntal][ubal-src]           | 2022   |              |           1 |        |
@@ -327,7 +327,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 | [beans]            | [haskell][beans-src]         | 2019   | 2019         |           2 |     24 |
 | [Prudent]          | js, [addons][prudent-src]    | 2018   |              |           1 |        | [\@PrudentLedger][prudent-chat]
 | .Net Ledger        | [C#][nledger-src]            | 2017   | 2023         |           1 |    164 | [matrix][nledger-matrix]
-| [monescript]       | [javascript][monescript-src] | 2017   | 2018         |           1 |     12 |
+| [monescript]       | [js][monescript-src] | 2017   | 2018         |           1 |     12 |
 | Go Ledger (abourget| [go][go-ledger-abourget-src] ) | 2016 |              |           3 |     40 |
 | uledger            | [python][uledger-src]        | 2015   |              |           1 |     17 |
 | pacioli            | [python][pacioli-src]        | 2013   |              |           1 |     31 |
@@ -868,7 +868,7 @@ td:first-child strong a {
 - [ldgclip](https://gitlab.com/IanTwenty/ldgclip) import bank transactions via the clipboard with one click (bash/awk)
 - [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to *ledger conversion, deduplication
-- [ledger-guesser](https://github.com/j3k0/ledger-guesser) neural network for generating entries like past ones, can be used with ledger-autosync (javascript)
+- [ledger-guesser](https://github.com/j3k0/ledger-guesser) neural network for generating entries like past ones, can be used with ledger-autosync (js)
 - [ledger-myexpenses](https://github.com/ony/ledger-myexpenses) MyExpenses android app sqlite db to *ledger conversion (python, 2017)
 - [ledgermyexpenses](https://gitlab.com/IanTwenty/ledgermyexpenses) sync MyExpenses android app to/from Ledger (bash, 2023)
 - [ledger-to-beancount](https://github.com/glasserc/ledger-to-beancount/) yet another simple ledger to beancount converter (python)
@@ -930,7 +930,7 @@ td:first-child strong a {
 - [beancount-extract-price](https://github.com/Mayeu/beancount-scripts) generate prices transactions based on your beancount ledger (python)
 - [DepreciateForLedger](https://github.com/tazzben/DepreciateForLedger) generate *ledger depreciation transactions (python)
 - [hledger-interest](https://hackage.haskell.org/package/hledger-interest) generate *ledger interest entries (haskell)
-- [ledger-ts](https://github.com/hamsterbase/ledger-ts) typescript EDSL for generating beancount journals (typescript)
+- [ledger-ts](https://github.com/hamsterbase/ledger-ts) typescript EDSL for generating beancount journals (ts)
 - [ledgerbil](https://github.com/scarpent/ledgerbil) schedule recurring txns, interactive reconcile, date sorting
 - [LedgerScheduler](https://github.com/tazzben/LedgerScheduler) move entries from one file to another when they come due (python)
 - [lotter](https://src.d10.dev/lotter) generate postings for capital gain/loss (go)
@@ -958,12 +958,12 @@ td:first-child strong a {
 ### Reporting
 
 - [budget_report](https://github.com/sulemankm/budget_report) budget reporting with beancount (python)
-- [gainstrack](https://github.com/glorat/gainstrack) personal wealth analysis app with beancount export (scala/typescript)
+- [gainstrack](https://github.com/glorat/gainstrack) personal wealth analysis app with beancount export (scala+ts)
 - [hledger-diff](https://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals (haskell)
 - [hledger-irr](https://hackage.haskell.org/package/hledger-irr) calculate an account's internal rate of return (superseded by [roi](https://hledger.org/hledger.html#roi)) (haskell)
 - [hledger-lit](https://github.com/adept/hledger-lit) show multiple charts in web browser (python)
-- [hledger-sankey](https://github.com/adept/hledger-sankey) Script + HTML files to plot income next to expense money flows from an hledger ledger file (shell + javascript)
-- [hledger-tools](https://github.com/rmuratov/hledger-tools) generating charts from hledger (typescript)
+- [hledger-sankey](https://github.com/adept/hledger-sankey) Script + HTML files to plot income next to expense money flows from an hledger ledger file (shell + js)
+- [hledger-tools](https://github.com/rmuratov/hledger-tools) generating charts from hledger (ts)
 - [hledger-vega](https://github.com/xitian9/hledger-vega) makes configurable [vega-lite](https://vega.github.io/vega-lite/) charts from hledger (shell)
 - [hreports](https://pypi.org/project/hreports) customise hledger reports with templates and PDF output (python)
 - [ledger-plot](https://github.com/Tagirijus/ledger-plot) interactive tool for making GNUplot charts from Ledger (python)
@@ -983,62 +983,59 @@ td:first-child strong a {
 
 ### UI, console
 
-- [bean-add](https://github.com/simon-v/bean-add) interactive transaction entry tool (python)
-- [hledger add](https://hledger.org/hledger.html#add) interactive transaction entry tool (builtin command)
-- [ladd](https://github.com/ninewise/dotfiles/blob/master/local/bin/ladd) create and edit a new *ledger transaction by fuzzy-matching past descriptions
-- [ldgr](https://github.com/brandonpittman/ldgr) command line tool to add/sort/tag ledger files (ruby)
-- [ledger xact](https://www.ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (builtin command)
+- [bean-add](https://github.com/simon-v/bean-add) interactive transaction entry tool (python, 2021..)
+- [hledger add](https://hledger.org/hledger.html#add) interactive transaction entry tool (built-in command, 2009..)
+- [ladd](https://github.com/ninewise/dotfiles/blob/master/local/bin/ladd) create and edit a new *ledger transaction by fuzzy-matching past descriptions (shell, 2020)
+- [ldgr](https://github.com/brandonpittman/ldgr) command line tool to add/sort/tag ledger files (ruby, 2017)
+- [ledger xact](https://www.ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (built-in command, 2004..)
 
 ### UI, curses
 
-- [dravik](https://github.com/Yaser-Amiri/dravik) TUI for hledger browsing (python)
-- [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) TUI for *ledger transaction entry (haskell)
-- [hledger-textual](https://github.com/thesmokinator/hledger-textual) TUI for hledger browser, entry, editing (python)
-- [hledger-ui](https://hackage.haskell.org/package/hledger-ui) TUI for *ledger browsing (haskell, [video](https://asciinema.org/a/29665))
-- [ledger-add](https://github.com/Tagirijus/ledger-add) TUI for *ledger transaction entry (python)
-- [puffin](https://github.com/siddhantac/puffin) TUI for hledger browsing (go)
-- [regdel](https://github.com/guillaumechereau/regdel) TUI for browsing Ledger files (python)
+- [dravik](https://github.com/Yaser-Amiri/dravik) TUI for hledger viewing (python, 2025)
+- [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) TUI for h/ledger transaction entry (haskell, 2015..)
+- [hledger-textual](https://github.com/thesmokinator/hledger-textual) TUI for hledger viewing/entry/editing (python, 2026)
+- [hledger-ui](https://hackage.haskell.org/package/hledger-ui) TUI for h/ledger viewing (haskell, 2015.., [video](https://asciinema.org/a/29665))
+- [ledger-add](https://github.com/Tagirijus/ledger-add) TUI for h/ledger transaction entry (python, 2024)
+- [puffin](https://github.com/siddhantac/puffin) TUI for hledger viewing (go, 2023..)
+- [regdel](https://github.com/guillaumechereau/regdel) TUI for viewing Ledger files (python, 2016)
 
 ### UI, GUI
 
-- [favagtk](https://gitlab.gnome.org/johannesjh/favagtk/) app of Fava web UI for beancount browsing (Python, GTK)
-- [fruit-credits](https://codeberg.org/dz4k/fruit-credits) data entry/reporting GUI for hledger (Vala, GNOME)
-- [ledgerble](https://github.com/sbridges/ledgerble) reporting GUI with charts & adjustable reports (Javascript)
-- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) misc. GUI tools + helper library (Python, GTK)
-- [Prudent][prudent] integrated journal editing/importing/reporting GUI for Ledger (Javascript, mac only, closed source)
+- [favagtk](https://gitlab.gnome.org/johannesjh/favagtk/) app of Fava web UI for beancount viewing (python+gtk, 2022..)
+- [fruit-credits](https://codeberg.org/dz4k/fruit-credits) data entry/reporting GUI for hledger (vala+gnome, 2024)
+- [ledgerble](https://github.com/sbridges/ledgerble) reporting GUI with charts & adjustable reports (js, 2019)
+- [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) misc. GUI tools + helper library (python+gtk, 2016..)
+- [Prudent][prudent] integrated journal editing/importing/reporting GUI for Ledger (closed source, mac, js, 2019)
 
 ### UI, web
 
-- [cash](https://github.com/jon49/cash) offline-capable web UI for data entry to CSV (js/html)
-- [fava](https://github.com/beancount/fava) web UI for beancount browsing (python, [demo](https://fava.pythonanywhere.com/))
-- [finfetch](https://github.com/natepmay/finfetch) local web app for downloading csv from your banks via Plaid (categorised, deduplicated, plus edits and deletions)
-- [hledger-web](https://hackage.haskell.org/package/hledger-web) web UI for *ledger browsing, data entry
-  (haskell,
-   [demo](https://demo.hledger.org),
-   [Sandstorm app](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90))
-- [hledger-web-rs](https://gitlab.com/shivjm/hledger-web-rs) web UI for hledger reports (rust)
-- [Paisa](https://paisa.fyi) web UI or desktop app for ledger, hledger and beancount (go, javascript, [demo](https://demo.paisa.fyi))
-- [Ledger in Go](https://github.com/howeyc/ledger) web UI for browsing ledger transactions, reports, and porfolios
-- [Ledger Web](https://github.com/peterkeen/Ledger-Web) ledger HTML reporting system (ruby, postgres)
-- [Ledger Web](https://vifon.github.io/ledger-web) web UI/API for ledger browsing, data entry (python)
-- [ledger-analytics](https://github.com/kendricktan/ledger-analytics) web UI for ledger data analytics (javascript)
-- [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for ledger browsing, data entry (python)
-- [ledger-pyreport](https://yingtongli.me/git/ledger-pyreport/about/) web UI for standard accounting statements and unrealised gains (python)
-- [ledgeraccounting](https://github.com/thecount2a/ledgeraccounting) web UI for hledger: data entry, basic reports and budgets (javascript)
-- [ledgible](https://github.com/lipidity/ledgible) web UI for ledger browsing, data entry (python)
-- [n4s](https://github.com/n4s-linux/n4s-gratis-regnskab/) danish-language ERP system (php)
-- [node-ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for ledger browsing (javascript)
-- [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for ledger browsing, price fetching (F#)
-- [BeanHub](https://beanhub.io) web UI for beancount browsing, data entry with a Git repository (proprietary SaaS; some components open source)
+- [cash](https://github.com/jon49/cash) offline-capable web UI for data entry to CSV (js, 2024)
+- [fava](https://github.com/beancount/fava) web UI for beancount viewing (python, 2016.., [demo](https://fava.pythonanywhere.com/))
+- [finfetch](https://github.com/natepmay/finfetch) local web app for downloading csv from your banks via Plaid (ts, 2025)
+- [hledger-web](https://hackage.haskell.org/package/hledger-web) web UI for *ledger viewing, data entry
+  (haskell, 2010.., [demo](https://demo.hledger.org), [Sandstorm app](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90))
+- [muhasib-e-hledger](https://gitlab.com/shivjm/muhasib-e-hledger) web UI for hledger reports (rust, 2024)
+- [Paisa](https://paisa.fyi) web UI or desktop app for ledger, hledger and beancount ([go/js/ts](https://github.com/ananthakumaran/paisa), 2022.., [demo](https://demo.paisa.fyi))
+- [Ledger in Go](https://github.com/howeyc/ledger) web UI for viewing ledger transactions, reports, and porfolios (go+js, 2021..)
+- [Ledger Web](https://github.com/peterkeen/Ledger-Web) ledger HTML reporting system (ruby+postgres, 2011)
+- [Ledger Web](https://vifon.github.io/ledger-web) web UI/API for ledger viewing, data entry ([python](https://github.com/vifon/ledger-web), 2019)
+- [ledger-analytics](https://github.com/kendricktan/ledger-analytics) web UI for ledger data analytics (js, 2018)
+- [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for ledger viewing, data entry (python, 2015)
+- [ledger-pyreport](https://yingtongli.me/git/ledger-pyreport/about/) web UI for standard accounting statements and unrealised gains (python, 2020)
+- [ledgeraccounting](https://github.com/thecount2a/ledgeraccounting) web UI for hledger: data entry, basic reports and budgets (python+js, 2018)
+- [ledgible](https://github.com/lipidity/ledgible) web UI for ledger viewing, data entry (python+js, 2016)
+- [node-ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for ledger viewing (js, 2014)
+- [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for ledger viewing, price fetching (F#+js, 2013)
+- [BeanHub](https://beanhub.io) web UI for beancount viewing, data entry with a Git repository (closed source with [open source tools](https://beanhub.io/open-source/), python, 2022..)
 
 ### UI, mobile
 
-- [Beancount](https://beancount.io) mobile app (Android, IOS)
-- [beancount-mobile](https://github.com/xuhcc/beancount-mobile) data entry app (Android)
-- [NanoLedger](https://f-droid.org/en/packages/be.chvp.nanoledger) data entry app supporting the ledger and hledger syntax (Android)
-- [cashier](https://gitlab.com/alensiljak/cashier) mobile or desktop client for ledger and hledger-web (Android/Desktop, javascript, [app](https://cashier.alensiljak.eu.org/))
-- [cone](https://f-droid.org/en/packages/info.tangential.cone/) data entry app for the h/ledger format (Android, [dart](https://github.com/bradyt/cone))
-- [MoLe](https://fossdroid.com/a/mole.html) mobile client for hledger-web (Android, [java](https://git.ktnx.net/?p=mobile-ledger.git))
+- [Beancount Mobile CE](https://github.com/stargately/beancount-mobile) mobile app (Android/IOS, ts, 2020..)
+- [beancount-mobile](https://github.com/xuhcc/beancount-mobile) data entry app (Android, ts, 2019)
+- [NanoLedger](https://f-droid.org/en/packages/be.chvp.nanoledger) data entry app for h/ledger (Android, kotlin, 2023..)
+- [cashier](https://gitlab.com/alensiljak/cashier) mobile or desktop client for ledger and hledger-web (Android/Desktop, js, 2019, [app](https://cashier.alensiljak.eu.org/))
+- [cone](https://f-droid.org/en/packages/info.tangential.cone/) data entry app for the h/ledger format (Android, [dart](https://github.com/bradyt/cone), 2019)
+- [MoLe](https://fossdroid.com/a/mole.html) mobile client for hledger-web (Android, [java](https://git.ktnx.net/?p=mobile-ledger.git), 2020)
 - [hledger.org: Mobile apps](https://hledger.org/mobile.html)
 
 
@@ -1063,5 +1060,5 @@ td:first-child strong a {
 - [hledger-lib](https://github.com/simonmichael/hledger/tree/master/hledger-lib) library for parsing and generating reports from *ledger files (haskell)
 - [hledger-web](https://github.com/simonmichael/hledger/tree/master/hledger-web) the web app includes a JSON API server for *ledger files (haskell)
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) extends Ledger's python library (python)
-- [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API for *ledger files (javascript)
-- [BeanHub API](https://api.beanhub.io/redoc) proprietary SaaS API for operating on hosted beancount repositories and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
+- [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API for *ledger files (js)
+- [BeanHub API](https://api.beanhub.io/redoc) SaaS API for operating on hosted beancount repositories and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
