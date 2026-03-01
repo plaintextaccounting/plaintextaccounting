@@ -799,10 +799,6 @@ td:first-child strong a {
 
 ### Editor plugins
 
-**Atom**
-- [language-ledger](https://atom.io/packages/language-ledger)
-- [ledger](https://atom.io/packages/ledger)
-\
 **Emacs**
 - [beancount-mode](https://github.com/beancount/beancount-mode)
 - [hledger-mode](https://github.com/narendraj9/hledger-mode)
