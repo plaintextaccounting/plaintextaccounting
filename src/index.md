@@ -806,7 +806,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [hledger-mode](https://github.com/narendraj9/hledger-mode)
 - [ledger-mode](https://ledger-cli.org/doc/ledger-mode.html) (good for hledger also)
 
-#### IntelliJ
+#### JetBrains IDEs (IntelliJ, PyCharm, etc.)
 - [Ledger CLI](https://plugins.jetbrains.com/plugin/15405-ledger-cli)
 
 #### Nano
