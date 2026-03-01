@@ -799,35 +799,35 @@ td:first-child strong a {
 
 ### Editor plugins
 
-**Emacs**
+See also: [hledger: Editor configuration](https://hledger.org/editors.html)
+
+#### Emacs
 - [beancount-mode](https://github.com/beancount/beancount-mode)
 - [hledger-mode](https://github.com/narendraj9/hledger-mode)
 - [ledger-mode](https://ledger-cli.org/doc/ledger-mode.html) (good for hledger also)
-\
-**IntelliJ**
+
+#### IntelliJ
 - [Ledger CLI](https://plugins.jetbrains.com/plugin/15405-ledger-cli)
-\
-**Nano**
+
+#### Nano
 - [scopatz/nanorc](https://github.com/scopatz/nanorc/blob/master/ledger.nanorc)
-\
-**Sublime**
+
+#### Sublime
 - [sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax)
-\
-**TextMate**
+
+#### TextMate
 - [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle)
-\
-**VIM**
+
+#### VIM
 - [vim-ledger](https://github.com/ledger/vim-ledger)
 - [vim-beancount](https://github.com/nathangrigg/vim-beancount)
 - [hledger-vim](https://github.com/anekos/hledger-vim)
 - [cmp-beancount](https://github.com/crispgm/cmp-beancount)
-\
-**VS Code**
+
+#### VS Code
 - [hledger-vscode](https://github.com/mhansen/hledger-vscode)
 - [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger)
 - [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
-
-- [hledger: Editor configuration](https://hledger.org/editors.html)
 
 ### Data import/conversion
 
