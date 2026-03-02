@@ -3,11 +3,9 @@
 Eco accounting means taking account of all impacts on surrounding ecologies - particularly environment and society.
 Let's make this a no-brainer everywhere - please help.
 
-*This page is currently hosted at https://wiki.plaintextaccounting.org/Eco-accounting (on github), 
-uses Plain Text Accounting in examples, and is a small view of the topic from the PTA perspective.
-Of course the topic is large, not PTA-specific, and deserves its own site, but since I found no 
-https://ecoaccounting.org I have set up that domain to redirect here. Domainers, the domain is not for sale.
-Respected environmental organisations with a better use for this domain, feel free to chat.*
+*Of course this topic is large, but since I found nothing like a https://ecoaccounting.org I have set up that domain to redirect here.
+Domainers, the domain is not for sale. 
+Respected environmental organisations with a significantly better use for this domain, feel free to chat.*
 
 ## Reference
 A small random list of background resources:
