@@ -977,20 +977,17 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [tito](https://mostlyabsurd.com/files/tito) time logging bash scripts that avoid double clock-in
 - [toggl2timeclock.py](https://codeberg.org/scy/toggl2timeclock) Toggl CSV export to timeclock converter
 
-### UI, console
+### UI, terminal
 
 - [bean-add](https://github.com/simon-v/bean-add) interactive transaction entry tool (python, 2021..)
-- [hledger add](https://hledger.org/hledger.html#add) interactive transaction entry tool (built-in command, 2009..)
-- [ladd](https://github.com/ninewise/dotfiles/blob/master/local/bin/ladd) create and edit a new *ledger transaction by fuzzy-matching past descriptions (shell, 2020)
-- [ldgr](https://github.com/brandonpittman/ldgr) command line tool to add/sort/tag ledger files (ruby, 2017)
-- [ledger xact](https://www.ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (built-in command, 2004..)
-
-### UI, curses
-
 - [dravik](https://github.com/Yaser-Amiri/dravik) TUI for hledger viewing (python, 2025)
+- [hledger add](https://hledger.org/hledger.html#add) interactive transaction entry tool (built-in command, 2009..)
 - [hledger-iadd](https://github.com/hpdeifel/hledger-iadd) TUI for h/ledger transaction entry (haskell, 2015..)
 - [hledger-textual](https://github.com/thesmokinator/hledger-textual) TUI for hledger viewing/entry/editing (python, 2026)
 - [hledger-ui](https://hackage.haskell.org/package/hledger-ui) TUI for h/ledger viewing (haskell, 2015.., [video](https://asciinema.org/a/29665))
+- [ladd](https://github.com/ninewise/dotfiles/blob/master/local/bin/ladd) create and edit a new *ledger transaction by fuzzy-matching past descriptions (shell, 2020)
+- [ldgr](https://github.com/brandonpittman/ldgr) command line tool to add/sort/tag ledger files (ruby, 2017)
+- [ledger xact](https://www.ledger-cli.org/3.0/doc/ledger3.html#xact) history-aware transaction generator (built-in command, 2004..)
 - [ledger-add](https://github.com/Tagirijus/ledger-add) TUI for h/ledger transaction entry (python, 2024)
 - [puffin](https://github.com/siddhantac/puffin) TUI for hledger viewing (go, 2023..)
 - [regdel](https://github.com/guillaumechereau/regdel) TUI for viewing Ledger files (python, 2016)
