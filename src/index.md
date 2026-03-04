@@ -1008,6 +1008,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [finfetch](https://github.com/natepmay/finfetch) local web app for downloading csv from your banks via Plaid (ts, 2025)
 - [hledger-web](https://hackage.haskell.org/package/hledger-web) web UI for *ledger viewing, data entry
   (haskell, 2010.., [demo](https://demo.hledger.org), [Sandstorm app](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90))
+- [hledger-webuix](https://github.com/yga01/hledger-webuix) one-page local web app for hledger viewing (html+js, 2026)
 - [muhasib-e-hledger](https://gitlab.com/shivjm/muhasib-e-hledger) web UI for hledger reports (rust, 2024)
 - [Paisa](https://paisa.fyi) web UI or desktop app for ledger, hledger and beancount ([go/js/ts](https://github.com/ananthakumaran/paisa), 2022.., [demo](https://demo.paisa.fyi))
 - [Ledger in Go](https://github.com/howeyc/ledger) web UI for viewing ledger transactions, reports, and porfolios (go+js, 2021..)
