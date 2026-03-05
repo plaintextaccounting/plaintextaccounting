@@ -9,5 +9,5 @@
 - [Accounting bookkeeping entries](https://hledger.org/accounting.html#accounting-links)
 - [ledger-envelope-generator.rb](https://github.com/simonmichael/hledger/issues/313)
 - [Ledger Practices: Separate Your Journals](https://felixcrux.com/blog/ledger-practices-separate-your-journals)
-- [UI tools](#ui-console)
+- [UI tools](#ui-terminal)
 
