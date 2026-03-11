@@ -999,7 +999,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [ledgerble](https://github.com/sbridges/ledgerble) reporting GUI with charts & adjustable reports (js, 2019)
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) misc. GUI tools + helper library (python+gtk, 2016..)
 - [Prudent][prudent] integrated journal editing/importing/reporting GUI for Ledger (closed source, mac, js, 2019)
-- [Surebeans](https://surebeans.net) slick YNAB clone, using hledger file format (closed source, cross platform, C#, 2026)
+- [Surebeans](https://surebeans.net) YNAB clone using hledger file format (closed source, cross platform, C#, 2026)
 
 ### UI, web
 
