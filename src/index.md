@@ -840,6 +840,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [beancount2ledger](https://github.com/beancount/beancount2ledger) beancount to h/ledger converter (python)
 - [beanhub-extract](https://github.com/LaunchPlatform/beanhub-extract) Simple Python library for extracting all kinds of bank export CSV files into standardized transaction data objects
 - [beanhub-import](https://github.com/LaunchPlatform/beanhub-import) Declarative idempotent rule-based beancount transaction import engine in Python consumes data extracted by [beanhub-extract](https://github.com/LaunchPlatform/beanhub-extract)
+- [beanscrape](https://surebeans.net/beanscrape/) CLI tool that automates using your browser to scrape bank data to beancount (C#)
 - [buchhaltung](https://hackage.haskell.org/package/buchhaltung) CSV/FinTS/HBCI/OFX to *ledger conversion/deduplication (haskell)
 - [Costflow](https://docs.costflow.io) convert one line message to beancount/*ledger format
 - [csv2beancount](https://github.com/PaNaVTEC/csv2beancount) CSV to beancount converter (clojure)
@@ -998,6 +999,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [ledgerble](https://github.com/sbridges/ledgerble) reporting GUI with charts & adjustable reports (js, 2019)
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) misc. GUI tools + helper library (python+gtk, 2016..)
 - [Prudent][prudent] integrated journal editing/importing/reporting GUI for Ledger (closed source, mac, js, 2019)
+- [Surebeans](https://surebeans.net) slick YNAB clone, using hledger file format (closed source, cross platform, C#, 2026)
 
 ### UI, web
 
