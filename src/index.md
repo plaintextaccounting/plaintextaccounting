@@ -826,9 +826,10 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [cmp-beancount](https://github.com/crispgm/cmp-beancount)
 
 #### VS Code
-- [hledger-vscode](https://github.com/mhansen/hledger-vscode)
-- [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger)
-- [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount)
+- [hledger-vscode](https://github.com/mhansen/hledger-vscode) (2017..)
+- [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount) (2023..)
+- [vscode-ledger-mode](https://github.com/glasser/vscode-ledger-mode) (2026)
+- [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger) (2016)
 
 ### Data import/conversion
 
