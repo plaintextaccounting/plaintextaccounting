@@ -24,6 +24,7 @@ and contributors like you. See also our [discussion forum and chat rooms](#news-
 </div>
 
 <div id="sitemap">
+
 **Site map**\
 **[[What is Plain Text Accounting ?]]**\
 **[News & discussion](#news-discussion)**\
@@ -66,7 +67,9 @@ or help with [[finance]].
 Thank you sponsors, including:
 
 <div id="sponsors-container">
-- [<img width=300 height=70 src="https://beanhub.io/images/beanhub-sponsor-logo.svg">A modern accounting book app based on Beancount and Git](https://beanhub.io)
+
+- [<img width=300 height=70 src="https://beanhub.io/images/beanhub-sponsor-logo.svg">\
+  A modern accounting book app based on Beancount and Git](https://beanhub.io)
 </div>
 
 ## News & discussion
