@@ -577,7 +577,8 @@ td:first-child strong a {
 [fruit-credits]:            https://codeberg.org/dz4k/fruit-credits
 [ledgeraccounting]:         https://github.com/thecount2a/ledgeraccounting
 [paisa]:                    https://paisa.fyi
-[cashier]:                  https://cashier.alensiljak.eu.org/#/about
+[cashier]:                  https://github.com/alensiljak/cashier
+[cashier-demo]:             https://cashier.alensiljak.eu.org/#/home
 [ledgible]:                 https://github.com/lipidity/ledgible
 [ledger (howeyc)]:          https://github.com/howeyc/ledger
 [ledger-web (vifon)]:       https://vifon.github.io/ledger-web
@@ -1033,7 +1034,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [Beancount Mobile CE](https://github.com/stargately/beancount-mobile) mobile app (Android/IOS, ts, 2020..)
 - [beancount-mobile](https://github.com/xuhcc/beancount-mobile) data entry app (Android, ts, 2019)
 - [NanoLedger](https://f-droid.org/en/packages/be.chvp.nanoledger) data entry app for h/ledger (Android, kotlin, 2023..)
-- [cashier] mobile or desktop client for ledger and hledger-web (Android/Desktop, js, 2019
+- [cashier][cashier-demo] mobile or desktop client for ledger and hledger-web (Android/Desktop, [js][cashier], 2019)
 - [cone](https://f-droid.org/en/packages/info.tangential.cone/) data entry app for the h/ledger format (Android, [dart](https://github.com/bradyt/cone), 2019)
 - [MoLe](https://fossdroid.com/a/mole.html) mobile client for hledger-web (Android, [java](https://git.ktnx.net/?p=mobile-ledger.git), 2020)
 - [hledger.org: Mobile apps](https://hledger.org/mobile.html)
