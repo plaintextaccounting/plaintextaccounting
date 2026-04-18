@@ -312,7 +312,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 | [ledg]             | [ts][ledg]                   | 2021   | 2025         |           1 |     45 |
 | limabean           | [clojure/rust][limabean-src] | 2025   | 2026         |           1 |     24 | [github][limabean-discussions]
 | coin               | [go][coin-src]               | 2019   | 2025         |           1 |     13 |
-| tare-money         | [ts][tare-money-src] (Obsidian plugin) | 2026   | 2025         |           1 |      1 |
+| Tare Money         | [ts][tare-money-src] (Obsidian plugin) | 2026 | 2026 |           1 |      1 |
 | <br>**Past/inactive**  |                          |        |              |             |        |
 | [placc]            | nim (closed source)          | 2024   | 2024         |           1 |        |
 | budget-cli         | [ts][budget-cli]     | 2023   |              |           3 |     12 |
