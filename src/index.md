@@ -309,9 +309,10 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 | [Tackler]          | [rust][tackler-src]          | 2017   | 2026         |           3 |    120 | [matrix][#tackler:matrix.org], [github][tackler-discussions]
 | knut               | [go][knut-src]               | 2020   | 2024         |           3 |     60 |
 | [rustledger]       | [rust][rustledger-src]       | 2025   | 2026         |           1 |     66 | [github][rustledger-discussions]
-| [ledg]             | [ts][ledg]           | 2021   | 2025         |           1 |     45 |
+| [ledg]             | [ts][ledg]                   | 2021   | 2025         |           1 |     45 |
 | limabean           | [clojure/rust][limabean-src] | 2025   | 2026         |           1 |     24 | [github][limabean-discussions]
 | coin               | [go][coin-src]               | 2019   | 2025         |           1 |     13 |
+| tare-money         | [ts][tare-money-src] (Obsidian plugin) | 2026   | 2025         |           1 |      1 |
 | <br>**Past/inactive**  |                          |        |              |             |        |
 | [placc]            | nim (closed source)          | 2024   | 2024         |           1 |        |
 | budget-cli         | [ts][budget-cli]     | 2023   |              |           3 |     12 |
@@ -429,6 +430,8 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 [tackler-src]: https://github.com/tackler-ng/tackler
 [tackler-discussions]: https://github.com/tackler-ng/tackler/discussions
 [#tackler:matrix.org]: https://matrix.to/#/#tackler:matrix.org
+
+[tare-money-src]: https://github.com/TheKalpit/tare-money
 
 [transity-src]: https://github.com/feramhq/transity
 [transity-demo]: https://www.feram.io/transity
