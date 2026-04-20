@@ -299,8 +299,8 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 |--------------------|------------------------------|--------|:------------:|------------:|-------:|-----------------------------------------------------------------------------------------------------
 | <br>**Popular**    |                              |        |              |             |        |
 | [Ledger]           | [C++][ledger-src]            | 2003   | 2025         |         245 |   5.9k | [mail list][ledger-mail]&nbsp;900, [IRC][#ledger:libera.chat]&nbsp;70
-| [hledger]          | [haskell][hledger-src]       | 2007   | 2026         |         189 |   4.1k | [mail list][hledger-mail]&nbsp;250, [matrix][#hledger:matrix.org]&nbsp;100, [IRC][#hledger:libera.chat]&nbsp;80
-| [Beancount]        | [python][beancount-src]      | 2008   | 2023         |         102 |   5.3k | [mail list][beancount-mail]&nbsp;880, [matrix][beancount-matrix]&nbsp;40, [matrix&nbsp;(fava)][fava-matrix]&nbsp;260, [IRC][#beancount:libera.chat]&nbsp;20
+| [hledger]          | [haskell][hledger-src]       | 2007   | 2026         |         194 |   4.4k | [mail list][hledger-mail]&nbsp;250, [matrix][#hledger:matrix.org]&nbsp;160, [IRC][#hledger:libera.chat]&nbsp;80
+| [Beancount]        | [python][beancount-src]      | 2008   | 2023         |         103 |   5.5k | [mail list][beancount-mail]&nbsp;880, [matrix][beancount-matrix]&nbsp;40, [matrix&nbsp;(fava)][fava-matrix]&nbsp;260, [IRC][#beancount:libera.chat]&nbsp;20
 | <br>**Small userbase** |                          |        |              |             |        |
 | [Ledger (Go)]      | [go][ledger-go-src]          | 2013   | 2025         |          12 |    470 |
 | Abandon            | [scala][abandon-src]         | 2013   | 2024         |          11 |    180 | [matrix][abandon-matrix]
