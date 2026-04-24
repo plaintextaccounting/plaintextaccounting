@@ -1003,9 +1003,9 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 
 ### UI, GUI
 
-- [hledger-macos](https://github.com/thesmokinator/hledger-macos) mac app for viewing/editing (swift, 2026)
 - [favagtk](https://gitlab.gnome.org/johannesjh/favagtk/) app of Fava web UI for beancount viewing (python+gtk, 2022..)
 - [fruit-credits](https://codeberg.org/dz4k/fruit-credits) data entry/reporting GUI for hledger (vala+gnome, 2024)
+- [hledger-macos](https://github.com/thesmokinator/hledger-macos) mac app for viewing/editing (swift, 2026)
 - [ledgerble](https://github.com/sbridges/ledgerble) reporting GUI with charts & adjustable reports (js, 2019)
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) misc. GUI tools + helper library (python+gtk, 2016..)
 - [Prudent][prudent] integrated journal editing/importing/reporting GUI for Ledger (closed source, mac, js, 2019)
