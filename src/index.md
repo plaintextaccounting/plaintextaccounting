@@ -315,7 +315,7 @@ Inactive projects are sorted by start date then last release date.
 | Tare Money         | [ts][tare-money-src] (Obsidian plugin) | 2026 | 2026 |           1 |      1 |
 | <br>**Past/inactive**  |                          |        |              |             |        |
 | [placc]            | nim (closed source)          | 2024   | 2024         |           1 |        |
-| budget-cli         | [ts][budget-cli]     | 2023   |              |           3 |     12 |
+| budget-cli         | [ts][budget-cli]             | 2023   |              |           3 |     12 |
 | mynt               | [rust][mynt-src]             | 2023   |              |           1 |        |
 | awk-pta            | [awk][awk-pta-src]           | 2022   |              |           1 |     20 |
 | ubal               | [uxntal][ubal-src]           | 2022   |              |           1 |        |
@@ -328,7 +328,7 @@ Inactive projects are sorted by start date then last release date.
 | [beans]            | [haskell][beans-src]         | 2019   | 2019         |           2 |     24 |
 | [Prudent]          | js, [addons][prudent-src]    | 2018   |              |           1 |        | [\@PrudentLedger][prudent-chat]
 | .Net Ledger        | [C#][nledger-src]            | 2017   | 2023         |           1 |    164 | [matrix][nledger-matrix]
-| [monescript]       | [js][monescript-src] | 2017   | 2018         |           1 |     12 |
+| [monescript]       | [js][monescript-src]         | 2017   | 2018         |           1 |     12 |
 | Go Ledger (abourget| [go][go-ledger-abourget-src] ) | 2016 |              |           3 |     40 |
 | uledger            | [python][uledger-src]        | 2015   |              |           1 |     17 |
 | pacioli            | [python][pacioli-src]        | 2013   |              |           1 |     31 |
