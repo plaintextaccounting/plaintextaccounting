@@ -293,22 +293,23 @@ th:first-child, td:first-child { white-space:nowrap; }
 
 <!--
 Markdown table syntax: https://pandoc.org/README.html#tables
-Active projects are sorted by committers then stars/activity. Inactive projects are sorted by start date then last release date.
+Active projects are sorted by stars (and then committers/activity). All projects seem to have stars these days.
+Inactive projects are sorted by start date then last release date.
 -->
 | Project            | Code                         | Start  | Last release | ~Committers | ~Stars | Discussion, ~size
 |--------------------|------------------------------|--------|:------------:|------------:|-------:|-----------------------------------------------------------------------------------------------------
 | <br>**Popular**    |                              |        |              |             |        |
 | [Ledger]           | [C++][ledger-src]            | 2003   | 2025         |         245 |   5.9k | [mail list][ledger-mail]&nbsp;900, [IRC][#ledger:libera.chat]&nbsp;70
-| [hledger]          | [haskell][hledger-src]       | 2007   | 2026         |         194 |   4.4k | [mail list][hledger-mail]&nbsp;250, [matrix][#hledger:matrix.org]&nbsp;160, [IRC][#hledger:libera.chat]&nbsp;80
 | [Beancount]        | [python][beancount-src]      | 2008   | 2023         |         103 |   5.5k | [mail list][beancount-mail]&nbsp;880, [matrix][beancount-matrix]&nbsp;40, [matrix&nbsp;(fava)][fava-matrix]&nbsp;260, [IRC][#beancount:libera.chat]&nbsp;20
+| [hledger]          | [haskell][hledger-src]       | 2007   | 2026         |         194 |   4.4k | [mail list][hledger-mail]&nbsp;250, [matrix][#hledger:matrix.org]&nbsp;160, [IRC][#hledger:libera.chat]&nbsp;80
 | <br>**Small userbase** |                          |        |              |             |        |
+| Transity           | [purescript][transity-src]   | 2018   | 2020         |           8 |    650 | [matrix][transity-matrix]
 | [Ledger (Go)]      | [go][ledger-go-src]          | 2013   | 2025         |          12 |    470 |
 | Abandon            | [scala][abandon-src]         | 2013   | 2024         |          11 |    180 | [matrix][abandon-matrix]
-| Transity           | [purescript][transity-src]   | 2018   | 2020         |           8 |    650 | [matrix][transity-matrix]
 | [zhang]            | [rust/ts][zhang-src]         | 2023   | 2024         |           5 |    180 |
 | [Tackler]          | [rust][tackler-src]          | 2017   | 2026         |           3 |    120 | [matrix][#tackler:matrix.org], [github][tackler-discussions]
-| knut               | [go][knut-src]               | 2020   | 2024         |           3 |     60 |
 | [rustledger]       | [rust][rustledger-src]       | 2025   | 2026         |           1 |     66 | [github][rustledger-discussions]
+| knut               | [go][knut-src]               | 2020   | 2024         |           3 |     60 |
 | [acc]              | [rust][acc-src]              | 2020   | 2026         |           1 |     49 | [github][acc-discussions]
 | [ledg]             | [ts][ledg]                   | 2021   | 2025         |           1 |     45 |
 | limabean           | [clojure/rust][limabean-src] | 2025   | 2026         |           1 |     24 | [github][limabean-discussions]
