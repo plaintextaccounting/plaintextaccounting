@@ -309,6 +309,7 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 | [Tackler]          | [rust][tackler-src]          | 2017   | 2026         |           3 |    120 | [matrix][#tackler:matrix.org], [github][tackler-discussions]
 | knut               | [go][knut-src]               | 2020   | 2024         |           3 |     60 |
 | [rustledger]       | [rust][rustledger-src]       | 2025   | 2026         |           1 |     66 | [github][rustledger-discussions]
+| [acc]              | [rust][acc-src]              | 2020   | 2026         |           1 |     49 | [github][acc-discussions]
 | [ledg]             | [ts][ledg]                   | 2021   | 2025         |           1 |     45 |
 | limabean           | [clojure/rust][limabean-src] | 2025   | 2026         |           1 |     24 | [github][limabean-discussions]
 | coin               | [go][coin-src]               | 2019   | 2025         |           1 |     13 |
@@ -323,7 +324,6 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 | [pta]              | [perl][pta-src]              | 2020   | 2020         |           1 |        |
 | blossom            | [F#][blossom-src]            | 2020   |              |           1 |     30 |
 | ledger.bash        | [bash/awk][ledger.bash]      | 2020   |              |           1 |      7 |
-| acc                | [rust][acc-src]              | 2020   |              |           1 |      1 |
 | rust\_ledger       | [rust][rust_ledger-src]      | 2019   | 2021         |           4 |     90 |
 | Goledger (mescanne)| [go][goledger-mescanne-src]  | 2019   | 2020         |           1 |     30 |
 | [beans]            | [haskell][beans-src]         | 2019   | 2019         |           2 |     24 |
@@ -347,7 +347,9 @@ Active projects are sorted by committers then stars/activity. Inactive projects 
 [abandon-src]: https://github.com/hrj/abandon
 [abandon-matrix]: https://matrix.to/#/#hrj_abandon:gitter.im
 
+[acc]: https://github.com/rudolfschmidt/acc
 [acc-src]: https://github.com/rudolfschmidt/acc
+[acc-discussions]: https://github.com/rudolfschmidt/acc/discussions
 [awk-pta-src]: https://github.com/filiphanes/awk-pta
 [mynt-src]: https://git.sr.ht/~kmaasrud/mynt
 
