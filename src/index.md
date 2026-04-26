@@ -310,6 +310,7 @@ Inactive projects are sorted by start date then last release date.
 | knut               | [go][knut-src]               | 2020   | 2024         |           3 |     60 |
 | [acc]              | [rust][acc-src]              | 2020   | 2026         |           1 |     49 | [github][acc-discussions]
 | [ledg]             | [ts][ledg]                   | 2021   | 2025         |           1 |     45 |
+| plutus             | [python][plutus-src]         | 2025   |              |           1 |     30 |
 | limabean           | [clojure/rust][limabean-src] | 2025   | 2026         |           1 |     24 | [github][limabean-discussions]
 | coin               | [go][coin-src]               | 2019   | 2025         |           1 |     13 |
 | Tare Money         | [ts][tare-money-src] (Obsidian plugin) | 2026 | 2026 |           1 |      1 |
@@ -409,6 +410,8 @@ Inactive projects are sorted by start date then last release date.
 [nledger-matrix]: https://matrix.to/#/#nledger_Lobby:gitter.im
 
 [pacioli-src]: https://github.com/mdipierro/pacioli
+
+[plutus-src]: https://github.com/nickjj/plutus
 
 [pta]: https://mandoc.bsd.lv/pta
 [pta-src]: https://cvsweb.bsd.lv/pta/
