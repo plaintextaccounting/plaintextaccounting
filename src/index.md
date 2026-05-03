@@ -313,6 +313,7 @@ Inactive projects are sorted by start date then last release date.
 | plutus             | [python][plutus-src]         | 2025   |              |           1 |     30 |
 | limabean           | [clojure/rust][limabean-src] | 2025   | 2026         |           1 |     24 | [github][limabean-discussions]
 | coin               | [go][coin-src]               | 2019   | 2025         |           1 |     13 |
+| sledger            | [C][sledger-src]             | 2024   |              |           1 |      3 |
 | Tare Money         | [ts][tare-money-src] (Obsidian plugin) | 2026 | 2026 |           1 |      1 |
 | <br>**Past/inactive**  |                          |        |              |             |        |
 | [placc]            | nim (closed source)          | 2024   | 2024         |           1 |        |
@@ -427,6 +428,8 @@ Inactive projects are sorted by start date then last release date.
 [rustledger-discussions]: https://github.com/rustledger/rustledger/discussions
 
 [bankroll-src]: https://gitlab.com/dantuck/bankroll
+
+[sledger-src]: https://github.com/noocsharp/sledger
 
 [smalltalk-src]: https://gist.github.com/simonmichael/bb611dba654ccb1573e1
 
