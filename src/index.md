@@ -302,7 +302,7 @@ Inactive projects are sorted by start date then last release date.
 | [Beancount]        | [python][beancount-src]      | 2008   | 2026         |         103 |   5.5k | [mail list][beancount-mail]&nbsp;880, [matrix][beancount-matrix]&nbsp;40, [matrix&nbsp;(fava)][fava-matrix]&nbsp;260, [IRC][#beancount:libera.chat]&nbsp;20
 | [hledger]          | [haskell][hledger-src]       | 2007   | 2026         |         194 |   4.4k | [mail list][hledger-mail]&nbsp;250, [matrix][#hledger:matrix.org]&nbsp;160, [IRC][#hledger:libera.chat]&nbsp;80
 | Transity           | [purescript][transity-src]   | 2018   | 2020         |           8 |    650 | [matrix][transity-matrix]
-| [Ledger (Go)]      | [go][ledger-go-src]          | 2013   | 2025         |          12 |    470 |
+| [Ledger (Go)] (howeyc) | [go][ledger-go-src]          | 2013   | 2025         |          12 |    470 |
 | Abandon            | [scala][abandon-src]         | 2013   | 2024         |          11 |    180 | [matrix][abandon-matrix]
 | [zhang]            | [rust/ts][zhang-src]         | 2023   | 2024         |           5 |    180 |
 | [Tackler]          | [rust][tackler-src]          | 2017   | 2026         |           3 |    120 | [matrix][#tackler:matrix.org], [github][tackler-discussions]
