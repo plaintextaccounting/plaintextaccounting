@@ -300,9 +300,9 @@ Inactive projects are sorted by start date then last release date.
 |--------------------|------------------------------|--------|:------------:|------------:|-------:|-----------------------------------------------------------------------------------------------------
 | [Ledger]           | [C++][ledger-src]            | 2003   | 2025         |         245 |   5.9k | [mail list][ledger-mail]&nbsp;900, [IRC][#ledger:libera.chat]&nbsp;70
 | [Beancount]        | [python][beancount-src]      | 2008   | 2026         |         103 |   5.5k | [mail list][beancount-mail]&nbsp;880, [matrix][beancount-matrix]&nbsp;40, [matrix&nbsp;(fava)][fava-matrix]&nbsp;260, [IRC][#beancount:libera.chat]&nbsp;20
-| [hledger]          | [haskell][hledger-src]       | 2007   | 2026         |         194 |   4.4k | [mail list][hledger-mail]&nbsp;250, [matrix][#hledger:matrix.org]&nbsp;160, [IRC][#hledger:libera.chat]&nbsp;80
+| [hledger]          | [haskell][hledger-src]       | 2007   | 2026         |         194 |   4.4k | [mail list][hledger-mail]&nbsp;250, [matrix][#hledger:matrix.org]&nbsp;180, [IRC][#hledger:libera.chat]&nbsp;80
 | Transity           | [purescript][transity-src]   | 2018   | 2020         |           8 |    650 | [matrix][transity-matrix]
-| [Ledger (Go)] (howeyc) | [go][ledger-go-src]          | 2013   | 2025         |          12 |    470 |
+| [Ledger (Go)] (howeyc) | [go][ledger-go-src]      | 2013   | 2025         |          12 |    470 |
 | Abandon            | [scala][abandon-src]         | 2013   | 2024         |          11 |    180 | [matrix][abandon-matrix]
 | [zhang]            | [rust/ts][zhang-src]         | 2023   | 2024         |           5 |    180 |
 | [Tackler]          | [rust][tackler-src]          | 2017   | 2026         |           3 |    120 | [matrix][#tackler:matrix.org], [github][tackler-discussions]
@@ -331,7 +331,7 @@ Inactive projects are sorted by start date then last release date.
 | [Prudent]          | js, [addons][prudent-src]    | 2018   |              |           1 |        | [\@PrudentLedger][prudent-chat]
 | .Net Ledger        | [C#][nledger-src]            | 2017   | 2023         |           1 |    164 | [matrix][nledger-matrix]
 | [monescript]       | [js][monescript-src]         | 2017   | 2018         |           1 |     12 |
-| Go Ledger (abourget)| [go][go-ledger-abourget-src] | 2016 |              |           3 |     40 |
+| Go Ledger (abourget)| [go][go-ledger-abourget-src] | 2016  |              |           3 |     40 |
 | uledger            | [python][uledger-src]        | 2015   |              |           1 |     17 |
 | pacioli            | [python][pacioli-src]        | 2013   |              |           1 |     31 |
 | ledger.pl          | [perl][ledger.pl-src]        | 2013   |              |           1 |      6 |
