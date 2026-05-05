@@ -331,7 +331,7 @@ Inactive projects are sorted by start date then last release date.
 | [Prudent]          | js, [addons][prudent-src]    | 2018   |              |           1 |        | [\@PrudentLedger][prudent-chat]
 | .Net Ledger        | [C#][nledger-src]            | 2017   | 2023         |           1 |    164 | [matrix][nledger-matrix]
 | [monescript]       | [js][monescript-src]         | 2017   | 2018         |           1 |     12 |
-| Go Ledger (abourget| [go][go-ledger-abourget-src] ) | 2016 |              |           3 |     40 |
+| Go Ledger (abourget)| [go][go-ledger-abourget-src] | 2016 |              |           3 |     40 |
 | uledger            | [python][uledger-src]        | 2015   |              |           1 |     17 |
 | pacioli            | [python][pacioli-src]        | 2013   |              |           1 |     31 |
 | ledger.pl          | [perl][ledger.pl-src]        | 2013   |              |           1 |      6 |
