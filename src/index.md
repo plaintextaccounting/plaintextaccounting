@@ -191,7 +191,7 @@ Thank you sponsors, including:
 ### PTA app docs
 
 - [Ledger](https://www.ledger-cli.org/docs.html)
-- [hledger](https://hledger.org/)
+- [hledger](https://hledger.org/doc.html)
 - [Beancount](https://beancount.github.io/docs/)
 - [Ledger in Go](https://howeyc.github.io/ledger/)
 - [Tackler](https://tackler.e257.fi/docs/)
