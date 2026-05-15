@@ -14,11 +14,8 @@ toc: false
 <div id="intro" style="font-size:larger;">
 
 Welcome!
-***Plain text accounting*** is a way of doing bookkeeping and accounting
-with plain text files and scriptable, command-line-friendly software,
-such as Ledger, hledger, or Beancount.
-This site collects the PTA community's tools, docs and practices.
-</div>
+***Plain text accounting*** is a way of doing bookkeeping and accounting with plain text files
+and efficient, command-line-friendly software like Ledger, hledger, or Beancount.
 
 <div id="sitemap">
 
@@ -77,10 +74,12 @@ This site collects the PTA community's tools, docs and practices.
 </small>
 </div>
 
-This is a community-supported site, maintained by Simon&nbsp;Michael (PTA fan and hledger project leader).
+This site is a portal to the PTA community and its tools, docs, and practices,
+maintained by Simon&nbsp;Michael (PTA fan and hledger project leader).
 If you find it useful, would you like to help with [[finance]],
 or contribute to the [repo](https://github.com/plaintextaccounting/plaintextaccounting) ?
 Thank you sponsors, including:
+</div>
 
 <div id="sponsors-container">
 
@@ -182,10 +181,11 @@ Thank you sponsors, including:
 
 - [Ledger](https://www.ledger-cli.org/docs.html)
 - [hledger](https://hledger.org/doc.html)
-- [Beancount](https://beancount.github.io/docs/)
-- [Ledger in Go](https://howeyc.github.io/ledger/)
-- [Tackler](https://tackler.e257.fi/docs/)
-- [pta](https://mandoc.bsd.lv/pta/)
+- [Beancount](https://beancount.github.io/docs)
+- [rustledger](https://rustledger.github.io/about/why-rustledger.html)
+- [Ledger (Go)](https://howeyc.github.io/ledger)
+- [Tackler](https://tackler.fi/docs)
+- [pta](https://mandoc.bsd.lv/pta)
 
 ### Accounting basics
 
@@ -248,9 +248,11 @@ Thank you sponsors, including:
 
 ### Videos
 
+(PTA videos are currently hard to find on youtube because of slop - if you find good ones, let me know.)
+
 <https://www.youtube.com/results?search_query=plaintextaccounting>
 
-- [Thanga Ayyanar: Ledger CLI](https://www.youtube.com/watch?v=PQKOiU_spHg) (in Tamil) 2024 <!-- 03-31 -->
+- [Thanga Ayyanar: Ledger CLI](https://www.youtube.com/watch?v=PQKOiU_spHg) (Tamil) 2024 <!-- 03-31 -->
 - [Edwin Espinoza: Ledger CLI, Personal finance in the command line](https://www.youtube.com/watch?v=EWjoblLoD3k) 2023 <!-- 04-23 -->
 - [Prakash Joshi Pax: How to Use Obsidian to Track Your Expenses](https://www.youtube.com/watch?v=UPyy52MfC3Q) 2022 <!-- 12-23 -->
 - [Peter Berger: Plain Text Accounting: An Opinionated View](https://www.youtube.com/watch?v=ZDF7xVtKLu0&t=1s) 2022 <!-- 09-02 -->
@@ -874,7 +876,7 @@ Some alternate distributions/setups for the PTA apps.
 - [invoice2data](https://github.com/invoice-x/invoice2data) extract data from PDF invoices (python)
 - [jali](https://git.darmstadt.ccc.de/jali/jali) downloader/importer to *ledger (python)
 - [ldgclip](https://gitlab.com/IanTwenty/ldgclip) import bank transactions via the clipboard with one click (bash/awk)
-- [Ledger in Go](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
+- [Ledger (Go)](https://github.com/howeyc/ledger) has limport, a CSV to *ledger converter
 - [ledger-autosync](https://gitlab.com/egh/ledger-autosync) OFX download, OFX to *ledger conversion, deduplication
 - [ledger-guesser](https://github.com/j3k0/ledger-guesser) neural network for generating entries like past ones, can be used with ledger-autosync (js)
 - [ledger-myexpenses](https://github.com/ony/ledger-myexpenses) MyExpenses android app sqlite db to *ledger conversion (python, 2017)
@@ -1050,7 +1052,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [hledger-web](https://hackage.haskell.org/package/hledger-web) web UI for *ledger viewing, data entry
   (haskell, 2010.., [demo](https://demo.hledger.org), [Sandstorm app](https://apps.sandstorm.io/app/8x12h6p0x0nrzk73hfq6zh2jxtgyzzcty7qsatkg7jfg2mzw5n90))
 - [hledger-webuix](https://github.com/yga01/hledger-webuix) one-page local web app for hledger viewing, adding, editing (html+js, 2026)
-- [Ledger in Go](https://github.com/howeyc/ledger) web UI for viewing ledger transactions, reports, and porfolios (go+js, 2021..)
+- [Ledger (Go)](https://github.com/howeyc/ledger) web UI for viewing ledger transactions, reports, and porfolios (go+js, 2021..)
 - [Ledger Web](https://github.com/peterkeen/Ledger-Web) ledger HTML reporting system (ruby+postgres, 2011)
 - [Ledger Web](https://vifon.github.io/ledger-web) web UI/API for ledger viewing, data entry ([python](https://github.com/vifon/ledger-web), 2019)
 - [ledger-analytics](https://github.com/kendricktan/ledger-analytics) web UI for ledger data analytics (js, 2018)
