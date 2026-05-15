@@ -42,8 +42,8 @@ This site collects the PTA community's tools, docs and practices.
 \
 **[Docs](#docs):**
 <small>
-  [PTA app docs](#pta-app-docs)
-, [PTA app comparisons](#pta-app-comparisons)
+  [PTA app comparisons](#pta-app-comparisons)
+, [PTA app docs](#pta-app-docs)
 , [Accounting basics](#accounting-basics)
 , [Intros](#intros)
 , [Cheatsheets](#cheatsheets)
@@ -55,8 +55,8 @@ This site collects the PTA community's tools, docs and practices.
 \
 **[Software](#software):**
 <small>
-  [PTA apps](#pta-apps)
-, [App feature matrix](#app-feature-matrix)
+  **[PTA apps](#pta-apps)**
+, [PTA apps feature matrix](#pta-apps-feature-matrix)
 , [AI](#ai)
 , [Distros/setups](#distrossetups)
 , [Data conversion/import](#data-conversionimport)
@@ -151,8 +151,8 @@ Thank you sponsors, including:
 ## Docs
 
 **
-  [PTA app docs](#pta-app-docs)
-, [PTA app comparisons](#pta-app-comparisons)
+  [PTA app comparisons](#pta-app-comparisons)
+, [PTA app docs](#pta-app-docs)
 , [Accounting basics](#accounting-basics)
 , [Intros](#intros)
 , [Cheatsheets](#cheatsheets)
@@ -162,19 +162,10 @@ Thank you sponsors, including:
 , [Videos](#videos)
 **
 
-### PTA app docs
-
-- [Ledger](https://www.ledger-cli.org/docs.html)
-- [hledger](https://hledger.org/doc.html)
-- [Beancount](https://beancount.github.io/docs/)
-- [Ledger in Go](https://howeyc.github.io/ledger/)
-- [Tackler](https://tackler.e257.fi/docs/)
-- [pta](https://mandoc.bsd.lv/pta/)
-
 ### PTA app comparisons
 
-- **[PTA Apps](#pta-apps)**
-- **[App feature matrix](#app-feature-matrix)**
+- **[PTA apps](#pta-apps)**
+- **[PTA apps feature matrix](#pta-apps-feature-matrix)**
 - **[[FAQ#which-pta-app-should-i-choose|FAQ: Which PTA app should I choose ?]]**
 - [Syntax Quick Reference](quickref/)
 - [hledger and Ledger](https://hledger.org/ledger.html),
@@ -186,6 +177,15 @@ Thank you sponsors, including:
 - [ledger list: ledger vs hledger vs beancount or how to choose the right cli client](https://groups.google.com/d/topic/ledger-cli/__yuMVjrOH0/discussion) 2014
 <!-- gone - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013 -->
 <!-- gone - [Fabrice Niessen: Why Ledger?] 2010 -->
+
+### PTA app docs
+
+- [Ledger](https://www.ledger-cli.org/docs.html)
+- [hledger](https://hledger.org/doc.html)
+- [Beancount](https://beancount.github.io/docs/)
+- [Ledger in Go](https://howeyc.github.io/ledger/)
+- [Tackler](https://tackler.e257.fi/docs/)
+- [pta](https://mandoc.bsd.lv/pta/)
 
 ### Accounting basics
 
@@ -282,8 +282,8 @@ Thank you sponsors, including:
 
 <!-- mostly-alphabetical -->
 
-**[PTA Apps](#pta-apps)
-, [App feature matrix](#app-feature-matrix)
+**[PTA apps](#pta-apps)
+, [PTA apps feature matrix](#pta-apps-feature-matrix)
 , [AI](#ai)
 , [Distros/setups](#distrossetups)
 , [Data conversion/import](#data-conversionimport)
@@ -303,7 +303,7 @@ Thank you sponsors, including:
 , [Libraries](#libraries)
 **
 
-### PTA Apps
+### PTA apps
 
 To start doing plain text accounting, try one (or more) of the apps below.
 Generally it's possible to migrate data between them.
@@ -483,14 +483,15 @@ Inactive projects are sorted by start date then last release date.
 
 <details>
 <summary>
-### App feature matrix
+### PTA apps feature matrix
 </summary>
 
-Here's a comparison of the big three PTA apps' main features, <!-- last updated: 2024-09 -->
+Here's a comparison of the big three PTA apps' main features,
 plus some relevant third-party tools in italics, <!-- notable likely-to-be-usable ones -->
 and some geeky technical specs that you may not care about.
-Corrections and suggestions are appreciated ([chat](https://matrix.to/#/#plaintextaccounting:matrix.org)).
-
+Corrections and suggestions are appreciated.
+<!-- Last updated: 2024-09 -->
+ 
 <style>
 td:first-child strong a {
   text-decoration:none;
