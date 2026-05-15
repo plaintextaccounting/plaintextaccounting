@@ -239,6 +239,7 @@ Thank you sponsors, including:
 
 ### Slides
 
+- [Youngbin Han: Plain Text Accounting with hledger](https://docs.google.com/presentation/d/17kkPlLOFhpwfEIhHfT0hJ1PRmZ6-Tq7JIAdTAhjp24A/preview?pru=AAABmo3qmB4*fWFiJB8Z7cZwQbc72JsTjA&slide=id.g38f1acd61f5_0_19) (2025, korean and english)
 - [Simon Michael: Inside hledger: an architectural tour and how-to](https://rawcdn.githack.com/simonmichael/hledger/4013a81af8dd2804c73ecac18fb3e7e4745a4275/doc/haskellerz/haskellerz.slidy.html) 2021
 - [Michael Lynch: An introduction to plaintext accounting](https://decks.mtlynch.io/plaintext-acccounting/) 2021
 - [Andreas Pauley: Purely Functional Personal Finance](https://pauley.org.za/functional-finance-hledger/) 2018
@@ -248,17 +249,21 @@ Thank you sponsors, including:
 
 ### Videos
 
-(PTA videos are currently hard to find on youtube because of slop - if you find good ones, let me know.)
+(PTA videos are currently hard to [find](https://www.youtube.com/results?search_query=plaintextaccounting)
+on youtube because of slop - if you find good ones, let me know.)
 
-<https://www.youtube.com/results?search_query=plaintextaccounting>
-
-- [Thanga Ayyanar: Ledger CLI](https://www.youtube.com/watch?v=PQKOiU_spHg) (Tamil) 2024 <!-- 03-31 -->
+- [TORGiren DevOpses: hledger part 1](https://www.youtube.com/watch?v=sq3E-TKufh0) (2026, 10m, polish)
+- [O Clementino: Gerencie suas finanças como um hacker](https://www.youtube.com/watch?v=YG2I2Z8nfoo) (2026, 20m, brazilian portuguese)
+- [Coder Kaylee: Hledger in 10 Minutes: The Ultimate CLI Tool](https://www.youtube.com/watch?v=hshDr2Af2RU) (2025, 5m)
+- [hledger add](https://www.youtube.com/watch?v=rh5EFnm0t_M) and
+  [hledger web](https://www.youtube.com/watch?v=zOjvSYCvXNc) from Youngbin Han's talk (2025, 1m, korean)
+- [Thanga Ayyanar: Ledger CLI](https://www.youtube.com/watch?v=PQKOiU_spHg) (tamil) 2024 <!-- 03-31 -->
 - [Edwin Espinoza: Ledger CLI, Personal finance in the command line](https://www.youtube.com/watch?v=EWjoblLoD3k) 2023 <!-- 04-23 -->
 - [Prakash Joshi Pax: How to Use Obsidian to Track Your Expenses](https://www.youtube.com/watch?v=UPyy52MfC3Q) 2022 <!-- 12-23 -->
 - [Peter Berger: Plain Text Accounting: An Opinionated View](https://www.youtube.com/watch?v=ZDF7xVtKLu0&t=1s) 2022 <!-- 09-02 -->
 - [Glenn Ramsey: Plain text accounting for fun and profit](https://youtube.com/watch?v=lazZwTmAEHs) 2022  <!-- 08-26 -->
 - [季路LJ: Beancount |简略记账说明](https://www.youtube.com/watch?v=tmkR6umON4A) 2021 <!-- 06-17 -->
-- [Robert Nielsen: hledger fan channel](https://www.youtube.com/channel/UCZLxXTjOqLzq4z5Jy0AyWSQ) short hledger beginner lessons, 2019-2021 <!-- 2019-05-27..2021-04-03
+- [Robert Nielsen: hledger fan channel](https://www.youtube.com/channel/UCZLxXTjOqLzq4z5Jy0AyWSQ) short hledger beginner lessons, 2019-2021 <!-- 2019-05-27..2021-04-03 -->
 - [Simon Michael: Inside hledger: an architectural tour and how-to](https://www.youtube.com/watch?v=6PKmZSHxu0c) 2021 <!-- 05-01 -->
 - [Brian Ryall: Managing Your Finances Using Python](https://www.youtube.com/watch?v=mFzctYkktXQ) 2020 <!-- 07-25 -->
 - [Steve Anderson: Plain Text Accounting: How to do Signed Number Accounting](https://www.youtube.com/watch?v=FLbe3X3FiT8) 2019 <!-- 12-21 -->
