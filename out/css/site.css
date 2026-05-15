@@ -34,6 +34,11 @@ details { margin-bottom: 2.5rem; }
     margin:0;
 }
 
+#TOC ul {
+    margin-top:0;
+    margin-bottom:0;
+}
+
 li {
     margin-bottom:0;
 }
