@@ -18,7 +18,9 @@ You can have a linked logo and tagline on the [home page](index.html). Contact m
 Eg domain, hosting and discourse fees.
 (I set up the PTA forum in 2024 as an alternative to Reddit;
 see [PTA forum news, 2024-03-18](https://forum.plaintextaccounting.org/t/pta-forum-news-2024-03-18/207)
-and [A trial of Discourse for Plain Text Accounting discussions](https://forum.plaintextaccounting.org/t/a-trial-of-discourse-for-plain-text-accounting-discussions/5).)
+and [A trial of Discourse for Plain Text Accounting discussions](https://forum.plaintextaccounting.org/t/a-trial-of-discourse-for-plain-text-accounting-discussions/5)
+and [People who have used Reddit for more than 10 years, what is your current opinion on the site?](https://www.reddit.com/r/TheoryOfReddit/comments/1t9uwl7/people_who_have_used_reddit_for_more_than_10/) (2026)
+)
 
 - [![github](https://img.shields.io/badge/Support_PTA_via-Github-limegreen "Sponsor the project leader via Github")](https://github.com/sponsors/plaintextaccounting)
 - <span id="paypal-pta-button"></span>
