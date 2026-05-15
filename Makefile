@@ -36,13 +36,13 @@ finance-md:
 	) >>src/finance.md.tmp
 	mv src/finance.md.tmp src/finance.md
 
-# temporary workaround for cloudflare pages (pandoc is too old in V1, missing in V2)
+# build html on cloudflare page server, ensuring pandoc is installed
 html-cfp:
 	pandoc --version || ( \
-		wget -nv https://github.com/jgm/pandoc/releases/download/3.1.9/pandoc-3.1.9-linux-amd64.tar.gz && \
-		tar xzf pandoc-3.1.9-linux-amd64.tar.gz )
-	make html PANDOC=pandoc-3.1.9/bin/pandoc
-	rm -rf pandoc-3.1.9*
+		wget -nv https://github.com/jgm/pandoc/releases/download/3.9.0.2/pandoc-3.9.0.2-linux-amd64.tar.gz && \
+		tar xzf pandoc-3.9.0.2-linux-amd64.tar.gz pandoc-3.9.0.2/bin/pandoc )
+	make html PANDOC=pandoc-3.9.0.2/bin/pandoc
+	rm -rf pandoc-3.9.0.2*
 
 MD2HTML=$(PANDOC) \
 	-f markdown-smart-tex_math_dollars+autolink_bare_uris+wikilinks_title_after_pipe \
