@@ -26,10 +26,13 @@ and contributors like you. See also our [discussion forum and chat rooms](#news-
 <div id="sitemap">
 
 **Site map**\
-**[[What is Plain Text Accounting ?]]**\
+**[[What is Plain Text Accounting ?]]** ,
+<small>
+**[[FAQ|PTA FAQ]]**,
+[[Cookbook|PTA Cookbook]]
+</small>
+\
 **[News & discussion](#news-discussion)**\
-**[Videos](#videos)**\
-**[Slides](#slides)**\
 **[Docs](#docs):** <!-- keep synced with Docs below -->
 <small>
   [Accounting basics](#accounting-basics)
@@ -39,13 +42,13 @@ and contributors like you. See also our [discussion forum and chat rooms](#news-
 , [Cheatsheets](#cheatsheets)
 , [Cookbooks](#cookbooks)
 , [FAQs](#faqs)
+, [Slides](#slides)
+, [Videos](#videos)
 </small>
 \
-**[[FAQ]]**\
-**[[Cookbook]]**\
 **[Software](#software):** <!-- keep synced with Software below -->
 <small>
-  [Apps](#apps)
+  [PTA apps](#pta-apps)
 , [App feature matrix](#app-feature-matrix)
 , [AI](#ai)
 , [Distros/setups](#distrossetups)
@@ -132,7 +135,104 @@ Thank you sponsors, including:
 - [issues](https://github.com/plaintextaccounting/plaintextaccounting/issues?q=is%3Aissue+)
 - [email the site admin](mailto:webmaster@plaintextaccounting.org)
 
-## Videos
+## Docs
+
+**[Accounting basics](#accounting-basics)
+, [PTA app docs](#pta-app-docs)
+, [Comparisons](#comparisons)
+, [Intros](#intros)
+, [Cheatsheets](#cheatsheets)
+, [Cookbooks](#cookbooks)
+, [FAQs](#faqs)
+, [Slides](#slides)
+, [Videos](#videos)
+**
+
+### Accounting basics
+
+- [hledger: Accounting basics](https://hledger.org/accounting-pta.html)
+- [hledger: Accounting links](https://hledger.org/accounting.html)
+- [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
+- [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
+- [Accounting for Dragons](https://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
+- [[FAQ]]
+
+### PTA app docs
+
+- [Ledger](https://www.ledger-cli.org/docs.html)
+- [hledger](https://hledger.org/doc.html)
+- [Beancount](https://beancount.github.io/docs/)
+- [Ledger in Go](https://howeyc.github.io/ledger/)
+- [Tackler](https://tackler.e257.fi/docs/)
+- [pta](https://mandoc.bsd.lv/pta/)
+
+### Comparisons
+
+- [PTA Apps](#pta-apps) project stats
+- [Features](#features)
+- [Syntax Quick Reference](quickref/)
+- [[FAQ#which-pta-app-should-i-choose|FAQ: Which PTA app should I choose ?]]
+- [hledger and Ledger](https://hledger.org/ledger.html),
+  [hledger and Beancount](https://hledger.org/beancount.html),
+  [hledger and other software](https://hledger.org/cookbook.html#other-software) 2014, 2019, 2022, 2023..
+- [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
+- [beancount mail list: Another Ledger user's perspective](https://groups.google.com/d/msg/beancount/QV4qgpFbtJ8/9fSgMw-XGC8J) 2015
+- [Beancount: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg) 2014
+- [ledger list: ledger vs hledger vs beancount or how to choose the right cli client](https://groups.google.com/d/topic/ledger-cli/__yuMVjrOH0/discussion) 2014
+<!-- gone - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013 -->
+<!-- gone - [Fabrice Niessen: Why Ledger?] 2010 -->
+
+### Intros
+
+- [[What is Plain Text Accounting?]]
+- [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
+- [hledger: Get Started](https://hledger.org/start.html)
+- [Getting Started with Beancount](https://beancount.github.io/docs/getting_started_with_beancount.html)
+- [Tackler: Quickstart](https://tackler.e257.fi/docs/quickstart/)
+- [[Don't Sink Your First Attempts at Plaintext Accounting]]
+- [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
+- [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
+- [[Cookbook.html#getting-started|PTA Cookbook: Getting started]]
+- [BeanHub Academy](https://academy.beanhub.io)
+- [Lazy Beancount](https://lazy-beancount.xyz/)
+- [Personal Accounting In Ledger](https://leanpub.com/personal-accounting-in-ledger) (book)
+
+### Cheatsheets
+
+- [Syntax Quick Reference](quickref/)
+- [Ledger CLI cheatsheet](https://devhints.io/ledger)
+- [Beancount Syntax Cheat Sheet](https://beancount.github.io/docs/beancount_cheat_sheet.html)
+- [Beginners corner: a basic hledger transaction](https://hledgerfan.com/beginners-corner-a-basic-hledger-transaction/)
+- [(Almost) everything you wanted to know about hledger transactions](https://hledgerfan.com/almost-everything-you-wanted-to-know-about-hledger-transactions/)
+- [hledger: Journal cheatsheet](https://hledger.org/hledger.html#journal-cheatsheet)
+- [hledger: CSV rules cheatsheet](https://hledger.org/hledger.html#csv-rules-cheatsheet)
+
+### Cookbooks
+
+- **[[Cookbook|PTA Cookbook]]**
+- [Beancount cookbook](https://beancount.github.io/docs/command_line_accounting_cookbook.html)
+- [hledger cookbook](https://hledger.org/cookbook.html)
+- [Ledger wiki](https://github.com/ledger/ledger/wiki)
+- [PTA Forum](https://forum.plaintextaccounting.org)
+- [Reddit: plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
+
+
+### FAQs
+
+- **[[FAQ|PTA FAQ]]**
+- [hledger FAQ](https://hledger.org/faq.html)
+- [Ledger FAQ](https://github.com/ledger/ledger/wiki/FAQ)
+
+### Slides
+
+- [Simon Michael: Inside hledger: an architectural tour and how-to](https://rawcdn.githack.com/simonmichael/hledger/4013a81af8dd2804c73ecac18fb3e7e4745a4275/doc/haskellerz/haskellerz.slidy.html) 2021
+- [Michael Lynch: An introduction to plaintext accounting](https://decks.mtlynch.io/plaintext-acccounting/) 2021
+- [Andreas Pauley: Purely Functional Personal Finance](https://pauley.org.za/functional-finance-hledger/) 2018
+<!-- gone - [Ledger CLI Accounting for Geeks](http://blog.loadingdata.nl/accounting-for-geeks/) 2014 -->
+- [Matthew Turland: Hacking Your Finances for Fun and Profit](https://matthewturland.com/slides/ledger-stats/) 2013
+<!-- gone - [Ledger and Text based Accounting](http://www.adamsinfoserv.com/AISTWiki/pub/AIS/Presentations/Ledger.pdf) 2009 -->
+
+### Videos
 
 <https://www.youtube.com/results?search_query=plaintextaccounting>
 
@@ -164,106 +264,11 @@ Thank you sponsors, including:
   ([show notes](https://twit.tv/shows/floss-weekly/episodes/150))
   2011
 
-## Slides
-
-- [Simon Michael: Inside hledger: an architectural tour and how-to](https://rawcdn.githack.com/simonmichael/hledger/4013a81af8dd2804c73ecac18fb3e7e4745a4275/doc/haskellerz/haskellerz.slidy.html) 2021
-- [Michael Lynch: An introduction to plaintext accounting](https://decks.mtlynch.io/plaintext-acccounting/) 2021
-- [Andreas Pauley: Purely Functional Personal Finance](https://pauley.org.za/functional-finance-hledger/) 2018
-<!-- gone - [Ledger CLI Accounting for Geeks](http://blog.loadingdata.nl/accounting-for-geeks/) 2014 -->
-- [Matthew Turland: Hacking Your Finances for Fun and Profit](https://matthewturland.com/slides/ledger-stats/) 2013
-<!-- gone - [Ledger and Text based Accounting](http://www.adamsinfoserv.com/AISTWiki/pub/AIS/Presentations/Ledger.pdf) 2009 -->
-
-## Docs
-
-**[Accounting basics](#accounting-basics)
-, [PTA app docs](#pta-app-docs)
-, [Comparisons](#comparisons)
-, [Intros](#intros)
-, [Cheatsheets](#cheatsheets)
-, [Cookbooks](#cookbooks)
-, [FAQs](#faqs)
-**
-
-### Accounting basics
-
-- [hledger: Accounting basics](https://hledger.org/accounting-pta.html)
-- [hledger: Accounting links](https://hledger.org/accounting.html)
-- [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
-- [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
-- [Accounting for Dragons](https://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
-- [[FAQ]]
-
-### PTA app docs
-
-- [Ledger](https://www.ledger-cli.org/docs.html)
-- [hledger](https://hledger.org/doc.html)
-- [Beancount](https://beancount.github.io/docs/)
-- [Ledger in Go](https://howeyc.github.io/ledger/)
-- [Tackler](https://tackler.e257.fi/docs/)
-- [pta](https://mandoc.bsd.lv/pta/)
-
-### Comparisons
-
-- [Apps](#apps) project stats
-- [Features](#features)
-- [Syntax Quick Reference](quickref/)
-- [[FAQ#which-pta-app-should-i-choose|FAQ: Which PTA app should I choose ?]]
-- [hledger and Ledger](https://hledger.org/ledger.html),
-  [hledger and Beancount](https://hledger.org/beancount.html),
-  [hledger and other software](https://hledger.org/cookbook.html#other-software) 2014, 2019, 2022, 2023..
-- [Matthias Kauer: Command Line Accounting – A look at the various ledger ports](http://www.matthiaskauer.com/2015/08/command-line-accounting-a-look-at-the-various-ledger-ports/) 2015
-- [beancount mail list: Another Ledger user's perspective](https://groups.google.com/d/msg/beancount/QV4qgpFbtJ8/9fSgMw-XGC8J) 2015
-- [Beancount: A Comparison of Beancount and Ledger](https://docs.google.com/document/d/1dW2vIjaXVJAf9hr7GlZVe3fJOkM-MtlVjvCO1ZpNLmg) 2014
-- [ledger list: ledger vs hledger vs beancount or how to choose the right cli client](https://groups.google.com/d/topic/ledger-cli/__yuMVjrOH0/discussion) 2014
-<!-- gone - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013 -->
-<!-- gone - [Fabrice Niessen: Why Ledger?] 2010 -->
-
-### Intros
-
-- [[What is Plain Text Accounting?]]
-- [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
-- [hledger: Get Started](https://hledger.org/start.html)
-- [Getting Started with Beancount](https://beancount.github.io/docs/getting_started_with_beancount.html)
-- [Tackler: Quickstart](https://tackler.e257.fi/docs/quickstart/)
-- [[Don't Sink Your First Attempts at Plaintext Accounting]]
-- [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
-- [Plain Text Accounting Workshop](https://github.com/colindean/plaintextaccounting_workshop)
-- [[Cookbook.html#getting-started|Cookbook: Getting started]]
-- [BeanHub Academy](https://academy.beanhub.io)
-- [Lazy Beancount](https://lazy-beancount.xyz/)
-- [Personal Accounting In Ledger](https://leanpub.com/personal-accounting-in-ledger) (book)
-
-### Cheatsheets
-
-- [Syntax Quick Reference](quickref/)
-- [Ledger CLI cheatsheet](https://devhints.io/ledger)
-- [Beancount Syntax Cheat Sheet](https://beancount.github.io/docs/beancount_cheat_sheet.html)
-- [Beginners corner: a basic hledger transaction](https://hledgerfan.com/beginners-corner-a-basic-hledger-transaction/)
-- [(Almost) everything you wanted to know about hledger transactions](https://hledgerfan.com/almost-everything-you-wanted-to-know-about-hledger-transactions/)
-- [hledger: Journal cheatsheet](https://hledger.org/hledger.html#journal-cheatsheet)
-- [hledger: CSV rules cheatsheet](https://hledger.org/hledger.html#csv-rules-cheatsheet)
-
-### Cookbooks
-
-- [[Cookbook]] the Plain Text Accounting Cookbook; more docs, examples...
-- [Beancount cookbook](https://beancount.github.io/docs/command_line_accounting_cookbook.html)
-- [hledger cookbook](https://hledger.org/cookbook.html)
-- [Ledger wiki](https://github.com/ledger/ledger/wiki)
-- [PTA Forum](https://forum.plaintextaccounting.org)
-- [Reddit: plaintextaccounting](https://www.reddit.com/r/plaintextaccounting/new)
-
-
-### FAQs
-
-- [[FAQ]] the Plain Text Accounting FAQ
-- [hledger FAQ](https://hledger.org/faq.html)
-- [Ledger FAQ](https://github.com/ledger/ledger/wiki/FAQ)
-
 ## Software
 
 <!-- mostly-alphabetical -->
 
-**[Apps](#apps)
+**[PTA Apps](#pta-apps)
 , [App feature matrix](#app-feature-matrix)
 , [AI](#ai)
 , [Distros/setups](#distrossetups)
@@ -284,9 +289,9 @@ Thank you sponsors, including:
 , [Libraries](#libraries)
 **
 
-### Apps
+### PTA Apps
 
-To do Plain Text Accounting, try one (or more) of the PTA apps below.
+To start doing plain text accounting, try one (or more) of the apps below.
 Generally it's possible to migrate data between them.
 
 <style>
