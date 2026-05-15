@@ -1,29 +1,24 @@
 % Finance
 
 ---
-toc: true
+toc: false
 ...
 
-Simon Michael, with help from contributors/moderators, caretakes various PTA community resources, including
-the plaintextaccounting umbrella organisation on Github,
-the plaintextaccounting.org and forum.plaintextaccounting.org sites,
-the plaintextaccounting matrix space and chat room,
-and the #plaintextaccounting IRC channel.
-The plaintextaccounting subreddit is managed by Colin Dean.
-<!-- PTA content on mastodon, twitter, bluesky, lemmy etc are provided collectively. -->
-
-I set up the PTA forum in 2024 as an alternative to Reddit;
-see [PTA forum news, 2024-03-18](https://forum.plaintextaccounting.org/t/pta-forum-news-2024-03-18/207)
-and [A trial of Discourse for Plain Text Accounting discussions](https://forum.plaintextaccounting.org/t/a-trial-of-discourse-for-plain-text-accounting-discussions/5).
-
 This organisation should be solvent and self-sustaining, but currently is not.
-So if you find this work useful, and you are in a position to help financially, your support is much appreciated!
+If you find this work useful, and you are in a position to help financially, your support is much appreciated!
 
-## Donate
+<!-- ## Donate -->
+
+### Become a sponsor
+
+You can have a linked logo and tagline on the [home page](index.html). Contact me!
 
 ### Help cover project costs
 
-Like hosting and discourse fees.
+Eg domain, hosting and discourse fees.
+(I set up the PTA forum in 2024 as an alternative to Reddit;
+see [PTA forum news, 2024-03-18](https://forum.plaintextaccounting.org/t/pta-forum-news-2024-03-18/207)
+and [A trial of Discourse for Plain Text Accounting discussions](https://forum.plaintextaccounting.org/t/a-trial-of-discourse-for-plain-text-accounting-discussions/5).)
 
 - [![github](https://img.shields.io/badge/Support_PTA_via-Github-limegreen "Sponsor the project leader via Github")](https://github.com/sponsors/plaintextaccounting)
 - <span id="paypal-pta-button"></span>
@@ -31,15 +26,26 @@ Like hosting and discourse fees.
 
 ### Support Simon
 
-I won't always know these are for plain text accounting, so feel free to let me know.
+Simon Michael maintains and caretakes various PTA community resources, including
+the plaintextaccounting.org and forum.plaintextaccounting.org websites,
+the plaintextaccounting umbrella organisation on Github,
+the plaintextaccounting matrix space and chat room,
+and the #plaintextaccounting IRC channel.
 
 - [![github](https://img.shields.io/badge/Support_Simon_via-Github-limegreen "Sponsor the project leader via Github")](https://github.com/sponsors/simonmichael)
 - <span id="paypal-sm-button"></span>
 <!-- - [![liberapay](https://img.shields.io/badge/Support_PTA_via-Liberapay-limegreen "Sponsor the project leader via Liberapay")](https://liberapay.com/simonmichael) -->
 
-### Support other PTA maintainers/moderators
+(I won't always know donations are for plain text accounting, so feel free to let me know.)
 
-Contact them directly.
+### Support other PTA curators
+
+The plaintextaccounting subreddit is managed by [Colin Dean](https://www.reddit.com/user/colindean).
+
+### Support PTA software developers
+
+Their software makes plain text accounting possible.
+You can find the project home pages at [PTA apps](index.html#pta-apps).
 
 ### What are the fees for donating ?
 
