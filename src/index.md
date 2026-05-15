@@ -309,6 +309,7 @@ Thank you sponsors, including:
 
 To start doing plain text accounting, try one (or more) of the apps below.
 Generally it's possible to migrate data between them.
+Here's the [PTA apps star history](https://www.star-history.com/?repos=simonmichael%2Fhledger%2Cledger%2Fledger%2Cbeancount%2Fbeancount%2Crustledger%2Frustledger%2Cad-si%2FTransity%2Choweyc%2Fledger%2Chrj%2Fabandon%2Czhang-accounting%2Fzhang%2Ctackler-ng%2Ftackler%2Csboehler%2Fknut&type=date&logscale=&legend=top-left).
 
 <style>
 th, td { border:none; padding-top:0; padding-bottom:0; border-bottom:thin solid #ddd; vertical-align:top; }
@@ -492,7 +493,7 @@ Here's a comparison of the big three PTA apps' main features,
 plus some relevant third-party tools in italics, <!-- notable likely-to-be-usable ones -->
 and some geeky technical specs that you may not care about.
 Corrections and suggestions are appreciated.
-<!-- Last updated: 2024-09 -->
+Last updated: 2024-09
  
 <style>
 td:first-child strong a {
