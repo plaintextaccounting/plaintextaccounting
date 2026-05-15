@@ -1,4 +1,4 @@
-% Plain Text Accounting (PTA)
+% Plain Text Accounting
 
 ---
 toc: false
@@ -15,29 +15,36 @@ toc: false
 
 Welcome!
 ***Plain text accounting*** is a way of doing bookkeeping and accounting
-with plain text files and scriptable, command-line-friendly software, such as
-Ledger, hledger, or Beancount.
+with plain text files and scriptable, command-line-friendly software,
+such as Ledger, hledger, or Beancount.
 This site collects the PTA community's tools, docs and practices.
-It is maintained by Simon&nbsp;Michael (hledger project leader, PTA fan)
-and contributors like you. See also our [discussion forum and chat rooms](#news-discussion).
-
 </div>
 
 <div id="sitemap">
 
-**Site map**\
-**[[What is Plain Text Accounting ?]]** ,
+<!-- keep synced with section TOCs below -->
+**Quick links**\
+**[[What is Plain Text Accounting ?]]**
 <small>
-**[[FAQ|PTA FAQ]]**,
-[[Cookbook|PTA Cookbook]]
+,  **[[FAQ|PTA FAQ]]**
+, [[Cookbook|PTA Cookbook]]
 </small>
 \
-**[News & discussion](#news-discussion)**\
-**[Docs](#docs):** <!-- keep synced with Docs below -->
+**[News & discussion](#news-discussion):**
 <small>
-  [Accounting basics](#accounting-basics)
-, [PTA app docs](#pta-app-docs)
-, [Comparisons](#comparisons)
+  [chat](https://matrix.to/#/#plaintextaccounting:matrix.org)
+, [forum](https://forum.plaintextaccounting.org)
+, [reddit](https://www.reddit.com/r/plaintextaccounting/new)
+, [mastodon](https://fosstodon.org/tags/plaintextaccounting)
+, [twitter](https://x.com/search?q=plaintextaccounting&src=typed_query&f=live)
+, [bluesky](https://bsky.app/search?q=plaintextaccounting)
+</small>
+\
+**[Docs](#docs):**
+<small>
+  [PTA app docs](#pta-app-docs)
+, [PTA app comparisons](#pta-app-comparisons)
+, [Accounting basics](#accounting-basics)
 , [Intros](#intros)
 , [Cheatsheets](#cheatsheets)
 , [Cookbooks](#cookbooks)
@@ -46,7 +53,7 @@ and contributors like you. See also our [discussion forum and chat rooms](#news-
 , [Videos](#videos)
 </small>
 \
-**[Software](#software):** <!-- keep synced with Software below -->
+**[Software](#software):**
 <small>
   [PTA apps](#pta-apps)
 , [App feature matrix](#app-feature-matrix)
@@ -70,8 +77,9 @@ and contributors like you. See also our [discussion forum and chat rooms](#news-
 </small>
 </div>
 
-This is a community-supported site; if you find it useful, why not contribute to the [github repo](https://github.com/plaintextaccounting/plaintextaccounting)
-or help with [[finance]].
+This is a community-supported site, maintained by Simon&nbsp;Michael (PTA fan and hledger project leader).
+If you find it useful, would you like to help with [[finance]],
+or contribute to the [repo](https://github.com/plaintextaccounting/plaintextaccounting) ?
 Thank you sponsors, including:
 
 <div id="sponsors-container">
@@ -83,9 +91,9 @@ Thank you sponsors, including:
 ## News & discussion
 
 **Chat**
-- [matrix room](https://matrix.to/#/#plaintextaccounting:matrix.org)
-- [matrix space](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
-- [IRC channel](https://web.libera.chat/#plaintextaccounting)
+- [#plaintextaccounting chat](https://matrix.to/#/#plaintextaccounting:matrix.org)
+- [plaintextaccounting matrix space](https://matrix.to/#/#plaintextaccounting-space:matrix.org)
+- [#plaintextaccounting IRC channel](https://web.libera.chat/#plaintextaccounting)
 - [project chats](#pta-apps)
 \
 **Blogs & articles**
@@ -112,11 +120,16 @@ Thank you sponsors, including:
 - [#beancount](https://fosstodon.org/tags/beancount)
 \
 **Twitter**
-- [#plaintextaccounting](https://twitter.com/hashtag/plaintextaccounting?f=live)
+- [plaintextaccounting](https://x.com/search?q=plaintextaccounting&src=typed_query&f=live)
+- [#plaintextaccounting](https://x.com/hashtag/plaintextaccounting?f=live)
 - [#ledgercli](https://twitter.com/hashtag/ledgercli?f=live)
 - [#hledger](https://twitter.com/hashtag/hledger?f=live)
 - [#beancount](https://twitter.com/hashtag/beancount?f=live)
 - [LedgerTips 2014-2018](https://twitter.com/LedgerTips)
+\
+**Bluesky**
+- [plaintextaccounting](https://bsky.app/search?q=plaintextaccounting)
+- [#plaintextaccounting](https://bsky.app/hashtag/plaintextaccounting)
 \
 **Stack Exchange**
 - [ledger-cli tag](https://money.stackexchange.com/questions/tagged/ledger-cli?tab=newest)
@@ -137,9 +150,10 @@ Thank you sponsors, including:
 
 ## Docs
 
-**[Accounting basics](#accounting-basics)
-, [PTA app docs](#pta-app-docs)
-, [Comparisons](#comparisons)
+**
+  [PTA app docs](#pta-app-docs)
+, [PTA app comparisons](#pta-app-comparisons)
+, [Accounting basics](#accounting-basics)
 , [Intros](#intros)
 , [Cheatsheets](#cheatsheets)
 , [Cookbooks](#cookbooks)
@@ -147,15 +161,6 @@ Thank you sponsors, including:
 , [Slides](#slides)
 , [Videos](#videos)
 **
-
-### Accounting basics
-
-- [hledger: Accounting basics](https://hledger.org/accounting-pta.html)
-- [hledger: Accounting links](https://hledger.org/accounting.html)
-- [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
-- [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
-- [Accounting for Dragons](https://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
-- [[FAQ]]
 
 ### PTA app docs
 
@@ -166,12 +171,12 @@ Thank you sponsors, including:
 - [Tackler](https://tackler.e257.fi/docs/)
 - [pta](https://mandoc.bsd.lv/pta/)
 
-### Comparisons
+### PTA app comparisons
 
-- [PTA Apps](#pta-apps) project stats
-- [Features](#features)
+- **[PTA Apps](#pta-apps)**
+- **[App feature matrix](#app-feature-matrix)**
+- **[[FAQ#which-pta-app-should-i-choose|FAQ: Which PTA app should I choose ?]]**
 - [Syntax Quick Reference](quickref/)
-- [[FAQ#which-pta-app-should-i-choose|FAQ: Which PTA app should I choose ?]]
 - [hledger and Ledger](https://hledger.org/ledger.html),
   [hledger and Beancount](https://hledger.org/beancount.html),
   [hledger and other software](https://hledger.org/cookbook.html#other-software) 2014, 2019, 2022, 2023..
@@ -181,6 +186,15 @@ Thank you sponsors, including:
 - [ledger list: ledger vs hledger vs beancount or how to choose the right cli client](https://groups.google.com/d/topic/ledger-cli/__yuMVjrOH0/discussion) 2014
 <!-- gone - [Omari Norman: Why Penny](http://massysett.github.io/penny/why-penny.html) 2013 -->
 <!-- gone - [Fabrice Niessen: Why Ledger?] 2010 -->
+
+### Accounting basics
+
+- **[[FAQ|PTA FAQ]]**
+- [hledger: Accounting basics](https://hledger.org/accounting-pta.html)
+- [hledger: Accounting links](https://hledger.org/accounting.html)
+- [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
+- [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
+- [Accounting for Dragons](https://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
 
 ### Intros
 
