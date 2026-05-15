@@ -26,6 +26,10 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
     color:inherit;
 }
 
+summary { display: list-item; }
+summary > h3 { display: inline; }
+details { margin-bottom: 2.5rem; }
+
 .tight p {
     margin:0;
 }

@@ -481,7 +481,10 @@ Inactive projects are sorted by start date then last release date.
 
 <!-- [compare at openhub](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
 
+<details>
+<summary>
 ### App feature matrix
+</summary>
 
 Here's a comparison of the big three PTA apps' main features, <!-- last updated: 2024-09 -->
 plus some relevant third-party tools in italics, <!-- notable likely-to-be-usable ones -->
@@ -556,9 +559,10 @@ td:first-child strong a {
 |                                 |                                                                  | [documentation-first development][h doc-first dev]                                                                          |
 |                                 |                                                                  | [regular releases][h releases]                                                                                              |
 |                                 |                                                                  | [regression bounties][h reg bounties]                                                                                       |
-|                                 |                                                                  |                                                                                                                             |
 
-<!-- Link targets used in the above table and elsewhere. Checked 2024-09-27. -->
+</details>
+
+<!-- Link targets used in the above table and elsewhere. Last checked: 2024-09-27 -->
 
 <!-- user interfaces -->
 
