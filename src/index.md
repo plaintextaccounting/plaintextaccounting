@@ -30,36 +30,40 @@ and contributors like you. See also our [discussion forum and chat rooms](#news-
 **[News & discussion](#news-discussion)**\
 **[Videos](#videos)**\
 **[Slides](#slides)**\
-**[Docs](#docs):**
+**[Docs](#docs):** <!-- keep synced with Docs below -->
+<small>
   [Accounting basics](#accounting-basics)
-, [app docs](#pta-app-docs)
-, [comparisons](#comparisons)
-, [intros](#intros)
-, [cheatsheets](#cheatsheets)
-, [cookbooks](#cookbooks)
+, [PTA app docs](#pta-app-docs)
+, [Comparisons](#comparisons)
+, [Intros](#intros)
+, [Cheatsheets](#cheatsheets)
+, [Cookbooks](#cookbooks)
 , [FAQs](#faqs)
+</small>
 \
 **[[FAQ]]**\
 **[[Cookbook]]**\
-**[Software](#software):**
+**[Software](#software):** <!-- keep synced with Software below -->
+<small>
   [Apps](#apps)
+, [App feature matrix](#app-feature-matrix)
 , [Distros/setups](#distrossetups)
-, [Features](#features)
-, [Editor plugins](#editor-plugins)
-, [Data import/conversion](#data-importconversion)
-, [Price fetching](#price-fetching)
+, [Data conversion/import](#data-conversionimport)
 , [Data generation](#data-generation)
-, [Workflows](#workflows)
+, [Editor plugins](#editor-plugins)
 , [Formatting](#formatting)
+, [Invoicing](#invoicing)
+, [Price fetching](#price-fetching)
 , [Reporting](#reporting)
 , [Time logging](#time-logging)
 , [UI, terminal](#ui-terminal)
 , [UI, GUI](#ui-gui)
 , [UI, web](#ui-web)
 , [UI, mobile](#ui-mobile)
-, [Library](#library)
 , [Utilities](#utilities)
-, [API](#api)
+, [Workflows](#workflows)
+, [Libraries](#libraries)
+</small>
 </div>
 
 This is a community-supported site; if you find it useful, why not contribute to the [github repo](https://github.com/plaintextaccounting/plaintextaccounting)
@@ -256,28 +260,27 @@ Thank you sponsors, including:
 
 ## Software
 
+<!-- mostly-alphabetical -->
+
 **[Apps](#apps)
+, [App feature matrix](#app-feature-matrix)
 , [Distros/setups](#distrossetups)
-, [Features](#features)
-, [Editor plugins](#editor-plugins)
-, [Data import/conversion](#data-importconversion)
-, [Price fetching](#price-fetching)
+, [Data conversion/import](#data-conversionimport)
 , [Data generation](#data-generation)
-, [Workflows](#workflows)
+, [Editor plugins](#editor-plugins)
 , [Formatting](#formatting)
+, [Invoicing](#invoicing)
+, [Price fetching](#price-fetching)
 , [Reporting](#reporting)
 , [Time logging](#time-logging)
 , [UI, terminal](#ui-terminal)
 , [UI, GUI](#ui-gui)
 , [UI, web](#ui-web)
 , [UI, mobile](#ui-mobile)
-, [Library](#library)
 , [Utilities](#utilities)
-, [API](#api)
+, [Workflows](#workflows)
+, [Libraries](#libraries)
 **
-
-<a name="ledger-likes"></a>
-<a name="pta-apps"></a>
 
 ### Apps
 
@@ -457,33 +460,7 @@ Inactive projects are sorted by start date then last release date.
 
 <!-- [compare at openhub](https://www.openhub.net/p/_compare?project_0=Ledger&project_1=hledger&project_2=beancount) -->
 
-<a name="distros"></a>
-
-### Distros/setups
-
-Documented/reproducible setups, integrated docker images etc, based on the above.
-
-| Name                        | Uses                  | Start | Last update | ~Stars
-|-----------------------------|-----------------------|-------|:-----------:|-------:
-| [Full-fledged hledger]      | hledger               | 2019  |     2025    |    500
-| [hledger-flow]              | hledger               | 2019  |     2026    |    200
-| [Lazy Beancount]            | beancount             | 2024  |     2026    |    100
-| [hledger-youtube-business]  | hledger               | 2025  |     2025    |     60
-| [rtrLEDGER]                 | hledger               | 2020  |     2020    |     20
-| [docker-finance]            | hledger, hledger-flow | 2021  |     2026    |      -
-
-[Full-fledged hledger]:     https://github.com/adept/full-fledged-hledger
-[hledger-flow]:             https://github.com/apauley/hledger-flow
-[Lazy Beancount]:           https://lazy-beancount.xyz
-[hledger-youtube-business]: https://github.com/KayleeBeyene/hledger-youtube-business
-[rtrLEDGER]:                https://github.com/rotorkunstkultur/rtrledger
-[docker-finance]:           https://gitea.evergreencrypto.co/EvergreenCrypto/docker-finance
-
-[beanhub]:   https://beanhub.io
-[beanhub-academy]: https://academy.beanhub.io
-[beanhub-src]: https://github.com/launchplatform
-
-### Features
+### App feature matrix
 
 Here's a comparison of the big three PTA apps' main features, <!-- last updated: 2024-09 -->
 plus some relevant third-party tools in italics, <!-- notable likely-to-be-usable ones -->
@@ -809,42 +786,35 @@ td:first-child strong a {
 [h reg bounties]:           https://hledger.org/REGRESSIONS.html
 
 
-### Editor plugins
+<a name="distros"></a>
 
-See also: [hledger: Editor configuration](https://hledger.org/editors.html)
+### Distros/setups
 
-#### Emacs
-- [beancount-mode](https://github.com/beancount/beancount-mode)
-- [hledger-mode](https://github.com/narendraj9/hledger-mode)
-- [ledger-mode](https://ledger-cli.org/doc/ledger-mode.html) (good for hledger also)
+Some alternate distributions/setups for the apps above.
 
-#### JetBrains IDEs (IntelliJ, PyCharm, etc.)
-- [Ledger CLI](https://plugins.jetbrains.com/plugin/15405-ledger-cli)
+| Name                        | Uses                  | Start | Last update | ~Stars
+|-----------------------------|-----------------------|-------|:-----------:|-------:
+| [Full-fledged hledger]      | hledger               | 2019  |     2025    |    500
+| [hledger-flow]              | hledger               | 2019  |     2026    |    200
+| [Lazy Beancount]            | beancount             | 2024  |     2026    |    100
+| [hledger-youtube-business]  | hledger               | 2025  |     2025    |     60
+| [rtrLEDGER]                 | hledger               | 2020  |     2020    |     20
+| [docker-finance]            | hledger, hledger-flow | 2021  |     2026    |      -
 
-#### Nano
-- [scopatz/nanorc](https://github.com/scopatz/nanorc/blob/master/ledger.nanorc)
+[Full-fledged hledger]:     https://github.com/adept/full-fledged-hledger
+[hledger-flow]:             https://github.com/apauley/hledger-flow
+[Lazy Beancount]:           https://lazy-beancount.xyz
+[hledger-youtube-business]: https://github.com/KayleeBeyene/hledger-youtube-business
+[rtrLEDGER]:                https://github.com/rotorkunstkultur/rtrledger
+[docker-finance]:           https://gitea.evergreencrypto.co/EvergreenCrypto/docker-finance
 
-#### Sublime
-- [sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax)
+[beanhub]:   https://beanhub.io
+[beanhub-academy]: https://academy.beanhub.io
+[beanhub-src]: https://github.com/launchplatform
 
-#### TextMate
-- [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle)
+### Data conversion/import
 
-#### VIM
-- [vim-ledger](https://github.com/ledger/vim-ledger)
-- [vim-beancount](https://github.com/nathangrigg/vim-beancount)
-- [hledger-vim](https://github.com/anekos/hledger-vim)
-- [cmp-beancount](https://github.com/crispgm/cmp-beancount)
-
-#### VS Code
-- [hledger-vscode](https://github.com/mhansen/hledger-vscode) (2017..)
-- [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount) (2023..)
-- [vscode-ledger-mode](https://github.com/glasser/vscode-ledger-mode) (2026)
-- [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger) (2016)
-
-### Data import/conversion
-
-#### Miscellaneous
+#### General
 <!-- - [acceptarium](https://codeberg.org/plaintextaccounting/acceptarium) brainstorming tooling for scanning data from receipts -->
 - [Ledger](https://www.ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](https://hledger.org/csv.html) have CSV conversion built in. Also:
 - bean-identify, bean-extract, bean-file - import tools provided by Beancount v2
@@ -923,18 +893,6 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [ynab-to-ledger](https://github.com/vermiceli/ynab-to-ledger) You Need A Budget (YNAB) to *ledger converter. Handles multiple currencies, multiple number formats, reconciliation, memos, transfers, and split transactions
 - [ynab_to_ledger](https://github.com/pgr0ss/ynab_to_ledger) YNAB to *ledger converter
 
-### Price fetching
-
-- [bean-price](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c) Beancount's price fetching tool (python)
-- [hledger-stockquotes](https://github.com/prikhi/hledger-stockquotes) download market prices for your hledger commodities (haskell)
-- [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices (ruby)
-- [LedgerStockUpdate](https://github.com/adchari/LedgerStockUpdate) update a Ledger price database (go)
-- [market-prices](https://github.com/barrucadu/hledger-scripts#market-prices) download market prices from several sources (python)
-- [market-prices.hs](https://gist.github.com/maralorn/a288329af50955dff353e5529f377488) small, easy to adapt script to scrape market data from the internet (Haskell)
-- [pricehist](https://gitlab.com/chrisberkhout/pricehist) fetch and format historical price data, with support for multiple sources and output formats (python)
-- [the-solipsist/scripts](https://github.com/the-solipsist/scripts/) download prices for your hledger commodities, including indian commodities (bash)
-- [update-stocks-hledger in .net](https://github.com/oraculum/update-stocks-hledger) fetching stocks market prices and currency exchange rates from Yahoo Finance
-
 ### Data generation
 
 - [beancount-extract-price](https://github.com/Mayeu/beancount-scripts) generate prices transactions based on your beancount ledger (python)
@@ -948,23 +906,60 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [reorder-journal.sh](https://github.com/amitaibu/hledger-example/blob/master/reorder-journal.sh) sort hledger entries, preserving directives/comments at top of file (bash)
 - [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
 
-### Invoicing
+### Editor plugins
 
-- [kairos](https://kairosdotapp.github.io) ([repo](https://github.com/kairosdotapp/kairos)) generate invoices from hledger timedot files (go)
+See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 
-### Workflows
+#### Emacs
+- [beancount-mode](https://github.com/beancount/beancount-mode)
+- [hledger-mode](https://github.com/narendraj9/hledger-mode)
+- [ledger-mode](https://ledger-cli.org/doc/ledger-mode.html) (good for hledger also)
 
-- [docker-finance][dfi] hledger/hledger-flow/docker-based system for tracking, reporting, and metadata analysis of traditional and cryptocurrency finances
-- [Full-fledged hledger](https://github.com/adept/full-fledged-hledger) scripts and detailed tutorial for generating hledger journals from CSV files (haskell, shell)
-- [hledger-flow](https://github.com/apauley/hledger-flow) command-line tool to generate hledger (or Ledger) journals from CSV files (haskell)
-- [rtrledger](https://github.com/rotorkunstkultur/rtrledger) another hledger journals from CSV files system, designed for chaotic German freelancers (shell etc.)
-- [Lazy Beancount](https://github.com/Evernight/lazy-beancount) Beancount packaged in Docker with additional plugins and tools
+#### JetBrains IDEs (IntelliJ, PyCharm, etc.)
+- [Ledger CLI](https://plugins.jetbrains.com/plugin/15405-ledger-cli)
+
+#### Nano
+- [scopatz/nanorc](https://github.com/scopatz/nanorc/blob/master/ledger.nanorc)
+
+#### Sublime
+- [sublime-ledger-syntax](https://github.com/moeffju/sublime-ledger-syntax)
+
+#### TextMate
+- [Ledger.tmbundle](https://github.com/lifepillar/Ledger.tmbundle)
+
+#### VIM
+- [vim-ledger](https://github.com/ledger/vim-ledger)
+- [vim-beancount](https://github.com/nathangrigg/vim-beancount)
+- [hledger-vim](https://github.com/anekos/hledger-vim)
+- [cmp-beancount](https://github.com/crispgm/cmp-beancount)
+
+#### VS Code
+- [hledger-vscode](https://github.com/mhansen/hledger-vscode) (2017..)
+- [vscode-beancount](https://marketplace.visualstudio.com/items?itemName=Lencerf.beancount) (2023..)
+- [vscode-ledger-mode](https://github.com/glasser/vscode-ledger-mode) (2026)
+- [ledger](https://marketplace.visualstudio.com/items?itemName=mariosangiorgio.ledger) (2016)
 
 ### Formatting
 
 - [beancount-black](https://github.com/LaunchPlatform/beancount-black) opinionated beancount file formatter
 - [beancount-black web app](https://app.beanhub.io/tools/beancount-formatter) opinionated beancount file formatter as a web-based app
 - [hledger-fmt](https://github.com/mondeja/hledger-fmt) opinionated hledger file formatter
+
+### Invoicing
+
+- [kairos](https://kairosdotapp.github.io) ([repo](https://github.com/kairosdotapp/kairos)) generate invoices from hledger timedot files (go)
+
+### Price fetching
+
+- [bean-price](https://docs.google.com/document/d/1thYRAMell_QT1Da1F_laprSs6BlROZjyK_h3V8qHW9c) Beancount's price fetching tool (python)
+- [hledger-stockquotes](https://github.com/prikhi/hledger-stockquotes) download market prices for your hledger commodities (haskell)
+- [ledger-get-prices](https://github.com/nathankot/ledger-get-prices) download market prices (ruby)
+- [LedgerStockUpdate](https://github.com/adchari/LedgerStockUpdate) update a Ledger price database (go)
+- [market-prices](https://github.com/barrucadu/hledger-scripts#market-prices) download market prices from several sources (python)
+- [market-prices.hs](https://gist.github.com/maralorn/a288329af50955dff353e5529f377488) small, easy to adapt script to scrape market data from the internet (Haskell)
+- [pricehist](https://gitlab.com/chrisberkhout/pricehist) fetch and format historical price data, with support for multiple sources and output formats (python)
+- [the-solipsist/scripts](https://github.com/the-solipsist/scripts/) download prices for your hledger commodities, including indian commodities (bash)
+- [update-stocks-hledger in .net](https://github.com/oraculum/update-stocks-hledger) fetching stocks market prices and currency exchange rates from Yahoo Finance
 
 ### Reporting
 
@@ -1053,27 +1048,34 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [hledger.org: Mobile apps](https://hledger.org/mobile.html)
 
 
-### Library
-
-- [beancount-parser](https://github.com/LaunchPlatform/beancount-parser) standalone [Lark-based](https://github.com/lark-parser/lark) beancount syntax parser (not relying on the beancount library)
-- [beancount-parser](https://docs.rs/beancount-parser/latest/beancount_parser/) a Beancount parser in Rust using [nom](https://docs.rs/nom/latest/nom/)
-- [beancount-parser-lima](https://docs.rs/beancount-parser-lima/latest/beancount_parser_lima/) another Beancount parser in Rust using [Logos](https://docs.rs/logos/latest/logos/) and [Chumsky](https://docs.rs/chumsky/latest/chumsky/)
-- [beancount-txn-elisp](https://sr.ht/~trs-80/beancount-txn-`) a library to read/parse and write/insert individual Beancount transactions, implemented in Emacs Lisp
-- [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) a library provides data types and processors of custom beancount forms for inputting repeating similar entries easily
-- [beanhub-web-react](https://github.com/LaunchPlatform/beanhub-web-react) react components for beancount entry input forms and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
-- [magicbeans](https://github.com/ericaltendorf/magicbeans/) Beancount extensions for cryptocurrency tax tracking and reporting
-
 ### Utilities
 
 - [beanhub-cli](https://github.com/LaunchPlatform/beanhub-cli) beancount command line tools come with features like formatter, [beanhub-import](https://github.com/LaunchPlatform/beancount-import) and a [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) web app
 - [bean-sort](https://github.com/tesujimath/bean-sort) naive sorting for Beancount files
 
-### API
+### Workflows
 
+- [docker-finance] hledger/hledger-flow/docker-based system for tracking, reporting, and metadata analysis of traditional and cryptocurrency finances
+- [Full-fledged hledger](https://github.com/adept/full-fledged-hledger) scripts and detailed tutorial for generating hledger journals from CSV files (haskell, shell)
+- [hledger-flow](https://github.com/apauley/hledger-flow) command-line tool to generate hledger (or Ledger) journals from CSV files (haskell)
+- [rtrledger](https://github.com/rotorkunstkultur/rtrledger) another hledger journals from CSV files system, designed for chaotic German freelancers (shell etc.)
+- [Lazy Beancount](https://github.com/Evernight/lazy-beancount) Beancount packaged in Docker with additional plugins and tools
+
+### Libraries
+
+- [beancount-parser-lima](https://docs.rs/beancount-parser-lima/latest/beancount_parser_lima/) another Beancount parser in Rust using [Logos](https://docs.rs/logos/latest/logos/) and [Chumsky](https://docs.rs/chumsky/latest/chumsky/)
+- [beancount-parser](https://docs.rs/beancount-parser/latest/beancount_parser/) a Beancount parser in Rust using [nom](https://docs.rs/nom/latest/nom/)
+- [beancount-parser](https://github.com/LaunchPlatform/beancount-parser) standalone [Lark-based](https://github.com/lark-parser/lark) beancount syntax parser (not relying on the beancount library)
+- [beancount-txn-elisp](https://sr.ht/~trs-80/beancount-txn-`) a library to read/parse and write/insert individual Beancount transactions, implemented in Emacs Lisp
+- [BeanHub API](https://api.beanhub.io/redoc) SaaS API for operating on hosted beancount repositories and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
+- [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) a library provides data types and processors of custom beancount forms for inputting repeating similar entries easily
+- [beanhub-web-react](https://github.com/LaunchPlatform/beanhub-web-react) react components for beancount entry input forms and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
 - [gledger](https://github.com/gledger/gledger) Go package to interface with Ledger (go)
 - [hledger-lib](https://github.com/simonmichael/hledger/tree/master/hledger-lib) library for parsing and generating reports from *ledger files (haskell)
 - [hledger-web](https://github.com/simonmichael/hledger/tree/master/hledger-web) the web app includes a JSON API server for *ledger files (haskell)
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) extends Ledger's python library (python)
+- [magicbeans](https://github.com/ericaltendorf/magicbeans/) Beancount extensions for cryptocurrency tax tracking and reporting
 - [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API for *ledger files (js)
 - [pyhledger](https://github.com/btittelbach/pyhledger) python scripts for parsing / converting to hledger format (python)
-- [BeanHub API](https://api.beanhub.io/redoc) SaaS API for operating on hosted beancount repositories and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
+
+
