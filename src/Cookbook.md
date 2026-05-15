@@ -2,7 +2,7 @@
 
 This is a place to collect additional practical-minded PTA docs aimed at getting useful things done,
 often not app-specific.
-See also the [[FAQ]], [[index#docs|Docs]], and [[index#cookbooks|app-specific cookbooks]].
+See also the [[FAQ|PTA FAQ]], [[index#docs|Docs]], and [[index#cookbooks|app-specific cookbooks]].
 If you don't see what you need, ask for it in the [[index#news-discussion|chat]],
 or [add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/blob/master/src/Cookbook.md).
 
@@ -10,7 +10,7 @@ or [add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/
 
 - [[index|Home]] - links to news, videos, articles, docs and software.
 - [[What is Plain Text Accounting ?]]
-- [[FAQ]]
+- [[FAQ|PTA FAQ]]
 - [[Choosing accounts]]
 - [[Entering data]]
 - [[Don't Sink Your First Attempts at Plaintext Accounting]] h/ledger beginner syntax tips
