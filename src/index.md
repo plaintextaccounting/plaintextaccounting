@@ -47,6 +47,7 @@ and contributors like you. See also our [discussion forum and chat rooms](#news-
 <small>
   [Apps](#apps)
 , [App feature matrix](#app-feature-matrix)
+, [AI](#ai)
 , [Distros/setups](#distrossetups)
 , [Data conversion/import](#data-conversionimport)
 , [Data generation](#data-generation)
@@ -264,6 +265,7 @@ Thank you sponsors, including:
 
 **[Apps](#apps)
 , [App feature matrix](#app-feature-matrix)
+, [AI](#ai)
 , [Distros/setups](#distrossetups)
 , [Data conversion/import](#data-conversionimport)
 , [Data generation](#data-generation)
@@ -788,9 +790,13 @@ td:first-child strong a {
 
 <a name="distros"></a>
 
+### AI
+
+- [accountant24](https://github.com/machulav/accountant24) - local-first multi-model AI agent using hledger
+
 ### Distros/setups
 
-Some alternate distributions/setups for the apps above.
+Some alternate distributions/setups for the PTA apps.
 
 | Name                        | Uses                  | Start | Last update | ~Stars
 |-----------------------------|-----------------------|-------|:-----------:|-------:
