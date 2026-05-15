@@ -788,8 +788,6 @@ td:first-child strong a {
 [h reg bounties]:           https://hledger.org/REGRESSIONS.html
 
 
-<a name="distros"></a>
-
 ### AI
 
 - [accountant24](https://github.com/machulav/accountant24) - local-first multi-model AI agent using hledger
