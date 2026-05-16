@@ -31,7 +31,7 @@ check:
 	@hledger check -s ordereddates && echo ok
 
 OUT=../src/finance.md
-HLREPORT=hledger -O html --title "''" -c '$$1000.'
+HLREPORT=hledger -O html --title '' -c '$$1000.'
 
 # reports
 
