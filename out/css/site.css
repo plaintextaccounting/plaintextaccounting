@@ -1,8 +1,3 @@
-/* don't let skeleton override hledger's amount alignment */
-td[align="right"],  th[align="right"]  { text-align: right; }
-td[align="center"], th[align="center"] { text-align: center; }
-td[align="left"],   th[align="left"]   { text-align: left; }
-
 body {
     background-color:white;
     padding-top:2em;
@@ -75,3 +70,63 @@ li > p {
     text-align: center;
     font-size: 0.8em;
 }
+
+/* hacky css to customise the hledger reports on the finance page
+ *
+ * Running balance
+ * date description otheraccounts change balance
+ * 1    2           3             4      5
+ *
+ * General journal. The first 7 columns have rowspan=N, complicating things greatly.
+ * txnidx date date2 status code description comment account amount commodity credit debit posting-status posting-comment
+ * 1      2    3     4      5    6           7       8       9      10        11     12    13             14
+ *                                                   1       2       3         4      5     6              7
+ */
+
+#running td,
+#txns td
+{ padding:0.1em 0; }
+
+#running td:nth-child(1),
+#running td:nth-child(2),
+#running td:nth-child(3),
+#txns tr:has(>td[rowspan])>td:nth-child(2),
+#txns tr:has(>td[rowspan])>td:nth-child(6),
+#txns tr:has(>td[rowspan])>td:nth-child(7),
+#txns tr:has(>td[rowspan])>td:nth-child(8),
+#txns tr:not(:has(>td[rowspan]))>td:nth-child(1)
+{ padding-right:1em; }
+
+#txns th:nth-child(1),
+#txns th:nth-child(3),
+#txns th:nth-child(4),
+#txns th:nth-child(5),
+#txns th:nth-child(11),
+#txns th:nth-child(12),
+#txns th:nth-child(13),
+#txns th:nth-child(14),
+#txns tr:has(>td[rowspan])>td:nth-child(1),
+#txns tr:has(>td[rowspan])>td:nth-child(3),
+#txns tr:has(>td[rowspan])>td:nth-child(4),
+#txns tr:has(>td[rowspan])>td:nth-child(5),
+#txns tr:has(>td[rowspan])>td:nth-child(11),
+#txns tr:has(>td[rowspan])>td:nth-child(12),
+#txns tr:has(>td[rowspan])>td:nth-child(13),
+#txns tr:has(>td[rowspan])>td:nth-child(14),
+#txns tr:not(:has(>td[rowspan]))>td:nth-child(4),
+#txns tr:not(:has(>td[rowspan]))>td:nth-child(5),
+#txns tr:not(:has(>td[rowspan]))>td:nth-child(6),
+#txns tr:not(:has(>td[rowspan]))>td:nth-child(7)
+{ display: none; }
+
+#txns td:nth-child(10),
+#txns tr:not(:has(>td[rowspan]))>td:nth-child(3)
+{ text-align:center; }
+
+#txns td:nth-child(2)
+{ white-space:nowrap; }
+
+/* don't let skeleton override hledger's align attributes */
+td[align="right"],  th[align="right"]  { text-align: right; }
+td[align="center"], th[align="center"] { text-align: center; }
+td[align="left"],   th[align="left"]   { text-align: left; }
