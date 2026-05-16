@@ -24,38 +24,28 @@ _plaintextaccounting-sponsorships-anon.journal: github-sponsors.rules _plaintext
 _simonmichael-sponsorships-anon.journal: github-sponsors.rules _simonmichael-sponsorships-all-time.csv
 	hledger --rules github-sponsors.rules print -f _simonmichael-sponsorships-all-time.csv > _simonmichael-sponsorships-anon.journal
 
+# reports
+
 LEDGER_FILE=pta.journal
+HLREPORT=hledger -O html --title '' -c '$$1000.'
+OUT=../src/finance.md
 
 # check the journal
 check:
 	@hledger check -s ordereddates && echo ok
 
-OUT=../src/finance.md
-HLREPORT=hledger -O html --title '' -c '$$1000.'
-
-# reports
-
 # update the reports in finance.md
-update:
-	sed '/<!-- Everything below is regenerated/q' < $(OUT) > $(OUT).tmp
-	{ \
-	\
-	printf "\n\n### Balance sheet\n\n" ; \
-	$(HLREPORT) bs -Y -e tomorrow ; \
-	\
-	printf "\n\n### Income statement\n\n" ; \
-	$(HLREPORT) is -YTAS -e tomorrow ; \
-	\
-	printf "\n\n### Revenue detail\n\n" ; \
-	$(HLREPORT) bal revenue -YAT --pivot acct:tier --drop 1 ; \
-	\
-	printf "\n\n### Transactions\n\n" ; \
-	printf "<small>\n" ; \
-	hledger -O html --round=soft print -x -e tomorrow ; \
-	printf "</small>\n" ; \
-	\
-	} >> $(OUT).tmp
-	mv $(OUT).tmp $(OUT)
+reports: $(OUT)
+
+$(OUT): pta.journal Makefile
+	sed '/<!-- Everything below is regenerated/q' < $(OUT) > .tmpmd
+	printf '\n### Balance sheet\n\n%s\n'                   "$$($(HLREPORT) bs -Y -e tomorrow)"                             >> .tmpmd
+	printf '\n### Income statement\n\n%s\n'                "$$($(HLREPORT) is -YTAS -e tomorrow)"                          >> .tmpmd
+	printf '\n### Revenue detail\n\n%s\n'                  "$$($(HLREPORT) bal revenue -YAT --pivot acct:tier --drop 1)"   >> .tmpmd
+	# hacky css to hide some transaction columns
+	printf '\n<style>\n#txns th:nth-child(1), #txns th:nth-child(3), #txns th:nth-child(4), #txns th:nth-child(5), #txns th:nth-child(9), #txns th:nth-child(13), #txns th:nth-child(14),\n#txns tr:has(>td[rowspan])>td:nth-child(1), #txns tr:has(>td[rowspan])>td:nth-child(3), #txns tr:has(>td[rowspan])>td:nth-child(4), #txns tr:has(>td[rowspan])>td:nth-child(5), #txns tr:has(>td[rowspan])>td:nth-child(9), #txns tr:has(>td[rowspan])>td:nth-child(13), #txns tr:has(>td[rowspan])>td:nth-child(14),\n#txns tr:not(:has(>td[rowspan]))>td:nth-child(2), #txns tr:not(:has(>td[rowspan]))>td:nth-child(6) { display: none; }\n</style>\n' >> .tmpmd
+	printf '\n### Transactions\n\n<div id="txns"><small>\n%s\n</small></div>\n' "$$(hledger print -O html --explicit --round=soft -e tomorrow)" >> .tmpmd
+	mv .tmpmd $(OUT)
 
 # show a balance sheet with retained earnings and conversion equity added, satisfying the accounting equation
 bse:
@@ -64,4 +54,3 @@ bse:
 # show revenue by sponsor tier
 tiers:
 	@hledger bal revenue -YAT --pivot acct:tier --title ''
-
