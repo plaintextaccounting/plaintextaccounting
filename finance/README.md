@@ -1,7 +1,5 @@
 Financial records of the plaintextaccounting org.
 
-(Incomplete, WIP.)
-
 - pta.journal              - public journal since 2024Q2
   - commodities.journal      - commodity declarations
   - accounts.journal         - account declarations

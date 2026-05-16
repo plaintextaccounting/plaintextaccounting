@@ -1,3 +1,4 @@
+
 # make temporary journals to copy-paste or import from
 
 TMPJOURNALS=\
@@ -30,7 +31,7 @@ check:
 	@hledger check -s ordereddates && echo ok
 
 OUT=../src/finance.md
-HLREPORT=hledger -O html --title '' -c 'commodity $1000.'
+HLREPORT=hledger -O html --title "''" -c '$$1000.'
 
 # reports
 
