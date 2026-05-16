@@ -8,9 +8,12 @@ date %transaction_date
 date-format %Y-%m-%d %H:%M:%S %z
 status *
 
-description donor
+if %is_public true
+ description %sponsor_profile_name (%sponsor_handle)
+if !%is_public true
+ description anonymous %sponsor_profile_name (%sponsor_handle)
 
-comment country: %country, tier: %tier_name
+comment country: %country, region: %region, tier: %tier_name
 
 account1 revenues:github
 account2 liabilities:sm
