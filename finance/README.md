@@ -9,5 +9,3 @@ Financial records of the plaintextaccounting org.
   - github-sponsors.journal  - github sponsors donations, with donors anonymised
 
 Country codes: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
-
-plaintextaccounting currently does not have cash assets; any revenue is paid out to sm as reimbursement.
