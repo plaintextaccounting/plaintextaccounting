@@ -80,7 +80,7 @@ title:'Support Simon via Paypal',
 
 ## Financial reports
 
-All but Transactions are rounded to US dollars.
+Most of these are rounded to US dollars.
 [Journal files](https://github.com/plaintextaccounting/plaintextaccounting/tree/master/finance)
 
 
