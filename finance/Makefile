@@ -50,7 +50,9 @@ update:
 	$(HLREPORT) bal revenue -YAT --pivot acct:tier --drop 1 ; \
 	\
 	printf "\n\n### Transactions\n\n" ; \
+	printf "<small>\n" ; \
 	hledger -O html --round=soft print -x -e tomorrow ; \
+	printf "</small>\n" ; \
 	\
 	} >> $(OUT).tmp
 	mv $(OUT).tmp $(OUT)
