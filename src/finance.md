@@ -13,7 +13,7 @@ If you find this work useful, and you are in a position to help financially, you
 
 You can have a linked logo and tagline on the [PTA home page](index.html). Contact me!
 
-### Help cover project costs
+### Cover project costs
 
 Eg domain, hosting and discourse fees.
 In 2024, I set up the PTA forum as an alternative to Reddit;
@@ -80,7 +80,7 @@ title:'Support Simon via Paypal',
 
 ## Financial reports
 
-Generated with plain text accounting, of course! ([source](https://github.com/plaintextaccounting/plaintextaccounting/tree/master/finance)).
+Produced with plain text accounting, of course ([source](https://github.com/plaintextaccounting/plaintextaccounting/tree/master/finance)).
 Most reports are rounded to US dollars.
 
 <!-- Everything below is regenerated -->
