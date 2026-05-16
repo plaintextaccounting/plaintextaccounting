@@ -1,0 +1,11 @@
+;account assets
+account liabilities
+account liabilities:sm    ; reimbursement due to sm
+account equity
+account equity:retained   ; used by make bse
+account revenues
+account revenues:github   ; donations via github sponsors
+account revenues:paypal   ; donations via paypal
+account expenses
+account expenses:hosting
+

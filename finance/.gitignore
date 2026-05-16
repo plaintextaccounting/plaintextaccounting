@@ -1,3 +1,4 @@
 github-sponsorships.rules
 *.csv
-*sponsorships.journal
+*sponsorships*.journal
+private.journal
