@@ -4,23 +4,22 @@
 toc: false
 ...
 
-This organisation should be solvent and self-sustaining, but currently is not.
+This organisation should be solvent and self-sustaining - but currently is not!
 If you find this work useful, and you are in a position to help financially, your support is much appreciated!
 
 <!-- ## Donate -->
 
 ### Become a sponsor
 
-You can have a linked logo and tagline on the [home page](index.html). Contact me!
+You can have a linked logo and tagline on the [PTA home page](index.html). Contact me!
 
 ### Help cover project costs
 
 Eg domain, hosting and discourse fees.
-(I set up the PTA forum in 2024 as an alternative to Reddit;
+In 2024, I set up the PTA forum as an alternative to Reddit;
 see [PTA forum news, 2024-03-18](https://forum.plaintextaccounting.org/t/pta-forum-news-2024-03-18/207)
 and [A trial of Discourse for Plain Text Accounting discussions](https://forum.plaintextaccounting.org/t/a-trial-of-discourse-for-plain-text-accounting-discussions/5)
-and [People who have used Reddit for more than 10 years, what is your current opinion on the site?](https://www.reddit.com/r/TheoryOfReddit/comments/1t9uwl7/people_who_have_used_reddit_for_more_than_10/) (2026)
-)
+and [People who have used Reddit for more than 10 years, what is your current opinion on the site?](https://www.reddit.com/r/TheoryOfReddit/comments/1t9uwl7/people_who_have_used_reddit_for_more_than_10/) (2026).
 
 - [![github](https://img.shields.io/badge/Support_PTA_via-Github-limegreen "Sponsor the project leader via Github")](https://github.com/sponsors/plaintextaccounting)
 - <span id="paypal-pta-button"></span>
@@ -38,15 +37,16 @@ and the #plaintextaccounting IRC channel.
 - <span id="paypal-sm-button"></span>
 <!-- - [![liberapay](https://img.shields.io/badge/Support_PTA_via-Liberapay-limegreen "Sponsor the project leader via Liberapay")](https://liberapay.com/simonmichael) -->
 
-(I won't always know donations are for plain text accounting, so feel free to let me know.)
-
 ### Support other PTA curators
 
 The plaintextaccounting subreddit is managed by [Colin Dean](https://www.reddit.com/user/colindean).
 
-### Support PTA software developers
+### Support your PTA software developers
 
-Their software makes plain text accounting possible.
+John Wiegley kicked off the plain text accounting movement with Ledger.
+Martin Blais created the popular Beancount.
+Some guy made hledger, and so on.
+Many folks worked hard to make plain text accounting possible.
 You can find the project home pages at [PTA apps](index.html#pta-apps).
 
 ### What are the fees for donating ?

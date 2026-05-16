@@ -75,9 +75,9 @@ and efficient, command-line-friendly software like Ledger, hledger, or Beancount
 </div>
 
 This site is a portal to the PTA community and its tools, docs, and practices,
-maintained by [Simon&nbsp;Michael](https://joyful.com) (PTA fan and hledger project leader).
-If you find it useful, would you like to help with [[finance]],
-or contribute to the [repo](https://github.com/plaintextaccounting/plaintextaccounting) ?
+made with love by [Simon&nbsp;Michael](https://joyful.com) (PTA fan and hledger project leader).
+Updates to the [repo](https://github.com/plaintextaccounting/plaintextaccounting) are welcome.
+If you find this useful and resources allow, [[finance.html|supporting financially]] is a great way to help.
 Thank you sponsors, including:
 </div>
 
