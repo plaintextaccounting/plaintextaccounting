@@ -1,3 +1,8 @@
+/* don't let skeleton override hledger's amount alignment */
+td[align="right"],  th[align="right"]  { text-align: right; }
+td[align="center"], th[align="center"] { text-align: center; }
+td[align="left"],   th[align="left"]   { text-align: left; }
+
 body {
     background-color:white;
     padding-top:2em;

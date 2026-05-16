@@ -8,7 +8,7 @@ date %transaction_date
 date-format %Y-%m-%d %H:%M:%S %z
 status *
 
-description donor
+description github sponsor
 
 comment country: %country, tier: %tier_name
 

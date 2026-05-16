@@ -1,24 +1,24 @@
-2024-04-11 * donor  ; country: USA, tier: $25 one time
+2024-04-11 * github sponsor  ; country: USA, tier: $25 one time
     revenues:github                             $-25.00
     liabilities:sm                               $25.00
 
-2024-04-18 * donor  ; country: ARE, tier: $5 one time
+2024-04-18 * github sponsor  ; country: ARE, tier: $5 one time
     revenues:github                              $-5.00
     liabilities:sm                                $5.00
 
-2024-04-23 * donor  ; country: CHL, tier: $3 one time
+2024-04-23 * github sponsor  ; country: CHL, tier: $3 one time
     revenues:github                              $-3.00
     liabilities:sm                                $3.00
 
-2024-05-26 * donor  ; country: United States of America, tier: $25 a month
+2024-05-26 * github sponsor  ; country: United States of America, tier: $25 a month
     revenues:github                            $-120.49  ; prorated:
     liabilities:sm                              $120.49
 
-2024-10-20 * donor  ; country: United States of America, tier: $25 a month
+2024-10-20 * github sponsor  ; country: United States of America, tier: $25 a month
     revenues:github                            $-300.00
     liabilities:sm                              $300.00
 
-2025-10-20 * donor  ; country: United States of America, tier: $25 a month
+2025-10-20 * github sponsor  ; country: United States of America, tier: $25 a month
     revenues:github                            $-300.00
     liabilities:sm                              $300.00
 
