@@ -15,7 +15,9 @@
 -- - these are not case insensitive - link and filename case must match exactly
 
 function Link(el)
-   if el.title == "wikilink" then
+   if el.title == "wikilink"           -- pandoc 3.1ish
+   or el.classes:includes("wikilink")  -- pandoc 3.9ish
+   then
       t = el.target
       t = t:gsub("[?']", "")
       t = t:gsub("^ +", "")
@@ -37,6 +39,9 @@ function Link(el)
          u = u .. "#" .. frag
       end
       el.target = u
+      -- pandoc 3.9ish: must remove the wikilink class to see the new target
+      -- https://github.com/jgm/pandoc/issues/11663
+      el.classes = el.classes:filter(function(c) return c ~= "wikilink" end)
    end
    return el
 end
