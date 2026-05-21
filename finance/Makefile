@@ -1,5 +1,6 @@
 
-# make temporary journals to copy-paste or import from
+# Make temporary journals to copy-paste or import from.
+# Files with a _ prefix are private and not committed.
 
 TMPJOURNALS=\
 	_plaintextaccounting-sponsorships.journal \
