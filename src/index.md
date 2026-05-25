@@ -824,6 +824,7 @@ td:first-child strong a {
 ### AI
 
 - [accountant24](https://github.com/machulav/accountant24) - local-first multi-model AI agent using hledger
+- [Setup Claude Code to work with hledger and Obsidian](https://www.mandalivia.com/obsidian/hledger-obsidian-personal-finance-with-claude-code/) - Claude Code as the agent layer for hledger in an Obsidian vault
 
 ### Distros/setups
 
