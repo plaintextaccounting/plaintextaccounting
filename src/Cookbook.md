@@ -31,7 +31,7 @@ or [add it yourself](https://github.com/plaintextaccounting/plaintextaccounting/
 
 - [[Borrowing and Lending]]
 - [[Budgeting]]
-- [[Cash or accrual]]
+- [[Cash or accrual|Cash or accrual basis]]
 - Depreciation
 - [[Eco accounting]]
 - [[Forecasting]]
