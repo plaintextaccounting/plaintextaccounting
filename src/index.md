@@ -870,6 +870,7 @@ Some alternate distributions/setups for the PTA apps.
 - [CSV2Ledger](https://launchpad.net/csv2ledger) CSV to *ledger converter (perl)
 - [csv2ledger.el](https://codeberg.org/joostkremers/csv2ledger) CSV to *ledger converter (emacs lisp)
 - [double-entry-generator](https://github.com/deb-sig/double-entry-generator) Rule-based double-entry bookkeeping importer (from Alipay/WeChat/Huobi etc. to Beancount)
+- [FinancialBeancount](https://github.com/CacinieP/FinancialBeancount) ceancount converter/deduplicator for Alipay, WeChat Pay, bank statements, CSV, XLSX, PDF (python)
 - [finfetch](https://github.com/natepmay/finfetch) local web app for downloading csv from your banks via Plaid (categorised, deduplicated, plus edits and deletions)
 - [fints2ledger](https://github.com/MoritzR/fints2ledger) FinTS/HBCI to csv to *ledger or beancount journals (python)
 - [grisbi2Ledger](https://github.com/Hawk777/grisbi2ledger) Grisbi to *ledger converter
@@ -1045,6 +1046,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 ### UI, GUI
 
 - [favagtk](https://gitlab.gnome.org/johannesjh/favagtk/) app of Fava web UI for beancount viewing (python+gtk, 2022..)
+- [Finzytrack](https://finzytrack.com) GUI for beancount with optional local/cloud AI integration (python, ts, 2026)
 - [fruit-credits](https://codeberg.org/dz4k/fruit-credits) data entry/reporting GUI for hledger (vala+gnome, 2024)
 - [hledger-macos](https://github.com/thesmokinator/hledger-macos) mac app for viewing/editing (swift, 2026)
 - [Ledgera](https://github.com/thesmokinator/ledgera/) cross platform accounting app based on hledger (rust+ts, 2026)
