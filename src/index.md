@@ -346,8 +346,9 @@ Inactive projects are sorted by start date then last release date.
 | plutus             | [python][plutus-src]         | 2025   |              |           1 |     30 |
 | limabean           | [clojure/rust][limabean-src] | 2025   | 2026         |           1 |     24 | [github][limabean-discussions]
 | coin               | [go][coin-src]               | 2019   | 2025         |           1 |     13 |
+| Tare Money         | [ts][tare-money-src] (Obsidian plugin) | 2026 | 2026 |           1 |      9 |
 | sledger            | [C][sledger-src]             | 2024   |              |           1 |      3 |
-| Tare Money         | [ts][tare-money-src] (Obsidian plugin) | 2026 | 2026 |           1 |      1 |
+| ledgerkit          | [python][ledgerkit-src]      | 2026   |              |           1 |      1 |
 | <br>**Past/inactive**  |                          |        |              |             |        |
 | [placc]            | nim (closed source)          | 2024   | 2024         |           1 |        |
 | budget-cli         | [ts][budget-cli]             | 2023   |              |           3 |     12 |
@@ -433,6 +434,8 @@ Inactive projects are sorted by start date then last release date.
 
 [ledger.bash]: https://github.com/benjaminogles/ledger.bash
 [ledger.pl-src]: https://github.com/dimonf/ledger.pl
+
+[ledgerkit-src]: https://github.com/ctosullivan/ledgerkit
 
 [limabean-src]: https://github.com/tesujimath/limabean
 [limabean-discussions]: https://github.com/tesujimath/limabean/discussions
@@ -1115,6 +1118,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [hledger-lib](https://github.com/simonmichael/hledger/tree/master/hledger-lib) library for parsing and generating reports from *ledger files (haskell)
 - [hledger-web](https://github.com/simonmichael/hledger/tree/master/hledger-web) the web app includes a JSON API server for *ledger files (haskell)
 - [ledgerhelpers](https://github.com/Rudd-O/ledgerhelpers) extends Ledger's python library (python)
+- [ledgerkit](https://github.com/ctosullivan/ledgerkit) command line reports / python library / DataFrame export for hledger files (python)
 - [magicbeans](https://github.com/ericaltendorf/magicbeans/) Beancount extensions for cryptocurrency tax tracking and reporting
 - [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API for *ledger files (js)
 - [pyhledger](https://github.com/btittelbach/pyhledger) python scripts for parsing / converting to hledger format (python)
