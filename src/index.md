@@ -240,6 +240,7 @@ Thank you sponsors, including:
 
 ### Slides
 
+- [Marcus Rohrmoser: Buchhaltung, Hacker Art](https://unix-freunde.mro.name/archiv/2026-06-17T220000-buchhaltung.html) (2026, german)
 - [Youngbin Han: Plain Text Accounting with hledger](https://docs.google.com/presentation/d/17kkPlLOFhpwfEIhHfT0hJ1PRmZ6-Tq7JIAdTAhjp24A/preview?pru=AAABmo3qmB4*fWFiJB8Z7cZwQbc72JsTjA&slide=id.g38f1acd61f5_0_19) (2025, korean and english)
 - [Simon Michael: Inside hledger: an architectural tour and how-to](https://rawcdn.githack.com/simonmichael/hledger/4013a81af8dd2804c73ecac18fb3e7e4745a4275/doc/haskellerz/haskellerz.slidy.html) 2021
 - [Michael Lynch: An introduction to plaintext accounting](https://decks.mtlynch.io/plaintext-acccounting/) 2021
