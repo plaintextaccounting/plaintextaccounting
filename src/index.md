@@ -1087,6 +1087,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 
 - [Beancount Mobile CE](https://github.com/stargately/beancount-mobile) mobile app (Android/IOS, ts, 2020..)
 - [beancount-mobile](https://github.com/xuhcc/beancount-mobile) data entry app (Android, ts, 2019)
+- [beanviz](https://apps.apple.com/us/app/beanviz/id6768042012) report viewing app (IOS, 2026)
 - [NanoLedger](https://f-droid.org/en/packages/be.chvp.nanoledger) data entry app for h/ledger (Android, kotlin, 2023..)
 - [cashier][cashier-demo] mobile or desktop client for ledger and hledger-web (Android/Desktop, [js][cashier], 2019)
 - [cone](https://f-droid.org/en/packages/info.tangential.cone/) data entry app for the h/ledger format (Android, [dart](https://github.com/bradyt/cone), 2019)
