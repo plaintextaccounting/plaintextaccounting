@@ -863,6 +863,7 @@ Some alternate distributions/setups for the PTA apps.
 - [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
 - [beanborg](https://github.com/luciano-fiandesio/beanborg) Advanced transaction importer with auto-categorization (python)
 - [beancount-import](https://github.com/jbms/beancount-import) web app/framework for converting various formats to beancount (python)
+- [beancount-openbanking-io](https://github.com/open-banking-io/clients/tree/main/beancount) beangulp importer syncing EEA & UK bank transactions over PSD2, decrypted client-side; no eIDAS certificate, no per-account daily rate-limit (python)
 - [beancount-reds-importers](https://github.com/redstreet/beancount_reds_importers) Simple importers and tools for Beancount. A framework to allow you to easily write your own importers.
 - [beancount2ledger](https://github.com/beancount/beancount2ledger) beancount to h/ledger converter (python)
 - [beanhub-extract](https://github.com/LaunchPlatform/beanhub-extract) Simple Python library for extracting all kinds of bank export CSV files into standardized transaction data objects
