@@ -341,7 +341,7 @@ Inactive projects are sorted by start date then last release date.
 | [zhang]            | [rust/ts][zhang-src]         | 2023   | 2024         |           5 |    180 |
 | [Tackler]          | [rust][tackler-src]          | 2017   | 2026         |           3 |    120 | [matrix][#tackler:matrix.org], [github][tackler-discussions]
 | [rustledger]       | [rust][rustledger-src]       | 2025   | 2026         |           1 |     66 | [github][rustledger-discussions]
-| knut               | [go][knut-src]               | 2020   | 2024         |           3 |     60 |
+| knut                | [go][knut-src]               | 2020   | 2024         |           3 |     60 |
 | [acc]              | [rust][acc-src]              | 2020   | 2026         |           1 |     49 | [github][acc-discussions]
 | [ledg]             | [ts][ledg]                   | 2021   | 2025         |           1 |     45 |
 | plutus             | [python][plutus-src]         | 2025   |              |           1 |     30 |
@@ -350,6 +350,7 @@ Inactive projects are sorted by start date then last release date.
 | Tare Money         | [ts][tare-money-src] (Obsidian plugin) | 2026 | 2026 |           1 |      9 |
 | sledger            | [C][sledger-src]             | 2024   |              |           1 |      3 |
 | ledgerkit          | [python][ledgerkit-src]      | 2026   |              |           1 |      1 |
+| [Ruby Ledger][ruby_ledger-src] | [ruby][ruby_ledger-src] | 2026 |          |           1 |        |
 | <br>**Past/inactive**  |                          |        |              |             |        |
 | [placc]            | nim (closed source)          | 2024   | 2024         |           1 |        |
 | budget-cli         | [ts][budget-cli]             | 2023   |              |           3 |     12 |
@@ -458,6 +459,8 @@ Inactive projects are sorted by start date then last release date.
 [prudent-src]: https://github.com/PrudentMe
 [prudent-chat]: https://twitter.com/PrudentLedger
 
+[ruby_ledger-src]: https://github.com/aburoos/ruby_ledger
+
 [rust_ledger-src]: https://github.com/ebcrowder/rust_ledger
 
 [rustledger]: https://rustledger.github.io
@@ -526,7 +529,7 @@ td:first-child strong a {
 | <br>**<a name="getting-started" href="#getting-started">Getting-started</a>**
 | Easy install and setup:         | yes                                                              | yes                                                                                                                         | no
 | CLI help:                       | general --help, also available as [man page][ledger man]         | general and command-specific --help, [commands summary][hledger commands summary], [built-in asciinema demos][hledger demo] | command-specific --help
-| [TLDR] short help:              | [ledger][ledger tldr]                                            | [hledger][hledger tldr] and [commands][hledger balance tldr], also built-in                                                 |
+| [TLDR] short help:              | [ledger][ledger tldr]                                            | [hledger][hledger tldr] and [commands][hledger balance tldr], also built-in                                                |
 | User manual formats:            | [web][ledger manual web]                                         | [web][hledger manual web], info, [man][hledger man], also built-in info/man/text with [jump to topic]                       | [web][beancount manual web]
 | Active support channels:        |                                                                  | [chat][hledger chat], [mail list][hledger mail list], [forum], [reddit]                                                     | [mail list][beancount mail list]
 |
@@ -1126,5 +1129,4 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [magicbeans](https://github.com/ericaltendorf/magicbeans/) Beancount extensions for cryptocurrency tax tracking and reporting
 - [node-hledger](https://github.com/rstacruz/node-hledger) Node.js API for *ledger files (js)
 - [pyhledger](https://github.com/btittelbach/pyhledger) python scripts for parsing / converting to hledger format (python)
-
-
+- [ruby_ledger](https://github.com/aburoos/ruby_ledger) parser and library for h/ledger-format files, plus CLI (ruby)
