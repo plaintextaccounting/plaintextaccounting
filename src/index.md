@@ -350,7 +350,7 @@ Inactive projects are sorted by start date then last release date.
 | Tare Money         | [ts][tare-money-src] (Obsidian plugin) | 2026 | 2026 |           1 |      9 |
 | sledger            | [C][sledger-src]             | 2024   |              |           1 |      3 |
 | ledgerkit          | [python][ledgerkit-src]      | 2026   |              |           1 |      1 |
-| [Ruby Ledger][ruby_ledger-src] | [ruby][ruby_ledger-src] | 2026 |          |           1 |        |
+| Ruby Ledger        | [ruby][ruby_ledger-src]      | 2026   |              |           1 |        |
 | <br>**Past/inactive**  |                          |        |              |             |        |
 | [placc]            | nim (closed source)          | 2024   | 2024         |           1 |        |
 | budget-cli         | [ts][budget-cli]             | 2023   |              |           3 |     12 |
