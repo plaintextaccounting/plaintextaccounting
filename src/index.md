@@ -341,7 +341,7 @@ Inactive projects are sorted by start date then last release date.
 | [zhang]            | [rust/ts][zhang-src]         | 2023   | 2024         |           5 |    180 |
 | [Tackler]          | [rust][tackler-src]          | 2017   | 2026         |           3 |    120 | [matrix][#tackler:matrix.org], [github][tackler-discussions]
 | [rustledger]       | [rust][rustledger-src]       | 2025   | 2026         |           1 |     66 | [github][rustledger-discussions]
-| knut                | [go][knut-src]               | 2020   | 2024         |           3 |     60 |
+| knut               | [go][knut-src]               | 2020   | 2024         |           3 |     60 |
 | [acc]              | [rust][acc-src]              | 2020   | 2026         |           1 |     49 | [github][acc-discussions]
 | [ledg]             | [ts][ledg]                   | 2021   | 2025         |           1 |     45 |
 | plutus             | [python][plutus-src]         | 2025   |              |           1 |     30 |
