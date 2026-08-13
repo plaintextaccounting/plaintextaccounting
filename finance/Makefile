@@ -14,16 +14,16 @@ clean:
 	rm -f $(TMPJOURNALS)
 
 _plaintextaccounting-sponsorships.journal: _github-sponsors.rules _plaintextaccounting-sponsorships-all-time.csv
-	hledger --rules _github-sponsors.rules print -f _plaintextaccounting-sponsorships-all-time.csv > _plaintextaccounting-sponsorships.journal
-
-_simonmichael-sponsorships.journal: _github-sponsors.rules _simonmichael-sponsorships-all-time.csv
-	hledger --rules _github-sponsors.rules print -f _simonmichael-sponsorships-all-time.csv > _simonmichael-sponsorships.journal
+	hledger -n --rules _github-sponsors.rules -f _plaintextaccounting-sponsorships-all-time.csv print > _plaintextaccounting-sponsorships.journal
 
 _plaintextaccounting-sponsorships-anon.journal: github-sponsors.rules _plaintextaccounting-sponsorships-all-time.csv
-	hledger --rules github-sponsors.rules print -f _plaintextaccounting-sponsorships-all-time.csv > _plaintextaccounting-sponsorships-anon.journal
+	hledger -n --rules github-sponsors.rules -f _plaintextaccounting-sponsorships-all-time.csv print > _plaintextaccounting-sponsorships-anon.journal
+
+_simonmichael-sponsorships.journal: _github-sponsors.rules _simonmichael-sponsorships-all-time.csv
+	hledger -n --rules _github-sponsors.rules -f _simonmichael-sponsorships-all-time.csv print > _simonmichael-sponsorships.journal
 
 _simonmichael-sponsorships-anon.journal: github-sponsors.rules _simonmichael-sponsorships-all-time.csv
-	hledger --rules github-sponsors.rules print -f _simonmichael-sponsorships-all-time.csv > _simonmichael-sponsorships-anon.journal
+	hledger -n --rules github-sponsors.rules -f _simonmichael-sponsorships-all-time.csv print > _simonmichael-sponsorships-anon.journal
 
 # reports
 
@@ -46,10 +46,3 @@ $(OUT): pta.journal Makefile
 	printf '\n### General journal\n\n<div id="txns">\n%s\n</div>\n'    "$$(hledger print -O html --explicit --round=soft)"   >> .tmpmd
 	mv .tmpmd $(OUT)
 
-# show a balance sheet demonstrating a balanced accounting equation
-bse:
-	@hledger bse --infer-equity --alias '/^(revenues|expenses)/=equity:retained' -t
-
-# show revenue by sponsor tier
-tiers:
-	@hledger bal revenue -YAT --pivot acct:tier --title ''
