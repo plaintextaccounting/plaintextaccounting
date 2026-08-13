@@ -3,27 +3,19 @@
 # Files with a _ prefix are private and not committed.
 
 TMPJOURNALS=\
-	_plaintextaccounting-sponsorships.journal \
+	_plaintextaccounting-sponsorships-full.journal \
 	_plaintextaccounting-sponsorships-anon.journal \
-	_simonmichael-sponsorships.journal \
-	_simonmichael-sponsorships-anon.journal \
 
 tmp-journals: $(TMPJOURNALS)
 
 clean:
 	rm -f $(TMPJOURNALS)
 
-_plaintextaccounting-sponsorships.journal: _github-sponsors.rules _plaintextaccounting-sponsorships-all-time.csv
-	hledger -n --rules _github-sponsors.rules -f _plaintextaccounting-sponsorships-all-time.csv print > _plaintextaccounting-sponsorships.journal
+_plaintextaccounting-sponsorships-full.journal: _github-sponsors.rules _plaintextaccounting-sponsorships-all-time.csv
+	hledger -n --rules _github-sponsors.rules -f _plaintextaccounting-sponsorships-all-time.csv print > _plaintextaccounting-sponsorships-full.journal
 
 _plaintextaccounting-sponsorships-anon.journal: github-sponsors.rules _plaintextaccounting-sponsorships-all-time.csv
 	hledger -n --rules github-sponsors.rules -f _plaintextaccounting-sponsorships-all-time.csv print > _plaintextaccounting-sponsorships-anon.journal
-
-_simonmichael-sponsorships.journal: _github-sponsors.rules _simonmichael-sponsorships-all-time.csv
-	hledger -n --rules _github-sponsors.rules -f _simonmichael-sponsorships-all-time.csv print > _simonmichael-sponsorships.journal
-
-_simonmichael-sponsorships-anon.journal: github-sponsors.rules _simonmichael-sponsorships-all-time.csv
-	hledger -n --rules github-sponsors.rules -f _simonmichael-sponsorships-all-time.csv print > _simonmichael-sponsorships-anon.journal
 
 # reports
 
