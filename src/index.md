@@ -828,13 +828,6 @@ td:first-child strong a {
 [h reg bounties]:           https://hledger.org/REGRESSIONS.html
 
 
-### AI
-
-- [accountant24](https://github.com/machulav/accountant24) - local-first multi-model AI agent using hledger
-- [Setup Claude Code to work with hledger and Obsidian](https://www.mandalivia.com/obsidian/hledger-obsidian-personal-finance-with-claude-code/) - Claude Code as the agent layer for hledger in an Obsidian vault
-- [Countbean](https://github.com/CPUtester5465/countbean-plugin) - Claude Code plugin and MCP server for Beancount, using bean-check and git. Works with local files or countbean.com.
-- [Beancount AI](https://github.com/Rudd-O/beancount-ai) - convert scanned/photographed receipts to Beancount transactions, or attach them to existing transactions.
-
 ### Distros/setups
 
 Some alternate distributions/setups for the PTA apps.
@@ -858,6 +851,13 @@ Some alternate distributions/setups for the PTA apps.
 [beanhub]:   https://beanhub.io
 [beanhub-academy]: https://academy.beanhub.io
 [beanhub-src]: https://github.com/launchplatform
+
+### AI
+
+- [accountant24](https://github.com/machulav/accountant24) - local-first multi-model AI agent using hledger
+- [Setup Claude Code to work with hledger and Obsidian](https://www.mandalivia.com/obsidian/hledger-obsidian-personal-finance-with-claude-code/) - Claude Code as the agent layer for hledger in an Obsidian vault
+- [Countbean](https://github.com/CPUtester5465/countbean-plugin) - Claude Code plugin and MCP server for Beancount, using bean-check and git. Works with local files or countbean.com.
+- [Beancount AI](https://github.com/Rudd-O/beancount-ai) - convert scanned/photographed receipts to Beancount transactions, or attach them to existing transactions.
 
 ### Data conversion/import
 
