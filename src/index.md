@@ -1012,6 +1012,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 
 ### Reporting
 
+- [beancount-zakat](https://github.com/WildeBeast2521/beancount-zakat) zakat calculation for beancount & fava (python+js)
 - [budget_report](https://github.com/sulemankm/budget_report) budget reporting with beancount (python)
 - [gainstrack](https://github.com/glorat/gainstrack) personal wealth analysis app with beancount export (scala+ts)
 - [hledger-diff](https://hackage.haskell.org/package/hledger-diff) report differing transactions between two journals (haskell)
