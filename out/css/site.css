@@ -97,24 +97,23 @@ li > p {
 #txns tr:not(:has(>td[rowspan]))>td:nth-child(1)
 { padding-right:1em; }
 
+/* Hide a bunch of columns in the General journal:
+ * txnidx, date2, status, code, amount, posting-status, posting-comment */
 #txns th:nth-child(1),
 #txns th:nth-child(3),
 #txns th:nth-child(4),
 #txns th:nth-child(5),
-#txns th:nth-child(11),
-#txns th:nth-child(12),
+#txns th:nth-child(9),
 #txns th:nth-child(13),
 #txns th:nth-child(14),
 #txns tr:has(>td[rowspan])>td:nth-child(1),
 #txns tr:has(>td[rowspan])>td:nth-child(3),
 #txns tr:has(>td[rowspan])>td:nth-child(4),
 #txns tr:has(>td[rowspan])>td:nth-child(5),
-#txns tr:has(>td[rowspan])>td:nth-child(11),
-#txns tr:has(>td[rowspan])>td:nth-child(12),
+#txns tr:has(>td[rowspan])>td:nth-child(9),
 #txns tr:has(>td[rowspan])>td:nth-child(13),
 #txns tr:has(>td[rowspan])>td:nth-child(14),
-#txns tr:not(:has(>td[rowspan]))>td:nth-child(4),
-#txns tr:not(:has(>td[rowspan]))>td:nth-child(5),
+#txns tr:not(:has(>td[rowspan]))>td:nth-child(2),
 #txns tr:not(:has(>td[rowspan]))>td:nth-child(6),
 #txns tr:not(:has(>td[rowspan]))>td:nth-child(7)
 { display: none; }
