@@ -1,0 +1,36 @@
+
+# list recipes, optionally filtered by REGEX. Useful when there's many, but slower than just -ul.
+_help *REGEX:
+    #!/usr/bin/env bash
+    if [[ '{{ REGEX }}' == '' ]]
+    then just -f {{ justfile() }} -ul | sed -E 's/(^ +[A-Z_-]+ )/\n\1/'; echo
+    else just -f {{ justfile() }} -ul | rg --pcre2 -i '{{ REGEX }}'; true
+    fi
+
+alias h := _help
+
+# update everything
+update: data check reports
+
+# copy latest anonymised gh sponsors journal (previously prepared); import latest reimbursable expenses
+data:
+    cp .githubsponsors/plaintextaccounting-sponsorships-anon.journal github-sponsors.journal
+    hledger -n -f discourse.journal import expenses.rules
+
+# check journal(s)
+check:
+    hledger -n -f .pta.journal check -s ordereddates && echo "private journal ok"
+    hledger                    check -s ordereddates && echo "public journal ok"
+
+OUT := '../src/finance.md'
+HLREPORT := "hledger -O html --title= -c '$1000.'"
+
+# update the reports in finance.md
+reports:
+	sed '/<!-- Everything below is regenerated/q' < {{ OUT }} > .tmpout
+	printf '\n### Balance sheet\n\n%s\n'                               "$({{ HLREPORT }} bs -Y --drop 1)"                      >> .tmpout
+	printf '\n### Income statement\n\n%s\n'                            "$({{ HLREPORT }} is -YTAS --pivot acct:tier --drop 1)" >> .tmpout
+	printf '\n### Running balance\n\n<div id="running">\n%s\n</div>\n' "$({{ HLREPORT }} areg liabilities)"                    >> .tmpout
+	printf '\n### General journal\n\n<div id="txns">\n%s\n</div>\n'    "$(hledger print -O html --explicit --round=soft)"      >> .tmpout
+	mv .tmpout {{ OUT }}
+

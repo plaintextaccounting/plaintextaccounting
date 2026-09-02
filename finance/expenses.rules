@@ -1,0 +1,12 @@
+# Extract reimbursable PTA expenses from user's default journal.
+source | hledger -n -I areg 'expenses.*:pta' -O csv | sed -E 's/ \| [^"]*//'
+skip 1
+fields _txnidx,date,code,description,_otheraccounts,change,_balance
+status *
+amount -%change
+# adjust if needed:
+account1 liabilities:sm
+
+if
+discourse
+ account2 expenses:hosting
