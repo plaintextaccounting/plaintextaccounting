@@ -4,5 +4,5 @@
 
 include commodities.journal
 include accounts.journal
-include discourse.journal
+include expenses.journal
 include github-sponsors.journal

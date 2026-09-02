@@ -15,7 +15,7 @@ update: data check reports
 # copy latest anonymised gh sponsors journal (previously prepared); import latest reimbursable expenses
 data:
     cp .githubsponsors/plaintextaccounting-sponsorships-anon.journal github-sponsors.journal
-    hledger -n -f discourse.journal import expenses.rules
+    hledger -n import expenses.rules -f expenses.journal
 
 # check journal(s)
 check:
