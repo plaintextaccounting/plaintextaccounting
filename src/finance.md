@@ -43,15 +43,22 @@ The plaintextaccounting subreddit is managed by [Colin Dean](https://www.reddit.
 
 ### Support your PTA software developers
 
-John Wiegley kicked off the plain text accounting movement with Ledger.
-Martin Blais created the popular Beancount.
-Some guy made hledger, and so on.
 Many folks worked hard to make plain text accounting possible.
-You can find the project home pages at [PTA apps](index.html#pta-apps).
+
+John Wiegley kicked off the plain text accounting movement with Ledger:
+<https://github.com/ledger/ledger> > Sponsor
+
+Martin Blais created the popular Beancount:
+<https://github.com/beancount/beancount> > Sponsor
+
+Simon Michael maintains hledger:
+<https://hledger.org/sponsor.html>
+
+You can find more project websites at [PTA apps](index.html#pta-apps).
 
 ### What are the fees for donating ?
 
-See the [fee info at hledger.org](https://hledger.org/sponsor.html#fees).
+0% to ~13%, depending on donation method; see [hledger's Sponsor page](https://hledger.org/sponsor.html) for details.
 
 <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
 <script>
