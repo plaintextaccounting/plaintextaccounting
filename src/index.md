@@ -911,6 +911,7 @@ Some alternate distributions/setups for the PTA apps.
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
 - [slc](https://github.com/marvinpinto/slc) generates Ledger accounting entries, works with generic CSV files as well as the Stripe API
 - [smart_importer](https://github.com/johannesjh/smart_importer) library for building smarter CSV to beancount/Fava converters
+- [StatementToExcel](https://www.wattflow.net/bank-statement-to-csv/) bank statement PDF (text-based, not scanned) or OFX/QFX to CSV/XLSX in the browser, checking each row against the printed running balance; use the CSV with hledger/ledger CSV rules (closed source, free, web, 2026)
 - [Tiller](https://www.tillerhq.com) service to download from mostly-US banks to google or microsoft spreadsheets (commercial but pretty good)
 - [total_recall](https://github.com/eval/total_recall) CSV to *ledger converter
 
