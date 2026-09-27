@@ -1070,7 +1070,9 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 
 ### UI, web
 
+- [BeanHub](https://beanhub.io) web UI for beancount viewing, data entry with a Git repository (closed source with [open source tools](https://beanhub.io/open-source/), python, 2022)
 - [cash](https://github.com/jon49/cash) offline-capable web UI for data entry to CSV (js, 2024)
+- [discourse-hledger](https://gitea.kosmos.org/raucao/discourse-hledger) (ruby+js, 2026, [ann](https://meta.discourse.org/t/hledger-plugin-render-plain-text-accounting-journals-in-topics/413437))
 - [fava](https://github.com/beancount/fava) web UI for beancount viewing (python, 2016.., [demo](https://fava.pythonanywhere.com/))
 - [finfetch](https://github.com/natepmay/finfetch) local web app for downloading csv from your banks via Plaid (ts, 2025)
 - [hledger-web](https://hackage.haskell.org/package/hledger-web) web UI for *ledger viewing, data entry
@@ -1078,20 +1080,19 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [hledger-webuix](https://github.com/yga01/hledger-webuix) one-page local web app for hledger viewing, adding, editing (html+js, 2026)
 - [Ledger (Go)](https://github.com/howeyc/ledger) web UI for viewing ledger transactions, reports, and porfolios (go+js, 2021..)
 - [Ledger Web](https://github.com/peterkeen/Ledger-Web) ledger HTML reporting system (ruby+postgres, 2011)
-- [Ruby Ledger Rails](https://github.com/aburoos/ruby_ledger-rails) mountable Rails engine with balance/reigster web UI for ruby_ledger journals (ruby, 2026)
 - [Ledger Web](https://vifon.github.io/ledger-web) web UI/API for ledger viewing, data entry ([python](https://github.com/vifon/ledger-web), 2019)
 - [ledger-analytics](https://github.com/kendricktan/ledger-analytics) web UI for ledger data analytics (js, 2018)
 - [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for ledger viewing, data entry (python, 2015)
 - [ledger-pyreport](https://yingtongli.me/git/ledger-pyreport/about/) web UI for standard accounting statements and unrealised gains (python, 2020)
 - [ledgeraccounting](https://github.com/thecount2a/ledgeraccounting) web UI for hledger: data entry, basic reports and budgets (python+js, 2018)
 - [ledgible](https://github.com/lipidity/ledgible) web UI for ledger viewing, data entry (python+js, 2016)
-- [mymoney](https://github.com/dlmcpaul/mymoney) web UI for ledger viewing and some data entry (java, 2026)
 - [muhasib-e-hledger](https://gitlab.com/shivjm/muhasib-e-hledger) web UI for hledger reports (rust, 2024)
+- [mymoney](https://github.com/dlmcpaul/mymoney) web UI for ledger viewing and some data entry (java, 2026)
 - [nextcloud-hledger](https://github.com/37Rb/nextcloud-hledger) hledger UI on the Nextcloud file-sharing/web-app platform (php, 2021)
 - [node-ledger-web](https://github.com/slashdotdash/node-ledger-web) web UI for ledger viewing (js, 2014)
 - [Paisa](https://paisa.fyi) web UI or desktop app for ledger, hledger and beancount ([go/js/ts](https://github.com/ananthakumaran/paisa), 2022.., [demo](https://demo.paisa.fyi))
+- [Ruby Ledger Rails](https://github.com/aburoos/ruby_ledger-rails) mountable Rails engine with balance/reigster web UI for ruby_ledger journals (ruby, 2026)
 - [WealthPulse](https://github.com/readysetmark/WealthPulse) web UI for ledger viewing, price fetching (F#+js, 2013)
-- [BeanHub](https://beanhub.io) web UI for beancount viewing, data entry with a Git repository (closed source with [open source tools](https://beanhub.io/open-source/), python, 2022..)
 
 ### UI, mobile
 
