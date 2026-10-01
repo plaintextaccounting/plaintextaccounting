@@ -871,6 +871,7 @@ Some alternate distributions/setups for the PTA apps.
 - [beancount-openbanking-io](https://github.com/open-banking-io/clients/tree/main/beancount) beangulp importer syncing EEA & UK bank transactions over PSD2, decrypted client-side; no eIDAS certificate, no per-account daily rate-limit (python)
 - [beancount-reds-importers](https://github.com/redstreet/beancount_reds_importers) Simple importers and tools for Beancount. A framework to allow you to easily write your own importers.
 - [beancount2ledger](https://github.com/beancount/beancount2ledger) beancount to h/ledger converter (python)
+- [beancounttools](https://github.com/tarioch/beancounttools) importers, plugins and price fetchers for beancount (python)
 - [beanhub-extract](https://github.com/LaunchPlatform/beanhub-extract) Simple Python library for extracting all kinds of bank export CSV files into standardized transaction data objects
 - [beanhub-import](https://github.com/LaunchPlatform/beanhub-import) Declarative idempotent rule-based beancount transaction import engine in Python consumes data extracted by [beanhub-extract](https://github.com/LaunchPlatform/beanhub-extract)
 - [beanscrape](https://surebeans.net/beanscrape/) CLI tool that automates using your browser to scrape bank data to beancount (C#)
