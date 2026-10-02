@@ -1059,6 +1059,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 
 ### UI, GUI
 
+- [BeanDesk](https://github.com/SuperDaniel-cn/BeanDesk) desktop client and GAAP financial workbench for Beancount / Fava (tauri+react, 2026)
 - [favagtk](https://gitlab.gnome.org/johannesjh/favagtk/) app of Fava web UI for beancount viewing (python+gtk, 2022..)
 - [Finzytrack](https://finzytrack.com) GUI for beancount with optional local/cloud AI integration (python, ts, 2026)
 - [fruit-credits](https://codeberg.org/dz4k/fruit-credits) data entry/reporting GUI for hledger (vala+gnome, 2024)
