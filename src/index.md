@@ -346,6 +346,7 @@ Inactive projects are sorted by start date then last release date.
 | [ledg]             | [ts][ledg]                   | 2021   | 2025         |           1 |     45 |
 | plutus             | [python][plutus-src]         | 2025   |              |           1 |     30 |
 | limabean           | [clojure/rust][limabean-src] | 2025   | 2026         |           1 |     24 | [github][limabean-discussions]
+| [Centjes]          | [haskell][centjes-src]       | 2023   |              |           1 |     16 |
 | coin               | [go][coin-src]               | 2019   | 2025         |           1 |     13 |
 | Tare Money         | [ts][tare-money-src] (Obsidian plugin) | 2026 | 2026 |           1 |      9 |
 | sledger            | [C][sledger-src]             | 2024   |              |           1 |      3 |
@@ -460,6 +461,9 @@ Inactive projects are sorted by start date then last release date.
 [prudent-chat]: https://twitter.com/PrudentLedger
 
 [ruby_ledger-src]: https://github.com/aburoos/ruby_ledger
+
+[Centjes]: https://centjes.cs-syd.eu
+[centjes-src]: https://github.com/NorfairKing/centjes
 
 [rust_ledger-src]: https://github.com/ebcrowder/rust_ledger
 
