@@ -912,6 +912,7 @@ Some alternate distributions/setups for the PTA apps.
 - [ledger2beancount.py](https://gist.github.com/travisdahlke/71152286b0a8826249fe) *ledger to beancount converter (python)
 - [limabean-harvest](https://github.com/tesujimath/limabean-harvest) - Beancount importer with transaction pairing across accounts (clojure/rust)
 - [moneymoney-ledger](https://github.com/lukasbestle/moneymoney-ledger) MoneyMoney export extension for *ledger
+- - [Pennyrow](https://getpennyrow.com/books/) in-browser converter from PDF/CSV bank statements to CSV/OFX with per-statement balance checks; files are not uploaded (web, free, closed source)
 - [plaid2text](https://github.com/madhat2r/plaid2text) Plaid API to *ledger/beancount download/conversion
 - [reckon](https://github.com/cantino/reckon) smart interactive/non-interactive CSV to *ledger converter
 - [slc](https://github.com/marvinpinto/slc) generates Ledger accounting entries, works with generic CSV files as well as the Stripe API
