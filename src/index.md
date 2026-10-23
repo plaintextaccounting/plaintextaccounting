@@ -1102,6 +1102,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 
 ### UI, mobile
 
+- [Beanbook](https://github.com/pintofi/beanbook) mobile app (Android, kotlin, 2026..)
 - [Beancount Mobile CE](https://github.com/stargately/beancount-mobile) mobile app (Android/IOS, ts, 2020..)
 - [beancount-mobile](https://github.com/xuhcc/beancount-mobile) data entry app (Android, ts, 2019)
 - [beanviz](https://apps.apple.com/us/app/beanviz/id6768042012) report viewing app (IOS, 2026)
