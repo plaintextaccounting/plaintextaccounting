@@ -862,6 +862,7 @@ Some alternate distributions/setups for the PTA apps.
 - [Setup Claude Code to work with hledger and Obsidian](https://www.mandalivia.com/obsidian/hledger-obsidian-personal-finance-with-claude-code/) - Claude Code as the agent layer for hledger in an Obsidian vault
 - [Countbean](https://github.com/CPUtester5465/countbean-plugin) - Claude Code plugin and MCP server for Beancount, with optional countbean.com integration
 - [Beanhand](https://github.com/Rudd-O/beanhand) - AI-assisted Beancount ledger management: import scans/photos of receipts as transactions, associate receipts to existing transactions and organize them, add detail to transactions using their associated documents
+- [Agents Finance – hledger](https://agentsfinance.io/erps/hledger/) and [Beancount](https://agentsfinance.io/erps/beancount/) pages: real write-ups of plain-text accounting run with Claude Code and other AI agents, each with source and what was tested
 
 ### Data conversion/import
 
