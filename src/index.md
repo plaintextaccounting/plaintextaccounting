@@ -195,6 +195,7 @@ Thank you sponsors, including:
 - [hledger: Accounting links](https://hledger.org/accounting.html)
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 - [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
+- [PractiBalance](https://practibalance.com) - journal entry exercises: write the debits and credits for a transaction and see which line is wrong
 - [Accounting for Dragons](https://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
 
 ### Intros
