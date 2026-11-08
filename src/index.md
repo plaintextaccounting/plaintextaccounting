@@ -196,7 +196,7 @@ Thank you sponsors, including:
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 - [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
 - [PractiBalance](https://practibalance.com) - journal entry exercises: write the debits and credits for a transaction and see which line is wrong
-- [Accounting for Dragons](https://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons)
+- [Accounting for Dragons](https://web.archive.org/web/20260608085201/https://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons/)
 
 ### Intros
 
@@ -354,11 +354,9 @@ Inactive projects are sorted by start date then last release date.
 | ledgerkit          | [python][ledgerkit-src]      | 2026   |              |           1 |      1 |
 | Ruby Ledger        | [ruby][ruby_ledger-src]      | 2026   |              |           1 |      1 |
 | <br>**Past/inactive**  |                          |        |              |             |        |
-| [placc]            | nim (closed source)          | 2024   | 2024         |           1 |        |
 | budget-cli         | [ts][budget-cli]             | 2023   |              |           3 |     12 |
 | mynt               | [rust][mynt-src]             | 2023   |              |           1 |        |
 | awk-pta            | [awk][awk-pta-src]           | 2022   |              |           1 |     20 |
-| ubal               | [uxntal][ubal-src]           | 2022   |              |           1 |        |
 | bankroll           | [rust][bankroll-src]         | 2020   | 2020         |           1 |      1 |
 | [pta]              | [perl][pta-src]              | 2020   | 2020         |           1 |        |
 | blossom            | [F#][blossom-src]            | 2020   |              |           1 |     30 |
@@ -391,8 +389,6 @@ Inactive projects are sorted by start date then last release date.
 [acc-discussions]: https://github.com/rudolfschmidt/acc/discussions
 [awk-pta-src]: https://github.com/filiphanes/awk-pta
 [mynt-src]: https://git.sr.ht/~kmaasrud/mynt
-
-[placc]: https://dolfi.dev/placc
 
 [Beancount]: https://github.com/beancount/
 [Beancount2]: https://beancount.github.io
@@ -495,8 +491,6 @@ Inactive projects are sorted by start date then last release date.
 
 [ledg]: https://github.com/SitanHuang/ledg
 
-[ubal-src]: https://git.sr.ht/~cabrendan/ubal
-
 [zhang-src]: https://github.com/zhang-accounting/zhang
 [zhang]: https://zhang-accounting.kilerd.me/
 
@@ -527,7 +521,7 @@ td:first-child strong a {
 | [CLI]:                          | [ledger]                                                         | [hledger]                                                                                                                   | [beanquery]
 | [TUI]:                          | *[regdel]*                                                       | [hledger add], [hledger-ui], *[hledger-iadd]*, *[puffin]*                                                                   | *[bean-add]*
 | [GUI]:                          | *[Prudent]*, *[ledgerble]*, *[addtrans]*                         | *[fruit-credits]*                                                                                                           |
-| [WUI]:                          | *[ledgeraccounting]*, *[paisa]*, *[cashier]*, *[ledgible]*, *[ledger (howeyc)]*, *[ledger-web (vifon)]*, *[ledger-web (peterkeen)]*, *[ledger-pyreport]*, *[ledger-analytics]*, *[node-ledger-web]*  | [hledger-web], *[ledgeraccounting]*, *[paisa]*, *[cashier]*  | *[fava]*, *[paisa]*, *[BeanHub]*
+| [WUI]:                          | *[ledgeraccounting]*, *[paisa]*, *[cashier]*, *[ledgible]*, *[ledger (howeyc)]*, *[ledger-web (vifon)]*, *[ledger-web (peterkeen)]*, *[ledger-analytics]*, *[node-ledger-web]*  | [hledger-web], *[ledgeraccounting]*, *[paisa]*, *[cashier]*  | *[fava]*, *[paisa]*, *[BeanHub]*
 | [Android]:                      | *[cashier]*, *[NanoLedger]*                                      | *[cashier]*, *[MoLe]*, *[NanoLedger]*                                                                                       | *[Beancount Mobile CE]*, *[beancount-mobile (xuhcc)]*
 | [IOS]:                          |                                                                  |                                                                                                                             | *[Beancount Mobile CE]*
 |
@@ -618,7 +612,6 @@ td:first-child strong a {
 [ledger-web (vifon)]:       https://vifon.github.io/ledger-web
 [ledger-web (peterkeen)]:   https://github.com/peterkeen/Ledger-Web
 [NanoLedger]:               https://f-droid.org/en/packages/be.chvp.nanoledger
-[ledger-pyreport]:          https://yingtongli.me/git/ledger-pyreport/about
 [ledger-analytics]:         https://github.com/kendricktan/ledger-analytics
 [node-ledger-web]:          https://github.com/slashdotdash/node-ledger-web
 [Beancount Mobile CE]:      https://beancount.io
@@ -871,7 +864,6 @@ Some alternate distributions/setups for the PTA apps.
 <!-- - [acceptarium](https://codeberg.org/plaintextaccounting/acceptarium) brainstorming tooling for scanning data from receipts -->
 - [Ledger](https://www.ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](https://hledger.org/csv.html) have CSV conversion built in. Also:
 - bean-identify, bean-extract, bean-file - import tools provided by Beancount v2
-- [banks2ledger](https://github.com/tomszilagyi/banks2ledger) - CSV to *ledger converter
 - [beanborg](https://github.com/luciano-fiandesio/beanborg) Advanced transaction importer with auto-categorization (python)
 - [beancount-import](https://github.com/jbms/beancount-import) web app/framework for converting various formats to beancount (python)
 - [beancount-openbanking-io](https://github.com/open-banking-io/clients/tree/main/beancount) beangulp importer syncing EEA & UK bank transactions over PSD2, decrypted client-side; no eIDAS certificate, no per-account daily rate-limit (python)
@@ -939,7 +931,6 @@ Some alternate distributions/setups for the PTA apps.
 - [QIFtoLedger](https://github.com/Kolomona/QIFtoLedger) (Bank of America's) QIF to *ledger converter
 
 #### KMyMoney
-- [kmymoney2hledger](https://github.com/maridonkers/kmymoney2hledger) KMyMoney to *ledger converter (clojure)
 - [kmymoney2ledgers](https://github.com/isabekov/kmymoney2ledgers) KMyMoney to *ledger/beancount converter (python)
 - [kmymoney2ledgers.awk](https://github.com/isabekov/kmymoney2ledgers.awk) KMyMoney to *ledger/beancount converter (Awk)
 
@@ -961,7 +952,6 @@ Some alternate distributions/setups for the PTA apps.
 - [lotter](https://src.d10.dev/lotter) generate postings for capital gain/loss (go)
 - [recurring](https://hub.darcs.net/simon/ledgertools/browse/recurring) generate recurring *ledger entries (python)
 - [reorder-journal.sh](https://github.com/amitaibu/hledger-example/blob/master/reorder-journal.sh) sort hledger entries, preserving directives/comments at top of file (bash)
-- [sassetti](https://github.com/jvasile/sassetti) adds lisp macros to ledger files (common lisp)
 
 ### Editor plugins
 
@@ -1004,7 +994,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 
 ### Invoicing
 
-- [kairos](https://kairosdotapp.github.io) ([repo](https://github.com/kairosdotapp/kairos)) generate invoices from hledger timedot files (go)
+- [kairos](https://github.com/kairosdotapp/kairos) generate invoices from hledger timedot files (go)
 
 ### Price fetching
 
@@ -1042,7 +1032,6 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [t](https://github.com/nuex/t) ledger timeclock shellscript
 - [tim](https://github.com/MatthiasKauer/tim) time logging/reporting tool using hledger
 - [timekeeping-template](https://github.com/bbarker/timekeeping-template) time logging/reporting examples/how-to using hledger
-- [tito](https://mostlyabsurd.com/files/tito) time logging bash scripts that avoid double clock-in
 - [toggl2timeclock.py](https://codeberg.org/scy/toggl2timeclock) Toggl CSV export to timeclock converter
 
 ### UI, terminal
@@ -1092,7 +1081,6 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [Ledger Web](https://vifon.github.io/ledger-web) web UI/API for ledger viewing, data entry ([python](https://github.com/vifon/ledger-web), 2019)
 - [ledger-analytics](https://github.com/kendricktan/ledger-analytics) web UI for ledger data analytics (js, 2018)
 - [ledger-dashboard](https://github.com/Ikke/ledger-dashboard) web UI for ledger viewing, data entry (python, 2015)
-- [ledger-pyreport](https://yingtongli.me/git/ledger-pyreport/about/) web UI for standard accounting statements and unrealised gains (python, 2020)
 - [ledgeraccounting](https://github.com/thecount2a/ledgeraccounting) web UI for hledger: data entry, basic reports and budgets (python+js, 2018)
 - [ledgible](https://github.com/lipidity/ledgible) web UI for ledger viewing, data entry (python+js, 2016)
 - [muhasib-e-hledger](https://gitlab.com/shivjm/muhasib-e-hledger) web UI for hledger reports (rust, 2024)
@@ -1118,7 +1106,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 
 ### Utilities
 
-- [beanhub-cli](https://github.com/LaunchPlatform/beanhub-cli) beancount command line tools come with features like formatter, [beanhub-import](https://github.com/LaunchPlatform/beancount-import) and a [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) web app
+- [beanhub-cli](https://github.com/LaunchPlatform/beanhub-cli) beancount command line tools come with features like formatter, [beanhub-import](https://github.com/LaunchPlatform/beanhub-import) and a [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) web app
 - [bean-sort](https://github.com/tesujimath/bean-sort) naive sorting for Beancount files
 
 ### Workflows
@@ -1134,7 +1122,7 @@ See also: [hledger: Editor configuration](https://hledger.org/editors.html)
 - [beancount-parser-lima](https://docs.rs/beancount-parser-lima/latest/beancount_parser_lima/) another Beancount parser in Rust using [Logos](https://docs.rs/logos/latest/logos/) and [Chumsky](https://docs.rs/chumsky/latest/chumsky/)
 - [beancount-parser](https://docs.rs/beancount-parser/latest/beancount_parser/) a Beancount parser in Rust using [nom](https://docs.rs/nom/latest/nom/)
 - [beancount-parser](https://github.com/LaunchPlatform/beancount-parser) standalone [Lark-based](https://github.com/lark-parser/lark) beancount syntax parser (not relying on the beancount library)
-- [beancount-txn-elisp](https://sr.ht/~trs-80/beancount-txn-`) a library to read/parse and write/insert individual Beancount transactions, implemented in Emacs Lisp
+- [beancount-txn-elisp](https://sr.ht/~trs-80/beancount-txn-elisp/) a library to read/parse and write/insert individual Beancount transactions, implemented in Emacs Lisp
 - [BeanHub API](https://api.beanhub.io/redoc) SaaS API for operating on hosted beancount repositories and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
 - [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms) a library provides data types and processors of custom beancount forms for inputting repeating similar entries easily
 - [beanhub-web-react](https://github.com/LaunchPlatform/beanhub-web-react) react components for beancount entry input forms and [beanhub-forms](https://github.com/LaunchPlatform/beanhub-forms)
