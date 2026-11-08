@@ -203,7 +203,7 @@ Thank you sponsors, including:
 - [[What is Plain Text Accounting?]]
 - [Getting Started With Ledger](https://rolfschr.github.io/gswl-book/latest.html)
 - [hledger: Get Started](https://hledger.org/start.html)
-- [Getting Started with Beancount](https://beancount.github.io/docs/getting_started_with_beancount.html)
+- [Getting Started with Beancount](https://beancount.github.io/docs/getting_started_with_beancount/)
 - [Tackler: Quickstart](https://tackler.e257.fi/docs/quickstart/)
 - [[Don't Sink Your First Attempts at Plaintext Accounting]]
 - [Program your Finances: Command-line Accounting](https://www.petekeen.net/keeping-finances-with-ledger)
@@ -217,7 +217,7 @@ Thank you sponsors, including:
 
 - [Syntax Quick Reference](quickref/)
 - [Ledger CLI cheatsheet](https://devhints.io/ledger)
-- [Beancount Syntax Cheat Sheet](https://beancount.github.io/docs/beancount_cheat_sheet.html)
+- [Beancount Syntax Cheat Sheet](https://beancount.github.io/docs/beancount_cheat_sheet/)
 - [Beginners corner: a basic hledger transaction](https://hledgerfan.com/beginners-corner-a-basic-hledger-transaction/)
 - [(Almost) everything you wanted to know about hledger transactions](https://hledgerfan.com/almost-everything-you-wanted-to-know-about-hledger-transactions/)
 - [hledger: Journal cheatsheet](https://hledger.org/hledger.html#journal-cheatsheet)
@@ -226,7 +226,7 @@ Thank you sponsors, including:
 ### Cookbooks
 
 - **[[Cookbook|PTA Cookbook]]**
-- [Beancount cookbook](https://beancount.github.io/docs/command_line_accounting_cookbook.html)
+- [Beancount cookbook](https://beancount.github.io/docs/command_line_accounting_cookbook/)
 - [hledger cookbook](https://hledger.org/cookbook.html)
 - [Ledger wiki](https://github.com/ledger/ledger/wiki)
 - [PTA Forum](https://forum.plaintextaccounting.org)
@@ -654,7 +654,7 @@ td:first-child strong a {
 
 [journal (ledger)]:      https://ledger-cli.org/doc/ledger3.html#Journal-Format
 [journal (hledger)]:     https://hledger.org/hledger.html#journal
-[journal (beancount)]:   https://beancount.github.io/docs/beancount_language_syntax.html
+[journal (beancount)]:   https://beancount.github.io/docs/beancount_language_syntax/
 [csv (ledger)]:          https://ledger-cli.org/doc/ledger3.html#The-convert-command
 [csv (hledger)]:         https://hledger.org/hledger.html#csv
 [timeclock (ledger)]:    https://ledger-cli.org/doc/ledger3.html#Time-Keeping
@@ -731,10 +731,10 @@ td:first-child strong a {
 [h plot]:                  https://hledger.org/scripts.html#hledger-plot
 
 <!-- beancount command urls as of 2024-09-27 -->
-[b check]:   https://beancount.github.io/docs/running_beancount_and_generating_reports.html#bean-check
-[b doctor]:  https://beancount.github.io/docs/running_beancount_and_generating_reports.html#bean-doctor
-[b example]: https://beancount.github.io/docs/running_beancount_and_generating_reports.html#bean-example
-[b format]:  https://beancount.github.io/docs/running_beancount_and_generating_reports.html#bean-format
+[b check]:   https://beancount.github.io/docs/running_beancount_and_generating_reports/#bean-check
+[b doctor]:  https://beancount.github.io/docs/running_beancount_and_generating_reports/#bean-doctor
+[b example]: https://beancount.github.io/docs/running_beancount_and_generating_reports/#bean-example
+[b format]:  https://beancount.github.io/docs/running_beancount_and_generating_reports/#bean-format
 
 <!-- beancheck command urls as of 2024-09-27 -->
 [b balances]: https://github.com/beancount/beanquery/blob/7577b6c1b93cfdecd76e9c5f466e0ab96bddd045/beanquery/shell.py#L585
@@ -752,23 +752,23 @@ td:first-child strong a {
 [h addons]:          https://hledger.org/hledger.html#add-on-commands
 [h lib]:             https://hledger.org/scripting.html#hledger-lib-scripts
 [h http api]:        https://hledger.org/hledger-web.html#json-api
-[b plugins]:         https://beancount.github.io/docs/external_contributions.html#plugins
-[b lib]:             https://beancount.github.io/docs/api_reference/index.html
+[b plugins]:         https://beancount.github.io/docs/external_contributions/#plugins
+[b lib]:             https://beancount.github.io/docs/api_reference/
 
 <!-- other features -->
 
 [l account names]:          https://ledger-cli.org/doc/ledger3.html#Structuring-your-Accounts
 [h account names]:          https://hledger.org/hledger.html#account-names
-[b account names]:          https://beancount.github.io/docs/beancount_language_syntax.html#accounts
+[b account names]:          https://beancount.github.io/docs/beancount_language_syntax/#accounts
 [l budget]:                 https://ledger-cli.org/doc/ledger3.html#Budgeting
 [h budget]:                 https://hledger.org/hledger.html#budgeting
 [b budget]:                 https://fava.pythonanywhere.com/example-beancount-file/help/budgets
-[beangulp]:                 https://beancount.github.io/docs/beangulp.html
+[beangulp]:                 http://github.com/beancount/beangulp
 [beancount_reds_importers]: https://github.com/redstreet/beancount_reds_importers
 [beancount-import]:         https://github.com/jbms/beancount-import
 [l commodity names]:        https://ledger-cli.org/doc/ledger3.html#Commodities-and-Currencies
 [h commodity names]:        https://hledger.org/hledger.html#commodity
-[b commodity names]:        https://beancount.github.io/docs/beancount_language_syntax.html#commodities-currencies
+[b commodity names]:        https://beancount.github.io/docs/beancount_language_syntax/#commodities-currencies
 [import tools]:             https://plaintextaccounting.org/#data-importconversion
 [h dedupe]:                 https://hledger.org/hledger.html#date-skipping
 [l gen postings]:           https://ledger-cli.org/doc/ledger3.html#Automated-Transactions
@@ -780,7 +780,7 @@ td:first-child strong a {
 [l lot report]:             https://ledger-cli.org/doc/ledger3.html#Lot-notes
 [l lot revaluation]:        https://ledger-cli.org/doc/ledger3.html#index-_002d_002drevalued
 [h lot manual]:             https://hledger.org/investments.html#what-about-lots-
-[b lot matching]:           https://beancount.github.io/docs/beancount_language_syntax.html#costs-and-prices
+[b lot matching]:           https://beancount.github.io/docs/beancount_language_syntax/#costs-and-prices
 [lotter]:                   https://src.d10.dev/lotter/doc/tip/README.md
 [h multiperiod bal]:        https://hledger.org/hledger.html#report-intervals
 [l pivot]:                  https://ledger-cli.org/doc/ledger3.html#index-_002d_002dpivot-TAG-1
@@ -795,9 +795,9 @@ td:first-child strong a {
 [h display precision]:      https://hledger.org/1.40/hledger.html#commodity-display-style
 [h balancing precision]:    https://hledger.org/hledger.html#transaction-balancing
 
-[b internal precision]:     https://beancount.github.io/docs/precision_tolerances.html#representational-issues
-[b display precision]:      https://beancount.github.io/docs/precision_tolerances.html
-[b balancing precision]:    https://beancount.github.io/docs/precision_tolerances.html
+[b internal precision]:     https://beancount.github.io/docs/precision_tolerances/#representational-issues
+[b display precision]:      https://beancount.github.io/docs/precision_tolerances/
+[b balancing precision]:    https://beancount.github.io/docs/precision_tolerances/
 
 [pricehist]:                https://gitlab.com/chrisberkhout/pricehist
 [beanprice]:                https://github.com/beancount/beanprice
@@ -806,16 +806,16 @@ td:first-child strong a {
 [h query opts]:             https://hledger.org/hledger.html#options
 [h query args]:             https://hledger.org/hledger.html#queries
 [h sql]:                    https://hledger.org/sqlite.html
-[b query]:                  https://beancount.github.io/docs/beancount_query_language.html
+[b query]:                  https://beancount.github.io/docs/beancount_query_language/
 [h ghci]:                   https://hledger.org/DEVWORKFLOWS.html#use-ghci
-[beanquery repl]:           https://beancount.github.io/docs/beancount_query_language.html#making-queries
+[beanquery repl]:           https://beancount.github.io/docs/beancount_query_language/#making-queries
 [l bash completions]:       https://github.com/ledger/ledger/blob/master/contrib/ledger-completion.bash
 [h bash completions]:       https://hledger.org/hledger.html#shell-completions
 [l ugains]:                 https://ledger-cli.org/doc/ledger3.html#index-_002d_002dunrealized
 [h ugains]:                 https://hledger.org/hledger.html#balance-report-types
 [l validation]:             https://ledger-cli.org/doc/ledger3.html#Error-Checking-and-Calculation-Options
 [h validation]:             https://hledger.org/hledger.html#check
-[b validation]:             https://beancount.github.io/docs/getting_started_with_beancount.html#brief-syntax-overview
+[b validation]:             https://beancount.github.io/docs/getting_started_with_beancount/#brief-syntax-overview
 [h account types]:          https://hledger.org/hledger.html#account-types
 [h std financial reports]:  https://hledger.org/hledger.html#part-4-commands
 [h account display order]:  https://hledger.org/hledger.html#account-display-order
