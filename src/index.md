@@ -191,7 +191,7 @@ Thank you sponsors, including:
 ### Accounting basics
 
 - **[[FAQ|PTA FAQ]]**
-- [hledger: Accounting basics](https://hledger.org/accounting-pta.html)
+- [hledger: Accounting basics](https://hledger.org/accounting-basics.html)
 - [hledger: Accounting links](https://hledger.org/accounting.html)
 - [Beancount: The Double-Entry Counting Method](https://docs.google.com/document/d/100tGcA4blh6KSXPRGCZpUlyxaRUwFHEvnz_k9DyZFn4)
 - [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
