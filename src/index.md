@@ -212,6 +212,7 @@ Thank you sponsors, including:
 - [BeanHub Academy](https://academy.beanhub.io)
 - [Lazy Beancount](https://lazy-beancount.xyz/)
 - [Personal Accounting In Ledger](https://leanpub.com/personal-accounting-in-ledger) (book)
+- [Ledger Basics Manual](https://idunnfreya.com/en/projects/manual-ledger/) / [Manual básico de Ledger](https://idunnfreya.com/es/proyectos/manual-ledger/) (english, spanish)
 
 ### Cheatsheets
 
