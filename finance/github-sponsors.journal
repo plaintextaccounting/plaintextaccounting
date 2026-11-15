@@ -34,3 +34,23 @@
     revenues:github                              $25.00  ; prorated:
     liabilities:sm
 
+2026-09-04 * github sponsor  ; country: USA, tier: $2 a month
+    revenues:github                              $-2.00  ; prorated:
+    liabilities:sm
+
+2026-09-08 * github sponsor  ; country: USA, tier: $5 a month
+    revenues:github                             $-11.34  ; prorated:
+    liabilities:sm
+
+2026-09-16 * github sponsor  ; country: USA, tier: $2 a month
+    revenues:github                              $-2.00
+    liabilities:sm
+
+2026-10-17 * github sponsor  ; country: USA, tier: $2 a month
+    revenues:github                              $-2.00
+    liabilities:sm
+
+2026-10-20 * github sponsor  ; country: United States of America, tier: $25 a month
+    revenues:github                            $-300.00
+    liabilities:sm
+

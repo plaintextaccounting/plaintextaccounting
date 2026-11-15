@@ -19,8 +19,8 @@ data:
 
 # check journal(s)
 check:
-    hledger -n -f .pta.journal check -s ordereddates && echo "private journal ok"
-    hledger                    check -s ordereddates && echo "public journal ok"
+    @hledger -n -f .pta.journal check -s ordereddates && echo "private journal ok"
+    @hledger                    check -s ordereddates && echo "public journal ok"
 
 OUT := '../src/finance.md'
 HLREPORT := "hledger -O html --title= -c '$1000.'"
