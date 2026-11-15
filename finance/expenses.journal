@@ -120,9 +120,9 @@
     expenses:hosting                             $50.00
 
 2026-10-01 * Discourse.org
-    liabilities:sm                               $50.00
-    expenses:hosting                            $-50.00
+    liabilities:sm                              $-50.00
+    expenses:hosting                             $50.00
 
 2026-11-02 * Discourse.org
-    liabilities:sm                               $50.00
-    expenses:hosting                            $-50.00
+    liabilities:sm                              $-50.00
+    expenses:hosting                             $50.00
