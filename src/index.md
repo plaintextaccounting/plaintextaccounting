@@ -864,6 +864,7 @@ Some alternate distributions/setups for the PTA apps.
 #### General
 <!-- - [acceptarium](https://codeberg.org/plaintextaccounting/acceptarium) brainstorming tooling for scanning data from receipts -->
 - [Ledger](https://www.ledger-cli.org/3.0/doc/ledger3.html#Comma-Separated-Values-files) and [hledger](https://hledger.org/csv.html) have CSV conversion built in. Also:
+- - [Bank Statements CSV](https://bankstatementscsv.com) web service converting PDF bank statements (digital or scanned) to CSV; sister site [Card Statement CSV](https://cardstatementcsv.com) does credit card statements (commercial, closed source, pay per page)
 - bean-identify, bean-extract, bean-file - import tools provided by Beancount v2
 - [beanborg](https://github.com/luciano-fiandesio/beanborg) Advanced transaction importer with auto-categorization (python)
 - [beancount-import](https://github.com/jbms/beancount-import) web app/framework for converting various formats to beancount (python)
