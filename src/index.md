@@ -197,6 +197,7 @@ Thank you sponsors, including:
 - [Accounting for Computer Scientists](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
 - [PractiBalance](https://practibalance.com) - journal entry exercises: write the debits and credits for a transaction and see which line is wrong
 - [Accounting for Dragons](https://web.archive.org/web/20260608085201/https://podcastle.org/2009/10/09/pc-miniature-38-accounting-for-dragons/)
+- [Anatomy of a Payment](https://digbijoylabs.github.io/anatomy-of-a-payment/) - Interactive Apache-2.0 payment-rail workbench and [CC-BY-4.0 paper](https://doi.org/10.5281/zenodo.24444210) on authorization, clearing, settlement finality, and double-entry ledger invariants.
 
 ### Intros
 
